@@ -1,0 +1,1831 @@
+Header:
+  Type: RANDOM_OPTION_POOLSET_DB
+  Version: 3
+Body:
+- Id: 2000
+  Name: EmptyWeaponSet
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 2001
+  Name: Longsword (1h)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100130
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100140
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100141
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100143
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100144
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100147
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100093
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100129
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100145
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100090
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100146
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100094
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100142
+      Weight: 1
+      Tags:
+      - None
+  Notes: Starter sword that leans towards stun & general mods or starts getting you hooked on Bleed. Meant to be replaced by F5.
+- Id: 2002
+  Name: Militia Sword (1h/Sharp)
+  Tags:
+  - Name: Bleeding
+    Weight: 2
+    WeightMod: 5
+  - Name: Power
+    Weight: 1
+    WeightMod: 6
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100083
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100088
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100084
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 100085
+      Weight: 1
+      Tags:
+      - Bleeding
+      - Power
+    - Id: 100093
+      Weight: 1
+      Tags:
+      - Power
+  - Line: 3
+    Pools:
+    - Id: 100086
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 100094
+      Weight: 1
+      Tags:
+      - Power
+    - Id: 100096
+      Weight: 1
+      Tags:
+      - Bleeding
+  - Line: 4
+    Pools:
+    - Id: 100090
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 100092
+      Weight: 1
+      Tags:
+      - Power
+    - Id: 100412
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100091
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100099
+      Weight: 1
+      Tags:
+      - None
+  Notes: >
+    First Sharp sword, Bleeding is supposed to be preferred unless you are giga hooked on bash spam and are good at shield bash stuns.
+- Id: 2003
+  Name: Blade (1h/Sharp)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 2004
+  Name: Rapier (1h/Precise)
+  Tags:
+  - Name: Bleed
+    Weight: 1
+    WeightMod: 5
+  - Name: Crit
+    Weight: 1
+    WeightMod: 5
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100088
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 100261
+      Weight: 1
+      Tags:
+      - Crit
+  - Line: 2
+    Pools:
+    - Id: 100093
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 100189
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 100258
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 100264
+      Weight: 1
+      Tags:
+      - Crit
+  - Line: 3
+    Pools:
+    - Id: 100089
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 100256
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 100259
+      Weight: 1
+      Tags:
+      - Bleed
+  - Line: 4
+    Pools:
+    - Id: 100048
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 100091
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 100257
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 100260
+      Weight: 1
+      Tags:
+      - Crit
+  - Line: 5
+    Pools:
+    - Id: 100262
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 100263
+      Weight: 1
+      Tags:
+      - Bleed
+- Id: 2005
+  Name: Cutlus (1h/Sharp)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  Notes: >-
+    Line 1 gives damage for Stun/Crit builds or Bleed rate for bleeding builds (who get their damage on l5)
+     - this is because bleeding is easier to activate and stays for longer
+
+
+    Line 2 give fat status effect activators
+
+
+    Line 3 gives fat mods for those status effects
+
+
+    Line 4 gives some survivability or giga damage. BB mods are extra to play around with for funsies.
+
+
+    Line 5 gives you damage for bleed or auto counter lexes
+- Id: 2006
+  Name: Slayer (2h/Sharp)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  Notes: 2H Sword Magnum Break is all about speed magnums as opposed to 2H Axe magnums which are power magnums.
+- Id: 2007
+  Name: Bastard Sword (2h/Sharp)
+  Tags:
+  - Name: Bleeding
+    Weight: 1
+    WeightMod: 4
+  - Name: Power
+    Weight: 1
+    WeightMod: 4
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 200001
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 200005
+      Weight: 1
+      Tags:
+      - Power
+    - Id: 200056
+      Weight: 1
+      Tags:
+      - Bleeding
+      - Power
+  - Line: 2
+    Pools:
+    - Id: 200003
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 200014
+      Weight: 1
+      Tags:
+      - Power
+    - Id: 200071
+      Weight: 1
+      Tags:
+      - Power
+  - Line: 3
+    Pools:
+    - Id: 200006
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 200008
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 200009
+      Weight: 1
+      Tags:
+      - Power
+    - Id: 200013
+      Weight: 1
+      Tags:
+      - Power
+  - Line: 4
+    Pools:
+    - Id: 200007
+      Weight: 1
+      Tags:
+      - Power
+    - Id: 200010
+      Weight: 1
+      Tags:
+      - Bleeding
+  - Line: 5
+    Pools:
+    - Id: 200015
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 200057
+      Weight: 1
+      Tags:
+      - Power
+  Notes: >-
+    weapon of choice for raw BB or crit damage
+
+
+    Line 1 gives starter mods for each build type
+
+
+    Line 2 gives BB damage or transferable bleeding mods (you want the BB damage)
+
+
+    Line 3 gives extra BB effects. both propagation and power boom are wanted in the end, probably. Berserk builds get fast charge attacks
+
+
+    Line 4 enhances power boom or gives some survivability. BB builds get BB on Bash which is godtier if their Bash inflicts bleeding/stun and their BB propagates statuses
+
+
+    Line 5 gives auto counter damage on berserk or general bleed dmg mod
+- Id: 2008
+  Name: Falchion (1h/Swift)
+  Tags:
+  - Name: Spellsword
+    Weight: 1
+    WeightMod: 5
+  - Name: Speed
+    Weight: 1
+    WeightMod: 5
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100018
+      Weight: 1
+      Tags:
+      - Spellsword
+      - Speed
+    - Id: 100019
+      Weight: 1
+      Tags:
+      - Speed
+    - Id: 100020
+      Weight: 1
+      Tags:
+      - Spellsword
+  - Line: 2
+    Pools:
+    - Id: 100016
+      Weight: 1
+      Tags:
+      - Spellsword
+    - Id: 100021
+      Weight: 1
+      Tags:
+      - Speed
+    - Id: 100023
+      Weight: 1
+      Tags:
+      - Speed
+      - Spellsword
+  - Line: 3
+    Pools:
+    - Id: 100015
+      Weight: 1
+      Tags:
+      - Spellsword
+    - Id: 100017
+      Weight: 1
+      Tags:
+      - Speed
+    - Id: 100097
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100024
+      Weight: 1
+      Tags:
+      - Spellsword
+    - Id: 100025
+      Weight: 1
+      Tags:
+      - Speed
+    - Id: 100271
+      Weight: 1
+      Tags:
+      - Spellsword
+  - Line: 5
+    Pools:
+    - Id: 100022
+      Weight: 1
+      Tags:
+      - Spellsword
+    - Id: 100026
+      Weight: 1
+      Tags:
+      - Speed
+- Id: 2009
+  Name: Scimitar (1h/Swift)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 2010
+  Name: Ring Pommel Saber (1h/Swift)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  Notes: >-
+    Crit / Speed 1hander
+
+
+    best 1h crit weapon in this tier. The crit can be useful for KN Auto Attack, TF Hiding Auto coutner, or pure crit builds
+
+
+    the da mods are pretty good but lag behind daggers. maybe still useful for sins or knights that love ctrl+click da with higher atk base atk though
+
+
+    has a bit of poison just 'cuz.
+- Id: 2012
+  Name: Katana (2h/Swift)
+  Tags:
+  - Name: WSpell
+    Weight: 1
+    WeightMod: 7
+  - Name: WSpeed
+    Weight: 1
+    WeightMod: 7
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 200066
+      Weight: 1
+      Tags:
+      - WSpell
+    - Id: 200074
+      Weight: 1
+      Tags:
+      - WSpeed
+  - Line: 2
+    Pools:
+    - Id: 200065
+      Weight: 1
+      Tags:
+      - WSpeed
+    - Id: 200067
+      Weight: 1
+      Tags:
+      - WSpell
+  - Line: 3
+    Pools:
+    - Id: 200069
+      Weight: 1
+      Tags:
+      - WSpeed
+    - Id: 200073
+      Weight: 1
+      Tags:
+      - WSpell
+  - Line: 4
+    Pools:
+    - Id: 200070
+      Weight: 1
+      Tags:
+      - WSpell
+    - Id: 200077
+      Weight: 1
+      Tags:
+      - WSpeed
+  - Line: 5
+    Pools:
+    - Id: 200068
+      Weight: 1
+      Tags:
+      - WSpell
+    - Id: 200075
+      Weight: 1
+      Tags:
+      - WSpeed
+  Notes: >-
+    1st 2h swift sword
+
+
+    good for auto attack double attackers. also has bleed play. more "straight up" than muramasa but lacks the crit mods.
+
+
+    has a tag for wind katana which inflicts good bleed with some falchion style autospells. the sekrit spell sword build is to use 2handers to build up your bleed and then swap to a 1h rod for high matk. 1h swords are a crutch when played this way.
+- Id: 2014
+  Name: Jeweled Sword (1h/Arcane)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 2015
+  Name: Haedonggum (1h/Arcane)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 2016
+  Name: Greatsword (2h/Sturdy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100633
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100643
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100548
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100580
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100645
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100646
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100096
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100644
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100640
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100642
+      Weight: 1
+      Tags:
+      - None
+- Id: 2017
+  Name: Broadsword (2h/Sturdy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 2018
+  Name: Fireblend (1h/Sharp)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100268
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100270
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100267
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100265
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100266
+      Weight: 1
+      Tags:
+      - None
+- Id: 2019
+  Name: Orcish Sword (1h/Blunt)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 200467
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 200465
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 200466
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 200463
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 200464
+      Weight: 1
+      Tags:
+      - None
+- Id: 2020
+  Name: OLD Blade (1h/Sharp)
+  Tags:
+  - Name: Basher
+    Weight: 1
+    WeightMod: 4
+  - Name: Bleeding
+    Weight: 1
+    WeightMod: 4
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700008
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 700012
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700013
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 700001
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 700005
+      Weight: 1
+      Tags:
+      - PureBash
+      - Basher
+    - Id: 700009
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 700016
+      Weight: 1
+      Tags:
+      - PureBash
+  - Line: 3
+    Pools:
+    - Id: 700003
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 700007
+      Weight: 1
+      Tags:
+      - Basher
+    - Id: 700011
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 700014
+      Weight: 1
+      Tags:
+      - Basher
+  - Line: 4
+    Pools:
+    - Id: 700002
+      Weight: 1
+      Tags:
+      - Basher
+    - Id: 700004
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 700006
+      Weight: 1
+      Tags:
+      - Basher
+    - Id: 700010
+      Weight: 1
+      Tags:
+      - Bleeding
+  - Line: 5
+    Pools:
+    - Id: 700015
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 700017
+      Weight: 1
+      Tags:
+      - Basher
+- Id: 2021
+  Name: OLD Saber (1h/Sharp) (Copy)
+  Tags:
+  - Name: Bleed
+    Weight: 2
+    WeightMod: 6
+  - Name: Stun
+    Weight: 2
+    WeightMod: 6
+  - Name: Crit
+    Weight: 1
+    WeightMod: 9
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800001
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 800002
+      Weight: 1
+      Tags:
+      - Stun
+    - Id: 800009
+      Weight: 1
+      Tags:
+      - Crit
+  - Line: 2
+    Pools:
+    - Id: 800003
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 800018
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 800051
+      Weight: 1
+      Tags:
+      - Crit
+      - Stun
+    - Id: 800052
+      Weight: 1
+      Tags:
+      - Stun
+  - Line: 3
+    Pools:
+    - Id: 700041
+      Weight: 1
+      Tags:
+      - Bleed
+      - Crit
+    - Id: 800016
+      Weight: 1
+      Tags:
+      - Stun
+    - Id: 800049
+      Weight: 1
+      Tags:
+      - Stun
+  - Line: 4
+    Pools:
+    - Id: 800014
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 800020
+      Weight: 1
+      Tags:
+      - Stun
+    - Id: 800050
+      Weight: 1
+      Tags:
+      - Stun
+      - Crit
+    - Id: 800069
+      Weight: 1
+      Tags:
+      - Bleed
+      - Crit
+  - Line: 5
+    Pools:
+    - Id: 800018
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 800019
+      Weight: 1
+      Tags:
+      - Bleed
+- Id: 2022
+  Name: OLD Cutlus (1h/Sharp) (Copy)
+  Tags:
+  - Name: Bleed
+    Weight: 2
+    WeightMod: 6
+  - Name: Stun
+    Weight: 2
+    WeightMod: 6
+  - Name: Crit
+    Weight: 1
+    WeightMod: 9
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800001
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 800023
+      Weight: 1
+      Tags:
+      - Stun
+      - Bleed
+      - Crit
+    - Id: 800026
+      Weight: 1
+      Tags:
+      - Stun
+  - Line: 2
+    Pools:
+    - Id: 800014
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 800030
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 800052
+      Weight: 1
+      Tags:
+      - Stun
+  - Line: 3
+    Pools:
+    - Id: 800018
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 800021
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 800053
+      Weight: 1
+      Tags:
+      - Stun
+    - Id: 800056
+      Weight: 1
+      Tags:
+      - Bleed
+  - Line: 4
+    Pools:
+    - Id: 800020
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 800050
+      Weight: 1
+      Tags:
+      - Stun
+    - Id: 800055
+      Weight: 1
+      Tags:
+      - Stun
+    - Id: 800585
+      Weight: 1
+      Tags:
+      - Bleed
+  - Line: 5
+    Pools:
+    - Id: 800019
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 800054
+      Weight: 1
+      Tags:
+      - Crit
+  Notes: >-
+    Line 1 gives damage for Stun/Crit builds or Bleed rate for bleeding builds (who get their damage on l5)
+     - this is because bleeding is easier to activate and stays for longer
+
+
+    Line 2 give fat status effect activators
+
+
+    Line 3 gives fat mods for those status effects
+
+
+    Line 4 gives some survivability or giga damage. BB mods are extra to play around with for funsies.
+
+
+    Line 5 gives you damage for bleed or auto counter lexes
+- Id: 2023
+  Name: OLD Slayer (2h/Sharp) (Copy)
+  Tags:
+  - Name: Magnum
+    Weight: 1
+    WeightMod: 5
+  - Name: Bleeding
+    Weight: 2
+    WeightMod: 7
+  - Name: Crit
+    Weight: 1
+    WeightMod: 5
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700025
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 700031
+      Weight: 1
+      Tags:
+      - Magnum
+      - Crit
+    - Id: 700039
+      Weight: 1
+      Tags:
+      - Crit
+  - Line: 2
+    Pools:
+    - Id: 700034
+      Weight: 1
+      Tags:
+      - Magnum
+    - Id: 700036
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 700042
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 700085
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 700030
+      Weight: 1
+      Tags:
+      - Magnum
+    - Id: 700037
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 700051
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 700418
+      Weight: 1
+      Tags:
+      - Bleeding
+  - Line: 4
+    Pools:
+    - Id: 700027
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 700028
+      Weight: 1
+      Tags:
+      - Magnum
+      - Crit
+    - Id: 700029
+      Weight: 1
+      Tags:
+      - Magnum
+    - Id: 700045
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 700035
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 700038
+      Weight: 1
+      Tags:
+      - Magnum
+  Notes: 2H Sword Magnum Break is all about speed magnums as opposed to 2H Axe magnums which are power magnums.
+- Id: 2024
+  Name: OLD Scimitar (1h/Swift) (Copy)
+  Tags:
+  - Name: Speed
+    Weight: 1
+    WeightMod: 1
+  - Name: Crit
+    Weight: 1
+    WeightMod: 1
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700012
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700013
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700049
+      Weight: 1
+      Tags:
+      - Speed
+  - Line: 2
+    Pools:
+    - Id: 700046
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 700050
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 700086
+      Weight: 1
+      Tags:
+      - Speed
+    - Id: 700292
+      Weight: 1
+      Tags:
+      - Speed
+  - Line: 3
+    Pools:
+    - Id: 700051
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 700053
+      Weight: 1
+      Tags:
+      - Speed
+    - Id: 700057
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 700062
+      Weight: 1
+      Tags:
+      - Speed
+  - Line: 4
+    Pools:
+    - Id: 700052
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700058
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700096
+      Weight: 1
+      Tags:
+      - Speed
+    - Id: 700224
+      Weight: 1
+      Tags:
+      - Speed
+  - Line: 5
+    Pools:
+    - Id: 700054
+      Weight: 1
+      Tags:
+      - Speed
+    - Id: 700055
+      Weight: 1
+      Tags:
+      - Crit
+- Id: 2025
+  Name: OLD Ring Pommel Saber (1h/Swift) (Copy)
+  Tags:
+  - Name: DoubleAttackSpeed
+    Weight: 1
+    WeightMod: 6
+  - Name: CritPower
+    Weight: 1
+    WeightMod: 6
+  - Name: CritBleed
+    Weight: 1
+    WeightMod: 6
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800023
+      Weight: 1
+      Tags:
+      - CritPower
+    - Id: 800057
+      Weight: 1
+      Tags:
+      - DoubleAttackSpeed
+      - CritPower
+    - Id: 800083
+      Weight: 1
+      Tags:
+      - DoubleAttackSpeed
+      - CritBleed
+  - Line: 2
+    Pools:
+    - Id: 800030
+      Weight: 1
+      Tags:
+      - CritPower
+    - Id: 800066
+      Weight: 1
+      Tags:
+      - DoubleAttackSpeed
+    - Id: 800075
+      Weight: 1
+      Tags:
+      - CritBleed
+      - CritPower
+    - Id: 800079
+      Weight: 1
+      Tags:
+      - DoubleAttackSpeed
+  - Line: 3
+    Pools:
+    - Id: 800071
+      Weight: 1
+      Tags:
+      - DoubleAttackSpeed
+    - Id: 800077
+      Weight: 1
+      Tags:
+      - DoubleAttackSpeed
+      - CritPower
+    - Id: 800082
+      Weight: 1
+      Tags:
+      - CritBleed
+    - Id: 800086
+      Weight: 1
+      Tags:
+      - CritBleed
+  - Line: 4
+    Pools:
+    - Id: 800061
+      Weight: 1
+      Tags:
+      - DoubleAttackSpeed
+    - Id: 800069
+      Weight: 1
+      Tags:
+      - DoubleAttackSpeed
+    - Id: 800080
+      Weight: 1
+      Tags:
+      - CritBleed
+      - CritPower
+    - Id: 800081
+      Weight: 1
+      Tags:
+      - CritBleed
+      - CritPower
+  - Line: 5
+    Pools:
+    - Id: 800054
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800063
+      Weight: 1
+      Tags:
+      - DoubleAttackSpeed
+  Notes: >-
+    Crit / Speed 1hander
+
+
+    best 1h crit weapon in this tier. The crit can be useful for KN Auto Attack, TF Hiding Auto coutner, or pure crit builds
+
+
+    the da mods are pretty good but lag behind daggers. maybe still useful for sins or knights that love ctrl+click da with higher atk base atk though
+
+
+    has a bit of poison just 'cuz.
+- Id: 2026
+  Name: OLD Curved Sword (1h/Swift) (Copy)
+  Tags:
+  - Name: Speed
+    Weight: 2
+    WeightMod: 6
+  - Name: BleedCrit
+    Weight: 2
+    WeightMod: 6
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800057
+      Weight: 1
+      Tags:
+      - BleedCrit
+    - Id: 800058
+      Weight: 1
+      Tags:
+      - Speed
+    - Id: 800068
+      Weight: 1
+      Tags:
+      - BleedCrit
+      - Speed
+  - Line: 2
+    Pools:
+    - Id: 800061
+      Weight: 1
+      Tags:
+      - Speed
+    - Id: 800069
+      Weight: 1
+      Tags:
+      - BleedCrit
+    - Id: 800071
+      Weight: 1
+      Tags:
+      - Speed
+    - Id: 800116
+      Weight: 1
+      Tags:
+      - Speed
+  - Line: 3
+    Pools:
+    - Id: 800062
+      Weight: 1
+      Tags:
+      - Speed
+    - Id: 800073
+      Weight: 1
+      Tags:
+      - BleedCrit
+    - Id: 800086
+      Weight: 1
+      Tags:
+      - BleedCrit
+    - Id: 800584
+      Weight: 1
+      Tags:
+      - Speed
+  - Line: 4
+    Pools:
+    - Id: 800009
+      Weight: 1
+      Tags:
+      - BleedCrit
+    - Id: 800064
+      Weight: 1
+      Tags:
+      - Speed
+    - Id: 800075
+      Weight: 1
+      Tags:
+      - BleedCrit
+  - Line: 5
+    Pools:
+    - Id: 800054
+      Weight: 1
+      Tags:
+      - BleedCrit
+    - Id: 800072
+      Weight: 1
+      Tags:
+      - Speed
+  Notes: >
+    strongest swift 1hander in t2 by raw atk (daggers have higher aspd/backstab mods)
+
+
+    evade aspd stops showing up here (transfer it)
+
+
+    Crit can be useful both for crit thieves or auto attack knights
+
+
+    Great DA sword, to the extent where it makes a better DA mainhand than daggers for pure da dual wield sins
+
+
+    Line 1 gives start mods for each build type
+
+
+    line 2 give some raw damage for each type, or opens up some faster skill usage
+
+
+    line 3 gives speed builds some survivability or damage on survival, while bleed builds get more bleed activators
+
+
+    line 4 gives the bleed/crit builds some good crit mods, and the speed builds raw damage
+
+
+    line 5 gives lex for each build type
+- Id: 2027
+  Name: OLD Jeweled Sword (1h/Arcane) (Copy)
+  Tags:
+  - Name: Crusader
+    Weight: 1
+    WeightMod: 8
+  - Name: HighVoltage
+    Weight: 2
+    WeightMod: 8
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 801080
+      Weight: 1
+      Tags:
+      - Crusader
+    - Id: 801096
+      Weight: 1
+      Tags:
+      - HighVoltage
+    - Id: 801097
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 800826
+      Weight: 1
+      Tags:
+      - Crusader
+    - Id: 801099
+      Weight: 1
+      Tags:
+      - HighVoltage
+  - Line: 3
+    Pools:
+    - Id: 800795
+      Weight: 1
+      Tags:
+      - Crusader
+    - Id: 801098
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 801100
+      Weight: 1
+      Tags:
+      - HighVoltage
+  - Line: 5
+    Pools:
+    - Id: 801101
+      Weight: 1
+      Tags:
+      - None
+- Id: 2028
+  Name: OLD Haedonggum (1h/Arcane) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 801102
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 800418
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 801103
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 2029
+  Name: OLD Greatsword (2h/Sturdy) (Copy)
+  Tags:
+  - Name: Magnum
+    Weight: 1
+    WeightMod: 5
+  - Name: Defensive
+    Weight: 1
+    WeightMod: 5
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700031
+      Weight: 1
+      Tags:
+      - Magnum
+    - Id: 700080
+      Weight: 1
+      Tags:
+      - Magnum
+      - Defensive
+    - Id: 700083
+      Weight: 1
+      Tags:
+      - Defensive
+  - Line: 2
+    Pools:
+    - Id: 700034
+      Weight: 1
+      Tags:
+      - Magnum
+    - Id: 700077
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 700078
+      Weight: 1
+      Tags:
+      - Magnum
+    - Id: 700084
+      Weight: 1
+      Tags:
+      - Defensive
+  - Line: 3
+    Pools:
+    - Id: 700029
+      Weight: 1
+      Tags:
+      - Magnum
+    - Id: 700074
+      Weight: 1
+      Tags:
+      - Magnum
+    - Id: 700076
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 700082
+      Weight: 1
+      Tags:
+      - Defensive
+  - Line: 4
+    Pools:
+    - Id: 700038
+      Weight: 1
+      Tags:
+      - Magnum
+    - Id: 700045
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 700075
+      Weight: 1
+      Tags:
+      - Magnum
+    - Id: 700079
+      Weight: 1
+      Tags:
+      - Defensive
+  - Line: 5
+    Pools:
+    - Id: 700081
+      Weight: 1
+      Tags:
+      - Magnum
+    - Id: 700222
+      Weight: 1
+      Tags:
+      - None
+- Id: 2030
+  Name: OLD Broadsword (2h/Sturdy) (Copy)
+  Tags:
+  - Name: Stun
+    Weight: 2
+    WeightMod: 6
+  - Name: Power
+    Weight: 2
+    WeightMod: 6
+  - Name: Defensive
+    Weight: 1
+    WeightMod: 6
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800101
+      Weight: 1
+      Tags:
+      - Stun
+    - Id: 800109
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 800113
+      Weight: 1
+      Tags:
+      - Defensive
+  - Line: 2
+    Pools:
+    - Id: 800107
+      Weight: 1
+      Tags:
+      - Power
+    - Id: 800110
+      Weight: 1
+      Tags:
+      - Power
+    - Id: 800114
+      Weight: 1
+      Tags:
+      - Power
+    - Id: 800115
+      Weight: 1
+      Tags:
+      - Stun
+  - Line: 3
+    Pools:
+    - Id: 800028
+      Weight: 1
+      Tags:
+      - Stun
+    - Id: 800111
+      Weight: 1
+      Tags:
+      - Power
+    - Id: 800113
+      Weight: 1
+      Tags:
+      - Stun
+      - Defensive
+    - Id: 800330
+      Weight: 1
+      Tags:
+      - Power
+  - Line: 4
+    Pools:
+    - Id: 800103
+      Weight: 1
+      Tags:
+      - Defensive
+      - Stun
+    - Id: 800104
+      Weight: 1
+      Tags:
+      - Stun
+    - Id: 800105
+      Weight: 1
+      Tags:
+      - Stun
+    - Id: 800588
+      Weight: 1
+      Tags:
+      - Power
+  - Line: 5
+    Pools:
+    - Id: 800106
+      Weight: 1
+      Tags:
+      - Stun
+    - Id: 800243
+      Weight: 1
+      Tags:
+      - Power

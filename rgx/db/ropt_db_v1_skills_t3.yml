@@ -1,0 +1,15 @@
+Header:
+  Type: RANDOM_OPTION_DB
+  Version: 1
+Body:
+- Id: 1110000
+  FriendlyName: T3 Test Ropt
+  Option: T3_TEST_ROPT
+  Transferable: false
+  Stackable: true
+  Description: '(debug/test ropt t3: %d)'
+  Done: true
+  Script: |-
+    ;
+  Labels:
+  - Debug

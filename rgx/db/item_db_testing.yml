@@ -1,0 +1,1001 @@
+Header:
+  Type: ITEM_DB
+  Version: 2
+Body:
+- Id: 9900001
+  Name: Giga Black Cat
+  AegisName: RGX_Giga_Black_Cat
+  Type: Armor
+  Defense: 99
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    RoptHolder: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus bMdef,99;
+    bonus bNoKnockback;
+    bonus bNoWalkDelay;
+    bonus bStr,999;
+    bonus bInt,999;
+    bonus bVit,999;
+    bonus bDex,999;
+    bonus bAgi,999;
+    bonus bLuk,999;
+    bonus bPerfectHide;
+    bonus bIntravision;
+    bonus bNoCatalyst;
+    bonus bNoCastCancel;
+    bonus bHealPower,500;
+    bonus bAddMaxWeight,100000;
+    bonus bAccuracy,100;
+    bonus bAtkRate,1000;
+    bonus bMatkRate,1000;
+    bonus bMaxSPRate,1000;
+    bonus bMaxHPRate,1000;
+    bonus bSpeedAddRate,300;
+    bonus bAftercastDelay,-99;
+    skill(AL_TELEPORT,1);
+    skill(RGX_RES_BLOWN,1);
+    percentheal(100,100);
+  EquipScript: |-
+    percentheal 100,100;
+    sc_start(SC_CATACC,INFINITE_TICK,0);
+  UnEquipScript: |-
+    sc_end(SC_CATACC);
+- Id: 9900002
+  Name: Gib Tao Banana
+  AegisName: RGX_testitem_2
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    	sc_start(SC_FOEMAPINFO,60000000,FoeId,10000,SCSTART_NOAVOID,getcharid(3));
+- Id: 9900003
+  Name: PN's Test Item
+  AegisName: RGX_testitem_3
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    callfunc "SkillScrollBox",3,2;
+- Id: 9900004
+  Name: Test Cloth Armor
+  AegisName: RGX_test_clotharmor
+  Type: Armor
+  Buy: 8000
+  Weight: 400
+  Defense: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    callfunc "ClothArmorMastery";
+- Id: 9900005
+  Name: Test Light Armor
+  AegisName: RGX_test_lightarmor
+  Type: Armor
+  Buy: 8000
+  Weight: 400
+  Defense: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    callfunc "LightArmorMastery";
+- Id: 9900006
+  Name: Test Heavy Armor
+  AegisName: RGX_test_heavyarmor
+  Type: Armor
+  Buy: 8000
+  Weight: 400
+  Defense: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    callfunc "HeavyArmorMastery";
+- Id: 9900007
+  Name: Test Knife
+  AegisName: RGX_Test_Knife
+  Type: Weapon
+  SubType: Dagger
+  Buy: 50
+  Weight: 400
+  Attack: 17
+  Range: 1
+  Slots: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  WeaponLevel: 1
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 9900008
+  Name: Test Sword
+  AegisName: RGX_Test_Sword
+  Type: Weapon
+  SubType: 1hSword
+  Buy: 50
+  Weight: 400
+  Attack: 17
+  Range: 1
+  Slots: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  WeaponLevel: 1
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+- Id: 9900009
+  Name: Test 2HSword
+  AegisName: RGX_Test_2HSword
+  Type: Weapon
+  SubType: 2hSword
+  Buy: 50
+  Weight: 400
+  Attack: 17
+  Range: 1
+  Slots: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Hand: true
+  WeaponLevel: 1
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 9900010
+  Name: Test Spear
+  AegisName: RGX_Test_Spear
+  Type: Weapon
+  SubType: 1hSpear
+  Buy: 50
+  Weight: 400
+  Attack: 17
+  Range: 3
+  Slots: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  WeaponLevel: 1
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 9900011
+  Name: Test Axe
+  AegisName: RGX_Test_Axe
+  Type: Weapon
+  SubType: 1hAxe
+  Buy: 50
+  Weight: 400
+  Attack: 17
+  Range: 1
+  Slots: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  WeaponLevel: 1
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+- Id: 9900012
+  Name: Test Mace
+  AegisName: RGX_Test_Mace
+  Type: Weapon
+  SubType: Mace
+  Buy: 50
+  Weight: 400
+  Attack: 17
+  Range: 1
+  Slots: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  WeaponLevel: 1
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 9900013
+  Name: Test Book
+  AegisName: RGX_Test_Book
+  Type: Weapon
+  SubType: Book
+  Buy: 50
+  Weight: 400
+  Attack: 17
+  Range: 1
+  Slots: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  WeaponLevel: 1
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 9900014
+  Name: Test Knuckle
+  AegisName: RGX_Test_Knuckle
+  Type: Weapon
+  SubType: Knuckle
+  Buy: 50
+  Weight: 400
+  Attack: 17
+  Range: 1
+  Slots: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  WeaponLevel: 1
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+- Id: 9900015
+  Name: Test Instrument
+  AegisName: RGX_Test_Instrument
+  Type: Weapon
+  SubType: Musical
+  Buy: 50
+  Weight: 400
+  Attack: 17
+  Range: 1
+  Slots: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  WeaponLevel: 1
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 9900016
+  Name: Test Whip
+  AegisName: RGX_Test_Whip
+  Type: Weapon
+  SubType: Whip
+  Buy: 50
+  Weight: 400
+  Attack: 17
+  Range: 1
+  Slots: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  WeaponLevel: 1
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 9900017
+  Name: Test Bow
+  AegisName: RGX_Test_Bow
+  Type: Weapon
+  SubType: Bow
+  Buy: 50
+  Weight: 400
+  Attack: 17
+  Range: 1
+  Slots: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Hand: true
+  WeaponLevel: 1
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+- Id: 9900018
+  Name: Test Katar
+  AegisName: RGX_Test_Katar
+  Type: Weapon
+  SubType: Katar
+  Buy: 50
+  Weight: 400
+  Attack: 17
+  Range: 1
+  Slots: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Hand: true
+  WeaponLevel: 1
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 9900019
+  Name: Test Rod
+  AegisName: RGX_Test_Staff
+  Type: Weapon
+  SubType: Staff
+  Buy: 50
+  Weight: 400
+  Attack: 17
+  Range: 1
+  Slots: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  WeaponLevel: 1
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 9900020
+  Name: Test 2H Staff
+  AegisName: RGX_Test_2hStaff
+  Type: Weapon
+  SubType: 2hStaff
+  Weight: 1400
+  Attack: 33
+  Range: 1
+  Slots: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Hand: true
+  WeaponLevel: 3
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 9900021
+  Name: Test Arrow
+  AegisName: RGX_Test_Arrow
+  Type: Ammo
+  SubType: Arrow
+  Buy: 1
+  Weight: 1
+  Attack: 25
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 9900030
+  Name: Neuralyzer
+  AegisName: RGX_Neuralyzer
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    callfunc "WipeCharacter";
+- Id: 9900031
+  Name: ClothArmorJobs
+  AegisName: RGX_ca_jobs
+  Type: Usable
+  Buy: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |-
+    cleararray(DebugCharJob[0],0,getarraysize(DebugCharJob));
+    setarray(DebugCharJob[0],2,4,9,16,8,15); 
+    if (DebugCharJobIndex >= getarraysize(DebugCharJob) || inarray(DebugCharJob[0],Class) == -1) { DebugCharJobIndex = 0; }
+    jobchange DebugCharJob[DebugCharJobIndex]; DebugCharJobIndex++;
+- Id: 9900032
+  Name: LightArmorJobs
+  AegisName: RGX_la_jobs
+  Type: Usable
+  Buy: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |-
+    switch (Sex) { case 0: .@dB = 20; break; case 1: .@dB = 19; break; default: break; }
+    cleararray(DebugCharJob[0],0,getarraysize(DebugCharJob));
+    setarray(DebugCharJob[0],3,6,11,.@dB,12,17); 
+    if (DebugCharJobIndex >= getarraysize(DebugCharJob) || inarray(DebugCharJob[0],Class) == -1) { DebugCharJobIndex = 0; }
+    jobchange DebugCharJob[DebugCharJobIndex]; DebugCharJobIndex++;
+- Id: 9900033
+  Name: HeavyArmorJobs
+  AegisName: RGX_ha_jobs
+  Type: Usable
+  Buy: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |-
+    cleararray(DebugCharJob[0],0,getarraysize(DebugCharJob));
+    setarray(DebugCharJob[0],1,5,7,14,10,18);
+    if (DebugCharJobIndex >= getarraysize(DebugCharJob) || inarray(DebugCharJob[0],Class) == -1) { DebugCharJobIndex = 0; }
+    jobchange DebugCharJob[DebugCharJobIndex]; DebugCharJobIndex++;
+- Id: 9900034
+  Name: giga test knife
+  AegisName: RGX_Test_Knife__
+  Type: Weapon
+  SubType: Dagger
+  Buy: 50
+  Weight: 400
+  Attack: 17
+  Range: 1
+  Slots: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  WeaponLevel: 1
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+- Id: 9900035
+  Name: ckx test sword
+  AegisName: RGX_Test_Sword__
+  Type: Weapon
+  SubType: 1hSword
+  Buy: 50
+  Weight: 400
+  Attack: 17
+  Range: 1
+  Slots: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  WeaponLevel: 1
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus2 bAddClass,Class_All,callfunc("GetLivingBonus", EQX_1HWEAPON);
+- Id: 9900036
+  Name: ckx test staff
+  AegisName: RGX_Test_2hStaff__
+  Type: Weapon
+  SubType: 2hStaff
+  Weight: 1400
+  Attack: 33
+  Range: 1
+  Slots: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Hand: true
+  WeaponLevel: 3
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus2 bAddMagicClass,Class_All,$@MagicLivingBonus[CurrentFloor];
+- Id: 9900037
+  Name: Test 2H Spear
+  AegisName: RGX_Test_2hSpear
+  Type: Weapon
+  SubType: 2hSpear
+  Weight: 10
+  Attack: 84
+  Range: 3
+  Slots: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Hand: true
+  WeaponLevel: 2
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+- Id: 9900038
+  Name: Test 2H Axe
+  AegisName: RGX_TEST_2HAXE
+  Type: Weapon
+  SubType: 2hAxe
+  Weight: 10
+  Attack: 80
+  Range: 1
+  Slots: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Hand: true
+  WeaponLevel: 1
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+- Id: 9900039
+  Name: Test Sword ATK
+  AegisName: RGX_Test_SwordAtk
+  Type: Weapon
+  SubType: 1hSword
+  Buy: 50
+  Weight: 400
+  Attack: 50
+  Range: 1
+  Slots: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  WeaponLevel: 1
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus bStr,1;
+    bonus2 bAddClass,Class_All,20;
+- Id: 9900040
+  Name: Test Sword Bonus
+  AegisName: RGX_Test_SwordBonus
+  Type: Armor
+  Buy: 50
+  Weight: 400
+  Defense: 100
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 2
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus bStr,1;
+    bonus2 bAddClass,Class_All,10;
+- Id: 9900041
+  Name: Costume Aura Vicious Mind
+  AegisName: RGX_C_Subject_Aura
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Low: true
+  View: 1418
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+- Id: 9900042
+  Name: Laboratory Permit (F15)
+  AegisName: RGX_LABORATORY_PERMITF15
+  Type: Etc
+  Buy: 6
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoStorage: true
+  Notes: |-
+    [Cenia]
+- Id: 9900043
+  Name: Longsword (Tutorial)
+  AegisName: RGX_TUT_Longsword
+  Type: Weapon
+  SubType: 1hSword
+  Attack: 25
+  Range: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  WeaponLevel: 1
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus bAspdRate,500;
+    bonus bHit,50;
+    bonus bSPrecovRate,30000;
+    bonus bSPrecovAmount,30000;
+    bonus bUseSPrate,99;
+- Id: 9900044
+  Name: Falchion (Tutorial)
+  AegisName: RGX_TUT_Falchion
+  Type: Weapon
+  SubType: 1hSword
+  Attack: 38
+  Range: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  WeaponLevel: 1
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus bAspdRate,10000;
+    bonus bHit,50;
+    bonus bSPrecovRate,30000;
+    bonus bSPrecovAmount,30000;
+    bonus bUseSPrate,99;
+- Id: 9900045
+  Name: Staff (Tutorial)
+  AegisName: RGX_TUT_STAFF
+  Type: Weapon
+  SubType: Staff
+  Attack: 38
+  Range: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  WeaponLevel: 1
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus bSPrecovRate,30000;
+    bonus bSPrecovAmount,30000;
+    bonus bUseSPrate,99;
+    bonus bMatk,100;
+    bonus bInt,9;
+- Id: 9900046
+  Name: Bow (Tutorial)
+  AegisName: RGX_TUT_Bow
+  Type: Weapon
+  SubType: Bow
+  Attack: 32
+  Range: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Hand: true
+  WeaponLevel: 1
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus bHit,100;
+    bonus bSPrecovRate,30000;
+    bonus bSPrecovAmount,30000;
+    bonus bUseSPrate,99;
+    bonus bHPrecovRate,30000;
+    bonus bHPrecovAmount,10000;
+    bonus3 bSkillSaveCatalyst,MG_SAFETWALL,IID_BLUE_GEMSTONE,100;
+- Id: 9900047
+  Name: Dagger (Tutorial)
+  AegisName: RGX_TUT_DAGGER
+  Type: Weapon
+  SubType: Dagger
+  Attack: 16
+  Range: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  WeaponLevel: 1
+  Refineable: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+- Id: 9900048
+  Name: dix item lol
+  AegisName: dixitemlol
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89

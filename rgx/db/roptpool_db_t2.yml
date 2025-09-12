@@ -1,0 +1,3470 @@
+Header:
+  Type: RANDOM_OPTION_POOLS_DB
+  Version: 3
+Body:
+- PoolId: 200000
+  Name: T2 Nothing Pool v2
+  Pool:
+  - RoptId: 0
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200001
+  Name: Bleeding on weapon attack & Bleeding tick damage (A)
+  Pool:
+  - RoptId: 1024
+    ValMin: 10
+    ValMax: 20
+    ParamMin: 20
+    ParamMax: 33
+- PoolId: 200003
+  Name: 'Bleeding ignores stat resistance (25-50) '
+  Pool:
+  - RoptId: 1026
+    ValMin: 25
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200004
+  Name: Power Boom increases Crit & Crit ATK (10-15, 15-25)
+  Pool:
+  - RoptId: 1030
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 15
+    ParamMax: 25
+- PoolId: 200005
+  Name: Inflicting Bleeding grants Power Boom (40-60)
+  Pool:
+  - RoptId: 1031
+    ValMin: 40
+    ValMax: 60
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200006
+  Name: KN_BOWLINGBASH vs Bleeding (7-15)
+  Pool:
+  - RoptId: 20001
+    ValMin: 7
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200007
+  Name: KN_BOWLINGBASH kills grant Power Boom (25-40)
+  Pool:
+  - RoptId: 20002
+    ValMin: 25
+    ValMax: 40
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200008
+  Name: SM_BASH autospells KN_BOWLINGBASH on Crit
+  Pool:
+  - RoptId: 20003
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200009
+  Name: KN_BOWLINGBASH damage vs Stun (A)
+  Pool:
+  - RoptId: 20004
+    ValMin: 15
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200010
+  Name: KN_BOWLINGBASH propagates status effects
+  Pool:
+  - RoptId: 20005
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200011
+  Name: Life Leech vs Bleeding (5-15)
+  Pool:
+  - RoptId: 1033
+    ValMin: 5
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200013
+  Name: KN_BOWLINGBASH AutoSpells SM_MAGNUM (A)
+  Pool:
+  - RoptId: 20006
+    ValMin: 80
+    ValMax: 100
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200014
+  Name: SM_MAGNUM extends Power Boom (2s, 3s)
+  Pool:
+  - RoptId: 10001
+    ValMin: 2
+    ValMax: 2
+    ParamMin: 3
+    ParamMax: 3
+- PoolId: 200015
+  Name: Weapon damage vs Bleeding (7-15)
+  Pool:
+  - RoptId: 1035
+    ValMin: 7
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200017
+  Name: WZ_METEOR Duration / Wave time (20-25, 15-20)
+  Pool:
+  - RoptId: 20007
+    ValMin: 20
+    ValMax: 25
+    ParamMin: 15
+    ParamMax: 20
+- PoolId: 200018
+  Name: WZ_METEOR AutoSpells WZ_FIREPILLAR in center
+  Pool:
+  - RoptId: 20008
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200019
+  Name: WZ_METEOR inflicts Heat (25-50)
+  Pool:
+  - RoptId: 20009
+    ValMin: 25
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200020
+  Name: WZ_FIREPILLAR inflicts Heat & Active instances (10-15, 3-5)
+  Pool:
+  - RoptId: 20010
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 3
+    ParamMax: 5
+- PoolId: 200021
+  Name: WZ_HEAVENDRIVE AutoSpells Lv3 WZ_EARTHSPIKE (+100%)
+  Pool:
+  - RoptId: 20011
+    ValMin: 3
+    ValMax: 3
+    ParamMin: 100
+    ParamMax: 100
+- PoolId: 200023
+  Name: WZ_HEAVENDRIVE damage vs Slowed (125-200)
+  Pool:
+  - RoptId: 20013
+    ValMin: 125
+    ValMax: 200
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200024
+  Name: WZ_METEOR inflicts Heat & Stun chance (25-40, 15-30)
+  Pool:
+  - RoptId: 20014
+    ValMin: 25
+    ValMax: 40
+    ParamMin: 15
+    ParamMax: 30
+- PoolId: 200025
+  Name: Heat & Burning ignore stat resistance (20-30. 10-20)
+  Pool:
+  - RoptId: 1061
+    ValMin: 20
+    ValMax: 30
+    ParamMin: 10
+    ParamMax: 20
+- PoolId: 200026
+  Name: WZ_EARTHSPIKE AutoSpells Stone Curse / SP Cost +50
+  Pool:
+  - RoptId: 20015
+    ValMin: 33
+    ValMax: 66
+    ParamMin: 50
+    ParamMax: 50
+- PoolId: 200027
+  Name: WZ_HEAVENDRIVE Recasts WZ_HEAVENDRIVE
+  Pool:
+  - RoptId: 20016
+    ValMin: 2
+    ValMax: 3
+    ParamMin: 60
+    ParamMax: 80
+- PoolId: 200028
+  Name: MG_FIREBALL Damage & SP Cost (20-30)
+  Pool:
+  - RoptId: 10013
+    ValMin: 20
+    ValMax: 30
+    ParamMin: 125
+    ParamMax: 125
+- PoolId: 200029
+  Name: Earth magic damage (10-15)
+  Pool:
+  - RoptId: 1062
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200030
+  Name: MG_FIREWALL autospells WZ_FIREPILLAR / SP cost +100%
+  Pool:
+  - RoptId: 20017
+    ValMin: 100
+    ValMax: 100
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200031
+  Name: MG_STONECURSE weapon breaks inflict Curse (10-15)
+  Pool:
+  - RoptId: 10014
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200032
+  Name: MG_FIREBOLT & WZ_EARTHSPIKE levels
+  Pool:
+  - RoptId: 20018
+    ValMin: 1
+    ValMax: 2
+    ParamMin: 1
+    ParamMax: 2
+- PoolId: 200033
+  Name: WZ_EARTHSPIKE & MG_FIREBOLT levels
+  Pool:
+  - RoptId: 20018
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200034
+  Name: Heat & Burning tick damage (33-66, 15-25)
+  Pool:
+  - RoptId: 1063
+    ValMin: 33
+    ValMax: 66
+    ParamMin: 15
+    ParamMax: 25
+- PoolId: 200035
+  Name: Stone Curse reduces MDEF
+  Pool:
+  - RoptId: 1064
+    ValMin: 50
+    ValMax: 80
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200036
+  Name: WZ_EARTHSPIKE damage vs Heat & SP cost reduce
+  Pool:
+  - RoptId: 20019
+    ValMin: 20
+    ValMax: 35
+    ParamMin: 5
+    ParamMax: 15
+- PoolId: 200037
+  Name: AS_VENOMKNIFE Autospells PR_LEXAETERNA
+  Pool:
+  - RoptId: 20020
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200038
+  Name: AS_VENOMKNIFE Allow Crit + Crit (5-10)
+  Pool:
+  - RoptId: 20021
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200040
+  Name: AS_SPLASHER Spreads via Dpoison (25-33)
+  Pool:
+  - RoptId: 20023
+    ValMin: 25
+    ValMax: 33
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200041
+  Name: AS_VENOMKNIFE Damage & Bleeding (75-100, 40-75)
+  Pool:
+  - RoptId: 20024
+    ValMin: 75
+    ValMax: 100
+    ParamMin: 40
+    ParamMax: 75
+- PoolId: 200042
+  Name: Poison extension (15-20)
+  Pool:
+  - RoptId: 1065
+    ValMin: 15
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200043
+  Name: Poison tick damage (20-33)
+  Pool:
+  - RoptId: 1020
+    ValMin: 20
+    ValMax: 33
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200044
+  Name: Poison ignores stat resistance (25-33)
+  Pool:
+  - RoptId: 1027
+    ValMin: 25
+    ValMax: 33
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200045
+  Name: TF_POISON inflicts Deadly Poison
+  Pool:
+  - RoptId: 10015
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200046
+  Name: Poison & Deadly Poison on weapon attack (5-10, 3-5)
+  Pool:
+  - RoptId: 1073
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 3
+    ParamMax: 5
+- PoolId: 200047
+  Name: Weapon damage vs Poisoned (7-15)
+  Pool:
+  - RoptId: 1034
+    ValMin: 7
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200048
+  Name: AS_VENOMKNIFE inflicts Blind
+  Pool:
+  - RoptId: 20025
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200049
+  Name: AS_SPLASHER Cast time (A)
+  Pool:
+  - RoptId: 20026
+    ValMin: 30
+    ValMax: 40
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200050
+  Name: Deadly Poison reduces DEF (40-60)
+  Pool:
+  - RoptId: 1074
+    ValMin: 40
+    ValMax: 60
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200051
+  Name: Life Leech vs Poison (3-5, 7-10)
+  Pool:
+  - RoptId: 1075
+    ValMin: 3
+    ValMax: 5
+    ParamMin: 7
+    ParamMax: 10
+- PoolId: 200052
+  Name: TF_POISON Damage (15-25)
+  Pool:
+  - RoptId: 10016
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200053
+  Name: AS_ENCHANTPOISON Inc rate/reduce duration
+  Pool:
+  - RoptId: 20027
+    ValMin: 40
+    ValMax: 60
+    ParamMin: 20
+    ParamMax: 30
+- PoolId: 200056
+  Name: Ignore DEF vs Bleeding (15-25)
+  Pool:
+  - RoptId: 1085
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200057
+  Name: Power Boom effectiveness & duration (15-30)
+  Pool:
+  - RoptId: 1087
+    ValMin: 15
+    ValMax: 30
+    ParamMin: 25
+    ParamMax: 40
+- PoolId: 200058
+  Name: Life Leech w/ Power Boom (15-25)
+  Pool:
+  - RoptId: 1088
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200065
+  Name: Double Attacks grant Power Boom + Power Boom effectiveness (A)
+  Pool:
+  - RoptId: 1092
+    ValMin: 15
+    ValMax: 30
+    ParamMin: 5
+    ParamMax: 15
+- PoolId: 200066
+  Name: Double Attack Rate + MATK Rate (A)
+  Pool:
+  - RoptId: 1096
+    ValMin: 10
+    ValMax: 25
+    ParamMin: 10
+    ParamMax: 15
+- PoolId: 200067
+  Name: Double Attacks AutoSpell LvX MG_LIGHTNINGBOLT
+  Pool:
+  - RoptId: 1097
+    ValMin: 3
+    ValMax: 5
+    ParamMin: 50
+    ParamMax: 75
+- PoolId: 200068
+  Name: Wind damage (15-25)
+  Pool:
+  - RoptId: 1098
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200069
+  Name: Double Attacks inflict Bleeding (A)
+  Pool:
+  - RoptId: 1090
+    ValMin: 90
+    ValMax: 100
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200070
+  Name: SM_MAGNUM autospells LvX MG_THUNDERSTORM (4)
+  Pool:
+  - RoptId: 10017
+    ValMin: 4
+    ValMax: 4
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200071
+  Name: Power Boom gives Bleed infliction
+  Pool:
+  - RoptId: 1100
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200072
+  Name: KN_CHARGEATK Autospells Magnum Break / No KB
+  Pool:
+  - RoptId: 20028
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200073
+  Name: Shock on weapon attack (25-33)
+  Pool:
+  - RoptId: 1009
+    ValMin: 25
+    ValMax: 33
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200074
+  Name: Double Attack Rate + DA ATK (10-25, 15-25)
+  Pool:
+  - RoptId: 1091
+    ValMin: 10
+    ValMax: 25
+    ParamMin: 15
+    ParamMax: 25
+- PoolId: 200075
+  Name: Power Boom gives Double Attack rate (A)
+  Pool:
+  - RoptId: 1108
+    ValMin: 25
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200076
+  Name: Double Attack ATK + MATK Rate (A)
+  Pool:
+  - RoptId: 1109
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 4
+    ParamMax: 6
+- PoolId: 200077
+  Name: Double Attacks pierce DEF (50-70)
+  Pool:
+  - RoptId: 1106
+    ValMin: 50
+    ValMax: 70
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200078
+  Name: Double Attacks inflict Heat / Burning (A)
+  Pool:
+  - RoptId: 1123
+    ValMin: 33
+    ValMax: 66
+    ParamMin: 5
+    ParamMax: 10
+- PoolId: 200079
+  Name: Double Attacks inflict Chill / Shock (A)
+  Pool:
+  - RoptId: 1124
+    ValMin: 33
+    ValMax: 66
+    ParamMin: 33
+    ParamMax: 66
+- PoolId: 200080
+  Name: Double Attacks AutoSpell LvX MG_FIREBOLT / WZ_EARTHSPIKE
+  Pool:
+  - RoptId: 1125
+    ValMin: 3
+    ValMax: 5
+    ParamMin: 20
+    ParamMax: 33
+- PoolId: 200081
+  Name: Double Attacks AutoSpell LvX MG_COLDBOLT / MG_LIGHTNINGBOLT
+  Pool:
+  - RoptId: 1126
+    ValMin: 3
+    ValMax: 5
+    ParamMin: 20
+    ParamMax: 33
+- PoolId: 200083
+  Name: Double Attacks AutoSpell LvX WZ_HEAVENDRIVE
+  Pool:
+  - RoptId: 1130
+    ValMin: 2
+    ValMax: 4
+    ParamMin: 25
+    ParamMax: 33
+- PoolId: 200084
+  Name: Double Attacks AutoSpell LvX MG_FIREBALL (A)
+  Pool:
+  - RoptId: 1122
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 25
+    ParamMax: 40
+- PoolId: 200085
+  Name: Double Attacks AutoSpell LvX MG_THUNDERSTORM
+  Pool:
+  - RoptId: 1129
+    ValMin: 4
+    ValMax: 6
+    ParamMin: 25
+    ParamMax: 33
+- PoolId: 200086
+  Name: Double Attacks AutoSpell LvX MG_FROSTDIVER
+  Pool:
+  - RoptId: 1128
+    ValMin: 5
+    ValMax: 7
+    ParamMin: 25
+    ParamMax: 35
+- PoolId: 200087
+  Name: AutoSpell Levels + Rates (1)
+  Pool:
+  - RoptId: 1131
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 5
+    ParamMax: 10
+- PoolId: 200088
+  Name: Double Attacks AutoSpell LvX WZ_METEOR
+  Pool:
+  - RoptId: 1132
+    ValMin: 2
+    ValMax: 3
+    ParamMin: 10
+    ParamMax: 25
+- PoolId: 200089
+  Name: Double Attacks autospell Decrease Agility / Lex Divina (40-60, 10-15)
+  Pool:
+  - RoptId: 1133
+    ValMin: 15
+    ValMax: 30
+    ParamMin: 10
+    ParamMax: 15
+- PoolId: 200090
+  Name: AS_SONICBLOW Autospells TF_HIDING
+  Pool:
+  - RoptId: 20029
+    ValMin: 450
+    ValMax: 450
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200091
+  Name: AS_SONICBLOW Allow Crit + Crit (1-2)
+  Pool:
+  - RoptId: 20030
+    ValMin: 1
+    ValMax: 2
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200092
+  Name: AS_SONICBLOW inflicts Stun (10-15)
+  Pool:
+  - RoptId: 20031
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200093
+  Name: AS_SONICBLOW vs unharmed targets (50-75)
+  Pool:
+  - RoptId: 20033
+    ValMin: 50
+    ValMax: 75
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200094
+  Name: AS_SONICBLOW & AS_GRIMTOOTH Accuracy (50-80)
+  Pool:
+  - RoptId: 20034
+    ValMin: 50
+    ValMax: 80
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200096
+  Name: AS_SONICBLOW damage vs Bleeding (10-20)
+  Pool:
+  - RoptId: 20035
+    ValMin: 10
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200097
+  Name: AS_GRIMTOOTH Spreads Poison/Bleed (35-50)
+  Pool:
+  - RoptId: 20036
+    ValMin: 35
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200098
+  Name: Poison on weapon attack & Poison tick damage (10-15, 25-35)
+  Pool:
+  - RoptId: 1134
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 25
+    ParamMax: 35
+- PoolId: 200099
+  Name: Poison & Bleeding on weapon attack (7-15)
+  Pool:
+  - RoptId: 1135
+    ValMin: 7
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200100
+  Name: Poison & Bleeding ignore stat resistance (15-20)
+  Pool:
+  - RoptId: 1136
+    ValMin: 15
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200102
+  Name: Poison & Bleeding tick damage (15-25)
+  Pool:
+  - RoptId: 1023
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 10
+    ParamMax: 20
+- PoolId: 200103
+  Name: Rolling Critter
+  Pool:
+  - RoptId: 1138
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200104
+  Name: Crits inflict Poison & Crit rate vs Poison (A)
+  Pool:
+  - RoptId: 1139
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 15
+    ParamMax: 25
+- PoolId: 200105
+  Name: AS_GRIMTOOTH inflicts Bleeding (15-20)
+  Pool:
+  - RoptId: 20038
+    ValMin: 15
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200106
+  Name: AS_SONICBLOW Converts Bleeding to Crit Wounds
+  Pool:
+  - RoptId: 20039
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200107
+  Name: AS_GRIMTOOTH Allow Crit + Crit (1-2)
+  Pool:
+  - RoptId: 20040
+    ValMin: 1
+    ValMax: 2
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200108
+  Name: Crit ATK vs Bleeding & Crits inflict Bleeding (10-15, 5-10)
+  Pool:
+  - RoptId: 1140
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 5
+    ParamMax: 10
+- PoolId: 200109
+  Name: Crits AutoSpell PR_GLORIA (2-5)
+  Pool:
+  - RoptId: 1141
+    ValMin: 2
+    ValMax: 5
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200110
+  Name: Crit rate + Katar offhand damage (A)
+  Pool:
+  - RoptId: 1142
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 10
+    ParamMax: 20
+- PoolId: 200111
+  Name: Crit ATK vs Blinded (15-20)
+  Pool:
+  - RoptId: 1143
+    ValMin: 15
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200112
+  Name: Crits AutoSpell PR_LEXAETERNA (5-10)
+  Pool:
+  - RoptId: 1144
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200113
+  Name: Crit ATK on Miss (A+)
+  Pool:
+  - RoptId: 1145
+    ValMin: 50
+    ValMax: 75
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200114
+  Name: Crit on Miss (15-25)
+  Pool:
+  - RoptId: 1146
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200115
+  Name: Crit & Crit ATK on Miss (5-10, 30-50)
+  Pool:
+  - RoptId: 1147
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 30
+    ParamMax: 50
+- PoolId: 200116
+  Name: KN_BRANDISHSPEAR inflicts Bleeding (A)
+  Pool:
+  - RoptId: 20041
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200117
+  Name: KN_BRANDISHSPEAR Damage dropoff vs Bleed/CritWounds
+  Pool:
+  - RoptId: 20042
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200118
+  Name: KN_BRANDISHSPEAR Allow Crit + Crit
+  Pool:
+  - RoptId: 20043
+    ValMin: 3
+    ValMax: 6
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200119
+  Name: KN_BRANDISHSPEAR gives Fortified stack on kill
+  Pool:
+  - RoptId: 20044
+    ValMin: 60
+    ValMax: 85
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200120
+  Name: KN_SPEARSTAB & KN_PIERCE inflict Bleeding (A)
+  Pool:
+  - RoptId: 20045
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200121
+  Name: KN_BRANDISHSPEAR Spear Weight ATK
+  Pool:
+  - RoptId: 20047
+    ValMin: 2
+    ValMax: 3
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200122
+  Name: KN_SPEARSTAB Applies Strike Mark (85-100)
+  Pool:
+  - RoptId: 20048
+    ValMin: 85
+    ValMax: 100
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200124
+  Name: Ignore DEF vs Critical Wounds (20-30)
+  Pool:
+  - RoptId: 1154
+    ValMin: 20
+    ValMax: 30
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200125
+  Name: Bleeding & Critical Wounds ignore stat resistance (15-25)
+  Pool:
+  - RoptId: 1155
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200126
+  Name: KN_BRANDISHSPEAR inflicts Critical Wounds vs Strike Mark Lv3
+  Pool:
+  - RoptId: 20049
+    ValMin: 3
+    ValMax: 3
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200127
+  Name: Bleeding on weapon attack & Bleeding tick damage (B)
+  Pool:
+  - RoptId: 1024
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 15
+    ParamMax: 20
+- PoolId: 200129
+  Name: Crits inflict CWounds & Crit rate vs CWounds (10-15, 5-10)
+  Pool:
+  - RoptId: 1157
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 5
+    ParamMax: 10
+- PoolId: 200130
+  Name: Life Leech vs CWounds (A)
+  Pool:
+  - RoptId: 1079
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200131
+  Name: Inflicting Critical Wounds gives Fortified
+  Pool:
+  - RoptId: 1158
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200133
+  Name: MO_INVESTIGATE inflicts Stun per Sphere (10-20)
+  Pool:
+  - RoptId: 20050
+    ValMin: 10
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200134
+  Name: MO_EXTREMITYFIST consumes Stun (1-2, 0.1)
+  Pool:
+  - RoptId: 20051
+    ValMin: 1
+    ValMax: 2
+    ParamMin: 1
+    ParamMax: 1
+- PoolId: 200135
+  Name: MO_TRIPLEATTACK inflicts Stun (25-35)
+  Pool:
+  - RoptId: 20052
+    ValMin: 25
+    ValMax: 35
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200136
+  Name: Stun on weapon attack (5-8)
+  Pool:
+  - RoptId: 1010
+    ValMin: 5
+    ValMax: 8
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200137
+  Name: Stun timer +% (15-25)
+  Pool:
+  - RoptId: 1153
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200138
+  Name: Stun ignores stat resistance (15-20)
+  Pool:
+  - RoptId: 1169
+    ValMin: 15
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200139
+  Name: Weapon damage vs Stunned (20-35)
+  Pool:
+  - RoptId: 1044
+    ValMin: 20
+    ValMax: 35
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200140
+  Name: MO_EXTREMITYFIST Allow Crit + Stun
+  Pool:
+  - RoptId: 20053
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200142
+  Name: SM_BASH vs Stun (35-50)
+  Pool:
+  - RoptId: 10054
+    ValMin: 35
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200144
+  Name: Spirit Sphere increase Crit rate & Crit ATK (2-3)
+  Pool:
+  - RoptId: 1171
+    ValMin: 2
+    ValMax: 3
+    ParamMin: 4
+    ParamMax: 5
+- PoolId: 200145
+  Name: Spirit Sphere on weapon attack (5-10)
+  Pool:
+  - RoptId: 1172
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200146
+  Name: MO_INVESTIGATE Allow Crit + Micro Stun
+  Pool:
+  - RoptId: 20054
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200147
+  Name: MO_INVESTIGATE consumes Stun (1-2. 5)
+  Pool:
+  - RoptId: 20055
+    ValMin: 1
+    ValMax: 2
+    ParamMin: 5
+    ParamMax: 5
+- PoolId: 200148
+  Name: Crits inflict Stun (10-15)
+  Pool:
+  - RoptId: 1173
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200149
+  Name: Crit rate + Katar offhand damage (B)
+  Pool:
+  - RoptId: 1142
+    ValMin: 3
+    ValMax: 5
+    ParamMin: 8
+    ParamMax: 15
+- PoolId: 200150
+  Name: AS_GRIMTOOTH & AS_SONICBLOW Allow Crit
+  Pool:
+  - RoptId: 20057
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200151
+  Name: AS_GRIMTOOTH Spreads Poison/Bleed (A)
+  Pool:
+  - RoptId: 20036
+    ValMin: 40
+    ValMax: 60
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200152
+  Name: AS_SPLASHER Detonation timer (30-50)
+  Pool:
+  - RoptId: 20022
+    ValMin: 30
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200153
+  Name: AS_GRIMTOOTH Life Leech on Kill (A)
+  Pool:
+  - RoptId: 20058
+    ValMin: 20
+    ValMax: 35
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200155
+  Name: AS_GRIMTOOTH damage vs Poison (A)
+  Pool:
+  - RoptId: 20061
+    ValMin: 15
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200156
+  Name: AS_GRIMTOOTH damage vs Bleeding (A)
+  Pool:
+  - RoptId: 20060
+    ValMin: 15
+    ValMax: 33
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200157
+  Name: AS_GRIMTOOTH AutoSpells AS_SPLASHER (B)
+  Pool:
+  - RoptId: 20062
+    ValMin: 8
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200158
+  Name: RG_BACKSTAP Allow Double Attack & DA ATK (10-15)
+  Pool:
+  - RoptId: 20063
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200159
+  Name: Double Attack Rate + DA ATK (3-5, 10-15)
+  Pool:
+  - RoptId: 1091
+    ValMin: 3
+    ValMax: 5
+    ParamMin: 10
+    ParamMax: 15
+- PoolId: 200160
+  Name: Celerity on Flee (15-25)
+  Pool:
+  - RoptId: 1101
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200161
+  Name: Poison & Blind ignore stat resistance (15-20)
+  Pool:
+  - RoptId: 1236
+    ValMin: 15
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200162
+  Name: Poison & Blind extension (7-15)
+  Pool:
+  - RoptId: 1237
+    ValMin: 7
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200163
+  Name: Blind on weapon attack (5-15)
+  Pool:
+  - RoptId: 1011
+    ValMin: 5
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200164
+  Name: Double Attacks inflict Poison / Blind (25-30, 10-15)
+  Pool:
+  - RoptId: 1238
+    ValMin: 25
+    ValMax: 30
+    ParamMin: 10
+    ParamMax: 15
+- PoolId: 200165
+  Name: Flee reflect chance / damage (20-25, 25-30)
+  Pool:
+  - RoptId: 1161
+    ValMin: 20
+    ValMax: 25
+    ParamMin: 25
+    ParamMax: 30
+- PoolId: 200166
+  Name: Reflect damage inflicts Blind (25-30)
+  Pool:
+  - RoptId: 1239
+    ValMin: 25
+    ValMax: 30
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200167
+  Name: Double Attacks Life Leech (25-33)
+  Pool:
+  - RoptId: 1078
+    ValMin: 25
+    ValMax: 33
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200168
+  Name: KN_CHARGEATK Allow Double Attack
+  Pool:
+  - RoptId: 20064
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200170
+  Name: RG_BACKSTAP Works vs Blind / Cures blind (50)
+  Pool:
+  - RoptId: 20066
+    ValMin: 50
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200171
+  Name: AS_VENOMKNIFE Allow Double Attack & inflicts Blind (25-50)
+  Pool:
+  - RoptId: 20067
+    ValMin: 25
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200172
+  Name: Double Attacks AutoSpell known RG_CLOSECONFINE (15-25)
+  Pool:
+  - RoptId: 1240
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200173
+  Name: RG_CLOSECONFINE Damage + inflicts Bind (90-100)
+  Pool:
+  - RoptId: 20068
+    ValMin: 90
+    ValMax: 100
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200174
+  Name: AS_SPLASHER Detonation timer & Cast time
+  Pool:
+  - RoptId: 20069
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200175
+  Name: AS_SONICBLOW damage vs Poison (5-10)
+  Pool:
+  - RoptId: 20070
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200176
+  Name: AS_GRIMTOOTH inflicts Poison (10-15)
+  Pool:
+  - RoptId: 20071
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200177
+  Name: Crits inflict Poison (40-60)
+  Pool:
+  - RoptId: 1234
+    ValMin: 40
+    ValMax: 60
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200178
+  Name: Crits inflict Bleeding (25-33)
+  Pool:
+  - RoptId: 1233
+    ValMin: 25
+    ValMax: 33
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200179
+  Name: KN_PIERCE Strike Lv3 Add hit (1)
+  Pool:
+  - RoptId: 10027
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200180
+  Name: KN_PIERCE restores SP by Strike level (3-4)
+  Pool:
+  - RoptId: 10023
+    ValMin: 3
+    ValMax: 4
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200181
+  Name: KN_PIERCE Hit scaling (15-25)
+  Pool:
+  - RoptId: 10025
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200182
+  Name: KN_SPEARSTAB inflicts Stun (30-40)
+  Pool:
+  - RoptId: 20072
+    ValMin: 30
+    ValMax: 40
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200183
+  Name: KN_PIERCE Autospells PR_LEXAETERNA vs Strike Lv3
+  Pool:
+  - RoptId: 10070
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200184
+  Name: KN_CHARGEATK No Knockback & AutoSpells RG_CLOSECONFINE
+  Pool:
+  - RoptId: 20065
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200185
+  Name: RG_GANK inflicts Poison/Blind/Bleeding & 100% Double Attack
+  Pool:
+  - RoptId: 20073
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200186
+  Name: KN_PIERCE inflicts Stun (20-30)
+  Pool:
+  - RoptId: 10026
+    ValMin: 20
+    ValMax: 30
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: KN_PIERCE inflicts Stun
+- PoolId: 200187
+  Name: Power Boom increases Crit ATK (+) (15-25)
+  Pool:
+  - RoptId: 1029
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200188
+  Name: Power Boom increases Crit (10-15)
+  Pool:
+  - RoptId: 1028
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200189
+  Name: Gain Power Boom on Strike Lv3
+  Pool:
+  - RoptId: 1241
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200190
+  Name: Ignore DEF vs Stun (25-40)
+  Pool:
+  - RoptId: 1174
+    ValMin: 25
+    ValMax: 40
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200191
+  Name: Crit & Crit ATK (4-6, 15-20)
+  Pool:
+  - RoptId: 1149
+    ValMin: 4
+    ValMax: 6
+    ParamMin: 15
+    ParamMax: 20
+- PoolId: 200192
+  Name: ATK & Hit (7-15, 15-20)
+  Pool:
+  - RoptId: 1148
+    ValMin: 7
+    ValMax: 15
+    ParamMin: 15
+    ParamMax: 20
+- PoolId: 200193
+  Name: Bleeding on weapon attack (10-15)
+  Pool:
+  - RoptId: 1003
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200194
+  Name: Stun on weapon attack (3-5)
+  Pool:
+  - RoptId: 1010
+    ValMin: 3
+    ValMax: 5
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200195
+  Name: SM_ENDURE Increase Hits (2-4)
+  Pool:
+  - RoptId: 10068
+    ValMin: 2
+    ValMax: 4
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200196
+  Name: SM_ENDURE Cooldown reduction (15-20)
+  Pool:
+  - RoptId: 10075
+    ValMin: 15
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200197
+  Name: SM_ENDURE Just Endure
+  Pool:
+  - RoptId: 10076
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200198
+  Name: SM_ENDURE grants Bulwark (3-5)
+  Pool:
+  - RoptId: 10007
+    ValMin: 3
+    ValMax: 5
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200199
+  Name: SM_ENDURE inc Natural HP Regen (75-125)
+  Pool:
+  - RoptId: 10077
+    ValMin: 75
+    ValMax: 125
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200200
+  Name: Equip w/ Armor Charm + Max HP Rate (*) (5-10)
+  Pool:
+  - RoptId: 1244
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200201
+  Name: Max HP Rate (*) (4-5)
+  Pool:
+  - RoptId: 1190
+    ValMin: 4
+    ValMax: 5
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200202
+  Name: HP Potion effectiveness (10-15)
+  Pool:
+  - RoptId: 1245
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200203
+  Name: Chill resist (+) (90-100)
+  Pool:
+  - RoptId: 1202
+    ValMin: 90
+    ValMax: 100
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200204
+  Name: Super Armor break cooldown rate (30-60)
+  Pool:
+  - RoptId: 1248
+    ValMin: 30
+    ValMax: 60
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200205
+  Name: Crit resist (+) (15-25)
+  Pool:
+  - RoptId: 1225
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200206
+  Name: Natural HP Regen Rate (15-25)
+  Pool:
+  - RoptId: 1249
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200207
+  Name: SM_ENDURE Just Endure timing window (40-50)
+  Pool:
+  - RoptId: 10078
+    ValMin: 40
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200208
+  Name: Freeze resist (+) (25-50)
+  Pool:
+  - RoptId: 1203
+    ValMin: 25
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200209
+  Name: Bleeding resist (+) (90-100)
+  Pool:
+  - RoptId: 1199
+    ValMin: 90
+    ValMax: 100
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200210
+  Name: Critical Wounds resist (+) (35-50)
+  Pool:
+  - RoptId: 1200
+    ValMin: 35
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200211
+  Name: SM_ENDURE grants Fortified stacks (2)
+  Pool:
+  - RoptId: 10079
+    ValMin: 2
+    ValMax: 2
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200212
+  Name: SM_ENDURE Inc DEF / No MDEF
+  Pool:
+  - RoptId: 10080
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200213
+  Name: SM_ENDURE Increase Hits (3-5)
+  Pool:
+  - RoptId: 10068
+    ValMin: 3
+    ValMax: 5
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200214
+  Name: Chill & Freeze resist (+) (60-100, 20-30)
+  Pool:
+  - RoptId: 1252
+    ValMin: 60
+    ValMax: 100
+    ParamMin: 20
+    ParamMax: 30
+- PoolId: 200215
+  Name: Bleeding & Critical Wounds resist (+) (60-100, 25-50)
+  Pool:
+  - RoptId: 1251
+    ValMin: 60
+    ValMax: 100
+    ParamMin: 25
+    ParamMax: 50
+- PoolId: 200216
+  Name: Crit resist (+) (30-50)
+  Pool:
+  - RoptId: 1225
+    ValMin: 30
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200217
+  Name: Soft Def Rate (*) (5-10)
+  Pool:
+  - RoptId: 1194
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200218
+  Name: Melee resist (*) (5)
+  Pool:
+  - RoptId: 1253
+    ValMin: 5
+    ValMax: 5
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200219
+  Name: Super Armor break cooldown rate (40-70)
+  Pool:
+  - RoptId: 1248
+    ValMin: 40
+    ValMax: 70
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200220
+  Name: Super Armor Rate (*) (75-125)
+  Pool:
+  - RoptId: 1246
+    ValMin: 75
+    ValMax: 125
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200221
+  Name: Ranged resist (*) (5)
+  Pool:
+  - RoptId: 1254
+    ValMin: 5
+    ValMax: 5
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200222
+  Name: SM_ENDURE Cooldown reduction (20-25)
+  Pool:
+  - RoptId: 10075
+    ValMin: 20
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200223
+  Name: TF_HIDING Counter Damage (25-33)
+  Pool:
+  - RoptId: 10045
+    ValMin: 25
+    ValMax: 33
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200224
+  Name: Lucky Dodge (5-10)
+  Pool:
+  - RoptId: 1227
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200225
+  Name: Increase Max HP by Flee (15-20)
+  Pool:
+  - RoptId: 1168
+    ValMin: 15
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200226
+  Name: Lucky Dodge restore HP (250-350)
+  Pool:
+  - RoptId: 1229
+    ValMin: 250
+    ValMax: 350
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200227
+  Name: Crit resist rate (*) (10-15)
+  Pool:
+  - RoptId: 1226
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200228
+  Name: Lex Aeterna resist (+) (45-55)
+  Pool:
+  - RoptId: 1270
+    ValMin: 45
+    ValMax: 55
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200230
+  Name: Increase AGI / Reduce VIT (+5, -10)
+  Pool:
+  - RoptId: 1271
+    ValMin: 5
+    ValMax: 5
+    ParamMin: 10
+    ParamMax: 10
+- PoolId: 200231
+  Name: TF_HIDING gives Find Me (75-100)
+  Pool:
+  - RoptId: 10049
+    ValMin: 75
+    ValMax: 100
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200232
+  Name: TF_HIDING Weapon damage (70-100)
+  Pool:
+  - RoptId: 10081
+    ValMin: 70
+    ValMax: 100
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200233
+  Name: Crit ATK (10-15)
+  Pool:
+  - RoptId: 1152
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200235
+  Name: Lucky Dodge inflicts Blind (100)
+  Pool:
+  - RoptId: 1273
+    ValMin: 100
+    ValMax: 100
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200236
+  Name: Find Me grants Dash (3-5)
+  Pool:
+  - RoptId: 1272
+    ValMin: 3
+    ValMax: 5
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200237
+  Name: Crit rate vs Blinded (20)
+  Pool:
+  - RoptId: 1213
+    ValMin: 20
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200241
+  Name: SM_BASH vs Stun (15-30)
+  Pool:
+  - RoptId: 10054
+    ValMin: 15
+    ValMax: 30
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200242
+  Name: SM_BASH Stun chance (+) (10-20)
+  Pool:
+  - RoptId: 10048
+    ValMin: 10
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200244
+  Name: CR_AUTOGUARD AutoSpells CR_SHIELDCHARGE (15-25)
+  Pool:
+  - RoptId: 20079
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200245
+  Name: 'Resist vs Element: Neutral (5-6)'
+  Pool:
+  - RoptId: 1216
+    ValMin: 5
+    ValMax: 6
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200246
+  Name: Melee resist (*) (3-5)
+  Pool:
+  - RoptId: 1253
+    ValMin: 3
+    ValMax: 5
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200247
+  Name: Resist vs Midgardians (+) (10-15)
+  Pool:
+  - RoptId: 1266
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200248
+  Name: Soft Def (+) (15-25)
+  Pool:
+  - RoptId: 1193
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200249
+  Name: Stun resist (+) (20-30)
+  Pool:
+  - RoptId: 1198
+    ValMin: 20
+    ValMax: 30
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200250
+  Name: Super Armor (+) (5)
+  Pool:
+  - RoptId: 1247
+    ValMin: 5
+    ValMax: 5
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200251
+  Name: CR_AUTOGUARD Activation rate (*, 10-15)
+  Pool:
+  - RoptId: 20080
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200252
+  Name: Stun timer +% (15-25)
+  Pool:
+  - RoptId: 1153
+    ValMin: 10
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200253
+  Name: CR_SHIELDBOOMERANG Allow Crit + Stun on Crit (70-90)
+  Pool:
+  - RoptId: 20076
+    ValMin: 70
+    ValMax: 90
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200254
+  Name: Power Boom affects Shield Skills
+  Pool:
+  - RoptId: 1287
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200255
+  Name: CR_SHIELDBOOMERANG vs Stun (100-150)
+  Pool:
+  - RoptId: 20085
+    ValMin: 100
+    ValMax: 150
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200256
+  Name: Knockback reduction (incoming) (2-3)
+  Pool:
+  - RoptId: 1288
+    ValMin: 2
+    ValMax: 3
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200257
+  Name: Stun gives Power Boom (15-25)
+  Pool:
+  - RoptId: 1242
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200258
+  Name: CR_SHIELDBOOMERANG vs Stun (150-250)
+  Pool:
+  - RoptId: 20085
+    ValMin: 150
+    ValMax: 250
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200259
+  Name: KN_SPEARBOOMERANG Crit + Strike Mark (25-50)
+  Pool:
+  - RoptId: 20086
+    ValMin: 25
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200260
+  Name: SM_BASH consumes Power Boom (7-10, 10-15)
+  Pool:
+  - RoptId: 10044
+    ValMin: 7
+    ValMax: 10
+    ParamMin: 10
+    ParamMax: 15
+- PoolId: 200261
+  Name: Barrier Breaker (+) (50-85)
+  Pool:
+  - RoptId: 1291
+    ValMin: 65
+    ValMax: 90
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200262
+  Name: SM_MAGNUM extends Power Boom (3s, 5s)
+  Pool:
+  - RoptId: 10001
+    ValMin: 2
+    ValMax: 2
+    ParamMin: 3
+    ParamMax: 3
+- PoolId: 200263
+  Name: SM_BASH consumes Stun (1-2)
+  Pool:
+  - RoptId: 10057
+    ValMin: 1
+    ValMax: 2
+    ParamMin: 1
+    ParamMax: 1
+- PoolId: 200264
+  Name: SM_MAGNUM Bonus Fire Damage (25-33)
+  Pool:
+  - RoptId: 10094
+    ValMin: 25
+    ValMax: 33
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200265
+  Name: SM_MAGNUM Allow Crit + Crit (3-5)
+  Pool:
+  - RoptId: 10095
+    ValMin: 2
+    ValMax: 5
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200266
+  Name: SM_MAGNUM inflicts Stun (5-20)
+  Pool:
+  - RoptId: 10096
+    ValMin: 5
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200268
+  Name: MG_FIREBALL proxy casts SM_MAGNUM (80, 3-5)
+  Pool:
+  - RoptId: 10022
+    ValMin: 80
+    ValMax: 80
+    ParamMin: 3
+    ParamMax: 5
+- PoolId: 200269
+  Name: Barrier Breaker on Crit (+) (150-200)
+  Pool:
+  - RoptId: 1292
+    ValMin: 150
+    ValMax: 200
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200270
+  Name: SM_MAGNUM After cast delay (15-30)
+  Pool:
+  - RoptId: 10098
+    ValMin: 15
+    ValMax: 30
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200271
+  Name: SM_MAGNUM Remove Knockback
+  Pool:
+  - RoptId: 10099
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200272
+  Name: Fire weapon
+  Pool:
+  - RoptId: 1293
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200273
+  Name: MG_FIREBALL ATK scaling
+  Pool:
+  - RoptId: 10100
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200274
+  Name: Crits inflict Stun (15-25)
+  Pool:
+  - RoptId: 1173
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200275
+  Name: Autospell LvX MG_FIREBALL on auto / SM_BASH / MC_MAMMONITE (5-10, 5-10)
+  Pool:
+  - RoptId: 1294
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 5
+    ParamMax: 10
+- PoolId: 200277
+  Name: MC_MAMMONITE Allow Crit + Crit (2-4)
+  Pool:
+  - RoptId: 10102
+    ValMin: 2
+    ValMax: 4
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200278
+  Name: MC_MAMMONITE Cost / Last Hit Refund (+100% / 4-6)
+  Pool:
+  - RoptId: 10103
+    ValMin: 4
+    ValMax: 6
+    ParamMin: 4
+    ParamMax: 6
+- PoolId: 200279
+  Name: MC_MAMMONITE Splash / Cost (+300%, 1-2c)
+  Pool:
+  - RoptId: 10105
+    ValMin: 300
+    ValMax: 300
+    ParamMin: 1
+    ParamMax: 2
+- PoolId: 200280
+  Name: MC_MAMMONITE vs Stun (25-50)
+  Pool:
+  - RoptId: 10104
+    ValMin: 25
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200281
+  Name: MC_MAMMONITE inflicts Stun (30-50) / Cost (+25%)
+  Pool:
+  - RoptId: 10106
+    ValMin: 30
+    ValMax: 50
+    ParamMin: 25
+    ParamMax: 25
+- PoolId: 200282
+  Name: MC_MAMMONITE Accuracy (66-80)
+  Pool:
+  - RoptId: 10107
+    ValMin: 66
+    ValMax: 80
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200283
+  Name: MC_MAMMONITE Consumes Power Boom (10-15, 2%)
+  Pool:
+  - RoptId: 10108
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 2
+    ParamMax: 2
+- PoolId: 200284
+  Name: MC_MAMMONITE Damage & Zeny cost (15-25)
+  Pool:
+  - RoptId: 10109
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200285
+  Name: MC_MAMMONITE kills give Power Boom
+  Pool:
+  - RoptId: 10110
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200286
+  Name: MC_MAMMONITE Barrier Breaker (33-50)
+  Pool:
+  - RoptId: 10111
+    ValMin: 33
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200287
+  Name: CR_SHIELDCHARGE Rolling Stun Chance (15-20)
+  Pool:
+  - RoptId: 20092
+    ValMin: 15
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200288
+  Name: All bolt levels +X (1)
+  Pool:
+  - RoptId: 1306
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200289
+  Name: Cast times (4-5)
+  Pool:
+  - RoptId: 1304
+    ValMin: 4
+    ValMax: 5
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200296
+  Name: MG_FIREBALL AutoSpell LvX MG_FIREBOLT (1-3, 25-33)
+  Pool:
+  - RoptId: 10112
+    ValMin: 1
+    ValMax: 3
+    ParamMin: 25
+    ParamMax: 33
+- PoolId: 200298
+  Name: MG_LIGHTNINGBOLT AutoSpell LvX MG_THUNDERSTORM (2-4, 20-33)
+  Pool:
+  - RoptId: 10125
+    ValMin: 2
+    ValMax: 4
+    ParamMin: 20
+    ParamMax: 33
+- PoolId: 200299
+  Name: RGX_HARMONICTRIAD MATK & SP cost (5, 25)
+  Pool:
+  - RoptId: 10126
+    ValMin: 5
+    ValMax: 5
+    ParamMin: 25
+    ParamMax: 25
+- PoolId: 200300
+  Name: AutoSpell Rates (5-10)
+  Pool:
+  - RoptId: 1121
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200301
+  Name: AutoSpell skill levels (1)
+  Pool:
+  - RoptId: 1120
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200302
+  Name: MG_LIGHTNINGBOLT Autospells 2x MG_COLDBOLT LvX (2-3, 33-40)
+  Pool:
+  - RoptId: 10127
+    ValMin: 2
+    ValMax: 3
+    ParamMin: 33
+    ParamMax: 40
+- PoolId: 200303
+  Name: AL_HOLYLIGHT Damage & SP Cost (125-150, 250)
+  Pool:
+  - RoptId: 10128
+    ValMin: 125
+    ValMax: 150
+    ParamMin: 250
+    ParamMax: 250
+- PoolId: 200304
+  Name: PR_LEXDIVINA no longer cures silence
+  Pool:
+  - RoptId: 20093
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200305
+  Name: Silence on weapon attack (10-15)
+  Pool:
+  - RoptId: 1012
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200306
+  Name: Silence extension (7-10)
+  Pool:
+  - RoptId: 1071
+    ValMin: 7
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200307
+  Name: Silence ignores stat resistance (15-20)
+  Pool:
+  - RoptId: 1307
+    ValMin: 15
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200308
+  Name: CR_GRANDCROSS Add Hit vs Silenced (1-2)
+  Pool:
+  - RoptId: 20094
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+  - RoptId: 20095
+    ValMin: 2
+    ValMax: 2
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200310
+  Name: AL_BLESSING Gives autospell AL_HOLYLIGHT (15-20)
+  Pool:
+  - RoptId: 10051
+    ValMin: 15
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200311
+  Name: AL_HOLYLIGHT Damage (transferable) (80-120)
+  Pool:
+  - RoptId: 10056
+    ValMin: 80
+    ValMax: 120
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200312
+  Name: AL_HOLYLIGHT Cast time (25-33)
+  Pool:
+  - RoptId: 10131
+    ValMin: 25
+    ValMax: 33
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200313
+  Name: AL_BLESSING offensive Bless autospells PR_LEXDIVINA
+  Pool:
+  - RoptId: 10132
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200314
+  Name: PR_TURNUNDEAD rate vs Silenced (40-60)
+  Pool:
+  - RoptId: 20096
+    ValMin: 40
+    ValMax: 60
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200315
+  Name: Magic damage vs Silenced (10-15)
+  Pool:
+  - RoptId: 1308
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200316
+  Name: AL_HOLYLIGHT increase next Holy attack (15-25)
+  Pool:
+  - RoptId: 10133
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200317
+  Name: PR_TURNUNDEAD & AL_HOLYLIGHT Damage (150-200, 200-250)
+  Pool:
+  - RoptId: 20097
+    ValMin: 150
+    ValMax: 200
+    ParamMin: 200
+    ParamMax: 250
+- PoolId: 200318
+  Name: PR_TURNUNDEAD & AL_HOLYLIGHT inflict Silence (20-30)
+  Pool:
+  - RoptId: 20098
+    ValMin: 20
+    ValMax: 30
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200319
+  Name: Silence inflicts CWounds on Stunned
+  Pool:
+  - RoptId: 1309
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200320
+  Name: Holy weapon
+  Pool:
+  - RoptId: 1175
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200321
+  Name: AL_HOLYLIGHT inflicts Stun (10-20)
+  Pool:
+  - RoptId: 10134
+    ValMin: 10
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200322
+  Name: Stun triggers AL_HOLYLIGHT
+  Pool:
+  - RoptId: 1310
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200323
+  Name: SM_BASH Autospells AL_HOLYLIGHT (33-66)
+  Pool:
+  - RoptId: 10050
+    ValMin: 33
+    ValMax: 66
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200324
+  Name: SM_BASH Stun Chance (15-20)
+  Pool:
+  - RoptId: 10048
+    ValMin: 15
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200325
+  Name: Silence on weapon attack (5-10)
+  Pool:
+  - RoptId: 1012
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200326
+  Name: Weapon damage vs Fiends (10-20)
+  Pool:
+  - RoptId: 1311
+    ValMin: 10
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200328
+  Name: Skill SP costs (*) (10-20)
+  Pool:
+  - RoptId: 1312
+    ValMin: 10
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200329
+  Name: MG_LIGHTNINGBOLT & MG_THUNDERSTORM Holy Damage
+  Pool:
+  - RoptId: 10168
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200330
+  Name: RGX_HARMONICTRIAD Holy Attacks
+  Pool:
+  - RoptId: 10151
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200331
+  Name: Knockback reduction (incoming) (3-4)
+  Pool:
+  - RoptId: 1288
+    ValMin: 3
+    ValMax: 4
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200332
+  Name: PR_ASPERSIO Reduces Holy cast times (15-25)
+  Pool:
+  - RoptId: 20109
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200333
+  Name: MG_FIREBOLT Autospells 2x WZ_EARTHSPIKE LvX (2-4, 25-33)
+  Pool:
+  - RoptId: 10207
+    ValMin: 2
+    ValMax: 4
+    ParamMin: 25
+    ParamMax: 33
+- PoolId: 200334
+  Name: WZ_JUPITEL inflicts Shock (15-25)
+  Pool:
+  - RoptId: 20110
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200335
+  Name: WZ_FIREPILLAR Hit Count (2-3)
+  Pool:
+  - RoptId: 20111
+    ValMin: 2
+    ValMax: 3
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200337
+  Name: WZ_HEAVENDRIVE damage vs Poison (150-250)
+  Pool:
+  - RoptId: 20113
+    ValMin: 150
+    ValMax: 250
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200338
+  Name: WZ_JUPITEL Recasts at LvX (2-3, 25-40)
+  Pool:
+  - RoptId: 20114
+    ValMin: 2
+    ValMax: 3
+    ParamMin: 25
+    ParamMax: 40
+- PoolId: 200340
+  Name: WZ_VERMILLION hits inflict Shock (2-3)
+  Pool:
+  - RoptId: 20116
+    ValMin: 2
+    ValMax: 3
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200342
+  Name: WZ_METEOR cast time (5-10)
+  Pool:
+  - RoptId: 20118
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200343
+  Name: Cast times (-) / Skill SP costs (+) (5-10, 15-20)
+  Pool:
+  - RoptId: 1335
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 15
+    ParamMax: 20
+- PoolId: 200344
+  Name: WZ_FROSTNOVA Super Armor (15-20)
+  Pool:
+  - RoptId: 20119
+    ValMin: 15
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200345
+  Name: Soft Mdef Rate (*) (10-15)
+  Pool:
+  - RoptId: 1196
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200346
+  Name: Sleep when hit (4-7)
+  Pool:
+  - RoptId: 1313
+    ValMin: 4
+    ValMax: 7
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200347
+  Name: Sleep resist (Transferable) (+) (40-60)
+  Pool:
+  - RoptId: 1336
+    ValMin: 40
+    ValMax: 60
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200348
+  Name: Sleep resist (+) (90-100)
+  Pool:
+  - RoptId: 1208
+    ValMin: 90
+    ValMax: 100
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200349
+  Name: Magic damage vs Sleeping (15-25)
+  Pool:
+  - RoptId: 1339
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200350
+  Name: RGX_LULLABY MDEF (5-10)
+  Pool:
+  - RoptId: 20121
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200351
+  Name: MG_SAFETYWALL HP rate (25-33)
+  Pool:
+  - RoptId: 10146
+    ValMin: 25
+    ValMax: 33
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200352
+  Name: MG_SAFETYWALL Hits (1-3)
+  Pool:
+  - RoptId: 10208
+    ValMin: 1
+    ValMax: 3
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200353
+  Name: Shock resist (+) (40-60)
+  Pool:
+  - RoptId: 1212
+    ValMin: 40
+    ValMax: 60
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200354
+  Name: MG_SAFETYWALL Leaving MDEF Buff (3-5, 5-10)
+  Pool:
+  - RoptId: 10209
+    ValMin: 3
+    ValMax: 5
+    ParamMin: 5
+    ParamMax: 10
+- PoolId: 200355
+  Name: MDEF (3-5)
+  Pool:
+  - RoptId: 1286
+    ValMin: 3
+    ValMax: 5
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200356
+  Name: Heat & Chill resist (+) (40-60)
+  Pool:
+  - RoptId: 1337
+    ValMin: 40
+    ValMax: 60
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200357
+  Name: Freeze resist (+) (33-50)
+  Pool:
+  - RoptId: 1203
+    ValMin: 33
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200358
+  Name: MG_SAFETYWALL super armor (10-15)
+  Pool:
+  - RoptId: 10150
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200359
+  Name: Stone Curse when hit (5-8)
+  Pool:
+  - RoptId: 1314
+    ValMin: 5
+    ValMax: 8
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200360
+  Name: SP Potion effectiveness (10-15)
+  Pool:
+  - RoptId: 1318
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200361
+  Name: Cast times (-) / Skill SP costs (+) (6-10, 17-20)
+  Pool:
+  - RoptId: 1335
+    ValMin: 6
+    ValMax: 10
+    ParamMin: 17
+    ParamMax: 20
+- PoolId: 200362
+  Name: MATK Abs. (15-25)
+  Pool:
+  - RoptId: 1104
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200363
+  Name: MG_STONECURSE Inc Rate / Reduce Duration (25-35, 50)
+  Pool:
+  - RoptId: 10137
+    ValMin: 15
+    ValMax: 35
+    ParamMin: 50
+    ParamMax: 50
+- PoolId: 200364
+  Name: SA_CASTCANCEL AutoSpells TF_BACKSLIDING
+  Pool:
+  - RoptId: 20122
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200365
+  Name: MG_STONECURSE gives Dash
+  Pool:
+  - RoptId: 10210
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200366
+  Name: SM_ENDURE Add Hits on Heal (4-5)
+  Pool:
+  - RoptId: 10008
+    ValMin: 4
+    ValMax: 5
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200367
+  Name: SM_ENDURE Reset Super Armor CD
+  Pool:
+  - RoptId: 10176
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200368
+  Name: SM_ENDURE Inc MDEF (6-10)
+  Pool:
+  - RoptId: 10211
+    ValMin: 6
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200369
+  Name: AC_CONCENTRATION Cancels Stun & Gives Suffragium
+  Pool:
+  - RoptId: 10212
+    ValMin: 2
+    ValMax: 2
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200370
+  Name: Stone Curse resist (+) (50) (Transferable)
+  Pool:
+  - RoptId: 1315
+    ValMin: 50
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200371
+  Name: Shock tick damage (15-25)
+  Pool:
+  - RoptId: 1197
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200372
+  Name: MG_SAFETYWALL breaks autospell WZ_FROSTNOVA
+  Pool:
+  - RoptId: 10213
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200373
+  Name: MG_SAFETYWALL breaks autospell WZ_HEAVENDRIVE
+  Pool:
+  - RoptId: 10214
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200374
+  Name: Magic damage vs Sleeping
+  Pool:
+  - RoptId: 1339
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200375
+  Name: Burning kills give Dash (5-7)
+  Pool:
+  - RoptId: 1340
+    ValMin: 5
+    ValMax: 7
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200377
+  Name: Cast times (3-5)
+  Pool:
+  - RoptId: 1304
+    ValMin: 3
+    ValMax: 5
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200378
+  Name: KN_CHARGEATK Instant cast / Half range
+  Pool:
+  - RoptId: 20124
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200379
+  Name: KN_CHARGEATK No knockback / damage halved
+  Pool:
+  - RoptId: 20125
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200380
+  Name: AS_VENOMKNIFE Interrupts DPoison + Dash (6-10)
+  Pool:
+  - RoptId: 20126
+    ValMin: 6
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200381
+  Name: AS_VENOMKNIFE vs Lex Aeterna (175-225)
+  Pool:
+  - RoptId: 20127
+    ValMin: 175
+    ValMax: 225
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200382
+  Name: AC_CONCENTRATION Cancels Stun & Gives Find Me
+  Pool:
+  - RoptId: 10239
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200383
+  Name: Bleeding resist (+) (33-50)
+  Pool:
+  - RoptId: 1199
+    ValMin: 33
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200384
+  Name: Celerity on Poison (50-100)
+  Pool:
+  - RoptId: 1274
+    ValMin: 50
+    ValMax: 100
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200385
+  Name: SM_ENDURE Increase Hits (1-3)
+  Pool:
+  - RoptId: 10068
+    ValMin: 1
+    ValMax: 3
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200386
+  Name: MG_FIREBOLT & MG_FIREBALL inflict Heat & Burning (66-80, 5-10)
+  Pool:
+  - RoptId: 10250
+    ValMin: 66
+    ValMax: 80
+    ParamMin: 5
+    ParamMax: 10
+- PoolId: 200387
+  Name: WZ_FIREPILLAR inflicts Burn per hit (5-10)
+  Pool:
+  - RoptId: 20115
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200388
+  Name: WZ_FIREPILLAR proxy casts MG_FIREBALL
+  Pool:
+  - RoptId: 20138
+    ValMin: 75
+    ValMax: 90
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200389
+  Name: WZ_FIREPILLAR hits proxy cast LvX MG_FIREBOLT (40-60)
+  Pool:
+  - RoptId: 20139
+    ValMin: 40
+    ValMax: 60
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200390
+  Name: WZ_METEOR Meteors AutoSpell LvX MG_FIREBOLT
+  Pool:
+  - RoptId: 20140
+    ValMin: 3
+    ValMax: 3
+    ParamMin: 33
+    ParamMax: 50
+- PoolId: 200391
+  Name: WZ_FIREPILLAR hits inflict Heat (7-10)
+  Pool:
+  - RoptId: 20141
+    ValMin: 7
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200392
+  Name: MG_THUNDERSTORM Cast time (40-60)
+  Pool:
+  - RoptId: 10237
+    ValMin: 40
+    ValMax: 60
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200393
+  Name: WZ_JUPITEL Last hit AutoSpells LvX MG_THUNDERSTORM (2-4, 40-60)
+  Pool:
+  - RoptId: 20142
+    ValMin: 2
+    ValMax: 4
+    ParamMin: 40
+    ParamMax: 60
+- PoolId: 200394
+  Name: MG_THUNDERSTORM inflicts Shock (15-20)
+  Pool:
+  - RoptId: 10116
+    ValMin: 15
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200395
+  Name: MG_FIREBALL AutoSpells LvX MG_FIREBOLT on Heat (2-4, 75-90)
+  Pool:
+  - RoptId: 10251
+    ValMin: 2
+    ValMax: 4
+    ParamMin: 75
+    ParamMax: 90
+- PoolId: 200396
+  Name: MG_FIREBALL Proxy Casts LvX WZ_METEOR (1-3, 25-33)
+  Pool:
+  - RoptId: 10252
+    ValMin: 1
+    ValMax: 3
+    ParamMin: 25
+    ParamMax: 33
+- PoolId: 200397
+  Name: MG_FIREWALL hits proxy cast LvX MG_FIREBOLT (1-2, 40-60)
+  Pool:
+  - RoptId: 10253
+    ValMin: 1
+    ValMax: 2
+    ParamMin: 40
+    ParamMax: 60
+- PoolId: 200399
+  Name: MG_FIREWALL Active Instances (3-5)
+  Pool:
+  - RoptId: 10254
+    ValMin: 3
+    ValMax: 5
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200401
+  Name: MO_CHAINCOMBO Spirit Sphere (25-50)
+  Pool:
+  - RoptId: 20143
+    ValMin: 25
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: MO_CHAINCOMBO Spirit Sphere
+- PoolId: 200402
+  Name: MO_CHAINCOMBO AutoSpells Lex Aeterna
+  Pool:
+  - RoptId: 20144
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: MO_CHAINCOMBO AutoSpells Lex Aeterna
+- PoolId: 200403
+  Name: Combo skills gain Barrier Breaker (300-350)
+  Pool:
+  - RoptId: 1371
+    ValMin: 300
+    ValMax: 350
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200404
+  Name: RGX_WINDMILL inflicts Blind (40-60)
+  Pool:
+  - RoptId: 20145
+    ValMin: 40
+    ValMax: 60
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: RGX_WINDMILL inflicts Blind
+- PoolId: 200406
+  Name: Combo perfect timing give 4-5 SC_CELERITY
+  Pool:
+  - RoptId: 1373
+    ValMin: 4
+    ValMax: 5
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: Combo perfect timing give SC_CELERITY
+- PoolId: 200407
+  Name: Combo perfect timing gives Power Boom effectiveness (15-25)
+  Pool:
+  - RoptId: 1370
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: Combo perfect timing grants Power Boom effectiveness
+- PoolId: 200408
+  Name: AC_CONCENTRATION Cancels Stun & Gives SC_CELERITY
+  Pool:
+  - RoptId: 10265
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200409
+  Name: RGX_WINDMILL inflicts SC_SPINNING (40-60)
+  Pool:
+  - RoptId: 20148
+    ValMin: 40
+    ValMax: 60
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: RGX_WINDMILL inflicts Spinning
+- PoolId: 200410
+  Name: RGX_WINDMILL inflicts SC_SHOCK, no activation
+  Pool:
+  - RoptId: 20149
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: RGX_WINDMILL inflicts Shock, no activation
+- PoolId: 200411
+  Name: Combo skills autospell AL_HEAL
+  Pool:
+  - RoptId: 1376
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200412
+  Name: RGX_WINDMILL Life Leech (8-15)
+  Pool:
+  - RoptId: 20128
+    ValMin: 8
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: RGX_WINDMILL Life Leech
+- PoolId: 200413
+  Name: RGX_WINDMILL grants Capoeira
+  Pool:
+  - RoptId: 20150
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200414
+  Name: Combo perfect timing Accuracy (75-150)
+  Pool:
+  - RoptId: 1377
+    ValMin: 75
+    ValMax: 150
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: Combo perfect timing Accuracy
+- PoolId: 200415
+  Name: MO_TRIPLEATTACK rate vs Unharmed (30-50)
+  Pool:
+  - RoptId: 20151
+    ValMin: 30
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: MO_TRIPLEATTACK rate vs Unharmed
+- PoolId: 200416
+  Name: Gain +X flee with no shield (30-50)
+  Pool:
+  - RoptId: 1380
+    ValMin: 30
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200419
+  Name: Combo Enders grant mini Suffragium
+  Pool:
+  - RoptId: 1383
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: Combo Enders grant SC_MINISUFF
+- PoolId: 200420
+  Name: Combo Enders grant Dash (5-10s)
+  Pool:
+  - RoptId: 1384
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: Combo Enders grant Dash
+- PoolId: 200421
+  Name: MO_ASURASTRIKE raises Crit (2, 50)
+  Pool:
+  - RoptId: 20153
+    ValMin: 2
+    ValMax: 2
+    ParamMin: 50
+    ParamMax: 50
+- PoolId: 200423
+  Name: Life Leech vs Stunned (20-33)
+  Pool:
+  - RoptId: 1076
+    ValMin: 20
+    ValMax: 33
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200424
+  Name: Stun ignores stat resistance (10-15)
+  Pool:
+  - RoptId: 1169
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200425
+  Name: Crit rate & Crit ATK vs Stun (40-50, 15-25)
+  Pool:
+  - RoptId: 1170
+    ValMin: 40
+    ValMax: 50
+    ParamMin: 15
+    ParamMax: 25
+- PoolId: 200427
+  Name: Stun on weapon attack (4-6)
+  Pool:
+  - RoptId: 1010
+    ValMin: 4
+    ValMax: 6
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200428
+  Name: MO_COMBOFINISH Fortified Stack (2-4)
+  Pool:
+  - RoptId: 20146
+    ValMin: 2
+    ValMax: 4
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200429
+  Name: MO_COMBOFINISH Crit on Stun
+  Pool:
+  - RoptId: 20147
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200430
+  Name: Spirit Sphere on Stun (3-5)
+  Pool:
+  - RoptId: 1386
+    ValMin: 3
+    ValMax: 5
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200431
+  Name: AC_DOUBLE Strike Mark chance (+) (40-60)
+  Pool:
+  - RoptId: 10277
+    ValMin: 40
+    ValMax: 60
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200432
+  Name: Strike Mark duration (15-20)
+  Pool:
+  - RoptId: 1394
+    ValMin: 15
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: Strike Mark duration
+- PoolId: 200433
+  Name: Damage vs Unharmed targets (5-15)
+  Pool:
+  - RoptId: 1399
+    ValMin: 5
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: Damage vs Unharmed targets
+- PoolId: 200434
+  Name: Life Leech on Strike Mark (6-10)
+  Pool:
+  - RoptId: 1395
+    ValMin: 6
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: Life Leech on Strike Mark
+- PoolId: 200436
+  Name: Barrier Breaker on Crit (+) (100-150)
+  Pool:
+  - RoptId: 1292
+    ValMin: 100
+    ValMax: 150
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200437
+  Name: Lv3 Strike Mark kills drop LvX HT_LANDMINE +x%
+  Pool:
+  - RoptId: 1401
+    ValMin: 2
+    ValMax: 3
+    ParamMin: 35
+    ParamMax: 50
+- PoolId: 200438
+  Name: AC_DOUBLE restores SP by Strike level (2-3)
+  Pool:
+  - RoptId: 10279
+    ValMin: 2
+    ValMax: 3
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200439
+  Name: AC_DOUBLE Crits inflict Poison & Bleeding
+  Pool:
+  - RoptId: 10290
+    ValMin: 50
+    ValMax: 70
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200440
+  Name: Weapon damage vs Creatures (10-15)
+  Pool:
+  - RoptId: 1402
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200441
+  Name: ATK & Flee (7-15, 15-20)
+  Pool:
+  - RoptId: 1396
+    ValMin: 7
+    ValMax: 15
+    ParamMin: 15
+    ParamMax: 20
+- PoolId: 200442
+  Name: Crit vs Unharmed targets (+) (50-75)
+  Pool:
+  - RoptId: 1283
+    ValMin: 50
+    ValMax: 75
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200443
+  Name: RGX_GANK works with Bows
+  Pool:
+  - RoptId: 20157
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200444
+  Name: Crits AutoSpell Lv3 AL_DECAGI / PR_LEXAETERNA (15-25, 6-15)
+  Pool:
+  - RoptId: 1403
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 6
+    ParamMax: 15
+- PoolId: 200445
+  Name: Lex Aeterna removes target's Crit Resist
+  Pool:
+  - RoptId: 1404
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: Lex Aeterna removes target's Crit Resist
+- PoolId: 200446
+  Name: Crit ATK vs Blinded (10-20)
+  Pool:
+  - RoptId: 1143
+    ValMin: 10
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200447
+  Name: Double Attacks drop a random trap (3-5)
+  Pool:
+  - RoptId: 1407
+    ValMin: 3
+    ValMax: 5
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200448
+  Name: AC_SHOWER, DC_THROWARROW, TF_THROWSTONE can Double Attack
+  Pool:
+  - RoptId: 10297
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200449
+  Name: Reduce weapon damage, gain Double Attack rate (-50, 20-25)
+  Pool:
+  - RoptId: 1408
+    ValMin: 50
+    ValMax: 50
+    ParamMin: 20
+    ParamMax: 25
+- PoolId: 200450
+  Name: Double Attacks grant Dash (10-15)
+  Pool:
+  - RoptId: 1409
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200451
+  Name: Arrow status triggers grant Dash (15-25)
+  Pool:
+  - RoptId: 1410
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: Arrow status triggers grant Dash
+- PoolId: 200452
+  Name: Double Attacks don't consume Lex Aeterna (25-40)
+  Pool:
+  - RoptId: 1411
+    ValMin: 25
+    ValMax: 40
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200453
+  Name: Double Attacks autospell PR_LEXAETERNA (6-10)
+  Pool:
+  - RoptId: 1412
+    ValMin: 6
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200454
+  Name: Stone Arrows synergy (ATK/MATK/ATK+MATK)
+  Pool:
+  - RoptId: 1413
+    ValMin: 13
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+  - RoptId: 1414
+    ValMin: 13
+    ValMax: 20
+    ParamMin: 0
+    ParamMax: 0
+  - RoptId: 1415
+    ValMin: 8
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200455
+  Name: Crits AutoSpell LvX WZ_EARTHSPIKE (1-3, 5-10)
+  Pool:
+  - RoptId: 1416
+    ValMin: 1
+    ValMax: 3
+    ParamMin: 5
+    ParamMax: 10
+- PoolId: 200456
+  Name: AC_DOUBLE Crits AutoSpell Lv2-4 WZ_HEAVENDRIVE +10-15%
+  Pool:
+  - RoptId: 10298
+    ValMin: 2
+    ValMax: 4
+    ParamMin: 10
+    ParamMax: 15
+- PoolId: 200457
+  Name: Weapon damage vs Stone Curse (7-15)
+  Pool:
+  - RoptId: 1418
+    ValMin: 7
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200458
+  Name: Crits AutoSpell LvX MG_STONECURSE (3-6, 6-12)
+  Pool:
+  - RoptId: 1419
+    ValMin: 3
+    ValMax: 6
+    ParamMin: 6
+    ParamMax: 12
+- PoolId: 200459
+  Name: Dash increases Flee (5-15)
+  Pool:
+  - RoptId: 1327
+    ValMin: 5
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200460
+  Name: AC_CONCENTRATION Cancels Stun & Gives Dash
+  Pool:
+  - RoptId: 10299
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: AC_CONCENTRATION Cancels Stun & Gives Dash
+- PoolId: 200461
+  Name: AGI (3-5)
+  Pool:
+  - RoptId: 1048
+    ValMin: 3
+    ValMax: 5
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200462
+  Name: MDEF (3-4)
+  Pool:
+  - RoptId: 1286
+    ValMin: 3
+    ValMax: 4
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200463
+  Name: Resist vs Midgardians (+) (5-10)
+  Pool:
+  - RoptId: 1266
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200464
+  Name: KN_PIERCE Usable with Blunt 1H Swords
+  Pool:
+  - RoptId: 10300
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200465
+  Name: SM_BASH Autospells Lv3 MG_LIGHTNINGBOLT & Damage -10% (20-35)
+  Pool:
+  - RoptId: 10018
+    ValMin: 3
+    ValMax: 3
+    ParamMin: 20
+    ParamMax: 35
+- PoolId: 200466
+  Name: AutoSpell LvX MG_THUNDERSTORM (Transferable) (2)
+  Pool:
+  - RoptId: 1422
+    ValMin: 2
+    ValMax: 2
+    ParamMin: 3
+    ParamMax: 3
+- PoolId: 200467
+  Name: CR_AUTOGUARD AutoSpells SM_BASH (3%, Lv1)
+  Pool:
+  - RoptId: 20158
+    ValMin: 3
+    ValMax: 3
+    ParamMin: 1
+    ParamMax: 1
+- PoolId: 200468
+  Name: DC_THROWARROW inflicts Bleeding (33-50)
+  Pool:
+  - RoptId: 10303
+    ValMin: 33
+    ValMax: 50
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200469
+  Name: SA_AUTOSPELL Rates (10-15)
+  Pool:
+  - RoptId: 20159
+    ValMin: 10
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200470
+  Name: SA_AUTOSPELL bolts give Mini Suffragium
+  Pool:
+  - RoptId: 20160
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200471
+  Name: SA_AUTOSPELL bolts grant a Celerity stack (20-35)
+  Pool:
+  - RoptId: 20161
+    ValMin: 20
+    ValMax: 35
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200472
+  Name: SA_VIOLENTGALE inflicts Shock (1) (1.2-1.8s)
+  Pool:
+  - RoptId: 20162
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 2
+    ParamMax: 8
+- PoolId: 200473
+  Name: SA_AUTOSPELL Bolts on SA_DISPEL
+  Pool:
+  - RoptId: 20164
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200474
+  Name: MG_THUNDERSTORM inflicts Shock / AutoSpell LvX MG_THUNDERSTORM
+  Pool:
+  - RoptId: 10309
+    ValMin: 15
+    ValMax: 20
+    ParamMin: 10
+    ParamMax: 25
+- PoolId: 200475
+  Name: SA_VIOLENTGALE Improves wind magic autospell rates (15-25)
+  Pool:
+  - RoptId: 20165
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200476
+  Name: Shock cap + tick damage (1, 4-10)
+  Pool:
+  - RoptId: 1429
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 4
+    ParamMax: 10
+- PoolId: 200477
+  Name: Shock active damage
+  Pool:
+  - RoptId: 1305
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200478
+  Name: Autospell LvX MG_LIGHTNINGBOLT (2-3, 10-15)
+  Pool:
+  - RoptId: 1426
+    ValMin: 2
+    ValMax: 3
+    ParamMin: 10
+    ParamMax: 15
+- PoolId: 200479
+  Name: Chill/Heat/Shock ignores stat resistance (7-15)
+  Pool:
+  - RoptId: 1423
+    ValMin: 7
+    ValMax: 15
+    ParamMin: 0
+    ParamMax: 0
+- PoolId: 200480
+  Name: Auto Attacks inflict Strike Mark / no consume Strike Mark (3-10)
+  Pool:
+  - RoptId: 1430
+    ValMin: 3
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0

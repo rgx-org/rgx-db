@@ -1,0 +1,170 @@
+function DebugLog(msg, id)
+	saveFile = io.open("rgx/debug.log", "a")
+	if saveFile ~= nil then
+		saveFile:write(string.format(msg .. "[%d]\n", id))
+	end
+	io.close(saveFile)
+end
+
+
+function ReqWeaponName(index)
+	if WeaponNameTable == nil then
+		return ""
+	end
+	local NameMsg = WeaponNameTable[index]
+	if NameMsg ~= nil then
+		return NameMsg
+	else
+		return ""
+	end
+end
+
+DualWieldMain = 0
+DualWieldAnim = 0
+function ValidateDualWield(mainhand, offhand)
+	if mainhand == 0 or offhand == 0 then
+		return false
+	elseif mainhand ~= Weapon_IDs.WEAPONTYPE_SHORTSWORD and mainhand ~= Weapon_IDs.WEAPONTYPE_SWORD and mainhand ~= Weapon_IDs.WEAPONTYPE_AXE then
+		return false
+	elseif offhand ~= Weapon_IDs.WEAPONTYPE_SHORTSWORD and offhand ~= Weapon_IDs.WEAPONTYPE_SWORD and offhand ~= Weapon_IDs.WEAPONTYPE_AXE then
+		return false
+	end
+	return true
+end
+
+function SetDualWield(mainhand, offhand)
+	-- DebugLog("Set Dual Wield setting offhand to ",offhand)
+	valid = ValidateDualWield(mainhand, offhand)
+	if valid ~= true then
+		DualWieldMain = 0
+		DualWieldAnim = 0
+		return false
+	end
+	DualWieldMain = mainhand
+
+	if mainhand == Weapon_IDs.WEAPONTYPE_SHORTSWORD then
+		if offhand == Weapon_IDs.WEAPONTYPE_SHORTSWORD then
+			DualWieldAnim = Weapon_IDs.WEAPONTYPE_SHORTSWORD_SHORTSWORD
+		elseif offhand == Weapon_IDs.WEAPONTYPE_SWORD then
+			DualWieldAnim = Weapon_IDs.WEAPONTYPE_SHORTSWORD_SWORD
+		elseif offhand == Weapon_IDs.WEAPONTYPE_AXE then
+			DualWieldAnim = Weapon_IDs.WEAPONTYPE_SHORTSWORD_AXE
+		end
+	elseif mainhand == Weapon_IDs.WEAPONTYPE_SWORD then
+		if offhand == Weapon_IDs.WEAPONTYPE_SWORD then
+			DualWieldAnim = Weapon_IDs.WEAPONTYPE_SWORD_SWORD
+		elseif offhand == Weapon_IDs.WEAPONTYPE_AXE then
+			DualWieldAnim = Weapon_IDs.WEAPONTYPE_SWORD_AXE
+		end
+	elseif mainhand == Weapon_IDs.WEAPONTYPE_AXE then
+		if offhand == Weapon_IDs.WEAPONTYPE_AXE then
+			DualWieldAnim = Weapon_IDs.WEAPONTYPE_AXE_AXE
+		end
+	else
+		DualWieldMain = 0
+		DualWieldAnim = 0
+	end
+	-- DebugLog("DualWieldMain: ",DualWieldMain)
+	-- DebugLog("DualWieldAnim: ",DualWieldAnim)
+end
+
+-- Gets called when equipping a mainhand weapon
+
+function ReqWeaponNameByClassNum(classNum)
+	-- DebugLog("// [ReqWeaponByClassNum]",classNum)
+	-- if MyJobID == 12 then -- Only for assassins, never for shields
+	-- 	if classNum == 1 or classNum == 2 or classNum == 6 then -- only for Dagger,1hsword,1haxe
+	-- 		if LastCall == "ReqWeaponNameByClassNum" and LastWeaponId == classNum then
+	-- 			DualWieldMain = classNum
+	-- 		end
+	-- 	else
+	-- 		DualWieldMain = 0
+	-- 	end
+	-- 	LastWeaponId = classNum
+	-- 	LastCall = "ReqWeaponNameByClassNum"
+	-- end
+	--SetDualWield(classNum)
+	if classNum == nil then
+		return ""
+	end
+	local NameMsg = WeaponNameTable[classNum]
+	if NameMsg ~= nil then
+		return NameMsg
+	else
+		return ""
+	end
+end
+
+function GetRealWeaponId(weaponId)
+	-- DebugLog("// [GetRealWeaponId] DualWieldAnim is ", DualWieldAnim)
+	if weaponId == nil then
+		return 0
+	end
+	--reduce 'specific' weapons (Girl's Diary etc) to their bases. sprites still show as normal due to function call order.
+	local id = Expansion_Weapon_IDs[weaponId]
+	if id ~= nil then
+		weaponId = id
+	end
+	--map IDs to whatever is valid for the class + whatever has desired animation
+	local mappedWeaponId = DetermineWeaponAnimation(weaponId)
+	if mappedWeaponId ~= nil then
+		if DualWieldAnim ~= 0 then
+			mappedWeaponId = DualWieldAnim
+		end
+		-- DebugLog("Final mapped ID: ",mappedWeaponId)
+		return mappedWeaponId
+	else
+		return weaponId
+	end
+end
+
+-- MySex: 0 = Female, 1 = Male
+function DetermineWeaponAnimation(weaponId)
+	-- DebugLog("// [DetermineWeaponAnimation] DualWieldMain is ", weaponId)
+	local id = nil
+	if MyJobID ~= nil then
+		if MySex ~= nil then
+			if MySex == 1 then
+				local maleJobWeaponTable = MaleJobs[MyJobID]
+				if maleJobWeaponTable ~= nil then
+					id = maleJobWeaponTable[weaponId]
+				end
+			elseif MySex == 0 then
+				local femaleJobWeaponTable = FemaleJobs[MyJobID]
+				if femaleJobWeaponTable ~= nil then
+					id = femaleJobWeaponTable[weaponId]
+				end
+			end
+			if DualWieldMain ~= 0 then
+				id = 16
+			end
+			if id ~= nil then
+				return id
+			end
+		end
+	end
+	return weaponId -- No specific case caught, just return weaponId
+end
+
+function ReqWeaponHitWaveName(index)
+	--DebugLog("ReqWeaponHitWaveName", index)
+	if WeaponHitWaveNameTable == nil then
+		return ""
+	end
+	local NameMsg = WeaponHitWaveNameTable[index]
+	if NameMsg ~= nil then
+		return NameMsg
+	else
+		return ""
+	end
+end
+
+function IsItemUsingArrow ( type )
+	--DebugLog("IsItemUsingArrow", type)
+	for k, val in ipairs( BowTypeList ) do
+		if ( type == val ) then
+			return true
+		end
+	end
+	return false
+end

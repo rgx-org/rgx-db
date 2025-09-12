@@ -1,0 +1,622 @@
+Header:
+  Type: RANDOM_OPTION_POOLSET_DB
+  Version: 3
+Body:
+- Id: 1000
+  Name: EmptyWeaponSet
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 1001
+  Name: Knife
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100100
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100101
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100134
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100075
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100127
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100136
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100103
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100113
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100139
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100104
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100135
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100137
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100102
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100138
+      Weight: 1
+      Tags:
+      - None
+- Id: 1002
+  Name: Cutter (Swift)
+  Tags:
+  - Name: Poison
+    Weight: 1
+    WeightMod: 4
+  - Name: Envenom
+    Weight: 1
+    WeightMod: 4
+  - Name: DA
+    Weight: 1
+    WeightMod: 4
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100062
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100071
+      Weight: 1
+      Tags:
+      - Poison
+  - Line: 2
+    Pools:
+    - Id: 100073
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 100075
+      Weight: 1
+      Tags:
+      - Envenom
+    - Id: 100081
+      Weight: 1
+      Tags:
+      - DA
+  - Line: 3
+    Pools:
+    - Id: 100074
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 100076
+      Weight: 1
+      Tags:
+      - Envenom
+    - Id: 100082
+      Weight: 1
+      Tags:
+      - DA
+  - Line: 4
+    Pools:
+    - Id: 100072
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 100074
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 100077
+      Weight: 1
+      Tags:
+      - Envenom
+    - Id: 100080
+      Weight: 1
+      Tags:
+      - DA
+  - Line: 5
+    Pools:
+    - Id: 100030
+      Weight: 1
+      Tags:
+      - DA
+    - Id: 100078
+      Weight: 1
+      Tags:
+      - Poison
+- Id: 1003
+  Name: Main Gauche (Swift)
+  Tags:
+  - Name: Poison
+    Weight: 1
+    WeightMod: 50
+  - Name: Bleeding
+    Weight: 1
+    WeightMod: 50
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100059
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100060
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100061
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100062
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 100063
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 100070
+      Weight: 1
+      Tags:
+      - Poison
+      - Bleeding
+  - Line: 3
+    Pools:
+    - Id: 100017
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100065
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100067
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100066
+      Weight: 1
+      Tags:
+      - Poison
+      - Bleeding
+    - Id: 100068
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 100069
+      Weight: 1
+      Tags:
+      - Bleeding
+  - Line: 5
+    Pools:
+    - Id: 100060
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100061
+      Weight: 1
+      Tags:
+      - None
+- Id: 1004
+  Name: Cowardice Knife (Swift)
+  Tags:
+  - Name: Status
+    Weight: 1
+    WeightMod: 5
+  - Name: Double
+    Weight: 1
+    WeightMod: 1
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 200159
+      Weight: 1
+      Tags:
+      - Double
+    - Id: 200164
+      Weight: 1
+      Tags:
+      - Status
+  - Line: 2
+    Pools:
+    - Id: 200165
+      Weight: 1
+      Tags:
+      - Status
+    - Id: 200168
+      Weight: 1
+      Tags:
+      - Double
+    - Id: 200171
+      Weight: 1
+      Tags:
+      - Status
+      - Double
+    - Id: 200185
+      Weight: 1
+      Tags:
+      - Status
+      - Double
+  - Line: 3
+    Pools:
+    - Id: 200160
+      Weight: 1
+      Tags:
+      - Double
+    - Id: 200162
+      Weight: 1
+      Tags:
+      - Status
+    - Id: 200173
+      Weight: 1
+      Tags:
+      - Status
+    - Id: 200380
+      Weight: 1
+      Tags:
+      - Double
+  - Line: 4
+    Pools:
+    - Id: 200161
+      Weight: 1
+      Tags:
+      - Status
+    - Id: 200166
+      Weight: 1
+      Tags:
+      - Status
+    - Id: 200167
+      Weight: 1
+      Tags:
+      - Double
+    - Id: 200172
+      Weight: 1
+      Tags:
+      - Double
+  - Line: 5
+    Pools:
+    - Id: 200158
+      Weight: 1
+      Tags:
+      - Double
+    - Id: 200170
+      Weight: 1
+      Tags:
+      - Status
+- Id: 1005
+  Name: Dirk (Bullseye)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 1007
+  Name: Jeweled Knife (Arcane)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100028
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100029
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100098
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100031
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100032
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100033
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100016
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100034
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100035
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100036
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100037
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100040
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100038
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100039
+      Weight: 1
+      Tags:
+      - None
+- Id: 1008
+  Name: Princess Dagger (Arcane)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 200076
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 200078
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200079
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200089
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 200080
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200081
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 200083
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200084
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200085
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200086
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 200087
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200088
+      Weight: 1
+      Tags:
+      - None
+- Id: 1009
+  Name: Poison Dagger (Precise)
+  Tags:
+  - Name: Splasher
+    Weight: 1
+    WeightMod: 2
+  - Name: VenomKnife
+    Weight: 1
+    WeightMod: 2
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 200046
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200053
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 200038
+      Weight: 1
+      Tags:
+      - VenomKnife
+    - Id: 200042
+      Weight: 1
+      Tags:
+      - Splasher
+    - Id: 200045
+      Weight: 1
+      Tags:
+      - VenomKnife
+    - Id: 200052
+      Weight: 1
+      Tags:
+      - Splasher
+  - Line: 3
+    Pools:
+    - Id: 200041
+      Weight: 1
+      Tags:
+      - VenomKnife
+    - Id: 200047
+      Weight: 1
+      Tags:
+      - VenomKnife
+      - Splasher
+    - Id: 200050
+      Weight: 1
+      Tags:
+      - Splasher
+    - Id: 200381
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 200043
+      Weight: 1
+      Tags:
+      - VenomKnife
+    - Id: 200044
+      Weight: 1
+      Tags:
+      - Splasher
+    - Id: 200051
+      Weight: 1
+      Tags:
+      - VenomKnife
+  - Line: 5
+    Pools:
+    - Id: 200037
+      Weight: 1
+      Tags:
+      - VenomKnife
+    - Id: 200040
+      Weight: 1
+      Tags:
+      - Splasher
+- Id: 1010
+  Name: Stiletto (Bullseye)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100046
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100151
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100152
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100048
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100255
+      Weight: 1
+      Tags:
+      - None

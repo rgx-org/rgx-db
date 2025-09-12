@@ -1,0 +1,3041 @@
+Header:
+  Type: SPAWNGROUP_DB
+  Version: 3
+Body:
+- Id: 1000
+  Name: f01 - Mastering
+  Members:
+  - Id: 25000
+    Name: Poring
+    Count: 250
+    RewardMod: 50
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25001
+    Name: Drops
+    Count: 275
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25242
+    Name: Willow
+    Count: 75
+    RewardMod: 150
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28076
+    Name: Eclipse
+    Count: 1
+    RewardMod: 100
+    SpawnX: 178
+    SpawnY: 228
+    SpawnArea: 6
+    RespawnTimer: -2
+    Foe: true
+  - Id: 25245
+    Name: Condor
+    Count: 10
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25240
+    Name: Fabre
+    Count: 210
+    RewardMod: 125
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25241
+    Name: Chonchon
+    Count: 25
+    RewardMod: 150
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25244
+    Name: Picky
+    RewardMod: 5
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25243
+    Name: Picky
+    RewardMod: 5
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+- Id: 1010
+  Name: f02 - Vocal (Creamy)
+  Members:
+  - Id: 25002
+    Name: Poporing
+    Count: 165
+    RewardMod: 125
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25008
+    Name: Mandragora
+    Count: 45
+    RewardMod: 20
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28002
+    Name: Filir
+    Count: 1
+    RewardMod: 100
+    SpawnX: 207
+    SpawnY: 278
+    SpawnArea: 6
+    RespawnTimer: -1
+    Foe: true
+  - Id: 25009
+    Name: Pupa
+    Count: 20
+    RewardMod: 10
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25010
+    Name: Creamy
+    Count: 35
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25248
+    Name: Boa
+    Count: 40
+    RewardMod: 120
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+- Id: 1011
+  Name: f02 - Vocal (Hornets)
+  Members:
+  - Id: 25002
+    Name: Poporing
+    Count: 165
+    RewardMod: 125
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25008
+    Name: Mandragora
+    Count: 45
+    RewardMod: 20
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28002
+    Name: Filir
+    Count: 1
+    RewardMod: 100
+    SpawnX: 207
+    SpawnY: 278
+    SpawnArea: 6
+    RespawnTimer: -1
+    Foe: true
+  - Id: 25011
+    Name: Hornet
+    Count: 60
+    RewardMod: 80
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25247
+    Name: Wormtail
+    Count: 40
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25246
+    Name: Hornet
+    RewardMod: 80
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+- Id: 1020
+  Name: f02 - RottenBones (Andre)
+  Members:
+  - Id: 25012
+    Name: Skeleton
+    Count: 26
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25013
+    Name: Zombie
+    Count: 18
+    RewardMod: 125
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25014
+    Name: Familiar
+    Count: 10
+    RewardMod: 50
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28004
+    Name: Mutated Vanilmirth
+    Count: 1
+    RewardMod: 100
+    SpawnX: 32
+    SpawnY: 111
+    SpawnArea: 3
+    RespawnTimer: -1
+    Foe: true
+  - Id: 25252
+    Name: Andre
+    Count: 7
+    RewardMod: 110
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25254
+    Name: Vitata
+    Count: 4
+    RewardMod: 150
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+- Id: 1021
+  Name: f02 - RottenBones (Piere)
+  Members:
+  - Id: 25012
+    Name: Skeleton
+    Count: 26
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25013
+    Name: Zombie
+    Count: 18
+    RewardMod: 125
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25014
+    Name: Familiar
+    Count: 10
+    RewardMod: 50
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28004
+    Name: Mutated Vanilmirth
+    Count: 1
+    RewardMod: 100
+    SpawnX: 32
+    SpawnY: 111
+    SpawnArea: 3
+    RespawnTimer: -1
+    Foe: true
+  - Id: 25253
+    Name: Piere
+    Count: 7
+    RewardMod: 150
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25254
+    Name: Vitata
+    Count: 4
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+- Id: 1030
+  Name: f03 - Angeling
+  Members:
+  - Id: 25015
+    Name: Spore
+    Count: 120
+    RewardMod: 150
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25280
+    Name: Poison Spore
+    Count: 30
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25017
+    Name: Elder Willow
+    Count: 25
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25281
+    Name: Tenka Dai Shougun
+    Count: 30
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28080
+    Name: Deviling
+    Count: 1
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+- Id: 1040
+  Name: f04 - Aqua (Jellies)
+  Members:
+  - Id: 25258
+    Name: Thara Frog
+    Count: 68
+    RewardMod: 120
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25019
+    Name: Hydra
+    Count: 40
+    RewardMod: 5
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25018
+    Name: Sapphire
+    Count: 10
+    RewardMod: 250
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25020
+    Name: Marse
+    Count: 3
+    RewardMod: 300
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: 75000
+  - Id: 25021
+    Name: Marina
+    Count: 5
+    RewardMod: 150
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28008
+    Name: Vanilmirth
+    Count: 1
+    RewardMod: 100
+    SpawnX: 131
+    SpawnY: 205
+    SpawnArea: 6
+    RespawnTimer: -1
+    Foe: true
+  - Id: 25272
+    Name: Plankton
+    Count: 15
+    RewardMod: 1
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25259
+    Name: Roda Frog Baby
+    RewardMod: 5
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+- Id: 1041
+  Name: f04 - Aqua (Crabz)
+  Members:
+  - Id: 25258
+    Name: Thara Frog
+    Count: 68
+    RewardMod: 120
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25019
+    Name: Hydra
+    Count: 40
+    RewardMod: 5
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25018
+    Name: Sapphire
+    Count: 10
+    RewardMod: 250
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25256
+    Name: Vadon
+    Count: 10
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25257
+    Name: Crab
+    Count: 3
+    RewardMod: 300
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28008
+    Name: Vanilmirth
+    Count: 1
+    RewardMod: 100
+    SpawnX: 131
+    SpawnY: 205
+    SpawnArea: 6
+    RespawnTimer: -1
+    Foe: true
+  - Id: 25272
+    Name: Plankton
+    Count: 15
+    RewardMod: 1
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25259
+    Name: Roda Frog Baby
+    RewardMod: 5
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+- Id: 1050
+  Name: f04 - Tera (Hode)
+  Members:
+  - Id: 25355
+    Name: Siorava
+    Count: 30
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25357
+    Name: Raggler
+    Count: 35
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25023
+    Name: Pitaya
+    Count: 30
+    RewardMod: 90
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25244
+    Name: Picky
+    RewardMod: 5
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25244
+    Name: Picky
+    RewardMod: 5
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25275
+    Name: Peco Peco Egg
+    Count: 55
+    RewardMod: 10
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25022
+    Name: Peco Peco
+    Count: 70
+    RewardMod: 120
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25025
+    Name: Hode
+    Count: 45
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28010
+    Name: Amistr
+    Count: 1
+    RewardMod: 100
+    SpawnX: 139
+    SpawnY: 76
+    SpawnArea: 6
+    RespawnTimer: -1
+    Foe: true
+- Id: 1060
+  Name: f06 - Goblin (Standard)
+  Members:
+  - Id: 25032
+    Name: Goblin
+    Count: 10
+    RewardMod: 80
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25033
+    Name: Goblin
+    Count: 9
+    RewardMod: 80
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25034
+    Name: Goblin
+    Count: 9
+    RewardMod: 80
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25035
+    Name: Goblin
+    Count: 10
+    RewardMod: 80
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25036
+    Name: Goblin
+    Count: 10
+    RewardMod: 80
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25037
+    Name: Goblin
+    Count: 8
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28012
+    Name: Kublin
+    Count: 1
+    RewardMod: 100
+    SpawnX: 105
+    SpawnY: 44
+    SpawnArea: 1
+    RespawnTimer: -1
+    Foe: true
+  - Id: 25300
+    Name: Goblin Chief
+    Count: 1
+    RewardMod: 300
+    SpawnX: 153
+    SpawnY: 103
+    SpawnArea: 3
+    RespawnTimer: -2
+  - Id: 25300
+    Name: Goblin Chief
+    Count: 1
+    RewardMod: 300
+    SpawnX: 121
+    SpawnY: 65
+    SpawnArea: 3
+    RespawnTimer: -2
+  - Id: 25300
+    Name: Goblin Chief
+    Count: 1
+    RewardMod: 300
+    SpawnX: 106
+    SpawnY: 105
+    SpawnArea: 3
+    RespawnTimer: -2
+  - Id: 25300
+    Name: Goblin Chief
+    Count: 1
+    RewardMod: 300
+    SpawnX: 64
+    SpawnY: 88
+    SpawnArea: 2
+    RespawnTimer: -2
+  - Id: 25300
+    Name: Goblin Chief
+    Count: 3
+    RewardMod: 300
+    SpawnX: 20
+    SpawnY: 179
+    SpawnArea: 8
+    RespawnTimer: -2
+- Id: 1070
+  Name: f06 - Kobold (Lhz)
+  Members:
+  - Id: 25042
+    Name: Kobold
+    Count: 20
+    RewardMod: 110
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25043
+    Name: Kobold
+    Count: 20
+    RewardMod: 110
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25044
+    Name: Kobold
+    Count: 19
+    RewardMod: 120
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25045
+    Name: Kobold Archer
+    Count: 17
+    RewardMod: 105
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25047
+    Name: Wild Rose
+    Count: 5
+    RewardMod: 150
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28006
+    Name: Vagabond Wolf
+    Count: 1
+    RewardMod: 100
+    SpawnX: 92
+    SpawnY: 247
+    SpawnArea: 1
+    RespawnTimer: -1
+    Foe: true
+  - Id: 25046
+    Name: Rafflesia
+    Count: 14
+    RewardMod: 75
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25287
+    Name: Holden
+    Count: 14
+    RewardMod: 125
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25337
+    Name: Stem Worm
+    Count: 8
+    RewardMod: 85
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+- Id: 1071
+  Name: f06 - Kobold (Bugs)
+  Members:
+  - Id: 25042
+    Name: Kobold
+    Count: 20
+    RewardMod: 110
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25043
+    Name: Kobold
+    Count: 20
+    RewardMod: 110
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25044
+    Name: Kobold
+    Count: 19
+    RewardMod: 120
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25045
+    Name: Kobold Archer
+    Count: 17
+    RewardMod: 105
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25047
+    Name: Wild Rose
+    Count: 5
+    RewardMod: 150
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28006
+    Name: Vagabond Wolf
+    Count: 1
+    RewardMod: 100
+    SpawnX: 92
+    SpawnY: 247
+    SpawnArea: 1
+    RespawnTimer: -1
+    Foe: true
+  - Id: 25046
+    Name: Rafflesia
+    Count: 13
+    RewardMod: 75
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25288
+    Name: Ambernite
+    Count: 15
+    RewardMod: 90
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25289
+    Name: Dustiness
+    Count: 8
+    RewardMod: 125
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+- Id: 1080
+  Name: f07 - Menblatt
+  Members:
+  - Id: 25048
+    Name: Pere
+    Count: 15
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25049
+    Name: Pere
+    Count: 15
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25050
+    Name: Pere
+    Count: 15
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25051
+    Name: Pere
+    Count: 15
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25052
+    Name: Parasite
+    Count: 10
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28103
+    Name: Grand Pere
+    Count: 1
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+- Id: 1090
+  Name: f08 - Eddga
+  Members:
+  - Id: 25053
+    Name: Wood Goblin
+    Count: 25
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28082
+    Name: Lady Tanee
+    Count: 1
+    RewardMod: 175
+    SpawnX: 182
+    SpawnY: 126
+    SpawnArea: 1
+    RespawnTimer: -1
+    Foe: true
+  - Id: 25342
+    Name: Lichtern
+    Count: 15
+    RewardMod: 75
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25055
+    Name: Wooden Golem
+    Count: 1
+    RewardMod: 750
+    SpawnX: 74
+    SpawnY: 89
+    SpawnArea: 32
+    RespawnTimer: -2
+  - Id: 25055
+    Name: Wooden Golem
+    Count: 1
+    RewardMod: 750
+    SpawnX: 74
+    SpawnY: 160
+    SpawnArea: 32
+    RespawnTimer: -2
+  - Id: 25055
+    Name: Wooden Golem
+    Count: 1
+    RewardMod: 750
+    SpawnX: 142
+    SpawnY: 168
+    SpawnArea: 32
+    RespawnTimer: -2
+  - Id: 25055
+    Name: Wooden Golem
+    Count: 1
+    RewardMod: 750
+    SpawnX: 142
+    SpawnY: 89
+    SpawnArea: 32
+    RespawnTimer: -2
+  - Id: 25055
+    Name: Wooden Golem
+    Count: 1
+    RewardMod: 750
+    SpawnX: 226
+    SpawnY: 129
+    SpawnArea: 32
+    RespawnTimer: -2
+  - Id: 25055
+    Name: Wooden Golem
+    Count: 1
+    RewardMod: 750
+    SpawnX: 225
+    SpawnY: 87
+    SpawnArea: 18
+    RespawnTimer: -2
+  - Id: 25055
+    Name: Wooden Golem
+    Count: 1
+    RewardMod: 750
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25344
+    Name: Coco
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25236
+    Name: Brute Amistr
+    Count: 40
+    RewardMod: 75
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+- Id: 1100
+  Name: f08 - Phreeoni
+  Members:
+  - Id: 25350
+    Name: Giearth
+    Count: 50
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25063
+    Name: Sandman
+    Count: 40
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25064
+    Name: Sleeper
+    Count: 29
+    RewardMod: 150
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25066
+    Name: Scorpion
+    Count: 35
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28022
+    Name: Faceworm Queen
+    Count: 1
+    RewardMod: 100
+    SpawnX: 316
+    SpawnY: 179
+    SpawnArea: 7
+    RespawnTimer: -1
+    Foe: true
+  - Id: 25039
+    Name: Golem
+    Count: 8
+    RewardMod: 250
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+- Id: 1110
+  Name: f09 - TaoGunka
+  Members:
+  - Id: 25057
+    Name: Hill Wind
+    Count: 70
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+- Id: 1120
+  Name: f11 - Drake
+  Members:
+  - Id: 25384
+    Name: Wild Rider
+    RewardMod: 900
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25073
+    Name: Merman
+    Count: 9
+    RewardMod: 130
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25075
+    Name: Marc
+    Count: 12
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25305
+    Name: Obeaune
+    Count: 16
+    RewardMod: 90
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25403
+    Name: Ice Straw
+    Count: 22
+    RewardMod: 70
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28100
+    Name: Limacina
+    Count: 1
+    RewardMod: 125
+    SpawnX: 33
+    SpawnY: 175
+    SpawnArea: 1
+    RespawnTimer: -2
+    Foe: true
+  - Id: 25074
+    Name: Swordfish
+    Count: 15
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+- Id: 1130
+  Name: f11 - Pharaoh
+  Members:
+  - Id: 25077
+    Name: Pasana
+    Count: 15
+    RewardMod: 110
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25078
+    Name: Isis
+    Count: 33
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28026
+    Name: Amon Ra
+    Count: 1
+    RewardMod: 125
+    SpawnX: 119
+    SpawnY: 124
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+  - Id: 25080
+    Name: Marduk
+    Count: 10
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25422
+    Name: Treasure
+    Count: 10
+    RewardMod: 700
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25306
+    Name: Mummy
+    Count: 25
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25113
+    Name: Minorous
+    Count: 16
+    RewardMod: 115
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: 15000
+  - Id: 25423
+    Name: Treasure
+    Count: 1
+    RewardMod: 1400
+    SpawnX: 127
+    SpawnY: 109
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25423
+    Name: Treasure
+    Count: 1
+    RewardMod: 1400
+    SpawnX: 112
+    SpawnY: 112
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25422
+    Name: Treasure
+    Count: 2
+    RewardMod: 700
+    SpawnX: 125
+    SpawnY: 120
+    SpawnArea: 6
+    RespawnTimer: -2
+  - Id: 25422
+    Name: Treasure
+    Count: 2
+    RewardMod: 700
+    SpawnX: 113
+    SpawnY: 122
+    SpawnArea: 6
+    RespawnTimer: -2
+  - Id: 25370
+    Name: Anubis
+    Count: 1
+    RewardMod: 350
+    SpawnX: 56
+    SpawnY: 180
+    SpawnArea: 12
+    RespawnTimer: -2
+  - Id: 25370
+    Name: Anubis
+    Count: 1
+    RewardMod: 350
+    SpawnX: 215
+    SpawnY: 25
+    SpawnArea: 12
+    RespawnTimer: -2
+  - Id: 25370
+    Name: Anubis
+    Count: 1
+    RewardMod: 350
+    SpawnX: 218
+    SpawnY: 218
+    SpawnArea: 12
+    RespawnTimer: -2
+  - Id: 25370
+    Name: Anubis
+    Count: 1
+    RewardMod: 350
+    SpawnX: 23
+    SpawnY: 23
+    SpawnArea: 12
+    RespawnTimer: -2
+  - Id: 25370
+    Name: Anubis
+    Count: 1
+    RewardMod: 350
+    SpawnX: 81
+    SpawnY: 75
+    SpawnArea: 3
+    RespawnTimer: -2
+  - Id: 25370
+    Name: Anubis
+    Count: 1
+    RewardMod: 350
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+- Id: 1140
+  Name: f12 - TurtleGeneral
+  Members:
+  - Id: 25087
+    Name: Wooden Warrior
+    Count: 34
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25088
+    Name: Assaulter
+    Count: 13
+    RewardMod: 120
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25346
+    Name: Spring Rabbit
+    Count: 10
+    RewardMod: 120
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25090
+    Name: Permeter
+    Count: 8
+    RewardMod: 70
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25091
+    Name: Solider
+    Count: 8
+    RewardMod: 70
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25092
+    Name: Heater
+    Count: 8
+    RewardMod: 70
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25345
+    Name: Freezer
+    Count: 8
+    RewardMod: 70
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28030
+    Name: Hardrock Mammoth
+    Count: 1
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+  - Id: 25314
+    Name: Medusa
+    Count: 6
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+- Id: 1150
+  Name: f13 - OrcHero
+  Members:
+  - Id: 25432
+    Name: Orc Sniper
+    Count: 1
+    RewardMod: 100
+    SpawnX: 344
+    SpawnY: 172
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25432
+    Name: Orc Sniper
+    Count: 1
+    RewardMod: 100
+    SpawnX: 342
+    SpawnY: 172
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25432
+    Name: Orc Sniper
+    Count: 1
+    RewardMod: 100
+    SpawnX: 342
+    SpawnY: 171
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25432
+    Name: Orc Sniper
+    Count: 1
+    RewardMod: 100
+    SpawnX: 341
+    SpawnY: 170
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25432
+    Name: Orc Sniper
+    Count: 1
+    RewardMod: 100
+    SpawnX: 340
+    SpawnY: 169
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25432
+    Name: Orc Sniper
+    Count: 1
+    RewardMod: 100
+    SpawnX: 339
+    SpawnY: 169
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25432
+    Name: Orc Sniper
+    Count: 1
+    RewardMod: 100
+    SpawnX: 339
+    SpawnY: 168
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25432
+    Name: Orc Sniper
+    Count: 1
+    RewardMod: 100
+    SpawnX: 340
+    SpawnY: 166
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25432
+    Name: Orc Sniper
+    Count: 1
+    RewardMod: 100
+    SpawnX: 337
+    SpawnY: 176
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25432
+    Name: Orc Sniper
+    Count: 1
+    RewardMod: 100
+    SpawnX: 334
+    SpawnY: 172
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25432
+    Name: Orc Sniper
+    Count: 1
+    RewardMod: 100
+    SpawnX: 353
+    SpawnY: 198
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25438
+    Name: Bungisngis
+    Count: 1
+    RewardMod: 125
+    SpawnX: 332
+    SpawnY: 177
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25439
+    Name: Goblin Chief
+    Count: 1
+    RewardMod: 25
+    SpawnX: 329
+    SpawnY: 180
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25436
+    Name: Tikbalang
+    Count: 1
+    RewardMod: 300
+    SpawnX: 338
+    SpawnY: 121
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25432
+    Name: Orc Sniper
+    Count: 1
+    RewardMod: 100
+    SpawnX: 366
+    SpawnY: 143
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25438
+    Name: Bungisngis
+    Count: 1
+    RewardMod: 125
+    SpawnX: 360
+    SpawnY: 194
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25438
+    Name: Bungisngis
+    Count: 1
+    RewardMod: 125
+    SpawnX: 350
+    SpawnY: 152
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25438
+    Name: Bungisngis
+    Count: 1
+    RewardMod: 125
+    SpawnX: 340
+    SpawnY: 133
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 28036
+    Name: Orc Lord
+    Count: 1
+    RewardMod: 150
+    SpawnX: 329
+    SpawnY: 70
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+  - Id: 25438
+    Name: Bungisngis
+    Count: 1
+    RewardMod: 125
+    SpawnX: 363
+    SpawnY: 173
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25432
+    Name: Orc Sniper
+    Count: 1
+    RewardMod: 100
+    SpawnX: 345
+    SpawnY: 190
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25432
+    Name: Orc Sniper
+    Count: 1
+    RewardMod: 100
+    SpawnX: 342
+    SpawnY: 180
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25432
+    Name: Orc Sniper
+    Count: 1
+    RewardMod: 100
+    SpawnX: 335
+    SpawnY: 159
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25432
+    Name: Orc Sniper
+    Count: 1
+    RewardMod: 100
+    SpawnX: 336
+    SpawnY: 145
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25432
+    Name: Orc Sniper
+    Count: 1
+    RewardMod: 100
+    SpawnX: 325
+    SpawnY: 133
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25422
+    Name: Treasure
+    Count: 1
+    RewardMod: 700
+    SpawnX: 353
+    SpawnY: 195
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25422
+    Name: Treasure
+    Count: 1
+    RewardMod: 700
+    SpawnX: 363
+    SpawnY: 144
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25422
+    Name: Treasure
+    Count: 1
+    RewardMod: 700
+    SpawnX: 315
+    SpawnY: 53
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25423
+    Name: Treasure
+    Count: 1
+    RewardMod: 1400
+    SpawnX: 280
+    SpawnY: 27
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25423
+    Name: Treasure
+    Count: 1
+    RewardMod: 1400
+    SpawnX: 279
+    SpawnY: 30
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25423
+    Name: Treasure
+    Count: 1
+    RewardMod: 1400
+    SpawnX: 278
+    SpawnY: 34
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25423
+    Name: Treasure
+    Count: 1
+    RewardMod: 1400
+    SpawnX: 279
+    SpawnY: 37
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25422
+    Name: Treasure
+    Count: 1
+    RewardMod: 700
+    SpawnX: 281
+    SpawnY: 28
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25422
+    Name: Treasure
+    Count: 1
+    RewardMod: 700
+    SpawnX: 280
+    SpawnY: 31
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25422
+    Name: Treasure
+    Count: 1
+    RewardMod: 700
+    SpawnX: 281
+    SpawnY: 34
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25422
+    Name: Treasure
+    Count: 1
+    RewardMod: 700
+    SpawnX: 281
+    SpawnY: 38
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25101
+    Name: High Orc
+    Count: 19
+    RewardMod: 300
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: 120000
+  - Id: 25103
+    Name: Orc Warrior
+    Count: 77
+    RewardMod: 167
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: 120000
+  - Id: 25106
+    Name: Geographer
+    Count: 30
+    RewardMod: 250
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25520
+    Name: Old Purple Box
+    Count: 1
+    RewardMod: 200
+    SpawnX: 278
+    SpawnY: 32
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25519
+    Name: Old Blue Box
+    Count: 1
+    RewardMod: 200
+    SpawnX: 283
+    SpawnY: 25
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25519
+    Name: Old Blue Box
+    Count: 1
+    RewardMod: 200
+    SpawnX: 280
+    SpawnY: 39
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25528
+    Name: Shining Plant
+    Count: 1
+    RewardMod: 100
+    SpawnX: 315
+    SpawnY: 40
+    SpawnArea: 1
+    RespawnTimer: -2
+  - Id: 25528
+    Name: Shining Plant
+    Count: 1
+    RewardMod: 100
+    SpawnX: 300
+    SpawnY: 36
+    SpawnArea: 1
+    RespawnTimer: -2
+- Id: 1160
+  Name: f13 - Scaraba
+  Members:
+  - Id: 25115
+    Name: Scaraba
+    Count: 15
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25116
+    Name: Scaraba
+    Count: 15
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25117
+    Name: Scaraba
+    Count: 1
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: 12000
+  - Id: 25118
+    Name: Scaraba
+    Count: 1
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: 12000
+  - Id: 25451
+    Name: Brood Mother
+    Count: 1
+    RewardMod: 1600
+    SpawnX: 210
+    SpawnY: 36
+    SpawnArea: 2
+    RespawnTimer: -2
+  - Id: 25443
+    Name: Brood Egg
+    Count: 3
+    RewardMod: 10
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25443
+    Name: Brood Egg
+    Count: 4
+    RewardMod: 10
+    SpawnX: 215
+    SpawnY: 40
+    SpawnArea: 4
+    RespawnTimer: -2
+  - Id: 25443
+    Name: Brood Egg
+    Count: 4
+    RewardMod: 10
+    SpawnX: 216
+    SpawnY: 32
+    SpawnArea: 4
+    RespawnTimer: -2
+  - Id: 25443
+    Name: Brood Egg
+    Count: 6
+    RewardMod: 10
+    SpawnX: 215
+    SpawnY: 36
+    SpawnArea: 6
+    RespawnTimer: -2
+  - Id: 25446
+    Name: Brood Egg
+    Count: 1
+    RewardMod: 30
+    SpawnX: 215
+    SpawnY: 40
+    SpawnArea: 3
+    RespawnTimer: -2
+  - Id: 25446
+    Name: Brood Egg
+    Count: 1
+    RewardMod: 30
+    SpawnX: 216
+    SpawnY: 32
+    SpawnArea: 3
+    RespawnTimer: -2
+  - Id: 25446
+    Name: Brood Egg
+    Count: 3
+    RewardMod: 30
+    SpawnX: 215
+    SpawnY: 36
+    SpawnArea: 6
+    RespawnTimer: -2
+  - Id: 25446
+    Name: Brood Egg
+    Count: 1
+    RewardMod: 30
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25452
+    Name: Brood Mother
+    Count: 1
+    RewardMod: 1600
+    SpawnX: 88
+    SpawnY: 203
+    SpawnArea: 2
+    RespawnTimer: -2
+  - Id: 25444
+    Name: Brood Egg
+    Count: 2
+    RewardMod: 10
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25444
+    Name: Brood Egg
+    Count: 6
+    RewardMod: 10
+    SpawnX: 87
+    SpawnY: 214
+    SpawnArea: 4
+    RespawnTimer: -2
+  - Id: 25444
+    Name: Brood Egg
+    Count: 3
+    RewardMod: 10
+    SpawnX: 83
+    SpawnY: 217
+    SpawnArea: 3
+    RespawnTimer: -2
+  - Id: 25444
+    Name: Brood Egg
+    Count: 3
+    RewardMod: 10
+    SpawnX: 91
+    SpawnY: 214
+    SpawnArea: 3
+    RespawnTimer: -2
+  - Id: 25447
+    Name: Brood Egg
+    Count: 2
+    RewardMod: 30
+    SpawnX: 87
+    SpawnY: 214
+    SpawnArea: 5
+    RespawnTimer: -2
+  - Id: 25447
+    Name: Brood Egg
+    Count: 1
+    RewardMod: 30
+    SpawnX: 83
+    SpawnY: 217
+    SpawnArea: 4
+    RespawnTimer: -2
+  - Id: 25447
+    Name: Brood Egg
+    Count: 1
+    RewardMod: 30
+    SpawnX: 91
+    SpawnY: 214
+    SpawnArea: 3
+    RespawnTimer: -2
+  - Id: 25453
+    Name: Brood Mother
+    Count: 1
+    RewardMod: 1600
+    SpawnX: 30
+    SpawnY: 52
+    SpawnArea: 2
+    RespawnTimer: -2
+  - Id: 25445
+    Name: Brood Egg
+    Count: 9
+    RewardMod: 10
+    SpawnX: 25
+    SpawnY: 56
+    SpawnArea: 5
+    RespawnTimer: -2
+  - Id: 25445
+    Name: Brood Egg
+    Count: 6
+    RewardMod: 10
+    SpawnX: 25
+    SpawnY: 51
+    SpawnArea: 3
+    RespawnTimer: -2
+  - Id: 25448
+    Name: Brood Egg
+    Count: 3
+    RewardMod: 30
+    SpawnX: 25
+    SpawnY: 56
+    SpawnArea: 3
+    RespawnTimer: -2
+  - Id: 25448
+    Name: Brood Egg
+    Count: 2
+    RewardMod: 30
+    SpawnX: 25
+    SpawnY: 51
+    SpawnArea: 3
+    RespawnTimer: -2
+  - Id: 25445
+    Name: Brood Egg
+    Count: 2
+    RewardMod: 10
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25448
+    Name: Brood Egg
+    Count: 1
+    RewardMod: 30
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25449
+    Name: Neraid
+    RewardMod: 5
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25454
+    Name: Porcellio
+    RewardMod: 5
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25457
+    Name: Argos
+    RewardMod: 1
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25450
+    Name: Ancient Worm
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25455
+    Name: Ungoliant
+    RewardMod: 300
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25458
+    Name: Spawn
+    RewardMod: 50
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25423
+    Name: Treasure
+    Count: 1
+    RewardMod: 1200
+    SpawnX: 22
+    SpawnY: 61
+    SpawnArea: 1
+    RespawnTimer: -2
+  - Id: 25423
+    Name: Treasure
+    Count: 1
+    RewardMod: 1200
+    SpawnX: 24
+    SpawnY: 61
+    SpawnArea: 1
+    RespawnTimer: -2
+  - Id: 25423
+    Name: Treasure
+    Count: 1
+    RewardMod: 1200
+    SpawnX: 26
+    SpawnY: 61
+    SpawnArea: 1
+    RespawnTimer: -2
+  - Id: 25422
+    Name: Treasure
+    Count: 1
+    RewardMod: 600
+    SpawnX: 23
+    SpawnY: 60
+    SpawnArea: 1
+    RespawnTimer: -2
+  - Id: 25422
+    Name: Treasure
+    Count: 1
+    RewardMod: 600
+    SpawnX: 25
+    SpawnY: 60
+    SpawnArea: 1
+    RespawnTimer: -2
+  - Id: 25423
+    Name: Treasure
+    Count: 1
+    RewardMod: 1200
+    SpawnX: 87
+    SpawnY: 219
+    SpawnArea: 1
+    RespawnTimer: -2
+  - Id: 25422
+    Name: Treasure
+    Count: 2
+    RewardMod: 600
+    SpawnX: 84
+    SpawnY: 220
+    SpawnArea: 1
+    RespawnTimer: -2
+  - Id: 25422
+    Name: Treasure
+    Count: 2
+    RewardMod: 600
+    SpawnX: 89
+    SpawnY: 220
+    SpawnArea: 1
+    RespawnTimer: -2
+  - Id: 25423
+    Name: Treasure
+    Count: 1
+    RewardMod: 1200
+    SpawnX: 222
+    SpawnY: 41
+    SpawnArea: 1
+    RespawnTimer: -2
+  - Id: 25422
+    Name: Treasure
+    Count: 1
+    RewardMod: 600
+    SpawnX: 219
+    SpawnY: 40
+    SpawnArea: 1
+    RespawnTimer: -2
+  - Id: 25422
+    Name: Treasure
+    Count: 1
+    RewardMod: 600
+    SpawnX: 219
+    SpawnY: 38
+    SpawnArea: 1
+    RespawnTimer: -2
+  - Id: 28112
+    Name: Komodo
+    Count: 1
+    RewardMod: 60
+    SpawnX: 203
+    SpawnY: 200
+    SpawnArea: 1
+    RespawnTimer: -1
+    Foe: true
+  - Id: 25118
+    Name: Scaraba
+    Count: 1
+    RewardMod: 200
+    SpawnX: 40
+    SpawnY: 177
+    SpawnArea: 30
+    RespawnTimer: -2
+  - Id: 25117
+    Name: Scaraba
+    Count: 1
+    RewardMod: 200
+    SpawnX: 61
+    SpawnY: 143
+    SpawnArea: 12
+    RespawnTimer: -2
+  - Id: 25117
+    Name: Scaraba
+    Count: 1
+    RewardMod: 200
+    SpawnX: 205
+    SpawnY: 111
+    SpawnArea: 24
+    RespawnTimer: -2
+  - Id: 25118
+    Name: Scaraba
+    Count: 1
+    RewardMod: 200
+    SpawnX: 205
+    SpawnY: 11
+    SpawnArea: 24
+    RespawnTimer: -2
+  - Id: 25117
+    Name: Scaraba
+    Count: 1
+    RewardMod: 200
+    SpawnX: 159
+    SpawnY: 90
+    SpawnArea: 12
+    RespawnTimer: -2
+  - Id: 25118
+    Name: Scaraba
+    Count: 1
+    RewardMod: 200
+    SpawnX: 162
+    SpawnY: 43
+    SpawnArea: 6
+    RespawnTimer: -2
+  - Id: 25118
+    Name: Scaraba
+    Count: 1
+    RewardMod: 200
+    SpawnX: 72
+    SpawnY: 94
+    SpawnArea: 4
+    RespawnTimer: -2
+  - Id: 25117
+    Name: Scaraba
+    Count: 2
+    RewardMod: 200
+    SpawnX: 100
+    SpawnY: 40
+    SpawnArea: 3
+    RespawnTimer: -2
+- Id: 1170
+  Name: f14 - ClockTowerManager
+  Members:
+  - Id: 25093
+    Name: Alarm
+    Count: 90
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25094
+    Name: Elder
+    Count: 35
+    RewardMod: 120
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25095
+    Name: Rideword
+    Count: 30
+    RewardMod: 75
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28032
+    Name: Time Holder
+    Count: 1
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+  - Id: 25096
+    Name: Sage Worm
+    Count: 15
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+- Id: 1180
+  Name: f16 - Bacsojin
+  Members:
+  - Id: 25124
+    Name: Li Me Mang Ryang
+    Count: 75
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25125
+    Name: Hyegun
+    Count: 6
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25126
+    Name: Archer Skeleton
+    Count: 15
+    RewardMod: 50
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25128
+    Name: Skeleton General
+    Count: 4
+    RewardMod: 300
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: 35000
+  - Id: 25505
+    Name: Zhu Po Long
+    Count: 2
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: 50000
+  - Id: 28040
+    Name: Moonlight Flower
+    Count: 1
+    RewardMod: 130
+    SpawnX: 29
+    SpawnY: 101
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+  - Id: 25505
+    Name: Zhu Po Long
+    Count: 1
+    RewardMod: 100
+    SpawnX: 119
+    SpawnY: 45
+    SpawnArea: 7
+    RespawnTimer: -2
+  - Id: 25505
+    Name: Zhu Po Long
+    Count: 1
+    RewardMod: 100
+    SpawnX: 138
+    SpawnY: 99
+    SpawnArea: 12
+    RespawnTimer: -2
+  - Id: 25505
+    Name: Zhu Po Long
+    Count: 1
+    RewardMod: 100
+    SpawnX: 172
+    SpawnY: 155
+    SpawnArea: 12
+    RespawnTimer: -2
+  - Id: 25505
+    Name: Zhu Po Long
+    Count: 1
+    RewardMod: 100
+    SpawnX: 64
+    SpawnY: 199
+    SpawnArea: 3
+    RespawnTimer: -2
+  - Id: 25505
+    Name: Zhu Po Long
+    Count: 1
+    RewardMod: 100
+    SpawnX: 214
+    SpawnY: 73
+    SpawnArea: 4
+    RespawnTimer: -2
+  - Id: 25505
+    Name: Zhu Po Long
+    Count: 1
+    RewardMod: 100
+    SpawnX: 150
+    SpawnY: 27
+    SpawnArea: 12
+    RespawnTimer: -2
+  - Id: 25505
+    Name: Zhu Po Long
+    Count: 1
+    RewardMod: 100
+    SpawnX: 31
+    SpawnY: 108
+    SpawnArea: 4
+    RespawnTimer: -2
+  - Id: 25505
+    Name: Zhu Po Long
+    Count: 1
+    RewardMod: 100
+    SpawnX: 99
+    SpawnY: 115
+    SpawnArea: 5
+    RespawnTimer: -2
+  - Id: 25543
+    Name: Eddga
+    Count: 1
+    RewardMod: 1000
+    SpawnX: 160
+    SpawnY: 205
+    SpawnArea: 16
+    RespawnTimer: -2
+- Id: 1190
+  Name: f16 - Jirant
+  Members:
+  - Id: 25139
+    Name: Ragan
+    Count: 22
+    RewardMod: 80
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25405
+    Name: Ragan Warrior
+    Count: 130
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25406
+    Name: Mutated Ragan
+    Count: 4
+    RewardMod: 160
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25409
+    Name: Ragan Warlock
+    Count: 22
+    RewardMod: 105
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28102
+    Name: Ragan Guardian
+    Count: 1
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+  - Id: 25539
+    Name: Pest
+    RewardMod: 10
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25540
+    Name: Pest
+    RewardMod: 10
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25407
+    Name: Ragan Cleaner
+    Count: 1
+    RewardMod: 400
+    SpawnX: 130
+    SpawnY: 205
+    SpawnArea: 60
+    RespawnTimer: 480000
+  - Id: 25407
+    Name: Ragan Cleaner
+    Count: 1
+    RewardMod: 400
+    SpawnX: 260
+    SpawnY: 81
+    SpawnArea: 55
+    RespawnTimer: 480000
+- Id: 1200
+  Name: f17 - Evil Snake Lord
+  Members:
+  - Id: 25130
+    Name: Basilisk
+    Count: 40
+    RewardMod: 125
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25131
+    Name: Basilisk
+    Count: 50
+    RewardMod: 125
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25410
+    Name: Basilisk
+    Count: 20
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25133
+    Name: Taoist Hermit
+    Count: 10
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25508
+    Name: Horn
+    Count: 20
+    RewardMod: 50
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28042
+    Name: Boitata
+    Count: 1
+    RewardMod: 100
+    SpawnX: 202
+    SpawnY: 61
+    SpawnArea: 2
+    RespawnTimer: -1
+    Foe: true
+- Id: 1210
+  Name: f18 - Kraken
+  Members:
+  - Id: 25082
+    Name: Sedora
+    Count: 75
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25083
+    Name: Deviace
+    Count: 40
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25084
+    Name: Penomena
+    Count: 30
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25085
+    Name: Strouf
+    Count: 10
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28024
+    Name: King Cray
+    Count: 1
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+- Id: 1220
+  Name: f18 - Vesper
+  Members:
+  - Id: 25372
+    Name: Venatu
+    Count: 50
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25373
+    Name: Venatu
+    Count: 100
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25374
+    Name: Venatu
+    Count: 50
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25375
+    Name: Venatu
+    Count: 50
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25376
+    Name: Venatu
+    Count: 50
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25377
+    Name: Dimik
+    Count: 20
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25378
+    Name: Dimik
+    Count: 10
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25379
+    Name: Dimik
+    Count: 10
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25380
+    Name: Dimik
+    Count: 10
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25381
+    Name: Dimik
+    Count: 10
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25382
+    Name: Archdam
+    Count: 20
+    RewardMod: 125
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28058
+    Name: Sweety
+    Count: 1
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+- Id: 1230
+  Name: f19 - White Knight
+  Members:
+  - Id: 25097
+    Name: Royal Guard
+    Count: 200
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25098
+    Name: Royal Slinger
+    Count: 100
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25099
+    Name: Royal Cleric
+    Count: 50
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25100
+    Name: Royal Knight
+    Count: 40
+    RewardMod: 300
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28034
+    Name: Schmidt
+    Count: 1
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+- Id: 1240
+  Name: f21 - GloomUnderNight
+  Members:
+  - Id: 25145
+    Name: Hodremlin
+    Count: 700
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25146
+    Name: Eleanor
+    Count: 100
+    RewardMod: 120
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25147
+    Name: Beholder
+    Count: 100
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28050
+    Name: Faithful Manager
+    Count: 1
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+  - Id: 25411
+    Name: Gremlin
+    Count: 30
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+- Id: 1250
+  Name: f21 - CelineKimi
+  Members:
+  - Id: 25140
+    Name: Alicel
+    Count: 75
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25142
+    Name: Aliza
+    Count: 50
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25143
+    Name: Violy
+    Count: 30
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25144
+    Name: Antique Book
+    Count: 20
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28048
+    Name: Kiehl D-01
+    Count: 1
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+- Id: 1260
+  Name: f22 - Detale
+  Members:
+  - Id: 25148
+    Name: Ferus
+    Count: 90
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25149
+    Name: Ferus
+    Count: 90
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25150
+    Name: Acidus
+    Count: 50
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25151
+    Name: Acidus
+    Count: 50
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28088
+    Name: Mutant Dragonoid
+    Count: 1
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+- Id: 1270
+  Name: f23 - Agni
+  Members:
+  - Id: 25171
+    Name: Lava Golem
+    Count: 25
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25197
+    Name: Fire Imp
+    Count: 30
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28104
+    Name: Dieter
+    Count: 1
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+- Id: 1280
+  Name: f23 - Ventus
+  Members:
+  - Id: 25000
+    Name: Poring
+    Count: 1000
+    RewardMod: 250
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28107
+    Name: Sera
+    Count: 1
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+- Id: 1290
+  Name: f24 - Thanatos
+  Members:
+  - Id: 25209
+    Name: Gigantes
+    Count: 100
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25210
+    Name: Gigantes
+    Count: 100
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25412
+    Name: Odium of Thanatos
+    Count: 5
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+- Id: 1300
+  Name: f26 - Sara
+  Members:
+  - Id: 25165
+    Name: Dandelion
+    Count: 500
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25167
+    Name: Mavka
+    Count: 100
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25194
+    Name: Byorgue
+    Count: 10
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28108
+    Name: Bolkova
+    Count: 1
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+- Id: 1310
+  Name: f26 - Daehyon
+  Members:
+  - Id: 25160
+    Name: Gunjin
+    Count: 450
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25161
+    Name: Ansatsusha
+    Count: 50
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25162
+    Name: Shinobi
+    Count: 70
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25163
+    Name: Antique Firelock
+    Count: 50
+    RewardMod: 50
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28056
+    Name: Incantation Samurai
+    Count: 1
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+- Id: 1320
+  Name: f27 - Knight of Abyss
+  Members:
+  - Id: 25153
+    Name: Raydric
+    Count: 500
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25154
+    Name: Raydric Archer
+    Count: 150
+    RewardMod: 80
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25155
+    Name: Khalitzburg
+    Count: 80
+    RewardMod: 120
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25156
+    Name: Chimera
+    Count: 20
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28054
+    Name: Bloody Knight
+    Count: 1
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+- Id: 1330
+  Name: f28 - Beelzebub
+  Members:
+  - Id: 25203
+    Name: Banshee
+    Count: 200
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25206
+    Name: Witch of Death
+    Count: 60
+    RewardMod: 125
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28096
+    Name: Necromancer
+    Count: 1
+    RewardMod: 1
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+  - Id: 25211
+    Name: Seeker
+    Count: 50
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+- Id: 1340
+  Name: f28 - BlitzfireX1
+  Members:
+  - Id: 25212
+    Name: Meister MkIV
+    Count: 100
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25213
+    Name: L0CK0N STR4T05
+    Count: 50
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25214
+    Name: TR4CK3R
+    Count: 50
+    RewardMod: 75
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25215
+    Name: Meister v003
+    Count: 50
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28072
+    Name: CHARLESTON 3RD
+    Count: 1
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+- Id: 1370
+  Name: f29 - Juncea
+  Members:
+  - Id: 25216
+    Name: Flame Guard
+    Count: 35
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25217
+    Name: Ice Guard
+    Count: 35
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25218
+    Name: Stone Guard
+    Count: 35
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25219
+    Name: Light Guard
+    Count: 35
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25220
+    Name: Shadow Guard
+    Count: 35
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25221
+    Name: Flame Ghost
+    Count: 20
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25222
+    Name: Ice Ghost
+    Count: 20
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25223
+    Name: Wind Ghost
+    Count: 20
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25224
+    Name: DEATH
+    Count: 1
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28074
+    Name: Lost Dragon
+    Count: 1
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true

@@ -1,0 +1,844 @@
+/*
+* data_dialogue.txt
+* All of our NPC dialogue should go here, for easy localization purposes.
+* Gets called by the Global Controller on script load.
+// Lines that are wrapped in angled brackets get replaced by the variable name in the angled brackets and should not be localized.
+*/
+
+function	script	InitDialogue	{
+	/********************************
+		SECTION: GENERAL
+	*********************************/
+	// -------------- Universal --------------
+	$@Yes_EN$ = "Yes";
+	$@No_EN$ = "No";
+	$@YesNo_EN$ = "Yes:No";
+	$@NoYes_EN$ = "No:Yes";
+	$@Ok_EN$ = "OK";
+	$@Cancel_EN$ = "Cancel";
+	$@Return_EN$ = "Return";
+	$@ReturnCancel_EN$ = $@Return_EN$+":"+$@Cancel_EN;
+	$@YesNoCancel_EN$ = $@YesNo_EN$+":"+$@Cancel_EN$;
+	$@Nevermind_EN$ = "Nevermind";
+	$@GoBack_EN$ = "Go back";
+	$@Next_EN$ = "Next";
+	$@Divider_EN$ = "----------";
+	$@Proceed_EN$ = "Proceed?";
+	$@Cancelled_EN$ = "Cancelled.";
+	$@SelectASlot_EN$ = "Which equipment slot?";
+	$@WhatDoYouDo_EN$ = "What do you do?";
+	$@NA_EN$ = "N/A";
+	// -------------- Names -----------------------
+	$@NameFrigg_EN$ = "Frigg";
+	$@NameFrejya_EN$ = "Freyja";
+	// -------------- General Messages / Pieces of messages ------------
+	$@FloorNumber_EN$ = "Floor #";
+	$@GainedLife_EN$ = "Gained a life.";
+	$@GainedLives0_EN$ = "Gained ";
+	$@GainedLives1_EN$ = " lives.";
+	$@TotalLives_EN$ = "Total lives: ";
+	$@Lives_EN$ = "Lives: ";
+	$@NextLife_EN$ = "Gain life at score: ";
+	$@Readied_EN$ = " is ready.";
+	$@Unreadied_EN$ = " has unreadied.";
+	$@Ready_EN$ = "Ready";
+	$@Unready_EN$ = "Unready";
+	$@WaitingOn_EN$ = " Waiting on: ";
+	$@RefineOpen_EN$ = "Refine away.";
+	$@RefineNothingEquipped_EN$ = "Nothing refinable is equipped.";
+	$@Trade_EN$ = "Trade";
+	$@Tips_EN$ = "Tips";
+	$@SendToBonfire_EN$ = "Send me to the Bonfire";
+	$@YouGot_EN$ = "You got";
+	// ------------- Config menu -------------
+	$@ConfToggle_EN$ = "[Toggle] ";
+	$@ConfSettings_EN$ = "[Settings] ";
+	// -------------- Job Messages --------------
+	$@JobGainedStatusPoint_EN$ = "Gained status points: ";
+	$@JobGainedSkillPoint_EN$ = "Gained skill points: ";
+	$@JobGainedLives_EN$ = "Gained lives: ";
+	$@SkillLearn0_EN$ = "You've learned ";
+	$@SkillLearnHotkey_EN$ = " It has been added to your hotkey bar.";
+	$@SkillLearnAlreadyKnow0_EN$ = "You already know "; // + skill_name
+	$@SkillLearnAlreadyKnow1_EN$ = ". You will be granted "; // + skill_cost
+	$@SkillLearnAlreadyKnow2_EN$ = " Skill Token in place of learning the skill.";
+	// -------------- Difficulty --------------
+	$@Difficulty_EN$ = "Difficulty";
+	$@DefaultDifficulty_EN$ = "Previously selected";
+	$@DifficultyPleaseSelect_EN$ = "Select a difficulty.";
+	$@DifficultyCancel_EN$ = "No difficulty selected.";
+	$@DifficultySelected_EN$ = "Selected difficulty: ";
+	$@DifficultyNotLeader_EN$ = "Only the party leader may set the difficulty.";
+	$@DifficultyUnknown_EN$ = "Unknown";
+	$@DifficultyStartLives_EN$ = "Lives: ";
+	$@DifficultyGainLives0_EN$ = "1Up: ";
+	$@DifficultyGainLives1_EN$ = " points";
+	$@DifficultyNorman_EN$ = "Norman";
+	$@DifficultyNormanPrompt_EN$ = $@DifficultyNorman_EN$+" (Easy)";
+	$@DifficultyNormanTip_EN$ = Tipbox("[Details]",TUT_LOST_NORMAN);
+	$@DifficultyNormanDesc_EN$ = "A limited experience, meant for "+$@NormanColor$+"learning"+$@MesDefault$+" and "+$@NormanColor$+"experimental"+$@MesDefault$+" play. Run ends early, at F20 of 30.";
+	$@DifficultyEinherjar_EN$ = "Einherjar";
+	$@DifficultyEinherjarPrompt_EN$ = $@DifficultyEinherjar_EN$+" (Normal)";
+	$@DifficultyEinherjarTip_EN$ = Tipbox("[Details]",TUT_LOST_EINHERJAR);
+	$@DifficultyEinherjarDesc_EN$ = "A challenging experience, focused on "+$@EinherjarColor$+"skill"+$@MesDefault$+" and "+$@EinherjarColor$+"build"+$@MesDefault$+" play. The intended difficulty."; 
+	$@DifficultyValkyrie_EN$ = "Valkyrie (Currently unavailable)";
+	$@DifficultyValkyrieTip_EN$ = Tipbox("[Details]",TUT_LOST_VALKYRIE);
+	$@DifficultyValkyrieDesc_EN$ = "A brutally unforgiving experience, intended for "+$@ValkyrieColor$+"skilled veterans"+$@MesDefault$+". Create the strongest character with the highest scores.";
+	//$@DifficultyValkyrieWarning_EN$ = $@MesRed$+"WARNING"+$@MesDefault$+": It is "+$@MesRed$+"strongly"+$@MesDefault$+" recommended to progress through "+$@EinherjarColor$+"Einherjar"+$@MesDefault$+" before attempting "+$@ValkyrieColor$+"Valkyrie"+$@MesDefault$+".";
+	$@DifficultyReference_EN$ = "["+Tipbox("Difficulty reference",TUT_LOST_DIFFICULTY)+"]";
+	// -------------- GAME OVER --------------
+	$@GameOver_EN$ = "GAME OVER";
+	$@GameOverSelect_EN$ = "-- Select an option";
+	$@GameOverClose_EN$ = "Return to game";
+	$@GameOverFensalir_EN$ = "Go to Fensalir";
+	$@GameOverReduce_EN$ = "Reduce difficulty";
+	$@GameOverRunStats_EN$ = "View run stats";
+	$@GameOverFeedback_EN$ = "Give feedback";
+	$@GameOverRespawnConf_EN$ = "Respawn in Fensalir?";
+	$@GameOverRespawnMe_EN$ = "You respawned, ending the run.";
+	$@GameOverRespawnOther_EN$ = " has gone to Fensalir.";
+	$@GameOverCancel_EN$ = "Game Over cancelled. Press ESC to regain the resurrection option.";
+	// -------------- Starting Run ----------------
+	$@StartPartyLeader0_EN$ = "Only the party leader can enter a Lost Realm portal. Have ";
+	$@StartPartyLeader1_EN$ = " step here.";
+	$@StartCannotBegin_EN$ = "Cannot enter while the following party members are ";
+	$@StartMembersOffline_EN$ = "offline: ";
+	$@StartMembersDead_EN$ = "Permadead: ";
+	// -------------- Instance regen ----------
+	$@RegenInstanceNotice_EN$ = "Your previous instance was lost, but you already defeated the boss. You've been sent to the Bonfire.";
+	$@RegenInstanceComp_EN$ = "You've been given 100x HP potions, 25x SP potions, and 1x Call Merchant as compensation for any inconvenience.";
+	$@RegenInstanceBonfire_EN$ = "You may continue as normal. In the future, please reach the Bonfire before logging off.";
+	// -------------- Misc --------------
+	$@UniversalSkillShop_EN$ = "Universal skill shop";
+	$@RandomSkillShop_EN$ = "Random skill shop";
+	$@T1SkillShop_EN$ = "T1 skill shop";
+	$@Skill_EN$ = "skill";
+	$@Skills_EN$ = "skills";
+	$@SkillScrolls_EN$ = "skill scrolls";
+	$@SkillShop_EN$ = "skill shop";
+	$@Shop_EN$ = "shop";
+	$@YouGained_EN$ = "You gained "; // 1,000z
+	$@TransferRoptAccessory_EN$ = "Transfer Ropt to Accessory";
+	$@ConvertSoulFragments_EN$ = "Use Soul Fragments to make Soul Rune";
+	$@BreakSoulRune_EN$ = "Break Soul Rune into Soul Fragments";
+	$@SoulRuneShop_EN$ = "Soul Rune Shop";
+	/********************************
+		SECTION: ITEMS
+	*********************************/
+	$@ItemNeedsInstance_EN$ = "This item can only be used within an instance.";
+	$@ItemInvalidMap_EN$ = "This item cannot be used on this map.";
+	// -- Salvage Kit
+	$@SalvageKitNoItems_EN$ = "No items to salvage.";
+	$@SalvageKitEquip_EN$ = "Cannot salvage an equipped item. ";
+	$@SalvageKitFave_EN$ = "Cannot salvage a favorited item. ";
+	$@SalvageKitSalvaged_EN$ = "Salvaged ";
+	$@SalvageKitOpts_EN$ = " ropts";
+	$@SalvageKitOversell1_EN$ = "You tried to salvage ";
+	$@SalvageKitOversell2_EN$ = " items, but only had ";
+	$@SalvageKitOversell3_EN$ = " Salvage Kit(s).";
+	// -- Smelter
+	$@SmelterConfirmT_EN$ = "Smelt all unfavorited & unequipped gear?";
+	$@SmelterConfirmP_EN$ = "-- Smelt unfavorited & unequipped gear?";
+	$@SmelterDisable_EN$ = "NOTE: Use `@smelternotice` to disable the Smelter confirmation dialogue.";
+	$@SmelterNoKits_EN$ = "Cannot use Smelter with no Salvage Kits.";
+	$@SmelterUsedAllKits_EN$ = "No remaining Salvage Kits.";
+	$@SmelterNothing_EN$ = "No items to smelt.";
+	$@SmelterSmelted_EN$ = "Smelted ";
+	$@SmelterItems_EN$ = " item(s). ";
+	$@SmelterRemaining0_EN$ = "You have ";
+	$@SmelterRemaining1_EN$ = " Salvage Kits remaining.";
+	// -- Call items
+	$@CallNpc0_EN$ = " called ";
+	$@CallNpc1_EN$ = " for backup!";
+	// -- Skill Point Resetter
+	$@SkillPointReset1_EN$ = "Refund skill point from which skill?";
+	$@SkillPointResetChosen_EN$ = "Chosen skill: ";
+	$@SkillPointResetOldLv_EN$ = "Level before resetting: ";
+	$@SkillPointResetNewLv_EN$ = "Level after resetting: ";
+	$@SkillPointResetAll_EN$ = $@MesRed$+"WARNING"+$@MesDefault$+": This will reset all of your points in the chosen skill. You will have to buy the Skill Scroll for it again if you wish to continue using the skill.";
+	$@SkillPointResetDoneToken_EN$ = "Gained a Skill Token after removing a point from ";
+	$@SkillPointResetDonePoint_EN$ = "Gained a Skill Point after removing a point from ";
+	$@SkillPointResetTip_EN$ = "Note: You may need to relog for the game client's skill list to update properly.";
+	// -- Mastery Antidote
+	$@MasteryAntidote0_EN$ = "You'll relearn the following forgotten masteries: ";
+	$@MasteryAntidote1_EN$ = "Relearned all forgotten masteries.";
+	$@MasteryAntidoteNone_EN$ = "You have no forgotten masteries. Why do you have this antidote? Maybe you should report this.";
+	// -- Coinage Ores
+	$@CoinageOrePrompt0_EN$ = "Use a coinage ore?";
+	$@CoinageOreOverRefine0_EN$ = "The equipment's refines are too high for a "; // + ore name.
+	$@CoinageOreOverRefine1_EN$ = "Open standard refine window?";
+	$@CoinageOreSelect0_EN$ = "Selected equip: ";
+	$@CoinageOreSelect1_EN$ = "Current refine level: ";
+	$@CoinageOreSelect2_EN$ = "Selected ore: ";
+	$@CoinageOreCopperOre_EN$ = "Copper Ore will refine item straight to +4.";
+	$@CoinageOreSilverOre_EN$ = "Silver Ore will refine item straight to +4, then randomly add 1~2 refine levels.";
+	$@CoinageOreSilverOre_Alt_EN$ = "Silver Ore will refine item straight to +6.";
+	$@CoinageOreGoldOre_EN$ = "Gold Ore will refine item straight to +7.";
+	// -- Tickets
+	$@BoonTicket_EN$ = "Exchange this for a Boon Token at Tinders.";
+	$@AccessoryTicket_EN$ = "Exchange this for an Accessory Token at Tinders.";
+	$@TindersExchangeBoon_EN$ = "Tinders exchanged a Boon Ticket for a Boon Token.";
+	$@TindersExchangeAcc_EN$ = "Tinders exchanged an Accessory Ticket for an Accessory Token.";
+	// -- Misc
+	$@PitySkillScroll0_EN$ = "You did not check your Random Skills at Shamal, and received a Skill Scroll Box to compensate. You will not receive another box like this until you use this one.";
+	$@ReaddRoptRings_EN$ = "Readded stored ropts to your Ring.";
+	$@PoisonBottle_EN$ = "Drink bottle to end the run?";
+	// -- Fairies
+	$@FairyInvalidUse_EN$ = "Fairies can only be used on standard floors, before the point goal is met.";
+	$@FairyOpposingUsed_EN$ = "A fairy from the opposing Goddess has already been used this floor.";
+	$@FairyUsed_EN$ = " let a "; // <Player name> let a 
+	$@FairyFertility_EN$ = "Fairy of Fertility free. Point Goal increased by +50% & mob density increased. Floor Points: ";
+	$@FairyImpotence_EN$ = "Fairy of Impotence free. Point Goal decreased by -50% & mob density decreased. Floor Points: ";
+	$@FairyChaos_EN$ = "Fairy of Chaos free. Two FoEs have been spawned.";
+	$@FairySerenity_EN$ = "Fairy of Serenity free. The FoE has ran away, taking its summons with it.";
+	$@FairyBravado_EN$ = "Fairy of Bravado free. Elite rate has been raised.";
+	$@FairyCaution_EN$ = "Fairy of Caution free. Elites have been removed.";
+	$@FairyBounty_EN$ = "Fairy of Bounty free. Plants & minerals flourish nearby.";
+	$@FairyAvarice_EN$ = "Fairy of Avarice free. Plants and minerals have transformed into shinies.";
+	$@FairyAvariceNoZeny_EN$ = "The Fairy of Avarice is insulted by your lack of funds and curses you: ";
+	$@FairyAvariceCurse0_EN$ = "\"Baka!\"";
+	$@FairyAvariceCurse1_EN$ = "\"Aho!\"";
+	$@FairyAvariceCurse2_EN$ = "\"Dummy!\"";
+	// -- Shop conversion
+	$@ConvertShop0_EN$ = "Converted ";
+	$@ConvertShop1_EN$ = "<.@sold_iid>";
+	$@ConvertShop3_EN$ = " to ";
+	$@ConvertShop4_EN$ = "<.@bought_iid>";
+	// -- Campi Gain
+	$@CampiGain0_EN$ = "Gained ";
+	$@CampiGain1_EN$ = "<.@campi_gain>";
+	$@CampiGain2_EN$ = " Campi at run end. Total Campi: ";
+	$@CampiGain3_EN$ = "<.@campi_total>";
+	/********************************
+		SECTION: @commands
+	*********************************/
+	// ---- @fairy
+	$@AtFairyActive_EN$ = "Currently active fairies of "; // + "Goddess:"
+	$@AtFairyNoActive_EN$ = "No fairies are currently active.";
+	$@AtFairyUsed_EN$ = "Used fairies since last restock (includes twins): ";
+	$@AtFairyNoUsed_EN$ = "No fairies have been used since the last restock.";
+	$@AtFairyTwin_EN$ = " (Twin: ";
+	// ---- @showtutorial
+	$@AtShowTutorialClear_EN$ = " tutorial messages were reset.";
+	/********************************
+		SECTION: INSTANCES
+	*********************************/
+	// -------------- General --------------
+	// -- Friendly names for instance types
+	$@FreeGrindAlias_EN$ = "Standard";
+	$@MobArenaAlias_EN$ = "Arena";
+	// -- Entry messages
+	$@LabPermitEntry_EN$ = "Your Laboratory Permit has given you access straight to the end of floor 10.";
+	$@FreeGrindEntry0_EN$ = "This is a " + $@FreeGrindAlias_EN$ + " floor. Score ";
+	$@FreeGrindEntry1_EN$ = "<'PointGoal>";
+	$@FreeGrindEntry2_EN$ = " points to spawn the boss.";
+	$@MobArenaEntry0_EN$ = "This is an " + $@MobArenaAlias_EN$ + " floor. Score ";
+	$@MobArenaEntry1_EN$ = "<'PointGoal>";
+	$@MobArenaEntry2_EN$ = " points to lower the Rune Sealstone's barrier.";
+	// -------------- Base Instances --------------
+	// -- Death
+	$@BaseInstanceKilled_EN$ = " killed "; // "<Creamy> killed <Alice>"
+	$@BaseInstanceLivesAvailable_EN$ = "Lives available: ";
+	$@BaseInstanceUsedLife_EN$ = " used a life to resurrect! ";
+	$@BaseInstanceLivesRemain_EN$ = "Lives remaining: ";
+	$@BaseInstanceLostProtect_EN$ = "No lives remaining.";
+	$@BaseInstanceAllDead_EN$ = "No lives remain, and nothing can be done.";
+	$@BaseInstanceResItems_EN$ = "You received extra items after resurrecting.";
+	// -- Points
+	$@BaseInstanceBossMoveOn_EN$ = "Defeat the boss to move on.";
+	$@BaseInstanceBossCome_EN$ = "The boss has come. "+$@BaseInstanceBossMoveOn_EN$;
+	$@BaseInstanceLimitFreeGrind_EN$ = "You have met the floor's point limit. "+$@BaseInstanceBossCome_EN$ + " Mobs will no longer respawn or give points.";
+	$@BaseInstanceLimitMobArena_EN$ = "You have met the arena's point limit. The Rune Sealstone's protective barrier has fallen.";
+	// -- Defeating Boss
+	$@BaseInstanceDefeatBoss_EN$ = "The boss has been slain. Obtained ";
+	$@BaseInstanceDefeatFoe_EN$ = "An FoE has been slain and its summons removed. Obtained ";
+	$@BaseInstanceDefeatSlain_EN$ = " has been slain. Obtained ";
+	$@BaseInstanceBossZeny0_EN$ = " zeny and ";
+	$@BaseInstanceBossZeny1_EN$ = " zeny. ";
+	$@BaseInstanceBossPoints_EN$ = " points ";
+	$@BaseInstanceRewardItems_EN$ = "[Bonus GET!] You got "; // + <hppot> (<hppot_count>x), <sppot> (<sppot_count>x) 
+	$@BaseInstanceBossItems_EN$ = ", & Skill Token (1x)";
+	$@BaseInstanceFoeItems_EN$ = ""; // Previously: Soul Rune (1x)
+	$@BaseInstanceReioFrag0_EN$ = "Obtained a fragment of the Reio rune! You now have ";
+	$@BaseInstanceReioFrag1_EN$ = "/6 fragments.";
+	//  --  Misc
+	$@BaseInstanceProceed_EN$ = "Proceed to Floor #";
+	$@BaseInstanceProceedLR_EN$ = "Proceed in the Lost Realm?";
+	$@BaseInstanceFoEMax0_EN$ = "You have killed the maximum number of FoE Summons (";
+	$@BaseInstanceFoEMax1_EN$ = "). They will no longer drop items.";
+	// -------------- Unique Instances --------------
+	// -- F15 Baphomet
+	$@F15BaphoJrTele_EN$ = "Bapho Jr taunts you and teleports away.";
+	$@F15BaphoJrEvolve_EN$ = " Bapho Jr grows stronger.";
+	$@F15BaphoJrMaxEvolve_EN$ = " Bapho Jr is at maximum strength.";
+	$@F15BaphoJrDefeated_EN$ = "Bapho Jr is defeated, and runs away in shame.";
+	$@F15BaphoProgress_EN$ = "You progress through the maze.";
+	$@F15BaphoDeadend_EN$ = "You've reached a dead end. Bapho Jr steals your points and evolves an extra maze monster!";
+	$@F15BaphoEvolve_EN$ = " maze monster has evolved.";
+	$@F15BaphoEvolvePlural_EN$ = " total maze monsters have evolved.";
+	$@F15BaphoMobEvolve_EN$ = "evolved to";
+	$@F15BaphoMinibossEvolve_EN$ = "Bapho Jr is powering up !!";
+	$@F15BaphoMinibossRSX_EN$ = "Bapho Jr gained RSX Mech!?";
+	$@F15ConfirmWarp_EN$ = "Confirm warp?";
+	$@F15ConfirmWarpBottom_EN$ = "Selected a portal very quickly, please confirm to warp.";
+	$@F15BanTaken_EN$ = "'s evolution ban was taken: ";
+	// -------------- Wyrd --------------
+	$@WyrdNewRun_EN$ = "A new run has begun on the '";
+	$@WyrdNewRunL_EN$ = "' difficulty. Lives: ";
+	$@PortalStepStart_EN$ = "Step through the portal to begin your journey.";
+	$@PortalStepContinue_EN$ = "Step through the portal to continue your journey.";
+	// -- Tinders
+	$@TindersLine0_EN$ = "What does the Wyrd say today?";
+	$@TindersChoiceJobSkills_EN$ = "Buy "; // //Jobname + $@Skills_EN$
+	$@TindersChoiceUniversal_EN$ = "Buy Universal skills";
+	$@TindersChoicePastLife_EN$ = "Same as last time";
+	$@TindersChoiceLabOn_EN$ = "Use Laboratory Permit";
+	$@TindersChoiceLabOff_EN$ = "Disable Laboratory Permit";
+	$@TindersLabPermitNone0_EN$ = "You do not possess a Laboratory Permit...";
+	$@TindersLabPermitNone1_EN$ = "At least 1 party member is missing a Laboratory Permit...";
+	$@TindersLabPermitNoneDiff_EN$ = "Did you defeat Cenia on the correct difficulty?";
+	$@TindersLabPermitLeader_EN$ = "Only the party leader may toggle Laboratory Permits.";
+	$@TindersLabPermitTog0_EN$ = "Laboratory Permit deactivated.";
+	$@TindersLabPermitTog1_EN$ = "Laboratory Permit activated.";
+	$@TindersPastLifeNo0_EN$ = "Are you sure you have chosen ";
+	$@TindersPastLifeNo1_EN$ = " in a past life? I cannot feel it...";
+	$@TindersPastLife_EN$ = "Very well. I have given you memories of your previous life.";
+	$@UnallocatedStats_EN$ = "You have not allocated stat points (alt+a). Proceed with no stats?";
+	$@UnallocatedStatsPr_EN$ = "-- Proceed with no stats?";
+	$@UnallocatedSkills_EN$ = "You have not allocated skill points (alt+s). Proceed without skill point allocation?";
+	$@UnallocatedSkillsPr_EN$ = "-- Proceed without skill point allocation?";
+	// -- Statues
+	$@StatueChoice0_EN$ = "Become a ";
+	$@StatueChoice0_Alt_EN$ = "Become an ";
+	$@StatueChoice1_EN$ = "Preview unique "; // + jobname + $@Skills_EN$
+	$@StatueChoice2_EN$ = "Preview "; // + jobname + $@SkillScrolls_EN$
+	$@StatueChoice3_EN$ = "Think it over";
+	$@StatueDescAdvJobs$ = "Advanced Jobs:";
+	$@StatueDescDifficulty$ = "Difficulty: ";
+	$@SwordsmanDesc0_EN$ = $@TitlePrefix$+"Swordsman"+$@TitleSuffix$;
+	$@SwordsmanDesc1_EN$ = "Versatile frontline melee job. High HP pools and strong general defenses give enough bulkiness to mob lots of foes.";
+	$@SwordsmanDesc2_EN$ = $@AttrPrefix$+"Difficulty"+$@MesGreen$+": Beginner"+$@MesDefault$;
+	$@SwordsmanDesc3_EN$ = $@AttrPrefix$+"Weapon Masteries"+$@MesDefault$+": 1h Swords, 1h Spears, 2h Spears";
+	$@SwordsmanDesc4_EN$ = $@AttrPrefix$+"Armor Mastery"+$@MesHeavy$+": Heavy"+$@MesDefault$;
+	$@SwordsmanDesc5_EN$ = "";
+	$@SwordsmanDesc6_EN$ = $@NewLine$;
+	$@SwordsmanDesc7_EN$ = $@StatueDescAdvJobs$;
+	$@SwordsmanDesc8_EN$ = $@AttrPrefix$+"Knight"+$@MesDefault$+": Expand your melee potential with large Two-Handed Swords to Bleed foes. Use Spears to reposition enemies then interrupt them with holds and stuns.";
+	$@SwordsmanDesc9_EN$ = $@AttrPrefix$+"Crusader"+$@MesDefault$+": Combine melee & "+$@HolyEle$+" abilities to smite foes as a mixed attacker. You can become the guardian of the party with defensive Shield skills... or throw your shield at the monsters instead.";
+	$@MagicianDesc0_EN$ = $@TitlePrefix$+"Magician"+$@TitleSuffix$;
+	$@MagicianDesc1_EN$ = "Spellcaster utilizing "+$@FireEle$+", "+$@WaterEle$+", "+$@WindEle$+", and "+$@GhostEle$+" elements. Low HP & defenses make it hard to stay alive, but shines when party members can provide cover.";
+	$@MagicianDesc2_EN$ = $@AttrPrefix$+"Difficulty"+$@MesRed$+": Expert"+$@MesDefault$;
+	$@MagicianDesc3_EN$ = $@AttrPrefix$+"Weapon Masteries"+$@MesDefault$+": 1h Staves, Daggers";
+	$@MagicianDesc4_EN$ = $@AttrPrefix$+"Armor Mastery"+$@MesCloth$+": Cloth"+$@MesDefault$;
+	$@MagicianDesc5_EN$ = "";
+	$@MagicianDesc6_EN$ = $@NewLine$;
+	$@MagicianDesc7_EN$ = $@StatueDescAdvJobs$;
+	$@MagicianDesc8_EN$ = $@AttrPrefix$+"Wizard"+$@MesDefault$+": Specialize in AoE nukes, slow to cast but devastating to large groups of enemies. Freeze, stun, or burn anything that survives your casts.";
+	$@MagicianDesc9_EN$ = $@AttrPrefix$+"Sage ("+$@MesRed$+"WARNING: CURRENTLY UNAVAILABLE"+$@MesDefault$+"): Shutdown enemies with disables and anti-magic, then hit them with endless quick casting Bolts. Gain survivability and the ability to move while casting.";
+	$@ArcherDesc0_EN$ = $@TitlePrefix$+"Archer"+$@TitleSuffix$;
+	$@ArcherDesc1_EN$ = "Ranged attacker with unmatched Bow potential. Use different types of Arrows to inflict status ailments, or charge up powerful shots with high Critical potential.";
+	$@ArcherDesc2_EN$ = $@AttrPrefix$+"Difficulty"+$@MesGreen$+": Beginner"+$@MesDefault$;
+	$@ArcherDesc3_EN$ = $@AttrPrefix$+"Weapon Masteries"+$@MesDefault$+": Bows, Daggers";
+	$@ArcherDesc4_EN$ = $@AttrPrefix$+"Armor Mastery"+$@MesLight$+": Light"+$@MesDefault$;
+	$@ArcherDesc5_EN$ = $@AttrPrefix$+"Bonus Items"+$@MesDefault$+": Arrow of Infinity (Rough)";
+	$@ArcherDesc6_EN$ = $@NewLine$;
+	$@ArcherDesc7_EN$ = $@StatueDescAdvJobs$;
+	$@ArcherDesc8_EN$ = $@AttrPrefix$+"Hunter"+$@MesDefault$+": Gain a Falcon partner to help stunlock enemies. Use traps to hold enemies or blow them up with large blasts.";
+	$@ArcherDesc9_EN$ = $@AttrPrefix$+"Bard/Dancer ("+$@MesRed$+"WARNING: CURRENTLY UNAVAILABLE"+$@MesDefault$+"): Use your instrument to lay down a Song, potently buffing yourself and allies. Then use your Whip to Bleed and Stun foes.";
+	$@AcolyteDesc0_EN$ = $@TitlePrefix$+"Acolyte"+$@TitleSuffix$;
+	$@AcolyteDesc1_EN$ = "Mixed attacker with maces and "+$@HolyEle$+" magic or a supportive healer. Either way, having an Acolyte around is your best chance at staying alive.";
+	$@AcolyteDesc2_EN$ = $@AttrPrefix$+"Difficulty"+$@MesBlue$+": Intermediate"+$@MesDefault$;
+	$@AcolyteDesc3_EN$ = $@AttrPrefix$+"Weapon Masteries"+$@MesDefault$+": Maces, 1h Staves";
+	$@AcolyteDesc4_EN$ = $@AttrPrefix$+"Armor Mastery"+$@MesCloth$+": Cloth"+$@MesDefault$;
+	$@AcolyteDesc5_EN$ = $@AttrPrefix$+"Bonus Items"+$@MesDefault$+": Holy Water (10x)";
+	$@AcolyteDesc6_EN$ = $@NewLine$;
+	$@AcolyteDesc7_EN$ = $@StatueDescAdvJobs$;
+	$@AcolyteDesc8_EN$ = $@AttrPrefix$+"Priest"+$@MesDefault$+": Greatly enhance yourself & your party with an array of buffs. Keep everyone alive with big heals & exclusive barriers. Exorcise fiends with strong "+$@HolyEle$+ " magic.";
+	$@AcolyteDesc9_EN$ = $@AttrPrefix$+"Monk"+$@MesDefault$+": Call upon spirits to focus on melee combat. String together quick combos to stun foes, then unleash the highest damage attack in the game: Asura Strike.";
+	$@MerchantDesc0_EN$ = $@TitlePrefix$+"Merchant"+$@TitleSuffix$;	
+	$@MerchantDesc1_EN$ = "Frontline attacker that converts cash to raw damage. Use slower, heavier hitting high ATK weapons to slam enemies, then throw out high damage with Zeny-based skills.";
+	$@MerchantDesc2_EN$ = $@AttrPrefix$+"Difficulty"+$@MesBlue$+": Intermediate"+$@MesDefault$;
+	$@MerchantDesc3_EN$ = $@AttrPrefix$+"Weapon Masteries"+$@MesDefault$+": Axes, 2h Axes";
+	$@MerchantDesc4_EN$ = $@AttrPrefix$+"Armor Mastery"+$@MesHeavy$+": Heavy"+$@MesDefault$;
+	$@MerchantDesc5_EN$ = "";
+	$@MerchantDesc6_EN$ = $@NewLine$;
+	$@MerchantDesc7_EN$ = $@StatueDescAdvJobs$;
+	$@MerchantDesc8_EN$ = $@AttrPrefix$+"Blacksmith"+$@MesDefault$+": Enhance weapons to buff physical attacks for yourself and allies. Stop enemies in their tracks with powerful stun abilities.";
+	$@MerchantDesc9_EN$ = $@AttrPrefix$+"Alchemist"+$@MesDefault$+": Blow foes up with ranged bombs, or toss allies helpful potions. Your versatility will be unmatched (as will your cost).";
+	$@ThiefDesc0_EN$ = $@TitlePrefix$+"Thief"+$@TitleSuffix$;	
+	$@ThiefDesc1_EN$ = "Quick melee attacker specializing in multihits and poison. High damage potential in the right hands, but low survivability means you'll need to rely on quick reflexes and mobility to survive.";
+	$@ThiefDesc2_EN$ = $@AttrPrefix$+"Difficulty"+$@MesRed$+": Expert"+$@MesDefault$;
+	$@ThiefDesc3_EN$ = $@AttrPrefix$+"Weapon Masteries"+$@MesDefault$+": Daggers";
+	$@ThiefDesc4_EN$ = $@AttrPrefix$+"Armor Mastery"+$@MesLight$+": Light"+$@MesDefault$;
+	$@ThiefDesc5_EN$ = "";
+	$@ThiefDesc6_EN$ = $@NewLine$;
+	$@ThiefDesc7_EN$ = $@StatueDescAdvJobs$;
+	$@ThiefDesc8_EN$ = $@AttrPrefix$+"Assassin"+$@MesDefault$+": Learn Dual Wielding for even quicker strikes, or use Katars to do heavy Crit damage. Gains specializations in Poison, and a high base HP pool to help survive.";
+	$@ThiefDesc9_EN$ = $@AttrPrefix$+"Rogue ("+$@MesRed$+"WARNING: CURRENTLY UNAVAILABLE"+$@MesDefault$+"): Jack of all trades. Use your Finesse ability to create a fast ranged/melee hybrid playstyle, or focus on stealth & high Backstab damage.";
+	//$@DebugClassStatus$ = "<TIPBOX>View job testing status<INFO>"+TUT_REF_JOBSTATUS+"</INFO></TIPBOX>";
+	//$@DebugClassStatus$ = Tipbox("View job testing status",TUT_REF_JOBSTATUS);
+	// -------------- Verdandi --------------
+	// -- Cinders
+	$@CindersChoice0_EN$ = $@Skill_EN$+" "+$@Shop_EN$; // Jobname + $@CindersChoice1_EN$
+	$@CindersChoice1_EN$ = $@UniversalSkillShop_EN$;
+	$@CindersChoice2_EN$ = $@T1SkillShop_EN$;
+	$@CindersFirstMes0_EN$ = "You have done well. Spend all of your Skill Tokens and skill points, then select a second job.";
+	$@CindersSkillMes0_EN$ = "You have gained Skill Tokens, Skill Points, and Stat Points after job changing. You may learn new skills at Cinders.";
+	$@CindersUniversalShop_EN$ = "The Job & Universal skill shops have gained new skills.",
+	// -- Statues
+	$@VerdStatueChoice0_EN$ = "Become a ";
+	$@VerdStatueChoice0_Alt_EN$ = "Become an ";
+	$@VerdStatueChoice1_EN$ = "Preview unique "; // + jobname + $@Skills_EN$
+	$@VerdStatueChoice2_EN$ = "Preview "; // + jobname + $@SkillScrolls_EN$
+	$@VerdStatueChoice3_EN$ = "Preview job's floor 15 boons";
+	$@VerdStatueChoice4_EN$ = "Think it over";
+	// -- Job descriptions
+	$@KnightDesc0_EN$ = "Hit stuff.";
+	$@CrusaderDesc0_EN$ = "Shield stuff.";
+	$@WizardDesc0_EN$ = "put on your robe and wizard hat.";
+	$@SageDesc0_EN$ = "Do sage stuff.";
+	$@PriestDesc0_EN$ = "Support stuff.";
+	$@MonkDesc0_EN$ = "Fist stuff.";
+	$@AssassinDesc0_EN$ = "put on your sakkat.";
+	$@RogueDesc0_EN$ = "Nothing personnel.";
+	$@HunterDesc0_EN$ = "Shoot stuff.";
+	$@BardDesc0_EN$ = "Sing stuff.";
+	$@BlacksmithDesc0_EN$ = "Refine stuff.";
+	$@AlchemistDesc0_EN$ = "Mix stuff.";
+	// -------------- Lull --------------
+	$@TindersLullReward_EN$ = "Nice work. You can select a reward.";
+	$@TindersLullRewardLab_EN$ = "Nice to see you. Select a reward.";
+	$@TindersLullNeedBoon_EN$ = "You must select a boon before you can ready.";
+	$@TindersLullNeedAcc_EN$ = "You must select an accessory before you can ready.";
+	$@TindersLullSelectBoon_EN$ = "Receive Boon";
+	$@TindersLullSelectAcc_EN$ = "Receive Accessory";
+	$@TindersLullWhatBoon_EN$ = "What is a boon?";
+	$@TindersLullReadyBoon_EN$ = "The following characters still need to receive boons: ";
+	$@TindersLullReadyAcc_EN$ = "The following characters still need to pick an accessory: ";
+	// -------------- LabPermit --------------
+	$@LabPermitStartItems_EN$ = "You gained Laboratory Permit starting items.";
+	$@LabPermitF10Campi0_EN$ = "You got a "; // + LabPermit name
+	$@LabPermitF10Campi1_EN$ = " from a Campi."; // + LabPermit name
+	/********************************
+		SECTION: NPC DIALOGUE
+	*********************************/
+	// -------------- Skill Scroll NPC (Shamal) --------------
+	$@ShamalCancel_EN$ = "Okay.";
+	$@ShamalInteract0_EN$ = "How can I help?";
+	$@ShamalInteract1_EN$ = "Hi! I'd love to help however I can!";
+	$@ShamalRerollOption_EN$ = "  - Reroll random skills";
+	$@ShamalReroll0_EN$ = "Oh! You want different skill selections? We'll need the power of ";
+	$@ShamalReroll1_EN$ = " Soul Fragments or a Skill Point Resetter... is that acceptable?";
+	$@ShamalRerollPrompt0_EN$ = "Use "; // +<cost>
+	$@ShamalRerollPrompt1_EN$ = " Soul Fragments:Use Skill Point Resetter:Leave";
+	$@ShamalRerollSuccess_EN$ = "Look! Campi were drawn to the Soul Fragments, and have brought us new skills!";
+	$@ShamalRerollWhichResetter_EN$ = "Ah, which Skill Point Resetter do you want to use?";
+	$@ShamalRerollNeedReset0_EN$ = "Oh, umm... you don't have enough resetters. Want to try using "; // +amount
+	$@ShamalRerollNeedReset1_EN$ = " Soul Fragments instead?";
+	$@ShamalRerollNeedReset2_EN$ = " Soul Fragments";
+	$@ShamalRerollNeedFrag1_EN$ = "Oh no! You only have ";
+	$@ShamalRerollNeedFrag2_EN$ = " Soul Fragments with you? You have to collect ";
+	$@ShamalRerollNeedFrag3_EN$ = " more Soul Fragments before we can reroll, okay?";
+	$@ShamalRerollNeedFrag4_EN$ = "Oh! Did I forget to tell you? I lure Campi with the Soul Fragments, and use their power to reroll skill scrolls.";
+	$@ShamalRerollNeedFrag5_EN$ = "... But when more and more Campi come, I need more and more fragments to lure new ones, so the cost goes up...";
+	$@ShamalRerollNeedFrag6_EN$ = "... But, but !! After each Lost Realm floor, the amount of Campi we need resets, so don't worry! This cost increase isn't permanent.";
+	$@ShamalRerollNeedFrag7_EN$ = "Campi sure are mysterious, aren't they?";
+	$@ShamalRerollNeedFrag8_EN$ = "Oh... you have no Soul Fragments... Come back when you get some, okay? I'll help you together with the power of the Campi!";
+	$@ShamalRerollNeedChoice_EN$ = "Fine:Why does the cost increase?";
+	$@ShamalRerollConsumed0_EN$ = "Consumed "; // + <currency> (<amount>x)
+	$@ShamalRerollConsumed1_EN$ = " to reroll random Skill Scrolls.";
+	$@ShamalRerollChant0_EN$ = "Blue blue glass moon...";
+	$@ShamalRerollChant1_EN$ = "Under the crimson air...";
+	$@ShamalNoLookScrolls_EN$ = "Ummm... I suggest looking at the random scrolls before rerolling them!?";
+	// -------------- Dark Angel NPC (Hel) --------------
+	$@HelCancel_EN$ = "Don't bother me, then.";
+	$@HelCancelAlt_EN$ = "k.";
+	$@HelInteract0_EN$ = "What?";
+	$@HelInteract1_EN$ = "You want something?";
+	$@HelConvert1_EN$ = "Reconstructing a Soul Rune? Easy. Gimme the frags.";
+	$@HelConvert2_EN$ = "All right, arrange them like this...";
+	$@HelConvert3_EN$ = "... imbue this one ...";
+	$@HelConvert4_EN$ = "Done. Can we break it now?";
+	$@HelConvertNeedFragment_EN$ = "You don't have enough Soul Fragments...? Don't waste my time.";
+	$@HelConvertOption1_EN$ = " Soul Fragments to ";
+	$@HelConvertOption2_EN$ = " Soul Rune";
+	$@HelConvertOption2_Alt_EN$ = " Soul Runes";
+	$@HelConvertOption3_EN$ = "Nevermind";
+	$@HelBreakNoRunes_EN$ = "Man, don't get my hopes up when you don't even have any Soul Runes to fracture...";
+	$@HelBreak0_EN$ = "Aww yeah, we're breaking 1 Soul Rune to get "+$@SoulFragmentConvertRate+" Soul Fragments?";
+	$@HelBreakTease_EN$ = "... You tease. Come back with those big Soul Runes later, k?";
+	$@HelBreak1_EN$ = "Finally, something good! Gimme that...";
+	$@HelBreak2_EN$ = "Ah, yes... !!";
+	$@HelBreak3_EN$ = "What a rush !! Come back soon, k?";
+	$@HelTransferNotEnough0_EN$ = "You know, transfering a Ropt will take ";
+	$@HelTransferNotEnough1_EN$ = ", right? I can't do anything with just ";
+	$@HelTransferBreakRune0_EN$ = "But I can tell you have a Soul Rune on you... I can break it down for you? <3";
+	$@HelTransferBreakPrompt_EN$ = "Break 1 Soul Rune for 50 Soul Fragments:Leave";
+	$@HelTransferNoAcc_EN$ = "You don't have an accessory I can use? Are you an idiot?";
+	$@HelTransferAccNoAcc_EN$ = "You need a second accessory for that... or do you want to transfer it to itself? Is there something wrong with you?";
+	$@HelTransferNoEquip_EN$ = "Ugh, none of the stuff you're wearing even has ropts I can transfer on it.";
+	$@HelTransferSource_EN$ = "K, give me the item with the Ropt.";
+	$@HelTransferSelectRopt_EN$ = "And? Which ropt?";
+	$@HelTransferConfirm0_EN$ = "K, all good? You aren't getting your ";
+	$@HelTransferConfirm1_EN$ = "back, you know.";
+	$@HelTransferConfirmAcc0_EN$ = "K, all good? You'll keep your ";
+	$@HelTransferConfirmAcc1_EN$ = ". Accessories aren't destroyed when you transfer a Ropt away from them.";
+	$@HelTransferFinally0_EN$ = "All right, finally...";
+	$@HelTransferDone_EN$ = "It's done.";
+	$@HelTransferOverwrite_EN$ = "You wanna replace a line when you don't need to? Wow, what'd you screw up...?";
+	// -- Tinders transfer
+	$@TindersTransferNotEnough0_EN$ = "Sorry, transferring a ropt costs ";
+	$@TindersTransferNotEnough1_EN$ = "s. I won't be able to do it with ";
+	$@TindersTransferBreakRune0_EN$ = "If you'd like, I can break one of your Soul Runes down for you.";
+	$@TindersTransferNoAcc_EN$ = "You need an accessory that I can transfer to equipped.";
+	$@TindersTransferAccNoAcc_EN$ = "You picked an accessory, but you only have one accessory equipped. Equip the second accessory you'd like to transfer between.";
+	$@TindersTransferNoEquip_EN$ = "None of the equipment you have equipped has transferable ropts on it. Transferable ropts are in [square brackets].";
+	$@TindersTransferSource_EN$ = "Okay, which equipment has the ropt to transfer?";
+	$@TindersTransferSelectRopt_EN$ = "Which ropt would you like to transfer?";
+	$@TindersTransferConfirm0_EN$ = "Does everything look right? This process will destroy the ";
+	$@TindersTransferConfirm1_EN$ = ".";
+	$@TindersTransferConfirmAcc0_EN$ = "Does everything look right? You'll keep the ";
+	$@TindersTransferConfirmAcc1_EN$ = ". Accessories aren't destroyed when you transfer a Ropt away from them.";
+	$@TindersTransferFinally0_EN$ = "Okay, we'll transfer this.";
+	$@TindersTransferDone_EN$ = "Transfer completed.";
+	$@TindersTransferOverwrite_EN$ = "You'll overwrite an existing line.";
+	$@TindersBreakNoRunes_EN$ = "You don't have any Soul Runes to break. Sorry.";
+	$@TindersBreak0_EN$ = "Okay. Break down 1 Soul Rune to get "+$@SoulFragmentConvertRate+" Soul Fragments?";
+	$@TindersBreakTease_EN$ = "Okay. Let me know if you change your mind.";
+	$@TindersBreak1_EN$ = "Okay. I'll get started...";
+	$@TindersBreak2_EN$ = "and carefully remove this...";
+	$@TindersBreak3_EN$ = "All done. Here are the fragments.";
+	// -- Ropt Transfer
+	$@TransferableRopts_EN$ = "[Transferable Ropts]";
+	$@TransferableRoptNote_EN$ = "[Transferable ropts are encased in square brackets]";
+	$@TransferRoptOverwrite0_EN$ = "That accessory is full up already. Overwite an existing line?";
+	$@TransferRoptOverwrite1_EN$ = "-- Overwrite which line on ";
+	$@TransferRoptOverwriting_EN$ = "Overwriting line: ";
+	$@TransferOverwriteExisting_EN$ = "Replace an existing line on ";
+	$@TransferRoptCost_EN$ = "Cost: ";
+	$@TransferRoptSelectEquip_EN$ = "Selected Equip: ";
+	$@TransferRoptSelectRopt_EN$ = "Selected Ropt: ";
+	$@TransferRoptSelectAcc_EN$ = "Which accessory is it going to?";
+	$@TransferRoptDestroy0_EN$ = "-- Destroy ";
+	$@TransferRoptDestroy1_EN$ = "to transfer?";
+	$@TransferRoptNoDestroy_EN$ = "-- Transfer ropt? No gear will be destroyed.";
+	$@TransferRoptFinish0_EN$ = "Consumed ";
+	$@TransferRoptFinishAcc0_EN$ = "Removed ropt from ";
+	$@TransferRoptFinishAcc1_EN$ = " & consumed ";
+	$@TransferRoptFinish1_EN$ = "& ";
+	$@TransferRoptFinish2_EN$ = " to transfer ropt '";
+	$@TransferRoptFinish3_EN$ = "' to your ";
+	$@TransferBreakPrompt_EN$ = "Break 1 Soul Rune for 50 Soul Fragments:Leave";
+	// -------------- Refiner NPC (Claude) ---------------
+	$@RefinerInteract0_EN$ = "Whatcha need?";
+	$@RefinerInteract1_EN$ = "'Sup buddy?";
+	$@RefinerCancel_EN$ = "No worries.";
+	$@RefinerEquipped_EN$ = "Refine from equipped";
+	$@RefinerInventory_EN$ = "Refine from inventory";
+	$@RefinerBuyOres_EN$ = "Purchase ores";
+	$@RefinerConvertOres_EN$ = "Convert ores";
+	$@RefinerConvertExplain_EN$ = "Gimme 10x Rough Elu or 5x weapon ores, and I'll convert 'em up a tier. No Zeny exchanged!";
+	$@RefinerMaxConvert_EN$ = "  - Convert all ores to max tier";
+	$@RefinerConverted_EN$ = "Job's done.";
+	$@RefineNoConvert_EN$ = "Sorry, ya got nothing I can convert up.";
+	$@RefinerSellOres_EN$ = "Sell ores";
+	$@RefinerSellJellopy_EN$ = "Can also just toss any ores ya wanna sell on the ground. Jelly will grab 'em.";
+	$@RefinerWhatSell_EN$ = "What're ya selling?";
+	$@RefinerInfinityArrow_EN$ = "Craft Infinity Arrow";
+	$@RefinerArrowCraft0_EN$ = "Makin' an Infinity Arrow? Sure, next one'll take ";
+	$@RefinerArrowCraftF0_EN$ = "Makin' an Infinity Arrow? Sure, first one takes ";
+	$@RefinerArrowCraft1_EN$ = ". That work?";
+	$@RefinerArrowCraftP0_EN$ = "-- Consume ";
+	$@RefinerArrowCraftP1_EN$ = "?";
+	$@RefinerArrowMax_EN$ = "Sorry buddy, ya already got the best arrow I can make.";
+	$@RefinerArrowNeedMats_EN$ = "Sorry buddy, ya don't got enough ores.";
+	$@RefinerArrowCrafted0_EN$ = "Used ";
+	$@RefinerArrowCrafted1_EN$ = " and ";
+	$@RefinerArrowCrafted2_EN$ = " to craft ";
+	$@RefinerArrowDone_EN$ = "Job's done. Happy hunting.";
+	// -------------- ShopKeep NPC (Reva) ---------------
+	$@ShopKeepInteract0_EN$ = "Hi sweetie. What'll it be?";
+	$@ShopKeepInteract1_EN$ = "What'll it be?";
+	$@ShopKeepMenuTrade_EN$ = "Trade";
+	$@ShopKeepMenuConvert_EN$ = "Brew herbs";
+	$@ShopKeepMenuTips_EN$ = "Tips";
+	$@ShopKeepTipNothing_EN$ = "Got no new info for you.";
+	$@ShopKeepTipCost0_EN$ = "My tips are ";
+	$@ShopKeepTipCost1_EN$ = "z a pop. OK?";
+	$@ShopKeepCancel_EN$ = "Never mind, then.";
+	$@ShopKeepBreak_EN$ = "Take a break at the Bonfire?";
+	$@ShopKeepBreakLeader_EN$ = "Need a break? Have your party leader ask and I can help.";
+	$@ShopKeepBreakBoss_EN$ = "Sorry, can't send you to the Bonfire before the floor boss is dead.";
+	$@ShopKeepConvertExplain_EN$ = "I'll make a Brew out of 10x Red/Blue Herbs or 20x Yellow Herbs. No extra charge, of course.";
+	$@ShopKeepMaxConvert_EN$ = "  - Brew all herbs";
+	$@ShopKeepConverted_EN$ = "Brewed to perfection.";
+	$@ShopKeepNeedHerbs_EN$ = "Not enough herbs for that.";
+	$@ShopKeepNoConvert_EN$ = $@ShopKeepNeedHerbs_EN$;
+	$@ShopKeepClosed_EN$ = "Sorry sweetie, shop's closed until you beat the next Arena.";
+	$@ShopKeepTradeFail_EN$ = "";
+	// -------------- Shady Dealer NPC (Doe) ---------------
+	$@DealerFirstJob_EN$ = "Scram, kiddo.";
+	$@DealerNote_EN$ = "You find a note on the ground.";
+	$@DealerNotePrompt_EN$ = "Read it.:Ignore it.";
+	$@DealerNoteRead0_EN$ = "You read the note: 'Psst. I got some unbeatable services for you, "; // + char name
+	$@DealerNoteRead1_EN$ = ". Come top right.'";
+	$@DealerNoteIgnore_EN$ = "You leave it there.";
+	$@DealerInteract0_EN$ = "Lookin' for something?";
+	$@DealerCancel_EN$ = "Get outta here, kiddo.";
+	$@DealerMoreRune_EN$ = "Don't got enough Soul Runes, kiddo? Maybe Hel can help you with that, just... careful around her.";
+	$@DealerMoreRuneMastery_EN$ = "Your Soul Rune cost for forgetting a mastery is: ";
+	$@DealerLookGood_EN$ = "Look good?";
+	$@DealerGotIt_EN$ = "Got it, buddy.";
+	$@DealerPrompt0_EN$ = "A specific skill...";
+	$@DealerPrompt1_EN$ = "Lose a mastery...";
+	$@DealerSkill0_EN$ = "Yea, what skill? I'll raise the chances Shamal pulls it up next time...";
+	$@DealerSkill1_EN$ = "I need the Soul Runes up front. More Runes, more chance I can make it happen. At "+$@DealerSoulRuneMax+" it's a guarantee!";
+	$@DealerSkill2_EN$ = "Got it. Good luck, buddy.";
+	$@DealerSkillLooking0_EN$ = "You know I'm still trying to dig up ";
+	$@DealerSkillLooking1_EN$ = ", right? You wanna pump up the chance, or look for a different skill?";
+	$@DealerSkillLookChoice_EN$ = "Pump it up:Find a different skill:Never mind.";
+	$@DealerSkillPump1_EN$ = "All right, how much more you wanna fund it?";
+	$@DealerSkillPumpMax_EN$ = "Man, I can't even use that many. I'll just take what I can...";
+	$@DealerSkillPumpCapped_EN$ = "Nah mate, we're capped. Talk to Shamal in there, all right? She'll have the stuff.";
+	$@DealerSkillSelect0_EN$ = "Selected Skill: ";
+	$@DealerSkillSelect1_EN$ = "Soul Runes: ";
+	$@DealerSkillSelect2_EN$ = "Current Soul Runes: ";
+	$@DealerSkillSelect3_EN$ = "Add Soul Runes: ";
+	$@DealerSkillSelect4_EN$ = "New total: ";
+	$@DealerSkillDispBottom_EN$ = "Shamal's random scroll shop has an increased chance to contain ";
+	$@DealerSkillFound0_EN$ = "Doe pulled through, Shamal is now stocking "; // +skillname
+	$@DealerMasteryPrompt0_EN$ = "Why would I?";
+	$@DealerMasteryPrompt1_EN$ = "I just need an antidote.";
+	$@DealerMastery0_EN$ = "Heh, you want to forget a mastery? I have a drug that'll do just the job...";
+	$@DealerMastery1_EN$ = "All right buddy, which one we dropping?";
+	$@DealerMasteryPalms0_EN$ = "Why are you rubbing your palms together?";
+	$@DealerMasteryPalms1_EN$ = "Heh, old habit... C'mon now...";
+	$@DealerMasteryWhy0_EN$ = "Weapons you have mastery for are more likely to drop, but that increased chance is shared among all your masteries.";
+	$@DealerMasteryWhy1_EN$ = "So if you forget a mastery you don't want, you'll get better drop rates for weapon types you want. Good deal, right?";
+	$@DealerMasteryWhy2_EN$ = "For each mastery you've already forgotten, I need to cook up something stronger, so the cost goes up a bit.";
+	$@DealerMasteryWhy3_EN$ = "But the best part is, I'll throw in a free antidote. Use it and you'll relearn all your forgotten masteries. Risk free!";
+	$@DealerMasteryWhyPrompt_EN$ = "Let's do it:No way...";
+	$@DealerMasteryNone_EN$ = "You've had enough, buddy... I'm not gonna let you forget your last mastery.";
+	$@DealerMasterySelect0_EN$ = "Selected mastery: ";
+	$@DealerMasterySelect1_EN$ = "Soul Rune cost: ";
+	$@DealerMasteryDone0_EN$ = "All right, nice choice. Here, drink this...";
+	$@DealerMasteryDone1_EN$ = "Not so bad, right? Don't forget your antidote, and come back if you want anything else.";
+	$@DealerMasteryCancel_EN$ = "Why not? It's safe. Really.";
+	$@DealerMasteryInfo0_EN$ = "You forgot: ";
+	$@DealerHaveAntidote_EN$ = "Uh... You got the one I gave you last time there, kid.";
+	// -------------- Help NPC (Tinders) ---------------
+	$@HelpInitTalk_EN$ = "Need something?";
+	$@HelpCancel_EN$ = "Got it.";
+	$@TindersCancel_EN$ = $@HelpCancel_EN$;
+	// -------------- Meta progression (Cinders) ---------------
+	$@MetaInitTalk_EN$ = "The glory of Frigg shall guide you!";
+	setarray($@MetaInitTalkFen_EN$[0],
+		"Allow the glory of Frigg to guide you!",
+		"There are many paths to glory. You'll find yours!",
+		"You'll only find suffering in resistance! Peace comes with acceptance.",
+		"Each failure is a mirror! What do you see in it?",
+		"Frustration is a teacher dressed as failure!",
+		"Success is built on the back of failure!",
+		"See how easily the self tightens around a loss. You will prevail!",
+		"That which breaks your focus reveals your attachments!",
+		"You are not your mistakes, but the awareness that sees them!"
+	);
+	$@MetaCancel_EN$ = "Aye, then.";
+	$@MetaMenuCampiShop_EN$ = "Campi upgrade shop";
+	$@MetaMenuCampiRunShop_EN$ = "Campi run shop";
+	$@MetaMenuViewUpgrades_EN$ = "View my Campi upgrades";
+	$@MetaMenuService_EN$ = "Campi services";
+	$@MetaMenuQuestions_EN$ = "What are Campi?";
+	$@MetaEnterShop_EN$ = "Your strength shall grow!";
+	$@MetaViewUpgrades_EN$ = "Gaze upon your strength!";
+	$@MetaViewNoUpgrades_EN$ = "But you have not bought any Campi upgrades yet!";
+	$@MetaServiceMemoryWeapon_EN$ = "Register a Memory Weapon";
+	$@MetaServiceCostume_EN$ = "Create a Costume";
+	$@MetaServiceBonusStats_EN$ = "Reallocate Bonus Stats";
+	$@MetaServiceStartSkill_EN$ = "Select a starting skill";
+	$@MetaServiceChangeBan_EN$ = "Change F15 evo ban";
+	$@MetaServiceAutobuy_EN$ = "Configure run shop autobuy";
+	$@MetaServiceConvertPermit_EN$ = "Convert lab permits";
+	$@MetaServiceNoMemoryWeapon_EN$ = "Aye! You can register a Memory Weapon, but you need the Memory Weapon upgrade first.";
+	$@MetaServiceNoBonusStat_EN$ = "Aye! You can reallocate your bonus stats, but you need the Bonus Stat upgrade first.";
+	$@MetaServiceNoStartSkill_EN$ = "Aye! You can change your 'Starting Skill' pick from the Campi run shop here.";
+	$@MetaServiceNoEvoBan_EN$ = "Aye! You can change your 'F15 Evo Ban' pick from the Campi run shop here.";
+	$@MetaServiceNoUpgrade_EN$ = "Try again after you've used the upgrade at least once.";
+	$@MetaServiceNoteItem_EN$ = "Remember, you must buy the run upgrade to gain the effect!";
+	// ---- Memory Weapons
+	$@MetaMemWpnNoEqp_EN$ = "No weapon equipped. Please equip the weapon you'd like to register and try again.";
+	$@MetaMemWpnTooHigh0_EN$ = "Your Memory Weapon upgrade isn't high enough to register a Lv";
+	$@MetaMemWpnTooHigh1_EN$ = " Weapon!";
+	$@MetaMemWpnLv4_EN$ = "Lv4 weapons cannot be Memory Weapons. Maybe someday!";
+	$@MetaMemWpnOverwrite0_EN$ = "You already have a ";
+	$@MetaMemWpnOverwrite1_EN$ = " registered as a Lv";
+	$@MetaMemWpnOverwrite2_EN$ = " Memory Weapon. Overwrite?";
+	$@MetaMemWpnOverwriteP_EN$ = "Overwrite ";
+	$@MetaMemWpnFree0_EN$ = "Aye! Your first Lv";
+	$@MetaMemWpnFree1_EN$ = " Memory Weapon is free. After this, it'll cost ";
+	$@MetaMemWpnFree2_EN$ = " Campi to register a Lv";
+	$@MetaMemWpnFree3_EN$ = " Weapon. Proceed?";
+	$@MetaMemWpnCost0_EN$ = "Registering a Lv";
+	$@MetaMemWpnCost1_EN$ = " Memory Weapon will cost ";
+	$@MetaMemWpnCost2_EN$ = " Campi. Proceed?";
+	$@MetaMemWpnCostFail0_EN$ = "It costs "; // +number
+	$@MetaMemWpnCostFail1_EN$ = " Campi to register a new Lv"; // +wpn
+	$@MetaMemWpnCostFail2_EN$ = " Memory Weapon. If you had the Campi, I could help you. Apologies."; // +wpn
+	$@MetaMemWpnSucc0_EN$ = "Registered ";
+	$@MetaMemWpnSucc1_EN$ = " as your Lv";
+	$@MetaMemWpnSucc2_EN$ = " Memory Weapon.";
+	$@MetaMemWpnSucc3_EN$ = " Campi taken: ";
+	$@MetaMemWpnInception_EN$ = "You cannot register a Memory Weapon as a Memory Weapon!";
+	$@MemWpnFail_EN$ = "Something failed when retrieving your memory weapon. Report this.";
+	$@MemWpnEqFail_EN$ = "You don't have a weapon equipped!";
+	$@MemWpnObtain_EN$ = "Obtained a Memory Weapon.";
+	// ---- Bonus stat system
+	$@MetaBonusStatTitle_EN$ = "Bonus Stats";
+	$@MetaBonusStatAllocated_EN$ = "Allocated bonus stat points: ";
+	$@MetaBonusStatPoint_EN$ = "point";
+	$@MetaBonusStatPoints_EN$ = "points";
+	$@MetaBonusStatAPoint_EN$ = "a point";
+	$@MetaBonusStatUnused0_EN$ = "You have "; // <unused_sp>
+	$@MetaBonusStatUnused1_EN$ = " unused bonus stat "; // <points>
+	$@MetaBonusStatUnused2_EN$ = ".";
+	$@MetaBonusStatNoRemaining_EN$ = "You have no bonus points remaining.";
+	$@MetaBonusStatReallocateQ_EN$ = "Reallocate your bonus stat points?";
+	$@MetaBonusStatReallocateNo_EN$ = "Keep these bonus stats";
+	$@MetaBonusStatReallocateYes_EN$ = "Reallocate bonus stats";
+	$@MetaBonusStatCurrent_EN$ = "Current stat allocation";
+	$@MetaBonusStatReset_EN$ = "Your bonus stat points have been reset.";
+	$@MetaBonusStatAdd_EN$ = "Added bonus point to ";
+	// ---- Costume system
+	$@CostumeGot0_EN$ = "Consumed ";
+	$@CostumeGot1_EN$ = "x Campi to create a costume from ";
+	$@CostumeGot2_EN$ = ". Remaining Campi: ";
+	$@MetaCostumeNone_EN$ = "You'll need a headgear equipped, first!";
+	$@MetaCostumeSelect_EN$ = "A costume, then! Which headgear to make a costume of?";
+	$@MetaCostumeSelectP_EN$ = "-- Costume from which headgear?";
+	$@MetaCostumeMesTitle_EN$ = "[Create a Costume]";
+	$@MetaCostumeMesBase_EN$ = "Base headgear: ";
+	$@MetaCostumeMesCost_EN$ = "Campi Cost: ";
+	$@MetaCostumeMesTotal_EN$ = "Your total Campi: ";
+	$@MetaCostumeC0_EN$ = " costume? I can do it for ";
+	$@MetaCostumeC1_EN$ = " Campi!";
+	$@MetaCostumeNeedCampi_EN$ = "Sorry, you'll need more Campi for that one!";
+	$@MetaCostumeDone_EN$ = "All done, then! Enjoy it.";
+	/********************************
+		SECTION: CAMPI UPGRADES
+	*********************************/
+	$@UseCampiStartItem_EN$ = "You will now start runs with "; // + <item name> (<count>x)
+	$@UseCampiRGX_C_ZENY1_EN$ = $@UseCampiStartItem_EN$+"100z.";
+	$@UseCampiRGX_C_ZENY2_EN$ = $@UseCampiStartItem_EN$+"250z.";
+	$@UseCampiRGX_C_ZENY3_EN$ = $@UseCampiStartItem_EN$+"500z.";
+	$@UseCampiRGX_C_ZENY4_EN$ = $@UseCampiStartItem_EN$+"1000z.";
+	$@UseCampiRGX_C_ZENY5_EN$ = $@UseCampiStartItem_EN$+"2000z.";
+	$@UseCampiShopStock_EN$ = "Reva's shop will now stock "; // +<X>% <item type>
+	$@UseCampiRGX_C_HPPOTION1_EN$ = $@UseCampiShopStock_EN$+"+10% HP potions.";
+	$@UseCampiRGX_C_HPPOTION2_EN$ = $@UseCampiShopStock_EN$+"+20% HP potions.";
+	$@UseCampiRGX_C_HPPOTION3_EN$ = $@UseCampiShopStock_EN$+"+30% HP potions.";
+	$@UseCampiRGX_C_SPPOTION1_EN$ = $@UseCampiShopStock_EN$+"+10% SP items.";
+	$@UseCampiRGX_C_SPPOTION2_EN$ = $@UseCampiShopStock_EN$+"+20% SP items.";
+	$@UseCampiRGX_C_SPPOTION3_EN$ = $@UseCampiShopStock_EN$+"+30% SP items.";
+	$@UseCampiRGX_C_GEMSTONES1_EN$ = $@UseCampiShopStock_EN$+"+10% Gemstones.";
+	$@UseCampiRGX_C_GEMSTONES2_EN$ = $@UseCampiShopStock_EN$+"+20% Gemstones.";
+	$@UseCampiRGX_C_GEMSTONES3_EN$ = $@UseCampiShopStock_EN$+"+30% Gemstones.";
+	$@UseCampiRGX_C_SKILLCHOICE1_EN$ = "Shamal will now give you 3 random Skill Scroll choices.";
+	$@UseCampiRGX_C_SKILLCHOICE2_EN$ = "Shamal will now give you 4 random Skill Scroll choices.";
+	$@UseCampiRGX_C_SOULRUNE1_EN$ = "FoEs now have a 10% (+) chance to drop an additional Soul Rune.";
+	$@UseCampiRGX_C_SOULRUNE2_EN$ = "FoEs now have a 15% (+) chance to drop an additional Soul Rune.";
+	$@UseCampiRGX_C_SOULRUNE3_EN$ = "FoEs now have a 25% (+) chance to drop an additional Soul Rune.";
+	$@UseCampiRGX_C_RARESHRINE1_EN$ = "Rarer plants & minerals spawn rate +5% (*).";
+	$@UseCampiRGX_C_RARESHRINE2_EN$ = "Rarer plants & minerals spawn rate +10% (*).";
+	$@UseCampiRGX_C_RARESHRINE3_EN$ = "Rarer plants & minerals spawn rate +15% (*).";
+	$@UseCampiRGX_C_ROPTLINES1_EN$ = "Gear now has a 2% chance to gain an extra ropt line.",
+	$@UseCampiRGX_C_ROPTLINES2_EN$ = "Gear now has a 3% chance to gain an extra ropt line.",
+	$@UseCampiRGX_C_ROPTLINES3_EN$ = "Gear now has a 4% chance to gain an extra ropt line.",
+	$@UseCampiRGX_C_ROPTQUALITY1_EN$ = "Ropt quality will increase by 2%.",
+	$@UseCampiRGX_C_ROPTQUALITY2_EN$ = "Ropt quality will increase by 3%.",
+	$@UseCampiRGX_C_ROPTQUALITY3_EN$ = "Ropt quality will increase by 4%.",
+	$@UseCampiRGX_C_LABPERMIT1_EN$ = "You will now gain 1x Laboratory Permit upon entering F10.",
+	$@UseCampiRGX_C_LABPERMIT2_EN$ = "You will gain 1x Laboratory Permit upon entering F10. Increase Cenia's Laboratory Permit drop rate by +20% (*).",
+	$@UseCampiRGX_C_MEMORYWEAPON1_EN$ = "To register your Memory Weapon, select 'Campi Services' at Cinders.";
+	$@UseCampiRGX_C_MEMORYWEAPON2_EN$ = $@UseCampiRGX_C_MEMORYWEAPON1_EN$;
+	$@UseCampiRGX_C_MEMORYWEAPON3_EN$ = $@UseCampiRGX_C_MEMORYWEAPON1_EN$;
+	$@RunCampiFairyImpotence_EN$ = "A Fairy of Impotence";
+	$@RunCampiFairySerenity_EN$ = "A Fairy of Serenity";
+	$@RunCampiFairyCaution_EN$ = "A Fairy of Caution";
+	$@RunCampiFairyBounty_EN$ = "A Fairy of Bounty";
+	$@RunCampiFairy_EN$ = " joyfully floats by your side.";
+	// -- Temp run upgrades
+	// Starting skill
+	$@RunCampiStartSkCurrent0_EN$ = "Current starting skill: ";
+	$@RunCampiStartSkSelect_EN$ = "Select a new starting skill.";
+	$@RunCampiStartSkSet_EN$ = "Starting skill has been set to ";
+	$@RunCampiStartSkChange_EN$ = "You can change your starting skill at Cinders.";
+	$@RunCampiStartSkNoChange_EN$ = "Starting skill was not changed. Starting skill: ";
+	$@RunCampiStartSkGet_EN$ = "You lost a Skill Token and learned your starting skill: "; // + <skill_id> Lv1.
+	$@RunCampiStartSkFail_EN$ = "Failed to set starting skill. Please try again. If this issue persists, report it. Attempted to set skill at index: "; // + <skill_id> Lv1.
+	// Evolution ban
+	$@RunCampiEvoBanCurrent_EN$ = "Current ban: ";
+	$@RunCampiEvoBanSelect_EN$ = "Select a monster to ban its evolution.";
+	$@RunCampiEvoBanChange_EN$ = "You can change your evolution ban at Cinders.";
+	$@RunCampiEvoBanSet_EN$ = "Evolution ban chosen: ";
+	$@RunCampiEvoBanSetParty_EN$ = " has chosen an evo ban: ";
+	$@RunCampiEvoBanFail_EN$ = "Failed to set evo ban. Please try again. If this issue persists, report it. Attempted to set ban at index: "; // + <skill_id> Lv1.
+	/********************************
+		SECTION: FENSALIR
+	*********************************/
+	// ---- Fensalir Frigg
+	$@FenFriggInit0_EN$ = "Welcome. Don't worry about the loss, you can always try again. When you're ready, I'll send you back to Hiraeth for another attempt.";
+	$@FenFriggInit1_EN$ = "Ready to return to Hiraeth for another attempt?";
+	$@FenFriggCancel_EN$ = "You're welcome to stay awhile, take your time.";
+	$@FenFriggMenuP_EN$ = "-- What would you like to do?";
+	$@FenFriggMenuReset_EN$ = "Return to Hiraeth";
+	$@FenFriggMenuChat_EN$ = "Chat with Frigg";
+	$@FenFriggMenuStay_EN$ = "Stay a little longer";
+	setarray($@FenFriggStory0_EN$[0],
+		"Ah... so you ended up here after all.",
+		"No worries. It's rare for an Einherjar to become a Rune Breaker on their first try.",
+		"Welcome to Fensalir, my reprieve. It was once far grander, but...",
+		"I had to shrink my domain into a pocket realm. It's the only way you Einherjar can enter.",
+		"From here, I can send you back to Hiraeth. But most of what you've gained will be lost.",
+		"You'll lose your stats, skills, items, zeny, and more... but not everything.",
+		"We don't know why yet, but Campi gather around an Einherjar as their soul moves between the Lost Realm and Fensalir.",
+		"See? You've gathered more Campi already. It's as if they cling to you in a futile attempt to escape themselves...",
+		"But that's just a theory. Either way, the Campi stay with you. You don't lose them.",
+		"That ring of yours will remain too, along with any random options you've transferred to it.",
+		"You'll also keep key items, like the Breaker Manual.",
+		"Tinders and Cinders are here as well.",
+		"Normally Hel handles transferring ropts to accessories, but here in Fensalir, that duty falls to Tinders.",
+		"If you want to save any ropts before losing them, use her service.",
+		"Cinders grants permanent upgrades for Campi. You can get these in Hiraeth too, but some are easier to manage here.",
+		"His Memory Weapon upgrade lets you store a weapon for future use. There are many limitations, of course... we can only do so much.",
+		"He can also make you a costume out of a headgear.",
+		"You're welcome to rest here as long as you like. Take a look around.",
+		"Once your fighting spirit returns, I'll send you back."
+	);
+	// ----- Fensalir Tinders
+	$@FenTindersInit_EN$ = "Relaxing is important too.";
+	/********************************
+		SECTION: TUTORIAL
+	*********************************/
+	$@TutTypeSelectT_EN$ = "What would you like to know about?";
+	$@TutTypeSelectP_EN$ = "-- Select a tutorial.";
+	$@TutTypeSelected_EN$ = "Understood.";
+	$@Tutorial_EN$ = "Tutorial";
+	$@TutorialFundamental_EN$ = "Fundamentals";
+	$@TutorialIntermediate_EN$ = "Intermediate";
+	$@TutorialAdvanced_EN$ = "Advanced";
+	$@TutTypeControls_EN$ = "Basic controls";
+	$@TutTypeAttacking_EN$ = "Attacking";
+	$@TutTypeSkills_EN$ = "Skills";
+	$@TutTypeAttackRange_EN$ = "Attack Range";
+	$@TutTypeDelays_EN$ = "Delays (WIP)";
+	$@TutTypeStatusEffectsI_EN$ = "Status effects I (WIP)";
+	$@TutTypeStatusEffectsII_EN$ = "Status effects II (WIP)";
+	$@TutTypeHiding_EN$ = "Hiding (WIP)";
+	$@TutTypeBacksliding_EN$ = "Backsliding (WIP)";
+	$@TutTypeCombos_EN$ = "Combos (WIP)";
+	$@TutTypeLostRealm_EN$ = "[Intro] Lost Realm Basics";
+	$@TutLeave_EN$ = "I want to leave.";
+	$@TutChat_EN$ = "I just want to chat.";
+	$@TutChatReply_EN$ = "Eh? Oh... Umm...";
+	return;
+}

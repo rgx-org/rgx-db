@@ -1,0 +1,5602 @@
+Header:
+  Type: ITEM_DB
+  Version: 2
+Body:
+- Id: 60001
+  Name: Hairband
+  AegisName: RGX_Hairband
+  Type: Armor
+  Weight: 20
+  Defense: 1
+  Slots: 1
+  RoptPoolSet: 50029
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 9
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Notes: |-
+    Magical
+- Id: 60002
+  Name: Ribbon
+  AegisName: RGX_Ribbon
+  Type: Armor
+  Weight: 20
+  Slots: 1
+  RoptPoolSet: 50026
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 17
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus bMdef,1;
+  Notes: |-
+    SP
+- Id: 60003
+  Name: Fancy Flower
+  AegisName: RGX_Fancy_Flower
+  Type: Armor
+  Weight: 10
+  Slots: 1
+  RoptPoolSet: 50027
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 4
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus2 bSubEle,Ele_Earth,2;
+- Id: 60004
+  Name: Bandana
+  AegisName: RGX_Bandana
+  Type: Armor
+  Weight: 10
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 6
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |-
+    bonus bFlee,2;
+  Notes: |-
+    Agile
+- Id: 60005
+  Name: Unicorn Horn
+  AegisName: RGX_Unicorn_Horn
+  Type: Armor
+  Weight: 50
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 42
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |-
+    bonus bShortWeaponDamageReturn,3;
+  Notes: |-
+    Reflect
+- Id: 60006
+  Name: Nut Shell
+  AegisName: RGX_Nut_Shell
+  Type: Armor
+  Weight: 120
+  Defense: 2
+  Slots: 1
+  RoptPoolSet: 60021
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 122
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |-
+    bonus bHPrecovRate,5;
+  Notes: |-
+    DEF
+- Id: 60007
+  Name: Giant Bandage
+  AegisName: RGX_Giant_Bandage
+  Type: Armor
+  Weight: 20
+  Slots: 1
+  RoptPoolSet: 50028
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 147
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus bRestoration,3;
+  Notes: |-
+    Resist vs Bleed/CritWounds, Increase HP recovery effects, heal received
+- Id: 60008
+  Name: Cap
+  AegisName: RGX_Cap
+  Type: Armor
+  Weight: 40
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 14
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+- Id: 60009
+  Name: Egg Shell
+  AegisName: RGX_Egg_Shell
+  Type: Armor
+  Weight: 40
+  Defense: 2
+  Slots: 1
+  RoptPoolSet: 60022
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 101
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |-
+    bonus bDef2,3;
+- Id: 60010
+  Name: Pretend Murdered
+  AegisName: RGX_Pretend_Murdered
+  Type: Armor
+  Weight: 150
+  Defense: 1
+  Slots: 1
+  RoptPoolSet: 60026
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 80
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |-
+    bonus bShortWeaponDamageReturn,5;
+- Id: 60011
+  Name: Circlet
+  AegisName: RGX_Circlet
+  Type: Armor
+  Weight: 50
+  Slots: 1
+  RoptPoolSet: 50031
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 18
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus bMdef,4;
+  Notes: |-
+    Magical
+- Id: 60012
+  Name: Simple Headdress
+  AegisName: RGX_SIMPLE_HEADDRESS
+  Type: Armor
+  Weight: 20
+  Defense: 1
+  Slots: 1
+  RoptPoolSet: 50030
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 96
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |-
+    bonus bAgi,1;
+- Id: 60013
+  Name: Feather Headband
+  AegisName: RGX_Feather_Headband
+  Type: Armor
+  Weight: 70
+  Defense: 1
+  Slots: 1
+  RoptPoolSet: 50035
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 155
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |-
+    bonus bAgi,2;
+  Notes: |-
+    Ranged
+- Id: 60014
+  Name: Doctor Band
+  AegisName: RGX_Doctor_Band
+  Type: Armor
+  Weight: 50
+  Slots: 1
+  RoptPoolSet: 50032
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 60
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus2 bAftercastDelay,AL_CURE,-50;
+  Notes: |-
+    Medic
+- Id: 60015
+  Name: Holy Egg Hat
+  AegisName: RGX_Holy_Egg_Hat
+  Type: Armor
+  Weight: 170
+  Defense: 2
+  Slots: 1
+  RoptPoolSet: 60028
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 537
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |-
+    bonus bVit,2;
+    bonus bDef2,3;
+    bonus bMaxHP,5;
+  Notes: |-
+    Stats / Heal
+- Id: 60016
+  Name: Blue Headband
+  AegisName: RGX_Blue_Headband
+  Type: Armor
+  Weight: 30
+  Slots: 1
+  RoptPoolSet: 50033
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 136
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus bSPrecovRate,5;
+  Notes: |-
+    Agile, SP
+- Id: 60017
+  Name: Hat
+  AegisName: RGX_Hat
+  Type: Armor
+  Weight: 100
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 16
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Notes: |-
+    Hat
+- Id: 60018
+  Name: Pirate Bandana
+  AegisName: RGX_Pirate_Bandana
+  Type: Armor
+  Weight: 50
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 74
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |-
+    bonus bFlee,5;
+  Notes: |-
+    ATK / Agile
+- Id: 60019
+  Name: Safety Helmet
+  AegisName: RGX_Safety_Helmet
+  Type: Armor
+  Weight: 200
+  Defense: 3
+  Slots: 1
+  RoptPoolSet: 60023
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 95
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Notes: |-
+    Reduce Self Destruct damage
+
+    DEF
+- Id: 60020
+  Name: Army Cap
+  AegisName: RGX_Army_Cap
+  Type: Armor
+  Weight: 150
+  Defense: 2
+  Slots: 1
+  RoptPoolSet: 60024
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 48
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |-
+    bonus2 bResEff,Eff_Bleeding,2000;
+  Notes: |-
+    Militia
+- Id: 60021
+  Name: Rainbow Eggshell
+  AegisName: RGX_Rainbow_Eggshell
+  Type: Armor
+  Weight: 70
+  Defense: 2
+  Slots: 1
+  RoptPoolSet: 60025
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 124
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |-
+    bonus bVit,2;
+- Id: 60023
+  Name: Jack be Dandy
+  AegisName: RGX_Jack_be_Dandy
+  Type: Armor
+  Weight: 60
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 58
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |-
+    bonus bHit,5;
+  Notes: |-
+    HIT / Blind
+- Id: 60024
+  Name: Mini Propeller
+  AegisName: RGX_Mini_Propeller
+  Type: Armor
+  Weight: 30
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 270
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |-
+    bonus bSpeedRate,2;
+  Notes: |-
+    Agile
+- Id: 60025
+  Name: Silk Headdress
+  AegisName: RGX_SILK_HEADDRESS
+  Type: Armor
+  Weight: 50
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 7
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus bMaxHP,10;
+- Id: 60026
+  Name: Wonder Nutshell
+  AegisName: RGX_Wonder_Nutshell
+  Type: Armor
+  Weight: 200
+  Defense: 3
+  Slots: 1
+  RoptPoolSet: 60029
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 134
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |-
+    bonus bHPrecovRate,25;
+- Id: 60027
+  Name: Golden Gear
+  AegisName: RGX_Golden_Gear
+  Type: Armor
+  Weight: 300
+  Defense: 1
+  Slots: 1
+  RoptPoolSet: 60036
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 30
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+- Id: 60028
+  Name: Biretta
+  AegisName: RGX_Biretta
+  Type: Armor
+  Weight: 100
+  Defense: 2
+  Slots: 1
+  RoptPoolSet: 50071
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 11
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus bFlee,5;
+  Notes: |-
+    Resist
+- Id: 60029
+  Name: Big Ribbon
+  AegisName: RGX_Big_Ribbon
+  Type: Armor
+  Weight: 40
+  Defense: 1
+  Slots: 1
+  RoptPoolSet: 50036
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 28
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus bMdef,3;
+  Notes: |-
+    SP
+- Id: 60030
+  Name: Halo
+  AegisName: RGX_Spirit_Chain
+  Type: Armor
+  Weight: 100
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 69
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus2 bSubEle,Ele_Decay,30;
+    bonus2 bSubEle,Ele_Decay,15;bonus bMdef,5;bonus bAllRecovRate,$@HeadgearLivingBonus[CurrentFloor];
+  Notes: |-
+    Medic / Holy
+- Id: 60032
+  Name: Meitantei Cap
+  AegisName: Meitantei Cap
+  Type: Armor
+  Weight: 150
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 189
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Notes: |-
+    INT / HP
+- Id: 60033
+  Name: Romantic Gent
+  AegisName: RGX_Romantic_Gent
+  Type: Armor
+  Weight: 50
+  Defense: 1
+  Slots: 1
+  RoptPoolSet: 70026
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 31
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Notes: |-
+    [Vocal]
+- Id: 60034
+  Name: Sakkat
+  AegisName: RGX_Sakkat
+  Type: Armor
+  Weight: 150
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 67
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |-
+    bonus bAgi,2;
+  Notes: |-
+    Agile
+- Id: 60035
+  Name: Orc Helm
+  AegisName: RGX_Orc_Helm
+  Type: Armor
+  Weight: 500
+  Defense: 4
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 86
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |-
+    bonus bShortWeaponDamageReturn,4;
+  Notes: |-
+    Reflect / DEF
+- Id: 60036
+  Name: Mine Helm
+  AegisName: RGX_Mine_Helm
+  Type: Armor
+  Weight: 150
+  Defense: 3
+  Slots: 1
+  RoptPoolSet: 60027
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 116
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |-
+    bonus2 bResEff,Eff_Blind,10000;
+  Notes: |-
+    DEF / Earth
+- Id: 60037
+  Name: Sunflower Hat
+  AegisName: RGX_Sunflower_Hat
+  Type: Armor
+  Weight: 30
+  Defense: 1
+  Slots: 1
+  RoptPoolSet: 50034
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 37
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus bRestoration,5;
+- Id: 60038
+  Name: Nurse Cap
+  AegisName: RGX_Nurse_Cap
+  Type: Armor
+  Weight: 100
+  Defense: 1
+  Slots: 1
+  RoptPoolSet: 50038
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 64
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus bHealPower,5;
+- Id: 60039
+  Name: Ghost Bandana
+  AegisName: RGX_Ghost_Bandana
+  Type: Armor
+  Weight: 50
+  Slots: 1
+  RoptPoolSet: 50037
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 61
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |-
+    bonus bAgi,1;
+    bonus bFlee,5;
+- Id: 60040
+  Name: Super Novice Hat
+  AegisName: RGX_Super_Novice_Hat
+  Type: Armor
+  Weight: 120
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 193
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+- Id: 60041
+  Name: Goggles
+  AegisName: RGX_Goggles
+  Type: Armor
+  Weight: 150
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+    Head_Mid: true
+  Refineable: true
+  View: 1
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |-
+    bonus bHit,15;
+- Id: 60042
+  Name: Winter Hat
+  AegisName: RGX_Winter_Hat
+  Type: Armor
+  Weight: 250
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 196
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus2 bResEff,Eff_Freeze,1000;
+- Id: 60043
+  Name: Puppy Headband
+  AegisName: RGX_Ear_Of_Puppy
+  Type: Armor
+  Buy: 20
+  Weight: 100
+  Defense: 2
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 199
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+- Id: 60044
+  Name: Banana Hat
+  AegisName: RGX_Banana_Hat
+  Type: Armor
+  Weight: 200
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 197
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus3 bAutoSpell,SM_PROVOKE,5,30;
+  Notes: |-
+    [Lady Tanee] // Provoke
+
+    - Itemize provoke success rate, taunt doesnt do it anymore
+- Id: 60046
+  Name: Cute Ribbon
+  AegisName: RGX_Cute_Ribbon
+  Type: Armor
+  Weight: 100
+  Defense: 1
+  Slots: 1
+  RoptPoolSet: 50039
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 34
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus bMdef,3;
+  Notes: |-
+    SP
+- Id: 60049
+  Name: Sweet Gent
+  AegisName: RGX_Sweet_Gent
+  Type: Armor
+  Weight: 100
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 29
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Notes: |-
+    [Vagabond Wolf]
+- Id: 60052
+  Name: Apple of Archer
+  AegisName: RGX_Apple_Of_Archer
+  Type: Armor
+  Weight: 200
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 72
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |-
+    bonus bDex,2;
+  Notes: |-
+    Ranged Attacker
+- Id: 60053
+  Name: Helm
+  AegisName: RGX_Helm
+  Type: Armor
+  Weight: 200
+  Defense: 5
+  Slots: 1
+  RoptPoolSet: 60030
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 40
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |-
+    bonus bVit,1;
+    bonus bCastrate,500;
+  Notes: |-
+    DEF
+- Id: 60054
+  Name: Goibne's Helm
+  AegisName: RGX_Goibnes_Helmet
+  Type: Armor
+  Weight: 500
+  Defense: 8
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+    Head_Mid: true
+    Head_Low: true
+  Refineable: true
+  View: 258
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |-
+    bonus bMdef,3;bonus bAllRecovRate,$@HeadgearLivingBonus[CurrentFloor];
+  Notes: |-
+    DEF / Resist
+- Id: 60056
+  Name: Jewel Crown
+  AegisName: RGX_JEWEL_CROWN
+  Type: Armor
+  Weight: 600
+  Defense: 4
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 88
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Notes: |-
+    Magical
+- Id: 60058
+  Name: Helm Of Abyss
+  AegisName: RGX_Helm_Of_Abyss
+  Type: Armor
+  Weight: 150
+  Defense: 3
+  Slots: 1
+  RoptPoolSet: 60032
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 371
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |-
+    bonus2 bResEff,Eff_Bleeding,10000;
+- Id: 60059
+  Name: General Helmet
+  AegisName: RGX_General_Helmet
+  Type: Armor
+  Buy: 20
+  Weight: 200
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 729
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus bMdef,3;
+    bonus2 bAddRace,RC_Dragon,5;
+    bonus2 bMagicAddRace,RC_Dragon,5;
+    bonus2 bSubRace,RC_Dragon,5;
+    bonus3 bAddMonsterDropItem,7444,RC_Dragon,2;
+- Id: 60060
+  Name: Anubis Helm
+  AegisName: RGX_Anubis_Helm
+  Type: Armor
+  Buy: 20
+  Defense: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 485
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus bMdef,5;
+    bonus2 bSubClass,Class_Boss,10;
+    bonus bRestoration,10;
+    bonus bAddItemHealRate,10;
+- Id: 60061
+  Name: Watermelon Cap
+  AegisName: RGX_Watermelon_Cap
+  Type: Armor
+  Weight: 150
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 690
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+- Id: 60062
+  Name: Model Training Hat
+  AegisName: RGX_MODEL_TRAINING_HAT
+  Type: Armor
+  Weight: 200
+  Defense: 2
+  Slots: 1
+  RoptPoolSet: 50041
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 157
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bCastrate,-(200);
+- Id: 60063
+  Name: Fashionable Glasses
+  AegisName: RGX_Fashion_Sunglass
+  Type: Armor
+  Buy: 20
+  Weight: 100
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 131
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+- Id: 60064
+  Name: Magician Hat
+  AegisName: RGX_Magician_Hat
+  Type: Armor
+  Buy: 20
+  Weight: 120
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 130
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |-
+    bonus bMatk,10;
+- Id: 60065
+  Name: Poo Poo Hat
+  AegisName: RGX_Poo_Poo_Hat
+  Type: Armor
+  Weight: 100
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 76
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |-
+    bonus2 bSubRace,RC_FORMLESS,5;
+    bonus2 bSubRace,RC_DEMIHUMAN,5;
+    bonus2 bSubRace,RC_DRAGON,5;
+- Id: 60066
+  Name: Ancient Admiral Helm
+  AegisName: RGX_Ancient_Admiral_Helm
+  Type: Armor
+  Buy: 20
+  Weight: 700
+  Defense: 4
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+    Head_Mid: true
+  Refineable: true
+  View: 660
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus bStr,2;
+    bonus bVit,1;
+    if (getrefine() > 7)
+       bonus bSpeedRate,25;
+- Id: 60067
+  Name: Vanargandr Helm
+  AegisName: RGX_Vanargand_Helm
+  Type: Armor
+  Buy: 20
+  Weight: 1500
+  Defense: 10
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 804
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    .@r = getrefine();
+    if (.@r >= 9 ) {
+       bonus2 bHPDrainRate,60,8;
+       bonus2 bSPDrainRate,20,4;
+    } else if (.@r >= 8 ) {
+       bonus2 bHPDrainRate,50,5;
+       bonus2 bSPDrainRate,10,2;
+    } else if (.@r >= 7 ) {
+       bonus2 bHPDrainRate,30,5;
+       bonus2 bSPDrainRate,10,2;
+    } else if (.@r >= 5 ) {
+       bonus2 bHPDrainRate,10,3;
+       bonus2 bSPDrainRate,10,1;
+    }
+    else {
+       bonus2 bHPDrainRate,10,1;
+       bonus2 bSPDrainRate,10,1;
+    }
+- Id: 60068
+  Name: Ignis Cap
+  AegisName: RGX_Ignis_Cap
+  Type: Armor
+  Buy: 20
+  Weight: 800
+  Defense: 8
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 803
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+- Id: 60069
+  Name: Sunglasses Baseball Hat
+  AegisName: RGX_Sunglasses_Bball_Hat
+  Type: Armor
+  Buy: 20
+  Weight: 200
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 812
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus bInt,3;
+- Id: 60070
+  Name: Valkyrie Circlet
+  AegisName: RGX_Valkyrie_Circlet
+  Type: Armor
+  Weight: 300
+  Defense: 10
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 940
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus bStr,3;
+    bonus2 bAddEle,Ele_Dark,10;
+    bonus2 bAddRace,RC_Demon,10;
+- Id: 60071
+  Name: Celines Ribbon
+  AegisName: RGX_Celines_Ribbon
+  Type: Armor
+  Buy: 10
+  Weight: 200
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 967
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus bDex,3;
+    bonus bMagicHPGainValue,200;
+    bonus bMatk,40+(getrefine()*7);
+    bonus2 bHPLossRate,50,5000;
+- Id: 60072
+  Name: Sword Master Crown
+  AegisName: RGX_Sword_Master_Crown
+  Type: Armor
+  Buy: 10
+  Weight: 1000
+  Defense: 30
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 981
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    .@i = BaseLevel;
+    bonus bBaseAtk,(.@i>150)?(15):((.@i>100)?(10):((.@i>50)?(5):(0)));
+    if (getskilllv("SM_SWORD") == 10)
+       bonus bHit,10;
+    if (getskilllv("SM_TWOHAND") == 10)
+       bonus bUseSPrate,-5;
+    if (getskilllv("AM_AXEMASTERY") == 10)
+       bonus bVariableCastrate,-5;
+    if (getskilllv("AS_KATAR") == 10)
+       bonus bCritAtk,20;
+    if (getskilllv("PR_MACEMASTERY") == 10)
+       bonus bAspdRate,10;
+- Id: 60073
+  Name: Palace Guard Cap
+  AegisName: RGX_Palace_Guard_Cap
+  Type: Armor
+  Weight: 200
+  Defense: 3
+  Slots: 1
+  RoptPoolSet: 60035
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 991
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |-
+    bonus bMdef,3;
+- Id: 60074
+  Name: Advanced Jao King Hat
+  AegisName: RGX_BLACKDEATHKING_GOLDEN
+  Type: Armor
+  Buy: 10
+  Weight: 500
+  Defense: 4
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 996
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus bAllStats,3;
+    bonus bMaxHPrate,5;
+    bonus bMaxSPrate,5;
+- Id: 60075
+  Name: Old Mitra
+  AegisName: RGX_Old_Mitra
+  Type: Armor
+  Buy: 10
+  Weight: 100
+  Defense: 10
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 624
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    .@r = getrefine();
+    bonus bAllStats,1;
+    bonus bMdef,5;
+    bonus bMatk,2*.@r;
+    bonus bBaseAtk,4*.@r;
+    bonus bHealPower,2*.@r;
+    bonus bMaxHPrate,(.@r/2);
+    bonus bMaxSPrate,(.@r/2);
+    bonus2 bSkillAtk,"AB_JUDEX",20*(.@r/2);
+    bonus2 bSkillAtk,"PR_MAGNUS",10*(.@r/2);
+- Id: 60076
+  Name: Old Camouflage Rabbit Hood
+  AegisName: RGX_Old_Camo_RabbitHood
+  Type: Armor
+  Buy: 10
+  Weight: 100
+  Defense: 10
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 1142
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    .@r = getrefine();
+    bonus bAllStats,1;
+    bonus bLongAtkRate,.@r;
+    bonus bFlee2,(.@r/3);
+    bonus bMaxHPrate,(.@r/2);
+    bonus bMaxSPrate,(.@r/2);
+    bonus2 bSkillAtk,"RA_CLUSTERBOMB",15*(.@r/2);
+    bonus2 bSkillAtk,"RA_WUGSTRIKE",10*(.@r/2);
+- Id: 60077
+  Name: Old Protect Of Helm
+  AegisName: RGX_Old_Protect_Of_Crown
+  Type: Armor
+  Buy: 10
+  Weight: 100
+  Defense: 10
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 1140
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    .@r = getrefine();
+    bonus bAllStats,1;
+    bonus bMdef,5;
+    bonus bBaseAtk,4*.@r;
+    bonus bAspd,(.@r/5);
+    bonus bMaxHPrate,(.@r/2);
+    bonus bMaxSPrate,(.@r/2);
+    bonus2 bSkillAtk,"LG_CANNONSPEAR",20*(.@r/2);
+    bonus2 bSkillAtk,"LG_OVERBRAND",15*(.@r/2);
+- Id: 60078
+  Name: Coronet
+  AegisName: RGX_Coronet
+  Type: Armor
+  Weight: 150
+  Defense: 2
+  Slots: 1
+  RoptPoolSet: 60031
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 33
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |-
+    bonus bInt,1;
+- Id: 60079
+  Name: Elephant Hat
+  AegisName: RGX_Elephant_Hat
+  Type: Armor
+  Weight: 500
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 215
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus bVit,1;
+    bonus2 bSubRace,RC_Brute,7;
+    skill "WZ_WATERBALL",1;
+- Id: 60080
+  Name: Four Leaf Clover
+  AegisName: RGX_Four_Leaf_Clover
+  Type: Armor
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+  View: 571
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus bLuk,5;
+  Notes: |-
+    Eclipse
+- Id: 60081
+  Name: Coif
+  AegisName: RGX_Coif
+  Type: Armor
+  Weight: 120
+  Defense: 3
+  Slots: 1
+  RoptPoolSet: 50042
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+    Head_Mid: true
+  Refineable: true
+  View: 177
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus bMaxSP,50;
+- Id: 60082
+  Name: Flower Band
+  AegisName: RGX_Flower_Hairband
+  Type: Armor
+  Buy: 20
+  Weight: 100
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 5
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+- Id: 60083
+  Name: Red Bandana
+  AegisName: RGX_Red_Bandana
+  Type: Armor
+  Weight: 100
+  Defense: 1
+  Slots: 1
+  RoptPoolSet: 50043
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 62
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus bFlee,10;
+    bonus bAtk,3;
+- Id: 60084
+  Name: Ear Muffs
+  AegisName: RGX_Ear_Muffs
+  Type: Armor
+  Weight: 100
+  Defense: 2
+  Slots: 1
+  RoptPoolSet: 50045
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 70
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus2 bResEff,Eff_Chill,5000;
+    bonus2 bResEff,Eff_Freeze,1000;
+- Id: 60085
+  Name: Ph.D Hat
+  AegisName: RGX_PhD_Hat
+  Type: Armor
+  Weight: 150
+  Defense: 2
+  Slots: 1
+  RoptPoolSet: 50046
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 98
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Notes: |-
+    [Evil Snake Lord]
+- Id: 60086
+  Name: Wizard Hat
+  AegisName: RGX_Star_Sparkling
+  Type: Armor
+  Buy: 20
+  Weight: 300
+  Defense: 4
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 36
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bMaxSP,100;
+- Id: 60087
+  Name: Wedding Veil
+  AegisName: RGX_Wedding_Veil
+  Type: Armor
+  Buy: 23000
+  Weight: 100
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 44
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bMdef,5;
+- Id: 60088
+  Name: Galapago Cap
+  AegisName: RGX_Galapago_Cap
+  Type: Armor
+  Weight: 200
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 192
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+- Id: 60089
+  Name: Straw Hat
+  AegisName: RGX_Straw_Hat
+  Type: Armor
+  Buy: 20
+  Weight: 200
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 146
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bAgi,1;
+  Notes: |-
+    Speed / General
+- Id: 60090
+  Name: Beret
+  AegisName: RGX_Beret
+  Type: Armor
+  Buy: 30000
+  Weight: 700
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 226
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus2 bSubRace,RC_DemiHuman,10;
+    bonus2 bSubRace,RC_Player_Human,10;
+  Notes: |-
+    Defensive
+- Id: 60091
+  Name: Bucket Hat
+  AegisName: RGX_Bucket_Hat
+  Type: Armor
+  Weight: 150
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 195
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+- Id: 60092
+  Name: Sombrero
+  AegisName: RGX_Sombrero
+  Type: Armor
+  Buy: 20
+  Weight: 350
+  Defense: 4
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 151
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bAgi,1;
+- Id: 60093
+  Name: Spiky Band
+  AegisName: RGX_Spiky_Band
+  Type: Armor
+  Weight: 200
+  Defense: 5
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 43
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+- Id: 60094
+  Name: Bijofnil Wings
+  AegisName: RGX_Bizofnil_Wing_Deco
+  Type: Armor
+  Buy: 20
+  Weight: 1000
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 477
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bAllStats,2;
+    bonus3 bAutoSpell,"PR_IMPOSITIO",3,3;
+- Id: 60095
+  Name: Grand Circlet
+  AegisName: RGX_Lord_Circlet_C
+  Type: Armor
+  Buy: 1
+  Defense: 10
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 93
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus bStr,3;
+    bonus bInt,3;
+    bonus bLuk,3;
+    bonus bMdef,4;
+- Id: 60096
+  Name: Gladiator's Helmet
+  AegisName: RGX_Gladiators_Helmet
+  Type: Armor
+  Weight: 500
+  Defense: 6
+  Slots: 1
+  RoptPoolSet: 60033
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+    Head_Mid: true
+    Head_Low: true
+  Refineable: true
+  View: 203
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |-
+    bonus bVit,3;
+    bonus bCastrate,500;
+- Id: 60097
+  Name: Crown
+  AegisName: RGX_Crown
+  Type: Armor
+  Weight: 100
+  Defense: 1
+  Slots: 1
+  RoptPoolSet: 50040
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 45
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus bInt,1;
+- Id: 60098
+  Name: Munak Hat
+  AegisName: RGX_Munak_Turban
+  Type: Armor
+  Buy: 20
+  Weight: 300
+  Defense: 5
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+    Head_Mid: true
+    Head_Low: true
+  Refineable: true
+  View: 51
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus2 bSubRace,RC_Undead,10;
+- Id: 60099
+  Name: Bongun Hat
+  AegisName: RGX_Bongun_Hat
+  Type: Armor
+  Buy: 20
+  Weight: 300
+  Defense: 5
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+    Head_Mid: true
+    Head_Low: true
+  Refineable: true
+  View: 139
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+- Id: 60100
+  Name: Antlers
+  AegisName: RGX_Antlers
+  Type: Armor
+  Weight: 500
+  Defense: 4
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 71
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Notes: |-
+    [Ragan Guardian] // Reflect
+- Id: 60101
+  Name: Mystic Rose
+  AegisName: RGX_Mistic_Rose
+  Type: Armor
+  Buy: 20
+  Weight: 100
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 198
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus2 bSubRace,RC_Plant,2;
+- Id: 60102
+  Name: Headset
+  AegisName: RGX_Headset
+  Type: Armor
+  Buy: 20
+  Weight: 200
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 87
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus2 bResEff,Eff_Curse,1000;
+- Id: 60103
+  Name: Selendang
+  AegisName: RGX_Muslim_Hat_F
+  Type: Armor
+  Weight: 100
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 363
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bCastrate,-50;
+- Id: 60104
+  Name: Morpheus's Hood
+  AegisName: RGX_Morpheuss_Hood
+  Type: Armor
+  Buy: 30000
+  Weight: 200
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 256
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bInt,2;
+- Id: 60106
+  Name: Phrygian Cap
+  AegisName: RGX_Phrygian_Cap
+  Type: Armor
+  Weight: 500
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 217
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bInt,2;
+- Id: 60107
+  Name: Ayam
+  AegisName: RGX_Ayam
+  Type: Armor
+  Buy: 30000
+  Weight: 400
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 228
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    if (BaseClass == Job_Taekwon) {
+       bonus bInt,1;
+       bonus bSPrecovRate,3;
+    }
+- Id: 60108
+  Name: Bright Fury
+  AegisName: RGX_Bright_Fury
+  Type: Armor
+  Buy: 20
+  Weight: 300
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 548
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bStr,1;
+    bonus2 bAddClass,Class_All,2;
+    bonus bAspdRate,2;
+- Id: 60109
+  Name: Hot-blooded Headband
+  AegisName: RGX_Headband_Of_Power
+  Type: Armor
+  Buy: 20
+  Weight: 100
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 154
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bStr,2;
+- Id: 60110
+  Name: Emperor's Laurel Crown
+  AegisName: RGX_Wreath
+  Type: Armor
+  Buy: 20
+  Weight: 1000
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+    Head_Mid: true
+  Refineable: true
+  View: 261
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bAllStats,1;
+    bonus bMdef,3;
+- Id: 60111
+  Name: Cresent Hairpin
+  AegisName: RGX_First_Moon_Hair_Pin
+  Type: Armor
+  Buy: 20
+  Weight: 100
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 132
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+- Id: 60112
+  Name: Shaman's Hair Decoration
+  AegisName: RGX_Shamans_Hair_Ornament
+  Type: Armor
+  Buy: 20
+  Weight: 300
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 476
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bMdef,3;
+    bonus bMaxHP,50;
+    bonus2 bSubEle,Ele_Neutral,5;
+- Id: 60113
+  Name: Bride Mask
+  AegisName: RGX_Bride_Mask
+  Type: Armor
+  Buy: 30000
+  Weight: 500
+  Defense: 4
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+    Head_Mid: true
+  Refineable: true
+  View: 223
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    if (BaseClass == Job_Taekwon) {
+       bonus bLuk,2;
+       bonus bCritical,5;
+    }
+- Id: 60114
+  Name: Fricca's Circlet
+  AegisName: RGX_Fricca_Circlet
+  Type: Armor
+  Buy: 30000
+  Weight: 300
+  Defense: 3
+  Slots: 1
+  RoptPoolSet: 50044
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 251
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bMdef,10;
+    bonus bInt,2;
+    bonus bMaxSP,50;
+- Id: 60115
+  Name: Ulle's Cap
+  AegisName: RGX_Ulle_Cap
+  Type: Armor
+  Buy: 30000
+  Weight: 500
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 254
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bDex,2;
+    bonus bAgi,1;
+- Id: 60116
+  Name: Golden Tiara
+  AegisName: RGX_Gold_Tiara
+  Type: Armor
+  Weight: 100
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 232
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bInt,2;
+- Id: 60117
+  Name: Silver Tiara
+  AegisName: RGX_Silver_Tiara
+  Type: Armor
+  Weight: 100
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 218
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bInt,2;
+- Id: 60118
+  Name: White Musang Hat
+  AegisName: RGX_White_Musang_Hat
+  Type: Armor
+  Buy: 40
+  Weight: 200
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 770
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bStr,2;
+    bonus bVit,2;
+    bonus bLuk,1;
+    bonus bUnbreakableHelm;
+- Id: 60119
+  Name: Mage Hat
+  AegisName: RGX_Wizardry_Hat
+  Type: Armor
+  Buy: 20
+  Weight: 300
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 112
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bInt,2;
+    bonus bMaxSP,150;
+- Id: 60120
+  Name: Raccoon Hat
+  AegisName: RGX_Smokie_Hat
+  Type: Armor
+  Buy: 20
+  Weight: 900
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 118
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Notes: |-
+    Hide/Stealth
+- Id: 60121
+  Name: Sea-Otter Hat
+  AegisName: RGX_Sea_Otter_Cap
+  Type: Armor
+  Buy: 20
+  Weight: 800
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 162
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bVit,1;
+- Id: 60122
+  Name: Panda Hat
+  AegisName: RGX_Panda_Cap
+  Type: Armor
+  Buy: 20
+  Weight: 800
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 115
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+- Id: 60123
+  Name: Poring Hat
+  AegisName: RGX_Poring_Hat
+  Type: Armor
+  Buy: 20
+  Weight: 700
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 120
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+- Id: 60124
+  Name: Cowboy Hat
+  AegisName: RGX_Cowboy_Hat
+  Type: Armor
+  Buy: 20
+  Weight: 500
+  Defense: 4
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 159
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Notes: |-
+    Aim
+- Id: 60125
+  Name: Feather Bonnet
+  AegisName: RGX_Feather_Bonnet
+  Type: Armor
+  Buy: 20
+  Weight: 300
+  Defense: 4
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 104
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bAgi,1;
+- Id: 60126
+  Name: Purple Cowboy Hat
+  AegisName: RGX_New_Cowboy_Hat
+  Type: Armor
+  Buy: 20
+  Weight: 500
+  Defense: 4
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 411
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bInt,2;
+    bonus bVit,2;
+    bonus bMaxSP,50;
+- Id: 60127
+  Name: Ship Captain Hat
+  AegisName: RGX_J_Captain_Hat
+  Type: Armor
+  Buy: 20
+  Weight: 300
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 367
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bDex,1;
+    bonus bLongAtkRate,7;
+    bonus bMaxHP,100;
+- Id: 60128
+  Name: Love Dad Cap
+  AegisName: RGX_Yellow_Baseball_Cap
+  Type: Armor
+  Buy: 20
+  Weight: 300
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 263
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+- Id: 60129
+  Name: Pecopeco Hairband
+  AegisName: RGX_Pecopeco_Hairband
+  Type: Armor
+  Buy: 20
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 314
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bSpeedRate,25;
+    bonus bAspdRate,-10;
+    bonus bCastrate,250;
+- Id: 60130
+  Name: Baseball Cap
+  AegisName: RGX_Baseball_Cap
+  Type: Armor
+  Weight: 200
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 216
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+- Id: 60131
+  Name: Joker Jester
+  AegisName: RGX_Joker_Jester
+  Type: Armor
+  Buy: 20
+  Weight: 100
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 89
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bLuk,2;
+    bonus bMdef,5;
+- Id: 60132
+  Name: Feather Beret
+  AegisName: RGX_Feather_Beret
+  Type: Armor
+  Buy: 30000
+  Weight: 600
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 224
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bMdef,1;
+    bonus2 bSubRace,RC_DemiHuman,10;
+    bonus2 bSubRace,RC_Player_Human,10;
+- Id: 60133
+  Name: Angel's Kiss
+  AegisName: RGX_Kiss_Of_Angel
+  Type: Armor
+  Buy: 10000
+  Weight: 300
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 255
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bSPrecovRate,5;
+- Id: 60134
+  Name: Hermode Cap
+  AegisName: RGX_Hermose_Cap
+  Type: Armor
+  Buy: 20
+  Weight: 1000
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 478
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bAspdRate,10;
+    bonus bBaseAtk,-20;
+    bonus bMatkRate,-10;
+- Id: 60135
+  Name: Holy Marching Hat
+  AegisName: RGX_Holy_Marching_Hat_J
+  Type: Armor
+  Buy: 20
+  Weight: 200
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 587
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bStr,2;
+    bonus3 bAutoSpell,"PR_ASPERSIO",2,30;
+- Id: 60136
+  Name: Parade Hat
+  AegisName: RGX_Marcher_Hat
+  Type: Armor
+  Buy: 20
+  Weight: 200
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 269
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bMdef,2;
+    bonus bStr,2;
+    bonus4 bAutoSpellWhenHit,"AL_ANGELUS",5,30,0;
+    bonus4 bAutoSpellWhenHit,"HP_ASSUMPTIO",1,1,0;
+    bonus2 bResEff,Eff_Stun,1000;
+    if (BaseClass == Job_Acolyte)
+       bonus4 bAutoSpellOnSkill,"AL_HEAL","PR_LEXAETERNA",1,1000;
+- Id: 60137
+  Name: Satellite Hairband
+  AegisName: RGX_Satellite_Hairband
+  Type: Armor
+  Weight: 1000
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 266
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bMaxHP,50;
+    bonus bMaxSP,10;
+    skill "AL_RUWACH",1;
+  Notes: |-
+    do something with this + aerial band
+- Id: 60138
+  Name: Magni's Cap
+  AegisName: RGX_Magni_Cap
+  Type: Armor
+  Buy: 30000
+  Weight: 1000
+  Defense: 5
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 250
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bStr,2;
+- Id: 60139
+  Name: Hattah Black
+  AegisName: RGX_Hattah_Black
+  Type: Armor
+  Buy: 12000
+  Weight: 4000
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+    Head_Mid: true
+    Head_Low: true
+  Refineable: true
+  View: 676
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+- Id: 60140
+  Name: Party Hat
+  AegisName: RGX_Party_Hat
+  Type: Armor
+  Buy: 10
+  Weight: 50
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 144
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |-
+    bonus bLuk,5;
+- Id: 60141
+  Name: Black Musang Hat
+  AegisName: RGX_Black_Musang_Hat
+  Type: Armor
+  Buy: 40
+  Weight: 200
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 771
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bInt,2;
+    bonus bDex,2;
+    bonus bAgi,1;
+    bonus bUnbreakableHelm;
+- Id: 60142
+  Name: Rideword Hat
+  AegisName: RGX_Rideword_Hat
+  Type: Armor
+  Buy: 20
+  Weight: 300
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 262
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus2 bHPDrainRate,50,8;
+    bonus2 bSPDrainRate,10,4;
+    bonus2 bHPLossRate,10,5000;
+- Id: 60143
+  Name: Muslim Hat M
+  AegisName: RGX_Muslim_Hat_M
+  Type: Armor
+  Weight: 100
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 362
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bCastrate,-50;
+- Id: 60144
+  Name: Morrigane's Helm
+  AegisName: RGX_Morriganes_Helm
+  Type: Armor
+  Buy: 30000
+  Weight: 500
+  Defense: 4
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 257
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus bLuk,2;
+    bonus bBaseAtk,3;
+- Id: 60145
+  Name: Pisces Diadem
+  AegisName: RGX_Pisces_Diadem
+  Type: Armor
+  Buy: 20
+  Weight: 300
+  Defense: 6
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 511
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus bInt,2;
+    bonus bMdef,5;
+    bonus2 bSubEle,Ele_Water, 5;
+    if (getrefine()>6) {
+       bonus bDef, 1;
+       bonus bMatkRate,2;
+    }
+- Id: 60146
+  Name: Pisces Crown
+  AegisName: RGX_Pisces_Crown
+  Type: Armor
+  Buy: 20
+  Weight: 300
+  Defense: 6
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 512
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus bInt,2;
+    bonus bMdef,5;
+    bonus2 bSubEle,Ele_Water, 5;
+    if (getrefine()>6) {
+       bonus bDef, 1;
+       bonus bMatkRate,2;
+    }
+- Id: 60147
+  Name: Bone Helm
+  AegisName: RGX_Bone_Helm
+  Type: Armor
+  Weight: 500
+  Defense: 5
+  Slots: 1
+  RoptPoolSet: 60034
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 103
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |-
+    bonus bShortWeaponDamageReturn,10;
+  Notes: |-
+    reflect/def
+- Id: 60148
+  Name: Aries Diadem
+  AegisName: RGX_Aries_Diadem
+  Type: Armor
+  Buy: 20
+  Weight: 400
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 531
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus bVit,2;
+    bonus2 bSubEle,Ele_fire,5;
+    if (getrefine()>6) {
+       bonus bDef,1;
+       bonus bVit,1;
+    }
+  Notes: |-
+    reflect/def
+- Id: 60149
+  Name: Gigantic Majestic Goat
+  AegisName: RGX_L_Magestic_Goat2
+  Type: Armor
+  Buy: 20
+  Weight: 800
+  Defense: 5
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 513
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus2 bSubRace,RC_DemiHuman,12;
+    bonus2 bSubRace,RC_Player_Human,12;
+    bonus bBaseAtk,(JobLevel*2)/7;
+- Id: 60150
+  Name: Bone Head
+  AegisName: RGX_Bone_Head
+  Type: Armor
+  Buy: 20
+  Weight: 1200
+  Defense: 5
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 401
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus bStr,2;
+    bonus bMdef,5;
+    bonus2 bResEff,Eff_Stun,500;
+    bonus2 bResEff,Eff_Bleeding,500;
+- Id: 60151
+  Name: Bullock Helm
+  AegisName: RGX_Bullock_Helm
+  Type: Armor
+  Buy: 20
+  Weight: 800
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 322
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus bMaxHP,100;
+- Id: 60152
+  Name: Aquarius Diadem
+  AegisName: RGX_Aquarius_Diadem
+  Type: Armor
+  Buy: 20
+  Weight: 300
+  Defense: 6
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 509
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bStr,2;
+    bonus bFlee,10;
+    bonus2 bSubEle,Ele_Wind, 5;
+    if (getrefine()>6) {
+       bonus bDef, 1;
+       bonus bBaseAtk,15;
+    }
+- Id: 60153
+  Name: Jasper Crest
+  AegisName: RGX_Jasper_Crest
+  Type: Armor
+  Buy: 20
+  Weight: 700
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 399
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bDex,3;
+    bonus bVit,1;
+- Id: 60154
+  Name: Cancer Diadem
+  AegisName: RGX_Cancer_Diadem
+  Type: Armor
+  Buy: 20
+  Weight: 300
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 560
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bInt,2;
+    bonus2 bSubEle,Ele_water, 5;
+    if (getrefine()>6) {
+       bonus bMdef,1;
+       bonus bHealPower, 3;
+       bonus bMatkRate,2;
+    }
+- Id: 60155
+  Name: Dark Bacilium
+  AegisName: RGX_Diabolus_Helmet
+  Type: Armor
+  Buy: 20
+  Weight: 250
+  Defense: 5
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+    Head_Mid: true
+    Head_Low: true
+  Refineable: true
+  View: 364
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus2 bResEff,Eff_Stone,2000+(getrefine()*200);
+    bonus2 bResEff,Eff_Freeze,2000+(getrefine()*200);
+    bonus2 bResEff,Eff_Stun,2000+(getrefine()*200);
+- Id: 60156
+  Name: Gemini Crown
+  AegisName: RGX_Gemini_Crown
+  Type: Armor
+  Buy: 20
+  Weight: 300
+  Defense: 4
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 551
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus bAgi,2;
+    bonus bBaseAtk,2;
+    bonus bMdef,5;
+    if (getrefine()>6) {
+       bonus bDef,1;
+       bonus bMatk,15;
+       bonus bFlee,10;
+       bonus2 bSubEle,Ele_Wind,5;
+    }
+- Id: 60157
+  Name: Golden Crown
+  AegisName: RGX_Golden_Crown
+  Type: Armor
+  Buy: 20
+  Weight: 500
+  Defense: 8
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 597
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus bInt,1;
+    bonus bDex,1;
+    bonus bLuk,1;
+- Id: 60158
+  Name: Ayothaya King's Hat
+  AegisName: RGX_Ayothaya_Hat
+  Type: Armor
+  Buy: 20
+  Weight: 100
+  Defense: 5
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 334
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus bStr,1;
+    bonus2 bAddRace,RC_DemiHuman,5;
+    bonus2 bAddRace,RC_Player_Human,5;
+- Id: 60159
+  Name: Helm of Angel
+  AegisName: RGX_Helm_Of_Angel
+  Type: Armor
+  Buy: 20
+  Weight: 1600
+  Defense: 5
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 110
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus bAgi,1;
+    bonus bLuk,1;
+    bonus bMdef,3;
+- Id: 60160
+  Name: Crescent Helm
+  AegisName: RGX_Crescent_Helm
+  Type: Armor
+  Buy: 20
+  Weight: 3000
+  Defense: 8
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+    Head_Mid: true
+  Refineable: true
+  View: 213
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus bVit,1;
+    bonus2 bSubRace,RC_DemiHuman,5;
+    bonus2 bSubRace,RC_Player_Human,5;
+- Id: 60161
+  Name: Statue Of Baby Angel
+  AegisName: RGX_Status_Of_Baby_Angel
+  Type: Armor
+  Buy: 20
+  Weight: 600
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 444
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus bMdef,2;
+    bonus4 bAutoSpellWhenHit,"PR_STRECOVERY",1,20,0;
+- Id: 60162
+  Name: Chinese Crown
+  AegisName: RGX_Chinese_Crown
+  Type: Armor
+  Buy: 20
+  Weight: 2000
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+    Head_Mid: true
+  Refineable: true
+  View: 221
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus2 bResEff,Eff_Stun,1000;
+    bonus bInt,1;
+- Id: 60163
+  Name: Gemini Diadem
+  AegisName: RGX_Gemini_Diadem
+  Type: Armor
+  Buy: 20
+  Weight: 300
+  Defense: 4
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 550
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus bAgi,2;
+    bonus bMatkRate,2;
+    if (getrefine()>6) {
+       bonus bMdef,7;
+       bonus bMAtkRate,8;
+       bonus2 bSubEle,Ele_Wind,5;
+    }
+- Id: 60164
+  Name: Taurus Crown
+  AegisName: RGX_Taurus_Crown
+  Type: Armor
+  Buy: 20
+  Weight: 300
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 536
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus bDex,2;
+    bonus bAftercastDelay,-2;
+    bonus2 bSubEle,Ele_earth,5;
+    if (getrefine()>6) {
+       bonus bDex,1;
+       bonus bMatkRate,1;
+    }
+- Id: 60165
+  Name: Mr. Smile
+  AegisName: RGX_Mr_Smile
+  Type: Armor
+  Weight: 100
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+    Head_Low: true
+  View: 65
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus bMaxHP,10;
+- Id: 60166
+  Name: Geek Glasses
+  AegisName: RGX_Spinning_Eyes
+  Type: Armor
+  Weight: 100
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+  View: 27
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus2 bResEff,Eff_Blind,1500;bonus bMatk,10;
+- Id: 60167
+  Name: Zorro Masque
+  AegisName: RGX_Gangster_Patch
+  Type: Armor
+  Weight: 50
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+  View: 50
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus bFlee,3;bonus2 bAddRace,RC_FORMLESS,3;bonus2 bAddRace,RC_DEMIHUMAN,3;bonus2 bAddRace,RC_DRAGON,3;
+- Id: 60168
+  Name: Diver Goggles
+  AegisName: RGX_Divers_Goggles
+  Type: Armor
+  Weight: 100
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+  View: 10
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus2 bSubEle,Ele_Water,3;
+- Id: 60169
+  Name: Grampa Beard
+  AegisName: RGX_Granpa_Beard
+  Type: Armor
+  Weight: 50
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+  View: 25
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus bMatk,5;bonus bMaxSP,10;
+- Id: 60170
+  Name: Flu Mask
+  AegisName: RGX_Flu_Mask_
+  Type: Armor
+  Weight: 50
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+  View: 8
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus2 bResEff,Eff_Poison,5000;
+- Id: 60171
+  Name: Romantic Leaf
+  AegisName: RGX_Romantic_Leaf
+  Type: Armor
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+  View: 57
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus2 bSubRace,RC_Plant,3;
+- Id: 60172
+  Name: Cigarette
+  AegisName: RGX_Cigar
+  Type: Armor
+  Buy: 20
+  Weight: 100
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+  View: 54
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus2 bHPLossRate,5,1000;bonus2 bAddEff,Eff_Poison,300;
+- Id: 60173
+  Name: Bandit Beard
+  AegisName: RGX_Weird_Goatee
+  Type: Armor
+  Weight: 50
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+  View: 21
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus bAccuracy,3;
+- Id: 60174
+  Name: Monocle
+  AegisName: RGX_One_Eyed_Glass
+  Type: Armor
+  Weight: 50
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+  View: 23
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus bCrit,1;
+- Id: 60175
+  Name: Eye Patch
+  AegisName: RGX_Eye_Patch
+  Type: Armor
+  Weight: 50
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+  View: 13
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus bAccuracy,-5;bonus bFlee,10;
+- Id: 60176
+  Name: Purple Glasses
+  AegisName: RGX_Luxury_Sunglasses
+  Type: Armor
+  Buy: 24000
+  Weight: 100
+  Defense: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+  View: 26
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus2 bResEff,Eff_Blind,7000;
+- Id: 60177
+  Name: Mr. Scream
+  AegisName: RGX_Mr_Scream
+  Type: Armor
+  Weight: 100
+  Defense: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+    Head_Low: true
+  View: 75
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus2 bResEff,Eff_Poison,2500;
+- Id: 60178
+  Name: Fin Helm
+  AegisName: RGX_Fin_Helm
+  Type: Armor
+  Weight: 300
+  Defense: 2
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+  View: 100
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus bAgi,-1;
+- Id: 60179
+  Name: Masquerade
+  AegisName: RGX_Masquerade
+  Type: Armor
+  Weight: 100
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+  View: 78
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus2 bAddRace,RC_DemiHuman,5;
+- Id: 60180
+  Name: Blinker
+  AegisName: RGX_Blinker
+  Type: Armor
+  Buy: 1500
+  Weight: 100
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+  View: 82
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus2 bResEff,Eff_Blind,10000;
+    bonus bAccuracy,5;
+- Id: 60181
+  Name: Iron Cain
+  AegisName: RGX_Iron_Cane
+  Type: Armor
+  Weight: 300
+  Defense: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+  View: 53
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus bCastrate,30;
+- Id: 60182
+  Name: Romantic Flower
+  AegisName: RGX_Centimental_Flower
+  Type: Armor
+  Weight: 100
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+  View: 56
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus2 bSubRace,RC_Plant,5;
+- Id: 60183
+  Name: Gangster Mask
+  AegisName: RGX_Ganster_Mask
+  Type: Armor
+  Weight: 100
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+  View: 52
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus2 bResEff,Eff_Poison,5000;
+    bonus2 bResEff,Eff_DPoison,5000;
+    bonus2 bResEff,Eff_Silence,5000;
+    bonus bAtk,3;
+- Id: 60184
+  Name: Opera Masque
+  AegisName: RGX_Phantom_Of_Opera
+  Type: Armor
+  Weight: 150
+  Defense: 2
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+    Head_Low: true
+  View: 68
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+- Id: 60185
+  Name: Gas Mask
+  AegisName: RGX_Gas_Mask
+  Type: Armor
+  Weight: 100
+  Defense: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+    Head_Low: true
+  View: 91
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus2 bResEff,Eff_Poison,10000;
+- Id: 60186
+  Name: Pirate Dagger
+  AegisName: RGX_Pirate_Dagger_J
+  Type: Armor
+  Weight: 100
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+  Refineable: true
+  View: 327
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus bShortWeaponDamageReturn,5;
+- Id: 60187
+  Name: Gangster Scarf
+  AegisName: RGX_Gang_Scarf
+  Type: Armor
+  Weight: 100
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+  View: 369
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus bBaseAtk,5;
+    skill "RG_GANGSTER",1;
+- Id: 60188
+  Name: Elven Ears
+  AegisName: RGX_Elven_Ears
+  Type: Armor
+  Weight: 100
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+  View: 73
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus bInt,1;
+- Id: 60189
+  Name: Opera Phantom Mask
+  AegisName: RGX_Opera_Ghost_Mask
+  Type: Armor
+  Buy: 20
+  Weight: 200
+  Defense: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+  View: 128
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus bFlee,2;
+- Id: 60190
+  Name: Small Ribbons
+  AegisName: RGX_Pair_Of_Red_Ribbon
+  Type: Armor
+  Weight: 100
+  Defense: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+  View: 169
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+- Id: 60191
+  Name: Welding Mask
+  AegisName: RGX_Welding_Mask
+  Type: Armor
+  Weight: 300
+  Defense: 2
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+    Head_Low: true
+  View: 79
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus2 bSubEle,Ele_Fire,10;
+- Id: 60192
+  Name: Sunglasses
+  AegisName: RGX_Sunglasses_
+  Type: Armor
+  Weight: 100
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+  View: 12
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus2 bResEff,Eff_Blind,500;
+- Id: 60193
+  Name: Glasses
+  AegisName: RGX_Glasses_
+  Type: Armor
+  Weight: 100
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+  View: 3
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |-
+    bonus2 bResEff,Eff_Blind,500;
+- Id: 60194
+  Name: Bunny Band
+  AegisName: RGX_Bunny_Band
+  Type: Armor
+  Weight: 100
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 15
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bLuk,5;bonus bAllRecovRate,$@HeadgearLivingBonus[CurrentFloor];
+- Id: 60195
+  Name: Note Headphones
+  AegisName: Headset_OST
+  Type: Armor
+  Buy: 20
+  Weight: 200
+  Defense: 4
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+    Head_Mid: true
+  Refineable: true
+  View: 220
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus bMdef,3;
+    bonus2 bResEff,Eff_Stun,1000;
+    bonus2 bResEff,Eff_Freeze,1000;
+- Id: 60196
+  Name: Bubble Gum In Mouth
+  AegisName: Bubble_Gum_In_Mouth
+  Type: Armor
+  Buy: 20
+  Defense: 2
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+  View: 572
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus bMdef,2;
+- Id: 60197
+  Name: Corsair
+  AegisName: RGX_CORSAIR
+  Type: Armor
+  Weight: 300
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 105
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Notes: |-
+    [Drake]
+- Id: 60198
+  Name: Majestic Goat
+  AegisName: RGX_MAJESTIC_GOAT
+  Type: Armor
+  Weight: 800
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 41
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus bStr,1;
+- Id: 60199
+  Name: Filir Hat
+  AegisName: RGX_FILIR_HAT
+  Type: Armor
+  Weight: 30
+  Slots: 1
+  RoptPoolSet: 50047
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 408
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus bAgi,1;
+  Notes: |-
+    [Filir] // AGI Up
+- Id: 60200
+  Name: Vanilmirth Hat
+  AegisName: RGX_Vanilmirth_Hat
+  Type: Armor
+  Weight: 10
+  Slots: 1
+  RoptPoolSet: 70027
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 317
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |-
+    bonus bInt,1;
+  Notes: |-
+    [Vanilmirth] // Bolter
+- Id: 60201
+  Name: Amistr Cap
+  AegisName: RGX_AMISTR_CAP
+  Type: Armor
+  Weight: 50
+  Defense: 2
+  Slots: 1
+  RoptPoolSet: 50048
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 643
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Notes: |-
+    [Amistr] // Endure
+- Id: 60202
+  Name: Candle
+  AegisName: RGX_Candle
+  Type: Armor
+  Weight: 40
+  Slots: 1
+  RoptPoolSet: 50049
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 113
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus bHeatIsBurning,1;
+    bonus2 bSubEle,Ele_Water,-10;
+  Notes: |-
+    [Mutant Vanilmirth] // Fire Autospell
+- Id: 60203
+  Name: Stellar
+  AegisName: RGX_STELLAR
+  Type: Armor
+  Weight: 10
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 81
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+- Id: 60204
+  Name: Bomb Wick
+  AegisName: RGX_Bomb_Wick
+  Type: Armor
+  Weight: 10
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 66
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Notes: |-
+    [Kublin] // Self Destruct stuff for Marine Spheres & Necromancers
+
+    - Line 1: Learn NPC_SELFDESTRUCT
+    - Line 2: NPC_SELFDESTRUCT cast time -% for summons
+
+
+    Self Destruct as a skill triggers on allies when you trigger it
+- Id: 60205
+  Name: Goblin Mask
+  AegisName: RGX_GOBLIN_MASK
+  Type: Armor
+  Weight: 100
+  Defense: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+    Head_Low: true
+  View: 84
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+- Id: 60207
+  Name: Western Grace
+  AegisName: RGX_Western_Grace
+  Type: Armor
+  Weight: 50
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 32
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Notes: |-
+    [Vagabond Wolf]
+- Id: 60208
+  Name: Sprout Hat
+  AegisName: RGX_Sprout_Hat
+  Type: Armor
+  Weight: 10
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 758
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Notes: |-
+    [Tera]
+- Id: 60209
+  Name: Pipe
+  AegisName: RGX_PIPE
+  Type: Armor
+  Weight: 50
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+  View: 55
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+- Id: 60210
+  Name: Orc Hero Headdress
+  AegisName: RGX_Orc_Hero_Headdress
+  Type: Armor
+  Buy: 20
+  Weight: 900
+  Defense: 5
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+    Head_Mid: true
+  Refineable: true
+  View: 381
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+- Id: 60211
+  Name: Wandering Wolf Helm
+  AegisName: RGX_Wandering_Wolf_Helm
+  Type: Armor
+  Weight: 200
+  Defense: 3
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+    Head_Mid: true
+  Refineable: true
+  View: 490
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+- Id: 60212
+  Name: Lunatic Hat
+  AegisName: RGX_Lunatic_Hat
+  Type: Armor
+  Weight: 50
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 521
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+- Id: 60213
+  Name: Goblin Chief Mask
+  AegisName: RGX_GOBLIN_CHIEF_MASK
+  Type: Armor
+  Weight: 100
+  Defense: 2
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Mid: true
+    Head_Low: true
+  View: 174
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+- Id: 60214
+  Name: Tiara
+  AegisName: RGX_Tiara
+  Type: Armor
+  Weight: 150
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 19
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus bInt,2;
+- Id: 60215
+  Name: Kafra Band
+  AegisName: RGX_Kafra_Band
+  Type: Armor
+  Buy: 20
+  Weight: 500
+  Defense: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 106
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus bMdef,3;
+- Id: 60216
+  Name: Charming Ribbon
+  AegisName: RGX_Charming_Ribbon
+  Type: Armor
+  Buy: 20
+  Weight: 400
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 211
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus2 bSubRace,RC_Undead,5;
+    bonus2 bSubRace,RC_Demon,5;
+- Id: 60217
+  Name: Red Tailed Ribbon
+  AegisName: RGX_Red_Tailed_Ribbon
+  Type: Armor
+  Buy: 20
+  Weight: 200
+  Defense: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 167
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus bMdef,10;
+- Id: 60218
+  Name: Pink Ribbon
+  AegisName: RGX_Ribbon_Pink
+  Type: Armor
+  Buy: 800
+  Weight: 100
+  Defense: 1
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Top: true
+  Refineable: true
+  View: 245
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus bMdef,3;

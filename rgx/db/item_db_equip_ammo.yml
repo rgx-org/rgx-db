@@ -1,0 +1,1058 @@
+Header:
+  Type: ITEM_DB
+  Version: 2
+Body:
+- Id: 90000
+  Name: Infinity Arrow (Rough)
+  AegisName: RGX_INFINITY_ARROW1
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Attack: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 90011
+  Name: Shuriken
+  AegisName: RGX_Shuriken
+  Type: Ammo
+  SubType: Shuriken
+  Buy: 2
+  Attack: 35
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 90012
+  Name: Loaded Shuriken
+  AegisName: RGX_LOADED_SHURIKEN
+  Type: Ammo
+  SubType: Shuriken
+  Buy: 10
+  Attack: 50
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 90013
+  Name: Venom Knife
+  AegisName: RGX_Venom_Knife
+  Type: Ammo
+  SubType: Dagger
+  Buy: 3
+  Weight: 5
+  Attack: 30
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90014
+  Name: Blaze Shuriken
+  AegisName: RGX_BLAZE_SHURIKEN
+  Type: Ammo
+  SubType: Shuriken
+  Buy: 10
+  Attack: 135
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 90015
+  Name: Hira-shuriken
+  AegisName: RGX_HIRA_SHURIKEN
+  Type: Ammo
+  SubType: Shuriken
+  Buy: 6
+  Attack: 70
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 90016
+  Name: Kunai
+  AegisName: RGX_KUNAI
+  Type: Ammo
+  SubType: Kunai
+  Buy: 8
+  Attack: 50
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 90017
+  Name: Phantom Kunai
+  AegisName: RGX_PHANTOM_KUNAI
+  Type: Ammo
+  SubType: Kunai
+  Attack: 50
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 90018
+  Name: Exploding Kunai
+  AegisName: RGX_EXPLODING_KUNAI
+  Type: Ammo
+  SubType: Kunai
+  Attack: 50
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 90019
+  Name: Masonry Kunai
+  AegisName: RGX_MASONRY_KUNAI
+  Type: Ammo
+  SubType: Kunai
+  Attack: 50
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 90021
+  Name: Infinity Arrow (Steel)
+  AegisName: RGX_INFINITY_ARROW2
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Attack: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 90022
+  Name: Infinity Arrow (Phracon)
+  AegisName: RGX_INFINITY_ARROW3
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Attack: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 90023
+  Name: Infinity Arrow (Emveretarcon)
+  AegisName: RGX_INFINITY_ARROW4
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Attack: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 90024
+  Name: Infinity Arrow (Oridecon)
+  AegisName: RGX_INFINITY_ARROW5
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Attack: 20
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 90025
+  Name: Stone Arrow
+  AegisName: RGX_STONE_ARROW1
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90026
+  Name: Stone Arrow II
+  AegisName: RGX_STONE_ARROW2
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90027
+  Name: Sharp Arrow
+  AegisName: RGX_SHARP_ARROW1
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90028
+  Name: Sharp Arrow II
+  AegisName: RGX_SHARP_ARROW2
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90029
+  Name: Frost Arrow
+  AegisName: RGX_FROST_ARROW1
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90030
+  Name: Frost Arrow II
+  AegisName: RGX_FROST_ARROW2
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90031
+  Name: Flame Arrow
+  AegisName: RGX_FLAME_ARROW1
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90032
+  Name: Flame Arrow II
+  AegisName: RGX_FLAME_ARROW2
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90033
+  Name: Storm Arrow
+  AegisName: RGX_STORM_ARROW1
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90034
+  Name: Storm Arrow II
+  AegisName: RGX_STORM_ARROW2
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90035
+  Name: Life Arrow
+  AegisName: RGX_LIFE_ARROW1
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90036
+  Name: Life Arrow II
+  AegisName: RGX_LIFE_ARROW2
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90037
+  Name: Drain Arrow
+  AegisName: RGX_DRAIN_ARROW1
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90038
+  Name: Drain Arrow II
+  AegisName: RGX_DRAIN_ARROW2
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90039
+  Name: Toxic Arrow
+  AegisName: RGX_TOXIC_ARROW1
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90040
+  Name: Toxic Arrow II
+  AegisName: RGX_TOXIC_ARROW2
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90041
+  Name: Venom Arrow
+  AegisName: RGX_VENOM_ARROW1
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90042
+  Name: Venom Arrow II
+  AegisName: RGX_VENOM_ARROW2
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90043
+  Name: Bomb Arrow
+  AegisName: RGX_BOMB_ARROW1
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90044
+  Name: Bomb Arrow II
+  AegisName: RGX_BOMB_ARROW2
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90045
+  Name: Divine Arrow
+  AegisName: RGX_DIVINE_ARROW1
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90046
+  Name: Divine Arrow II
+  AegisName: RGX_DIVINE_ARROW2
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90047
+  Name: Hush Arrow
+  AegisName: RGX_HUSH_ARROW1
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90048
+  Name: Hush Arrow II
+  AegisName: RGX_HUSH_ARROW2
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90049
+  Name: Immaterial Arrow
+  AegisName: RGX_IMMATERIAL_ARROW1
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90050
+  Name: Immaterial Arrow II
+  AegisName: RGX_IMMATERIAL_ARROW2
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90051
+  Name: Spiked Arrow
+  AegisName: RGX_SPIKED_ARROW1
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90052
+  Name: Spiked Arrow II
+  AegisName: RGX_SPIKED_ARROW2
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90053
+  Name: Crystal Arrow
+  AegisName: RGX_CRYSTAL_ARROW1
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90054
+  Name: Crystal Arrow II
+  AegisName: RGX_CRYSTAL_ARROW2
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90055
+  Name: Crescent Arrow
+  AegisName: RGX_CRESCENT_ARROW1
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 90056
+  Name: Crescent Arrow II
+  AegisName: RGX_CRESCENT_ARROW2
+  Type: Ammo
+  SubType: Arrow
+  Buy: 15
+  Weight: 1
+  Attack: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Ammo: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89

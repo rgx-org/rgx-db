@@ -1,0 +1,16 @@
+Header:
+  Type: MOB_SKILL_DB
+  Version: 3
+Body:
+- MobId: 23000
+  MobName: RGX_STAGINGMOB
+  Skills: []
+- MobId: 23001
+  MobName: RGX_F_AMON_RA__FAKE1
+  Skills: []
+- MobId: 23002
+  MobName: RGX_F_AMON_RA__FAKE2
+  Skills: []
+- MobId: 23003
+  MobName: RGX_F_AMON_RA__FAKE3
+  Skills: []

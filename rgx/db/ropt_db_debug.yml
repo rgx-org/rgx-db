@@ -1,0 +1,318 @@
+Header:
+  Type: RANDOM_OPTION_DB
+  Version: 1
+Body:
+- Id: 800
+  FriendlyName: Debug Ropt general
+  Option: DEBUG_ROPT_GENERAL
+  Transferable: false
+  Stackable: true
+  Description: 'general debug ropt1 with val: %d  param: %d'
+  Done: true
+  Script: |-
+    bonus2 bDelayDispelSc,SC_STUN,1000;
+    bonus bDispelAutospellsBuffs,1;
+  Labels:
+  - Debug
+- Id: 801
+  FriendlyName: Debug Ropt wiz1
+  Option: DEBUG_ROPT_WIZ1
+  Transferable: false
+  Stackable: true
+  Description: '(Wizard debug ropts 1: +%d)'
+  Done: true
+  Script: |-
+    bonus bSpeedAddRate,25;
+    bonus bAftercastDelay,-70;
+    bonus3 bAddEffOnSkill,MG_LIGHTNINGBOLT,Eff_Shock,10000;
+    bonus3 bAddEffOnSkill,MG_THUNDERSTORM,Eff_Shock,10000;
+    bonus3 bAddEffOnSkill,WZ_JUPITEL,Eff_Shock,10000;
+    bonus bLovShock,1;
+    bonus bTstormLbShock,25;
+    bonus bFreezeFrostNovaExplode,1;
+    //bonus bShockBreakFreeze,1;
+  Labels:
+  - Debug
+- Id: 802
+  FriendlyName: Debug Ropt wiz2
+  Option: DEBUG_ROPT_WIZ2
+  Transferable: false
+  Stackable: true
+  Description: '(wiz burn/stone ropt: %d)'
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkillDelay,WZ_HEAVENDRIVE,RGX_EARTHSPIKEINVISIBLE,5,1000,20;
+    bonus5 bAutoSpellOnSkillDelay,WZ_EARTHSPIKE,MG_STONECURSE,10,1000,55;
+    bonus5 bAutoSpellOnSkillDelay,RGX_EARTHSPIKEINVISIBLE,MG_STONECURSE,10,1000,55;
+    bonus3 bAddEffOnSkill,WZ_METEOR,Eff_Heat,10000;
+    bonus bSpeedAddRate,30;
+    bonus bAftercastDelay,-70;
+    bonus bMagnumBalls,100;
+    //bonus bMeteorBurnOverStun,1;
+    bonus2 bSkillAtk,MG_FIREBALL,200;
+    bonus bStoneCurseSuccess,50;bonus bStoneCurseDuration,-25;
+  Labels:
+  - Debug
+- Id: 803
+  FriendlyName: Debug Ropt sin1
+  Option: DEBUG_ROPT_SIN1
+  Transferable: false
+  Stackable: true
+  Description: '(debug/test ropt poison: %d)'
+  Done: true
+  Script: |-
+    bonus bSplasherDuration,75;
+    bonus bSplasherPoisonDivide,1;
+    bonus bSplasherDPoisonSpread,50;
+    bonus bKnifeExplodeSplasher,30;
+    bonus3 bAddEffOnSkill,TF_POISON,Eff_DPoison,100*100;
+    bonus3 bAddEffOnSkill,SM_BASH,Eff_Poison,100*100;
+    bonus bSpeedAddRate,30;
+    bonus bCastRate,-500;
+    bonus bSelfCastOutOfHide,1;bonus bHideSpMultiplier,15;
+    bonus bHideStunTimer,10;
+    bonus bPerfectHide;
+    bonus4 bAutoSpellOnSkill,AS_GRIMTOOTH,AS_SPLASHER,10,1000;
+    bonus bCloakingSpeed,100;
+    bonus bCloakingDrain,20;
+    bonus bCloakingDrainInterval,1000;
+    bonus bAftercastDelay,-50;
+    bonus bGrimtoothPoisonSpread,2;
+  Labels:
+  - Debug
+- Id: 804
+  FriendlyName: Debug Ropt kn1
+  Option: DEBUG_ROPT_KN1
+  Transferable: false
+  Stackable: true
+  Description: '(debug/test ropt kn1: %d)'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,KN_BRANDISHSPEAR,RG_CLOSECONFINE,1,1000;
+    bonus3 bAddEffOnSkill,KN_SPEARSTAB,Eff_Stun,10000;
+    bonus3 bAddEffOnSkill,KN_SPEARSTAB,Eff_Bleeding,10000;
+    //bonus3 bAddEffOnSkill,KN_BRANDISHSPEAR,Eff_Bleeding,5000;
+    bonus bAftercastDelay,-80;
+  Labels:
+  - Debug
+- Id: 805
+  FriendlyName: Debug Ropt cr
+  Option: DEBUG_ROPT_CR
+  Transferable: false
+  Stackable: true
+  Description: '(debug/test ropt cr1: %d)'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,CR_HOLYCROSS,AL_HOLYLIGHT,1,1000;
+    bonus bReflectshieldInSafetywall,1;
+    bonus bReflectshieldReflectsBlocked,1;
+    bonus bAutoguardAppliesToSafetywall,1;
+  Labels:
+  - Debug
+- Id: 806
+  FriendlyName: Debug ropt monk
+  Option: DEBUG_ROPT_MONK
+  Transferable: false
+  Stackable: true
+  Description: '(debug/test ropt monk1: %d)'
+  Done: true
+  Script: |-
+    ;
+  Labels:
+  - Debug
+- Id: 807
+  FriendlyName: Debug ropt priest
+  Option: DEBUG_ROPT_PRIEST
+  Transferable: false
+  Stackable: true
+  Description: '(debug/test ropt priest: %d)'
+  Done: true
+  Script: |-
+    //bonus5 bAutoSpellOnSkillDelay,PR_LEXAETERNA,SA_MAGICROD,5,1000,10;
+    bonus2 bStatusTimerRate,SC_CUREGUARD1,60;
+    bonus2 bStatusTimerRate,SC_CUREGUARD2,1000;
+    bonus2 bStatusTimerRate,SC_CUREGUARD3,1000;
+  Labels:
+  - Debug
+- Id: 808
+  FriendlyName: KN_BRANDISH Auto Spells Close Confine
+  Option: KN_BRANDISH_AUTO_SPELLS_CLOSE_CONFINE
+  Transferable: false
+  Stackable: true
+  Description: Your Brandish Spear autocasts Close Confine on enemies hit.
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,KN_BRANDISHSPEAR,RG_CLOSECONFINE,1,1000;
+  Labels:
+  - Core Skill
+  - Knight
+- Id: 809
+  FriendlyName: general debug 2
+  Option: GENERAL_DEBUG_2
+  Transferable: false
+  Stackable: true
+  Description: i am a debug with +%d
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkillRecast,MC_MAMMONITE,MC_MAMMONITE,10,1000,2;
+    // ---- CHARGE ATK
+    //.@lvl = max(getskilllv(SM_MAGNUM),1);
+    //bonus bChargeAtkNoKnockback,1;
+    //bonus bChargeAtkProxyMagnum,.@lvl;
+    //bonus5 bAutoSpellOnSkillDelaySelf,SM_MAGNUM,MG_THUNDERSTORM,3,1000,150;
+    //bonus4 bAutoSpellOnSkillMotion,TF_BACKSLIDING,MG_FIREWALL,getskilllv(MG_FIREWALL),1000;
+    //bonus5 bAutoSpellOnSkillRecast,AL_HEAL,AL_HEAL,3,1000,2;
+- Id: 810
+  FriendlyName: Debug Ropt sin essentials
+  Option: DEBUG_ROPT_SIN_ESSENTIALS
+  Transferable: false
+  Stackable: true
+  Description: '(debug/test ropt sin essentials: perfect hiding/15, self cast out of hide*15, blind no degrade flee)'
+  Done: true
+  Script: |-
+    //bonus bSelfCastOutOfHide,1;bonus bHideSpMultiplier,15;
+    bonus bHideStunTimer,15;
+    bonus bPerfectHide,1;
+    bonus bBlindNoFleePenalty,1;
+    bonus bAttentionStunCancel,1;
+  Labels:
+  - Debug
+- Id: 811
+  FriendlyName: general debug2
+  Option: GENERAL_DEBUG2
+  Transferable: false
+  Stackable: true
+  Description: general debug2 (811) with %d val / %d param
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,TF_POISON,SC_STUN,1000;
+    bonus4 bSkillConsumeEffMod,MO_EXTREMITYFIST,SC_STUN,3,100;
+    //bonus4 bSkillConsumeEffMod,SM_BASH,SC_STUN,10,100;
+    //bonus bDoubleAttackSkill,SM_BASH;
+    //bonus5 bAutoSpellOnSkillRecast,SM_BASH,SM_BASH,10,1000,1;
+    //bonus2 bSkillAtk,SM_BASH,-50;
+    //bonus2 bMagnumExtendsPowerBoom,2,5;
+    //bonus bAftercastDelay,-90;
+    //bonus2 bSpearWeightSkill,KN_BRANDISHSPEAR,2;
+    //bonus3 bAddEffOnSkill,KN_SPEARSTAB,SC_STRIKEMARK,100;
+    //bonus3 bStrikeStatusInflict,KN_BRANDISHSPEAR,SC_CRITICALWOUND,3;
+    //bonus3 bGainStatusOnScInflict,SC_CRITICALWOUND,SC_FORTIFIED1,100;
+    //bonus2 bAddEff,SC_CRITICALWOUND,50*100;
+    //bonus2 bStatusExtension,SC_CRITICALWOUND,10*1000;
+    //bonus2 bStatusTimerRate,SC_FORTIFIED1,400;
+    //bonus3 bSkillInflictScOnSc,AS_SONICBLOW,SC_BLEEDING,SC_CRITICALWOUND;
+- Id: 812
+  FriendlyName: general debug3
+  Option: GENERAL_DEBUG3
+  Transferable: false
+  Stackable: true
+  Description: i am a debug3 with +%d
+  Done: true
+  Script: |-
+    //bonus3 bAutoSpell,MG_FIREBOLT,3,500;
+    //bonus3 bAutoSpell,MG_COLDBOLT,3,500;
+    //bonus3 bAutoSpell,MG_THUNDERSTORM,3,500;
+    bonus bPierceStrikeMarkAddHits,ropt(ROA_VALUE);
+    bonus2 bStrikeSpRestore,KN_PIERCE,5;
+    bonus3 bStrikeStatusInflict,KN_PIERCE,Eff_Bleeding,1;
+    bonus3 bStrikeStatusInflict,KN_PIERCE,Eff_CriticalWound,2;
+    bonus3 bStrikeStatusInflict,KN_PIERCE,Eff_Stun,3;
+- Id: 900
+  FriendlyName: assassin test stuff
+  Option: ASSASSIN_TEST_STUFF
+  Transferable: false
+  Stackable: false
+  Description: Attention Concentration cancels Stun. | Blinded enemies do not degrade your flee.
+  Done: true
+  Script: |-
+    bonus bAttentionStunCancel,1;
+    bonus bBlindNoFleePenalty,1;
+    //bonus bSelfCastOutOfHide,1;
+    //bonus bHideSpDrain,25;
+    //bonus bHideSpDrainTime,3*100;
+    bonus2 bSkillSplash,TF_THROWSTONE,1;
+    bonus2 bSkillSplash,TF_THROWSTONE,1;
+    bonus2 bSkillSplash,TF_THROWSTONE,1;
+    bonus2 bSkillSplash,TF_THROWSTONE,1;
+    bonus2 bSkillSplash,TF_THROWSTONE,1;
+    bonus2 bSkillSplash,TF_THROWSTONE,1;
+- Id: 901
+  FriendlyName: assassin test stuff (SB reset)
+  Option: ASSASSIN_TEST_STUFF_SB_RESET
+  Transferable: false
+  Stackable: false
+  Description: Perfect Hiding. Hiding duration -15x. | Attention Concentration cancels Stun. | Self-cast skills can be used out of Hiding. | SB autospells Hiding after delay
+  Done: true
+  Script: |-
+    bonus bHideStunTimer,15;
+    bonus bPerfectHide;
+    bonus bAttentionStunCancel,1;
+    bonus bSonicBlowHiding,450;
+    bonus bSelfCastOutOfHide,1;
+    bonus bHideSpMultiplier,5;
+- Id: 902
+  FriendlyName: general debug test
+  Option: GENERAL_DEBUG_TEST
+  Transferable: false
+  Stackable: false
+  Description: test debug hi(WIP)
+  Done: false
+  Script: |-
+    bonus bGrimtoothDagger,1;
+    bonus4 bAutoSpellOnSkillMotion,AL_INCAGI,SM_ENDURE,2,1000;
+    bonus4 bAutoSpellOnSkillMotion,TF_BACKSLIDING,SM_ENDURE,getskilllv(SM_ENDURE),1000;
+    bonus4 bAutoSpellOnSkillMotion,TF_BACKSLIDING,AC_SHOWER,5,1000;
+    bonus bBackslidingOriginSkill,AC_SHOWER;
+    bonus2 bStatusTimerRate,SC_DASH,5000;
+    bonus bBackslidingDash,100;
+- Id: 903
+  FriendlyName: wizard debug 4
+  Option: WIZARD_DEBUG_4
+  Transferable: false
+  Stackable: false
+  Description: 'wizard debug 4: %d / %d(WIP)'
+  Done: false
+  Script: |-
+    bonus2 bAddEff,Eff_Shock,60000;
+- Id: 904
+  FriendlyName: old debug dump
+  Option: OLD_DEBUG_DUMP
+  Transferable: false
+  Stackable: false
+  Description: dumping grounds(WIP)
+  Done: false
+  Script: |-
+    //bonus bNapalmBeatProxyStoneCurse,10;
+    //bonus3 bMobDropSkillKill,AL_HOLYLIGHT,IID_HOLY_WATER,10000;
+    //bonus bAngelusAutospellsHolylight,16;
+    //bonus2 bSkillCooldown,AL_ANGELUS,(7*1000);
+    //bonus3 bSkillCatalyst,AL_ANGELUS,IID_HOLY_WATER,1;
+    //bonus5 bAutoSpellOnSkillRecast,MG_LIGHTNINGBOLT,MG_COLDBOLT,2,50*10,2;
+    //bonus4 bAutoSpellOnSkillMotion,MG_FIREBALL,MG_FIREBOLT,4,100*10;
+    //bonus4 bAutoSpellOnSkillMotion,MG_FIREBOLT,MG_FIREBALL,3,500;
+    //bonus bBurningDash,6;
+    //bonus2 bActiveInstances,MG_FIREWALL,10;
+    //bonus bSoulStrikeSp,20;
+    //bonus3 bGainStatusOnScInflict,Eff_Bleeding,SC_FORTIFIED1,50;
+    //bonus4 bAddEffWhenHit,SC_SANATIO1,50*100,ATF_SELF,-999;
+    //bonus2 bResEff,SC_AETERNA,5000;
+    if (isequipped(IID_UNDERSHIRT)) {
+      bonus bAgi,40;
+    }
+    if (isequipped(IID_PANTIES)) {
+      bonus bMaxHP,600;
+    }
+- Id: 905
+  FriendlyName: giga lag me up
+  Option: GIGA_LAG_ME_UP
+  Transferable: false
+  Stackable: false
+  Description: gimme lag %d %d(WIP)
+  Done: false
+  Script: |-
+    bonus5 bAutoSpellOnSkillDelay,WZ_HEAVENDRIVE,WZ_EARTHSPIKE,10,1000,20;
+    bonus5 bAutoSpellOnSkillDelay,WZ_EARTHSPIKE,MG_STONECURSE,10,1000,55;
+    bonus bCastrate,-(99*10);
+    bonus bMaxSP,9000;
+    bonus bSPrecovRate,1500;
+    bonus bMdef,99;

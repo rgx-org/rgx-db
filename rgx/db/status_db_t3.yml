@@ -1,0 +1,295 @@
+Header:
+    Type: STATUS_DB
+    Version: 2
+Body:
+    - Status: Aurablade
+      Icon: EFST_AURABLADE
+      DurationLookup: LK_AURABLADE
+      Opt3:
+          AuraBlade: true
+      Flags:
+          NoSave: true
+          RequireWeapon: true
+    - Status: Parrying
+      Icon: EFST_PARRYING
+      DurationLookup: LK_PARRYING
+      Flags:
+          NoSave: true
+          NoClearance: true
+          RequireWeapon: true
+    - Status: Tensionrelax
+      Icon: EFST_TENSIONRELAX
+      DurationLookup: LK_TENSIONRELAX
+      CalcFlags:
+          Regen: true
+      Flags:
+          NoSave: true
+          NoClearance: true
+    - Status: Berserk
+      Icon: EFST_BERSERK
+      DurationLookup: LK_BERSERK
+      States:
+          NoCast: true
+          NoChat: true
+          NoEquipItem: true
+          NoUnEquipItem: true
+          NoConsumeItem: true
+      CalcFlags:
+          Def: true
+          Def2: true
+          Mdef: true
+          MDef2: true
+          Flee: true
+          Speed: true
+          Aspd: true
+          MaxHp: true
+          Regen: true
+      Opt3:
+          Berserk: true
+      Flags:
+          NoSave: true
+      Fail:
+          Saturdaynightfever: true
+          _Bloodylust: true
+    - Status: Concentration
+      Icon: EFST_LKCONCENTRATION
+      DurationLookup: LK_CONCENTRATION
+      CalcFlags:
+          Batk: true
+          Watk: true
+          Hit: true
+          Def: true
+          Def2: true
+      Opt3:
+          Quicken: true
+      Flags:
+          NoSave: true
+    - Status: Gospel
+      Icon: EFST_GOSPEL
+      DurationLookup: PA_GOSPEL
+      States:
+          NoMove: true
+          NoMoveCond: true
+      CalcFlags:
+          Speed: true
+          Aspd: true
+      Flags:
+          NoSave: true
+    - Status: Assumptio
+      Icon: EFST_ASSUMPTIO
+      DurationLookup: HP_ASSUMPTIO
+      Opt3:
+          Assumptio: true
+      End:
+          Kyrie: true
+          Kaite: true
+    - Status: Basilica
+      DurationLookup: HP_BASILICA
+      States:
+          NoMove: true
+          NoMoveCond: true
+          NoAttack: true
+      Flags:
+          NoSave: true
+          NoClearance: true
+          RemoveOnChangeMap: true
+    - Status: Magicpower
+      Icon: EFST_MAGICPOWER
+      DurationLookup: HW_MAGICPOWER
+      CalcFlags:
+          Matk: true
+      Flags:
+          NoSave: true
+      End:
+          Magicpower: true
+    - Status: Edp
+      Icon: EFST_EDP
+      DurationLookup: ASC_EDP
+      Flags:
+          NoRemoveOnDead: true
+          NoDispell: true
+          NoBanishingBuster: true
+          NoSave: true
+    - Status: Truesight
+      Icon: EFST_TRUESIGHT
+      DurationLookup: SN_SIGHT
+      CalcFlags:
+          Str: true
+          Agi: true
+          Vit: true
+          Int: true
+          Dex: true
+          Luk: true
+          Cri: true
+          Hit: true
+      Flags:
+          FailedMado: true
+          NoSave: true
+      Fail:
+          Quagmire: true
+    - Status: Windwalk
+      Icon: EFST_WINDWALK
+      DurationLookup: SN_WINDWALK
+      CalcFlags:
+          Flee: true
+          Speed: true
+      Flags:
+          FailedMado: true
+          NoSave: true
+      Fail:
+          Quagmire: true
+    - Status: Meltdown
+      Icon: EFST_MELTDOWN
+      DurationLookup: WS_MELTDOWN
+      Flags:
+          MadoCancel: true
+          NoRemoveOnDead: true
+          NoDispell: true
+          NoBanishingBuster: true
+          NoClearance: true
+          NoSave: true
+    - Status: Cartboost
+      Icon: EFST_CARTBOOST
+      DurationLookup: WS_CARTBOOST
+      CalcFlags:
+          Speed: true
+      Flags:
+          MadoCancel: true
+          NoRemoveOnDead: true
+          NoClearance: true
+          NoSave: true
+          NoBanishingBuster: true
+          NoDispell: true
+      Fail:
+          Quagmire: true
+          Dontforgetme: true
+      EndReturn:
+          Decreaseagi: true
+    - Status: Chasewalk
+      Icon: EFST_CHASEWALK
+      DurationLookup: ST_CHASEWALK
+      States:
+          NoPickItem: true
+      CalcFlags:
+          Speed: true
+      Options:
+          ChaseWalk: true
+          Cloak: true
+      Flags:
+          OnTouch: true
+          StopAttacking: true
+          RemoveOnDamaged: true
+          RemoveOnChangeMap: true
+          NoBanishingBuster: true
+          NoDispell: true
+          NoClearance: true
+    - Status: Rejectsword
+      Icon: EFST_SWORDREJECT
+      DurationLookup: ST_REJECTSWORD
+    - Status: Marionette
+      Icon: EFST_MARIONETTE_MASTER
+      DurationLookup: CG_MARIONETTE
+      CalcFlags:
+          Str: true
+          Agi: true
+          Vit: true
+          Int: true
+          Dex: true
+          Luk: true
+      Opt3:
+          Marionette: true
+      Flags:
+          RemoveOnChangeMap: true
+      Fail:
+          Marionette: true
+    - Status: Marionette2
+      Icon: EFST_MARIONETTE
+      DurationLookup: CG_MARIONETTE
+      CalcFlags:
+          Str: true
+          Agi: true
+          Vit: true
+          Int: true
+          Dex: true
+          Luk: true
+      Opt3:
+          Marionette: true
+      Flags:
+          RemoveOnChangeMap: true
+      Fail:
+          Marionette2: true
+    - Status: Jointbeat
+      Icon: EFST_JOINTBEAT
+      DurationLookup: LK_JOINTBEAT
+      CalcFlags:
+          Batk: true
+          Def2: true
+          Speed: true
+          Aspd: true
+      Flags:
+          NoSave: true
+          NoClearance: true
+          Debuff: true
+    - Status: Mindbreaker
+      Icon: EFST_MINDBREAKER
+      DurationLookup: PF_MINDBREAKER
+      CalcFlags:
+          Matk: true
+          MDef2: true
+      Flags:
+          NoSave: true
+          Debuff: true
+      End:
+          Freeze: true
+          Stone: true
+          Sleep: true
+    - Status: Memorize
+      Icon: EFST_MEMORIZE
+      DurationLookup: PF_MEMORIZE
+      Flags:
+          NoSave: true
+    - Status: Preserve
+      Icon: EFST_PRESERVE
+      DurationLookup: ST_PRESERVE
+      Flags:
+          NoSave: true
+    - Status: Doublecast
+      Icon: EFST_DOUBLECASTING
+      DurationLookup: PF_DOUBLECASTING
+      Flags:
+          NoSave: true
+          NoClearance: true
+    - Status: Gravitation
+      Icon: EFST_GRAVITATION
+      DurationLookup: HW_GRAVITATION
+      States:
+          NoMove: true
+          NoMoveCond: true
+          NoConsumeItem: true
+          NoConsumeItemCond: true
+      CalcFlags:
+          Aspd: true
+      Flags:
+          BossResist: true
+          NoSave: true
+          NoClearance: true
+    - Status: Maxoverthrust
+      Icon: EFST_OVERTHRUSTMAX
+      DurationLookup: WS_OVERTHRUSTMAX
+      Opt3:
+          OverThrust: true
+      Flags:
+          MadoCancel: true
+          NoSave: true
+      End:
+          Overthrust: true
+    - Status: Longing
+      Icon: EFST_LONGING
+      DurationLookup: CG_LONGINGFREEDOM
+      CalcFlags:
+          All: true
+          Speed: true
+          Aspd: true
+    - Status: Hermode
+      Icon: EFST_HERMODE
+      DurationLookup: CG_HERMODE

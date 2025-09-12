@@ -1,0 +1,995 @@
+Header:
+  Type: RANDOM_OPTION_POOLSET_DB
+  Version: 3
+Body:
+- Id: 12000
+  Name: EmptyWeaponSet
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 12001
+  Name: Wood Bow (2h)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100045
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100071
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100102
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100609
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100613
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100571
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100608
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100614
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100601
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100612
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100615
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100263
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100587
+      Weight: 1
+      Tags:
+      - None
+  Notes: Weak, some poison
+- Id: 12002
+  Name: Composite Bow (2h/Bullseye)
+  Tags:
+  - Name: Crit
+    Weight: 2
+    WeightMod: 3
+  - Name: DS
+    Weight: 2
+    WeightMod: 4
+  - Name: ShowerBlind
+    Weight: 1
+    WeightMod: 5
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100603
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100606
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100607
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100172
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 100593
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 100595
+      Weight: 1
+      Tags:
+      - DS
+    - Id: 100597
+      Weight: 1
+      Tags:
+      - ShowerBlind
+  - Line: 3
+    Pools:
+    - Id: 100591
+      Weight: 1
+      Tags:
+      - DS
+      - Crit
+    - Id: 100596
+      Weight: 1
+      Tags:
+      - ShowerBlind
+    - Id: 100604
+      Weight: 1
+      Tags:
+      - Crit
+      - DS
+    - Id: 100605
+      Weight: 1
+      Tags:
+      - Crit
+  - Line: 4
+    Pools:
+    - Id: 100592
+      Weight: 1
+      Tags:
+      - DS
+    - Id: 100594
+      Weight: 1
+      Tags:
+      - ShowerBlind
+    - Id: 100601
+      Weight: 1
+      Tags:
+      - DS
+    - Id: 100611
+      Weight: 1
+      Tags:
+      - Crit
+  - Line: 5
+    Pools:
+    - Id: 100255
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 100598
+      Weight: 1
+      Tags:
+      - ShowerBlind
+  Notes: >-
+    Crit / Bleeding
+
+    Double Strafing
+
+    Arrow Shower tag (rarer)
+- Id: 12003
+  Name: Payon Bow (2h/Bullseye)
+  Tags:
+  - Name: DS
+    Weight: 1
+    WeightMod: 4
+  - Name: Crit
+    Weight: 1
+    WeightMod: 4
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 200191
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200192
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200441
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 200431
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200436
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200438
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200439
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 200112
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200433
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200437
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200442
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 200109
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200432
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200434
+      Weight: 1
+      Tags:
+      - DS
+    - Id: 200444
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 200440
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200445
+      Weight: 1
+      Tags:
+      - None
+- Id: 12004
+  Name: Greatbow (2h/Sturdy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100617
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100620
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100621
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100623
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100624
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100599
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100616
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100622
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100627
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100618
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100619
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100625
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100626
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100600
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100610
+      Weight: 1
+      Tags:
+      - None
+  Notes: >-
+    Arrow Shower
+
+    Strong / Defensive
+- Id: 12005
+  Name: Double Bound (2h/Swift)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 200449
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 200448
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200450
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200451
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200480
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 200447
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200452
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 200443
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200453
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 200103
+      Weight: 1
+      Tags:
+      - None
+  Notes: >-
+    No Crit / Strike
+
+    Double Attack
+
+    Status effects
+- Id: 12006
+  Name: Earth Bow (2h/Arcane)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 200454
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 200031
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200457
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 200455
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200458
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 200456
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 1417
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200029
+      Weight: 1
+      Tags:
+      - None
+- Id: 12011
+  Name: (OLD) Wood Bow (2h) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700018
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700097
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700471
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 700125
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700279
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700329
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700454
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700473
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 700276
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700465
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700469
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700470
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 700272
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700454
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700463
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700470
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 700121
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700472
+      Weight: 1
+      Tags:
+      - None
+- Id: 12012
+  Name: (OLD) Composite Bow (2h/Bullseye) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700130
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700329
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700455
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 700050
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700125
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700464
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700469
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 700276
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700462
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700465
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700468
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 700272
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700420
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700452
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700463
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 700466
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700467
+      Weight: 1
+      Tags:
+      - None
+- Id: 12013
+  Name: (OLD) Payon Bow (2h/Bullseye) (Copy)
+  Tags:
+  - Name: Crit
+    Weight: 1
+    WeightMod: 1
+  - Name: Auto
+    Weight: 1
+    WeightMod: 1
+  - Name: DS
+    Weight: 1
+    WeightMod: 1
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700130
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 700328
+      Weight: 1
+      Tags:
+      - DS
+    - Id: 700455
+      Weight: 1
+      Tags:
+      - Auto
+  - Line: 2
+    Pools:
+    - Id: 700125
+      Weight: 1
+      Tags:
+      - Auto
+    - Id: 700452
+      Weight: 1
+      Tags:
+      - DS
+    - Id: 700453
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 700457
+      Weight: 1
+      Tags:
+      - Auto
+      - Crit
+      - DS
+  - Line: 3
+    Pools:
+    - Id: 700448
+      Weight: 1
+      Tags:
+      - Auto
+    - Id: 700449
+      Weight: 1
+      Tags:
+      - Crit
+      - Auto
+    - Id: 700450
+      Weight: 1
+      Tags:
+      - Crit
+      - DS
+    - Id: 700451
+      Weight: 1
+      Tags:
+      - DS
+  - Line: 4
+    Pools:
+    - Id: 700456
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 700458
+      Weight: 1
+      Tags:
+      - Crit
+      - Auto
+    - Id: 700460
+      Weight: 1
+      Tags:
+      - DS
+      - Auto
+    - Id: 700461
+      Weight: 1
+      Tags:
+      - DS
+  - Line: 5
+    Pools:
+    - Id: 700062
+      Weight: 1
+      Tags:
+      - Auto
+    - Id: 700459
+      Weight: 1
+      Tags:
+      - Crit
+- Id: 12014
+  Name: (OLD) Gakkung Bow (2h/Bullseye) (Copy)
+  Tags:
+  - Name: Crit
+    Weight: 1
+    WeightMod: 6
+  - Name: NotCrit
+    Weight: 1
+    WeightMod: 6
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800647
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 800650
+      Weight: 1
+      Tags:
+      - NotCrit
+    - Id: 800673
+      Weight: 1
+      Tags:
+      - NotCrit
+  - Line: 2
+    Pools:
+    - Id: 800660
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 800668
+      Weight: 1
+      Tags:
+      - NotCrit
+    - Id: 800671
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800677
+      Weight: 1
+      Tags:
+      - Crit
+  - Line: 3
+    Pools:
+    - Id: 800670
+      Weight: 1
+      Tags:
+      - NotCrit
+    - Id: 800672
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 800675
+      Weight: 1
+      Tags:
+      - NotCrit
+    - Id: 800676
+      Weight: 1
+      Tags:
+      - Crit
+  - Line: 4
+    Pools:
+    - Id: 800652
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 800663
+      Weight: 1
+      Tags:
+      - NotCrit
+    - Id: 800669
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 800674
+      Weight: 1
+      Tags:
+      - NotCrit
+  - Line: 5
+    Pools:
+    - Id: 800054
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 800667
+      Weight: 1
+      Tags:
+      - NotCrit
+- Id: 12015
+  Name: (OLD) Hunter Bow (2h/Bullseye) (Copy)
+  Tags:
+  - Name: CritAuto
+    Weight: 1
+    WeightMod: 6
+  - Name: DS
+    Weight: 1
+    WeightMod: 6
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800647
+      Weight: 1
+      Tags:
+      - CritAuto
+    - Id: 800650
+      Weight: 1
+      Tags:
+      - DS
+    - Id: 800667
+      Weight: 1
+      Tags:
+      - CritAuto
+      - DS
+  - Line: 2
+    Pools:
+    - Id: 800651
+      Weight: 1
+      Tags:
+      - DS
+    - Id: 800661
+      Weight: 1
+      Tags:
+      - CritAuto
+    - Id: 800662
+      Weight: 1
+      Tags:
+      - CritAuto
+    - Id: 800665
+      Weight: 1
+      Tags:
+      - DS
+  - Line: 3
+    Pools:
+    - Id: 800652
+      Weight: 1
+      Tags:
+      - CritAuto
+    - Id: 800658
+      Weight: 1
+      Tags:
+      - DS
+    - Id: 800659
+      Weight: 1
+      Tags:
+      - DS
+    - Id: 800670
+      Weight: 1
+      Tags:
+      - CritAuto
+  - Line: 4
+    Pools:
+    - Id: 800639
+      Weight: 1
+      Tags:
+      - CritAuto
+    - Id: 800654
+      Weight: 1
+      Tags:
+      - DS
+    - Id: 800663
+      Weight: 1
+      Tags:
+      - CritAuto
+    - Id: 800666
+      Weight: 1
+      Tags:
+      - DS
+  - Line: 5
+    Pools:
+    - Id: 800648
+      Weight: 1
+      Tags:
+      - CritAuto
+    - Id: 800653
+      Weight: 1
+      Tags:
+      - DS
+- Id: 12016
+  Name: (OLD) Double Bound (2h/Swift) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800650
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800680
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800682
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 800657
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800678
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800681
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800686
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 800091
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800651
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800658
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800684
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 800090
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800584
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800683
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800685
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 800649
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800687
+      Weight: 1
+      Tags:
+      - None

@@ -1,0 +1,1643 @@
+Header:
+  Type: ITEM_DB
+  Version: 2
+Body:
+- Id: 2140
+  Name: Guard
+  AegisName: RGX_Guard
+  Type: Armor
+  Weight: 250
+  Defense: 1
+  Slots: 1
+  RoptPoolSet: 80008
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 7
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |-
+    bonus2 bSubEle,Ele_Neutral,3;
+- Id: 2141
+  Name: Buckler
+  AegisName: RGX_Buckler
+  Type: Armor
+  Weight: 300
+  Defense: 2
+  Slots: 1
+  RoptPoolSet: 80009
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 2
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: Spiked
+  Labels:
+  - Resist
+  - Buckler
+  - Aggressive
+  Notes: |-
+    Balanced, Reflect
+- Id: 2142
+  Name: Shield
+  AegisName: RGX_Shield
+  Type: Armor
+  Weight: 650
+  Defense: 4
+  Slots: 1
+  RoptPoolSet: 80002
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 3
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: KiteShield
+  Script: |-
+    bonus bFleeRate,-25;
+  Notes: |-
+    70/30 offensive/defensive
+- Id: 2144
+  Name: Poring Buckler
+  AegisName: RGX_Poring_Buckler
+  Type: Armor
+  Weight: 150
+  Defense: 1
+  Slots: 1
+  RoptPoolSet: 80011
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 2
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: Ward
+  Notes: |-
+    [Mastering]
+- Id: 2145
+  Name: Bamboo Tower Shield
+  AegisName: RGX_Bamboo_Tower_Shield
+  Type: Armor
+  Weight: 550
+  Defense: 4
+  Slots: 1
+  RoptPoolSet: 80001
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 1
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: TowerShield
+  Script: |-
+    bonus bFleeRate,-25;
+    bonus bSpeedAddRate,-5;
+    bonus2 bSubEle,Ele_Fire,-10;
+- Id: 2146
+  Name: Grimoire of Promise
+  AegisName: RGX_Grimoire_of_Promise
+  Type: Armor
+  Weight: 500
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 5
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus bMdef,5; bonus2 bSubEle,Ele_Holy,20;bonus bSubMainEle,$@ShieldLivingBonus[CurrentFloor];
+- Id: 2147
+  Name: Angelic Guard
+  AegisName: RGX_Angelic_Guard
+  Type: Armor
+  Weight: 150
+  Defense: 2
+  Slots: 1
+  RoptPoolSet: 80010
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 1
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: Ward
+  Labels:
+  - Cleric
+  - Resist
+  - Warrior
+  - Angelus
+- Id: 2148
+  Name: Arm Guard
+  AegisName: RGX_Arm_Guard
+  Type: Armor
+  Weight: 50
+  Defense: 1
+  Slots: 1
+  RoptPoolSet: 80014
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 5
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: Bracer
+  Script: |-
+    bonus bAgi,3;
+  Notes: |-
+    Agile
+- Id: 2149
+  Name: Tower Shield
+  AegisName: RGX_Tower_Shield
+  Type: Armor
+  Weight: 1050
+  Defense: 7
+  Slots: 1
+  RoptPoolSet: 80005
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 3
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: TowerShield
+  Script: |-
+    bonus bFleeRate,-50;
+    bonus bSpeedAddRate,-10;
+  Notes: |-
+    50/50 offensive/defensive
+- Id: 2150
+  Name: Mirror Shield
+  AegisName: RGX_Mirror_Shield
+  Type: Armor
+  Weight: 600
+  Defense: 2
+  Slots: 1
+  RoptPoolSet: 80004
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 4
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: Ward
+  Script: |-
+    bonus bMdef,2;bonus bFleeRate,-25;
+  Notes: |-
+    Anti-magic
+- Id: 2151
+  Name: Royal Shield
+  AegisName: RGX_Royal_Shield
+  Type: Armor
+  Weight: 3000
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 2
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |-
+    bonus bMdef,4;bonus bSubMainEle,$@ShieldLivingBonus[CurrentFloor];
+  Notes: |-
+    Balanced
+- Id: 2152
+  Name: Grimoire of Memory
+  AegisName: RGX_Grimoire_of_Memory
+  Type: Armor
+  Weight: 1000
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 5
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus bInt,1;
+    bonus bMdef,3;bonus bMatkRate,getrefine();bonus bSubMainEle,$@ShieldLivingBonus[CurrentFloor];
+- Id: 2153
+  Name: Grimoire of Exorcism
+  AegisName: RGX_Grimoire_of_Exorcism
+  Type: Armor
+  Weight: 600
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 5
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |-
+    bonus3 bAutoSpell,"PR_TURNUNDEAD",5,50;bonus bSubMainEle,$@ShieldLivingBonus[CurrentFloor];
+- Id: 2154
+  Name: Orleans's Server
+  AegisName: RGX_Orleans_Server
+  Type: Armor
+  Weight: 1000
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 4
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |-
+    bonus bMdef,2;
+    bonus bMagicDamageReturn,5;bonus bCastrate,-100;bonus bSubMainEle,$@ShieldLivingBonus[CurrentFloor];
+  Notes: |-
+    Balanced, Anti-magic, Cast
+- Id: 2155
+  Name: Thorny Buckler
+  AegisName: RGX_Thorny_Buckler
+  Type: Armor
+  Buy: 20
+  Weight: 1000
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 2
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |-
+    bonus bMdef,2; bonus bShortWeaponDamageReturn,30; bonus bSubMainEle,$@ShieldLivingBonus[CurrentFloor];
+  Notes: |-
+    Reflect
+- Id: 2156
+  Name: Imperial Guard
+  AegisName: RGX_Imperial_Guard
+  Type: Armor
+  Weight: 2500
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 4
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |-
+    bonus bMdef,7;bonus bSubMainEle,$@ShieldLivingBonus[CurrentFloor];
+  Notes: |-
+    General
+- Id: 2157
+  Name: Strong Shield
+  AegisName: RGX_Strong_Shield
+  Type: Armor
+  Weight: 1300
+  Defense: 6
+  Slots: 1
+  RoptPoolSet: 80007
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 3
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: TowerShield
+  Script: |-
+    bonus bFleeRate,-50;bonus bSpeedAddRate,-10;
+  Notes: |-
+    Tower Shield
+- Id: 2158
+  Name: Golden Shield
+  AegisName: RGX_Golden_Shield
+  Type: Armor
+  Weight: 650
+  Defense: 4
+  Slots: 1
+  RoptPoolSet: 80003
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 4
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: KiteShield
+  Script: |-
+    bonus bFleeRate,-25;
+- Id: 2159
+  Name: Big Gemmed Grimoire
+  AegisName: RGX_Big_Gemmed_Grimoire
+  Type: Armor
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 5
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+- Id: 2160
+  Name: Gemmed Grimoire
+  AegisName: RGX_Gemmed_Grimoire
+  Type: Armor
+  Weight: 100
+  Slots: 1
+  RoptPoolSet: 80015
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 7
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: Ward
+  Script: |-
+    bonus bMdef,2;
+  Notes: |-
+    Defensive
+- Id: 2161
+  Name: Geffenia Grimoire
+  AegisName: RGX_Geffenia_Grimoire
+  Type: Armor
+  Buy: 56000
+  Weight: 1000
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 5
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bMdef,2;
+    bonus bInt,1;
+    if (readparam(bInt)>=120) {
+       bonus bMatk,10;
+       bonus bMaxHP,800;
+    }
+- Id: 2162
+  Name: War Grimoire
+  AegisName: RGX_War_Grimoire
+  Type: Armor
+  Weight: 140
+  Defense: 1
+  Slots: 1
+  RoptPoolSet: 80016
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 5
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: Guide
+  Script: |-
+    bonus bMdef,2;
+  Notes: |-
+    Defensive / Offensive Hybrid
+- Id: 2163
+  Name: Vicious Grimoire
+  AegisName: RGX_Vicious_Grimoire
+  Type: Armor
+  Buy: 20
+  Weight: 950
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 5
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: None
+  Script: |
+    bonus bBaseAtk,pow(min(getrefine(),15),2);
+    bonus bMatk,pow(min(getrefine(),15),2);
+    bonus bUnbreakableWeapon;
+- Id: 2164
+  Name: Tablet
+  AegisName: RGX_Tablet
+  Type: Armor
+  Weight: 800
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 5
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: ClothArmor
+  Keyword: TowerShield
+  Notes: |-
+    [Amon Ra] // Defense
+- Id: 2165
+  Name: Rejuvination Buckler
+  AegisName: RGX_Rejuvination_Buckler
+  Type: Armor
+  Buy: 20
+  Weight: 300
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 1
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Notes: |-
+    Balanced, Reflect, Restorative.
+- Id: 2166
+  Name: Round Buckler
+  AegisName: RGX_Round_Buckler
+  Type: Armor
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 1
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Notes: |-
+    Reflect, Balanced
+- Id: 2167
+  Name: Rosa Shield
+  AegisName: RGX_Rosa_Shield
+  Type: Armor
+  Weight: 150
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 5
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Notes: |-
+    Ventus?
+- Id: 2168
+  Name: Golden Guard
+  AegisName: RGX_Golden_Guard
+  Type: Armor
+  Weight: 350
+  Defense: 1
+  Slots: 1
+  RoptPoolSet: 80012
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 5
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: TowerShield
+  Notes: |-
+    Agile
+- Id: 2169
+  Name: Golden Buckler
+  AegisName: RGX_Golden_Buckler
+  Type: Armor
+  Weight: 350
+  Defense: 2
+  Slots: 1
+  RoptPoolSet: 80009
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 2
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: Spiked
+  Notes: |-
+    Balanced, Reflect
+- Id: 2170
+  Name: Lamor Shield
+  AegisName: RGX_Lamor_Shield
+  Type: Armor
+  Weight: 150
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 5
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+- Id: 2171
+  Name: Stone Shield
+  AegisName: RGX_Stone_Shield
+  Type: Armor
+  Weight: 850
+  Defense: 4
+  Slots: 1
+  RoptPoolSet: 80006
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 3
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: KiteShield
+  Script: |-
+    bonus bFleeRate,-25;
+  Notes: |-
+    Balanced, Earth
+- Id: 2172
+  Name: Sharel Shield
+  AegisName: RGX_Sharel_Shield
+  Type: Armor
+  Weight: 150
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 5
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+- Id: 2173
+  Name: Lumiere Shield
+  AegisName: RGX_Lumiere_Shield
+  Type: Armor
+  Buy: 20
+  Weight: 1300
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 3
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus2 bSubEle,Ele_Holy,5;
+    bonus2 bSubRace,RC_Dragon,-5;
+- Id: 2174
+  Name: Spirit Shield
+  AegisName: RGX_Esprit_Shield
+  Type: Armor
+  Buy: 20
+  Weight: 1300
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 3
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus2 bSubEle,Ele_Ghost,5;
+    bonus2 bSubRace,RC_Angel,-5;
+- Id: 2175
+  Name: Fox Wrist Guard
+  AegisName: RGX_Fox_Wrist_Guard
+  Type: Armor
+  Buy: 10
+  Weight: 1500
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 2
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus bMdef,5;
+    bonus2 bSubRace,RC_All,30;
+    bonus bUnbreakableShield;
+- Id: 2176
+  Name: Hervor Alvitr
+  AegisName: RGX_Hervor_Alvitr
+  Type: Armor
+  Weight: 3000
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  View: 2
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bMdef,10;
+    bonus bVit,20;
+    bonus2 bSubRace,RC_All,30;
+    bonus bUnbreakableShield;
+    /*todo instead of autobonus2 bonus4 bAutoSpellWhenHit,"ALL_RAY_OF_PROTECTION",1,50,0;*/
+    autobonus2 "{ sc_end SC_STUN; sc_end SC_SLEEP; sc_end SC_CURSE; sc_end SC_STONE; sc_end SC_POISON; sc_end SC_BLIND; sc_end SC_SILENCE; sc_end SC_BLEEDING; sc_end SC_CONFUSION; sc_end SC_FREEZE; bonus2 bResEff,Eff_Stun,10000; bonus2 bResEff,Eff_Sleep,10000; bonus2 bResEff,Eff_Curse,10000; bonus2 bResEff,Eff_Stone,10000; bonus2 bResEff,Eff_Poison,10000; bonus2 bResEff,Eff_Blind,10000; bonus2 bResEff,Eff_Silence,10000; bonus2 bResEff,Eff_Bleeding,10000; bonus2 bResEff,Eff_Confusion,10000; bonus2 bResEff,Eff_Freeze,10000; }",50,60000,BF_SHORT;
+  Notes: |-
+    Balanced, Stronk
+- Id: 2177
+  Name: Bunker Shield
+  AegisName: RGX_Bunker_Shield
+  Type: Armor
+  Buy: 20
+  Weight: 3500
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 3
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    .@r = getrefine();
+    bonus2 bAddClass,Class_All,4+max(0,.@r-4);
+    bonus bAspdRate,-5;
+- Id: 2178
+  Name: Magic Reflect
+  AegisName: RGX_Magic_Reflector
+  Type: Armor
+  Buy: 10
+  Weight: 1000
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 3
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus bMdef,10;
+    .@r = getrefine();
+    .@val = 3;
+    if (.@r>6) {
+       .@val += 3;
+       if (.@r>8)
+          .@val += 3;
+    }
+    bonus bMagicDamageReturn,.@val;
+  Notes: |-
+    Anti-magic
+- Id: 2179
+  Name: Shield of Gray
+  AegisName: RGX_Shield_Of_Gray
+  Type: Armor
+  Buy: 10
+  Weight: 2000
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 3
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    .@r = getrefine();
+    bonus2 bSubEle,Ele_Holy,30+.@r;
+    bonus bMdef,9+.@r/3;
+- Id: 2180
+  Name: Valkyrja's Shield
+  AegisName: RGX_Valkyrjas_Shield
+  Type: Armor
+  Buy: 10
+  Weight: 500
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 6
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus2 bSubEle,Ele_Water,20;
+    bonus2 bSubEle,Ele_Fire,20;
+    bonus2 bSubEle,Ele_Dark,20;
+    bonus2 bSubEle,Ele_Decay,20;
+    bonus bMdef,5;
+  Notes: |-
+    General, Anti-magic
+- Id: 2181
+  Name: Ancient Shield Of Aeon
+  AegisName: RGX_Ancient_Shield_Of_Aeon
+  Type: Armor
+  Weight: 200
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 2
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus2 bSubEle,Ele_All,10;
+    bonus bMaxHP,500;
+    bonus bMaxSP,50;
+    if (getrefine()>=14)
+       skill "MG_STONECURSE",5;
+- Id: 2182
+  Name: Red Square Bag
+  AegisName: RGX_Red_Bag
+  Type: Armor
+  Buy: 20
+  Weight: 1300
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 1
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus2 bSubEle,Ele_Wind,5;
+    bonus2 bSubRace,RC_Insect,-5;
+- Id: 2183
+  Name: Lian Shield
+  AegisName: RGX_Lian_Shield
+  Type: Armor
+  Weight: 1300
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 3
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus2 bSubEle,Ele_Neutral,5;
+    bonus2 bSubRace,RC_Formless,-5;
+- Id: 2184
+  Name: Scutum
+  AegisName: RGX_Scutum
+  Type: Armor
+  Weight: 500
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 1
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    .@r = getrefine();
+    bonus bFlee,5;
+    bonus bFlee2,1+(.@r/3*2);
+    if (.@r >= 10) {
+       bonus bMaxHPrate,10;
+       bonus bMaxSPrate,10;
+    }
+  Notes: |-
+    Tower Shield
+- Id: 2185
+  Name: Ultralight Magic Shield
+  AegisName: RGX_Ultra_Light_MShield
+  Type: Armor
+  Weight: 100
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 1
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    .@r = getrefine();
+    .@val = 5;
+    bonus2 bIgnoreDefClassRate,Class_Normal,10;
+    if (.@r >= 9) {
+       .@val += 5;
+    } else if (.@r >= 7) {
+       .@val += 2;
+    }
+    bonus bAspdRate,.@val;
+    bonus2 bSubEle,Ele_Neutral,.@val;
+  Notes: |-
+    Anti-magic, giga orlean's
+- Id: 2186
+  Name: Flow Shield
+  AegisName: RGX_Flow_Shield
+  Type: Armor
+  Weight: 800
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 1
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus bAspdRate,10;
+    bonus bAtkRate,3;
+    bonus bMatkRate,3;
+    bonus2 bSubEle,Ele_All,7;
+    autobonus2 "{ bonus2 bSPRegenRate,25,1000; }",50,5000;
+    autobonus "{ bonus2 bHPRegenRate,150,1000; }",50,5000;
+    .@r = getrefine();
+    if (.@r>=7) {
+       bonus bBaseAtk,10;
+       bonus bMatk,10;
+    }
+    if (.@r>=9) {
+       bonus bAspd,1;
+    }
+    if (.@r>=12) {
+       bonus bAftercastDelay,-3;
+    }
+- Id: 2187
+  Name: Bloody Knight's Shield
+  AegisName: RGX_Bloody_Knight_Shield_
+  Type: Armor
+  Weight: 800
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 1
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Notes: |-
+    Bloody Knight?
+- Id: 2188
+  Name: Supply Case
+  AegisName: RGX_SUPPLY_CASE
+  Type: Armor
+  Weight: 800
+  Defense: 2
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 5
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: KiteShield
+- Id: 2189
+  Name: Advanced Arm Guard
+  AegisName: RGX_Improved_Arm_Guard
+  Type: Armor
+  Buy: 40000
+  Weight: 150
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 1
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bMdef,5;
+  Notes: |-
+    Agile
+- Id: 2190
+  Name: Guyak Shield
+  AegisName: RGX_Guyak_Shield
+  Type: Armor
+  Buy: 20
+  Weight: 700
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 2
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus bMdef,3;
+- Id: 2191
+  Name: Cross Shield
+  AegisName: RGX_Cross_Shield
+  Type: Armor
+  Buy: 20
+  Weight: 2000
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 4
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus bStr,1;
+    bonus2 bSkillAtk,"PA_SHIELDCHAIN",30;
+    bonus2 bSkillAtk,"CR_SHIELDBOOMERANG",30;
+    bonus bUseSPrate,-10;
+- Id: 2192
+  Name: Tournament Shield
+  AegisName: RGX_Tournament_Shield
+  Type: Armor
+  Buy: 20
+  Weight: 1000
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 4
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus2 bAddClass,Class_All,1;
+    if (Class == Job_Lord_Knight)
+       bonus bAspdRate,-5;
+  Notes: |-
+    Tower Shield
+- Id: 2193
+  Name: Shield of Naga
+  AegisName: RGX_Shield_Of_Naga
+  Type: Armor
+  Buy: 20
+  Weight: 500
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 2
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: HeavyArmor
+  Keyword: None
+  Script: |
+    bonus bMdef,3;
+    autobonus2 "{ bonus bShortWeaponDamageReturn,(getrefine()*3); }",10,5000,BF_WEAPON,"{ specialeffect2 EF_GUARD; }";
+  Notes: |-
+    Boitata?
+- Id: 2194
+  Name: Shadow Guard
+  AegisName: RGX_Shadow_Guard
+  Type: Armor
+  Buy: 20
+  Weight: 800
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 2
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+- Id: 2195
+  Name: Bradium Shield
+  AegisName: RGX_Bradium_Shield
+  Type: Armor
+  Buy: 20
+  Weight: 1800
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 3
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus2 bSkillAtk,"CR_SHIELDBOOMERANG",60;
+    bonus bAgi,-1;
+    bonus bMaxHP,500;
+- Id: 2196
+  Name: Sacred Mission
+  AegisName: RGX_Herald_Of_GOD
+  Type: Armor
+  Buy: 128000
+  Weight: 1600
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 4
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus bVit,3;
+    bonus bInt,2;
+    bonus bMdef,3;
+    bonus bUnbreakableShield;
+- Id: 2197
+  Name: Crescent Wrist Guard
+  AegisName: RGX_Crescent_Wrist_Guard
+  Type: Armor
+  Buy: 128000
+  Weight: 1600
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 4
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bVit,3;
+    bonus bInt,2;
+    bonus bMdef,3;
+    bonus bUnbreakableShield;
+- Id: 2198
+  Name: Immune Shield
+  AegisName: RGX_Immune_Shield
+  Type: Armor
+  Buy: 128000
+  Weight: 1600
+  Slots: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 4
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  ArmorClass: LightArmor
+  Keyword: None
+  Script: |
+    bonus bVit,3;
+    bonus bInt,2;
+    bonus bMdef,3;
+    bonus bUnbreakableShield;
+- Id: 2199
+  Name: Poison Shield
+  AegisName: RGX_Poison_Shield
+  Type: Armor
+  Buy: 128000
+  Weight: 1600
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Refineable: true
+  View: 4
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Keyword: None
+  Script: |
+    bonus bVit,3;
+    bonus bInt,2;
+    bonus bMdef,3;
+    bonus bUnbreakableShield;

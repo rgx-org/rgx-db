@@ -1,0 +1,68 @@
+Header:
+  Type: RANDOM_OPTION_POOLSET_DB
+  Version: 3
+Body:
+- Id: 1
+  Name: TestPoolSet
+  TagsAndWeightIncrease: {}
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 1
+      Weight: 1
+      Tags: 
+        - AutoBolt
+    - Id: 2
+      Weight: 1
+      Tags:
+        - DualDagger
+  - Line: 2
+    Pools:
+    - Id: 2
+      Weight: 1
+      Tags: 
+        - AutoBolt
+    - Id: 3
+      Weight: 1
+      Tags: 
+        - None
+  - Line: 3
+    Pools:
+    - Id: 3
+      Weight: 1
+      Tags: 
+        - Agi Knight
+    - Id: 4
+      Weight: 1
+      Tags: 
+        - Vit Knight
+  - Line: 4
+    Pools:
+    - Id: 5
+      Weight: 1
+      Tags: 
+        - None
+    - Id: 6
+      Weight: 1
+      Tags: 
+        - AutoBolt
+  - Line: 5
+    Pools:
+    - Id: 1
+      Weight: 1
+      Tags: 
+        - None
+    - Id: 2
+      Weight: 1
+      Tags: 
+         - DixTag
+    - Id: 3
+      Weight: 1
+      Tags: 
+        - 25 Dix Tag
+    - Id: 4
+      Weight: 1
+    - Id: 5
+      Weight: 1
+    - Id: 6
+      Weight: 1

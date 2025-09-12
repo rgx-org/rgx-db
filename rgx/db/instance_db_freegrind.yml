@@ -1,0 +1,936 @@
+Header:
+  Type: INSTANCE_DB
+  Version: 2
+Body:
+- Id: 10000
+  Name: Test FreeGrind
+  GameMode: FreeGrind
+  SpawnGroupIds: {}
+  EndZone:
+    X: 298
+    Y: 205
+  Enter:
+    Map: 06guild_01
+    X: 262
+    Y: 192
+  Boss:
+    MobId: 1494
+    SpawnRadius: 1
+    RewardModifier: 1000
+  Tips: {}
+  Notes: ''
+  TimeLimit: 99999999
+  IdleTimeOut: 99999999
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10001
+  Name: f01_mastering
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1000: true
+  EndZone:
+    X: 52
+    Y: 55
+  Enter:
+    Map: prt_fild08
+    X: 200
+    Y: 221
+  Boss:
+    MobId: 29000
+    SpawnX: 201
+    SpawnY: 260
+    SpawnRadius: 12
+    RewardModifier: 100
+  ShrineType: Plant
+  ShrineMin: 40
+  ShrineMax: 60
+  Tips: {}
+  Notes: ''
+  TimeLimit: 99999999
+  IdleTimeOut: 99999999
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10002
+  Name: f02_vocal
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1010: true
+    1011: true
+  EndZone:
+    X: 56
+    Y: 342
+  Enter:
+    Map: prt_fild07
+    X: 368
+    Y: 240
+  Boss:
+    MobId: 29001
+    SpawnX: 208
+    SpawnY: 202
+    SpawnRadius: 8
+    RewardModifier: 100
+  ShrineType: Plant
+  ShrineMin: 15
+  ShrineMax: 25
+  Tips:
+    45932: Move zig
+    1337: You know what you doing
+    420420: ' wahtever'
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10003
+  Name: f02_rotten_bones
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1020: true
+    1021: true
+  EndZone:
+    X: 151
+    Y: 164
+  Enter:
+    Map: pay_dun00
+    X: 20
+    Y: 184
+  Boss:
+    MobId: 29002
+    SpawnX: 138
+    SpawnY: 117
+    SpawnRadius: 3
+    RewardModifier: 100
+  ShrineType: Mineral
+  ShrineMin: 2
+  ShrineMax: 4
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10004
+  Name: f03_angeling
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1030: true
+  EndZone:
+    X: 262
+    Y: 234
+  Enter:
+    Map: pay_fild06
+    X: 307
+    Y: 373
+  Boss:
+    MobId: 29057
+    SpawnX: 264
+    SpawnY: 161
+    SpawnRadius: 1
+    RewardModifier: 100
+  ShrineType: Plant
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10005
+  Name: f04_aqua_agni
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1040: true
+    1041: true
+  EndZone:
+    X: 173
+    Y: 53
+  Enter:
+    Map: mal_dun01
+    X: 36
+    Y: 233
+  Boss:
+    MobId: 29008
+    SpawnX: 143
+    SpawnY: 156
+    SpawnRadius: 12
+    RewardModifier: 100
+  ShrineType: Mineral
+  ShrineMin: 3
+  ShrineMax: 4
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10006
+  Name: f04_tera_ventus
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1050: true
+  EndZone:
+    X: 297
+    Y: 323
+  Enter:
+    Map: rockrdg2
+    X: 32
+    Y: 211
+  Boss:
+    MobId: 29011
+    SpawnX: 209
+    SpawnY: 155
+    SpawnRadius: 8
+    RewardModifier: 100
+  ShrineType: Plant
+  ShrineMin: 10
+  ShrineMax: 15
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10007
+  Name: f06_goblin_king
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1060: true
+  EndZone:
+    X: 22
+    Y: 187
+  Enter:
+    Map: 1@orcs
+    X: 179
+    Y: 20
+  Boss:
+    MobId: 29004
+    SpawnX: 37
+    SpawnY: 96
+    SpawnRadius: 8
+    RewardModifier: 100
+  ShrineType: Mineral
+  ShrineMin: 2
+  ShrineMax: 3
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10008
+  Name: f06_kobold_leader
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1070: true
+    1071: true
+  EndZone:
+    X: 70
+    Y: 282
+  Enter:
+    Map: gef_fild05
+    X: 63
+    Y: 28
+  Boss:
+    MobId: 29005
+    SpawnX: 158
+    SpawnY: 260
+    SpawnRadius: 8
+    RewardModifier: 100
+  ShrineType: Plant
+  ShrineMin: 10
+  ShrineMax: 15
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10009
+  Name: f07_menblatt
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1080: true
+  EndZone:
+    X: 134
+    Y: 99
+  Enter:
+    Map: mora
+    X: 55
+    Y: 25
+  Boss:
+    MobId: 29007
+    SpawnX: 120
+    SpawnY: 182
+    SpawnRadius: 1
+    RewardModifier: 100
+  ShrineType: Plant
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10010
+  Name: f08_eddga
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1090: true
+  EndZone:
+    X: 246
+    Y: 149
+  Enter:
+    Map: mosk_dun03
+    X: 104
+    Y: 29
+  Boss:
+    MobId: 29012
+    SpawnX: 135
+    SpawnY: 127
+    SpawnRadius: 12
+    RewardModifier: 100
+  ShrineType: Plant
+  ShrineMin: 15
+  ShrineMax: 20
+  Tips:
+    10010001: Lady Tanee is frustrating to take down without good AoE and a lot of healing. Skipping her is recommended, but if you do fight her, make sure to bring Pneuma and buy all my potions!
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10011
+  Name: f08_phreeoni
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1100: true
+  EndZone:
+    X: 269
+    Y: 140
+  Enter:
+    Map: moc_fild17
+    X: 18
+    Y: 304
+  Boss:
+    MobId: 29014
+    SpawnX: 177
+    SpawnY: 269
+    SpawnRadius: 4
+    RewardModifier: 100
+  ShrineType: Plant
+  ShrineMin: 5
+  ShrineMax: 10
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10012
+  Name: f09_tao_gunka
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1110: true
+  EndZone:
+    X: 77
+    Y: 233
+  Enter:
+    Map: ra_fild01
+    X: 233
+    Y: 332
+  Boss:
+    MobId: 29013
+    SpawnRadius: 1
+    RewardModifier: 100
+  ShrineType: Plant
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10014
+  Name: f11_drake
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1120: true
+  EndZone:
+    X: 228
+    Y: 156
+  Enter:
+    Map: iz_dun03
+    X: 30
+    Y: 64
+  Boss:
+    MobId: 29016
+    SpawnX: 249
+    SpawnY: 256
+    SpawnRadius: 16
+    RewardModifier: 100
+  ShrineType: Mineral
+  ShrineMin: 2
+  ShrineMax: 4
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10015
+  Name: f11_pharaoh
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1130: true
+  EndZone:
+    X: 212
+    Y: 212
+  Enter:
+    Map: in_sphinx4
+    X: 10
+    Y: 221
+  Boss:
+    MobId: 29017
+    SpawnX: 119
+    SpawnY: 99
+    SpawnRadius: 2
+    RewardModifier: 100
+  ShrineType: Mineral
+  ShrineMin: 3
+  ShrineMax: 5
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10016
+  Name: f12_turtle_general
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1140: true
+  EndZone:
+    X: 207
+    Y: 97
+  Enter:
+    Map: tur_dun03
+    X: 132
+    Y: 193
+  Boss:
+    MobId: 29019
+    SpawnRadius: 1
+    RewardModifier: 100
+  ShrineType: Mineral
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10017
+  Name: f13_orc_hero
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1150: true
+  EndZone:
+    X: 308
+    Y: 40
+  Enter:
+    Map: gef_fild10
+    X: 63
+    Y: 337
+  Boss:
+    MobId: 29022
+    SpawnX: 209
+    SpawnY: 160
+    SpawnRadius: 1
+    RewardModifier: 100
+  ShrineType: Plant
+  ShrineMin: 15
+  ShrineMax: 25
+  Tips:
+    1001700: " Orc Lord is an incredibly strong commander. While his brute strength doesn't match Orc Hero, he is often called the true leader of the Orcs, as he has many loyal warriors. If you want to take him on, you best be prepared."
+    1001701: " Orc Warriors will do almost anything to protect their family, including using Devotion on them! But they don't seem to understand that this makes AoE attacks extra effective in taking them down."
+    1001702: The Ankle Snares that Orc Archers lay down are a real pain. If you need a way to deal with them, get Remove Trap from Shamal.
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10018
+  Name: f13_queen_scaraba
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1160: true
+  EndZone:
+    X: 40
+    Y: 175
+  Enter:
+    Map: dic_dun03
+    X: 101
+    Y: 146
+  Boss:
+    MobId: 29024
+    SpawnX: 187
+    SpawnY: 102
+    SpawnRadius: 1
+    RewardModifier: 100
+  ShrineType: Mineral
+  ShrineMin: 3
+  ShrineMax: 5
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10019
+  Name: f14_ctm
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1170: true
+  EndZone:
+    X: 140
+    Y: 114
+  Enter:
+    Map: tha_t04
+    X: 83
+    Y: 35
+  Boss:
+    MobId: 29020
+    SpawnX: 141
+    SpawnY: 294
+    SpawnRadius: 1
+    RewardModifier: 100
+  ShrineType: Mineral
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10021
+  Name: f16_bacsojin
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1180: true
+  EndZone:
+    X: 120
+    Y: 104
+  Enter:
+    Map: gld_dun01
+    X: 120
+    Y: 5
+  Boss:
+    MobId: 29025
+    SpawnX: 120
+    SpawnY: 96
+    SpawnRadius: 4
+    RewardModifier: 100
+  ShrineType: Mineral
+  ShrineMin: 2
+  ShrineMax: 3
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10022
+  Name: f16_jirant
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1190: true
+  EndZone:
+    X: 235
+    Y: 263
+  Enter:
+    Map: teg_dun01
+    X: 45
+    Y: 39
+  Boss:
+    MobId: 29058
+    SpawnRadius: 1
+    RewardModifier: 100
+  ShrineType: Mineral
+  Tips: {}
+  Notes: Very mobby, low HP mobs. Somewhat of a victory lap floor but with difficult boss/FoE.
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10023
+  Name: f17_evil_snake_lord
+  GameMode: FreeGrind
+  SpawnGroupIds: {}
+  EndZone:
+    X: 189
+    Y: 193
+  Enter:
+    Map: gon_dun03
+    X: 68
+    Y: 7
+  Boss:
+    MobId: 29026
+    SpawnRadius: 1
+    RewardModifier: 100
+  ShrineType: Plant
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10024
+  Name: f18_kraken
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1210: true
+  EndZone:
+    X: 129
+    Y: 202
+  Enter:
+    Map: iz_dun04
+    X: 27
+    Y: 35
+  Boss:
+    MobId: 29018
+    SpawnRadius: 1
+    RewardModifier: 100
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10025
+  Name: f18_vesper
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1220: true
+  EndZone:
+    X: 99
+    Y: 91
+  Enter:
+    Map: juperos_01
+    X: 51
+    Y: 249
+  Boss:
+    MobId: 29059
+    SpawnRadius: 1
+    RewardModifier: 100
+  ShrineType: Mineral
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10026
+  Name: f19_whiteknight
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1230: true
+  EndZone:
+    X: 141
+    Y: 307
+  Enter:
+    Map: arug_cas03
+    X: 141
+    Y: 43
+  Boss:
+    MobId: 29021
+    SpawnRadius: 1
+    RewardModifier: 100
+  ShrineType: Mineral
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10027
+  Name: f21_gloom_under_night
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1240: true
+  EndZone:
+    X: 150
+    Y: 260
+  Enter:
+    Map: ra_san05
+    X: 150
+    Y: 9
+  Boss:
+    MobId: 29031
+    SpawnRadius: 1
+    RewardModifier: 100
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10028
+  Name: f21_celine_kimi
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1200: true
+  EndZone:
+    X: 175
+    Y: 104
+  Enter:
+    Map: gef_d01_i
+    X: 115
+    Y: 236
+  Boss:
+    MobId: 29029
+    SpawnRadius: 1
+    RewardModifier: 100
+  ShrineType: Mineral
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10029
+  Name: f22_detale
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1260: true
+  EndZone:
+    X: 125
+    Y: 258
+  Enter:
+    Map: abyss_04
+    X: 154
+    Y: 313
+  Boss:
+    MobId: 29032
+    SpawnX: 168
+    SpawnY: 160
+    SpawnRadius: 1
+    RewardModifier: 100
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10030
+  Name: f23_agni_aqua
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1270: true
+  EndZone:
+    X: 59
+    Y: 60
+  Enter:
+    Map: oz_dun02
+    X: 37
+    Y: 271
+  Boss:
+    MobId: 29037
+    SpawnRadius: 1
+    RewardModifier: 100
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10031
+  Name: f23_ventus_tera
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1280: true
+  EndZone:
+    X: 100
+    Y: 100
+  Enter:
+    Map: ma_fild02
+    X: -1
+    Y: -1
+  Boss:
+    MobId: 29038
+    SpawnRadius: 1
+    RewardModifier: 100
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10032
+  Name: f24_thanatos
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1290: true
+  EndZone:
+    X: 79
+    Y: 115
+  Enter:
+    Map: tha_t08
+    X: 65
+    Y: 103
+  Boss:
+    MobId: 29034
+    SpawnRadius: 1
+    RewardModifier: 100
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10034
+  Name: f26_sara
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1300: true
+  EndZone:
+    X: 149
+    Y: 233
+  Enter:
+    Map: ayo_dun02
+    X: 149
+    Y: 13
+  Boss:
+    MobId: 29035
+    SpawnRadius: 1
+    RewardModifier: 100
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10035
+  Name: f26_daehyon
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1310: true
+  EndZone:
+    X: 120
+    Y: 174
+  Enter:
+    Map: ama_dun03
+    X: 119
+    Y: 19
+  Boss:
+    MobId: 29043
+    SpawnRadius: 1
+    RewardModifier: 100
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10036
+  Name: f27_knight_of_abyss
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1320: true
+  EndZone:
+    X: 157
+    Y: 288
+  Enter:
+    Map: gl_knt02
+    X: 287
+    Y: 138
+  Boss:
+    MobId: 29033
+    SpawnRadius: 1
+    RewardModifier: 100
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10038
+  Name: f28_beelzebub
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1330: true
+  EndZone:
+    X: 99
+    Y: 91
+  Enter:
+    Map: anthell01
+    X: -1
+    Y: -1
+  Boss:
+    MobId: 29042
+    SpawnRadius: 1
+    RewardModifier: 100
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10039
+  Name: f28_blitzfire_x1
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1340: true
+  EndZone:
+    X: 75
+    Y: 144
+  Enter:
+    Map: schg_dun01
+    X: 199
+    Y: 132
+  Boss:
+    MobId: 29045
+    SpawnRadius: 1
+    RewardModifier: 100
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10040
+  Name: f29_juncea
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1370: true
+  EndZone:
+    X: 282
+    Y: 83
+  Enter:
+    Map: 1@cata
+    X: 71
+    Y: 223
+  Boss:
+    MobId: 29047
+    SpawnRadius: 1
+    RewardModifier: 100
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true

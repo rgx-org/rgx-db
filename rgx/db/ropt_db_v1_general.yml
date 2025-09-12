@@ -1,0 +1,6278 @@
+Header:
+  Type: RANDOM_OPTION_DB
+  Version: 1
+Body:
+- Id: 0
+  FriendlyName: V1_Nothing
+  Option: V1_NOTHING
+  Transferable: false
+  Stackable: true
+  Description: This line does nothing.
+  Done: true
+  Script: |-
+    ;
+- Id: 10
+  FriendlyName: V1_Max SP Rate
+  Option: V1_MAX_SP_RATE
+  Transferable: false
+  Stackable: true
+  Description: Max SP +%d%%
+  Done: true
+  Script: |
+    bonus bMaxSPrate,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - SP
+- Id: 11
+  FriendlyName: V1_Natural HP Regen Rate
+  Option: V1_NATURAL_HP_REGEN_RATE
+  Transferable: false
+  Stackable: true
+  Description: Natural HP regen rate +%d%%
+  Done: true
+  Script: |
+    bonus bHPrecovRate,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - HP
+- Id: 12
+  FriendlyName: V1_Natural SP Regen Rate
+  Option: V1_NATURAL_SP_REGEN_RATE
+  Transferable: false
+  Stackable: true
+  Description: Natural SP regen rate +%d%%
+  Done: true
+  Script: |
+    bonus bSPrecovRate,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - SP
+- Id: 13
+  FriendlyName: V1_ATK Rate
+  Option: V1_ATK_RATE
+  Transferable: false
+  Stackable: true
+  Description: ATK +%d%%
+  Done: true
+  Script: |
+    bonus bAtkRate,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - ATK
+- Id: 14
+  FriendlyName: V1_MATK Rate
+  Option: V1_MATK_RATE
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%%
+  Done: true
+  Script: |
+    bonus bMatkRate,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - MATK
+- Id: 15
+  FriendlyName: V1_ASPD Abs.
+  Option: V1_ASPD_ABS
+  Transferable: false
+  Stackable: true
+  Description: ASPD +%d
+  Done: true
+  Script: |
+    bonus bAspd,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - ASPD
+- Id: 16
+  FriendlyName: V1_ASPD Rate
+  Option: V1_ASPD_RATE
+  Transferable: false
+  Stackable: true
+  Description: ASPD +%d%%
+  Done: true
+  Script: |
+    bonus bAspdRate,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - ASPD
+- Id: 17
+  FriendlyName: V1_Atk Abs.
+  Option: V1_ATK_ABS
+  Transferable: false
+  Stackable: true
+  Description: ATK +%d
+  Done: true
+  Script: |-
+    bonus bAtk,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - ATK
+- Id: 18
+  FriendlyName: V1_HIT Abs.
+  Option: V1_HIT_ABS
+  Transferable: false
+  Stackable: true
+  Description: Hit +%d
+  Done: true
+  Script: |
+    bonus bHit,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - HIT
+- Id: 19
+  FriendlyName: V1_MATK Abs.
+  Option: V1_MATK_ABS
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d
+  Done: true
+  Script: |
+    bonus bMatk,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - MATK
+- Id: 20
+  FriendlyName: V1_DEF Abs.
+  Option: V1_DEF_ABS
+  Transferable: false
+  Stackable: true
+  Description: DEF +%d
+  Done: true
+  Script: |
+    bonus bDef,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - DEF
+- Id: 21
+  FriendlyName: V1_MDEF Abs.
+  Option: V1_MDEF_ABS
+  Transferable: false
+  Stackable: true
+  Description: MDEF +%d
+  Done: true
+  Script: |
+    bonus bMdef,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - MDEF
+- Id: 22
+  FriendlyName: V1_Flee Abs.
+  Option: V1_FLEE_ABS
+  Transferable: false
+  Stackable: true
+  Description: 'Flee +%d '
+  Done: true
+  Script: |
+    bonus bFlee,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Flee
+- Id: 23
+  FriendlyName: V1_Lucky Dodge Abs.
+  Option: V1_LUCKY_DODGE_ABS
+  Transferable: false
+  Stackable: true
+  Description: Lucky Dodge +%d
+  Done: true
+  Script: |
+    bonus bFlee2,getrandomoptinfo(ROA_VALUE);
+- Id: 24
+  FriendlyName: V1_Crit Abs.
+  Option: V1_CRIT_ABS
+  Transferable: false
+  Stackable: true
+  Description: Crit +%d
+  Done: true
+  Script: |
+    bonus bCritical,getrandomoptinfo(ROA_VALUE);
+- Id: 25
+  FriendlyName: V1_Healing Power
+  Option: V1_HEALING_POWER
+  Transferable: false
+  Stackable: true
+  Description: Healing Power +%d%%
+  Done: true
+  Script: |
+    bonus bHealPower,getrandomoptinfo(ROA_VALUE);
+- Id: 26
+  FriendlyName: V1_Restoration
+  Option: V1_RESTORATION
+  Transferable: false
+  Stackable: true
+  Description: Restoration +%d%%
+  Done: true
+  Script: |
+    bonus bRestoration,getrandomoptinfo(ROA_VALUE);
+- Id: 27
+  FriendlyName: V1_Cast times
+  Option: V1_CAST_TIMES
+  Transferable: false
+  Stackable: true
+  Description: Cast times -%d%%
+  Done: true
+  Script: |
+    bonus bCastrate,-(getrandomoptinfo(ROA_VALUE)*10);
+  Labels:
+  - Cast time
+  - Priority
+- Id: 28
+  FriendlyName: V1_After Cast Delay
+  Option: V1_AFTER_CAST_DELAY
+  Transferable: false
+  Stackable: true
+  Description: After cast delay -%d%%
+  Done: true
+  Script: |
+    bonus bAftercastDelay,-(getrandomoptinfo(ROA_VALUE));
+- Id: 29
+  FriendlyName: V1_Skill SP Costs
+  Option: V1_SKILL_SP_COSTS
+  Transferable: false
+  Stackable: true
+  Description: Skill SP costs -%d%%
+  Done: true
+  Script: |
+    bonus bUseSPrate,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Skill SP Costs
+- Id: 30
+  FriendlyName: V1_Move speed
+  Option: V1_MOVE_SPEED
+  Transferable: false
+  Stackable: true
+  Description: Move Speed + %d%%
+  Done: true
+  Script: |
+    bonus bSpeedAddRate,getrandomoptinfo(ROA_VALUE);
+- Id: 31
+  FriendlyName: V1_Perfect Hit Add Rate
+  Option: V1_PERFECT_HIT_ADD_RATE
+  Transferable: false
+  Stackable: true
+  Description: Perfect hit rate +%d%%
+  Done: true
+  Script: |-
+    bonus bPerfectHitAddRate,getrandomoptinfo(ROA_VALUE);
+- Id: 32
+  FriendlyName: V1_All Stats
+  Option: V1_ALL_STATS
+  Transferable: false
+  Stackable: true
+  Description: All stats +%d.
+  Done: true
+  Script: |-
+    bonus bAllStats,getrandomoptinfo(ROA_VALUE);
+- Id: 33
+  FriendlyName: V1_Attack range
+  Option: V1_ATTACK_RANGE
+  Transferable: false
+  Stackable: true
+  Description: Attack Range +%d
+  Done: true
+  Script: |-
+    bonus bAtkRange,getrandomoptinfo(ROA_VALUE);
+- Id: 35
+  FriendlyName: V1_Flee Add Rate
+  Option: V1_FLEE_ADD_RATE
+  Transferable: false
+  Stackable: true
+  Description: Flee +%d%%
+  Done: true
+  Script: |-
+    bonus bFleeRate,getrandomoptinfo(ROA_VALUE);
+- Id: 36
+  FriendlyName: V1_Flee mobbing penalty redux
+  Option: V1_FLEE_MOBBING_PENALTY_REDUX
+  Transferable: true
+  Stackable: false
+  Description: '[Reduce Flee penalty when mobbing by %d%%.]'
+  Done: true
+  Script: |-
+    bonus bFleePenaltyRedux,getrandomoptinfo(ROA_VALUE);
+- Id: 37
+  FriendlyName: V1_Flee reflect 20
+  Option: V1_FLEE_REFLECT_20
+  Transferable: false
+  Stackable: true
+  Description: Fleeing has a +%d%% chance to reflect 20%% damage
+  Done: true
+  Script: |-
+    bonus bEvadeReflectDamage,20;
+    bonus bEvadeReflectRate,getrandomoptinfo(ROA_VALUE)*10;
+- Id: 38
+  FriendlyName: V1_Flee reflect 50
+  Option: V1_FLEE_REFLECT_50
+  Transferable: false
+  Stackable: true
+  Description: Fleeing has a +%d%% chance to reflect 50%% damage
+  Done: true
+  Script: |-
+    bonus bEvadeReflectDamage,50;
+    bonus bEvadeReflectRate,getrandomoptinfo(ROA_VALUE)*10;
+- Id: 39
+  FriendlyName: V1_Flee reflect 75
+  Option: V1_FLEE_REFLECT_75
+  Transferable: false
+  Stackable: true
+  Description: Fleeing has a +%d%% chance to reflect 75%% damage
+  Done: true
+  Script: |-
+    bonus bEvadeReflectDamage,75;
+    bonus bEvadeReflectRate,getrandomoptinfo(ROA_VALUE)*10;
+- Id: 40
+  FriendlyName: V1_Flee reflect 100
+  Option: V1_FLEE_REFLECT_100
+  Transferable: false
+  Stackable: true
+  Description: Fleeing has a +%d%% chance to reflect 100%% damage
+  Done: true
+  Script: |-
+    bonus bEvadeReflectDamage,100;
+    bonus bEvadeReflectRate,getrandomoptinfo(ROA_VALUE)*10;
+- Id: 45
+  FriendlyName: V1_Splash Damage 1 cell
+  Option: V1_SPLASH_DAMAGE_1_CELL
+  Transferable: false
+  Stackable: true
+  Description: Add +1 cell of Splash Damage.
+  Done: true
+  Script: |-
+    bonus bSplashAddRange,1;
+- Id: 46
+  FriendlyName: V1_Splash Damage > 1 cell
+  Option: V1_SPLASH_DAMAGE__1_CELL
+  Transferable: false
+  Stackable: true
+  Description: Add +%d cells of Splash Damage.
+  Done: true
+  Script: |-
+    bonus bSplashAddRange,getrandomoptinfo(ROA_VALUE);
+- Id: 47
+  FriendlyName: V1_Stun on attack
+  Option: V1_STUN_ON_ATTACK
+  Transferable: false
+  Stackable: true
+  Description: Weapon attacks inflict Stun +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_Stun,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 48
+  FriendlyName: V1_Bleeding on attack
+  Option: V1_BLEEDING_ON_ATTACK
+  Transferable: false
+  Stackable: true
+  Description: Weapon attacks inflict Bleeding +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_Bleeding,getrandomoptinfo(ROA_VALUE)*100;
+  Labels:
+  - Bleeding
+- Id: 49
+  FriendlyName: V1_Critical Wounds on attack
+  Option: V1_CRITICAL_WOUNDS_ON_ATTACK
+  Transferable: false
+  Stackable: true
+  Description: Weapon attacks inflict Critical Wounds +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_CriticalWound,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 50
+  FriendlyName: V1_Chill on attack
+  Option: V1_CHILL_ON_ATTACK
+  Transferable: false
+  Stackable: true
+  Description: Weapon attacks inflict Chill +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_Chill,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 51
+  FriendlyName: V1_Freeze on attack
+  Option: V1_FREEZE_ON_ATTACK
+  Transferable: false
+  Stackable: true
+  Description: Weapon attacks inflict Freeze +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_Freeze,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 52
+  FriendlyName: V1_Heat on attack
+  Option: V1_HEAT_ON_ATTACK
+  Transferable: false
+  Stackable: true
+  Description: Weapon attacks inflict Heat +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_Heat,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 53
+  FriendlyName: V1_Burning on attack
+  Option: V1_BURNING_ON_ATTACK
+  Transferable: false
+  Stackable: true
+  Description: Weapon attacks inflict Burning +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_Burning,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 54
+  FriendlyName: V1_Blind on attack
+  Option: V1_BLIND_ON_ATTACK
+  Transferable: false
+  Stackable: true
+  Description: Weapon attacks inflict Blind +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_Blind,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 55
+  FriendlyName: V1_Poison on attack
+  Option: V1_POISON_ON_ATTACK
+  Transferable: false
+  Stackable: true
+  Description: Weapon attacks inflict Poison +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_Poison,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 56
+  FriendlyName: V1_Deadly Poison on attack
+  Option: V1_DEADLY_POISON_ON_ATTACK
+  Transferable: false
+  Stackable: true
+  Description: Weapon attacks inflict Deadly Poison +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_DPoison,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 57
+  FriendlyName: V1_Curse on attack
+  Option: V1_CURSE_ON_ATTACK
+  Transferable: false
+  Stackable: true
+  Description: Weapon attacks inflict Curse +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_Curse,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 58
+  FriendlyName: V1_Silence on attack
+  Option: V1_SILENCE_ON_ATTACK
+  Transferable: false
+  Stackable: true
+  Description: Weapon attacks inflict Silence +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_Silence,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 59
+  FriendlyName: V1_Sleep on attack
+  Option: V1_SLEEP_ON_ATTACK
+  Transferable: false
+  Stackable: true
+  Description: Weapon attacks inflict Sleep +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_Sleep,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 60
+  FriendlyName: V1_Stone Curse on attack
+  Option: V1_STONE_CURSE_ON_ATTACK
+  Transferable: false
+  Stackable: true
+  Description: Weapon attacks inflict Stone Curse +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_Stone,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 61
+  FriendlyName: V1_Slow Cast on attack
+  Option: V1_SLOW_CAST_ON_ATTACK
+  Transferable: false
+  Stackable: true
+  Description: Weapon attacks inflict Slow Cast +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_SlowCast,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 62
+  FriendlyName: V1_Shock on attack
+  Option: V1_SHOCK_ON_ATTACK
+  Transferable: false
+  Stackable: true
+  Description: Weapon attacks inflict Shock +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_Shock,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 63
+  FriendlyName: V1_Stun when attacked
+  Option: V1_STUN_WHEN_ATTACKED
+  Transferable: false
+  Stackable: true
+  Description: When hit, inflict Stun +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffWhenHit,Eff_Stun,getrandomoptinfo(ROA_VALUE)*100,ATF_TARGET;
+- Id: 64
+  FriendlyName: V1_Bleeding when attacked
+  Option: V1_BLEEDING_WHEN_ATTACKED
+  Transferable: false
+  Stackable: true
+  Description: When hit, inflict Bleeding +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffWhenHit,Eff_Bleeding,getrandomoptinfo(ROA_VALUE)*100,ATF_TARGET;
+  Labels:
+  - Bleeding
+- Id: 65
+  FriendlyName: V1_Critical Wounds when attacked
+  Option: V1_CRITICAL_WOUNDS_WHEN_ATTACKED
+  Transferable: false
+  Stackable: true
+  Description: When hit, inflict Critical Wounds +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffWhenHit,Eff_CriticalWound,getrandomoptinfo(ROA_VALUE)*100,ATF_TARGET;
+- Id: 66
+  FriendlyName: V1_Chill when attacked
+  Option: V1_CHILL_WHEN_ATTACKED
+  Transferable: false
+  Stackable: true
+  Description: When hit, inflict Chill +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffWhenHit,Eff_Chill,getrandomoptinfo(ROA_VALUE)*100,ATF_TARGET;
+- Id: 67
+  FriendlyName: V1_Freeze when attacked
+  Option: V1_FREEZE_WHEN_ATTACKED
+  Transferable: false
+  Stackable: true
+  Description: When hit, inflict Freeze +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffWhenHit,Eff_Freeze,getrandomoptinfo(ROA_VALUE)*100,ATF_TARGET;
+- Id: 68
+  FriendlyName: V1_Heat when attacked
+  Option: V1_HEAT_WHEN_ATTACKED
+  Transferable: false
+  Stackable: true
+  Description: When hit, inflict Heat +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffWhenHit,Eff_Heat,getrandomoptinfo(ROA_VALUE)*100,ATF_TARGET;
+- Id: 69
+  FriendlyName: V1_Burning when attacked
+  Option: V1_BURNING_WHEN_ATTACKED
+  Transferable: false
+  Stackable: true
+  Description: When hit, inflict Burning +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffWhenHit,Eff_Burning,getrandomoptinfo(ROA_VALUE)*100,ATF_TARGET;
+- Id: 70
+  FriendlyName: V1_Blind when attacked
+  Option: V1_BLIND_WHEN_ATTACKED
+  Transferable: false
+  Stackable: true
+  Description: When hit, inflict Blind +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffWhenHit,Eff_Blind,getrandomoptinfo(ROA_VALUE)*100,ATF_TARGET;
+- Id: 71
+  FriendlyName: V1_Poison when attacked
+  Option: V1_POISON_WHEN_ATTACKED
+  Transferable: false
+  Stackable: true
+  Description: When hit, inflict Poison +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffWhenHit,Eff_Poison,getrandomoptinfo(ROA_VALUE)*100,ATF_TARGET;
+- Id: 72
+  FriendlyName: V1_DPoison when attacked
+  Option: V1_DPOISON_WHEN_ATTACKED
+  Transferable: false
+  Stackable: true
+  Description: When hit, inflict Deadly Poison +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffWhenHit,Eff_DPoison,getrandomoptinfo(ROA_VALUE)*100,ATF_TARGET;
+- Id: 73
+  FriendlyName: V1_Curse when attacked
+  Option: V1_CURSE_WHEN_ATTACKED
+  Transferable: false
+  Stackable: true
+  Description: When hit, inflict Curse +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffWhenHit,Eff_Curse,getrandomoptinfo(ROA_VALUE)*100,ATF_TARGET;
+- Id: 74
+  FriendlyName: V1_Sleep when attacked
+  Option: V1_SLEEP_WHEN_ATTACKED
+  Transferable: false
+  Stackable: true
+  Description: When hit, inflict Sleep +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffWhenHit,Eff_Sleep,getrandomoptinfo(ROA_VALUE)*100,ATF_TARGET;
+- Id: 75
+  FriendlyName: V1_Silence when attacked
+  Option: V1_SILENCE_WHEN_ATTACKED
+  Transferable: false
+  Stackable: true
+  Description: When hit, inflict Silence +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffWhenHit,Eff_Silence,getrandomoptinfo(ROA_VALUE)*100,ATF_TARGET;
+- Id: 76
+  FriendlyName: V1_Stone Curse when attacked
+  Option: V1_STONE_CURSE_WHEN_ATTACKED
+  Transferable: false
+  Stackable: true
+  Description: When hit, inflict Stone Curse +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffWhenHit,Eff_Stone,getrandomoptinfo(ROA_VALUE)*100,ATF_TARGET;
+- Id: 77
+  FriendlyName: V1_Slow Cast when attacked
+  Option: V1_SLOW_CAST_WHEN_ATTACKED
+  Transferable: false
+  Stackable: true
+  Description: When hit, inflict Slow Cast +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffWhenHit,Eff_SlowCast,getrandomoptinfo(ROA_VALUE)*100,ATF_TARGET;
+- Id: 78
+  FriendlyName: V1_Shock when attacked
+  Option: V1_SHOCK_WHEN_ATTACKED
+  Transferable: false
+  Stackable: true
+  Description: When hit, inflict Shock +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffWhenHit,Eff_Shock,getrandomoptinfo(ROA_VALUE)*100,ATF_TARGET;
+- Id: 79
+  FriendlyName: V1_Weapon damage vs Stunned
+  Option: V1_WEAPON_DAMAGE_VS_STUNNED
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Stunned +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffMod,Eff_Stun,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 80
+  FriendlyName: V1_Weapon damage vs Bleeding
+  Option: V1_WEAPON_DAMAGE_VS_BLEEDING
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Bleeding +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffMod,Eff_Bleeding,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+  Labels:
+  - Bleeding
+- Id: 81
+  FriendlyName: V1_Weapon damage vs Critical Wounds
+  Option: V1_WEAPON_DAMAGE_VS_CRITICAL_WOUNDS
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Critical Wounds +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffMod,Eff_CriticalWound,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 82
+  FriendlyName: V1_Weapon damage vs Poisoned & DPoisoned
+  Option: V1_WEAPON_DAMAGE_VS_POISONED__DPOISONED
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Poisoned & Deadly Poisoned +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffMod,Eff_Poison,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+    bonus3 bEffMod,Eff_DPoison,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 83
+  FriendlyName: V1_Weapon damage vs Heat
+  Option: V1_WEAPON_DAMAGE_VS_HEAT
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Heated +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffMod,Eff_Heat,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 84
+  FriendlyName: V1_Weapon damage vs Burning
+  Option: V1_WEAPON_DAMAGE_VS_BURNING
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Burning +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffMod,Eff_Burning,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 85
+  FriendlyName: V1_Weapon damage vs Sleeping
+  Option: V1_WEAPON_DAMAGE_VS_SLEEPING
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Sleeping +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffMod,Eff_Sleep,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 86
+  FriendlyName: V1_Weapon damage vs Chilled
+  Option: V1_WEAPON_DAMAGE_VS_CHILLED
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Chilled +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffMod,Eff_Chill,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 87
+  FriendlyName: V1_Weapon damage vs Frozen
+  Option: V1_WEAPON_DAMAGE_VS_FROZEN
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Frozen +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffMod,Eff_Frozen,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 88
+  FriendlyName: V1_Weapon damage vs Blinded
+  Option: V1_WEAPON_DAMAGE_VS_BLINDED
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Blinded +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffMod,Eff_Blind,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 89
+  FriendlyName: V1_Weapon damage vs Shocked
+  Option: V1_WEAPON_DAMAGE_VS_SHOCKED
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Shocked targets +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffMod,Eff_Shock,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 90
+  FriendlyName: V1_Weapon damage vs Stone Curse'd
+  Option: V1_WEAPON_DAMAGE_VS_STONE_CURSED
+  Transferable: false
+  Stackable: true
+  Description: Attack vs Stone Curse'd +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffMod,Eff_Stone,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 91
+  FriendlyName: V1_Stun Extension
+  Option: V1_STUN_EXTENSION
+  Transferable: true
+  Stackable: true
+  Description: '[When you inflict Stun on a target already inflicted, the new Stun is queued and rolled once their current Stun ends.]'
+  Done: true
+  Script: |-
+    bonus2 bStatusExtension,Eff_Stun,getrandomoptinfo(ROA_VALUE)*1000;
+- Id: 92
+  FriendlyName: V1_Bleeding Extension
+  Option: V1_BLEEDING_EXTENSION
+  Transferable: true
+  Stackable: true
+  Description: '[When inflicting Bleeding on a target already afflicted, extend timer by +%d base second(s)]'
+  Done: true
+  Script: |-
+    bonus2 bStatusExtension,Eff_Bleeding,getrandomoptinfo(ROA_VALUE)*1000;
+  Labels:
+  - Bleeding
+- Id: 93
+  FriendlyName: V1_Critical Wounds Extension
+  Option: V1_CRITICAL_WOUNDS_EXTENSION
+  Transferable: true
+  Stackable: true
+  Description: '[When inflicting Critical Wounds on a target already afflicted, extend timer by +%d base second(s)]'
+  Done: true
+  Script: |-
+    bonus2 bStatusExtension,Eff_CriticalWound,getrandomoptinfo(ROA_VALUE)*1000;
+- Id: 94
+  FriendlyName: V1_Chill Extension
+  Option: V1_CHILL_EXTENSION
+  Transferable: true
+  Stackable: true
+  Description: '[When inflicting Chill on a target already afflicted, extend timer by +%d base second(s)]'
+  Done: true
+  Script: |-
+    bonus2 bStatusExtension,Eff_Chill,getrandomoptinfo(ROA_VALUE)*1000;
+- Id: 96
+  FriendlyName: V1_Heat Extension
+  Option: V1_HEAT_EXTENSION
+  Transferable: true
+  Stackable: true
+  Description: '[When inflicting Heat on a target already afflicted, extend timer by +%d base seconds]'
+  Done: true
+  Script: |-
+    bonus2 bStatusExtension,Eff_Heat,getrandomoptinfo(ROA_VALUE)*1000;
+- Id: 97
+  FriendlyName: V1_Burning Extension
+  Option: V1_BURNING_EXTENSION
+  Transferable: true
+  Stackable: true
+  Description: '[When inflicting Burning on a target already afflicted, extend timer by +%d base second(s)]'
+  Done: true
+  Script: |-
+    bonus2 bStatusExtension,Eff_Burning,getrandomoptinfo(ROA_VALUE)*1000;
+- Id: 98
+  FriendlyName: V1_Silence Extension
+  Option: V1_SILENCE_EXTENSION
+  Transferable: true
+  Stackable: true
+  Description: '[When inflicting Silence on a target already afflicted, extend timer by +%d base second(s)]'
+  Done: true
+  Script: |-
+    bonus2 bStatusExtension,Eff_Silence,getrandomoptinfo(ROA_VALUE)*1000;
+- Id: 99
+  FriendlyName: V1_Blind Extension
+  Option: V1_BLIND_EXTENSION
+  Transferable: true
+  Stackable: true
+  Description: '[When inflicting Blind on a target already afflicted, extend timer by +%d base second(s)]'
+  Done: true
+  Script: |-
+    bonus2 bStatusExtension,Eff_Blind,getrandomoptinfo(ROA_VALUE)*1000;
+- Id: 100
+  FriendlyName: V1_Poison/DPoison Extension
+  Option: V1_POISONDPOISON_EXTENSION
+  Transferable: true
+  Stackable: true
+  Description: '[When inflicting Poison or Deadly Poison on a target already afflicted, extend timer by +%d base second(s)]'
+  Done: true
+  Script: |-
+    bonus2 bStatusExtension,Eff_Poison,getrandomoptinfo(ROA_VALUE)*1000;bonus2 bStatusExtension,Eff_DPoison,getrandomoptinfo(ROA_VALUE)*1000;
+- Id: 101
+  FriendlyName: V1_Deadly Poison Extension
+  Option: V1_DEADLY_POISON_EXTENSION
+  Transferable: true
+  Stackable: true
+  Description: '[When inflicting Deadly Poison on a target already afflicted, extend timer by +%d base second(s)]'
+  Done: true
+  Script: |-
+    bonus2 bStatusExtension,Eff_DPoison,getrandomoptinfo(ROA_VALUE)*1000;
+- Id: 102
+  FriendlyName: V1_Bleeding resist
+  Option: V1_BLEEDING_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Bleeding resist +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Bleeding,getrandomoptinfo(ROA_VALUE)*100;
+  Labels:
+  - Bleeding
+- Id: 103
+  FriendlyName: V1_Stun resist
+  Option: V1_STUN_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Stun resistance +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Stun,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 104
+  FriendlyName: V1_Chill resist
+  Option: V1_CHILL_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Chill resistance +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Chill,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 105
+  FriendlyName: V1_Freeze resist
+  Option: V1_FREEZE_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Freeze resistance +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Freeze,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 106
+  FriendlyName: V1_Critical Wounds resist
+  Option: V1_CRITICAL_WOUNDS_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Critical Wound resist +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_CriticalWound,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 107
+  FriendlyName: V1_Heat resist
+  Option: V1_HEAT_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Heat resist +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Heat,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 108
+  FriendlyName: V1_Burning resist
+  Option: V1_BURNING_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Burning resist +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Burning,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 109
+  FriendlyName: V1_Poison resist
+  Option: V1_POISON_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Poison resist +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Poison,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 110
+  FriendlyName: V1_Deadly Poison resist
+  Option: V1_DEADLY_POISON_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Deadly Poison resist +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_DPoison,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 111
+  FriendlyName: V1_Blind resist
+  Option: V1_BLIND_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Blind resistance +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Blind,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 112
+  FriendlyName: V1_Curse resist
+  Option: V1_CURSE_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Curse resistance +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Curse,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 113
+  FriendlyName: V1_Sleep resist
+  Option: V1_SLEEP_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Sleep resistance +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Sleep,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 114
+  FriendlyName: V1_Stone Curse resist
+  Option: V1_STONE_CURSE_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Stone Curse resistance +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Stone,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 115
+  FriendlyName: V1_Silence resist
+  Option: V1_SILENCE_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Silence resistance +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Silence,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 116
+  FriendlyName: V1_Poison/Silence/Blind resist
+  Option: V1_POISONSILENCEBLIND_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Poison, Silence, and Blind Resistance +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Silence,getrandomoptinfo(ROA_VALUE)*100;
+    bonus2 bResEff,Eff_Poison,getrandomoptinfo(ROA_VALUE)*100;
+    bonus2 bResEff,Eff_Blind,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 117
+  FriendlyName: V1_Freeze resist (Transferable)
+  Option: V1_FREEZE_RESIST_TRANSFERABLE
+  Transferable: true
+  Stackable: true
+  Description: '[Freeze resistance +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Freeze,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 118
+  FriendlyName: V1_Bleeding Damage +%
+  Option: V1_BLEEDING_DAMAGE_
+  Transferable: false
+  Stackable: true
+  Description: Bleeding tick damage +%d%%
+  Done: true
+  Script: |-
+    bonus2 bDotDamage,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+- Id: 119
+  FriendlyName: V1_Poison/Dpoison Damage +%
+  Option: V1_POISONDPOISON_DAMAGE_
+  Transferable: false
+  Stackable: true
+  Description: Poison & Deadly Poison tick damage +%d%%
+  Done: true
+  Script: |-
+    bonus2 bDotDamage,Eff_Poison,getrandomoptinfo(ROA_VALUE);
+    bonus2 bDotDamage,Eff_DPoison,getrandomoptinfo(ROA_VALUE);
+- Id: 120
+  FriendlyName: V1_Heat Damage +%
+  Option: V1_HEAT_DAMAGE_
+  Transferable: false
+  Stackable: true
+  Description: Heat tick damage +%d%%
+  Done: true
+  Script: |-
+    bonus2 bDotDamage,Eff_Heat,getrandomoptinfo(ROA_VALUE);
+- Id: 121
+  FriendlyName: V1_Chill Slow +
+  Option: V1_CHILL_SLOW_
+  Transferable: true
+  Stackable: false
+  Description: '[Chill slows an additional +%d%%.]'
+  Done: true
+  Script: |-
+    bonus2 bDotDamage,Eff_Chill,getrandomoptinfo(ROA_VALUE);
+- Id: 122
+  FriendlyName: V1_Bleeding Slows
+  Option: V1_BLEEDING_SLOWS
+  Transferable: true
+  Stackable: false
+  Description: '[Bleeding reduces target move speed by    %d%%.]'
+  Done: true
+  Script: |-
+    bonus bBleedingSlow,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+- Id: 123
+  FriendlyName: V1_Weapon damage vs Creatures
+  Option: V1_WEAPON_DAMAGE_VS_CREATURES
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Creatures +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddRace,RC_BRUTE,getrandomoptinfo(ROA_VALUE);
+    bonus2 bAddRace,RC_PLANT,getrandomoptinfo(ROA_VALUE);
+    bonus2 bAddRace,RC_INSECT,getrandomoptinfo(ROA_VALUE);
+    bonus2 bAddRace,RC_FISH,getrandomoptinfo(ROA_VALUE);
+- Id: 124
+  FriendlyName: V1_Weapon damage vs Fiends
+  Option: V1_WEAPON_DAMAGE_VS_FIENDS
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Fiends +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddRace,RC_UNDEAD,getrandomoptinfo(ROA_VALUE);
+    bonus2 bAddRace,RC_ANGEL,getrandomoptinfo(ROA_VALUE);
+    bonus2 bAddRace,RC_DEMON,getrandomoptinfo(ROA_VALUE);
+- Id: 125
+  FriendlyName: V1_Weapon damage vs Midgardians
+  Option: V1_WEAPON_DAMAGE_VS_MIDGARDIANS
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Midgardians +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddRace,RC_FORMLESS,getrandomoptinfo(ROA_VALUE);
+    bonus2 bAddRace,RC_DEMIHUMAN,getrandomoptinfo(ROA_VALUE);
+    bonus2 bAddRace,RC_DRAGON,getrandomoptinfo(ROA_VALUE);
+- Id: 126
+  FriendlyName: V1_Magic Damage vs Creatures
+  Option: V1_MAGIC_DAMAGE_VS_CREATURES
+  Transferable: false
+  Stackable: true
+  Description: Magic damage against Creatures +%d%%
+  Done: false
+  Script: |
+    bonus2 bMagicAddRace,RC_Plant,getrandomoptinfo(ROA_VALUE);
+    bonus2 bMagicAddRace,RC_Brute,getrandomoptinfo(ROA_VALUE);
+    bonus2 bMagicAddRace,RC_Insect,getrandomoptinfo(ROA_VALUE);
+    bonus2 bMagicAddRace,RC_Fish,getrandomoptinfo(ROA_VALUE);
+- Id: 127
+  FriendlyName: V1_Magic Damage vs Fiends
+  Option: V1_MAGIC_DAMAGE_VS_FIENDS
+  Transferable: false
+  Stackable: true
+  Description: Magic damage against Fiends +%d%%
+  Done: true
+  Script: |-
+    bonus2 bMagicAddRace,RC_UNDEAD,getrandomoptinfo(ROA_VALUE);
+    bonus2 bMagicAddRace,RC_ANGEL,getrandomoptinfo(ROA_VALUE);
+    bonus2 bMagicAddRace,RC_DEMON,getrandomoptinfo(ROA_VALUE);
+- Id: 128
+  FriendlyName: V1_Magic Damage vs Midgardians
+  Option: V1_MAGIC_DAMAGE_VS_MIDGARDIANS
+  Transferable: false
+  Stackable: true
+  Description: Magic damage against Midgardians +%d%%
+  Done: false
+  Script: |-
+    bonus2 bMagicAddRace,RC_FORMLESS,getrandomoptinfo(ROA_VALUE);bonus2 bMagicAddRace,RC_DEMIHUMAN,getrandomoptinfo(ROA_VALUE);bonus2 bMagicAddRace,RC_DRAGON,getrandomoptinfo(ROA_VALUE);
+- Id: 129
+  FriendlyName: V1_Critical Wound Damage +%
+  Option: V1_CRITICAL_WOUND_DAMAGE_
+  Transferable: false
+  Stackable: true
+  Description: Increase your Bleeding damage by +%d%%
+  Done: false
+  Script: |-
+    if (true) {return;}
+- Id: 130
+  FriendlyName: V1_Burning Damage +%
+  Option: V1_BURNING_DAMAGE_
+  Transferable: false
+  Stackable: true
+  Description: Increase your Bleeding damage by +%d%%
+  Done: false
+  Script: |-
+    if (true) {return;}
+- Id: 131
+  FriendlyName: V1_Freeze timer +%
+  Option: V1_FREEZE_TIMER_
+  Transferable: true
+  Stackable: true
+  Description: '[Freeze timer +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bStatusTimerRate,SC_FREEZE,getrandomoptinfo(ROA_VALUE);
+- Id: 132
+  FriendlyName: V1_Bleeding Weapon damage & DoT Damage
+  Option: V1_BLEEDING_WEAPON_DAMAGE__DOT_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Bleeding tick damage & Weapon damage vs Bleeding +%d%%
+  Done: true
+  Script: |-
+    bonus2 bDotDmg,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);bonus3 bEffMod,Eff_Bleeding,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+  Labels:
+  - Bleeding
+- Id: 133
+  FriendlyName: V1_Life Leech
+  Option: V1_LIFE_LEECH
+  Transferable: false
+  Stackable: true
+  Description: Life Leech +%d%%
+  Done: true
+  Script: |-
+    bonus bLifeLeech,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - HP
+- Id: 134
+  FriendlyName: V1_Double Attack Rate
+  Option: V1_DOUBLE_ATTACK_RATE
+  Transferable: false
+  Stackable: true
+  Description: Double Attack rate +%d%%
+  Done: true
+  Script: |-
+    bonus bDoubleAddRate,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - T1
+  - Thief
+- Id: 136
+  FriendlyName: V1_Double Attack Crit ATK
+  Option: V1_DOUBLE_ATTACK_CRIT_ATK
+  Transferable: false
+  Stackable: true
+  Description: Double Attack Crit ATK +%d%%
+  Done: true
+  Script: |-
+    bonus bDoubleAttackCritAtk,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - T1
+  - Thief
+- Id: 137
+  FriendlyName: V1_Double Attacks autospell PR_LEXAETERNA
+  Option: V1_DOUBLE_ATTACKS_AUTOSPELL_PR_LEXAETERNA
+  Transferable: false
+  Stackable: true
+  Description: Double Attacks autospell Lex Aeterna +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnDoubleAttack,PR_LEXAETERNA,1,getrandomoptinfo(ROA_VALUE)*10,1;
+  Labels:
+  - T1
+  - Thief
+- Id: 138
+  FriendlyName: V1_Bleeding Life Leech + Extension
+  Option: V1_BLEEDING_LIFE_LEECH__EXTENSION
+  Transferable: false
+  Stackable: true
+  Description: Life Leech vs Bleeding +%d%% / When inflicting Bleeding on a target already afflicted, extend timer by +25 base seconds
+  Done: true
+  Script: |-
+    bonus2 bStatusExtension,Eff_Bleeding,25000;
+    bonus2 bLifeLeechStatus,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+- Id: 139
+  FriendlyName: V1_Power Boom effectiveness
+  Option: V1_POWER_BOOM_EFFECTIVENESS
+  Transferable: false
+  Stackable: true
+  Description: Power Boom base damage +%d%% (additive)
+  Done: true
+  Script: |-
+    bonus bPowerBoomEffectiveness,getrandomoptinfo(ROA_VALUE);
+- Id: 140
+  FriendlyName: V1_Crit Rate + Crit ATK
+  Option: V1_CRIT_RATE__CRIT_ATK
+  Transferable: false
+  Stackable: true
+  Description: Crit ATK & Crit rate +%d%%
+  Done: true
+  Script: |-
+    bonus bCritAtk,getrandomoptinfo(ROA_VALUE);
+    bonus bCriticalRate,getrandomoptinfo(ROA_VALUE);
+- Id: 141
+  FriendlyName: V1_Crit ATK
+  Option: V1_CRIT_ATK
+  Transferable: false
+  Stackable: true
+  Description: Crit ATK +%d%%
+  Done: true
+  Script: |-
+    bonus bCritAtk,getrandomoptinfo(ROA_VALUE);
+- Id: 142
+  FriendlyName: V1_Crit on miss
+  Option: V1_CRIT_ON_MISS
+  Transferable: true
+  Stackable: false
+  Description: '[Crit +%d on miss. Resets on hit.]'
+  Done: true
+  Script: |-
+    bonus bCritMiss,getrandomoptinfo(ROA_VALUE);
+- Id: 143
+  FriendlyName: V1_Crit Bleed -> Critical Wounds
+  Option: V1_CRIT_BLEED__CRITICAL_WOUNDS
+  Transferable: true
+  Stackable: false
+  Description: '[When you Crit a Bleeding target, inflict Critical Wounds.]'
+  Done: true
+  Script: |-
+    bonus bCritConvertBleedCWounds,1;
+  Labels:
+  - Bleeding
+- Id: 144
+  FriendlyName: V1_Crit ATK on miss
+  Option: V1_CRIT_ATK_ON_MISS
+  Transferable: true
+  Stackable: false
+  Description: '[After missing, gain +%d%% Crit ATK. Resets on hit.]'
+  Done: true
+  Script: |-
+    bonus bCritDamageMiss,getrandomoptinfo(ROA_VALUE);
+- Id: 145
+  FriendlyName: V1_Crit rate & Crit ATK on miss
+  Option: V1_CRIT_RATE__CRIT_ATK_ON_MISS
+  Transferable: true
+  Stackable: false
+  Description: '[After missing, gain Crit ATK &  Crit rate +%d%%. Resets on hit.]'
+  Done: true
+  Script: |-
+    bonus bCritDamageMiss,getrandomoptinfo(ROA_VALUE);
+    bonus bCritRateMiss,getrandomoptinfo(ROA_VALUE);
+- Id: 146
+  FriendlyName: V1_Crit rate vs Bleeding & Critical Wounds
+  Option: V1_CRIT_RATE_VS_BLEEDING__CRITICAL_WOUNDS
+  Transferable: false
+  Stackable: true
+  Description: Crit rate +%d%% on Bleeding targets. Double bonus on Critically Wounded targets
+  Done: true
+  Script: |-
+    bonus2 bCritRateStatus,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+    bonus2 bCritRateStatus,Eff_CriticalWounds,getrandomoptinfo(ROA_VALUE)*2;
+  Labels:
+  - Bleeding
+- Id: 147
+  FriendlyName: V1_Crit rate vs Poisoned & DPoison
+  Option: V1_CRIT_RATE_VS_POISONED__DPOISON
+  Transferable: false
+  Stackable: true
+  Description: Crit rate +%d%% on Poisoned targets. Double bonus on Deadly Poisoned targets
+  Done: true
+  Script: |-
+    bonus2 bCritRateStatus,Eff_Poison,getrandomoptinfo(ROA_VALUE);
+    bonus2 bCritRateStatus,Eff_DPoison,getrandomoptinfo(ROA_VALUE)*2;
+- Id: 149
+  FriendlyName: V1_Phys dmg vs Small size
+  Option: V1_PHYS_DMG_VS_SMALL_SIZE
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Small size +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddSize,Size_Small,getrandomoptinfo(ROA_VALUE);
+- Id: 150
+  FriendlyName: V1_Phys dmg vs Medium size
+  Option: V1_PHYS_DMG_VS_MEDIUM_SIZE
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Medium size +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddSize,Size_Medium,getrandomoptinfo(ROA_VALUE);
+- Id: 151
+  FriendlyName: V1_Phys dmg vs Large size
+  Option: V1_PHYS_DMG_VS_LARGE_SIZE
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Large size +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddSize,Size_Large,getrandomoptinfo(ROA_VALUE);
+- Id: 152
+  FriendlyName: V1_Flee ASPD (Evade ASPD)
+  Option: V1_FLEE_ASPD_CELERITY
+  Transferable: true
+  Stackable: false
+  Description: '[+%d%% chance to gain a stack of Evasion ASPD when you flee an attack. Stacks up to 5 times.]'
+  Done: true
+  Script: |-
+    bonus bCelerityOnFlee,getrandomoptinfo(ROA_VALUE);
+  UnEquipScript: |-
+    sc_end(SC_CELERITY1);
+    sc_end(SC_CELERITY2);
+    sc_end(SC_CELERITY3);
+    sc_end(SC_CELERITY4);
+    sc_end(SC_CELERITY5);
+- Id: 153
+  FriendlyName: V1_Double Attacks Life Leech
+  Option: V1_DOUBLE_ATTACKS_LIFE_LEECH
+  Transferable: false
+  Stackable: true
+  Description: Double Attacks give +%d%% Life Leech
+  Done: true
+  Script: |-
+    bonus bLifeLeechDoubleAttack,getrandomoptinfo(ROA_VALUE);
+- Id: 154
+  FriendlyName: V1_Double Attack damage
+  Option: V1_DOUBLE_ATTACK_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Double Attack damage +%d%%
+  Done: true
+  Script: |-
+    bonus bDoubleAttackDamage,getrandomoptinfo(ROA_VALUE);
+- Id: 155
+  FriendlyName: V1_Double Attacks ignore DEF
+  Option: V1_DOUBLE_ATTACKS_IGNORE_DEF
+  Transferable: true
+  Stackable: true
+  Description: '[Double Attacks pierce +%d%% enemy DEF]'
+  Done: true
+  Script: |-
+    bonus bDoubleAttackDefPierce,getrandomoptinfo(ROA_VALUE);
+- Id: 156
+  FriendlyName: V1_Crits autospell PR_LEXAETERNA
+  Option: V1_CRITS_AUTOSPELL_PR_LEXAETERNA
+  Transferable: false
+  Stackable: true
+  Description: Crits autospell Lex Aeterna +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnCrit,PR_LEXAETERNA,1,getrandomoptinfo(ROA_VALUE)*10,1;
+  Labels:
+  - T1
+  - Thief
+- Id: 157
+  FriendlyName: V1_Double Attacks autospell half known MG_LIGHTNINGBOLT
+  Option: V1_DOUBLE_ATTACKS_AUTOSPELL_HALF_KNOWN_MG_LIGHTNINGBOLT
+  Transferable: false
+  Stackable: true
+  Description: Double Attacks autospell Lightning Bolt at half known level (min 1) +%d%%
+  Done: true
+  Script: |-
+    .@lvl = getskilllv(MG_LIGHTNINGBOLT)/2;
+    if (.@lvl < 1) {
+        .@lvl = 1;
+    }
+    bonus4 bAutoSpellOnDoubleAttack,MG_LIGHTNINGBOLT,.@lvl,getrandomoptinfo(ROA_VALUE)*10,1;
+- Id: 158
+  FriendlyName: V1_Bleeding & Critical Wounds Damage +%
+  Option: V1_BLEEDING__CRITICAL_WOUNDS_DAMAGE_
+  Transferable: false
+  Stackable: true
+  Description: Bleeding & Critical Wounds tick damage +%d%%
+  Done: true
+  Script: |-
+    bonus2 bDotDamage,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+    bonus2 bDotDamage,Eff_CriticalWound,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+- Id: 159
+  FriendlyName: V1_Reflect close-range
+  Option: V1_REFLECT_CLOSERANGE
+  Transferable: false
+  Stackable: true
+  Description: Reflect +%d%% damage when close range attacked.
+  Done: true
+  Script: |-
+    bonus bShortWeaponDamageReturn,getrandomoptinfo(ROA_VALUE);
+- Id: 160
+  FriendlyName: V1_Reflect long-range
+  Option: V1_REFLECT_LONGRANGE
+  Transferable: false
+  Stackable: true
+  Description: Reflect +%d%% damage when long range attacked.
+  Done: true
+  Script: |-
+    bonus bLongWeaponDamageReturn,getrandomoptinfo(ROA_VALUE);
+- Id: 161
+  FriendlyName: V1_Reflect close & long-range
+  Option: V1_REFLECT_CLOSE__LONGRANGE
+  Transferable: false
+  Stackable: true
+  Description: Reflect +%d%% damage when physically attacked.
+  Done: true
+  Script: |-
+    bonus bShortWeaponDamageReturn,getrandomoptinfo(ROA_VALUE);
+    bonus bLongWeaponDamageReturn,getrandomoptinfo(ROA_VALUE);
+- Id: 162
+  FriendlyName: V1_Crits inflict Bleeding
+  Option: V1_CRITS_INFLICT_BLEEDING
+  Transferable: false
+  Stackable: true
+  Description: Crits inflict Bleeding +%d%%
+  Done: true
+  Script: |-
+    bonus2 bCritInflictSc,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+- Id: 163
+  FriendlyName: V1_Crit ATK vs Bleeding & Critical Wounds
+  Option: V1_CRIT_ATK_VS_BLEEDING__CRITICAL_WOUNDS
+  Transferable: false
+  Stackable: true
+  Description: Crit ATK +%d%% on Bleeding targets / Double bonus on Critically Wounded targets
+  Done: true
+  Script: |-
+    bonus2 bCritDmgStatus,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+    bonus2 bCritDmgStatus,Eff_CriticalWound,getrandomoptinfo(ROA_VALUE)*2;
+  Labels:
+  - Bleeding
+- Id: 164
+  FriendlyName: V1_Bleeding Extension & Bleeding DoT damage
+  Option: V1_BLEEDING_EXTENSION__BLEEDING_DOT_DAMAGE
+  Transferable: true
+  Stackable: true
+  Description: '[When inflicting Bleeding on a target already afflicted, extend timer by +10 base second(s) / Bleeding ticks deal +%d%% more damage]'
+  Done: true
+  Script: |-
+    bonus2 bStatusExtension,Eff_Bleeding,getrandomoptinfo(ROA_VALUE)*1000;
+    bonus2 bDotDamage,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+- Id: 166
+  FriendlyName: V1_Crits inflict Stun
+  Option: V1_CRITS_INFLICT_STUN
+  Transferable: false
+  Stackable: true
+  Description: Crits inflict Stun +%d%%
+  Done: true
+  Script: |-
+    bonus2 bCritInflictSc,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+- Id: 167
+  FriendlyName: V1_Bleeding on attack & Bleeding tick damage
+  Option: V1_BLEEDING_ON_ATTACK__BLEEDING_TICK_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Weapon attacks inflict Bleeding / Bleeding tick damage +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_Bleeding,getrandomoptinfo(ROA_VALUE)*100;
+    bonus2 bDotDamage,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+- Id: 169
+  FriendlyName: V1_Double Attack Rate + Crit Rate
+  Option: V1_DOUBLE_ATTACK_RATE__CRIT_RATE
+  Transferable: false
+  Stackable: true
+  Description: Double Attack rate & Crit rate +%d%%
+  Done: true
+  Script: |-
+    bonus bDoubleAddRate,getrandomoptinfo(ROA_VALUE);
+    bonus bCriticalRate,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - T1
+  - Thief
+- Id: 170
+  FriendlyName: V1_Double Attacks inflict Bleeding
+  Option: V1_DOUBLE_ATTACKS_INFLICT_BLEEDING
+  Transferable: false
+  Stackable: true
+  Description: Double Attacks inflict Bleeding +%d%%
+  Done: true
+  Script: |-
+    bonus2 bDoubleAtkAddEff,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+- Id: 173
+  FriendlyName: V1_Double Attack Crit ATK + Crit Rate
+  Option: V1_DOUBLE_ATTACK_CRIT_ATK__CRIT_RATE
+  Transferable: true
+  Stackable: true
+  Description: '[Double Attack Crit Rate & Crit ATK +%d%%]'
+  Done: true
+  Script: |-
+    bonus bDoubleAttackCritAtk,getrandomoptinfo(ROA_VALUE);
+    bonus bDoubleAttackCritRate,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - T1
+  - Thief
+- Id: 174
+  FriendlyName: V1_Double Attack Rate + DA Damage
+  Option: V1_DOUBLE_ATTACK_RATE__DA_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Double Attack rate & damage +%d%%
+  Done: true
+  Script: |-
+    bonus bDoubleAddRate,getrandomoptinfo(ROA_VALUE);
+    bonus bDoubleAttackDamage,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - T1
+  - Thief
+- Id: 175
+  FriendlyName: V1_Double Attacks give Power Boom
+  Option: V1_DOUBLE_ATTACKS_GIVE_POWER_BOOM
+  Transferable: true
+  Stackable: true
+  Description: '[Double Attacks give Power Boom +%d%%]'
+  Done: true
+  Script: |-
+    bonus bDoubleAttackPowerBoom,getrandomoptinfo(ROA_VALUE);
+- Id: 176
+  FriendlyName: V1_Double Attack Rate + MATK Rate
+  Option: V1_DOUBLE_ATTACK_RATE__MATK_RATE
+  Transferable: false
+  Stackable: true
+  Description: Double Attack & MATK rate +%d%%
+  Done: true
+  Script: |-
+    bonus bDoubleAddRate,getrandomoptinfo(ROA_VALUE);
+    bonus bMatkRate,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - T1
+  - Thief
+- Id: 177
+  FriendlyName: V1_Crits inflict Bleeding & Crit ATK
+  Option: V1_CRITS_INFLICT_BLEEDING__CRIT_ATK
+  Transferable: false
+  Stackable: true
+  Description: Crits inflict Bleeding +/ Crit ATK +%d%%
+  Done: true
+  Script: |-
+    bonus2 bCritInflictSc,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+    bonus bCritAtk,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+- Id: 179
+  FriendlyName: V1_Life Leech vs Stunned
+  Option: V1_LIFE_LEECH_VS_STUNNED
+  Transferable: false
+  Stackable: true
+  Description: Life Leech +%d%% vs Stunned enemies
+  Done: true
+  Script: |-
+    bonus2 bLifeLeechStatus,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+- Id: 180
+  FriendlyName: V1_Phys dmg vs Medium & Large size
+  Option: V1_PHYS_DMG_VS_MEDIUM__LARGE_SIZE
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Medium & Large size +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddSize,Size_Medium,getrandomoptinfo(ROA_VALUE);
+    bonus2 bAddSize,Size_Large,getrandomoptinfo(ROA_VALUE);
+- Id: 181
+  FriendlyName: V1_Ignore def vs Normal class
+  Option: V1_IGNORE_DEF_VS_NORMAL_CLASS
+  Transferable: false
+  Stackable: true
+  Description: Physical attacks pierce %d%% DEF vs Non-bosses
+  Done: true
+  Script: |
+    bonus2 bIgnoreDefClassRate,Class_Normal,getrandomoptinfo(ROA_VALUE);
+- Id: 182
+  FriendlyName: V1_Ignore def vs Boss class
+  Option: V1_IGNORE_DEF_VS_BOSS_CLASS
+  Transferable: false
+  Stackable: true
+  Description: Physical attacks pierce %d%% DEF vs Bosses
+  Done: true
+  Script: |
+    bonus2 bIgnoreDefClassRate,Class_Boss,getrandomoptinfo(ROA_VALUE);
+- Id: 183
+  FriendlyName: V1_Ignore def vs All class
+  Option: V1_IGNORE_DEF_VS_ALL_CLASS
+  Transferable: false
+  Stackable: true
+  Description: Physical attacks pierce %d%% DEF
+  Done: true
+  Script: |
+    bonus2 bIgnoreDefClassRate,Class_All,getrandomoptinfo(ROA_VALUE);
+- Id: 184
+  FriendlyName: V1_Ignore mdef vs Normal class
+  Option: V1_IGNORE_MDEF_VS_NORMAL_CLASS
+  Transferable: false
+  Stackable: true
+  Description: Magic attacks pierce %d%% MDEF vs Non-bosses
+  Done: true
+  Script: |
+    bonus2 bIgnoreMdefClassRate,Class_Normal,getrandomoptinfo(ROA_VALUE);
+- Id: 185
+  FriendlyName: V1_Ignore mdef vs Boss class
+  Option: V1_IGNORE_MDEF_VS_BOSS_CLASS
+  Transferable: false
+  Stackable: true
+  Description: Magic attacks pierce %d%% MDEF vs Bosses
+  Done: true
+  Script: |
+    bonus2 bIgnoreMdefClassRate,Class_Boss,getrandomoptinfo(ROA_VALUE);
+- Id: 186
+  FriendlyName: V1_Ignore mdef vs All class
+  Option: V1_IGNORE_MDEF_VS_ALL_CLASS
+  Transferable: false
+  Stackable: true
+  Description: Magic attacks pierce %d%% MDEF
+  Done: true
+  Script: |
+    bonus2 bIgnoreMdefClassRate,Class_All,getrandomoptinfo(ROA_VALUE);
+- Id: 187
+  FriendlyName: V1_Spear range damage boost
+  Option: V1_SPEAR_RANGE_DAMAGE_BOOST
+  Transferable: true
+  Stackable: false
+  Description: '[Spear attacks deal +%d%% damage for each cell between you and target.]'
+  Done: true
+  Script: |-
+    bonus bSpearDistanceDmg,getrandomoptinfo(ROA_VALUE);
+- Id: 188
+  FriendlyName: V1_Weapon damage vs Bleeding & Critical Wounds
+  Option: V1_WEAPON_DAMAGE_VS_BLEEDING__CRITICAL_WOUNDS
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Bleeding & Critical Wounds +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffMod,Eff_Bleeding,getrandomoptinfo(ROA_VALUE),BF_WEAPON;bonus3 bEffMod,Eff_CriticalWounds,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+  Labels:
+  - Bleeding
+- Id: 189
+  FriendlyName: V1_Inc. ATK Rate / Decrease HP Rate
+  Option: V1_INC_ATK_RATE__DECREASE_HP_RATE
+  Transferable: false
+  Stackable: true
+  Description: ATK +/HP -%d%%
+  Done: true
+  Script: |-
+    bonus bAtk,getrandomoptinfo(ROA_VALUE);
+    bonus bMaxHPRate,-(getrandomoptinfo(ROA_VALUE));
+- Id: 190
+  FriendlyName: V1_Crit / Attacks Cost HP
+  Option: V1_CRIT__ATTACKS_COST_HP
+  Transferable: true
+  Stackable: false
+  Description: '[Crit +%d, but lose twice that much HP when you Crit. (UNIMPLEMENTED)]'
+  Done: false
+  Script: |-
+    ;
+- Id: 191
+  FriendlyName: V1_Resist vs Neutral ele
+  Option: V1_RESIST_VS_NEUTRAL_ELE
+  Transferable: false
+  Stackable: true
+  Description: Neutral elemental resist +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubEle,Ele_Neutral,getrandomoptinfo(ROA_VALUE);
+- Id: 192
+  FriendlyName: V1_Resist vs Water ele
+  Option: V1_RESIST_VS_WATER_ELE
+  Transferable: false
+  Stackable: true
+  Description: Water elemental resist +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubEle,Ele_Water,getrandomoptinfo(ROA_VALUE);
+- Id: 193
+  FriendlyName: V1_Resist vs Earth ele
+  Option: V1_RESIST_VS_EARTH_ELE
+  Transferable: false
+  Stackable: true
+  Description: Earth elemental resist +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubEle,Ele_Earth,getrandomoptinfo(ROA_VALUE);
+- Id: 194
+  FriendlyName: V1_Resist vs Fire ele
+  Option: V1_RESIST_VS_FIRE_ELE
+  Transferable: false
+  Stackable: true
+  Description: Fire elemental resist +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubEle,Ele_Fire,getrandomoptinfo(ROA_VALUE);
+- Id: 195
+  FriendlyName: V1_Resist vs Wind ele
+  Option: V1_RESIST_VS_WIND_ELE
+  Transferable: false
+  Stackable: true
+  Description: Wind elemental resist +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubEle,Ele_Wind,getrandomoptinfo(ROA_VALUE);
+- Id: 196
+  FriendlyName: V1_Resist vs Poison ele
+  Option: V1_RESIST_VS_POISON_ELE
+  Transferable: false
+  Stackable: true
+  Description: Poison elemental resist +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubEle,Ele_Poison,getrandomoptinfo(ROA_VALUE);
+- Id: 197
+  FriendlyName: V1_Resist vs Holy ele
+  Option: V1_RESIST_VS_HOLY_ELE
+  Transferable: false
+  Stackable: true
+  Description: Holy elemental resist +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubEle,Ele_Holy,getrandomoptinfo(ROA_VALUE);
+- Id: 198
+  FriendlyName: V1_Resist vs Shadow ele
+  Option: V1_RESIST_VS_SHADOW_ELE
+  Transferable: false
+  Stackable: true
+  Description: Shadow elemental resist +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubEle,Ele_Dark,getrandomoptinfo(ROA_VALUE);
+- Id: 199
+  FriendlyName: V1_Resist vs Ghost ele
+  Option: V1_RESIST_VS_GHOST_ELE
+  Transferable: false
+  Stackable: true
+  Description: Ghost elemental resist +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubEle,Ele_Ghost,getrandomoptinfo(ROA_VALUE);
+- Id: 200
+  FriendlyName: V1_Resist vs Necrotic ele
+  Option: V1_RESIST_VS_NECROTIC_ELE
+  Transferable: false
+  Stackable: true
+  Description: Necrotic elemental resist +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubEle,Ele_Decay,getrandomoptinfo(ROA_VALUE);
+- Id: 201
+  FriendlyName: V1_Resist vs All ele (except Neutral)
+  Option: V1_RESIST_VS_ALL_ELE_EXCEPT_NEUTRAL
+  Transferable: false
+  Stackable: true
+  Description: All elemental resist +%d%%
+  Done: true
+  Script: |
+    for(.@i = ele_Water; .@i < Ele_Decay; ++.@i)
+      bonus2 bSubEle,.@i,getrandomoptinfo(ROA_VALUE);
+- Id: 202
+  FriendlyName: V1_Phys resist vs Neutral property
+  Option: V1_PHYS_RESIST_VS_NEUTRAL_PROPERTY
+  Transferable: false
+  Stackable: true
+  Description: Physical resist vs Neutral enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubDefEle,Ele_Neutral,getrandomoptinfo(ROA_VALUE);
+- Id: 203
+  FriendlyName: V1_Phys resist vs Water property
+  Option: V1_PHYS_RESIST_VS_WATER_PROPERTY
+  Transferable: false
+  Stackable: true
+  Description: Physical resist vs Water enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubDefEle,Ele_Water,getrandomoptinfo(ROA_VALUE);
+- Id: 204
+  FriendlyName: V1_Phys resist vs Earth property
+  Option: V1_DAMAGE_PROPERTY_GROUND_USER
+  Transferable: false
+  Stackable: true
+  Description: Physical resist vs Earth enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubDefEle,Ele_Earth,getrandomoptinfo(ROA_VALUE);
+- Id: 205
+  FriendlyName: V1_Phys resist vs Fire property
+  Option: V1_DAMAGE_PROPERTY_FIRE_USER
+  Transferable: false
+  Stackable: true
+  Description: Physical resist vs Fire enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubDefEle,Ele_Fire,getrandomoptinfo(ROA_VALUE);
+- Id: 206
+  FriendlyName: V1_Phys resist vs Wind property
+  Option: V1_DAMAGE_PROPERTY_WIND_USER
+  Transferable: false
+  Stackable: true
+  Description: Physical resist vs Wind enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubDefEle,Ele_Wind,getrandomoptinfo(ROA_VALUE);
+- Id: 207
+  FriendlyName: V1_Phys resist vs Poison property
+  Option: V1_PHYS_RESIST_VS_POISON_PROPERTY
+  Transferable: false
+  Stackable: true
+  Description: Physical resist vs Poison enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubDefEle,Ele_Poison,getrandomoptinfo(ROA_VALUE);
+- Id: 208
+  FriendlyName: V1_Phys resist vs Holy property
+  Option: V1_PHYS_RESIST_VS_HOLY_PROPERTY
+  Transferable: false
+  Stackable: true
+  Description: Physical resist vs Holy enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubDefEle,Ele_Holy,getrandomoptinfo(ROA_VALUE);
+- Id: 209
+  FriendlyName: V1_Phys resist vs Shadow property
+  Option: V1_DAMAGE_PROPERTY_DARKNESS_USER
+  Transferable: false
+  Stackable: true
+  Description: Physical resist vs Shadow enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubDefEle,Ele_Dark,getrandomoptinfo(ROA_VALUE);
+- Id: 210
+  FriendlyName: V1_Phys resist vs Ghost property
+  Option: V1_DAMAGE_PROPERTY_TELEKINESIS_USER
+  Transferable: false
+  Stackable: true
+  Description: Physical resist vs Ghost enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubDefEle,Ele_Ghost,getrandomoptinfo(ROA_VALUE);
+- Id: 211
+  FriendlyName: V1_Phys resist vs Necrotic property
+  Option: V1_DAMAGE_PROPERTY_UNDEAD_USER
+  Transferable: false
+  Stackable: true
+  Description: Physical resist vs Necrotic enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubDefEle,Ele_Decay,getrandomoptinfo(ROA_VALUE);
+- Id: 212
+  FriendlyName: V1_Magic resist vs Neutral property
+  Option: V1_MAGIC_RESIST_VS_NEUTRAL_PROPERTY
+  Transferable: false
+  Stackable: true
+  Description: Magical resist vs Neutral enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicSubDefEle,Ele_Neutral,getrandomoptinfo(ROA_VALUE);
+- Id: 213
+  FriendlyName: V1_Magic resist vs Water property
+  Option: V1_MDAMAGE_PROPERTY_WATER_USER
+  Transferable: false
+  Stackable: true
+  Description: Magical resist vs Water enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicSubDefEle,Ele_Water,getrandomoptinfo(ROA_VALUE);
+- Id: 214
+  FriendlyName: V1_Magic resist vs Earth property
+  Option: V1_MDAMAGE_PROPERTY_GROUND_USER
+  Transferable: false
+  Stackable: true
+  Description: Magical resist vs Earth enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicSubDefEle,Ele_Earth,getrandomoptinfo(ROA_VALUE);
+- Id: 215
+  FriendlyName: V1_Magic resist vs Fire property
+  Option: V1_MDAMAGE_PROPERTY_FIRE_USER
+  Transferable: false
+  Stackable: true
+  Description: Magical resist vs Fire enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicSubDefEle,Ele_Fire,getrandomoptinfo(ROA_VALUE);
+- Id: 216
+  FriendlyName: V1_Magic resist vs Wind property
+  Option: V1_MDAMAGE_PROPERTY_WIND_USER
+  Transferable: false
+  Stackable: true
+  Description: Magical resist vs Wind enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicSubDefEle,Ele_Wind,getrandomoptinfo(ROA_VALUE);
+- Id: 217
+  FriendlyName: V1_Magic resist vs Poison property
+  Option: V1_MAGIC_RESIST_VS_POISON_PROPERTY
+  Transferable: false
+  Stackable: true
+  Description: Magical resist vs Poison enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicSubDefEle,Ele_Poison,getrandomoptinfo(ROA_VALUE);
+- Id: 218
+  FriendlyName: V1_Magic resist vs Holy property
+  Option: V1_MDAMAGE_PROPERTY_SAINT_USER
+  Transferable: false
+  Stackable: true
+  Description: Magical resist vs Holy enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicSubDefEle,Ele_Holy,getrandomoptinfo(ROA_VALUE);
+- Id: 219
+  FriendlyName: V1_Magic resist vs Shadow property
+  Option: V1_MDAMAGE_PROPERTY_DARKNESS_USER
+  Transferable: false
+  Stackable: true
+  Description: Magical resist vs Shadow enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicSubDefEle,Ele_Dark,getrandomoptinfo(ROA_VALUE);
+- Id: 220
+  FriendlyName: V1_Magic resist vs Ghost property
+  Option: V1_MDAMAGE_PROPERTY_TELEKINESIS_USER
+  Transferable: false
+  Stackable: true
+  Description: Magical resist vs Ghost enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicSubDefEle,Ele_Ghost,getrandomoptinfo(ROA_VALUE);
+- Id: 221
+  FriendlyName: V1_Magic resist vs Undead property
+  Option: V1_MDAMAGE_PROPERTY_UNDEAD_USER
+  Transferable: false
+  Stackable: true
+  Description: Magical resist vs Undead enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicSubDefEle,Ele_Decay,getrandomoptinfo(ROA_VALUE);
+- Id: 222
+  FriendlyName: V1_Phys dmg vs Neutral property
+  Option: V1_PHYS_DMG_VS_NEUTRAL_PROPERTY
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Neutral enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddEle,Ele_Neutral,getrandomoptinfo(ROA_VALUE);
+- Id: 223
+  FriendlyName: V1_Phys dmg vs Water property
+  Option: V1_DAMAGE_PROPERTY_WATER_TARGET
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Water enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddEle,Ele_Water,getrandomoptinfo(ROA_VALUE);
+- Id: 224
+  FriendlyName: V1_Phys dmg vs Earth property
+  Option: V1_DAMAGE_PROPERTY_GROUND_TARGET
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Earth enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddEle,Ele_Earth,getrandomoptinfo(ROA_VALUE);
+- Id: 225
+  FriendlyName: V1_Phys dmg vs Fire property
+  Option: V1_DAMAGE_PROPERTY_FIRE_TARGET
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Fire enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddEle,Ele_Fire,getrandomoptinfo(ROA_VALUE);
+- Id: 226
+  FriendlyName: V1_Phys dmg vs Wind property
+  Option: V1_DAMAGE_PROPERTY_WIND_TARGET
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Wind enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddEle,Ele_Wind,getrandomoptinfo(ROA_VALUE);
+- Id: 227
+  FriendlyName: V1_Phys dmg vs Poison property
+  Option: V1_PHYS_DMG_VS_POISON_PROPERTY
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Poison enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddEle,Ele_Poison,getrandomoptinfo(ROA_VALUE);
+- Id: 228
+  FriendlyName: V1_Phys dmg vs Holy property
+  Option: V1_PHYS_DMG_VS_HOLY_PROPERTY
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Holy enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddEle,Ele_Holy,getrandomoptinfo(ROA_VALUE);
+- Id: 229
+  FriendlyName: V1_Phys dmg vs Shadow property
+  Option: V1_DAMAGE_PROPERTY_DARKNESS_TARGET
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Shadow enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddEle,Ele_Dark,getrandomoptinfo(ROA_VALUE);
+- Id: 230
+  FriendlyName: V1_Phys dmg vs Ghost property
+  Option: V1_DAMAGE_PROPERTY_TELEKINESIS_TARGET
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Ghost enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddEle,Ele_Ghost,getrandomoptinfo(ROA_VALUE);
+- Id: 231
+  FriendlyName: V1_Phys dmg vs Necrotic property
+  Option: V1_DAMAGE_PROPERTY_UNDEAD_TARGET
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Necrotic enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddEle,Ele_Decay,getrandomoptinfo(ROA_VALUE);
+- Id: 232
+  FriendlyName: V1_Magic dmg vs Neutral property
+  Option: V1_MAGIC_DMG_VS_NEUTRAL_PROPERTY
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Neutral monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddEle,Ele_Neutral,getrandomoptinfo(ROA_VALUE);
+- Id: 233
+  FriendlyName: V1_Magic dmg vs Water property
+  Option: V1_MDAMAGE_PROPERTY_WATER_TARGET
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Water monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddEle,Ele_Water,getrandomoptinfo(ROA_VALUE);
+- Id: 234
+  FriendlyName: V1_Magic dmg vs Earth property
+  Option: V1_MDAMAGE_PROPERTY_GROUND_TARGET
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against  Earth monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddEle,Ele_Earth,getrandomoptinfo(ROA_VALUE);
+- Id: 235
+  FriendlyName: V1_Magic dmg vs Fire property
+  Option: V1_MDAMAGE_PROPERTY_FIRE_TARGET
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Fire monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddEle,Ele_Fire,getrandomoptinfo(ROA_VALUE);
+- Id: 236
+  FriendlyName: V1_Magic dmg vs Wind property
+  Option: V1_MDAMAGE_PROPERTY_WIND_TARGET
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Wind monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddEle,Ele_Wind,getrandomoptinfo(ROA_VALUE);
+- Id: 237
+  FriendlyName: V1_Magic dmg vs Poison property
+  Option: V1_MAGIC_DMG_VS_POISON_PROPERTY
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Poison monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddEle,Ele_Poison,getrandomoptinfo(ROA_VALUE);
+- Id: 238
+  FriendlyName: V1_Magic dmg vs Holy property
+  Option: V1_MAGIC_DMG_VS_HOLY_PROPERTY
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Holy monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddEle,Ele_Holy,getrandomoptinfo(ROA_VALUE);
+- Id: 239
+  FriendlyName: V1_Magic dmg vs Shadow property
+  Option: V1_MDAMAGE_PROPERTY_DARKNESS_TARGET
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Shadow monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddEle,Ele_Dark,getrandomoptinfo(ROA_VALUE);
+- Id: 240
+  FriendlyName: V1_Magic dmg vs Ghost property
+  Option: V1_MDAMAGE_PROPERTY_TELEKINESIS_TARGET
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Ghost monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddEle,Ele_Ghost,getrandomoptinfo(ROA_VALUE);
+- Id: 241
+  FriendlyName: V1_Magic dmg vs Necrotic property
+  Option: V1_MDAMAGE_PROPERTY_UNDEAD_TARGET
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Necrotic monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddEle,Ele_Decay,getrandomoptinfo(ROA_VALUE);
+- Id: 242
+  FriendlyName: V1_Neutral Armor
+  Option: V1_NEUTRAL_ARMOR
+  Transferable: false
+  Stackable: true
+  Description: 'Armor element: Neutral'
+  Done: true
+  Script: |
+    bonus bDefEle,Ele_Neutral;
+- Id: 243
+  FriendlyName: V1_Water Armor
+  Option: V1_BODY_ATTR_WATER
+  Transferable: false
+  Stackable: true
+  Description: 'Armor element: Water'
+  Done: true
+  Script: |
+    bonus bDefEle,Ele_Water;
+- Id: 244
+  FriendlyName: V1_Earth Armor
+  Option: V1_BODY_ATTR_GROUND
+  Transferable: false
+  Stackable: true
+  Description: 'Armor element: Earth'
+  Done: true
+  Script: |
+    bonus bDefEle,Ele_Earth;
+- Id: 245
+  FriendlyName: V1_Fire Armor
+  Option: V1_BODY_ATTR_FIRE
+  Transferable: false
+  Stackable: true
+  Description: 'Armor element: Fire'
+  Done: true
+  Script: |
+    bonus bDefEle,Ele_Fire;
+- Id: 246
+  FriendlyName: V1_Wind Armor
+  Option: V1_BODY_ATTR_WIND
+  Transferable: false
+  Stackable: true
+  Description: 'Armor element: Wind'
+  Done: true
+  Script: |
+    bonus bDefEle,Ele_Wind;
+- Id: 247
+  FriendlyName: V1_Poison Armor
+  Option: V1_POISON_ARMOR
+  Transferable: false
+  Stackable: true
+  Description: 'Armor element: Poison'
+  Done: true
+  Script: |
+    bonus bDefEle,Ele_Poison;
+- Id: 248
+  FriendlyName: V1_Holy Armor
+  Option: V1_HOLY_ARMOR
+  Transferable: false
+  Stackable: true
+  Description: 'Armor element: Holy'
+  Done: true
+  Script: |
+    bonus bDefEle,Ele_Holy;
+- Id: 249
+  FriendlyName: V1_Shadow Armor
+  Option: V1_BODY_ATTR_DARKNESS
+  Transferable: false
+  Stackable: true
+  Description: 'Armor element: Shadow'
+  Done: true
+  Script: |
+    bonus bDefEle,Ele_Dark;
+- Id: 250
+  FriendlyName: V1_Ghost Armor
+  Option: V1_BODY_ATTR_TELEKINESIS
+  Transferable: false
+  Stackable: true
+  Description: 'Armor element: Ghost'
+  Done: true
+  Script: |
+    bonus bDefEle,Ele_Ghost;
+- Id: 251
+  FriendlyName: V1_Necrotic Armor
+  Option: V1_BODY_ATTR_UNDEAD
+  Transferable: false
+  Stackable: true
+  Description: 'Armor element: Necrotic'
+  Done: true
+  Script: |
+    bonus bDefEle,Ele_Decay;
+- Id: 252
+  FriendlyName: V1_Neutral weapon
+  Option: V1_NEUTRAL_WEAPON
+  Transferable: false
+  Stackable: true
+  Description: 'Weapon element: Neutral'
+  Done: true
+  Script: |
+    bonus bAtkEle,Ele_Neutral;
+- Id: 253
+  FriendlyName: V1_Water weapon
+  Option: V1_WEAPON_ATTR_WATER
+  Transferable: false
+  Stackable: true
+  Description: 'Weapon element: Water'
+  Done: true
+  Script: |
+    bonus bAtkEle,Ele_Water;
+- Id: 254
+  FriendlyName: V1_Earth weapon
+  Option: V1_WEAPON_ATTR_GROUND
+  Transferable: false
+  Stackable: true
+  Description: 'Weapon element: Earth'
+  Done: true
+  Script: |
+    bonus bAtkEle,Ele_Earth;
+- Id: 255
+  FriendlyName: V1_Fire weapon
+  Option: V1_WEAPON_ATTR_FIRE
+  Transferable: false
+  Stackable: true
+  Description: 'Weapon element: Fire'
+  Done: true
+  Script: |
+    bonus bAtkEle,Ele_Fire;
+- Id: 256
+  FriendlyName: V1_Wind weapon
+  Option: V1_WEAPON_ATTR_WIND
+  Transferable: false
+  Stackable: true
+  Description: 'Weapon element: Wind'
+  Done: true
+  Script: |
+    bonus bAtkEle,Ele_Wind;
+- Id: 257
+  FriendlyName: V1_Poison weapon
+  Option: V1_POISON_WEAPON
+  Transferable: false
+  Stackable: true
+  Description: 'Weapon element: Poison'
+  Done: true
+  Script: |
+    bonus bAtkEle,Ele_Poison;
+- Id: 258
+  FriendlyName: V1_Holy weapon
+  Option: V1_HOLY_WEAPON
+  Transferable: false
+  Stackable: true
+  Description: 'Weapon element: Holy'
+  Done: true
+  Script: |
+    bonus bAtkEle,Ele_Holy;
+- Id: 259
+  FriendlyName: V1_Shadow weapon
+  Option: V1_WEAPON_ATTR_DARKNESS
+  Transferable: false
+  Stackable: true
+  Description: 'Weapon element: Shadow'
+  Done: true
+  Script: |
+    bonus bAtkEle,Ele_Dark;
+- Id: 260
+  FriendlyName: V1_Ghost weapon
+  Option: V1_WEAPON_ATTR_TELEKINESIS
+  Transferable: false
+  Stackable: true
+  Description: 'Weapon element: Ghost'
+  Done: true
+  Script: |
+    bonus bAtkEle,Ele_Ghost;
+- Id: 261
+  FriendlyName: V1_Necrotic weapon
+  Option: V1_WEAPON_ATTR_UNDEAD
+  Transferable: false
+  Stackable: true
+  Description: 'Weapon element: Necrotic'
+  Done: true
+  Script: |
+    bonus bAtkEle,Ele_Decay;
+- Id: 262
+  FriendlyName: V1_Resist vs Formless race
+  Option: V1_RACE_TOLERACE_NOTHING
+  Transferable: false
+  Stackable: true
+  Description: Formless monster resistance +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubRace,RC_Formless,getrandomoptinfo(ROA_VALUE);
+- Id: 263
+  FriendlyName: V1_Resist vs Undead race
+  Option: V1_RACE_TOLERACE_UNDEAD
+  Transferable: false
+  Stackable: true
+  Description: Undead monster resistance +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubRace,RC_Undead,getrandomoptinfo(ROA_VALUE);
+- Id: 264
+  FriendlyName: V1_Resist vs Brute race
+  Option: V1_RACE_TOLERACE_ANIMAL
+  Transferable: false
+  Stackable: true
+  Description: Brute monster resistance +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubRace,RC_Brute,getrandomoptinfo(ROA_VALUE);
+- Id: 265
+  FriendlyName: V1_Resist vs Plant race
+  Option: V1_RACE_TOLERACE_PLANT
+  Transferable: false
+  Stackable: true
+  Description: Plant monster resistance +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubRace,RC_Plant,getrandomoptinfo(ROA_VALUE);
+- Id: 266
+  FriendlyName: V1_Resist vs Insect race
+  Option: V1_RACE_TOLERACE_INSECT
+  Transferable: false
+  Stackable: true
+  Description: Insect monster resistance +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubRace,RC_Insect,getrandomoptinfo(ROA_VALUE);
+- Id: 267
+  FriendlyName: V1_Resist vs FISHS race
+  Option: V1_RACE_TOLERACE_FISHS
+  Transferable: false
+  Stackable: true
+  Description: Fish monster resistance +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubRace,RC_Fish,getrandomoptinfo(ROA_VALUE);
+- Id: 268
+  FriendlyName: V1_Resist vs Demon race
+  Option: V1_RACE_TOLERACE_DEVIL
+  Transferable: false
+  Stackable: true
+  Description: Demon monster resistance +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubRace,RC_Demon,getrandomoptinfo(ROA_VALUE);
+- Id: 269
+  FriendlyName: V1_Resist vs DemiHuman race
+  Option: V1_RACE_TOLERACE_HUMAN
+  Transferable: false
+  Stackable: true
+  Description: Demihuman monster resistance +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubRace,RC_DemiHuman,getrandomoptinfo(ROA_VALUE);
+- Id: 270
+  FriendlyName: V1_Resist vs Angel race
+  Option: V1_RACE_TOLERACE_ANGEL
+  Transferable: false
+  Stackable: true
+  Description: Angel monster resistance +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubRace,RC_Angel,getrandomoptinfo(ROA_VALUE);
+- Id: 271
+  FriendlyName: V1_Resist vs Dragon race
+  Option: V1_RACE_TOLERACE_DRAGON
+  Transferable: false
+  Stackable: true
+  Description: Dragon monster resistance +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubRace,RC_Dragon,getrandomoptinfo(ROA_VALUE);
+- Id: 272
+  FriendlyName: V1_Phys dmg vs Formless race
+  Option: V1_RACE_DAMAGE_NOTHING
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Formless race +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddRace,RC_Formless,getrandomoptinfo(ROA_VALUE);
+- Id: 273
+  FriendlyName: V1_Phys dmg vs Undead race
+  Option: V1_RACE_DAMAGE_UNDEAD
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Undead race +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddRace,RC_Undead,getrandomoptinfo(ROA_VALUE);
+- Id: 274
+  FriendlyName: V1_Phys dmg vs Brute race
+  Option: V1_RACE_DAMAGE_ANIMAL
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Brute race +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddRace,RC_Brute,getrandomoptinfo(ROA_VALUE);
+- Id: 275
+  FriendlyName: V1_Phys dmg vs Plant race
+  Option: V1_RACE_DAMAGE_PLANT
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Plant race +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddRace,RC_Plant,getrandomoptinfo(ROA_VALUE);
+- Id: 276
+  FriendlyName: V1_Phys dmg vs Insect race
+  Option: V1_RACE_DAMAGE_INSECT
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Insect race +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddRace,RC_Insect,getrandomoptinfo(ROA_VALUE);
+- Id: 277
+  FriendlyName: V1_Phys dmg vs FISHS race
+  Option: V1_RACE_DAMAGE_FISHS
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Fish race +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddRace,RC_Fish,getrandomoptinfo(ROA_VALUE);
+- Id: 278
+  FriendlyName: V1_Phys dmg vs Demon race
+  Option: V1_RACE_DAMAGE_DEVIL
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Demon race +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddRace,RC_Demon,getrandomoptinfo(ROA_VALUE);
+- Id: 279
+  FriendlyName: V1_Phys dmg vs DemiHuman race
+  Option: V1_RACE_DAMAGE_HUMAN
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Demihuman race +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddRace,RC_DemiHuman,getrandomoptinfo(ROA_VALUE);
+- Id: 280
+  FriendlyName: V1_Phys dmg vs Angel race
+  Option: V1_RACE_DAMAGE_ANGEL
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Angel race +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddRace,RC_Angel,getrandomoptinfo(ROA_VALUE);
+- Id: 281
+  FriendlyName: V1_Phys dmg vs Dragon race
+  Option: V1_RACE_DAMAGE_DRAGON
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Dragon race +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddRace,RC_Dragon,getrandomoptinfo(ROA_VALUE);
+- Id: 282
+  FriendlyName: V1_Magic dmg vs Formless race
+  Option: V1_RACE_MDAMAGE_NOTHING
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Formless monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddRace,RC_Formless,getrandomoptinfo(ROA_VALUE);
+- Id: 283
+  FriendlyName: V1_Magic dmg vs Undead race
+  Option: V1_RACE_MDAMAGE_UNDEAD
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Undead monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddRace,RC_Undead,getrandomoptinfo(ROA_VALUE);
+- Id: 284
+  FriendlyName: V1_Magic dmg vs Brute race
+  Option: V1_RACE_MDAMAGE_ANIMAL
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Brute monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddRace,RC_Brute,getrandomoptinfo(ROA_VALUE);
+- Id: 285
+  FriendlyName: V1_Magic dmg vs Plant race
+  Option: V1_RACE_MDAMAGE_PLANT
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Plant monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddRace,RC_Plant,getrandomoptinfo(ROA_VALUE);
+- Id: 286
+  FriendlyName: V1_Magic dmg vs Insect race
+  Option: V1_RACE_MDAMAGE_INSECT
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Insect monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddRace,RC_Insect,getrandomoptinfo(ROA_VALUE);
+- Id: 287
+  FriendlyName: V1_Magic dmg vs FISHS race
+  Option: V1_RACE_MDAMAGE_FISHS
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Fish monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddRace,RC_Fish,getrandomoptinfo(ROA_VALUE);
+- Id: 288
+  FriendlyName: V1_Magic dmg vs Demon race
+  Option: V1_RACE_MDAMAGE_DEVIL
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Devil monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddRace,RC_Demon,getrandomoptinfo(ROA_VALUE);
+- Id: 289
+  FriendlyName: V1_Magic dmg vs DemiHuman race
+  Option: V1_RACE_MDAMAGE_HUMAN
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Demihuman monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddRace,RC_DemiHuman,getrandomoptinfo(ROA_VALUE);
+- Id: 290
+  FriendlyName: V1_Magic dmg vs Angel race
+  Option: V1_RACE_MDAMAGE_ANGEL
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Angel monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddRace,RC_Angel,getrandomoptinfo(ROA_VALUE);
+- Id: 291
+  FriendlyName: V1_Magic dmg vs Dragon race
+  Option: V1_RACE_MDAMAGE_DRAGON
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Dragon monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddRace,RC_Dragon,getrandomoptinfo(ROA_VALUE);
+- Id: 292
+  FriendlyName: V1_Critical vs Formless race
+  Option: V1_RACE_CRI_PERCENT_NOTHING
+  Transferable: false
+  Stackable: true
+  Description: CRIT +%d against Formless monster
+  Done: true
+  Script: |
+    bonus2 bCriticalAddRace,RC_Formless,getrandomoptinfo(ROA_VALUE)/10;
+- Id: 293
+  FriendlyName: V1_Critical vs Undead race
+  Option: V1_RACE_CRI_PERCENT_UNDEAD
+  Transferable: false
+  Stackable: true
+  Description: CRIT +%d against Undead monster
+  Done: true
+  Script: |
+    bonus2 bCriticalAddRace,RC_Undead,getrandomoptinfo(ROA_VALUE)/10;
+- Id: 294
+  FriendlyName: V1_Critical vs Brute race
+  Option: V1_RACE_CRI_PERCENT_ANIMAL
+  Transferable: false
+  Stackable: true
+  Description: Crit +%d against Brute targets
+  Done: true
+  Script: |
+    bonus2 bCriticalAddRace,RC_Brute,getrandomoptinfo(ROA_VALUE)/10;
+- Id: 295
+  FriendlyName: V1_Critical vs Plant race
+  Option: V1_RACE_CRI_PERCENT_PLANT
+  Transferable: false
+  Stackable: true
+  Description: CRIT +%d against Plant monster
+  Done: true
+  Script: |
+    bonus2 bCriticalAddRace,RC_Plant,getrandomoptinfo(ROA_VALUE)/10;
+- Id: 296
+  FriendlyName: V1_Critical vs Insect race
+  Option: V1_RACE_CRI_PERCENT_INSECT
+  Transferable: false
+  Stackable: true
+  Description: CRIT +%d against Insect monster
+  Done: true
+  Script: |
+    bonus2 bCriticalAddRace,RC_Insect,getrandomoptinfo(ROA_VALUE)/10;
+- Id: 297
+  FriendlyName: V1_Critical vs FISHS race
+  Option: V1_RACE_CRI_PERCENT_FISHS
+  Transferable: false
+  Stackable: true
+  Description: CRIT +%d against Fish monster
+  Done: true
+  Script: |
+    bonus2 bCriticalAddRace,RC_Fish,getrandomoptinfo(ROA_VALUE)/10;
+- Id: 298
+  FriendlyName: V1_Critical vs Demon race
+  Option: V1_RACE_CRI_PERCENT_DEVIL
+  Transferable: false
+  Stackable: true
+  Description: CRIT +%d against Demon monster
+  Done: true
+  Script: |
+    bonus2 bCriticalAddRace,RC_Demon,getrandomoptinfo(ROA_VALUE)/10;
+- Id: 299
+  FriendlyName: V1_Critical vs Demihuman races
+  Option: V1_RACE_CRI_PERCENT_HUMAN
+  Transferable: false
+  Stackable: true
+  Description: CRIT +%d against Demihuman monster
+  Done: true
+  Script: |
+    bonus2 bCriticalAddRace,RC_DemiHuman,getrandomoptinfo(ROA_VALUE)/10;
+- Id: 300
+  FriendlyName: V1_Critical vs Angel races
+  Option: V1_RACE_CRI_PERCENT_ANGEL
+  Transferable: false
+  Stackable: true
+  Description: CRIT +%d against Angel monster
+  Done: true
+  Script: |
+    bonus2 bCriticalAddRace,RC_Angel,getrandomoptinfo(ROA_VALUE)/10;
+- Id: 301
+  FriendlyName: V1_Critical vs Dragon races
+  Option: V1_RACE_CRI_PERCENT_DRAGON
+  Transferable: false
+  Stackable: true
+  Description: CRIT +%d against Dragon monster
+  Done: true
+  Script: |
+    bonus2 bCriticalAddRace,RC_Dragon,getrandomoptinfo(ROA_VALUE)/10;
+- Id: 302
+  FriendlyName: V1_Ignore def vs Formless race
+  Option: V1_RACE_IGNORE_DEF_PERCENT_NOTHING
+  Transferable: false
+  Stackable: true
+  Description: Pierces %d%% DEF of Formless monster
+  Done: true
+  Script: |
+    bonus2 bIgnoreDefRaceRate,RC_Formless,getrandomoptinfo(ROA_VALUE);
+- Id: 303
+  FriendlyName: V1_Ignore def vs Undead race
+  Option: V1_RACE_IGNORE_DEF_PERCENT_UNDEAD
+  Transferable: false
+  Stackable: true
+  Description: Pierces %d%% DEF of Undead monster
+  Done: true
+  Script: |
+    bonus2 bIgnoreDefRaceRate,RC_Undead,getrandomoptinfo(ROA_VALUE);
+- Id: 304
+  FriendlyName: V1_Ignore def vs Brute race
+  Option: V1_RACE_IGNORE_DEF_PERCENT_ANIMAL
+  Transferable: false
+  Stackable: true
+  Description: Pierces %d%% DEF of Brute monster
+  Done: true
+  Script: |
+    bonus2 bIgnoreDefRaceRate,RC_Brute,getrandomoptinfo(ROA_VALUE);
+- Id: 305
+  FriendlyName: V1_Ignore def vs Plant race
+  Option: V1_RACE_IGNORE_DEF_PERCENT_PLANT
+  Transferable: false
+  Stackable: true
+  Description: Pierces %d%% DEF of Plant monster
+  Done: true
+  Script: |
+    bonus2 bIgnoreDefRaceRate,RC_Plant,getrandomoptinfo(ROA_VALUE);
+- Id: 306
+  FriendlyName: V1_Ignore def vs Insect race
+  Option: V1_RACE_IGNORE_DEF_PERCENT_INSECT
+  Transferable: false
+  Stackable: true
+  Description: Pierces %d%% DEF of Insect monster
+  Done: true
+  Script: |
+    bonus2 bIgnoreDefRaceRate,RC_Insect,getrandomoptinfo(ROA_VALUE);
+- Id: 307
+  FriendlyName: V1_Ignore def vs FISHS race
+  Option: V1_RACE_IGNORE_DEF_PERCENT_FISHS
+  Transferable: false
+  Stackable: true
+  Description: Pierces %d%% DEF of Fish monster
+  Done: true
+  Script: |
+    bonus2 bIgnoreDefRaceRate,RC_Fish,getrandomoptinfo(ROA_VALUE);
+- Id: 308
+  FriendlyName: V1_Ignore def vs Demon race
+  Option: V1_RACE_IGNORE_DEF_PERCENT_DEVIL
+  Transferable: false
+  Stackable: true
+  Description: Pierces %d%% DEF of Demon monster
+  Done: true
+  Script: |
+    bonus2 bIgnoreDefRaceRate,RC_Demon,getrandomoptinfo(ROA_VALUE);
+- Id: 309
+  FriendlyName: V1_Ignore def vs DemiHuman race
+  Option: V1_RACE_IGNORE_DEF_PERCENT_HUMAN
+  Transferable: false
+  Stackable: true
+  Description: Pierces %d%% DEF of Demihuman monster
+  Done: true
+  Script: |
+    bonus2 bIgnoreDefRaceRate,RC_DemiHuman,getrandomoptinfo(ROA_VALUE);
+- Id: 310
+  FriendlyName: V1_Ignore def vs Angel race
+  Option: V1_RACE_IGNORE_DEF_PERCENT_ANGEL
+  Transferable: false
+  Stackable: true
+  Description: Pierces %d%% DEF of Angel monster
+  Done: true
+  Script: |
+    bonus2 bIgnoreDefRaceRate,RC_Angel,getrandomoptinfo(ROA_VALUE);
+- Id: 311
+  FriendlyName: V1_Ignore def vs Dragon race
+  Option: V1_RACE_IGNORE_DEF_PERCENT_DRAGON
+  Transferable: false
+  Stackable: true
+  Description: Pierces %d%% DEF of Dragon monster
+  Done: true
+  Script: |
+    bonus2 bIgnoreDefRaceRate,RC_Dragon,getrandomoptinfo(ROA_VALUE);
+- Id: 312
+  FriendlyName: V1_Ignore mdef vs Formless race
+  Option: V1_RACE_IGNORE_MDEF_PERCENT_NOTHING
+  Transferable: false
+  Stackable: true
+  Description: Pierces %d%% MDEF of Formless monster
+  Done: true
+  Script: |
+    bonus2 bIgnoreMdefRaceRate,RC_Formless,getrandomoptinfo(ROA_VALUE);
+- Id: 313
+  FriendlyName: V1_Ignore mdef vs Undead race
+  Option: V1_RACE_IGNORE_MDEF_PERCENT_UNDEAD
+  Transferable: false
+  Stackable: true
+  Description: Pierces %d%% MDEF of Undead monster
+  Done: true
+  Script: |
+    bonus2 bIgnoreMdefRaceRate,RC_Undead,getrandomoptinfo(ROA_VALUE);
+- Id: 314
+  FriendlyName: V1_Ignore mdef vs Brute race
+  Option: V1_RACE_IGNORE_MDEF_PERCENT_ANIMAL
+  Transferable: false
+  Stackable: true
+  Description: Pierces %d%% MDEF of Brute monster
+  Done: true
+  Script: |
+    bonus2 bIgnoreMdefRaceRate,RC_Brute,getrandomoptinfo(ROA_VALUE);
+- Id: 315
+  FriendlyName: V1_Ignore mdef vs Plant race
+  Option: V1_RACE_IGNORE_MDEF_PERCENT_PLANT
+  Transferable: false
+  Stackable: true
+  Description: Pierces %d%% MDEF of Plant monster
+  Done: true
+  Script: |
+    bonus2 bIgnoreMdefRaceRate,RC_Plant,getrandomoptinfo(ROA_VALUE);
+- Id: 316
+  FriendlyName: V1_Ignore mdef vs Insect race
+  Option: V1_RACE_IGNORE_MDEF_PERCENT_INSECT
+  Transferable: false
+  Stackable: true
+  Description: Pierces %d%% MDEF of Insect monster
+  Done: true
+  Script: |
+    bonus2 bIgnoreMdefRaceRate,RC_Insect,getrandomoptinfo(ROA_VALUE);
+- Id: 317
+  FriendlyName: V1_Ignore mdef vs FISHS race
+  Option: V1_RACE_IGNORE_MDEF_PERCENT_FISHS
+  Transferable: false
+  Stackable: true
+  Description: Pierces %d%% MDEF of Fish monster
+  Done: true
+  Script: |
+    bonus2 bIgnoreMdefRaceRate,RC_Fish,getrandomoptinfo(ROA_VALUE);
+- Id: 318
+  FriendlyName: V1_Ignore mdef vs Demon race
+  Option: V1_RACE_IGNORE_MDEF_PERCENT_DEVIL
+  Transferable: false
+  Stackable: true
+  Description: Pierces %d%% MDEF of Demon monster
+  Done: true
+  Script: |
+    bonus2 bIgnoreMdefRaceRate,RC_Demon,getrandomoptinfo(ROA_VALUE);
+- Id: 319
+  FriendlyName: V1_Ignore mdef vs DemiHuman race
+  Option: V1_RACE_IGNORE_MDEF_PERCENT_HUMAN
+  Transferable: false
+  Stackable: true
+  Description: Pierces %d%% MDEF of Demihuman monster
+  Done: true
+  Script: |
+    bonus2 bIgnoreMdefRaceRate,RC_DemiHuman,getrandomoptinfo(ROA_VALUE);
+- Id: 320
+  FriendlyName: V1_Ignore mdef vs Angel race
+  Option: V1_RACE_IGNORE_MDEF_PERCENT_ANGEL
+  Transferable: false
+  Stackable: true
+  Description: Pierces %d%% MDEF of Angel monster
+  Done: true
+  Script: |
+    bonus2 bIgnoreMdefRaceRate,RC_Angel,getrandomoptinfo(ROA_VALUE);
+- Id: 321
+  FriendlyName: V1_Ignore mdef vs Dragon race
+  Option: V1_RACE_IGNORE_MDEF_PERCENT_DRAGON
+  Transferable: false
+  Stackable: true
+  Description: Pierces %d%% MDEF of Dragon monster
+  Done: true
+  Script: |
+    bonus2 bIgnoreMdefRaceRate,RC_Dragon,getrandomoptinfo(ROA_VALUE);
+- Id: 322
+  FriendlyName: V1_Resist vs Small & Medium size
+  Option: V1_RESIST_VS_SMALL__MEDIUM_SIZE
+  Transferable: false
+  Stackable: true
+  Description: Resist vs Small & Medium sizes +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubSize,Size_Small,getrandomoptinfo(ROA_VALUE);
+- Id: 323
+  FriendlyName: V1_Resist vs Medium size
+  Option: V1_DAMAGE_SIZE_MIDIUM_USER
+  Transferable: false
+  Stackable: true
+  Description: Resist vs Medium size +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubSize,Size_Medium,getrandomoptinfo(ROA_VALUE);
+- Id: 324
+  FriendlyName: V1_Resist vs Large size
+  Option: V1_DAMAGE_SIZE_LARGE_USER
+  Transferable: false
+  Stackable: true
+  Description: Resist vs Large size +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSubSize,Size_Large,getrandomoptinfo(ROA_VALUE);
+- Id: 325
+  FriendlyName: V1_Resist vs Normal class
+  Option: V1_CLASS_DAMAGE_NORMAL_USER
+  Transferable: false
+  Stackable: true
+  Description: Normal monster resistance +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubClass,Class_Normal,getrandomoptinfo(ROA_VALUE);
+- Id: 326
+  FriendlyName: V1_Resist vs Boss class
+  Option: V1_CLASS_DAMAGE_BOSS_USER
+  Transferable: false
+  Stackable: true
+  Description: Boss monster resistance +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubClass,Class_Boss,getrandomoptinfo(ROA_VALUE);
+- Id: 327
+  FriendlyName: V1_Resist vs All Elements
+  Option: V1_ATTR_TOLERACE_ALL
+  Transferable: false
+  Stackable: true
+  Description: Resist vs Elemental attacks +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubEle,Ele_All,getrandomoptinfo(ROA_VALUE);
+- Id: 328
+  FriendlyName: V1_Phys resist vs Formless race
+  Option: V1_RACE_WEAPON_TOLERACE_NOTHING
+  Transferable: false
+  Stackable: true
+  Description: Physical resist vs Formless race +%d%%
+  Done: true
+  Script: |
+    bonus3 bSubRace,RC_Formless,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 329
+  FriendlyName: V1_Phys resist vs Undead
+  Option: V1_RACE_WEAPON_TOLERACE_UNDEAD
+  Transferable: false
+  Stackable: true
+  Description: Physical resist vs Undead race +%d%%
+  Done: true
+  Script: |
+    bonus3 bSubRace,RC_Undead,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 330
+  FriendlyName: V1_Phys resist vs Brute race
+  Option: V1_RACE_WEAPON_TOLERACE_ANIMAL
+  Transferable: false
+  Stackable: true
+  Description: Physical resist vs Brute race +%d%%
+  Done: true
+  Script: |
+    bonus3 bSubRace,RC_Brute,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 331
+  FriendlyName: V1_Phys resist vs Plant race
+  Option: V1_PHYS_RESIST_VS_PLANT_RACE
+  Transferable: false
+  Stackable: true
+  Description: Physical resist vs Plant race +%d%%
+  Done: true
+  Script: |
+    bonus3 bSubRace,RC_Plant,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 332
+  FriendlyName: V1_Phys resist vs Insect race
+  Option: V1_RACE_WEAPON_TOLERACE_INSECT
+  Transferable: false
+  Stackable: true
+  Description: Physical resist vs Insect race +%d%%
+  Done: true
+  Script: |
+    bonus3 bSubRace,RC_Insect,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 333
+  FriendlyName: V1_Phys resist vs FISHS race
+  Option: V1_RACE_WEAPON_TOLERACE_FISHS
+  Transferable: false
+  Stackable: true
+  Description: Physical resist vs Fish race +%d%%
+  Done: true
+  Script: |
+    bonus3 bSubRace,RC_Fish,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 334
+  FriendlyName: V1_Phys resist vs Demon race
+  Option: V1_RACE_WEAPON_TOLERACE_DEVIL
+  Transferable: false
+  Stackable: true
+  Description: Physical resist vs Demon race +%d%%
+  Done: true
+  Script: |
+    bonus3 bSubRace,RC_Demon,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 335
+  FriendlyName: V1_Phys resist vs DemiHuman race
+  Option: V1_RACE_WEAPON_TOLERACE_HUMAN
+  Transferable: false
+  Stackable: true
+  Description: Physical resist vs Demihuman race +%d%%
+  Done: true
+  Script: |
+    bonus3 bSubRace,RC_DemiHuman,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 336
+  FriendlyName: V1_Phys resist vs Angel race
+  Option: V1_RACE_WEAPON_TOLERACE_ANGEL
+  Transferable: false
+  Stackable: true
+  Description: Physical resist vs Angel race +%d%%
+  Done: true
+  Script: |
+    bonus3 bSubRace,RC_Angel,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 337
+  FriendlyName: V1_Phys resist vs Dragon race
+  Option: V1_RACE_WEAPON_TOLERACE_DRAGON
+  Transferable: false
+  Stackable: true
+  Description: Physical resist vs Dragon race +%d%%
+  Done: true
+  Script: |
+    bonus3 bSubRace,RC_Dragon,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 338
+  FriendlyName: V1_Magic resist vs Small size
+  Option: V1_MDAMAGE_SIZE_SMALL_USER
+  Transferable: false
+  Stackable: true
+  Description: Magical resist vs Small size +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicSubSize,Size_Small,getrandomoptinfo(ROA_VALUE);
+- Id: 339
+  FriendlyName: V1_Magic resist vs Medium size
+  Option: V1_MDAMAGE_SIZE_MIDIUM_USER
+  Transferable: false
+  Stackable: true
+  Description: Magical resist vs Medium size +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicSubSize,Size_Medium,getrandomoptinfo(ROA_VALUE);
+- Id: 340
+  FriendlyName: V1_Magic resist vs Large size
+  Option: V1_MDAMAGE_SIZE_LARGE_USER
+  Transferable: false
+  Stackable: true
+  Description: Magical resist vs Large size +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicSubSize,Size_Large,getrandomoptinfo(ROA_VALUE);
+- Id: 341
+  FriendlyName: V1_Phys dmg vs Normal class
+  Option: V1_CLASS_DAMAGE_NORMAL_TARGET
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Non-boss enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddClass,Class_Normal,getrandomoptinfo(ROA_VALUE);
+- Id: 342
+  FriendlyName: V1_Phys dmg vs Boss class
+  Option: V1_CLASS_DAMAGE_BOSS_TARGET
+  Transferable: false
+  Stackable: true
+  Description: Physical damage vs Bosses +%d%%
+  Done: true
+  Script: |
+    bonus2 bAddClass,Class_Boss,getrandomoptinfo(ROA_VALUE);
+- Id: 343
+  FriendlyName: V1_Magic dmg vs Normal class
+  Option: V1_CLASS_MDAMAGE_NORMAL
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Normal monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddClass,Class_Normal,getrandomoptinfo(ROA_VALUE);
+- Id: 344
+  FriendlyName: V1_Magic dmg vs Boss class
+  Option: V1_CLASS_MDAMAGE_BOSS
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% against Boss monster
+  Done: true
+  Script: |
+    bonus2 bMagicAddClass,Class_Boss,getrandomoptinfo(ROA_VALUE);
+- Id: 345
+  FriendlyName: V1_Magic dmg w/ Neutral spells
+  Option: V1_MAGIC_DMG_W_NEUTRAL_SPELLS
+  Transferable: false
+  Stackable: true
+  Description: Magical Neutral damage +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicAtkEle,Ele_Neutral,getrandomoptinfo(ROA_VALUE);
+- Id: 346
+  FriendlyName: V1_Magic dmg w/ Water spells
+  Option: V1_ADDSKILLMDAMAGE_WATER
+  Transferable: false
+  Stackable: true
+  Description: Magical Water damage +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicAtkEle,Ele_Water,getrandomoptinfo(ROA_VALUE);
+- Id: 347
+  FriendlyName: V1_Magic dmg w/ Earth spells
+  Option: V1_ADDSKILLMDAMAGE_GROUND
+  Transferable: false
+  Stackable: true
+  Description: Magical Earth damage +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicAtkEle,Ele_Earth,getrandomoptinfo(ROA_VALUE);
+- Id: 348
+  FriendlyName: V1_Magic dmg w/ Fire spells
+  Option: V1_ADDSKILLMDAMAGE_FIRE
+  Transferable: false
+  Stackable: true
+  Description: Magical Fire damage +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicAtkEle,Ele_Fire,getrandomoptinfo(ROA_VALUE);
+- Id: 349
+  FriendlyName: V1_Magic dmg w/ Wind spells
+  Option: V1_MAGIC_DMG_W_WIND_SPELLS
+  Transferable: false
+  Stackable: true
+  Description: Magical Wind damage +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicAtkEle,Ele_Wind,getrandomoptinfo(ROA_VALUE);
+- Id: 350
+  FriendlyName: V1_Magic dmg w/ Poison spells
+  Option: V1_MAGIC_DMG_W_POISON_SPELLS
+  Transferable: false
+  Stackable: true
+  Description: Magical Poison damage +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicAtkEle,Ele_Poison,getrandomoptinfo(ROA_VALUE);
+- Id: 351
+  FriendlyName: V1_Magic dmg w/ Holy spells
+  Option: V1_MAGIC_DMG_W_HOLY_SPELLS
+  Transferable: false
+  Stackable: true
+  Description: Magical Holy damage +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicAtkEle,Ele_Holy,getrandomoptinfo(ROA_VALUE);
+- Id: 352
+  FriendlyName: V1_Magic dmg w/ Shadow spells
+  Option: V1_ADDSKILLMDAMAGE_DARKNESS
+  Transferable: false
+  Stackable: true
+  Description: Magical Shadow damage +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicAtkEle,Ele_Dark,getrandomoptinfo(ROA_VALUE);
+- Id: 353
+  FriendlyName: V1_Magic dmg w/ Ghost spells
+  Option: V1_ADDSKILLMDAMAGE_TELEKINESIS
+  Transferable: false
+  Stackable: true
+  Description: Magical Ghost damage +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicAtkEle,Ele_Ghost,getrandomoptinfo(ROA_VALUE);
+- Id: 354
+  FriendlyName: V1_Magic dmg w/ Necrotic spells
+  Option: V1_ADDSKILLMDAMAGE_UNDEAD
+  Transferable: false
+  Stackable: true
+  Description: Magical Necrotic damage +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicAtkEle,Ele_Decay,getrandomoptinfo(ROA_VALUE);
+- Id: 355
+  FriendlyName: V1_Magic dmg w/ All ele spells
+  Option: V1_ADDSKILLMDAMAGE_ALL
+  Transferable: false
+  Stackable: true
+  Description: Magical elemental damage +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicAtkEle,Ele_All,getrandomoptinfo(ROA_VALUE);
+- Id: 356
+  FriendlyName: V1_Magic dmg vs Small size
+  Option: V1_MDAMAGE_SIZE_SMALL_TARGET
+  Transferable: false
+  Stackable: true
+  Description: Magical damage vs Small size +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicAddSize,Size_Small,getrandomoptinfo(ROA_VALUE);
+- Id: 357
+  FriendlyName: V1_Magic dmg vs Medium size
+  Option: V1_MDAMAGE_SIZE_MIDIUM_TARGET
+  Transferable: false
+  Stackable: true
+  Description: Magical damage vs Medium size +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicAddSize,Size_Medium,getrandomoptinfo(ROA_VALUE);
+- Id: 358
+  FriendlyName: V1_Magic dmg vs Large size
+  Option: V1_MDAMAGE_SIZE_LARGE_TARGET
+  Transferable: false
+  Stackable: true
+  Description: Magical damage vs Large size +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicAddSize,Size_Large,getrandomoptinfo(ROA_VALUE);
+- Id: 359
+  FriendlyName: V1_All dmg vs All class
+  Option: V1_RGX_ALLDMG
+  Transferable: false
+  Stackable: true
+  Description: +%d%% Physical damage, %d%% / 2 Magical damage.
+  Done: true
+  Script: |-
+    bonus2 bAddClass,Class_All,getrandomoptinfo(ROA_VALUE);
+    bonus2 bMagicAddClass,Class_All,getrandomoptinfo(ROA_VALUE) / 2;
+- Id: 360
+  FriendlyName: V1_Physical dmg vs All class
+  Option: V1_VAR_PHYSDMG
+  Transferable: false
+  Stackable: true
+  Description: +%d%% Physical damage.
+  Done: true
+  Script: |-
+    bonus2 bAddClass,Class_All,getrandomoptinfo(ROA_VALUE);
+- Id: 361
+  FriendlyName: V1_Magic dmg vs All class
+  Option: V1_VAR_MAGICDMG
+  Transferable: false
+  Stackable: true
+  Description: +%d%% Magic damage
+  Done: true
+  Script: |-
+    bonus2 bAddMagicClass,Class_All,getrandomoptinfo(ROA_VALUE);
+- Id: 362
+  FriendlyName: V1_Resist vs Creature
+  Option: V1_VAR_CREATURE_REDUX
+  Transferable: false
+  Stackable: true
+  Description: Resist vs Creatures +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSubRace,RC_BRUTE,getrandomoptinfo(ROA_VALUE);bonus2 bSubRace,RC_PLANT,getrandomoptinfo(ROA_VALUE);bonus2 bSubRace,RC_INSECT,getrandomoptinfo(ROA_VALUE);bonus2 bSubRace,RC_FISH,getrandomoptinfo(ROA_VALUE);
+- Id: 363
+  FriendlyName: V1_Resist vs Fiend
+  Option: V1_VAR_FIEND_REDUX
+  Transferable: false
+  Stackable: true
+  Description: Resist vs Fiends +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSubRace,RC_UNDEAD,getrandomoptinfo(ROA_VALUE);bonus2 bSubRace,RC_ANGEL,getrandomoptinfo(ROA_VALUE);bonus2 bSubRace,RC_DEMON,getrandomoptinfo(ROA_VALUE);
+- Id: 364
+  FriendlyName: V1_Resist vs Midgardian
+  Option: V1_VAR_MIDGARDIAN_REDUX
+  Transferable: false
+  Stackable: true
+  Description: Resist vs Midgardians +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSubRace,RC_FORMLESS,getrandomoptinfo(ROA_VALUE);bonus2 bSubRace,RC_DEMIHUMAN,getrandomoptinfo(ROA_VALUE);bonus2 bSubRace,RC_DRAGON,getrandomoptinfo(ROA_VALUE);
+- Id: 368
+  FriendlyName: V1_Resist vs Core Elements
+  Option: V1_VAR_CORE_REDUX
+  Transferable: false
+  Stackable: true
+  Description: Resist vs Core elements +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubEle,Ele_Water,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSubEle,Ele_Wind,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSubEle,Ele_Earth,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSubEle,Ele_Fire,getrandomoptinfo(ROA_VALUE);
+- Id: 369
+  FriendlyName: V1_Resist vs Divine Elements
+  Option: V1_VAR_DIVINE_REDUX
+  Transferable: false
+  Stackable: true
+  Description: Resist vs Divine elements +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubEle,Ele_Holy,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSubEle,Ele_Dark,getrandomoptinfo(ROA_VALUE);
+- Id: 370
+  FriendlyName: V1_Resist vs Corrupted Elements
+  Option: V1_VAR_CORRUPTED_REDUX
+  Transferable: false
+  Stackable: true
+  Description: Resist vs Corrupted elements +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubEle,Ele_Poison,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSubEle,Ele_Decay,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSubEle,Ele_Ghost,getrandomoptinfo(ROA_VALUE);
+- Id: 371
+  FriendlyName: V1_Protection against Good & Evil
+  Option: V1_VAR_PROTECT_GOOD_EVIL
+  Transferable: false
+  Stackable: true
+  Description: Protection against Good & Evil +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSubEle,Ele_Holy,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSubEle,Ele_Dark,getrandomoptinfo(ROA_VALUE);bonus2 bSubEle,Ele_Poison,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSubEle,Ele_Decay,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSubEle,Ele_Ghost,getrandomoptinfo(ROA_VALUE);
+    bonus2 bAddRace,RC_UNDEAD,getrandomoptinfo(ROA_VALUE);bonus2 bAddRace,RC_ANGEL,getrandomoptinfo(ROA_VALUE);bonus2 bAddRace,RC_DEMON,getrandomoptinfo(ROA_VALUE);
+- Id: 375
+  FriendlyName: V1_Ignore Mdef vs Fiends
+  Option: V1_VAR_IGNORE_MDEF_FIEND
+  Transferable: false
+  Stackable: true
+  Description: Ignore +%d%% MDEF of Fiends
+  Done: true
+  Script: |-
+    bonus2 bIgnoreMdefRaceRate,RC_Demon,getrandomoptinfo(ROA_VALUE);bonus2 bIgnoreMdefRaceRate,RC_Undead,getrandomoptinfo(ROA_VALUE);bonus2 bIgnoreMdefRaceRate,RC_Angel,getrandomoptinfo(ROA_VALUE);
+- Id: 376
+  FriendlyName: V1_Ignore Mdef vs Midgardian
+  Option: V1_VAR_IGNORE_MDEF_MIDGARD
+  Transferable: false
+  Stackable: true
+  Description: Ignore +%d%% MDEF of Migardian
+  Done: true
+  Script: |-
+    bonus2 bIgnoreMdefRaceRate,RC_DRAGON,getrandomoptinfo(ROA_VALUE);bonus2 bIgnoreMdefRaceRate,RC_Demihuman,getrandomoptinfo(ROA_VALUE);bonus2 bIgnoreMdefRaceRate,RC_Formless,getrandomoptinfo(ROA_VALUE);
+- Id: 377
+  FriendlyName: V1_Ignore Mdef vs Creature
+  Option: V1_VAR_IGNORE_MDEF_CREATURE
+  Transferable: false
+  Stackable: true
+  Description: Ignore +%d%% MDEF of Plants
+  Done: true
+  Script: |-
+    bonus2 bIgnoreMdefRaceRate,RC_Brute,getrandomoptinfo(ROA_VALUE);bonus2 bIgnoreMdefRaceRate,RC_Fish,getrandomoptinfo(ROA_VALUE);bonus2 bIgnoreMdefRaceRate,RC_Insect,getrandomoptinfo(ROA_VALUE);
+    bonus2 bIgnoreMdefRaceRate,RC_Plant,getrandomoptinfo(ROA_VALUE);
+- Id: 378
+  FriendlyName: V1_Crit resist
+  Option: V1_CRIT_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Crit resist +%d%%
+  Done: true
+  Script: |
+    bonus bCritDefRate,getrandomoptinfo(ROA_VALUE);
+- Id: 379
+  FriendlyName: V1_Melee resist
+  Option: V1_MELEE_ATTACK_DAMAGE_USER
+  Transferable: false
+  Stackable: true
+  Description: Melee physical resist +%d%%
+  Done: true
+  Script: |
+    bonus bNearAtkDef,getrandomoptinfo(ROA_VALUE);
+- Id: 380
+  FriendlyName: V1_Ranged resist
+  Option: V1_RANGED_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Ranged physical resist +%d%%
+  Done: true
+  Script: |
+    bonus bLongAtkDef,getrandomoptinfo(ROA_VALUE);
+- Id: 381
+  FriendlyName: V1_Add Max Weight Limit
+  Option: V1_ADD_MAX_WEIGHT_LIMIT
+  Transferable: true
+  Stackable: true
+  Description: '[Max Weight +%d]'
+  Done: true
+  Script: |-
+    bonus bAddMaxWeight,getrandomoptinfo(ROA_VALUE)*10;
+- Id: 382
+  FriendlyName: V1_Red Potion Heal
+  Option: V1_RED_POTION_HEAL
+  Transferable: true
+  Stackable: true
+  Description: '[Red Potion HP Recovery +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bAddItemHealRate,$@RedPotion,getrandomoptinfo(ROA_VALUE);
+- Id: 383
+  FriendlyName: V1_Damage vs Creatures & Double vs Plant
+  Option: V1_DAMAGE_VS_CREATURES__DOUBLE_VS_PLANT
+  Transferable: false
+  Stackable: true
+  Description: Damage vs Creatures +%d%% / Bonus is doubled vs Plant race monsters
+  Done: true
+  Script: |-
+    bonus2 bAddRace,RC_BRUTE,getrandomoptinfo(ROA_VALUE);
+    ;bonus2 bAddRace,RC_INSECT,getrandomoptinfo(ROA_VALUE);
+    bonus2 bAddRace,RC_FISH,getrandomoptinfo(ROA_VALUE);
+    bonus2 bAddRace,RC_PLANT,getrandomoptinfo(ROA_VALUE)*2;
+- Id: 384
+  FriendlyName: V1_Increase ATK & Crit / Reduce ASPD
+  Option: V1_INCREASE_ATK__CRIT__REDUCE_ASPD
+  Transferable: false
+  Stackable: true
+  Description: ATK & Crit Rate +/ASPD -%d%%
+  Done: true
+  Script: |
+    bonus bAspdRate,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - ASPD
+- Id: 385
+  FriendlyName: V1_Autospell half known MG_FIREBOLT / MG_LIGHTNINGBOLT
+  Option: V1_AUTOSPELL_HALF_KNOWN_MG_FIREBOLT__MG_LIGHTNINGBOLT
+  Transferable: true
+  Stackable: true
+  Description: '[Autospell half known Fire Bolt / Lightning Bolt +%d%% (min 1)]'
+  Done: true
+  Script: |-
+    .@lvl = getskilllv(MG_FIREBOLT)/2;
+    if (.@lvl < 1) {
+        .@lvl = 1;
+    } 
+    bonus3 bAutoSpell,MG_FIREBOLT,.@lvl,getrandomoptinfo(ROA_VALUE)*10;
+    .@lvl = getskilllv(MG_LIGHTNINGBOLT);
+    if (.@lvl < 1) {
+        .@lvl = 1;
+    } 
+    bonus3 bAutoSpell,MG_LIGHTNINGBOLT,.@lvl,getrandomoptinfo(ROA_VALUE)*10;
+- Id: 386
+  FriendlyName: V1_Poison on attack & Poison DoT damage
+  Option: V1_POISON_ON_ATTACK__POISON_DOT_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Physical attacks inflict Poison / Poison & Deadly Poison tick damage +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_Poison,getrandomoptinfo(ROA_VALUE)*100;
+    bonus2 bDotDamage,Eff_Poison,getrandomoptinfo(ROA_VALUE);
+    bonus2 bDotDamage,Eff_DPoison,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+- Id: 387
+  FriendlyName: V1_Crit rate vs Bleeding & Poisoned targets w/ Double Bonuses
+  Option: V1_CRIT_RATE_VS_BLEEDING__POISONED_TARGETS_W_DOUBLE_BONUSES
+  Transferable: false
+  Stackable: true
+  Description: Crit rate +%d%% on Poisoned / Bleeding targets. Double bonus on Deadly Poisoned / Critically Wounded targets
+  Done: true
+  Script: |-
+    bonus2 bCritRateStatus,Eff_Poison,getrandomoptinfo(ROA_VALUE);
+    bonus2 bCritRateStatus,Eff_DPoison,getrandomoptinfo(ROA_VALUE)*2;
+    bonus2 bCritRateStatus,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+    bonus2 bCritRateStatus,Eff_CriticalWounds,getrandomoptinfo(ROA_VALUE)*2;
+- Id: 388
+  FriendlyName: V1_Ignore Def vs Bleeding Target
+  Option: V1_IGNORE_DEF_VS_BLEEDING_TARGET
+  Transferable: false
+  Stackable: true
+  Description: Ignore %d%% DEF of Bleeding targets
+  Done: true
+  Script: |-
+    bonus2 bIgnoreDefStatus,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+- Id: 389
+  FriendlyName: V1_Ignore Def vs Poisoned Target
+  Option: V1_IGNORE_DEF_VS_POISONED_TARGET
+  Transferable: false
+  Stackable: true
+  Description: Ignore %d%% DEF of Poisoned / Deadly Poisoned targets
+  Done: true
+  Script: |-
+    bonus2 bIgnoreDefStatus,Eff_Poison,getrandomoptinfo(ROA_VALUE);
+- Id: 390
+  FriendlyName: V1_Bleeding & Critical Wounds resist
+  Option: V1_BLEEDING__CRITICAL_WOUNDS_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Bleeding & Critical Wounds resist
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Bleeding,getrandomoptinfo(ROA_VALUE)*100;bonus2 bResEff,Eff_CriticalWound,getrandomoptinfo(ROA_VALUE)*100;
+  Labels:
+  - Bleeding
+- Id: 391
+  FriendlyName: V1_Resisting Stun inflicts Stun
+  Option: V1_RESISTING_STUN_INFLICTS_STUN
+  Transferable: false
+  Stackable: true
+  Description: When you resist Stun, inflict Stun +%d%%
+  Done: true
+  Script: |-
+    bonus2 bReflectResistedStatusEff,Eff_Stun,getrandomoptinfo(ROA_VALUE)*10;
+- Id: 393
+  FriendlyName: V1_Reflect resist
+  Option: V1_REFLECT_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Reduce incoming reflect damage +%d%%
+  Done: true
+  Script: |
+    bonus bReduceDamageReturn,getrandomoptinfo(ROA_VALUE);
+- Id: 394
+  FriendlyName: V1_Super Armor (abs)
+  Option: V1_SUPER_ARMOR_ABS
+  Transferable: false
+  Stackable: true
+  Description: Super Armor +%d
+  Done: false
+  Script: |-
+    bonus bSuperArmor,getrandomoptinfo(ROA_VALUE);
+- Id: 395
+  FriendlyName: V1_Super Armor Rate
+  Option: V1_SUPER_ARMOR_RATE
+  Transferable: false
+  Stackable: true
+  Description: Super Armor +%d%%
+  Done: true
+  Script: |-
+    bonus bSuperArmorRate,getrandomoptinfo(ROA_VALUE);
+- Id: 396
+  FriendlyName: V1_Super Armor Break
+  Option: V1_SUPER_ARMOR_BREAK
+  Transferable: false
+  Stackable: true
+  Description: Super Armor Break +%d
+  Done: false
+  Script: |-
+    bonus bSuperArmorBreak,getrandomoptinfo(ROA_VALUE);
+- Id: 397
+  FriendlyName: V1_Super Armor Break Rate
+  Option: V1_SUPER_ARMOR_BREAK_RATE
+  Transferable: false
+  Stackable: true
+  Description: Super Armor Break +%d%%
+  Done: false
+  Script: |-
+    bonus bSuperArmorBreakRate,getrandomoptinfo(ROA_VALUE);
+- Id: 398
+  FriendlyName: V1_Super Armor CD Reduction
+  Option: V1_SUPER_ARMOR_CD_REDUCTION
+  Transferable: false
+  Stackable: true
+  Description: Super Armor Cooldown -%d%%
+  Done: true
+  Script: |-
+    bonus bSuperArmorCooldownRate,-(getrandomoptinfo(ROA_VALUE));
+- Id: 399
+  FriendlyName: V1_Super Armor CD Increase
+  Option: V1_SUPER_ARMOR_CD_INCREASE
+  Transferable: false
+  Stackable: true
+  Description: Increase Super Armor cooldown by %d%%
+  Done: true
+  Script: |-
+    bonus bSuperArmorCooldownRate,getrandomoptinfo(ROA_VALUE);
+- Id: 400
+  FriendlyName: V1_Cap damage received
+  Option: V1_CAP_DAMAGE_RECEIVED
+  Transferable: true
+  Stackable: true
+  Description: '[Damage received from a single attack cannot exceed %d%% of your Max HP.]'
+  Done: false
+  Script: |-
+    bonus bAbsorbDmgMaxHP2,getrandomoptinfo(ROA_VALUE);
+- Id: 401
+  FriendlyName: V1_Nullify physical damage
+  Option: V1_VAR_PHYSICAL_NULLIFY
+  Transferable: false
+  Stackable: true
+  Description: Nullify physical damage +%d%%
+  Done: true
+  Script: |-
+    bonus bNoWeaponDamage,getrandomoptinfo(ROA_VALUE);
+- Id: 402
+  FriendlyName: V1_Nullify magic
+  Option: V1_NULLIFY_MAGIC
+  Transferable: false
+  Stackable: true
+  Description: Nullify magic +%d%%
+  Done: true
+  Script: |-
+    bonus bNoMagicDamage,getrandomoptinfo(ROA_VALUE);
+- Id: 403
+  FriendlyName: V1_Nullify misc damage
+  Option: V1_NULLIFY_MISC_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Nullify misc damage +%d%%
+  Done: false
+  Script: |-
+    bonus bNoMiscDamage,getrandomoptinfo(ROA_VALUE);
+- Id: 404
+  FriendlyName: V1_Crit blocks give Fortified
+  Option: V1_CRIT_BLOCKS_GIVE_FORTIFIED
+  Transferable: true
+  Stackable: false
+  Description: '[Gain %d stacks of Fortified when you resist a Crit.]'
+  Done: true
+  Script: |-
+    bonus bCritResistFortified,getrandomoptinfo(ROA_VALUE);
+- Id: 405
+  FriendlyName: V1_Increase VIT / Reduce AGI
+  Option: V1_INCREASE_VIT__REDUCE_AGI
+  Transferable: false
+  Stackable: true
+  Description: VIT +/AGI -%d
+  Done: true
+  Script: |-
+    bonus bAgi,-(getrandomoptinfo(ROA_VALUE));bonus bVit,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - AGI
+  - ASPD
+  - Base Stat
+  - Flee
+- Id: 406
+  FriendlyName: V1_Add Shield Weight
+  Option: V1_ADD_SHIELD_WEIGHT
+  Transferable: false
+  Stackable: true
+  Description: Shield battle weight +%d
+  Done: true
+  Script: |-
+    bonus bShieldBattleWeight,getrandomoptinfo(ROA_VALUE);
+- Id: 407
+  FriendlyName: V1_AGI & VIT
+  Option: V1_AGI__VIT
+  Transferable: false
+  Stackable: true
+  Description: VIT/AGI +%d
+  Done: true
+  Script: |
+    bonus bAgi,getrandomoptinfo(ROA_VALUE);
+    bonus bVit,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - AGI
+  - ASPD
+  - Base Stat
+  - Flee
+- Id: 408
+  FriendlyName: V1_Damage w/ Holy element
+  Option: V1_DAMAGE_W_HOLY_ELEMENT
+  Transferable: false
+  Stackable: true
+  Description: Holy damage +%d%%
+  Done: true
+  Script: |
+    bonus2 bAllAtkEle,Ele_Holy,getrandomoptinfo(ROA_VALUE);
+- Id: 409
+  FriendlyName: V1_Shield Skill damage vs Stunned
+  Option: V1_SHIELD_SKILL_DAMAGE_VS_STUNNED
+  Transferable: false
+  Stackable: true
+  Description: Shield skills deal +%d%% damage vs Stunned targets
+  Done: true
+  Script: |-
+    bonus2 bShieldSkillEffMod,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+- Id: 410
+  FriendlyName: V1_Stun rates
+  Option: V1_STUN_RATES
+  Transferable: false
+  Stackable: true
+  Description: Increase success rate of Stun by +%d%%
+  Done: true
+  Script: |-
+    bonus2 bStatusEffRate,SC_STUN,getrandomoptinfo(ROA_VALUE);
+- Id: 411
+  FriendlyName: V1_Bleeding rates
+  Option: V1_BLEEDING_RATES
+  Transferable: false
+  Stackable: true
+  Description: Increase success rate of Bleeding by +%d%%
+  Done: true
+  Script: |-
+    bonus2 bStatusEffRate,SC_BLEEDING,getrandomoptinfo(ROA_VALUE);
+- Id: 412
+  FriendlyName: V1_Critical Wounds rates
+  Option: V1_CRITICAL_WOUNDS_RATES
+  Transferable: false
+  Stackable: true
+  Description: Increase success rate of Critial Wounds by +%d%%
+  Done: true
+  Script: |-
+    bonus2 bStatusEffRate,SC_CRITICALWOUND,getrandomoptinfo(ROA_VALUE);
+- Id: 413
+  FriendlyName: V1_Chill rates
+  Option: V1_CHILL_RATES
+  Transferable: false
+  Stackable: true
+  Description: Increase success rate of Chill by +%d%%
+  Done: true
+  Script: |-
+    bonus2 bStatusEffRate,SC_CHILL,getrandomoptinfo(ROA_VALUE);
+- Id: 414
+  FriendlyName: V1_Freeze rates
+  Option: V1_FREEZE_RATES
+  Transferable: false
+  Stackable: true
+  Description: Increase success rates of Freeze by +%d%%
+  Done: true
+  Script: |-
+    bonus2 bStatusEffRate,SC_FREEZE,getrandomoptinfo(ROA_VALUE);
+- Id: 415
+  FriendlyName: V1_Heat rates
+  Option: V1_HEAT_RATES
+  Transferable: false
+  Stackable: true
+  Description: Increase success rate of Heat by +%d%%
+  Done: true
+  Script: |-
+    bonus2 bStatusEffRate,SC_HEAT,getrandomoptinfo(ROA_VALUE);
+- Id: 416
+  FriendlyName: V1_Burning rates
+  Option: V1_BURNING_RATES
+  Transferable: false
+  Stackable: true
+  Description: Increase success rate of Burning by +%d%%
+  Done: true
+  Script: |-
+    bonus2 bStatusEffRate,SC_BURNING,getrandomoptinfo(ROA_VALUE);
+- Id: 417
+  FriendlyName: V1_Blind rates
+  Option: V1_BLIND_RATES
+  Transferable: false
+  Stackable: true
+  Description: Increase success rate of Blind by +%d%%
+  Done: true
+  Script: |-
+    bonus2 bStatusEffRate,SC_BLIND,getrandomoptinfo(ROA_VALUE);
+- Id: 418
+  FriendlyName: V1_Poison & DPoison rates
+  Option: V1_POISON__DPOISON_RATES
+  Transferable: false
+  Stackable: true
+  Description: Increase success rate of Poison & Deadly Poison by +%d%%
+  Done: true
+  Script: |-
+    bonus2 bStatusEffRate,SC_POISON,getrandomoptinfo(ROA_VALUE);bonus2 bStatusEffRate,SC_DPOISON,getrandomoptinfo(ROA_VALUE);
+- Id: 419
+  FriendlyName: V1_Deadly Poison rates
+  Option: V1_DEADLY_POISON_RATES
+  Transferable: false
+  Stackable: true
+  Description: Increase success rate of Deadly Poison by +%d%%
+  Done: true
+  Script: |-
+    bonus2 bStatusEffRate,SC_DPOISON,getrandomoptinfo(ROA_VALUE);
+- Id: 420
+  FriendlyName: V1_Curse rates
+  Option: V1_CURSE_RATES
+  Transferable: false
+  Stackable: true
+  Description: Increase success rate of Curse by +%d%%
+  Done: true
+  Script: |-
+    bonus2 bStatusEffRate,SC_CURSE,getrandomoptinfo(ROA_VALUE);
+- Id: 421
+  FriendlyName: V1_Silence rates
+  Option: V1_SILENCE_RATES
+  Transferable: false
+  Stackable: true
+  Description: Increase success rate of Silence by +%d%%
+  Done: true
+  Script: |-
+    bonus2 bStatusEffRate,SC_SILENCE,getrandomoptinfo(ROA_VALUE);
+- Id: 422
+  FriendlyName: V1_Sleep rates
+  Option: V1_SLEEP_RATES
+  Transferable: false
+  Stackable: true
+  Description: Increase success rates of Sleep by +%d%%
+  Done: true
+  Script: |-
+    bonus2 bStatusEffRate,SC_SLEEP,getrandomoptinfo(ROA_VALUE);
+- Id: 423
+  FriendlyName: V1_Stone Curse rates
+  Option: V1_STONE_CURSE_RATES
+  Transferable: false
+  Stackable: true
+  Description: Increase success rate of Stone Curse by +%d%%
+  Done: true
+  Script: |-
+    bonus2 bStatusEffRate,SC_STONE,getrandomoptinfo(ROA_VALUE);
+- Id: 424
+  FriendlyName: V1_Slow Cast rates
+  Option: V1_SLOW_CAST_RATES
+  Transferable: false
+  Stackable: true
+  Description: Increase success rate of Slow Cast by +%d%%
+  Done: true
+  Script: |-
+    bonus2 bStatusEffRate,SC_SLOWCAST,getrandomoptinfo(ROA_VALUE);
+- Id: 425
+  FriendlyName: V1_Shock rates
+  Option: V1_SHOCK_RATES
+  Transferable: false
+  Stackable: true
+  Description: Increase success rate of Shock by +%d%%
+  Done: true
+  Script: |-
+    bonus2 bStatusEffRate,SC_SHOCK,getrandomoptinfo(ROA_VALUE);
+- Id: 426
+  FriendlyName: V1_Resist vs All class
+  Option: V1_RESIST_VS_ALL_CLASS
+  Transferable: false
+  Stackable: true
+  Description: Resist vs All enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubClass,Class_All,getrandomoptinfo(ROA_VALUE);
+- Id: 427
+  FriendlyName: V1_Stun resist & Crtical Wounds resist
+  Option: V1_STUN_RESIST__CRTICAL_WOUNDS_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Stun & Critical Wound resistance +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Stun,getrandomoptinfo(ROA_VALUE)*100;bonus2 bResEff,Eff_CriticalWound,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 428
+  FriendlyName: V1_Reduce incoming knockback
+  Option: V1_REDUCE_INCOMING_KNOCKBACK
+  Transferable: true
+  Stackable: true
+  Description: '[Reduce incoming knockback by %d cells]'
+  Done: true
+  Script: |-
+    bonus bKnockbackRedux,getrandomoptinfo(ROA_VALUE);
+- Id: 429
+  FriendlyName: V1_Reflect magic attacks
+  Option: V1_REFLECT_MAGIC_ATTACKS
+  Transferable: false
+  Stackable: true
+  Description: Reflect magical attacks +%d%%
+  Done: true
+  Script: |-
+    bonus bMagicDamageReturn,getrandomoptinfo(ROA_VALUE);
+- Id: 430
+  FriendlyName: V1_Dispel Resistance
+  Option: V1_DISPEL_RESISTANCE
+  Transferable: false
+  Stackable: true
+  Description: Nullify Dispel against you +%d%%
+  Done: true
+  Script: |-
+    bonus bDispelResist,getrandomoptinfo(ROA_VALUE);
+- Id: 431
+  FriendlyName: V1_Autospell SA_LANDPROTECTOR on magic hit
+  Option: V1_AUTOSPELL_SA_LANDPROTECTOR_ON_MAGIC_HIT
+  Transferable: false
+  Stackable: true
+  Description: Autospell Lv1 Land Protector when hit by magic attacks +%d%%
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellWhenHit,"SA_LANDPROTECTOR",1,70,BF_MAGIC,0;
+- Id: 432
+  FriendlyName: V1_Shock resist
+  Option: V1_SHOCK_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Shock resist +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Shock,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 433
+  FriendlyName: V1_Chill & Freeze resist
+  Option: V1_CHILL__FREEZE_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Chill & Freeze Resists +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Chill,getrandomoptinfo(ROA_VALUE)*100;bonus2 bResEff,Eff_Freeze,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 434
+  FriendlyName: V1_Stone Curse & Shock resist
+  Option: V1_STONE_CURSE__SHOCK_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Stone Curse & Shock resists +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Stone,getrandomoptinfo(ROA_VALUE)*100;bonus2 bResEff,Eff_Shock,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 435
+  FriendlyName: V1_Heat & Burning resists
+  Option: V1_HEAT__BURNING_RESISTS
+  Transferable: false
+  Stackable: true
+  Description: Heat & Burning resists +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Heat,getrandomoptinfo(ROA_VALUE)*100;bonus2 bResEff,Eff_Burning,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 436
+  FriendlyName: V1_Resist vs Earth property
+  Option: V1_RESIST_VS_EARTH_PROPERTY
+  Transferable: false
+  Stackable: true
+  Description: Resist vs Earth enemies +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubDefEle,Ele_Earth,getrandomoptinfo(ROA_VALUE);bonus2 bMagicSubDefEle,Ele_Earth,getrandomoptinfo(ROA_VALUE);
+- Id: 437
+  FriendlyName: V1_Resist vs Earth & Fire ele
+  Option: V1_RESIST_VS_EARTH__FIRE_ELE
+  Transferable: false
+  Stackable: true
+  Description: Earth & Fire elemental resist +%d%%
+  Done: true
+  Script: |+
+    bonus2 bSubEle,Ele_Earth,getrandomoptinfo(ROA_VALUE);bonus2 bSubEle,Ele_Fire,getrandomoptinfo(ROA_VALUE);
+
+- Id: 438
+  FriendlyName: V1_Yellow Potion Heal
+  Option: V1_YELLOW_POTION_HEAL
+  Transferable: true
+  Stackable: true
+  Description: '[Yellow Potion HP Recovery +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bAddItemHealRate,$@YellowPotion,getrandomoptinfo(ROA_VALUE);
+- Id: 439
+  FriendlyName: V1_Reflect Damage
+  Option: V1_REFLECT_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Reflect damage +%d%%
+  Done: true
+  Script: |-
+    ;
+- Id: 440
+  FriendlyName: V1_Natural HP Recovery Amount
+  Option: V1_NATURAL_HP_RECOVERY_AMOUNT
+  Transferable: false
+  Stackable: true
+  Description: Natural HP Recovery amount +%d%%
+  Done: true
+  Script: |-
+    bonus bHPrecovAmount,getrandomoptinfo(ROA_VALUE);
+- Id: 441
+  FriendlyName: V1_Natural SP Recovery Amount
+  Option: V1_NATURAL_SP_RECOVERY_AMOUNT
+  Transferable: false
+  Stackable: true
+  Description: Natural SP Recovery Amount +%d%%
+  Done: true
+  Script: |-
+    bonus bSPrecovAmount,getrandomoptinfo(ROA_VALUE);
+- Id: 442
+  FriendlyName: V1_HP Potions restore SP
+  Option: V1_HP_POTIONS_RESTORE_SP
+  Transferable: true
+  Stackable: false
+  Description: '[HP Potions restore +%d SP.]'
+  Done: true
+  Script: |-
+    bonus bHpPotionsRestoreSp,getrandomoptinfo(ROA_VALUE);
+- Id: 443
+  FriendlyName: V1_Increase Zeny rate
+  Option: V1_INCREASE_ZENY_RATE
+  Transferable: false
+  Stackable: true
+  Description: Zeny from monster kills +%d%%
+  Done: true
+  Script: |-
+    ;
+- Id: 444
+  FriendlyName: V1_Natural HP & SP Regen Rate
+  Option: V1_NATURAL_HP__SP_REGEN_RATE
+  Transferable: false
+  Stackable: true
+  Description: Natural HP & SP regen rates +%d%%
+  Done: true
+  Script: |+
+    bonus bHPrecovRate,getrandomoptinfo(ROA_VALUE);bonus bSPrecovRate,getrandomoptinfo(ROA_VALUE);
+
+  Labels:
+  - HP
+- Id: 445
+  FriendlyName: V1_Lose Crit / Gain Lucky Dodge
+  Option: V1_LOSE_CRIT__GAIN_LUCKY_DODGE
+  Transferable: false
+  Stackable: true
+  Description: Lose all Crit. For every 2 Crit lost, gain %d Lucky Dodge.(UNIMPLEMENTED)
+  Done: false
+  Script: |-
+    ;
+- Id: 446
+  FriendlyName: V1_Lose Flee / Gain ASPD
+  Option: V1_LOSE_FLEE__GAIN_ASPD
+  Transferable: true
+  Stackable: false
+  Description: '[Lose all Flee. For every 50 Flee lost, gain +%d%% ASPD. (UNIMPLEMENTED)]'
+  Done: false
+  Script: |-
+    ;
+- Id: 447
+  FriendlyName: V1_Lose HIT / Gain ATK (20:%d)
+  Option: V1_LOSE_HIT__GAIN_ATK_20D
+  Transferable: true
+  Stackable: false
+  Description: '[Lose all HIT. For every 20 HIT lost, gain +%d ATK. (UNIMPLEMENTED)]'
+  Done: false
+  Script: |-
+    ;
+- Id: 448
+  FriendlyName: V1_Lose DEF / Gain Max HP
+  Option: V1_LOSE_DEF__GAIN_MAX_HP
+  Transferable: true
+  Stackable: false
+  Description: '[Lose all DEF. For every 3 DEF lost, gain +%d%% Max HP.(UNIMPLEMENTED)]'
+  Done: false
+  Script: |-
+    ;
+- Id: 449
+  FriendlyName: V1_Lose MDEF / Gain Max SP
+  Option: V1_LOSE_MDEF__GAIN_MAX_SP
+  Transferable: true
+  Stackable: false
+  Description: '[Lose all MDEF. For every 2 MDEF lost, gain +%d%% Max SP.(UNIMPLEMENTED)]'
+  Done: false
+  Script: |-
+    ;
+- Id: 450
+  FriendlyName: V1_Super Armor all skills
+  Option: V1_SUPER_ARMOR_ALL_SKILLS
+  Transferable: false
+  Stackable: true
+  Description: All casts gain +%d%% Super Armor
+  Done: true
+  Script: |-
+    bonus bSuperArmor,getrandomoptinfo(ROA_VALUE);
+- Id: 451
+  FriendlyName: V1_Nullify trap effects
+  Option: V1_NULLIFY_TRAP_EFFECTS
+  Transferable: false
+  Stackable: true
+  Description: Nullify trap effects +%d%%
+  Done: true
+  Script: |-
+    bonus bNullifyTrapEffect,ropt(ROA_VALUE);
+- Id: 452
+  FriendlyName: V1_Fortified chance to gain extra stack
+  Option: V1_FORTIFIED_CHANCE_TO_GAIN_EXTRA_STACK
+  Transferable: false
+  Stackable: true
+  Description: '+%d%% chance to gain an additional stack of '
+  Done: false
+  Script: |-
+    ;
+- Id: 454
+  FriendlyName: V1_Double Attacks inflict Poison / Deadly Poison
+  Option: V1_DOUBLE_ATTACKS_INFLICT_POISON__DEADLY_POISON
+  Transferable: true
+  Stackable: true
+  Description: '[Double Attacks inflict Poison +%d%% / Double Attacks inflict Deadly Poison at half that rate]'
+  Done: true
+  Script: |-
+    bonus2 bDoubleAtkAddEff,Eff_Poison,getrandomoptinfo(ROA_VALUE);
+    bonus2 bDoubleAtkAddEff,Eff_DPoison,getrandomoptinfo(ROA_VALUE)/2;
+- Id: 455
+  FriendlyName: V1_Preventing Knockback gives PR_SUFFRAGIUM
+  Option: V1_PREVENTING_KNOCKBACK_GIVES_PR_SUFFRAGIUM
+  Transferable: true
+  Stackable: false
+  Description: '[Gain Suffragium Lv3 when damaged by a knockback attack that had its knockback reduced to 0.]'
+  Done: true
+  Script: |-
+    bonus bKnockbackPreventionSc,SC_SUFFRAGIUM;
+- Id: 456
+  FriendlyName: V1_Shock resist (transferable)
+  Option: V1_SHOCK_RESIST_TRANSFERABLE
+  Transferable: true
+  Stackable: true
+  Description: '[Shock resist +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Shock,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 457
+  FriendlyName: V1_Blue Potion Heal
+  Option: V1_BLUE_POTION_HEAL
+  Transferable: true
+  Stackable: true
+  Description: '[Blue Potion SP Recovery +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bAddItemHealRate,$@BluePotion,getrandomoptinfo(ROA_VALUE);
+- Id: 458
+  FriendlyName: V1_Preventing Knockback gives Fortified stack
+  Option: V1_PREVENTING_KNOCKBACK_GIVES_FORTIFIED_STACK
+  Transferable: true
+  Stackable: false
+  Description: '[Gain a Fortified stack when damaged by a knockback attack that had its knockback reduced to 0.]'
+  Done: true
+  Script: |-
+    bonus bKnockbackPreventionSc,SC_FORTIFIED1;
+- Id: 459
+  FriendlyName: V1_AL_DECAGI Immunity
+  Option: V1_AL_DECAGI_IMMUNITY
+  Transferable: true
+  Stackable: false
+  Description: '[Gain immunity to Decrease Agility.]'
+  Done: true
+  Script: |-
+    bonus bDecAgiImmunity,1;
+- Id: 460
+  FriendlyName: V1_Heat resist (Transferable)
+  Option: V1_HEAT_RESIST_TRANSFERABLE
+  Transferable: false
+  Stackable: true
+  Description: '[Heat resist +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Heat,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 461
+  FriendlyName: V1_Poison on Attack + Double Attack Rate
+  Option: V1_POISON_ON_ATTACK__DOUBLE_ATTACK_RATE
+  Transferable: false
+  Stackable: true
+  Description: Poison on Attack +/ Double Attack Rate +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_Poison,getrandomoptinfo(ROA_VALUE)*100;
+    bonus bDoubleAddRate,getrandomoptinfo(ROA_VALUE);
+- Id: 462
+  FriendlyName: V1_Crit rate vs Blinded Enemies
+  Option: V1_CRIT_RATE_VS_BLINDED_ENEMIES
+  Transferable: false
+  Stackable: true
+  Description: Crit rate vs Blinded +%d%%
+  Done: true
+  Script: |-
+    bonus2 bCritRateStatus,Eff_Blind,getrandomoptinfo(ROA_VALUE);
+- Id: 463
+  FriendlyName: V1_Crit ATK vs Blinded
+  Option: V1_CRIT_ATK_VS_BLINDED
+  Transferable: false
+  Stackable: true
+  Description: Crit ATK vs Blinded +%d%%
+  Done: false
+  Script: |-
+    bonus2 bCritDmgStatus,Eff_Blind,getrandomoptinfo(ROA_VALUE);
+- Id: 464
+  FriendlyName: V1_Crit rate & damage vs Blinded
+  Option: V1_CRIT_RATE__DAMAGE_VS_BLINDED
+  Transferable: false
+  Stackable: true
+  Description: Crit rate & Crit ATK vs Blinded +%d%%
+  Done: true
+  Script: |-
+    bonus2 bCritRateStatus,Eff_Blind,getrandomoptinfo(ROA_VALUE);
+    bonus2 bCritDmgStatus,Eff_Blind,getrandomoptinfo(ROA_VALUE);
+- Id: 465
+  FriendlyName: V1_Poison & Bleeding on Attack
+  Option: V1_POISON__BLEEDING_ON_ATTACK
+  Transferable: false
+  Stackable: true
+  Description: Weapon attacks inflict Bleeding & Poison +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_Bleeding,getrandomoptinfo(ROA_VALUE)*100;bonus2 bAddEff,Eff_Poison,getrandomoptinfo(ROA_VALUE)*100;
+  Labels:
+  - Bleeding
+- Id: 466
+  FriendlyName: V1_Double Attacks inflict Bleeding & Poison
+  Option: V1_DOUBLE_ATTACKS_INFLICT_BLEEDING__POISON
+  Transferable: false
+  Stackable: true
+  Description: Double Attacks inflict Poison / Bleeding +%d%%
+  Done: true
+  Script: |-
+    bonus2 bDoubleAtkAddEff,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+    bonus2 bDoubleAtkAddEff,Eff_Poison,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+- Id: 467
+  FriendlyName: V1_Katar off-hand damage
+  Option: V1_KATAR_OFFHAND_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Katar off-hand damage +%d%%
+  Done: true
+  Script: |-
+    bonus bKatarOffhand,getrandomoptinfo(ROA_VALUE);
+- Id: 468
+  FriendlyName: V1_Katar off-hand + Crit Rate
+  Option: V1_KATAR_OFFHAND__CRIT_RATE
+  Transferable: false
+  Stackable: true
+  Description: Katar off-hand damage +/ Crit rate +%d%%
+  Done: true
+  Script: |-
+    bonus bKatarOffhand,getrandomoptinfo(ROA_VALUE);
+    bonus bCriticalRate,getrandomoptinfo(ROA_VALUE);
+- Id: 469
+  FriendlyName: V1_Katar Offhand
+  Option: V1_KATAR_OFFHAND
+  Transferable: false
+  Stackable: true
+  Description: Katar Offhand damage +%d%%
+  Done: false
+  Script: |-
+    ;
+- Id: 470
+  FriendlyName: V1_Poison & Bleeding Extension
+  Option: V1_POISON__BLEEDING_EXTENSION
+  Transferable: true
+  Stackable: true
+  Description: '[When inflicting Poison, Deadly Poison, or Bleeding on a target already afflicted, extend timer by +%d base second(s)]'
+  Done: true
+  Script: |-
+    bonus2 bStatusExtension,Eff_Poison,getrandomoptinfo(ROA_VALUE)*1000;
+    bonus2 bStatusExtension,Eff_DPoison,getrandomoptinfo(ROA_VALUE)*1000;
+    bonus2 bStatusExtension,Eff_Bleeding,getrandomoptinfo(ROA_VALUE)*1000;
+- Id: 471
+  FriendlyName: V1_Poison & Bleeding Damage +%
+  Option: V1_POISON__BLEEDING_DAMAGE_
+  Transferable: false
+  Stackable: true
+  Description: Poison, Deadly Poison, & Bleeding tick damage +%d%%
+  Done: true
+  Script: |-
+    bonus2 bDotDamage,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+    bonus2 bDotDamage,Eff_Poison,getrandomoptinfo(ROA_VALUE);
+    bonus2 bDotDamage,Eff_DPoison,getrandomoptinfo(ROA_VALUE);
+- Id: 472
+  FriendlyName: V1_Deadly Poison reduces DEF
+  Option: V1_DEADLY_POISON_REDUCES_DEF
+  Transferable: false
+  Stackable: true
+  Description: Your Deadly Poison reduces target's DEF by %d%%
+  Done: true
+  Script: |-
+    bonus bDPoisonDef,getrandomoptinfo(ROA_VALUE);
+- Id: 473
+  FriendlyName: V1_Freeze Water Level
+  Option: V1_FREEZE_WATER_LEVEL
+  Transferable: true
+  Stackable: false
+  Description: '[Frozen targets convert to Water Lv%d.]'
+  Done: true
+  Script: |-
+    bonus bFreezeLevel,getrandomoptinfo(ROA_VALUE);
+- Id: 474
+  FriendlyName: V1_Freeze Step Water Level
+  Option: V1_FREEZE_STEP_WATER_LEVEL
+  Transferable: true
+  Stackable: false
+  Description: '[When an enemy is frozen, increase their   water level by +1 every second, up to Lv.%d.]'
+  Done: true
+  Script: |-
+    bonus bFreezeStepLevel,getrandomoptinfo(ROA_VALUE);
+- Id: 475
+  FriendlyName: V1_Shock saps SP
+  Option: V1_SHOCK_SAPS_SP
+  Transferable: false
+  Stackable: true
+  Description: '[Gain %d SP whenever Shock damage ticks.]'
+  Done: false
+  Script: |-
+    ;
+- Id: 476
+  FriendlyName: V1_Shock stacks persist after Electrify
+  Option: V1_SHOCK_STACKS_PERSIST_AFTER_ELECTRIFY
+  Transferable: true
+  Stackable: false
+  Description: '[Shock stacks have a +%d%% chance to persist after Electrify, with their duration halved.]'
+  Done: true
+  Script: |-
+    bonus bShockStacksPersistAfterElectrify,getrandomoptinfo(ROA_VALUE);
+- Id: 477
+  FriendlyName: V1_Shock breaks Freeze
+  Option: V1_SHOCK_BREAKS_FREEZE
+  Transferable: true
+  Stackable: false
+  Description: '[Your Shock breaks Freeze.]'
+  Done: true
+  Script: |-
+    bonus bShockBreakFreeze,1;
+- Id: 478
+  FriendlyName: V1_Blind negates Flee degradation
+  Option: V1_BLIND_NEGATES_FLEE_DEGRADATION
+  Transferable: true
+  Stackable: false
+  Description: '[Blinded enemies do not degrade your flee.]'
+  Done: true
+  Script: |-
+    bonus bBlindNoFleePenalty,1;
+- Id: 479
+  FriendlyName: V1_Reflect damage inflicts Blind
+  Option: V1_REFLECT_DAMAGE_INFLICTS_BLIND
+  Transferable: true
+  Stackable: true
+  Description: '[Reflect damage inflicts Blind +%d%%]'
+  Done: true
+  Script: |-
+    bonus bReflectDamageInflictsBlind,getrandomoptinfo(ROA_VALUE);
+- Id: 480
+  FriendlyName: V1_Fleeing inflicts Blind
+  Option: V1_FLEEING_INFLICTS_BLIND
+  Transferable: false
+  Stackable: true
+  Description: Fleeing inflicts Blind +%d%%
+  Done: true
+  Script: |-
+    bonus bFleeBlind,getrandomoptinfo(ROA_VALUE);
+- Id: 481
+  FriendlyName: V1_Blind Enhancement
+  Option: V1_BLIND_ENHANCEMENT
+  Transferable: true
+  Stackable: false
+  Description: '[Your Blind reduces flee & hit by %d%%.]'
+  Done: true
+  Script: |-
+    bonus bBlindEnhancement,getrandomoptinfo(ROA_VALUE);
+- Id: 482
+  FriendlyName: V1_Lucky Dodge inflicts Blind
+  Option: V1_LUCKY_DODGE_INFLICTS_BLIND
+  Transferable: true
+  Stackable: true
+  Description: '[Lucky Dodges inflict Blind +%d%%]'
+  Done: true
+  Script: |-
+    bonus bLuckyDodgeBlind,getrandomoptinfo(ROA_VALUE);
+- Id: 483
+  FriendlyName: V1_Critical Wounds Heal Bomb
+  Option: V1_CRITICAL_WOUNDS_HEAL_BOMB
+  Transferable: true
+  Stackable: false
+  Description: '[Healing a target with Critical Wounds heal bombs them.]'
+  Done: true
+  Script: |-
+    bonus bHealBombCritWounds,1;
+- Id: 485
+  FriendlyName: V1_Lucky Dodge restores HP
+  Option: V1_LUCKY_DODGE_RESTORES_HP
+  Transferable: true
+  Stackable: false
+  Description: '[Lucky Dodges restore %d HP.]'
+  Done: true
+  Script: |-
+    bonus bLuckyDodgeHeal,getrandomoptinfo(ROA_VALUE);
+- Id: 486
+  FriendlyName: V1_Flee + Max HP
+  Option: V1_FLEE__MAX_HP
+  Transferable: false
+  Stackable: true
+  Description: Flee & Max HP +%d
+  Done: true
+  Script: |-
+    bonus bFlee,getrandomoptinfo(ROA_VALUE);bonus bMaxHP,getrandomoptinfo(ROA_VALUE);
+- Id: 487
+  FriendlyName: V1_Increase Max HP by Flee
+  Option: V1_INCREASE_MAX_HP_BY_FLEE
+  Transferable: false
+  Stackable: true
+  Description: Increase Max HP by %d%% of your Flee
+  Done: true
+  Script: |-
+    .@flee = readparam(bFlee);
+    if (.@flee > 0) {
+    	.@b = .@flee * getrandomoptinfo(ROA_VALUE) / 100; 
+    	bonus bMaxHP,.@b;
+    }
+- Id: 488
+  FriendlyName: V1_Increase Max SP by Flee
+  Option: V1_INCREASE_MAX_SP_BY_FLEE
+  Transferable: false
+  Stackable: true
+  Description: Increase Max SP by %d%% of your Flee
+  Done: true
+  Script: |-
+    .@flee = readparam(bFlee);
+    if (.@flee > 0) {
+    	.@b = .@flee * getrandomoptinfo(ROA_VALUE) / 100; 
+    	bonus bMaxSP,.@b;
+    }
+- Id: 489
+  FriendlyName: V1_Reduce DEF / Inc Flee
+  Option: V1_REDUCE_DEF__INC_FLEE
+  Transferable: true
+  Stackable: true
+  Description: '[Reduce DEF by %d. Gain twice as much Flee.]'
+  Done: true
+  Script: |-
+    bonus bReduceDefGainFlee,getrandomoptinfo(ROA_VALUE);
+- Id: 490
+  FriendlyName: V1_AutoSpell Rates
+  Option: V1_AUTOSPELL_RATES
+  Transferable: true
+  Stackable: true
+  Description: '[Autospell rates +%d%%]'
+  Done: true
+  Script: |-
+    bonus bAutospellRates,getrandomoptinfo(ROA_VALUE);
+- Id: 491
+  FriendlyName: V1_AutoSpell SP Costs
+  Option: V1_AUTOSPELL_SP_COSTS
+  Transferable: true
+  Stackable: true
+  Description: '[Auto Spell SP costs -%d%%]'
+  Done: true
+  Script: |-
+    bonus bAutoSpellSpCost,getrandomoptinfo(ROA_VALUE);
+- Id: 492
+  FriendlyName: V1_Combo Damage / Reduce Duration
+  Option: V1_COMBO_DAMAGE__REDUCE_DURATION
+  Transferable: true
+  Stackable: true
+  Description: '[Combo bonus damage +/gauge duration -%d%%]'
+  Done: true
+  Script: |-
+    bonus bComboDuration,getrandomoptinfo(ROA_VALUE);
+    bonus bComboBonusDamage,getrandomoptinfo(ROA_VALUE);
+- Id: 493
+  FriendlyName: V1_Combo Skills Restore SP
+  Option: V1_COMBO_SKILLS_RESTORE_SP
+  Transferable: true
+  Stackable: false
+  Description: '[Combo skills restore +%d%% Max SP.]'
+  Done: true
+  Script: |-
+    bonus bComboSkillSpCost,getrandomoptinfo(ROA_VALUE);
+- Id: 494
+  FriendlyName: V1_Combo Skills no consume Spirit Sphere
+  Option: V1_COMBO_SKILLS_NO_CONSUME_SPIRIT_SPHERE
+  Transferable: false
+  Stackable: false
+  Description: Combo Skills have a +%d%% chance to not consume a Spirit Sphere.
+  Done: true
+  Script: |-
+    ;
+- Id: 495
+  FriendlyName: V1_SP Restore on Auto Attack
+  Option: V1_SP_RESTORE_ON_AUTO_ATTACK
+  Transferable: true
+  Stackable: true
+  Description: '[Restore %d SP when auto attacking]'
+  Done: true
+  Script: |-
+    bonus bSPDrainValue,getrandomoptinfo(ROA_VALUE);
+- Id: 496
+  FriendlyName: V1_Find Me increases Crit rates
+  Option: V1_FIND_ME_INCREASES_CRIT_RATES
+  Transferable: true
+  Stackable: false
+  Description: "['Find Me' increases Crit rates by +%d%%.]"
+  Done: true
+  Script: |-
+    bonus bFindMeIncreasesCrit,getrandomoptinfo(ROA_VALUE);
+- Id: 497
+  FriendlyName: V1_Find Me Lucky Dodge chance
+  Option: V1_FIND_ME_LUCKY_DODGE_CHANCE
+  Transferable: true
+  Stackable: false
+  Description: '[Find Me gives additional %d Lucky Dodge.]'
+  Done: true
+  Script: |-
+    bonus bFindMeAddLuckyDodge,getrandomoptinfo(ROA_VALUE);
+- Id: 498
+  FriendlyName: V1_Flee + Flee reflect 50 (25%)
+  Option: V1_FLEE__FLEE_REFLECT_50_25
+  Transferable: false
+  Stackable: true
+  Description: Flee +%d / Fleeing has a +25%% chance to reflect 50%% damage
+  Done: true
+  Script: |-
+    bonus bEvadeReflectDamage,50;
+    bonus bEvadeReflectRate,250;
+    bonus bFlee,getrandomoptinfo(ROA_VALUE);
+- Id: 499
+  FriendlyName: V1_LUK + Lucky Dodge
+  Option: V1_LUK__LUCKY_DODGE
+  Transferable: false
+  Stackable: true
+  Description: Lucky Dodge & LUK +%d
+  Done: true
+  Script: |
+    bonus bLuk,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Crit
+  - LUK
+- Id: 500
+  FriendlyName: V1_Increase AGI / Reduce VIT
+  Option: V1_INCREASE_AGI__REDUCE_VIT
+  Transferable: false
+  Stackable: true
+  Description: AGI +/VIT -%d
+  Done: true
+  Script: |-
+    bonus bVit,-(getrandomoptinfo(ROA_VALUE));bonus bAgi,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - AGI
+  - ASPD
+  - Base Stat
+  - Flee
+- Id: 501
+  FriendlyName: V1_Poison / Deadly Poison pierce stat resistance
+  Option: V1_POISON__DEADLY_POISON_PIERCE_STAT_RESISTANCE
+  Transferable: true
+  Stackable: true
+  Description: "[Poison & Deadly Poison inflictions pierce +%d%% of target's stat resistance]"
+  Done: true
+  Script: |-
+    bonus2 bPierceScDef,Eff_Poison,getrandomoptinfo(ROA_VALUE);
+    bonus2 bPierceScDef,Eff_DPoison,getrandomoptinfo(ROA_VALUE);
+- Id: 502
+  FriendlyName: V1_Bleeding / Critical Wounds pierce stat resistance
+  Option: V1_BLEEDING__CRITICAL_WOUNDS_PIERCE_STAT_RESISTANCE
+  Transferable: true
+  Stackable: true
+  Description: "[Bleeding & Critical Wounds inflictions pierce +%d%% of target's stat resistance]"
+  Done: true
+  Script: |-
+    bonus2 bPierceScDef,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+    bonus2 bPierceScDef,Eff_CriticalWound,getrandomoptinfo(ROA_VALUE);
+- Id: 503
+  FriendlyName: V1_Chill / Freeze pierce stat resistance
+  Option: V1_CHILL__FREEZE_PIERCE_STAT_RESISTANCE
+  Transferable: true
+  Stackable: true
+  Description: "[Chill & Freeze inflictions pierce +%d%% of target's stat resistance]"
+  Done: true
+  Script: |-
+    bonus2 bPierceScDef,Eff_Chill,getrandomoptinfo(ROA_VALUE);
+    bonus2 bPierceScDef,Eff_Freeze,getrandomoptinfo(ROA_VALUE);
+- Id: 504
+  FriendlyName: V1_Blind / Sleep pierce stat resistance
+  Option: V1_BLIND__SLEEP_PIERCE_STAT_RESISTANCE
+  Transferable: true
+  Stackable: true
+  Description: "[Blind & Sleep inflictions pierce +%d%% of target's stat resistance]"
+  Done: true
+  Script: |-
+    bonus2 bPierceScDef,Eff_Blind,getrandomoptinfo(ROA_VALUE);
+    bonus2 bPierceScDef,Eff_Sleep,getrandomoptinfo(ROA_VALUE);
+- Id: 505
+  FriendlyName: V1_Silence pierces stat resistance
+  Option: V1_SILENCE_PIERCES_STAT_RESISTANCE
+  Transferable: true
+  Stackable: true
+  Description: "[Silence inflictions pierce +%d%% of target's stat resistance]"
+  Done: true
+  Script: |-
+    bonus2 bPierceScDef,Eff_Silence,getrandomoptinfo(ROA_VALUE);
+- Id: 506
+  FriendlyName: V1_Heat / Burning pierce stat resistance
+  Option: V1_HEAT__BURNING_PIERCE_STAT_RESISTANCE
+  Transferable: true
+  Stackable: true
+  Description: "[Heat & Burning inflictions pierce +%d%% of target's stat resistance]"
+  Done: true
+  Script: |-
+    bonus2 bPierceScDef,Eff_Heat,getrandomoptinfo(ROA_VALUE);
+    bonus2 bPierceScDef,Eff_Burning,getrandomoptinfo(ROA_VALUE);
+- Id: 507
+  FriendlyName: V1_Increase Max HP & SP by Flee
+  Option: V1_INCREASE_MAX_HP__SP_BY_FLEE
+  Transferable: false
+  Stackable: true
+  Description: Increase Max HP by %d%% of your Flee. Increase Max SP by half the HP increase.
+  Done: true
+  Script: |-
+    .@flee = readparam(bFlee);
+    if (.@flee > 0) {
+    	.@b = .@flee * getrandomoptinfo(ROA_VALUE) / 100; 
+    	bonus bMaxHP,.@b;
+    	bonus bMaxSP,.@b/2;
+    }
+- Id: 508
+  FriendlyName: V1_AGI & LUK
+  Option: V1_AGI__LUK
+  Transferable: false
+  Stackable: true
+  Description: AGI & LUK +%d
+  Done: true
+  Script: |-
+    bonus bLuk,getrandomoptinfo(ROA_VALUE);
+    bonus bAgi,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Crit
+  - LUK
+- Id: 509
+  FriendlyName: V1_Crits inflict Blind
+  Option: V1_CRITS_INFLICT_BLIND
+  Transferable: true
+  Stackable: true
+  Description: '[Crits inflict Blind +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bCritInflictSc,Eff_Blind,getrandomoptinfo(ROA_VALUE);
+- Id: 510
+  FriendlyName: V1_Crit blocks give Find Me
+  Option: V1_CRIT_BLOCKS_GIVE_FIND_ME
+  Transferable: true
+  Stackable: false
+  Description: "[Gain 'Find Me' when you resist a Crit.]"
+  Done: true
+  Script: |-
+    bonus bCritResistFindMe,1;
+- Id: 511
+  FriendlyName: V1_AutoSpell DC_WINKCHARM on hit
+  Option: V1_AUTOSPELL_DC_WINKCHARM_ON_HIT
+  Transferable: false
+  Stackable: true
+  Description: +%d%% chance to auto spell Wink of Charm when hit
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellWhenHit,DC_WINKCHARM,1,getrandomoptinfo(ROA_VALUE)*10,0;
+- Id: 512
+  FriendlyName: V1_Chill resist (Transferable)
+  Option: V1_CHILL_RESIST_TRANSFERABLE
+  Transferable: true
+  Stackable: true
+  Description: '[Chill resistance +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Chill,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 513
+  FriendlyName: V1_Poison resist (Transferable)
+  Option: V1_POISON_RESIST_TRANSFERABLE
+  Transferable: true
+  Stackable: true
+  Description: '[Poison resist +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Poison,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 514
+  FriendlyName: V1_Lose MDEF / Gain MATK
+  Option: V1_LOSE_MDEF__GAIN_MATK
+  Transferable: true
+  Stackable: false
+  Description: '[Lose all MDEF. For every 2 MDEF lost, gain +%d MATK.(UNIMPLEMENTED)]'
+  Done: false
+  Script: |-
+    ;
+- Id: 515
+  FriendlyName: V1_Max HP + Max SP Abs.
+  Option: V1_MAX_HP__MAX_SP_ABS
+  Transferable: false
+  Stackable: true
+  Description: Max HP +%d / Increase Max SP by half that
+  Done: true
+  Script: |-
+    bonus bMaxHP,getrandomoptinfo(ROA_VALUE);bonus bMaxSP,getrandomoptinfo(ROA_VALUE)/2;
+- Id: 516
+  FriendlyName: V1_Resist vs Small size
+  Option: V1_RESIST_VS_SMALL_SIZE
+  Transferable: false
+  Stackable: true
+  Description: Resist vs Small size +%d%%
+  Done: true
+  Script: |
+    bonus2 bSubSize,Size_Small,getrandomoptinfo(ROA_VALUE);
+- Id: 517
+  FriendlyName: V1_Max HP Abs + Soft Def Abs
+  Option: V1_MAX_HP_ABS__SOFT_DEF_ABS
+  Transferable: false
+  Stackable: true
+  Description: Max HP & Soft DEF +%d
+  Done: true
+  Script: |-
+    bonus bMaxHP,getrandomoptinfo(ROA_VALUE);
+    bonus bDef2,getrandomoptinfo(ROA_VALUE)/2;
+- Id: 518
+  FriendlyName: V1_Bleeding / Stun when attacked
+  Option: V1_BLEEDING__STUN_WHEN_ATTACKED
+  Transferable: false
+  Stackable: true
+  Description: When hit, inflict Bleeding / Stun +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffWhenHit,Eff_Bleeding,getrandomoptinfo(ROA_VALUE)*100,ATF_TARGET;bonus3 bAddEffWhenHit,Eff_Stun,getrandomoptinfo(ROA_VALUE)*100,ATF_TARGET;
+  Labels:
+  - Bleeding
+- Id: 519
+  FriendlyName: V1_Stun & Bleeding Rates
+  Option: V1_STUN__BLEEDING_RATES
+  Transferable: true
+  Stackable: true
+  Description: '[Increase success rates of Stun & Bleeding by +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bStatusEffRate,SC_BLEEDING,getrandomoptinfo(ROA_VALUE);
+    bonus2 bStatusEffRate,SC_STUN,getrandomoptinfo(ROA_VALUE);
+- Id: 520
+  FriendlyName: V1_Shield Skill damage vs Stunned / Bleeding
+  Option: V1_SHIELD_SKILL_DAMAGE_VS_STUNNED__BLEEDING
+  Transferable: false
+  Stackable: true
+  Description: Shield skills deal +%d%% damage vs Stunned / Bleeding targets
+  Done: true
+  Script: |-
+    bonus2 bShieldSkillEffMod,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+    bonus2 bShieldSkillEffMod,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+- Id: 521
+  FriendlyName: V1_Stun & Bleeding Extension
+  Option: V1_STUN__BLEEDING_EXTENSION
+  Transferable: true
+  Stackable: true
+  Description: '[When inflicting Stun or Bleeding on a target already afflicted, extend timer by +%d base second(s)]'
+  Done: true
+  Script: |-
+    bonus2 bStatusExtension,Eff_Stun,getrandomoptinfo(ROA_VALUE)*1000;
+    bonus2 bStatusExtension,Eff_Bleeding,getrandomoptinfo(ROA_VALUE)*1000;
+- Id: 522
+  FriendlyName: V1_Life Leech vs Bleeding
+  Option: V1_LIFE_LEECH_VS_BLEEDING
+  Transferable: false
+  Stackable: true
+  Description: Life Leech +%d%% vs Bleeding enemies
+  Done: true
+  Script: |-
+    bonus2 bLifeLeechStatus,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+- Id: 523
+  FriendlyName: V1_Lose Lucky Dodge / Gain Flee
+  Option: V1_LOSE_LUCKY_DODGE__GAIN_FLEE
+  Transferable: true
+  Stackable: false
+  Description: '[Lose all Lucky Dodge. For every 2 Lucky Dodge lost, gain +%d Flee.(UNIMPLEMENTED)]'
+  Done: false
+  Script: |-
+    ;
+- Id: 524
+  FriendlyName: V1_Flee + Flee reflect 75 (33%)
+  Option: V1_FLEE__FLEE_REFLECT_75_33
+  Transferable: false
+  Stackable: true
+  Description: Flee +%d / Fleeing has a +33%% chance to reflect 75%% damage
+  Done: true
+  Script: |-
+    bonus bEvadeReflectDamage,75;
+    bonus bEvadeReflectRate,330;
+    bonus bFlee,getrandomoptinfo(ROA_VALUE);
+- Id: 525
+  FriendlyName: V1_Nullify ranged physical damage
+  Option: V1_NULLIFY_RANGED_PHYSICAL_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Nullify ranged weapon damage +%d%%
+  Done: true
+  Script: |-
+    bonus bNoRangedDamage,getrandomoptinfo(ROA_VALUE);
+- Id: 526
+  FriendlyName: V1_Inc STR/DEX/LUK + Reduce INT/VIT/AGI
+  Option: V1_INC_STRDEXLUK__REDUCE_INTVITAGI
+  Transferable: false
+  Stackable: true
+  Description: Gain +%d STR/DEX/LUK & lose that much INT/AGI/VIT
+  Done: true
+  Script: |-
+    bonus bStr,getrandomoptinfo(ROA_VALUE);
+    bonus bDex,getrandomoptinfo(ROA_VALUE);
+    bonus bLuk,getrandomoptinfo(ROA_VALUE);
+    bonus bVit,-(getrandomoptinfo(ROA_VALUE));
+    bonus bAgi,-(getrandomoptinfo(ROA_VALUE));
+    bonus bLuk,-(getrandomoptinfo(ROA_VALUE));
+- Id: 527
+  FriendlyName: V1_Gain 1 DEX for every X AGI
+  Option: V1_GAIN_1_DEX_FOR_EVERY_X_AGI
+  Transferable: true
+  Stackable: false
+  Description: '[Gain 1 DEX for every %d AGI (UNIMPLEMENTED).]'
+  Done: false
+  Script: |-
+    ;
+- Id: 528
+  FriendlyName: V1_Gain 1 STR for every X VIT
+  Option: V1_GAIN_1_STR_FOR_EVERY_X_VIT
+  Transferable: false
+  Stackable: false
+  Description: Gain 1 STR for every %d VIT
+  Done: false
+  Script: |-
+    ;
+- Id: 529
+  FriendlyName: V1_Gain 1 INT for every X DEX
+  Option: V1_GAIN_1_INT_FOR_EVERY_X_DEX
+  Transferable: false
+  Stackable: false
+  Description: Gain 1 INT for every %d DEX
+  Done: false
+  Script: |-
+    ;
+- Id: 530
+  FriendlyName: V1_Gain 1 STR for every X AGI
+  Option: V1_GAIN_1_STR_FOR_EVERY_X_AGI
+  Transferable: false
+  Stackable: false
+  Description: Gain 1 STR for every %d AGI
+  Done: false
+  Script: |-
+    ;
+- Id: 531
+  FriendlyName: V1_Gain 1 INT for every X AGI
+  Option: V1_GAIN_1_INT_FOR_EVERY_X_AGI
+  Transferable: false
+  Stackable: true
+  Description: Gain 1 INT for every %d AGI
+  Done: true
+  Script: |-
+    ;
+- Id: 532
+  FriendlyName: V1_Gain 1 INT for every X VIT
+  Option: V1_GAIN_1_INT_FOR_EVERY_X_VIT
+  Transferable: true
+  Stackable: false
+  Description: '[Gain 1 INT for every %d VIT (UNIMPLEMENTED).]'
+  Done: false
+  Script: |-
+    ;
+- Id: 533
+  FriendlyName: V1_Gain 1 STR for every X INT
+  Option: V1_GAIN_1_STR_FOR_EVERY_X_INT
+  Transferable: false
+  Stackable: false
+  Description: Gain 1 STR for every %d INT
+  Done: false
+  Script: |-
+    ;
+- Id: 534
+  FriendlyName: V1_Gain 1 STR for every X DEX
+  Option: V1_GAIN_1_STR_FOR_EVERY_X_DEX
+  Transferable: false
+  Stackable: false
+  Description: Gain 1 STR for every %d DEX
+  Done: false
+  Script: |-
+    ;
+- Id: 535
+  FriendlyName: V1_Gain 1 DEX for every X VIT
+  Option: V1_GAIN_1_DEX_FOR_EVERY_X_VIT
+  Transferable: true
+  Stackable: false
+  Description: '[Gain 1 DEX for every %d VIT (UNIMPLEMENTED).]'
+  Done: false
+  Script: |-
+    ;
+- Id: 536
+  FriendlyName: V1_Lucky Dodges give 'Find Me'
+  Option: V1_LUCKY_DODGES_GIVE_FIND_ME
+  Transferable: true
+  Stackable: false
+  Description: '[+%d%% chance to gain Find Me on Lucky Dodge.]'
+  Done: true
+  Script: |-
+    bonus bLuckyDodgesGiveFindMe,getrandomoptinfo(ROA_VALUE);
+- Id: 537
+  FriendlyName: V1_Spirit Spheres increase Hit
+  Option: V1_SPIRIT_SPHERES_INCREASE_HIT
+  Transferable: false
+  Stackable: true
+  Description: Spirit Spheres increase your HIT by +%d
+  Done: false
+  Script: |-
+    ;
+- Id: 538
+  FriendlyName: V1_Spirit Sphere increase Flee
+  Option: V1_SPIRIT_SPHERE_INCREASE_FLEE
+  Transferable: true
+  Stackable: false
+  Description: '[Spirit Spheres increase your Flee by +%d.]'
+  Done: true
+  Script: |-
+    bonus bSpiritSphereIncreaseFlee,getrandomoptinfo(ROA_VALUE);
+- Id: 539
+  FriendlyName: V1_Spirit Sphere increase Crit
+  Option: V1_SPIRIT_SPHERE_INCREASE_CRIT
+  Transferable: true
+  Stackable: false
+  Description: '[Spirit Spheres increase your Crit by +%d.]'
+  Done: true
+  Script: |-
+    bonus bSpiritSphereIncreaseCrit,getrandomoptinfo(ROA_VALUE);
+- Id: 540
+  FriendlyName: V1_Spirit Sphere Reduce DEF / Inc ATK
+  Option: V1_SPIRIT_SPHERE_REDUCE_DEF__INC_ATK
+  Transferable: true
+  Stackable: false
+  Description: '[Spirit Spheres reduce DEF by 1 and increase ATK by an additional %d.]'
+  Done: false
+  Script: |-
+    ;
+- Id: 541
+  FriendlyName: V1_Spirit Sphere increase Crit ATK
+  Option: V1_SPIRIT_SPHERE_INCREASE_CRIT_ATK
+  Transferable: true
+  Stackable: false
+  Description: '[Spirit Spheres increase your Crit ATK by +%d.]'
+  Done: true
+  Script: |-
+    bonus bSpiritSphereIncreaseCritAtk,getrandomoptinfo(ROA_VALUE);
+- Id: 544
+  FriendlyName: V1_Life Leech vs Poison
+  Option: V1_LIFE_LEECH_VS_POISON
+  Transferable: false
+  Stackable: true
+  Description: Life Leech +%d%% vs Poisoned & Deadly Poisoned targets
+  Done: true
+  Script: |-
+    bonus2 bLifeLeechStatus,Eff_Poison,getrandomoptinfo(ROA_VALUE);
+    bonus2 bLifeLeechStatus,Eff_DPoison,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+- Id: 545
+  FriendlyName: V1_Life Leech effect enhancement
+  Option: V1_LIFE_LEECH_EFFECT_ENHANCEMENT
+  Transferable: false
+  Stackable: true
+  Description: Life Leech effectiveness +%d%%
+  Done: true
+  Script: |-
+    bonus bLifeLeechEnhance,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - HP
+- Id: 547
+  FriendlyName: V1_Damage w/ Wind
+  Option: V1_DAMAGE_W_WIND
+  Transferable: false
+  Stackable: true
+  Description: Wind damage +%d%%
+  Done: true
+  Script: |
+    bonus2 bAllAtkEle,Ele_Wind,getrandomoptinfo(ROA_VALUE);
+- Id: 548
+  FriendlyName: V1_Crit rate vs Stunned enemies
+  Option: V1_CRIT_RATE_VS_STUNNED_ENEMIES
+  Transferable: false
+  Stackable: true
+  Description: Crit rate vs Stunned targets +%d%%
+  Done: true
+  Script: |-
+    bonus2 bCritRateStatus,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+- Id: 549
+  FriendlyName: V1_Life Leech vs Critical Wounds
+  Option: V1_LIFE_LEECH_VS_CRITICAL_WOUNDS
+  Transferable: false
+  Stackable: true
+  Description: Life Leech +%d%% vs Critically Wounded enemies
+  Done: true
+  Script: |-
+    bonus2 bLifeLeechStatus,Eff_CriticalWound,getrandomoptinfo(ROA_VALUE);
+- Id: 550
+  FriendlyName: V1_Blind / Poison pierce stat resistance
+  Option: V1_BLIND__POISON_PIERCE_STAT_RESISTANCE
+  Transferable: true
+  Stackable: true
+  Description: "[Blind, Poison, and Deadly Poison inflictions pierce +%d%% of target's stat resistance]"
+  Done: true
+  Script: |-
+    bonus2 bPierceScDef,Eff_Blind,getrandomoptinfo(ROA_VALUE);
+    bonus2 bPierceScDef,Eff_Poison,getrandomoptinfo(ROA_VALUE);
+    bonus2 bPierceScDef,Eff_DPoison,getrandomoptinfo(ROA_VALUE);
+- Id: 551
+  FriendlyName: V1_Spirit Sphere increase Flee & Lucky Dodge
+  Option: V1_SPIRIT_SPHERE_INCREASE_FLEE__LUCKY_DODGE
+  Transferable: true
+  Stackable: true
+  Description: '[Spirit Spheres increase your Flee by +%d, and your Lucky Dodge by half that.]'
+  Done: true
+  Script: |-
+    bonus bSpiritSphereIncreaseFlee,getrandomoptinfo(ROA_VALUE);
+    bonus bSpiritSphereIncreaseLuckyDodge,getrandomoptinfo(ROA_VALUE)/2;
+- Id: 552
+  FriendlyName: V1_Spirit Sphere increase Crit & Crit ATK
+  Option: V1_SPIRIT_SPHERE_INCREASE_CRIT__CRIT_ATK
+  Transferable: true
+  Stackable: false
+  Description: '[Spirit Spheres increase your Crit & Crit ATK by +%d.]'
+  Done: true
+  Script: |-
+    bonus bSpiritSphereIncreaseCrit,getrandomoptinfo(ROA_VALUE);
+    bonus bSpiritSphereIncreaseCritAtk,getrandomoptinfo(ROA_VALUE);
+- Id: 553
+  FriendlyName: V1_Dash increases Flee
+  Option: V1_DASH_INCREASES_FLEE
+  Transferable: true
+  Stackable: false
+  Description: "[Gain +%d%% Flee while under 'Dash'.]"
+  Done: true
+  Script: |-
+    bonus bDashIncFlee,getrandomoptinfo(ROA_VALUE);
+- Id: 554
+  FriendlyName: V1_Convert Bleeding dmg bonus to Shock dmg bonus
+  Option: V1_CONVERT_BLEEDING_DMG_BONUS_TO_SHOCK_DMG_BONUS
+  Transferable: true
+  Stackable: false
+  Description: '[Your bonuses that increase weapon damage vs Bleeding targets now increase weapon damage vs Shocked targets instead.]'
+  Done: false
+  Script: |-
+    ;
+- Id: 555
+  FriendlyName: V1_Crit rate
+  Option: V1_CRIT_RATE
+  Transferable: false
+  Stackable: true
+  Description: Crit rate +%d%%
+  Done: true
+  Script: |-
+    bonus bCriticalRate,getrandomoptinfo(ROA_VALUE);
+- Id: 556
+  FriendlyName: V1_Double Attacks inflict Bleeding & Critical Wounds
+  Option: V1_DOUBLE_ATTACKS_INFLICT_BLEEDING__CRITICAL_WOUNDS
+  Transferable: false
+  Stackable: true
+  Description: Double Attacks inflict Bleeding +%d%% / Critical Wounds at half that rate
+  Done: true
+  Script: |-
+    bonus2 bDoubleAtkAddEff,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+    bonus2 bDoubleAtkAddEff,Eff_CriticalWounds,getrandomoptinfo(ROA_VALUE)/2;
+  Labels:
+  - Bleeding
+- Id: 557
+  FriendlyName: V1_Add Weapon Weight
+  Option: V1_ADD_WEAPON_WEIGHT
+  Transferable: false
+  Stackable: true
+  Description: Weapon battle weight +%d
+  Done: false
+  Script: |-
+    bonus bWeaponBattleWeight,getrandomoptinfo(ROA_VALUE);
+    //boilerplate done but needs implementation
+- Id: 558
+  FriendlyName: V1_Ranged attacks AutoSpell AC_DOUBLE
+  Option: V1_RANGED_ATTACKS_AUTOSPELL_AC_DOUBLE
+  Transferable: false
+  Stackable: true
+  Description: Ranged weapon attacks auto spell Double Strafing +%d%% at half known level (min 1)
+  Done: true
+  Script: |-
+    .@lvl = getskilllv(AC_DOUBLE)/2;
+    if (.@lvl < 1) {
+        .@lvl = 1;
+    } 
+    bonus5 bAutoSpell,AC_DOUBLE,.@lvl,getrandomoptinfo(ROA_VALUE)*10,BF_LONG,1;
+- Id: 559
+  FriendlyName: V1_Ranged attacks AutoSpell AC_CHARGEARROW
+  Option: V1_RANGED_ATTACKS_AUTOSPELL_AC_CHARGEARROW
+  Transferable: false
+  Stackable: true
+  Description: Ranged weapon attacks auto spell Charge Arrow +%d%%
+  Done: true
+  Script: |-
+    bonus5 bAutoSpell,AC_CHARGEARROW,1,getrandomoptinfo(ROA_VALUE)*10,BF_LONG,1;
+- Id: 560
+  FriendlyName: V1_Ranged attacks AutoSpell AL_DECAGI
+  Option: V1_RANGED_ATTACKS_AUTOSPELL_AL_DECAGI
+  Transferable: false
+  Stackable: true
+  Description: Ranged weapon attacks auto spell Decrease Agility +%d%% at half known level (min 1)
+  Done: true
+  Script: |-
+    .@lvl = getskilllv(AL_DECAGI)/2;
+    if (.@lvl < 1) {
+        .@lvl = 1;
+    }
+    bonus5 bAutoSpell,AL_DECAGI,1,getrandomoptinfo(ROA_VALUE)*10,BF_LONG,1;
+- Id: 561
+  FriendlyName: V1_Plunder Aura
+  Option: V1_PLUNDER_AURA
+  Transferable: false
+  Stackable: true
+  Description: Magnetic Loot Range +%d
+  Done: true
+  Script: |-
+    bonus bPlunderAura,getrandomoptinfo(ROA_VALUE);
+- Id: 562
+  FriendlyName: V1_AGI & Plunder Aura
+  Option: V1_AGI__PLUNDER_AURA
+  Transferable: false
+  Stackable: true
+  Description: AGI & Magnetic Loot Range +%d
+  Done: true
+  Script: |-
+    bonus bPlunderAura,getrandomoptinfo(ROA_VALUE);
+    bonus bAgi,getrandomoptinfo(ROA_VALUE);
+- Id: 563
+  FriendlyName: V1_Life Leech on Crit
+  Option: V1_LIFE_LEECH_ON_CRIT
+  Transferable: false
+  Stackable: true
+  Description: Crits give +%d%% Life Leech
+  Done: true
+  Script: |-
+    bonus bLifeLeechCrit,getrandomoptinfo(ROA_VALUE);
+- Id: 564
+  FriendlyName: V1_Crits autospell AC_DOUBLE
+  Option: V1_CRITS_AUTOSPELL_AC_DOUBLE
+  Transferable: false
+  Stackable: true
+  Description: Crits autospell known Double Strafing +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnCrit,AC_DOUBLE,getskilllv(AC_DOUBLE),getrandomoptinfo(ROA_VALUE)*10,1;
+- Id: 565
+  FriendlyName: V1_Ranged Attacks increase ASPD
+  Option: V1_RANGED_ATTACKS_INCREASE_ASPD
+  Transferable: true
+  Stackable: false
+  Description: '[Ranged auto attacks have a +%d%% chance to increase ASPD by 7%% for 5 seconds.]'
+  Done: true
+  Script: |-
+    bonus bRangedAttacksIncreaseAspd,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 566
+  FriendlyName: V1_Ranged damage vs immobilized targets
+  Option: V1_RANGED_DAMAGE_VS_IMMOBILIZED_TARGETS
+  Transferable: false
+  Stackable: true
+  Description: Ranged weapon damage +%d%% against immobilized targets
+  Done: true
+  Script: |-
+    bonus bRangedDamageVsImmobilizedTargets,getrandomoptinfo(ROA_VALUE);
+- Id: 567
+  FriendlyName: V1_Crits inflict Poison
+  Option: V1_CRITS_INFLICT_POISON
+  Transferable: false
+  Stackable: true
+  Description: Crits inflict Poison +%d%%
+  Done: true
+  Script: |-
+    bonus2 bCritInflictSc,Eff_Poison,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+- Id: 568
+  FriendlyName: V1_Ignore Def vs Blinded Target
+  Option: V1_IGNORE_DEF_VS_BLINDED_TARGET
+  Transferable: false
+  Stackable: true
+  Description: Ignore %d%% DEF of Blinded targets
+  Done: true
+  Script: |-
+    bonus2 bIgnoreDefStatus,Eff_Blind,getrandomoptinfo(ROA_VALUE);
+- Id: 569
+  FriendlyName: V1_Double Attacks autospell half known AC_DOUBLE
+  Option: V1_DOUBLE_ATTACKS_AUTOSPELL_HALF_KNOWN_AC_DOUBLE
+  Transferable: false
+  Stackable: true
+  Description: Double Attacks autospell Double Strafing at half known level (min 1) +%d%%
+  Done: true
+  Script: |-
+    .@lvl = getskilllv(AC_DOUBLE)/2;
+    if (.@lvl < 1) {
+        .@lvl = 1;
+    }
+    bonus4 bAutoSpellOnDoubleAttack,AC_DOUBLE,.@lvl,getrandomoptinfo(ROA_VALUE)*10,1;
+- Id: 570
+  FriendlyName: V1_MATK Rate + Inc Skill SP Costs
+  Option: V1_MATK_RATE__INC_SKILL_SP_COSTS
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% / Increase SP cost of skills by double that
+  Done: true
+  Script: |
+    bonus bMatkRate,getrandomoptinfo(ROA_VALUE);
+    bonus bUseSPrate,-(getrandomoptinfo(ROA_VALUE))*2;
+  Labels:
+  - MATK
+- Id: 571
+  FriendlyName: V1_Crits inflict Chill
+  Option: V1_CRITS_INFLICT_CHILL
+  Transferable: false
+  Stackable: true
+  Description: Crits inflict Chill +%d%%
+  Done: true
+  Script: |-
+    bonus2 bCritInflictSc,Eff_Chill,getrandomoptinfo(ROA_VALUE);
+- Id: 572
+  FriendlyName: V1_Reduce Cast times & SP costs
+  Option: V1_REDUCE_CAST_TIMES__SP_COSTS
+  Transferable: false
+  Stackable: true
+  Description: Cast times -%d%% / Reduce SP costs by 2x that
+  Done: true
+  Script: |
+    bonus bCastrate,-(getrandomoptinfo(ROA_VALUE)*10);
+    bonus bUseSPrate,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Cast time
+  - Priority
+- Id: 573
+  FriendlyName: V1_Standing on SA_DELUGE gives Water armor
+  Option: V1_STANDING_ON_SA_DELUGE_GIVES_WATER_ARMOR
+  Transferable: true
+  Stackable: false
+  Description: '[Armor is Water element on top of Deluge]'
+  Done: false
+  Script: |-
+    ;
+- Id: 574
+  FriendlyName: V1_Standing on SA_VOLCANO gives Fire armor
+  Option: V1_STANDING_ON_SA_VOLCANO_GIVES_FIRE_ARMOR
+  Transferable: true
+  Stackable: true
+  Description: '[Armor is Fire element on top of Volcano]'
+  Done: false
+  Script: |-
+    ;
+- Id: 575
+  FriendlyName: V1_Standing on SA_VIOLENTGALE gives Wind armor
+  Option: V1_STANDING_ON_SA_VIOLENTGALE_GIVES_WIND_ARMOR
+  Transferable: true
+  Stackable: true
+  Description: '[Armor is Wind element on top of Violent Gale]'
+  Done: false
+  Script: |-
+    ;
+- Id: 576
+  FriendlyName: V1_Cast times / Magical Wind & Water damage
+  Option: V1_CAST_TIMES__MAGICAL_WIND__WATER_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Cast times -/Magical Wind damage +/Magical Water damage +%d%%
+  Done: true
+  Script: |-
+    bonus bCastrate,-(getrandomoptinfo(ROA_VALUE));
+    bonus2 bMagicAtkEle,Ele_Wind,getrandomoptinfo(ROA_VALUE);
+    bonus2 bMagicAtkEle,Ele_Water,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Cast time
+  - Priority
+- Id: 577
+  FriendlyName: V1_Magic dmg w/ Wind spells & half Water
+  Option: V1_MAGIC_DMG_W_WIND_SPELLS__HALF_WATER
+  Transferable: false
+  Stackable: true
+  Description: Magical Wind damage +%d%% / Magical Water damage increases by half that
+  Done: true
+  Script: |-
+    bonus2 bMagicAtkEle,Ele_Wind,getrandomoptinfo(ROA_VALUE);
+    bonus2 bMagicAtkEle,Ele_Water,getrandomoptinfo(ROA_VALUE)/2;
+- Id: 578
+  FriendlyName: V1_Magic dmg w/ Water spells & half Wind
+  Option: V1_MAGIC_DMG_W_WATER_SPELLS__HALF_WIND
+  Transferable: false
+  Stackable: true
+  Description: Magical Water damage +%d%% / Magical Wind damage increases by half that
+  Done: true
+  Script: |-
+    bonus2 bMagicAtkEle,Ele_Water,getrandomoptinfo(ROA_VALUE);
+    bonus2 bMagicAtkEle,Ele_Wind,getrandomoptinfo(ROA_VALUE)/2;
+- Id: 579
+  FriendlyName: V1_Burning Duration
+  Option: V1_BURNING_DURATION
+  Transferable: true
+  Stackable: true
+  Description: '[Burning duration +%d%%]'
+  Done: false
+  Script: |-
+    ;
+- Id: 580
+  FriendlyName: V1_Magic dmg w/ Fire spells & SP costs
+  Option: V1_MAGIC_DMG_W_FIRE_SPELLS__SP_COSTS
+  Transferable: false
+  Stackable: true
+  Description: Magical Fire damage +%d%% / Increase skill SP costs by twice that
+  Done: true
+  Script: |
+    bonus2 bMagicAtkEle,Ele_Fire,getrandomoptinfo(ROA_VALUE);
+    bonus bUseSPrate,-getrandomoptinfo(ROA_VALUE);
+- Id: 581
+  FriendlyName: V1_Magic dmg w/ Earth spells & SP costs
+  Option: V1_MAGIC_DMG_W_EARTH_SPELLS__SP_COSTS
+  Transferable: false
+  Stackable: true
+  Description: Skill SP cost +/Magical Earth damage +%d%%
+  Done: true
+  Script: |
+    bonus2 bMagicAtkEle,Ele_Earth,getrandomoptinfo(ROA_VALUE);
+    bonus bUseSPrate,-getrandomoptinfo(ROA_VALUE);
+- Id: 582
+  FriendlyName: V1_Cast times / Magical Fire & Earth damage + Inc SP Costs
+  Option: V1_CAST_TIMES__MAGICAL_FIRE__EARTH_DAMAGE__INC_SP_COSTS
+  Transferable: false
+  Stackable: true
+  Description: Cast times -/Magical Fire damage +/Magical Earth damage +%d%% / Increase SP Costs by twice that
+  Done: true
+  Script: |-
+    .@bonus = getrandomoptinfo(ROA_VALUE);
+    bonus bCastrate,-(.@bonus);
+    bonus2 bMagicAtkEle,Ele_Fire,.@bonus;
+    bonus2 bMagicAtkEle,Ele_Earth,.@bonus;
+    bonus bUseSPrate,-(.@bonus*2);
+  Labels:
+  - Cast time
+  - Priority
+- Id: 583
+  FriendlyName: V1_Reduce Cast times & Inc SP costs
+  Option: V1_REDUCE_CAST_TIMES__INC_SP_COSTS
+  Transferable: false
+  Stackable: true
+  Description: Cast times -%d%% / Increase SP costs by 2x the cast time reduction
+  Done: true
+  Script: |
+    bonus bCastrate,-(getrandomoptinfo(ROA_VALUE));
+    bonus bUseSPrate,-getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Cast time
+  - Priority
+- Id: 584
+  FriendlyName: V1_Stone Curse skips SC_STONEWAIT
+  Option: V1_STONE_CURSE_SKIPS_SC_STONEWAIT
+  Transferable: false
+  Stackable: true
+  Description: Stone Curse skips the Stone Wait status
+  Done: false
+  Script: |-
+    ;
+- Id: 585
+  FriendlyName: V1_Stone Curse Earth Level
+  Option: V1_STONE_CURSE_EARTH_LEVEL
+  Transferable: true
+  Stackable: false
+  Description: "[Stone Curse'd enemies convert to Earth Lv%d.]"
+  Done: true
+  Script: |-
+    bonus bStoneLevel,getrandomoptinfo(ROA_VALUE);
+- Id: 586
+  FriendlyName: V1_Stone Curse resist (transferable)
+  Option: V1_STONE_CURSE_RESIST_TRANSFERABLE
+  Transferable: true
+  Stackable: true
+  Description: '[Stone Curse resistance +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Stone,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 587
+  FriendlyName: V1_Magic damage vs Sleeping
+  Option: V1_MAGIC_DAMAGE_VS_SLEEPING
+  Transferable: false
+  Stackable: true
+  Description: Magic damage vs Sleeping +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffMod,Eff_Sleep,getrandomoptinfo(ROA_VALUE),BF_MAGIC;
+- Id: 588
+  FriendlyName: V1_Sleep resist (transferable)
+  Option: V1_SLEEP_RESIST_TRANSFERABLE
+  Transferable: true
+  Stackable: true
+  Description: '[Sleep resistance +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Sleep,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 589
+  FriendlyName: V1_Skill SP Costs + Max SP Abs
+  Option: V1_SKILL_SP_COSTS__MAX_SP_ABS
+  Transferable: false
+  Stackable: true
+  Description: Max SP +%d / Reduce skill SP costs by a percentage equal to half the Max SP bonus
+  Done: true
+  Script: |
+    bonus bUseSPrate,getrandomoptinfo(ROA_VALUE)/2;
+    bonus bMaxSP,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Skill SP Costs
+- Id: 590
+  FriendlyName: V1_Reduce Cast times & SP costs (-2x)
+  Option: V1_REDUCE_CAST_TIMES__SP_COSTS_2X
+  Transferable: false
+  Stackable: true
+  Description: Cast times -%d%% / Reduce SP costs by 2x that
+  Done: true
+  Script: |
+    bonus bCastrate,-(getrandomoptinfo(ROA_VALUE));
+    bonus bUseSPrate,getrandomoptinfo(ROA_VALUE)*2;
+  Labels:
+  - Cast time
+  - Priority
+- Id: 591
+  FriendlyName: V1_Silence resist (transferable)
+  Option: V1_SILENCE_RESIST_TRANSFERABLE
+  Transferable: true
+  Stackable: true
+  Description: '[Silence resistance +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Silence,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 592
+  FriendlyName: V1_Damage vs Fiends
+  Option: V1_DAMAGE_VS_FIENDS
+  Transferable: false
+  Stackable: true
+  Description: Damage vs Fiends +%d%%
+  Done: true
+  Script: |-
+    bonus2 bMagicAddRace,RC_UNDEAD,getrandomoptinfo(ROA_VALUE);
+    bonus2 bMagicAddRace,RC_ANGEL,getrandomoptinfo(ROA_VALUE);
+    bonus2 bMagicAddRace,RC_DEMON,getrandomoptinfo(ROA_VALUE);
+    bonus2 bAddRace,RC_UNDEAD,getrandomoptinfo(ROA_VALUE);
+    bonus2 bAddRace,RC_ANGEL,getrandomoptinfo(ROA_VALUE);
+    bonus2 bAddRace,RC_DEMON,getrandomoptinfo(ROA_VALUE);
+- Id: 593
+  FriendlyName: V1_Strawberry Heal
+  Option: V1_STRAWBERRY_HEAL
+  Transferable: true
+  Stackable: true
+  Description: '[Strawberry SP Recovery +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bAddItemHealRate,$@Strawberry,getrandomoptinfo(ROA_VALUE);
+- Id: 594
+  FriendlyName: V1_Spirit Sphere on attack
+  Option: V1_SPIRIT_SPHERE_ON_ATTACK
+  Transferable: true
+  Stackable: true
+  Description: '[Auto attacks summon a Spirit Sphere +%d%%]'
+  Done: true
+  Script: |-
+    bonus bSpiritSphereAutoAttack,getrandomoptinfo(ROA_VALUE);
+- Id: 595
+  FriendlyName: V1_Ignore Def vs Stunned Target
+  Option: V1_IGNORE_DEF_VS_STUNNED_TARGET
+  Transferable: false
+  Stackable: true
+  Description: Ignore %d%% DEF of Stunned targets
+  Done: true
+  Script: |-
+    bonus2 bIgnoreDefStatus,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+- Id: 596
+  FriendlyName: V1_Healing Power + Restoration
+  Option: V1_HEALING_POWER__RESTORATION
+  Transferable: false
+  Stackable: true
+  Description: Heal Power & Restoration +%d%%
+  Done: true
+  Script: |-
+    bonus bRestoration,getrandomoptinfo(ROA_VALUE);
+    bonus bHealPower,getrandomoptinfo(ROA_VALUE);
+- Id: 597
+  FriendlyName: V1_Healing Power + Restoration + SP Costs
+  Option: V1_HEALING_POWER__RESTORATION__SP_COSTS
+  Transferable: false
+  Stackable: true
+  Description: Heal Power & Restoration +%d%%
+  Done: true
+  Script: |-
+    bonus bRestoration,getrandomoptinfo(ROA_VALUE);
+    bonus bHealPower,getrandomoptinfo(ROA_VALUE);
+    bonus bUseSPrate,getrandomoptinfo(ROA_VALUE);
+- Id: 598
+  FriendlyName: V1_Silence converts Bleeding -> Critical Wounds
+  Option: V1_SILENCE_CONVERTS_BLEEDING__CRITICAL_WOUNDS
+  Transferable: true
+  Stackable: false
+  Description: '[When you silence a Bleeding target, inflict Critical Wounds.]'
+  Done: true
+  Script: |-
+    bonus bSilenceConvertsBleedingCriticalWounds,1;
+- Id: 599
+  FriendlyName: V1_Stun pierces stat resistance
+  Option: V1_STUN_PIERCES_STAT_RESISTANCE
+  Transferable: true
+  Stackable: true
+  Description: "[Stun inflictions pierce +%d%% of target's stat resistance]"
+  Done: true
+  Script: |-
+    bonus2 bPierceScDef,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+- Id: 600
+  FriendlyName: V1_Magic damage vs Silence
+  Option: V1_MAGIC_DAMAGE_VS_SILENCE
+  Transferable: false
+  Stackable: true
+  Description: Magic damage vs Silenced +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffMod,Eff_Silence,getrandomoptinfo(ROA_VALUE),BF_MAGIC;
+- Id: 601
+  FriendlyName: V1_Critical Wounds STR+INT damage
+  Option: V1_CRITICAL_WOUNDS_STRINT_DAMAGE
+  Transferable: true
+  Stackable: false
+  Description: '[Critical Wounds damage formula swaps STR for (STR+INT)/2.]'
+  Done: true
+  Script: |-
+    bonus bCriticalWoundsStrintDamage,1;
+- Id: 602
+  FriendlyName: V1_Autospell Lv3 MG_FIREBOLT
+  Option: V1_AUTOSPELL_LV3_MG_FIREBOLT
+  Transferable: true
+  Stackable: true
+  Description: '[Autospell Lv3 Fire Bolt on attack +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAutoSpell,MG_FIREBOLT,3,getrandomoptinfo(ROA_VALUE)*10;
+- Id: 603
+  FriendlyName: V1_Autospell Lv3 MG_LIGHTNINGBOLT
+  Option: V1_AUTOSPELL_LV3_MG_LIGHTNINGBOLT
+  Transferable: true
+  Stackable: true
+  Description: '[Autospell Lv3 Lightning Bolt on attack +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAutoSpell,MG_LIGHTNINGBOLT,3,getrandomoptinfo(ROA_VALUE)*10;
+- Id: 604
+  FriendlyName: V1_Autospell Lv3 MG_COLDBOLT
+  Option: V1_AUTOSPELL_LV3_MG_COLDBOLT
+  Transferable: true
+  Stackable: true
+  Description: '[Autospell Lv3 Cold Bolt on attack +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAutoSpell,MG_COLDBOLT,3,getrandomoptinfo(ROA_VALUE)*10;
+- Id: 605
+  FriendlyName: V1_Autospell Lv3 MG_COLDBOLT / MG_LIGHTNINGBOLT
+  Option: V1_AUTOSPELL_LV3_MG_COLDBOLT__MG_LIGHTNINGBOLT
+  Transferable: true
+  Stackable: true
+  Description: '[Autospell Lv3 Lightning Bolt / Lv3 Cold Bolt on attack +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAutoSpell,MG_LIGHTNINGBOLT,3,getrandomoptinfo(ROA_VALUE)*10;
+    bonus3 bAutoSpell,MG_COLDBOLT,3,getrandomoptinfo(ROA_VALUE)*10;
+- Id: 606
+  FriendlyName: V1_Double Attacks autospell MG_FIREBALL at half known
+  Option: V1_DOUBLE_ATTACKS_AUTOSPELL_MG_FIREBALL_AT_HALF_KNOWN
+  Transferable: true
+  Stackable: true
+  Description: '[Double Attacks autospell Fire Ball at half known level +%d%% (min 1)]'
+  Done: true
+  Script: |-
+    .@lvl = getskilllv(MG_FIREBALL)/2;
+    if (.@lvl < 1) {
+        .@lvl = 1;
+    }
+    bonus4 bAutoSpellOnDoubleAttack,MG_FIREBALL,.@lvl,getrandomoptinfo(ROA_VALUE)*10,1;
+  Labels:
+  - T1
+  - Thief
+- Id: 607
+  FriendlyName: V1_Double Attacks autospell MG_FROSTDIVER
+  Option: V1_DOUBLE_ATTACKS_AUTOSPELL_MG_FROSTDIVER
+  Transferable: true
+  Stackable: true
+  Description: '[Double Attacks autospell known Frost Diver +%d%% (min 1)]'
+  Done: true
+  Script: |-
+    .@lvl = getskilllv(MG_FROSTDIVER)/2;
+    if (.@lvl < 1) {
+        .@lvl = 1;
+    }
+    bonus4 bAutoSpellOnDoubleAttack,MG_FROSTDIVER,.@lvl,getrandomoptinfo(ROA_VALUE)*10,1;
+  Labels:
+  - T1
+  - Thief
+- Id: 608
+  FriendlyName: V1_Double Attacks autospell Lv4 MG_SOULSTRIKE
+  Option: V1_DOUBLE_ATTACKS_AUTOSPELL_LV4_MG_SOULSTRIKE
+  Transferable: true
+  Stackable: true
+  Description: '[Double Attacks autospell Lv4 Soul Strike +%d%%]'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnDoubleAttack,MG_SOULSTRIKE,4,getrandomoptinfo(ROA_VALUE)*10,1;
+  Labels:
+  - T1
+  - Thief
+- Id: 609
+  FriendlyName: V1_Double Attacks autospell half known MG_FIREBOLT / MG_LIGHTNINGBOLT
+  Option: V1_DOUBLE_ATTACKS_AUTOSPELL_HALF_KNOWN_MG_FIREBOLT__MG_LIGHTNINGBOLT
+  Transferable: true
+  Stackable: true
+  Description: '[Double Attacks autospell half known Fire Bolt / Lightning Bolt +%d%% (min 1)]'
+  Done: true
+  Script: |-
+    .@lvl = getskilllv(MG_FIREBOLT)/2;
+    if (.@lvl < 1) {
+        .@lvl = 1;
+    }
+    bonus4 bAutoSpellOnDoubleAttack,MG_FIREBOLT,.@lvl,getrandomoptinfo(ROA_VALUE)*10,1;
+    .@lvl = getskilllv(MG_LIGHTNINGBOLT)/2;
+    if (.@lvl < 1) {
+        .@lvl = 1;
+    }
+    bonus4 bAutoSpellOnDoubleAttack,MG_LIGHTNINGBOLT,.@lvl,getrandomoptinfo(ROA_VALUE)*10,1;
+    .@lvl = getskilllv(MG_LIGHTNINGBOLT)/2;
+  Labels:
+  - T1
+  - Thief
+- Id: 610
+  FriendlyName: V1_Double Attacks autospell AL_DECAGI & AL_HOLYLIGHT
+  Option: V1_DOUBLE_ATTACKS_AUTOSPELL_AL_DECAGI__AL_HOLYLIGHT
+  Transferable: true
+  Stackable: true
+  Description: '[Double Attacks autospell Holy Light +/ Lv1 Decrease Agility +%d%%]'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnDoubleAttack,AL_DECAGI,1,getrandomoptinfo(ROA_VALUE)*10,1;
+    bonus4 bAutoSpellOnDoubleAttack,AL_HOLYLIGHT,1,getrandomoptinfo(ROA_VALUE)*10,1;
+- Id: 611
+  FriendlyName: V1_Double Attacks inflict Heat or Stone Curse
+  Option: V1_DOUBLE_ATTACKS_INFLICT_HEAT_OR_STONE_CURSE
+  Transferable: true
+  Stackable: true
+  Description: '[Double Attacks inflict Heat +%d%% / Stone Curse at half that rate]'
+  Done: true
+  Script: |-
+    bonus2 bDoubleAtkAddEff,Eff_Heat,getrandomoptinfo(ROA_VALUE);
+    bonus2 bDoubleAtkAddEff,Eff_Stone,getrandomoptinfo(ROA_VALUE)/2;
+  Labels:
+  - Bleeding
+- Id: 612
+  FriendlyName: V1_Double Attacks inflict Chill or Freeze
+  Option: V1_DOUBLE_ATTACKS_INFLICT_CHILL_OR_FREEZE
+  Transferable: true
+  Stackable: true
+  Description: '[Double Attacks inflict Chill +%d%% / Freeze at half that rate]'
+  Done: true
+  Script: |-
+    bonus2 bDoubleAtkAddEff,Eff_Chill,getrandomoptinfo(ROA_VALUE);
+    bonus2 bDoubleAtkAddEff,Eff_Freeze,getrandomoptinfo(ROA_VALUE)/2;
+  Labels:
+  - Bleeding
+- Id: 613
+  FriendlyName: V1_Lucky Dodges increase Crit
+  Option: V1_LUCKY_DODGES_INCREASE_CRIT
+  Transferable: false
+  Stackable: true
+  Description: Lucky Dodge gives Crit rate +%d%% for 5 seconds
+  Done: true
+  Script: |-
+    bonus bLuckyDodgeCritical,getrandomoptinfo(ROA_VALUE);
+- Id: 614
+  FriendlyName: V1_Resisting Silence inflicts Silence
+  Option: V1_RESISTING_SILENCE_INFLICTS_SILENCE
+  Transferable: false
+  Stackable: true
+  Description: When you resist Silence, inflict Silence +%d%%
+  Done: true
+  Script: |-
+    bonus2 bReflectResistedStatusEff,Eff_Silence,getrandomoptinfo(ROA_VALUE)*10;
+- Id: 615
+  FriendlyName: V1_Chill, heat, & shock rates
+  Option: V1_CHILL_HEAT__SHOCK_RATES
+  Transferable: false
+  Stackable: true
+  Description: Increase success rates of Chill, Heat, and Shock by +%d%%
+  Done: true
+  Script: |-
+    bonus2 bStatusEffRate,SC_CHILL,getrandomoptinfo(ROA_VALUE);
+    bonus2 bStatusEffRate,SC_HEAT,getrandomoptinfo(ROA_VALUE);
+    bonus2 bStatusEffRate,SC_SHOCK,getrandomoptinfo(ROA_VALUE);
+- Id: 616
+  FriendlyName: V1_Nullify trap except HT_SKIDTRAP
+  Option: V1_NULLIFY_TRAP_EXCEPT_HT_SKIDTRAP
+  Transferable: false
+  Stackable: true
+  Description: Nullify traps except Skid Trap +%d%%
+  Done: true
+  Script: |-
+    bonus bNullifyTrapEffect,getrandomoptinfo(ROA_VALUE);
+    bonus bAllowSkipTrapThroughNullify,1;
+- Id: 617
+  FriendlyName: V1_DEX & AGI
+  Option: V1_DEX__AGI
+  Transferable: false
+  Stackable: true
+  Description: DEX & AGI +%d
+  Done: true
+  Script: |
+    bonus bDex,getrandomoptinfo(ROA_VALUE);
+    bonus bAgi,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Base Stat
+  - Cast time
+  - DEX
+  - HIT
+- Id: 618
+  FriendlyName: V1_AutoSpell WZ_HEAVENDRIVE when attacked
+  Option: V1_AUTOSPELL_WZ_HEAVENDRIVE_WHEN_ATTACKED
+  Transferable: false
+  Stackable: true
+  Description: When hit, autospell Heaven's Drive Lv1 +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellWhenHit,WZ_HEAVENDRIVE,1,getrandomoptinfo(ROA_VALUE)*10,0;
+- Id: 619
+  FriendlyName: V1_Max HP & Max SP Rate
+  Option: V1_MAX_HP__MAX_SP_RATE
+  Transferable: true
+  Stackable: true
+  Description: '[Max HP & Max SP +%d%%]'
+  Done: false
+  Script: |-
+    ;
+- Id: 620
+  FriendlyName: V1_Gain dash after dispel
+  Option: V1_GAIN_DASH_AFTER_DISPEL
+  Transferable: true
+  Stackable: false
+  Description: "[Gain 'Dash' for %d seconds after you're dispel'd.]"
+  Done: true
+  Script: |-
+    bonus bDashAfterDispel,getrandomoptinfo(ROA_VALUE)*1000;
+- Id: 621
+  FriendlyName: V1_Spirit Sphere increase Move Speed
+  Option: V1_SPIRIT_SPHERE_INCREASE_MOVE_SPEED
+  Transferable: true
+  Stackable: true
+  Description: '[Spirit Spheres increase your Move Speed by +%d.]'
+  Done: true
+  Script: |-
+    bonus bSpiritSphereIncreaseMspeed,getrandomoptinfo(ROA_VALUE);
+- Id: 622
+  FriendlyName: V1_Spirit Spheres Capoeira
+  Option: V1_SPIRIT_SPHERES_CAPOEIRA
+  Transferable: true
+  Stackable: false
+  Description: '[When you have 5 Spirit Spheres, you have Capoeira.]'
+  Done: true
+  Script: |-
+    bonus bSpiritSphereCapoeira,1;
+- Id: 623
+  FriendlyName: V1_Ranged damage
+  Option: V1_RANGED_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Ranged physical damage +%d%%
+  Done: true
+  Script: |-
+    bonus bLongAtkRate,getrandomoptinfo(ROA_VALUE);
+- Id: 624
+  FriendlyName: V1_Weapon damage vs Midgardians / Double vs Dragon
+  Option: V1_WEAPON_DAMAGE_VS_MIDGARDIANS__DOUBLE_VS_DRAGON
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Midgardians +%d%% / Double bonus vs Dragons
+  Done: true
+  Script: |-
+    bonus2 bAddRace,RC_FORMLESS,getrandomoptinfo(ROA_VALUE);
+    bonus2 bAddRace,RC_DEMIHUMAN,getrandomoptinfo(ROA_VALUE);
+    bonus2 bAddRace,RC_DRAGON,getrandomoptinfo(ROA_VALUE)*2;
+- Id: 625
+  FriendlyName: V1_Resist vs Midgardian / Double vs Dragon
+  Option: V1_RESIST_VS_MIDGARDIAN__DOUBLE_VS_DRAGON
+  Transferable: false
+  Stackable: true
+  Description: Resist vs Midgardians +%d%% / Double bonus vs Dragons
+  Done: true
+  Script: |-
+    bonus2 bSubRace,RC_FORMLESS,getrandomoptinfo(ROA_VALUE);bonus2 bSubRace,RC_DEMIHUMAN,getrandomoptinfo(ROA_VALUE);bonus2 bSubRace,RC_DRAGON,getrandomoptinfo(ROA_VALUE)*2;
+- Id: 626
+  FriendlyName: V1_Critical vs Midgardian / Double vs Dragon
+  Option: V1_CRITICAL_VS_MIDGARDIAN__DOUBLE_VS_DRAGON
+  Transferable: false
+  Stackable: true
+  Description: Crit +%d vs Midgardian / Double bonus vs Dragons
+  Done: true
+  Script: |
+    bonus2 bCriticalAddRace,RC_Demihuman,getrandomoptinfo(ROA_VALUE)/10;
+    bonus2 bCriticalAddRace,RC_Formless,getrandomoptinfo(ROA_VALUE)/10;
+    bonus2 bCriticalAddRace,RC_Dragon,getrandomoptinfo(ROA_VALUE)/2;
+- Id: 627
+  FriendlyName: V1_Flee Rate & Max HP Rate
+  Option: V1_FLEE_RATE__MAX_HP_RATE
+  Transferable: false
+  Stackable: true
+  Description: Flee & Max HP +%d%%
+  Done: true
+  Script: |-
+    bonus bFleeRate,getrandomoptinfo(ROA_VALUE);bonus bMaxHPrate,getrandomoptinfo(ROA_VALUE);
+- Id: 628
+  FriendlyName: V1_Slow Cast resist
+  Option: V1_SLOW_CAST_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Slow Cast resistance +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_SlowCast,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 629
+  FriendlyName: V1_Super Armor all skills + Inc cast time
+  Option: V1_SUPER_ARMOR_ALL_SKILLS__INC_CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: All casts gain +%d%% Super Armor / Increase cast times by 1/2 that
+  Done: true
+  Script: |-
+    bonus bSuperArmor,getrandomoptinfo(ROA_VALUE);
+    bonus bCastRate,getrandomoptinfo(ROA_VALUE)/2;
+- Id: 630
+  FriendlyName: V1_DEF & MDEF Abs.
+  Option: V1_DEF__MDEF_ABS
+  Transferable: false
+  Stackable: true
+  Description: DEF & MDEF +%d
+  Done: true
+  Script: |
+    bonus bDef,getrandomoptinfo(ROA_VALUE);
+    bonus bMdef,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - DEF
+- Id: 631
+  FriendlyName: V1_Natural HP & SP Regen Rate / VIT +3
+  Option: V1_NATURAL_HP__SP_REGEN_RATE__VIT_3
+  Transferable: false
+  Stackable: true
+  Description: Natural HP& SP regen rates +%d%% / VIT +3
+  Done: true
+  Script: |
+    bonus bHPrecovRate,getrandomoptinfo(ROA_VALUE);
+    bonus bSPrecovRate,getrandomoptinfo(ROA_VALUE);
+    bonus bVit,3;
+  Labels:
+  - HP
+- Id: 632
+  FriendlyName: V1_DEF & MDEF Abs. / STR +2
+  Option: V1_DEF__MDEF_ABS__STR_2
+  Transferable: false
+  Stackable: true
+  Description: DEF & MDEF +%d / STR +2
+  Done: true
+  Script: |-
+    bonus bDef,getrandomoptinfo(ROA_VALUE);
+    bonus bMdef,getrandomoptinfo(ROA_VALUE);
+    bonus bStr,2;
+  Labels:
+  - DEF
+- Id: 633
+  FriendlyName: V1_Max HP Rate / Max SP Rate / AGI+3
+  Option: V1_MAX_HP_RATE__MAX_SP_RATE__AGI3
+  Transferable: false
+  Stackable: true
+  Description: Max HP & SP +%d%% / AGI +3
+  Done: true
+  Script: |-
+    bonus bMaxHPrate,getrandomoptinfo(ROA_VALUE);
+    bonus bMaxSPrate,getrandomoptinfo(ROA_VALUE);
+    bonus bAgi,3;
+  Labels:
+  - HP
+- Id: 634
+  FriendlyName: V1_Skill SP Costs / DEX +1
+  Option: V1_SKILL_SP_COSTS__DEX_1
+  Transferable: false
+  Stackable: true
+  Description: Skill SP costs -%d%% / DEX +1
+  Done: true
+  Script: |-
+    bonus bUseSPrate,getrandomoptinfo(ROA_VALUE);
+    bonus bDex,1;
+  Labels:
+  - Skill SP Costs
+- Id: 635
+  FriendlyName: V1_Resist vs Holy & Shadow Ele
+  Option: V1_RESIST_VS_HOLY__SHADOW_ELE
+  Transferable: false
+  Stackable: true
+  Description: Holy & Shadow elemental resist +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSubEle,Ele_Holy,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSubEle,Ele_Dark,getrandomoptinfo(ROA_VALUE);
+- Id: 636
+  FriendlyName: V1_AutoSpell AL_HEAL when attacked
+  Option: V1_AUTOSPELL_AL_HEAL_WHEN_ATTACKED
+  Transferable: false
+  Stackable: true
+  Description: When hit, autospell Heal Lv3 +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellWhenHit,AL_HEAL,3,getrandomoptinfo(ROA_VALUE)*10,0;
+- Id: 637
+  FriendlyName: V1_Stone Curse & Curse resist
+  Option: V1_STONE_CURSE__CURSE_RESIST
+  Transferable: false
+  Stackable: true
+  Description: Stone Curse & Curse resist +%d%%
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_Curse,getrandomoptinfo(ROA_VALUE)*100;
+    bonus2 bResEff,Eff_StoneCurse,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 638
+  FriendlyName: V1_Magic damage vs Cursed
+  Option: V1_MAGIC_DAMAGE_VS_CURSED
+  Transferable: false
+  Stackable: true
+  Description: Magic damage vs Cursed +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffMod,Eff_Curse,getrandomoptinfo(ROA_VALUE),BF_MAGIC;
+- Id: 639
+  FriendlyName: V1_Skills gain a 0 SP chance
+  Option: V1_SKILLS_GAIN_A_0_SP_CHANCE
+  Transferable: true
+  Stackable: false
+  Description: '[Skills have a +%d%% chance to cost 0 SP.]'
+  Done: true
+  Script: |-
+    bonus bSkillNoSp,getrandomoptinfo(ROA_VALUE);
+- Id: 640
+  FriendlyName: V1_Natural SP Regen Rate + Amount
+  Option: V1_NATURAL_SP_REGEN_RATE__AMOUNT
+  Transferable: false
+  Stackable: true
+  Description: Natural SP regen rate & amount +%d%%
+  Done: true
+  Script: |-
+    bonus bSPrecovRate,getrandomoptinfo(ROA_VALUE);
+    bonus bSPrecovAmount,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - SP
+- Id: 641
+  FriendlyName: V1_White Potion Heal
+  Option: V1_WHITE_POTION_HEAL
+  Transferable: true
+  Stackable: true
+  Description: '[White Potion HP Recovery +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bAddItemHealRate,$@WhitePotion,getrandomoptinfo(ROA_VALUE);
+- Id: 642
+  FriendlyName: V1_White & Yellow Potion Heal
+  Option: V1_WHITE__YELLOW_POTION_HEAL
+  Transferable: true
+  Stackable: true
+  Description: '[White & Yellow Potion HP Recovery +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bAddItemHealRate,$@WhitePotion,getrandomoptinfo(ROA_VALUE);
+    bonus2 bAddItemHealRate,$@YellowPotion,getrandomoptinfo(ROA_VALUE);
+- Id: 643
+  FriendlyName: V1_Wool Tidal Combo (HP)
+  Option: V1_WOOL_TIDAL_COMBO_HP
+  Transferable: false
+  Stackable: true
+  Description: HP +%d%% when equipped with Wool Scarf
+  Done: false
+  Script: |-
+    ;
+- Id: 644
+  FriendlyName: V1_Wool Tidal Combo (SP)
+  Option: V1_WOOL_TIDAL_COMBO_SP
+  Transferable: false
+  Stackable: true
+  Description: SP +%d%% when equipped with Tidal Shoes
+  Done: false
+  Script: |-
+    ;
+- Id: 645
+  FriendlyName: V1_DEX & VIT
+  Option: V1_DEX__VIT
+  Transferable: false
+  Stackable: true
+  Description: DEX & VIT +%d
+  Done: true
+  Script: |
+    bonus bDex,getrandomoptinfo(ROA_VALUE);
+    bonus bVit,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Base Stat
+  - INT
+  - MATK
+- Id: 646
+  FriendlyName: V1_Gain 1 VIT for every X INT
+  Option: V1_GAIN_1_VIT_FOR_EVERY_X_INT
+  Transferable: true
+  Stackable: false
+  Description: '[Gain 1 VIT for every %d INT (UNIMPLEMENTED).]'
+  Done: false
+  Script: |-
+    ;
+- Id: 647
+  FriendlyName: V1_Blue Potion Heal + / HP Potion Heal -
+  Option: V1_BLUE_POTION_HEAL___HP_POTION_HEAL_
+  Transferable: true
+  Stackable: true
+  Description: '[Blue Potion SP Recovery +%d%% / Reduce Red, Yellow, & White Potion recovery by double that amount]'
+  Done: true
+  Script: |-
+    bonus2 bAddItemHealRate,$@BluePotion,getrandomoptinfo(ROA_VALUE);
+    bonus2 bAddItemHealRate,$@WhitePotion,-(getrandomoptinfo(ROA_VALUE));
+    bonus2 bAddItemHealRate,$@YellowPotion,-(getrandomoptinfo(ROA_VALUE));
+    bonus2 bAddItemHealRate,$@RedPotion,-(getrandomoptinfo(ROA_VALUE));
+- Id: 648
+  FriendlyName: V1_Dispel Reflect
+  Option: V1_DISPEL_REFLECT
+  Transferable: false
+  Stackable: true
+  Description: Reflect Dispel +%d%%
+  Done: true
+  Script: |-
+    bonus bDispelReflect,getrandomoptinfo(ROA_VALUE);
+- Id: 649
+  FriendlyName: V1_Slow Cast resist (transferable)
+  Option: V1_SLOW_CAST_RESIST_TRANSFERABLE
+  Transferable: true
+  Stackable: true
+  Description: '[Slow Cast resistance +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bResEff,Eff_SlowCast,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 650
+  FriendlyName: V1_Heat & Chill Extensions
+  Option: V1_HEAT__CHILL_EXTENSIONS
+  Transferable: true
+  Stackable: true
+  Description: '[When inflicting Heat or Chill on a target already afflicted, extend timer by +%d base seconds]'
+  Done: true
+  Script: |-
+    bonus2 bStatusExtension,Eff_Heat,getrandomoptinfo(ROA_VALUE)*1000;
+    bonus2 bStatusExtension,Eff_Chill,getrandomoptinfo(ROA_VALUE)*1000;
+- Id: 651
+  FriendlyName: V1_Silence & Sleep pierce stat resistances
+  Option: V1_SILENCE__SLEEP_PIERCE_STAT_RESISTANCES
+  Transferable: true
+  Stackable: true
+  Description: "[Silence & Sleep inflictions pierce +%d%% of target's stat resistance]"
+  Done: true
+  Script: |-
+    bonus2 bPierceScDef,Eff_Silence,getrandomoptinfo(ROA_VALUE);
+    bonus2 bPierceScDef,Eff_Sleep,getrandomoptinfo(ROA_VALUE);
+- Id: 652
+  FriendlyName: V1_Blind reduces Crit
+  Option: V1_BLIND_REDUCES_CRIT
+  Transferable: true
+  Stackable: true
+  Description: "[Blind reduces target's Crit in addition to Flee & Hit.]"
+  Done: false
+  Script: |-
+    ;
+- Id: 653
+  FriendlyName: V1_Blind Enhancement + Reduce Crit
+  Option: V1_BLIND_ENHANCEMENT__REDUCE_CRIT
+  Transferable: true
+  Stackable: false
+  Description: '[Your Blind reduces flee & hit by %d%%. Your Blind also reduces Crit by this amount.]'
+  Done: false
+  Script: |-
+    bonus bBlindEnhancement,getrandomoptinfo(ROA_VALUE);
+- Id: 655
+  FriendlyName: V1_Combo Skill Super Armor damage
+  Option: V1_COMBO_SKILL_SUPER_ARMOR_DAMAGE
+  Transferable: true
+  Stackable: true
+  Description: '[Combo skills deal +%d%% Super Armor damage]'
+  Done: false
+  Script: |-
+    ;
+- Id: 656
+  FriendlyName: V1_Fortified Undispellable
+  Option: V1_FORTIFIED_UNDISPELLABLE
+  Transferable: true
+  Stackable: false
+  Description: '[Fortified cannot be dispelled.]'
+  Done: false
+  Script: |-
+    ;
+- Id: 657
+  FriendlyName: V1_Life Leech on Freeze
+  Option: V1_LIFE_LEECH_ON_FREEZE
+  Transferable: true
+  Stackable: true
+  Description: '[Freezing an enemy gives +%d%% Life Leech]'
+  Done: true
+  Script: |-
+    bonus bLifeLeechOnFreeze,getrandomoptinfo(ROA_VALUE);
+- Id: 658
+  FriendlyName: V1_ATK & MATK Abs
+  Option: V1_ATK__MATK_ABS
+  Transferable: false
+  Stackable: true
+  Description: ATK & MATK +%d
+  Done: true
+  Script: |
+    bonus bMatk,getrandomoptinfo(ROA_VALUE);
+    bonus bAtk,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - MATK
+- Id: 659
+  FriendlyName: V1_Double Attacks autospell half known MG_LIGHTNINGBOLT & MG_THUNDERSTORM
+  Option: V1_DOUBLE_ATTACKS_AUTOSPELL_HALF_KNOWN_MG_LIGHTNINGBOLT__MG_THUNDERSTORM
+  Transferable: true
+  Stackable: true
+  Description: '[Double Attacks autospell half known Lightning Bolt / Thunder Storm +%d%% (min 1)]'
+  Done: true
+  Script: |-
+    .@lvl = getskilllv(MG_LIGHTNINGBOLT)/2;
+    if (.@lvl < 1) {
+        .@lvl = 1;
+    }
+    bonus4 bAutoSpellOnDoubleAttack,MG_LIGHTNINGBOLT,.@lvl,getrandomoptinfo(ROA_VALUE)*10,1;
+    .@lvl = getskilllv(MG_THUNDERSTORM)/2;
+    if (.@lvl < 1) {
+        .@lvl = 1;
+    }
+    bonus4 bAutoSpellOnDoubleAttack,MG_THUNDERSTORM,.@lvl,getrandomoptinfo(ROA_VALUE)*10,1;
+  Labels:
+  - T1
+  - Thief
+- Id: 660
+  FriendlyName: V1_Double Attacks autospell Lv3 WZ_METEOR
+  Option: V1_DOUBLE_ATTACKS_AUTOSPELL_LV3_WZ_METEOR
+  Transferable: true
+  Stackable: true
+  Description: '[Double Attacks autospell Meteor Storm Lv3 +%d%%]'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnDoubleAttack,WZ_METEOR,3,getrandomoptinfo(ROA_VALUE)*10,1;
+  Labels:
+  - T1
+  - Thief
+- Id: 661
+  FriendlyName: V1_Autospell MG_COLDBOLT / WZ_EARTHSPIKE at half known
+  Option: V1_AUTOSPELL_MG_COLDBOLT__WZ_EARTHSPIKE_AT_HALF_KNOWN
+  Transferable: true
+  Stackable: true
+  Description: '[Autospell half known Cold Bolt / Earth Spike +%d%% (min 1)]'
+  Done: true
+  Script: |-
+    .@lvl = getskilllv(MG_COLDBOLT)/2;
+    if (.@lvl < 1) {
+        .@lvl = 1;
+    } 
+    bonus3 bAutoSpell,MG_COLDBOLT,.@lvl,getrandomoptinfo(ROA_VALUE)*10;
+    .@lvl = getskilllv(WZ_EARTHSPIKE)/2;
+    if (.@lvl < 1) {
+        .@lvl = 1;
+    } 
+    bonus3 bAutoSpell,WZ_EARTHSPIKE,.@lvl,getrandomoptinfo(ROA_VALUE)*10;
+- Id: 662
+  FriendlyName: V1_Double Attacks autospell known MG_SOULSTRIKE
+  Option: V1_DOUBLE_ATTACKS_AUTOSPELL_KNOWN_MG_SOULSTRIKE
+  Transferable: true
+  Stackable: true
+  Description: '[Double Attacks autospell known Soul Strike +%d%% (min 1)]'
+  Done: true
+  Script: |-
+    .@lvl = getskilllv(MG_SOULSTRIKE);
+    if (.@lvl < 1) {
+      .@lvl = 1;
+    }
+    bonus4 bAutoSpellOnDoubleAttack,MG_SOULSTRIKE,.@lvl,getrandomoptinfo(ROA_VALUE)*10,1;
+  Labels:
+  - T1
+  - Thief
+- Id: 663
+  FriendlyName: V1_Double Attacks autospell half known MG_FIREBOLT / MG_FIREBALL
+  Option: V1_DOUBLE_ATTACKS_AUTOSPELL_HALF_KNOWN_MG_FIREBOLT__MG_FIREBALL
+  Transferable: true
+  Stackable: true
+  Description: '[Double Attacks autospell half known Fire Bolt / Fire Ball +%d%% (min 1)]'
+  Done: true
+  Script: |-
+    .@lvl = getskilllv(MG_FIREBALL)/2;
+    if (.@lvl < 1) {
+      .@lvl = 1;
+    }
+    bonus4 bAutoSpellOnDoubleAttack,MG_FIREBALL,.@lvl,getrandomoptinfo(ROA_VALUE)*10,1;
+    .@lvl = getskilllv(MG_FIREBOLT)/2;
+    if (.@lvl < 1) {
+      .@lvl = 1;
+    }
+    bonus4 bAutoSpellOnDoubleAttack,MG_FIREBOLT,.@lvl,getrandomoptinfo(ROA_VALUE)*10,1;
+  Labels:
+  - T1
+  - Thief
+- Id: 664
+  FriendlyName: V1_Double Attacks autospell known MG_FROSTDIVER / MG_NAPALMBEAT
+  Option: V1_DOUBLE_ATTACKS_AUTOSPELL_KNOWN_MG_FROSTDIVER__MG_NAPALMBEAT
+  Transferable: true
+  Stackable: true
+  Description: '[Double Attacks autospell known Frost Diver / Napalm Beat +%d%% (min 1)]'
+  Done: true
+  Script: |-
+    .@lvl = getskilllv(MG_FROSTDIVER);
+    if (.@lvl < 1) {
+      .@lvl = 1;
+    }
+    bonus4 bAutoSpellOnDoubleAttack,MG_FROSTDIVER,.@lvl,getrandomoptinfo(ROA_VALUE)*10,1;
+    .@lvl = getskilllv(MG_NAPALMBEAT);
+    if (.@lvl < 1) {
+      .@lvl = 1;
+    }
+    bonus4 bAutoSpellOnDoubleAttack,MG_NAPALMBEAT,.@lvl,getrandomoptinfo(ROA_VALUE)*10,1;
+  Labels:
+  - T1
+  - Thief
+- Id: 665
+  FriendlyName: V1_Double Attacks autospell known AL_HOLYLIGHT & CR_HOLYCROSS
+  Option: V1_DOUBLE_ATTACKS_AUTOSPELL_KNOWN_AL_HOLYLIGHT__CR_HOLYCROSS
+  Transferable: true
+  Stackable: true
+  Description: '[Double Attacks autospell known Holy Light / Holy Cross +%d%% (min 1)]'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnDoubleAttack,AL_HOLYLIGHT,1,getrandomoptinfo(ROA_VALUE)*10,1;
+    .@lvl = getskilllv(CR_HOLYCROSS);
+    if (.@lvl < 1) {
+      .@lvl = 1;
+    }
+    bonus4 bAutoSpellOnDoubleAttack,CR_HOLYCROSS,.@lvl,getrandomoptinfo(ROA_VALUE)*10,1;
+- Id: 666
+  FriendlyName: V1_Double Attacks autospell AL_DECAGI / PR_LEXAETERNA / BS_HAMMERFALL
+  Option: V1_DOUBLE_ATTACKS_AUTOSPELL_AL_DECAGI__PR_LEXAETERNA__BS_HAMMERFALL
+  Transferable: true
+  Stackable: true
+  Description: '[Double Attacks autospell Lv1 Decrease Agility / Lex Aeterna / Hammerfall +%d%%]'
+  Done: true
+  Script: |
+    bonus4 bAutoSpellOnDoubleAttack,AL_DECAGI,1,getrandomoptinfo(ROA_VALUE)*10,1;
+    bonus4 bAutoSpellOnDoubleAttack,PR_LEXAETERNA,1,getrandomoptinfo(ROA_VALUE)*10,1;
+    bonus4 bAutoSpellOnDoubleAttack,BS_HAMMERFALL,1,getrandomoptinfo(ROA_VALUE)*10,1;
+- Id: 667
+  FriendlyName: V1_Double Attacks inflict Heat / Burning
+  Option: V1_DOUBLE_ATTACKS_INFLICT_HEAT__BURNING
+  Transferable: true
+  Stackable: true
+  Description: '[Double Attacks inflict Heat +%d%% / Burning at half that rate]'
+  Done: true
+  Script: |-
+    bonus2 bDoubleAtkAddEff,Eff_Heat,getrandomoptinfo(ROA_VALUE);
+    bonus2 bDoubleAtkAddEff,Eff_Burning,getrandomoptinfo(ROA_VALUE)/2;
+  Labels:
+  - Bleeding
+- Id: 668
+  FriendlyName: V1_AutoSpell Skill Level
+  Option: V1_AUTOSPELL_SKILL_LEVEL
+  Transferable: true
+  Stackable: false
+  Description: '[Raise skill level of Auto Spell skills by +%d.]'
+  Done: true
+  Script: |-
+    bonus bAutospellRates,getrandomoptinfo(ROA_VALUE);
+- Id: 669
+  FriendlyName: V1_Autospell Lv5 SM_MAGNUM / KN_BOWLINGBASH / KN_BRANDISHSPEAR
+  Option: V1_AUTOSPELL_LV5_SM_MAGNUM__KN_BOWLINGBASH__KN_BRANDISHSPEAR
+  Transferable: true
+  Stackable: true
+  Description: '[Autospell Lv5 Bowling Bash / Brandish Spear on attack +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAutoSpell,KN_BOWLINGBASH,5,getrandomoptinfo(ROA_VALUE)*10; 
+    bonus3 bAutoSpell,KN_BRANDISHSPEAR,5,getrandomoptinfo(ROA_VALUE)*10;
+    bonus3 bAutoSpell,SM_MAGNUM,5,getrandomoptinfo(ROA_VALUE)*10;
+- Id: 670
+  FriendlyName: V1_Autospell Lv10 TF_POISON / SM_BASH / KN_PIERCE
+  Option: V1_AUTOSPELL_LV10_TF_POISON__SM_BASH__KN_PIERCE
+  Transferable: true
+  Stackable: true
+  Description: '[Autospell Lv10 Envenom / Bash / Pierce on attack +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAutoSpell,SM_BASH,10,getrandomoptinfo(ROA_VALUE)*10; 
+    bonus3 bAutoSpell,KN_PIERCE,10,getrandomoptinfo(ROA_VALUE)*10;
+    bonus3 bAutoSpell,TF_POISON,10,getrandomoptinfo(ROA_VALUE)*10;
+- Id: 671
+  FriendlyName: V1_MATK Rate / Half ATK rate
+  Option: V1_MATK_RATE__HALF_ATK_RATE
+  Transferable: false
+  Stackable: true
+  Description: MATK +%d%% / Increase ATK by half that percentage
+  Done: true
+  Script: |-
+    bonus bMatkRate,getrandomoptinfo(ROA_VALUE);
+    bonus bAtkRate,getrandomoptinfo(ROA_VALUE)/2;
+  Labels:
+  - MATK
+- Id: 672
+  FriendlyName: V1_Stun converts Bleeding -> Critical Wounds
+  Option: V1_STUN_CONVERTS_BLEEDING__CRITICAL_WOUNDS
+  Transferable: true
+  Stackable: false
+  Description: '[When you Stun a Bleeding target, inflict Critical Wounds.]'
+  Done: false
+  Script: |-
+    ;
+- Id: 673
+  FriendlyName: V1_Crits inflict Stun & Bleeding
+  Option: V1_CRITS_INFLICT_STUN__BLEEDING
+  Transferable: false
+  Stackable: true
+  Description: Crits inflict Stun / Bleeding +%d%%
+  Done: true
+  Script: |-
+    bonus2 bCritInflictSc,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+    bonus2 bCritInflictSc,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+- Id: 674
+  FriendlyName: V1_Stun timer +%
+  Option: V1_STUN_TIMER_
+  Transferable: true
+  Stackable: true
+  Description: '[Stun timers +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bStatusTimerRate,SC_STUN,getrandomoptinfo(ROA_VALUE);
+- Id: 675
+  FriendlyName: V1_Weapon damage vs Silenced
+  Option: V1_WEAPON_DAMAGE_VS_SILENCED
+  Transferable: false
+  Stackable: true
+  Description: Weapon damage vs Silenced targets +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffMod,Eff_Silence,getrandomoptinfo(ROA_VALUE),BF_WEAPON;
+- Id: 676
+  FriendlyName: V1_Stun base timer + (ms)
+  Option: V1_STUN_BASE_TIMER__MS
+  Transferable: true
+  Stackable: true
+  Description: '[Stun base timer +%d milliseconds]'
+  Done: true
+  Script: |-
+    bonus2 bStatusTimerBase,SC_STUN,getrandomoptinfo(ROA_VALUE);
+- Id: 677
+  FriendlyName: V1_param test
+  Option: V1_PARAM_TEST
+  Transferable: true
+  Stackable: true
+  Description: '[Bash damage +%d%% / Bowling Bash damage +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,SM_BASH,ropt(1);
+    bonus2 bSkillAtk,KN_BOWLINGBASH,ropt(2);

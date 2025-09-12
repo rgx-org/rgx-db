@@ -1,0 +1,976 @@
+Header:
+  Type: RANDOM_OPTION_POOLSET_DB
+  Version: 3
+Body:
+- Id: 4000
+  Name: EmptyWeaponSet
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 4001
+  Name: Hand Axe (1h)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100120
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100130
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100204
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100143
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100560
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100566
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100558
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100562
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100567
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100559
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100561
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100563
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100564
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 10260
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100565
+      Weight: 1
+      Tags:
+      - None
+- Id: 4002
+  Name: Cleaver (1h/Sharp)
+  Tags:
+  - Name: Crit
+    Weight: 1
+    WeightMod: 1
+  - Name: Status
+    Weight: 1
+    WeightMod: 1
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100071
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100551
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100554
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100548
+      Weight: 1
+      Tags:
+      - Status
+    - Id: 100553
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 100555
+      Weight: 1
+      Tags:
+      - Status
+  - Line: 3
+    Pools:
+    - Id: 100547
+      Weight: 1
+      Tags:
+      - Status
+    - Id: 100549
+      Weight: 1
+      Tags:
+      - Status
+    - Id: 100558
+      Weight: 1
+      Tags:
+      - Crit
+  - Line: 4
+    Pools:
+    - Id: 100086
+      Weight: 1
+      Tags:
+      - Status
+    - Id: 100550
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 100552
+      Weight: 1
+      Tags:
+      - Status
+  - Line: 5
+    Pools:
+    - Id: 100556
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100557
+      Weight: 1
+      Tags:
+      - None
+- Id: 4003
+  Name: Orcish Axe (1h/Backwave)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 4004
+  Name: Sharpened Axe (1h/Sharp)
+  Tags:
+  - Name: Crit
+    Weight: 1
+    WeightMod: 4
+  - Name: Bleed
+    Weight: 1
+    WeightMod: 4
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 4005
+  Name: Big Axe (2h/Sturdy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100633
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100638
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100575
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100623
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100640
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100641
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100627
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100639
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 10260
+      Weight: 1
+      Tags:
+      - None
+- Id: 4006
+  Name: Buster (2h/Blunt)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 200261
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200270
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200272
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 200057
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200264
+      Weight: 1
+      Tags: []
+    - Id: 200265
+      Weight: 1
+      Tags: []
+  - Line: 3
+    Pools:
+    - Id: 200262
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200266
+      Weight: 1
+      Tags: []
+    - Id: 200274
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200275
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 200004
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200260
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200269
+      Weight: 1
+      Tags: []
+    - Id: 200271
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 200273
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200275
+      Weight: 1
+      Tags:
+      - None
+- Id: 4007
+  Name: Crystal Axe (1h/Blunt)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 200282
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 200277
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200281
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200284
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 200285
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200286
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 200280
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200283
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 200278
+      Weight: 1
+      Tags:
+      - None
+    - Id: 200279
+      Weight: 1
+      Tags:
+      - None
+- Id: 4008
+  Name: Gigantic Cleaver (2h/Sharp)
+  Tags:
+  - Name: Bleeding
+    Weight: 1
+    WeightMod: 5
+  - Name: CritPower
+    Weight: 1
+    WeightMod: 5
+  - Name: Poison
+    Weight: 1
+    WeightMod: 5
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 4010
+  Name: (OLD) Hand Axe (1h) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700023
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700270
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700272
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 700050
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700068
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700277
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700278
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 700009
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700041
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700073
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700276
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 700005
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700011
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700273
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700275
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 700271
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700274
+      Weight: 1
+      Tags:
+      - None
+- Id: 4011
+  Name: (OLD) Cleaver (1h/Sharp) (Copy)
+  Tags:
+  - Name: Bleed
+    Weight: 1
+    WeightMod: 4
+  - Name: Poison
+    Weight: 1
+    WeightMod: 4
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700008
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 700013
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 700471
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 700011
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 700125
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 700129
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 700167
+      Weight: 1
+      Tags:
+      - Bleed
+  - Line: 3
+    Pools:
+    - Id: 700122
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 700123
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 700126
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 700128
+      Weight: 1
+      Tags:
+      - Poison
+  - Line: 4
+    Pools:
+    - Id: 700009
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 700126
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 700127
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 700415
+      Weight: 1
+      Tags:
+      - Bleed
+  - Line: 5
+    Pools:
+    - Id: 700015
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 700130
+      Weight: 1
+      Tags:
+      - Poison
+- Id: 4012
+  Name: (OLD) Orcish Axe (1h/Backwave) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700012
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700132
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 700085
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 700135
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 700134
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 700131
+      Weight: 1
+      Tags:
+      - None
+- Id: 4013
+  Name: (OLD) Sharpened Axe (1h/Sharp) (Copy)
+  Tags:
+  - Name: Crit
+    Weight: 1
+    WeightMod: 4
+  - Name: Bleed
+    Weight: 1
+    WeightMod: 4
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800023
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 800162
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 800164
+      Weight: 1
+      Tags:
+      - Crit
+      - Bleed
+  - Line: 2
+    Pools:
+    - Id: 800165
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800170
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800171
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800585
+      Weight: 1
+      Tags:
+      - Bleed
+  - Line: 3
+    Pools:
+    - Id: 800019
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 800167
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 800173
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 800174
+      Weight: 1
+      Tags:
+      - Crit
+  - Line: 4
+    Pools:
+    - Id: 800021
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 800169
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 800172
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 800175
+      Weight: 1
+      Tags:
+      - Bleed
+  - Line: 5
+    Pools:
+    - Id: 800018
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 800166
+      Weight: 1
+      Tags:
+      - None
+- Id: 4014
+  Name: (OLD) Big Axe (2h/Sturdy) (Copy)
+  Tags:
+  - Name: Offensive
+    Weight: 1
+    WeightMod: 6
+  - Name: Defensive
+    Weight: 1
+    WeightMod: 6
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700017
+      Weight: 1
+      Tags:
+      - Offensive
+      - Defensive
+    - Id: 700120
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 700169
+      Weight: 1
+      Tags:
+      - Offensive
+  - Line: 2
+    Pools:
+    - Id: 700013
+      Weight: 1
+      Tags:
+      - Offensive
+    - Id: 700076
+      Weight: 1
+      Tags:
+      - Offensive
+    - Id: 700084
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 700266
+      Weight: 1
+      Tags:
+      - Defensive
+  - Line: 3
+    Pools:
+    - Id: 700263
+      Weight: 1
+      Tags:
+      - Offensive
+    - Id: 700265
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 700267
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 700269
+      Weight: 1
+      Tags:
+      - Offensive
+  - Line: 4
+    Pools:
+    - Id: 700260
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 700262
+      Weight: 1
+      Tags:
+      - Offensive
+    - Id: 700264
+      Weight: 1
+      Tags:
+      - Offensive
+    - Id: 700268
+      Weight: 1
+      Tags:
+      - Defensive
+  - Line: 5
+    Pools:
+    - Id: 700080
+      Weight: 1
+      Tags:
+      - Offensive
+    - Id: 700168
+      Weight: 1
+      Tags:
+      - Defensive
+- Id: 4015
+  Name: (OLD) Buster (2h/Blunt) (Copy)
+  Tags:
+  - Name: Fire
+    Weight: 1
+    WeightMod: 1
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 800186
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 800178
+      Weight: 1
+      Tags:
+      - None
+- Id: 4016
+  Name: (OLD) Gigantic Cleaver (2h/Sharp) (Copy)
+  Tags:
+  - Name: Bleeding
+    Weight: 1
+    WeightMod: 5
+  - Name: CritPower
+    Weight: 1
+    WeightMod: 5
+  - Name: Poison
+    Weight: 1
+    WeightMod: 5
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800033
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 800184
+      Weight: 1
+      Tags:
+      - CritPower
+    - Id: 800188
+      Weight: 1
+      Tags:
+      - Poison
+  - Line: 2
+    Pools:
+    - Id: 800167
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 800187
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 800193
+      Weight: 1
+      Tags:
+      - CritPower
+    - Id: 800194
+      Weight: 1
+      Tags:
+      - CritPower
+  - Line: 3
+    Pools:
+    - Id: 800183
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 800189
+      Weight: 1
+      Tags:
+      - Bleeding
+    - Id: 800191
+      Weight: 1
+      Tags:
+      - CritPower
+    - Id: 800192
+      Weight: 1
+      Tags:
+      - Bleeding
+  - Line: 4
+    Pools:
+    - Id: 800043
+      Weight: 1
+      Tags:
+      - Bleeding
+      - Poison
+    - Id: 800182
+      Weight: 1
+      Tags:
+      - CritPower
+    - Id: 800190
+      Weight: 1
+      Tags:
+      - Bleeding
+      - Poison
+    - Id: 800639
+      Weight: 1
+      Tags:
+      - CritPower
+  - Line: 5
+    Pools:
+    - Id: 800034
+      Weight: 1
+      Tags:
+      - CritPower
+    - Id: 800163
+      Weight: 1
+      Tags:
+      - Bleeding

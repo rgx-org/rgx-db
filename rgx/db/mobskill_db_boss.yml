@@ -1,0 +1,5045 @@
+Header:
+  Type: MOB_SKILL_DB
+  Version: 3
+Body:
+- MobId: 29000
+  MobName: RGX_B_MASTERING
+  Skills:
+  - Index: 0
+    SkillName: NPC_WATERATTACK
+    SkillLv: 3
+    UniqueIdentifier: swift_shiro_manatee_wa_omowasu
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 800
+    CastTime: 500
+    CastCancel: SUPERARMOR
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: FRET
+  - Index: 1
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: still_haiiro_kajiki_wa_rowing
+    State: IDLE
+    Condition: ONSPAWN
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: BEST
+    Summons:
+    - MobId: RGX_PORING
+      Amount: 6
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+    OldRate: 10000
+  - Index: 2
+    SkillName: MG_COLDBOLT
+    SkillLv: 2
+    UniqueIdentifier: mighty_pinku_neko_wa_rowing
+    State: CHASE
+    Condition: ALWAYS
+    CastRate: 1500
+    CastTime: 350
+    CastCancel: CANCELABLE
+    CastDelay: 3500
+    Target: TARGET
+    Emotion: NONE
+  - Index: 3
+    SkillName: NPC_POISON
+    SkillLv: 1
+    UniqueIdentifier: senritsu_scarlet_raion_is_tracking
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 1200
+    CastTime: 800
+    CastCancel: SUPERARMOR
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 4
+    SkillName: WZ_WATERBALL
+    SkillLv: 2
+    UniqueIdentifier: steadfast_zouge_nue_wa_reinforcing
+    State: CHASE
+    Condition: ALWAYS
+    CastRate: 2500
+    CastTime: 1300
+    CastCancel: CANCELABLE
+    CastDelay: 13000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 5
+    SkillName: MG_COLDBOLT
+    SkillLv: 1
+    UniqueIdentifier: arashi_murasaki_puma_wa_kanchoushiteiru
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 2500
+    CastTime: 200
+    CastCancel: CANCELABLE
+    CastDelay: 7000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 6
+    SkillName: MO_EXTREMITYFIST
+    SkillLv: 5
+    UniqueIdentifier: swift_cyan_walrus_is_mamotteiru
+    State: ANY
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 0
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 300
+    Target: TARGET
+    Emotion: HUM
+    RangeOverride: 18
+    OldRate: 10000
+- MobId: 29001
+  MobName: RGX_B_VOCAL
+  Skills:
+  - Index: 0
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: chikara_chairo_kumo_wa_teaching
+    State: IDLE
+    Condition: ONSPAWN
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: DELIGHT
+    Summons:
+    - MobId: RGX_ROCKER
+      Amount: 5
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 1
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: modest_brown_chou_wa_commanding
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 75
+    CastRate: 10000
+    CastTime: 1000
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_ROCKER
+      Amount: 2
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 2
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: mayoi_pinku_chou_wa_mocking
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 50
+    CastRate: 10000
+    CastTime: 2000
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: EINHERJAR
+    Summons:
+    - MobId: RGX_ROCKER
+      Amount: 4
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 3
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: mugen_chairo_hyena_is_kenkyuushiteiru
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 50
+    CastRate: 10000
+    CastTime: 2000
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTY
+      Trigger:
+        Difficulty: NORMAN
+    Summons:
+    - MobId: RGX_ROCKER
+      Amount: 4
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 4
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: restless_indigo_narikabi_is_attacking
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 25
+    CastRate: 10000
+    CastTime: 1000
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_ROCKER
+      Amount: 2
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 5
+    SkillName: TF_BACKSLIDING
+    SkillLv: 4
+    UniqueIdentifier: kemono_murasaki_pig_is_shooting
+    State: ANYTARGET
+    Condition: HPLT
+    Trigger:
+      Percent: 95
+    CastRate: 3500
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 13000
+    Target: SELF
+    Emotion: NONE
+  - Index: 6
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 2
+    UniqueIdentifier: quick_purple_ram_wa_designing
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: TF_BACKSLIDING
+    CastRate: 5000
+    CastTime: 1000
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 15000
+    Target: SELF
+    Emotion: DELIGHT
+    ExMsc:
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: EINHERJAR
+    Summons:
+    - MobId: RGX_ROCKER
+      Amount: 2
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 7
+    SkillName: BA_MUSICALSTRIKE
+    SkillLv: 2
+    UniqueIdentifier: hayai_lime_duck_is_discussing
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: TF_BACKSLIDING
+    CastRate: 10000
+    CastTime: 1000
+    CastCancel: SUPERARMOR
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: BEST
+  - Index: 8
+    SkillName: NPC_SILENCEATTACK
+    SkillLv: 2
+    UniqueIdentifier: chaotic_kon_wolf_wa_oyogiteiru
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 700
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 10000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 9
+    SkillName: NPC_GROUNDATTACK
+    SkillLv: 2
+    UniqueIdentifier: ancient_magenta_hydra_is_taunting
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 777
+    CastTime: 500
+    CastCancel: SUPERARMOR
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: FRET
+  - Index: 10
+    SkillName: NPC_COMBOATTACK
+    SkillLv: 2
+    UniqueIdentifier: wise_ivory_dolphin_wa_charming
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 500
+    CastTime: 300
+    CastCancel: SUPERARMOR
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: FRET
+  - Index: 11
+    SkillName: NPC_SLEEPATTACK
+    SkillLv: 1
+    UniqueIdentifier: togi_ivory_raion_is_kogasuiteiru
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 500
+    CastTime: 400
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 12
+    SkillName: NPC_SILENCEATTACK
+    SkillLv: 3
+    UniqueIdentifier: chiisana_turquoise_whale_wa_kenkyuushiteiru
+    State: CHASE
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 700
+    CastCancel: CANCELABLE
+    CastDelay: 25000
+    Target: TARGET
+    Emotion: DELIGHT
+    ExMsc:
+    - Condition: DIFFICULTY
+      Trigger:
+        Difficulty: NORMAN
+  - Index: 13
+    SkillName: NPC_SILENCEATTACK
+    SkillLv: 3
+    UniqueIdentifier: untamed_sumire_inoshishi_wa_tasting
+    State: CHASE
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 700
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: DELIGHT
+    ExMsc:
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: EINHERJAR
+- MobId: 29002
+  MobName: RGX_B_ROTTEN_BONES
+  Skills:
+  - Index: 0
+    SkillName: TF_POISON
+    SkillLv: 2
+    UniqueIdentifier: fubuki_sai_tiger_is_mirumeiteiru
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 5000
+    CastTime: 500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 10000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 1
+    SkillName: NPC_UNDEADATTACK
+    SkillLv: 1
+    UniqueIdentifier: rugged_murasaki_flamingo_wa_unleashing
+    State: ANGRYTARGET
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 800
+    CastCancel: CANCELABLE
+    CastDelay: 12000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 2
+    SkillName: NPC_CURSEATTACK
+    SkillLv: 1
+    UniqueIdentifier: stalwart_magenta_hyena_is_chasing
+    State: CHASE
+    Condition: ALWAYS
+    CastRate: 1000
+    CastTime: 800
+    CastCancel: CANCELABLE
+    CastDelay: 20000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 3
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: kagayaku_limo_hedgehog_wa_dashing
+    State: IDLE
+    Condition: ONSPAWN
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: EINHERJAR
+    Summons:
+    - MobId: RGX_ROTTEN_SKELETON
+      Amount: 2
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 4
+    SkillName: NPC_SUMMONMONSTER
+    SkillLv: 1
+    UniqueIdentifier: frail_sai_narwhal_is_whispering
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 10
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_SKELETON
+      Amount: 10
+    OldRate: 10000
+  - Index: 5
+    SkillName: NPC_DOUBLEATTACK
+    SkillLv: 7
+    UniqueIdentifier: togi_murasaki_fox_wa_crawling
+    State: ANY
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 60000
+    Target: SELF
+    Emotion: NONE
+  - Index: 6
+    SkillName: NPC_BRANDISHSCYTHE
+    SkillLv: 15
+    UniqueIdentifier: mugen_murasaki_monkey_is_utatteiru
+    State: ATTACK
+    Condition: HPLT
+    Trigger:
+      Percent: 51
+    CastRate: 10000
+    CastTime: 6000
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 0
+    Target: TARGET
+    RemoveOnCast: true
+    Emotion: NONE
+    ChatId: 2900200
+    ExMsc:
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: EINHERJAR
+    Summons:
+    - MobId: RGX_SKELETON
+      Amount: 10
+    OldRate: 10000
+  - Index: 7
+    SkillName: NPC_BRANDISHSCYTHE
+    SkillLv: 15
+    UniqueIdentifier: sharp_midori_beaver_is_hashitteiru
+    State: ATTACK
+    Condition: HPLT
+    Trigger:
+      Percent: 51
+    CastRate: 10000
+    CastTime: 6000
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 0
+    Target: TARGET
+    RemoveOnCast: true
+    Emotion: NONE
+    ChatId: 2900200
+    ExMsc:
+    - Condition: DIFFICULTY
+      Trigger:
+        Difficulty: NORMAN
+    Summons:
+    - MobId: RGX_SKELETON
+      Amount: 10
+    OldRate: 10000
+- MobId: 29003
+  MobName: RGX_B_TENKA_DAI_SHOUGUN
+  Skills: []
+- MobId: 29004
+  MobName: RGX_B_GOBLIN_KING
+  Skills:
+  - Index: 0
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: yami_cyan_hato_wa_mamoru
+    State: ANY
+    Condition: ONSPAWN
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_CHEPET
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 1
+    SkillName: KN_SPEARBOOMERANG
+    SkillLv: 1
+    UniqueIdentifier: nazo_kin_uma_is_winning
+    State: ANYTARGET
+    Condition: HPRANGE
+    Trigger:
+      PercentUpper: 100
+      PercentLower: 99
+    CastRate: 10000
+    CastTime: 2500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 0
+    Target: TARGET
+    Emotion: NONE
+    ExMsc:
+    - Condition: MINIONGT
+      Trigger: {}
+  - Index: 2
+    SkillName: KN_SPEARSTAB
+    SkillLv: 4
+    UniqueIdentifier: serene_silver_taka_is_grilling
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 10000
+    CastTime: 1200
+    CastCancel: SUPERARMOR
+    CastDelay: 2000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 3
+    SkillName: KN_CHARGEATK
+    SkillLv: 1
+    UniqueIdentifier: boundless_purple_falcon_is_nigeiteiru
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: KN_SPEARSTAB
+    CastRate: 10000
+    CastTime: 300
+    CastCancel: SUPERARMOR
+    CastDelay: 0
+    Target: TARGET
+    Emotion: NONE
+  - Index: 4
+    SkillName: KN_PIERCE
+    SkillLv: 1
+    UniqueIdentifier: fearless_navy_bat_is_charting
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 1500
+    CastTime: 900
+    CastCancel: SUPERARMOR
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 5
+    SkillName: TF_SPRINKLESAND
+    SkillLv: 1
+    UniqueIdentifier: elusive_aka_karasu_wa_restoring
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 500
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: FRET
+  - Index: 6
+    SkillName: KN_SPEARBOOMERANG
+    SkillLv: 1
+    UniqueIdentifier: deadly_white_ryu_wa_losing
+    State: CHASE
+    Condition: DISTANCEGE
+    Trigger:
+      Distance: 4
+    CastRate: 5000
+    CastTime: 100
+    CastCancel: CANCELABLE
+    CastDelay: 15000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 7
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: blessed_kuro_cobra_is_attacking
+    State: ATTACK
+    Condition: MINIONLT
+    Trigger:
+      Count: 1
+    CastRate: 1500
+    CastTime: 2500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 60000
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: EINHERJAR
+    Summons:
+    - MobId: RGX_GOBLIN_KNIFE
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+    - MobId: RGX_GOBLIN_KNIFE
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+    - MobId: RGX_GOBLIN_CHAIN
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 8
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: swift_beige_pigeon_wa_shinjitsuwosagashiteiru
+    State: ATTACK
+    Condition: HPLT
+    Trigger:
+      Percent: 30
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 15000
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_GOBLIN_KNIFE
+      Amount: 2
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 9
+    SkillName: NPC_RUNAWAY
+    SkillLv: 1
+    UniqueIdentifier: hisashiburi_yellow_orca_is_yokosu
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_SUMMONMINION
+      AfterId: swift_beige_pigeon_wa_shinjitsuwosagashiteiru
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 60000
+    Target: SELF
+    Emotion: NONE
+    RunawayData:
+      Duration: 6000
+      RunCells: 9
+      SearchArea: 12
+  - Index: 10
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: moeru_midori_whale_is_binding
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 75
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 40000
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_GOBLIN_STEAMRIDER
+      Amount: 2
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 11
+    SkillName: NPC_RUNAWAY
+    SkillLv: 1
+    UniqueIdentifier: subayai_midori_ushi_is_ketteiru
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_SUMMONMINION
+      AfterId: moeru_midori_whale_is_binding
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 60000
+    Target: SELF
+    Emotion: NONE
+    RunawayData:
+      Duration: 6000
+      RunCells: 9
+      SearchArea: 12
+  - Index: 12
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: fukai_shinku_tokage_is_repairing
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 45
+    CastRate: 10000
+    CastTime: 1500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 60000
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_PANZER_GOBLIN
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+- MobId: 29005
+  MobName: RGX_B_KOBOLD_LEADER
+  Skills:
+  - Index: 0
+    SkillName: SM_BASH
+    SkillLv: 5
+    UniqueIdentifier: mi_gin_kawa_is_hikoukiteiru
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 10000
+    CastTime: 3000
+    CastCancel: SUPERARMOR
+    CastDelay: 18000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 1
+    SkillName: CR_SHIELDCHARGE
+    SkillLv: 1
+    UniqueIdentifier: vigilant_green_mouse_wa_retreating
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 2000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 2
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 2
+    UniqueIdentifier: nazo_mizuiro_monkey_is_nigeiteiru
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 50
+    CastRate: 10000
+    CastTime: 3500
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_KOBOLD_AXE
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+    - MobId: RGX_KOBOLD_HAMMER
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 3
+    SkillName: KN_TWOHANDQUICKEN
+    SkillLv: 3
+    UniqueIdentifier: benevolent_beige_horse_is_shattering
+    State: ATTACK
+    Condition: HPLT
+    Trigger:
+      Percent: 50
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 120000
+    Target: SELF
+    Emotion: FRET
+  - Index: 4
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 2
+    UniqueIdentifier: ikioi_purple_inoshishi_is_striking
+    State: ANY
+    Condition: ONSPAWN
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_KOBOLD_AXE
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+    - MobId: RGX_KOBOLD_HAMMER
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 5
+    SkillName: SM_MAGNUM
+    SkillLv: 5
+    UniqueIdentifier: frosty_navy_otter_is_itakuteiru
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 3500
+    CastTime: 2500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 26000
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: EINHERJAR
+- MobId: 29006
+  MobName: RGX_B_GHOSTRING
+  Skills: []
+- MobId: 29007
+  MobName: RGX_B_MENBLATT
+  Skills: []
+- MobId: 29008
+  MobName: RGX_B_AQUA
+  Skills:
+  - Index: 0
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: reckless_magenta_hippo_is_mamoru
+    State: ANY
+    Condition: ONSPAWN
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 999999
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_B_AGNI
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 1
+    SkillName: SA_DELUGE
+    SkillLv: 3
+    UniqueIdentifier: swift_tamanegi_raven_wa_judging
+    State: ANYTARGET
+    Condition: ALWAYS
+    CastRate: 3400
+    CastTime: 400
+    CastCancel: UNCANCELABLE
+    CastDelay: 13500
+    Target: SELF
+    Emotion: NONE
+  - Index: 2
+    SkillName: WZ_WATERBALL
+    SkillLv: 1
+    UniqueIdentifier: samui_orange_pigeon_wa_guiding
+    State: ANY
+    Condition: ALWAYS
+    CastRate: 9000
+    CastTime: 150
+    CastCancel: CANCELABLE
+    CastDelay: 2000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 3
+    SkillName: NPC_WATERATTACK
+    SkillLv: 3
+    UniqueIdentifier: nimble_gin_bison_wa_crushing
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 500
+    CastTime: 500
+    CastCancel: UNCANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 4
+    SkillName: MG_FROSTDIVER
+    SkillLv: 5
+    UniqueIdentifier: relentless_pinku_cobra_wa_walking
+    State: CHASE
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 1000
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: EINHERJAR
+  - Index: 5
+    SkillName: MG_FROSTDIVER
+    SkillLv: 5
+    UniqueIdentifier: samurai_turquoise_gurifon_wa_racing
+    State: CHASE
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 1500
+    CastCancel: CANCELABLE
+    CastDelay: 9000
+    Target: TARGET
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTY
+      Trigger:
+        Difficulty: NORMAN
+  - Index: 6
+    SkillName: WZ_WATERBALL
+    SkillLv: 3
+    UniqueIdentifier: juunintou_zouge_ushi_wa_owatteiru
+    State: CHASE
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 400
+    CastTime: 15000
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: TARGET
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: EINHERJAR
+  - Index: 7
+    SkillName: NPC_SUMMONMONSTER
+    SkillLv: 1
+    UniqueIdentifier: himei_magenta_otter_wa_smithing
+    State: ANY
+    Condition: ALWAYS
+    CastRate: 4400
+    CastTime: 500
+    CastCancel: CANCELABLE
+    CastDelay: 15000
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_AQUA_S
+      Amount: 1
+  - Index: 8
+    SkillName: NPC_CALLMINION
+    SkillLv: 1
+    UniqueIdentifier: restless_sumire_rabbit_wa_threatening
+    State: CHASE
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 60
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 30000
+    Target: SELF
+    Emotion: NONE
+  - Index: 9
+    SkillName: NPC_CALLMINION
+    SkillLv: 1
+    UniqueIdentifier: sunao_murasaki_kangaroo_wa_enhancing
+    State: IDLE
+    Condition: ALWAYS
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 30000
+    Target: SELF
+    Emotion: NONE
+  - Index: 10
+    SkillName: NPC_CALLMINION
+    SkillLv: 1
+    UniqueIdentifier: subtle_kuro_raion_is_charging
+    State: CHASE
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 30
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 30000
+    Target: SELF
+    Emotion: NONE
+  - Index: 11
+    SkillName: WZ_FROSTNOVA
+    SkillLv: 10
+    UniqueIdentifier: malevolent_magenta_fox_is_pacifying
+    State: ATTACK
+    Condition: MELEEATTACKED
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 1050
+    CastCancel: UNCANCELABLE
+    CastDelay: 9000
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: VALKYRIE
+  - Index: 12
+    SkillName: WZ_FROSTNOVA
+    SkillLv: 2
+    UniqueIdentifier: kamisama_sai_pig_wa_tsukondeiru
+    State: ATTACK
+    Condition: MELEEATTACKED
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 1050
+    CastCancel: UNCANCELABLE
+    CastDelay: 18000
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTY
+      Trigger:
+        Difficulty: EINHERJAR
+  - Index: 13
+    SkillName: WZ_WATERBALL
+    SkillLv: 3
+    UniqueIdentifier: seijitsu_shinku_sasori_is_steering
+    State: CHASE
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 400
+    CastTime: 20000
+    CastCancel: CANCELABLE
+    CastDelay: 9000
+    Target: TARGET
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTY
+      Trigger:
+        Difficulty: NORMAN
+- MobId: 29009
+  MobName: RGX_B_AGNI
+  Skills:
+  - Index: 0
+    SkillName: NPC_FIREATTACK
+    SkillLv: 1
+    UniqueIdentifier: shadowy_gin_karasu_wa_agitating
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 2000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 1
+    SkillName: SM_MAGNUM
+    SkillLv: 5
+    UniqueIdentifier: still_blue_usagi_wa_conjuring
+    State: ANGRYTARGET
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1400
+    CastTime: 500
+    CastCancel: UNCANCELABLE
+    CastDelay: 11111
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: EINHERJAR
+  - Index: 2
+    SkillName: NPC_AGIUP
+    SkillLv: 10
+    UniqueIdentifier: keisei_murasaki_nue_wa_foraging
+    State: ANY
+    Condition: ONSPAWN
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 60000
+    Target: SELF
+    Emotion: NONE
+  - Index: 3
+    SkillName: NPC_AGIUP
+    SkillLv: 10
+    UniqueIdentifier: yuukan_turquoise_tekkou_is_winning
+    State: ANY
+    Condition: ALWAYS
+    CastRate: 10000
+    CastTime: 200
+    CastCancel: CANCELABLE
+    CastDelay: 9000
+    Target: SELF
+    Emotion: NONE
+  - Index: 4
+    SkillName: SM_MAGNUM
+    SkillLv: 3
+    UniqueIdentifier: natsu_midori_uma_is_mamoru
+    State: ANGRYTARGET
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1400
+    CastTime: 500
+    CastCancel: UNCANCELABLE
+    CastDelay: 11111
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTY
+      Trigger:
+        Difficulty: NORMAN
+- MobId: 29010
+  MobName: RGX_B_VENTUS
+  Skills:
+  - Index: 0
+    SkillName: MG_LIGHTNINGBOLT
+    SkillLv: 1
+    UniqueIdentifier: mysterious_scarlet_stag_is_koutokushiteiru
+    State: ANYTARGET
+    Condition: ALWAYS
+    CastRate: 2000
+    CastTime: 500
+    CastCancel: CANCELABLE
+    CastDelay: 1000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 1
+    SkillName: MG_LIGHTNINGBOLT
+    SkillLv: 2
+    UniqueIdentifier: frail_limo_fukurou_wa_compelling
+    State: ANYTARGET
+    Condition: ALWAYS
+    CastRate: 1500
+    CastTime: 600
+    CastCancel: CANCELABLE
+    CastDelay: 1000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 2
+    SkillName: MG_LIGHTNINGBOLT
+    SkillLv: 3
+    UniqueIdentifier: just_gin_turkey_is_punching
+    State: ANYTARGET
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 700
+    CastCancel: CANCELABLE
+    CastDelay: 1000
+    Target: TARGET
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: EINHERJAR
+  - Index: 3
+    SkillName: TF_BACKSLIDING
+    SkillLv: 8
+    UniqueIdentifier: swift_kon_shirokuma_is_engraving
+    State: ATTACK
+    Condition: MELEEATTACKED
+    Trigger: {}
+    CastRate: 7000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 35000
+    Target: SELF
+    Emotion: NONE
+  - Index: 4
+    SkillName: NPC_STOP
+    SkillLv: 1
+    UniqueIdentifier: hollow_lime_swan_wa_steering
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 3000
+    CastCancel: CANCELABLE
+    CastDelay: 15000
+    Target: TARGET
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: EINHERJAR
+  - Index: 5
+    SkillName: MG_THUNDERSTORM
+    SkillLv: 2
+    UniqueIdentifier: steadfast_aoi_turkey_is_arguing
+    State: ANYTARGET
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 1500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 30000
+    Target: TARGET
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTY
+      Trigger:
+        Difficulty: NORMAN
+  - Index: 6
+    SkillName: AL_PNEUMA
+    SkillLv: 1
+    UniqueIdentifier: mi_navy_crow_wa_attacking
+    State: ANYTARGET
+    Condition: RANGEATTACKED
+    CastRate: 7000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 7000
+    Target: SELF
+    Emotion: SMILE
+  - Index: 7
+    SkillName: NPC_AGIUP
+    SkillLv: 10
+    UniqueIdentifier: swift_shinku_hedgehog_wa_restraining
+    State: ANY
+    Condition: ONSPAWN
+    CastRate: 10000
+    CastTime: 200
+    CastCancel: CANCELABLE
+    CastDelay: 9000
+    Target: SELF
+    Emotion: NONE
+  - Index: 8
+    SkillName: NPC_AGIUP
+    SkillLv: 10
+    UniqueIdentifier: samui_navy_cobra_is_altering
+    State: ANY
+    Condition: ALWAYS
+    CastRate: 10000
+    CastTime: 1500
+    CastCancel: CANCELABLE
+    CastDelay: 30000
+    Target: SELF
+    Emotion: NONE
+  - Index: 9
+    SkillName: NJ_HUUJIN
+    SkillLv: 1
+    UniqueIdentifier: tokubetsu_scarlet_okami_is_crawling
+    State: ANYTARGET
+    Condition: ALWAYS
+    CastRate: 2000
+    CastTime: 300
+    CastCancel: CANCELABLE
+    CastDelay: 1000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 10
+    SkillName: NJ_HUUJIN
+    SkillLv: 2
+    UniqueIdentifier: exhausted_lime_badger_is_pacifying
+    State: ANYTARGET
+    Condition: ALWAYS
+    CastRate: 1500
+    CastTime: 400
+    CastCancel: CANCELABLE
+    CastDelay: 1000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 11
+    SkillName: NJ_HUUJIN
+    SkillLv: 3
+    UniqueIdentifier: silent_navy_narikabi_wa_hoshii
+    State: ANYTARGET
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 500
+    CastCancel: CANCELABLE
+    CastDelay: 1000
+    Target: TARGET
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: EINHERJAR
+  - Index: 12
+    SkillName: MG_THUNDERSTORM
+    SkillLv: 4
+    UniqueIdentifier: vigilant_kiiro_uma_wa_kougeishiteiru
+    State: ANYTARGET
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 1500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 30000
+    Target: TARGET
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: EINHERJAR
+- MobId: 29011
+  MobName: RGX_B_TERA
+  Skills:
+  - Index: 0
+    SkillName: WZ_EARTHSPIKE
+    SkillLv: 3
+    UniqueIdentifier: natsu_chairo_camel_is_tougeishiteiru
+    State: CHASE
+    Condition: ALWAYS
+    CastRate: 1500
+    CastTime: 500
+    CastCancel: CANCELABLE
+    CastDelay: 15000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 1
+    SkillName: SM_BASH
+    SkillLv: 3
+    UniqueIdentifier: wild_turquoise_rhinoceros_wa_dodging
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 500
+    CastTime: 1600
+    CastCancel: SUPERARMOR
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 2
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: steady_gold_kirin_wa_invoking
+    State: ANY
+    Condition: ONSPAWN
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 999999
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_B_VENTUS
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 3
+    SkillName: NPC_CALLMINION
+    SkillLv: 1
+    UniqueIdentifier: arashi_magenta_kaze_is_absorbing
+    State: IDLE
+    Condition: ALWAYS
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 30000
+    Target: SELF
+    Emotion: NONE
+  - Index: 4
+    SkillName: TF_SPRINKLESAND
+    SkillLv: 1
+    UniqueIdentifier: yuuki_midori_falcon_is_irasshaimase
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 1500
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 8100
+    Target: TARGET
+    Emotion: FRET
+  - Index: 5
+    SkillName: NPC_JOINTBEAT
+    SkillLv: 2
+    UniqueIdentifier: shinpi_white_mole_is_punching
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 1200
+    Target: TARGET
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: EINHERJAR
+  - Index: 6
+    SkillName: LK_HEADCRUSH
+    SkillLv: 1
+    UniqueIdentifier: righteous_chairo_narwhal_is_crushing
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 4000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 18000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 7
+    SkillName: NPC_STONESKIN
+    SkillLv: 3
+    UniqueIdentifier: fukai_brown_jellyfish_is_oshieteiru
+    State: ATTACK
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 40
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+  - Index: 8
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: grand_kuro_cobra_is_biting
+    State: ANGRYTARGET
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 7000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 7000
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: EINHERJAR
+    Summons:
+    - MobId: RGX_TERA_S
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 9
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: seigi_gray_crane_is_tobiteiru
+    State: ANGRYTARGET
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 7000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 14000
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTY
+      Trigger:
+        Difficulty: NORMAN
+    Summons:
+    - MobId: RGX_TERA_S
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 10
+    SkillName: NPC_JOINTBEAT
+    SkillLv: 2
+    UniqueIdentifier: mysterious_teal_bison_wa_shugyoushiteiru
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 3600
+    Target: TARGET
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTY
+      Trigger:
+        Difficulty: NORMAN
+- MobId: 29012
+  MobName: RGX_B_EDDGA
+  Skills:
+  - Index: 0
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 3
+    UniqueIdentifier: shinpi_orenji_bison_is_informing
+    State: CHASE
+    Condition: MINIONLE
+    Trigger: {}
+    CastRate: 2000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 60000
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_JAGUAR
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+    - MobId: RGX_JAGUAR
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+    - MobId: RGX_JAGUAR
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 1
+    SkillName: BS_MAXIMIZE
+    SkillLv: 5
+    UniqueIdentifier: frosty_shiro_ram_is_training
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 25
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 60000
+    Target: SELF
+    Emotion: NONE
+  - Index: 2
+    SkillName: MG_FIREBALL
+    SkillLv: 4
+    UniqueIdentifier: fubuki_teal_zou_is_shouting
+    State: CHASE
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 500
+    CastCancel: CANCELABLE
+    CastDelay: 13000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 3
+    SkillName: SM_MAGNUM
+    SkillLv: 1
+    UniqueIdentifier: strong_red_cobra_wa_mamoru
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 500
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 8000
+    Target: SELF
+    Emotion: FRET
+  - Index: 4
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: fearless_kin_kaze_is_baking
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 50
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Sdelay: 100
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_STONE_SHOOTER
+      Amount: 4
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 5
+    SkillName: TF_BACKSLIDING
+    SkillLv: 7
+    UniqueIdentifier: stormy_orange_eagle_is_jikkoushiteiru
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_SUMMONMINION
+      AfterId: fearless_kin_kaze_is_baking
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Sdelay: 100
+    Target: SELF
+    Emotion: NONE
+  - Index: 6
+    SkillName: NPC_INVULN
+    SkillLv: 1
+    UniqueIdentifier: hageshii_ivory_sparrow_is_controlling
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: TF_BACKSLIDING
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ChatId: 2901200
+    InvulnData:
+      Duration: 5000
+      Spawn1Lt: 1
+      Basilica: HP_BASILICA
+  - Index: 7
+    SkillName: MG_FIREBOLT
+    SkillLv: 3
+    UniqueIdentifier: hisashiburi_pinku_pig_wa_mamoru
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 500
+    CastTime: 250
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+- MobId: 29013
+  MobName: RGX_B_TAO_GUNKA
+  Skills: []
+- MobId: 29014
+  MobName: RGX_B_PHREEONI
+  Skills:
+  - Index: 0
+    SkillName: TF_BACKSLIDING
+    SkillLv: 10
+    UniqueIdentifier: swift_silver_kuma_is_matteiru
+    State: ANY
+    Condition: TARGETEDBYSKILL
+    Trigger:
+      Skill: RGX_ANYSKILL
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 45000
+    Target: SELF
+    Emotion: NONE
+  - Index: 1
+    SkillName: KO_GENWAKU
+    SkillLv: 15
+    UniqueIdentifier: guarded_sai_kojika_wa_carving
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: TF_BACKSLIDING
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: TARGET
+    Emotion: NONE
+  - Index: 2
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: untamed_maroon_raion_is_healing
+    State: ANY
+    Condition: MINIONLT
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 1000
+    CastCancel: UNCANCELABLE
+    CastDelay: 17000
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_SIDE_WINDER_P
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 3
+    SkillName: NJ_SHADOWJUMP
+    SkillLv: 10
+    UniqueIdentifier: wary_orange_kaeru_wa_baking
+    State: ANGRYTARGET
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 55000
+    Target: AROUNDTARGET
+    AroundArea: 5
+    Emotion: NONE
+  - Index: 4
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: faithful_blue_okami_is_threatening
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NJ_SHADOWJUMP
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_SLEEPER_P
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+    - MobId: RGX_GIEARTH_P
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 5
+    SkillName: NJ_SUITON
+    SkillLv: 10
+    UniqueIdentifier: hisashiburi_mizuiro_nezumi_is_kandoushiteiru
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_SUMMONMINION
+      AfterId: faithful_blue_okami_is_threatening
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+  - Index: 6
+    SkillName: NPC_RUNAWAY
+    SkillLv: 1
+    UniqueIdentifier: subayai_pinku_boar_is_charming
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NJ_SUITON
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 21000
+    Target: SELF
+    Emotion: NONE
+    RunawayData:
+      Duration: 11000
+      RunCells: 30
+      SearchArea: 30
+      DamageThreshold: 100
+  - Index: 7
+    SkillName: TF_HIDING
+    SkillLv: 1
+    UniqueIdentifier: hikou_violet_hydra_wa_digging
+    State: ATTACK
+    Condition: HPLT
+    Trigger:
+      Percent: 99
+    CastRate: 1000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 18000
+    Target: SELF
+    Emotion: PROFUSELY_SWEAT
+  - Index: 8
+    SkillName: TK_JUMPKICK
+    SkillLv: 1
+    UniqueIdentifier: silent_scarlet_hawk_wa_boiling
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 80
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: TARGET
+    Emotion: NONE
+  - Index: 9
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: proud_haiiro_goose_wa_taunting
+    State: ANY
+    Condition: MINIONLT
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 500
+    CastCancel: UNCANCELABLE
+    CastDelay: 11500
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_ANDRE_P
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 10
+    SkillName: TK_JUMPKICK
+    SkillLv: 1
+    UniqueIdentifier: shin'en_kiiro_whale_wa_commanding
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 30
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: TARGET
+    Emotion: NONE
+  - Index: 11
+    SkillName: KO_GENWAKU
+    SkillLv: 15
+    UniqueIdentifier: kamisama_maroon_karasu_wa_navigating
+    State: CHASE
+    Condition: ALWAYS
+    CastRate: 2000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 75000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 12
+    SkillName: NPC_BLINDATTACK
+    SkillLv: 1
+    UniqueIdentifier: tranquil_haiiro_chou_is_walking
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 500
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 13
+    SkillName: NPC_CURSEATTACK
+    SkillLv: 3
+    UniqueIdentifier: mi_midori_kawa_wa_riding
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 500
+    CastTime: 800
+    CastCancel: UNCANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 14
+    SkillName: AL_INCAGI
+    SkillLv: 5
+    UniqueIdentifier: exhausted_aka_inu_wa_steering
+    State: ANY
+    Condition: STATUSTRUE
+    Trigger:
+      Status: SC_HIDING
+    CastRate: 1000
+    CastTime: 1300
+    CastCancel: CANCELABLE
+    CastDelay: 20000
+    Target: SELF
+    Emotion: NONE
+  - Index: 15
+    SkillName: SM_PROVOKE
+    SkillLv: 5
+    UniqueIdentifier: fearless_gold_pig_wa_wielding
+    State: ANY
+    Condition: STATUSTRUE
+    Trigger:
+      Status: SC_HIDING
+    CastRate: 1500
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 80000
+    Target: RANDOMTARGET
+    Emotion: NONE
+    ExMsc:
+    - Condition: TARGETSTATUSFALSE
+      Trigger:
+        Status: SC_PROVOKE
+  - Index: 16
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: hisashiburi_kin_saezuri_is_kougeishiteiru
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: TK_JUMPKICK
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 60000
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_MARINE_SPHERE__P
+      Amount: 10
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 17
+    SkillName: NC_F_SIDESLIDE
+    SkillLv: 7
+    UniqueIdentifier: kanpeki_brown_kujira_wa_kougekishiteiru
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_SUMMONMINION
+      AfterId: hisashiburi_kin_saezuri_is_kougeishiteiru
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+  - Index: 18
+    SkillName: NPC_RUNAWAY
+    SkillLv: 1
+    UniqueIdentifier: rei_yellow_shishi_wa_urging
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NC_F_SIDESLIDE
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 24000
+    Target: SELF
+    Emotion: NONE
+    RunawayData:
+      Duration: 9000
+      RunCells: 24
+      SearchArea: 24
+      DamageThreshold: 100
+- MobId: 29016
+  MobName: RGX_B_DRAKE
+  Skills:
+  - Index: 0
+    SkillName: BS_MAXIMIZE
+    SkillLv: 5
+    UniqueIdentifier: cunning_magenta_scorpion_is_fortifying
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 5000
+    Target: SELF
+    Emotion: NONE
+    OldRate: 500
+  - Index: 1
+    SkillName: BS_MAXIMIZE
+    SkillLv: 5
+    UniqueIdentifier: mighty_brown_narwhal_wa_commanding
+    State: CHASE
+    Condition: ALWAYS
+    CastRate: 500
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 5000
+    Target: SELF
+    Emotion: NONE
+    OldRate: 500
+  - Index: 2
+    SkillName: NPC_BLITZBEAT
+    SkillLv: 1
+    UniqueIdentifier: swift_tamanegi_cobra_is_mamotteiru
+    State: ANY
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 3000
+    CastTime: 300
+    CastCancel: UNCANCELABLE
+    CastDelay: 6000
+    Target: TARGET
+    Emotion: NONE
+    OldRate: 3000
+  - Index: 3
+    SkillName: NPC_BLITZBEAT
+    SkillLv: 3
+    UniqueIdentifier: joyful_white_dolphin_is_omowasu
+    State: ATTACK
+    Condition: MELEEATTACKED
+    Trigger: {}
+    CastRate: 5000
+    CastTime: 300
+    CastCancel: UNCANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+    OldRate: 5000
+  - Index: 4
+    SkillName: MC_MAMMONITE
+    SkillLv: 5
+    UniqueIdentifier: sharp_ivory_tatsu_wa_focusing
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 1000
+    CastTime: 800
+    CastCancel: SUPERARMOR
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+    OldRate: 1000
+  - Index: 5
+    SkillName: NPC_BLITZBEAT
+    SkillLv: 3
+    UniqueIdentifier: mighty_beju_seal_wa_walking
+    State: ANY
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 3000
+    CastTime: 300
+    CastCancel: UNCANCELABLE
+    CastDelay: 8000
+    Target: TARGET
+    Emotion: NONE
+    OldRate: 3000
+  - Index: 6
+    SkillName: GS_PIERCINGSHOT
+    SkillLv: 1
+    UniqueIdentifier: stubborn_blue_ryuu_is_navigating
+    State: CHASE
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 3000
+    CastTime: 250
+    CastCancel: UNCANCELABLE
+    CastDelay: 8000
+    Target: TARGET
+    Emotion: NONE
+    OldRate: 3000
+  - Index: 7
+    SkillName: GS_DUST
+    SkillLv: 3
+    UniqueIdentifier: malevolent_ivory_nezumi_wa_educating
+    State: ATTACK
+    Condition: MELEEATTACKED
+    CastRate: 3000
+    CastTime: 800
+    CastCancel: UNCANCELABLE
+    CastDelay: 15000
+    Target: TARGET
+    Emotion: NONE
+    OldRate: 3000
+  - Index: 8
+    SkillName: GS_FULLBUSTER
+    SkillLv: 1
+    UniqueIdentifier: hidari_zouge_rabbit_wa_demeaning
+    State: ANY
+    Condition: HPLT
+    Trigger:
+      Percent: 50
+    CastRate: 4000
+    CastTime: 1000
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 10000
+    Target: TARGET
+    Emotion: NONE
+    ExMsc:
+    - Condition: MELEEATTACKED
+      Trigger: {}
+    OldRate: 4000
+  - Index: 9
+    SkillName: GS_DUST
+    SkillLv: 1
+    UniqueIdentifier: cursed_purple_sheep_wa_mamotteiru
+    State: ATTACK
+    Condition: DISTANCELE
+    Trigger:
+      Distance: 1
+    CastRate: 3000
+    CastTime: 800
+    CastCancel: UNCANCELABLE
+    CastDelay: 15000
+    Target: TARGET
+    Emotion: NONE
+    OldRate: 3000
+  - Index: 10
+    SkillName: NPC_EVILLAND
+    SkillLv: 1
+    UniqueIdentifier: noble_orange_crane_wa_recording
+    State: ANY
+    Condition: HPLT
+    Trigger:
+      Percent: 70
+    CastRate: 10000
+    CastTime: 3000
+    CastCancel: UNCANCELABLE
+    CastDelay: 60000
+    Target: TARGET
+    Emotion: NONE
+    OldRate: 10000
+  - Index: 11
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: lost_kin_kuma_wa_governing
+    State: ANYTARGET
+    Condition: MINIONLE
+    Trigger: {}
+    CastRate: 8500
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 90000
+    Target: SELF
+    RemoveOnCast: true
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_WRAITH_DR
+      Amount: 2
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+      MasterDead: true
+    OldRate: 8500
+  - Index: 12
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: wild_kon_hidora_is_stirring
+    State: ANGRYTARGET
+    Condition: MINIONLE
+    Trigger: {}
+    CastRate: 2500
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 90000
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: EINHERJAR
+    Summons:
+    - MobId: RGX_WRAITH_DR
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+      MasterDead: true
+    OldRate: 2500
+  - Index: 13
+    SkillName: HT_DETECTING
+    SkillLv: 1
+    UniqueIdentifier: tokubetsu_mizuiro_hippo_wa_scanning
+    State: ANY
+    Condition: TARGETSTATUSTRUE
+    Trigger:
+      Status: SC_HIDING
+    CastRate: 7500
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 36000
+    Target: TARGET
+    Emotion: NONE
+    OldRate: 7500
+  - Index: 14
+    SkillName: HT_DETECTING
+    SkillLv: 1
+    UniqueIdentifier: stubborn_orange_kitsune_is_grappling
+    State: ANY
+    Condition: TARGETSTATUSTRUE
+    Trigger:
+      Status: SC_CLOAKING
+    CastRate: 7500
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 36000
+    Target: TARGET
+    Emotion: NONE
+    OldRate: 7500
+  - Index: 15
+    SkillName: NPC_JOINTBEAT
+    SkillLv: 8
+    UniqueIdentifier: ikioi_violet_densetsu_wa_spying
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 2500
+    CastTime: 100
+    CastCancel: CANCELABLE
+    CastDelay: 23000
+    Target: TARGET
+    Emotion: NONE
+    OldRate: 2500
+- MobId: 29017
+  MobName: RGX_B_PHARAOH
+  Skills:
+  - Index: 0
+    SkillName: MC_MAMMONITE
+    SkillLv: 3
+    UniqueIdentifier: malevolent_gin_inu_is_yokosu
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 1000
+    CastCancel: SUPERARMOR
+    SuperArmor: 10
+    CastDelay: 6000
+    Target: TARGET
+    Emotion: NONE
+    RangeOverride: 3
+    OldRate: 10000
+  - Index: 1
+    SkillName: NPC_DARKSTRIKE
+    SkillLv: 4
+    UniqueIdentifier: benevolent_lime_narwhal_wa_omotteiru
+    State: CHASE
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 500
+    CastCancel: CANCELABLE
+    CastDelay: 35000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 2
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: tranquil_gray_usagi_is_frying
+    State: ANY
+    Condition: ONSPAWN
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_JEWELED_SWORD
+      Amount: 1
+      MasterModes: true
+      MasterSpecialAi: true
+      MasterDead: true
+    - MobId: RGX_MIMIC
+      Amount: 1
+      MasterModes: true
+      MasterSpecialAi: true
+      MasterDead: true
+    OldRate: 10000
+  - Index: 3
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: furui_pink_hydra_is_kiku
+    State: ATTACK
+    Condition: MINIONDEAD
+    Trigger:
+      Mob: RGX_MIMIC
+    CastRate: 1000
+    CastTime: 1500
+    CastCancel: SUPERARMOR
+    SuperArmor: 10
+    CastDelay: 60000
+    Target: SELF
+    Emotion: NONE
+    ChatId: 2901705
+    ExMsc:
+    - Condition: HPLT
+      Trigger:
+        Percent: 70
+    - Condition: MINIONLT
+      Trigger:
+        Count: 2
+    Summons:
+    - MobId: RGX_MIMIC
+      Amount: 1
+      MasterModes: true
+      MasterSpecialAi: true
+      MasterDead: true
+    OldRate: 5000
+  - Index: 4
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: furui_red_cow_wa_influencing
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 75
+    CastRate: 10000
+    CastTime: 2000
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ChatId: 2901700
+    Summons:
+    - MobId: RGX_ZEPHYRUS
+      Amount: 1
+      MasterModes: true
+      MasterSpecialAi: true
+      MasterDead: true
+    OldRate: 10000
+  - Index: 5
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: kibishii_white_octopus_is_hyoukashiteiru
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 65
+    CastRate: 10000
+    CastTime: 2000
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ChatId: 2901702
+    ExMsc:
+    - Condition: MINIONLT
+      Trigger:
+        Count: 2
+    Summons:
+    - MobId: RGX_JEWELED_SWORD
+      Amount: 1
+      MasterModes: true
+      MasterSpecialAi: true
+      MasterDead: true
+    OldRate: 10000
+  - Index: 6
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: mayoi_lime_shika_wa_charging
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 50
+    CastRate: 10000
+    CastTime: 2000
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ChatId: 2901703
+    Summons:
+    - MobId: RGX_WIZARDRY_STAFF
+      Amount: 1
+      MasterModes: true
+      MasterSpecialAi: true
+      MasterDead: true
+      SpawnX: 2
+    OldRate: 10000
+  - Index: 7
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: eternal_haiiro_karasu_wa_hunting
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_SUMMONMINION
+      AfterId: mayoi_lime_shika_wa_charging
+    CastRate: 10000
+    CastTime: 2000
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ChatId: 2901703
+    ExMsc:
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: EINHERJAR
+    Summons:
+    - MobId: RGX_WIZARDRY_STAFF
+      Amount: 1
+      MasterModes: true
+      MasterSpecialAi: true
+      MasterDead: true
+      SpawnX: 2
+    OldRate: 10000
+  - Index: 8
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: saikou_cyan_hato_is_fencing
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 35
+    CastRate: 10000
+    CastTime: 2000
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ChatId: 2901702
+    ExMsc:
+    - Condition: MINIONLT
+      Trigger:
+        Count: 2
+    Summons:
+    - MobId: RGX_JEWELED_SWORD
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+      MasterDead: true
+    OldRate: 10000
+  - Index: 9
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: wise_beige_zou_is_charming
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 25
+    CastRate: 10000
+    CastTime: 2000
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ChatId: 2901701
+    Summons:
+    - MobId: RGX_LIGHT_EPSILON
+      Amount: 1
+      MasterModes: true
+      MasterSpecialAi: true
+      MasterDead: true
+    OldRate: 10000
+- MobId: 29018
+  MobName: RGX_B_KRAKEN
+  Skills: []
+- MobId: 29019
+  MobName: RGX_B_TURTLE_GENERAL
+  Skills: []
+- MobId: 29020
+  MobName: RGX_B_CTM
+  Skills: []
+- MobId: 29021
+  MobName: RGX_B_WHITE_KNIGHT
+  Skills: []
+- MobId: 29022
+  MobName: RGX_B_ORC_HERO
+  Skills:
+  - Index: 0
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: kami_red_uma_wa_haishutteiru
+    State: ANY
+    Condition: ONSPAWN
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_WOOTAN_FIGHTER
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+    - MobId: RGX_WOOTAN_SHOOTER
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+    OldRate: 10000
+  - Index: 1
+    SkillName: CR_DEVOTION
+    SkillLv: 1
+    UniqueIdentifier: yuukan_black_penguin_wa_kajishiteiru
+    State: IDLE
+    Condition: ALLYHPRANGE
+    Trigger:
+      PercentUpper: 100
+      PercentLower: 95
+    CastRate: 10000
+    CastTime: 500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 30000
+    Target: ALLY
+    Emotion: NONE
+    AllyIsMinion: true
+    OldRate: 10000
+  - Index: 2
+    SkillName: CR_DEVOTION
+    SkillLv: 1
+    UniqueIdentifier: stormy_purple_cobra_is_yobidashiteiru
+    State: IDLE
+    Condition: ALLYHPRANGE
+    Trigger:
+      PercentUpper: 100
+      PercentLower: 95
+    CastRate: 10000
+    CastTime: 500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 30000
+    Target: ALLY
+    Emotion: NONE
+    AllyIsMinion: true
+    OldRate: 10000
+  - Index: 3
+    SkillName: CR_DEVOTION
+    SkillLv: 1
+    UniqueIdentifier: rugged_beige_penguin_is_debating
+    State: ANYTARGET
+    Condition: ALLYHPRANGE
+    Trigger:
+      PercentUpper: 100
+      PercentLower: 31
+    CastRate: 1500
+    CastTime: 500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 60000
+    Target: ALLY
+    Emotion: NONE
+    ChatId: -1
+    ExMsc:
+    - Condition: TARGETSTATUSFALSE
+      Trigger:
+        Status: SC_DEVOTION
+    AllyIsMinion: true
+    OldRate: 10000
+  - Index: 4
+    SkillName: CR_SHIELDCHARGE
+    SkillLv: 3
+    UniqueIdentifier: wild_magenta_badger_is_uketometeiru
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 5
+    SkillName: NPC_CRITICALSLASH
+    SkillLv: 1
+    UniqueIdentifier: shy_beige_lizard_is_kurushindeiru
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 6
+    SkillName: MG_THUNDERSTORM
+    SkillLv: 5
+    UniqueIdentifier: shy_sai_zou_is_riding
+    State: CHASE
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 2000
+    CastTime: 1200
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 24000
+    Target: TARGET
+    MaxLv: 7
+    Emotion: NONE
+  - Index: 7
+    SkillName: MG_THUNDERSTORM
+    SkillLv: 9
+    UniqueIdentifier: lost_silver_octopus_wa_flattering
+    State: ATTACK
+    Condition: TARGETSTATUSTRUE
+    Trigger:
+      Status: SC_SAFETYWALL
+    CastRate: 2500
+    CastTime: 1000
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 12000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 8
+    SkillName: MG_THUNDERSTORM
+    SkillLv: 4
+    UniqueIdentifier: stormy_chairo_weasel_is_eating
+    State: ANYTARGET
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 2000
+    CastTime: 750
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 16000
+    Target: TARGET
+    MaxLv: 6
+    Emotion: NONE
+  - Index: 9
+    SkillName: SM_BASH
+    SkillLv: 3
+    UniqueIdentifier: grim_orenji_falcon_wa_shinjitteiru
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 200
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 10
+    SkillName: LK_SPIRALPIERCE
+    SkillLv: 1
+    UniqueIdentifier: yami_orenji_tatsu_is_steering
+    State: ANYTARGET
+    Condition: HPLT
+    Trigger:
+      Percent: 33
+    CastRate: 1500
+    CastTime: 2500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 24000
+    Target: TARGET
+    Emotion: NONE
+    ChatId: -1
+    ExMsc:
+    - Condition: DISTANCELE
+      Trigger:
+        Distance: 6
+    RangeOverride: 6
+  - Index: 11
+    SkillName: SM_MAGNUM
+    SkillLv: 5
+    UniqueIdentifier: kyoukou_tamanegi_kurokage_is_swapping
+    State: ATTACK
+    Condition: STATUSFALSE
+    Trigger:
+      Status: SC_INCATKRATE
+    CastRate: 700
+    CastTime: 500
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: SELF
+    MaxLv: 6
+    Emotion: NONE
+  - Index: 12
+    SkillName: SM_BASH
+    SkillLv: 1
+    UniqueIdentifier: pure_indigo_densetsu_is_slicing
+    State: ATTACK
+    Condition: MINIONLE
+    Trigger: {}
+    CastRate: 2500
+    CastTime: 200
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    MaxLv: 2
+    Emotion: NONE
+  - Index: 13
+    SkillName: SM_MAGNUM
+    SkillLv: 2
+    UniqueIdentifier: quick_navy_cougar_is_kenkyuushiteiru
+    State: ATTACK
+    Condition: MINIONLE
+    Trigger: {}
+    CastRate: 1500
+    CastTime: 500
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: SELF
+    MaxLv: 4
+    Emotion: NONE
+  - Index: 14
+    SkillName: CR_REFLECTSHIELD
+    SkillLv: 5
+    UniqueIdentifier: faithful_beige_taimen_is_reinforcing
+    State: ANY
+    Condition: MINIONGE
+    Trigger: {}
+    CastRate: 500
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 50000
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: MELEEATTACKED
+      Trigger: {}
+    - Condition: STATUSFALSE
+      Trigger:
+        Status: CR_REFLECTSHIELD
+  - Index: 15
+    SkillName: MG_THUNDERSTORM
+    SkillLv: 4
+    UniqueIdentifier: bold_green_crane_is_tracking
+    State: ANYTARGET
+    Condition: MINIONLE
+    Trigger: {}
+    CastRate: 2000
+    CastTime: 750
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 12000
+    Target: TARGET
+    MaxLv: 5
+    Emotion: NONE
+  - Index: 16
+    SkillName: CR_AUTOGUARD
+    SkillLv: 5
+    UniqueIdentifier: grand_kuro_ushi_wa_fishing
+    State: ATTACK
+    Condition: HPLT
+    Trigger:
+      Percent: 75
+    CastRate: 1500
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 60000
+    Target: SELF
+    Emotion: KIK
+    ExMsc:
+    - Condition: STATUSFALSE
+      Trigger:
+        Status: SC_AUTOGUARD
+  - Index: 17
+    SkillName: CR_REFLECTSHIELD
+    SkillLv: 5
+    UniqueIdentifier: mayoi_tamanegi_dolphin_is_owatteiru
+    State: ATTACK
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: CR_AUTOGUARD
+    CastRate: 1500
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 60000
+    Target: SELF
+    Emotion: KIK
+    ExMsc:
+    - Condition: STATUSFALSE
+      Trigger:
+        Status: SC_REFLECTSHIELD
+  - Index: 18
+    SkillName: NPC_POWERUP
+    SkillLv: 1
+    UniqueIdentifier: heroic_ao_armadillo_is_scouting
+    State: ANY
+    Condition: HPLT
+    Trigger:
+      Percent: 30
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Sdelay: 500
+    Target: SELF
+    RemoveOnCast: true
+    Emotion: FRET
+  - Index: 19
+    SkillName: NPC_POWERUP
+    SkillLv: 1
+    UniqueIdentifier: mi_shinku_peacock_is_smithing
+    State: ANYTARGET
+    Condition: STATUSEXPIRED
+    Trigger:
+      Status: SC_INCATKRATE
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 60000
+    Sdelay: 500
+    Target: SELF
+    Emotion: FRET
+  - Index: 20
+    SkillName: BS_MAXIMIZE
+    SkillLv: 1
+    UniqueIdentifier: kyoukou_ao_koumori_wa_commanding
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_POWERUP
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Sdelay: 500
+    Target: SELF
+    Emotion: FRET
+  - Index: 21
+    SkillName: AC_CONCENTRATION
+    SkillLv: 1
+    UniqueIdentifier: rugged_beju_kitsune_wa_informing
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: BS_MAXIMIZE
+      AfterId: kyoukou_ao_koumori_wa_commanding
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Sdelay: 500
+    Target: SELF
+    Emotion: FRET
+  - Index: 22
+    SkillName: KN_TWOHANDQUICKEN
+    SkillLv: 10
+    UniqueIdentifier: nimble_beige_griffon_is_yomu
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: AC_CONCENTRATION
+      AfterId: rugged_beju_kitsune_wa_informing
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Sdelay: 500
+    Target: SELF
+    Emotion: FRET
+    ExMsc:
+    - Condition: MINIONLE
+      Trigger: {}
+  - Index: 23
+    SkillName: KN_TWOHANDQUICKEN
+    SkillLv: 7
+    UniqueIdentifier: rebellious_limo_amefuri_wa_assaulting
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: AC_CONCENTRATION
+      AfterId: rugged_beju_kitsune_wa_informing
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Sdelay: 500
+    Target: SELF
+    Emotion: FRET
+    ExMsc:
+    - Condition: MINIONGE
+      Trigger: {}
+- MobId: 29023
+  MobName: RGX_B_BAPHOMET
+  Skills:
+  - Index: 0
+    SkillName: NPC_SUMMONMONSTER
+    SkillLv: 1
+    UniqueIdentifier: yuuki_magenta_kangaroo_wa_uketometeiru
+    State: ANY
+    Condition: ONSPAWN
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Sdelay: 100
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_ZEALOTUS
+      Amount: 1
+      MasterDead: true
+      SpawnY: -5
+    OldRate: 10000
+  - Index: 1
+    SkillName: NPC_FACEDIR
+    SkillLv: 4
+    UniqueIdentifier: boundless_teal_snake_wa_mitteiru
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_SUMMONMONSTER
+      AfterId: yuuki_magenta_kangaroo_wa_uketometeiru
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Sdelay: 100
+    Target: SELF
+    Emotion: NONE
+  - Index: 2
+    SkillName: NPC_INVULN
+    SkillLv: 1
+    UniqueIdentifier: shinnyuu_gray_ram_is_banishing
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_FACEDIR
+      AfterId: boundless_teal_snake_wa_mitteiru
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ChatId: 2902301
+    InvulnData:
+      Spawn1Lt: 1
+      Basilica: HP_BASILICA
+  - Index: 3
+    SkillName: NPC_WIDECURSE
+    SkillLv: 10
+    UniqueIdentifier: frosty_pink_tiger_wa_forging
+    State: ANY
+    Condition: STATUSEXPIRED
+    Trigger:
+      Status: SC_INVULN
+    CastRate: 10000
+    CastTime: 2000
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 0
+    Target: SELF
+    Emotion: FRET
+    ChatId: 2902302
+    OldRate: 10000
+  - Index: 4
+    SkillName: NPC_WIDEREAPING
+    SkillLv: 3
+    UniqueIdentifier: furui_aka_tiger_is_tasuketeiru
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_WIDECURSE
+      AfterId: frosty_pink_tiger_wa_forging
+    CastRate: 10000
+    CastTime: 1000
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ChatId: -1
+  - Index: 5
+    SkillName: NPC_SUMMONMONSTER
+    SkillLv: 1
+    UniqueIdentifier: fuyu_yellow_nue_is_forging
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 90
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Sdelay: 100
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_SUCCUBUS
+      Amount: 1
+      SpawnX: 2
+    - MobId: RGX_INCUBUS
+      Amount: 1
+      SpawnX: -2
+    OldRate: 10000
+  - Index: 6
+    SkillName: TF_BACKSLIDING
+    SkillLv: 6
+    UniqueIdentifier: hisashiburi_cyan_kaeru_wa_shoujiteiru
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_SUMMONMONSTER
+      AfterId: fuyu_yellow_nue_is_forging
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+  - Index: 7
+    SkillName: NPC_INVULN
+    SkillLv: 1
+    UniqueIdentifier: dim_blue_inoshishi_wa_kenkyuushiteiru
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: TF_BACKSLIDING
+      AfterId: hisashiburi_cyan_kaeru_wa_shoujiteiru
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ChatId: 2902305
+    InvulnData:
+      Spawn1Lt: 1
+      Basilica: HP_BASILICA
+  - Index: 8
+    SkillName: NPC_WIDECURSE
+    SkillLv: 10
+    UniqueIdentifier: shy_navy_cat_wa_racing
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 75
+    CastRate: 10000
+    CastTime: 2000
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 0
+    Target: SELF
+    RemoveOnCast: true
+    Emotion: NONE
+    OldRate: 10000
+  - Index: 9
+    SkillName: NPC_WIDEREAPING
+    SkillLv: 10
+    UniqueIdentifier: sunao_indigo_camel_wa_utatteiru
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_WIDECURSE
+      AfterId: shy_navy_cat_wa_racing
+    CastRate: 10000
+    CastTime: 1000
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ChatId: -1
+  - Index: 10
+    SkillName: NPC_SUMMONMONSTER
+    SkillLv: 1
+    UniqueIdentifier: hisashiburi_shiro_penguin_wa_destabilizing
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 50
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Sdelay: 100
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_DRACULA
+      Amount: 1
+    OldRate: 10000
+  - Index: 11
+    SkillName: TF_BACKSLIDING
+    SkillLv: 6
+    UniqueIdentifier: dim_murasaki_raven_is_tondeiru
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_SUMMONMONSTER
+      AfterId: hisashiburi_shiro_penguin_wa_destabilizing
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+  - Index: 12
+    SkillName: NPC_INVULN
+    SkillLv: 1
+    UniqueIdentifier: yuuki_aka_cow_is_winning
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: TF_BACKSLIDING
+      AfterId: dim_murasaki_raven_is_tondeiru
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ChatId: 2902303
+    InvulnData:
+      Spawn1Lt: 1
+      Basilica: HP_BASILICA
+  - Index: 13
+    SkillName: NPC_WIDECURSE
+    SkillLv: 5
+    UniqueIdentifier: thoughtful_aka_seal_is_kandoushiteiru
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 25
+    CastRate: 10000
+    CastTime: 2000
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Target: SELF
+    RemoveOnCast: true
+    Emotion: NONE
+    OldRate: 5000
+  - Index: 14
+    SkillName: NPC_WIDEREAPING
+    SkillLv: 3
+    UniqueIdentifier: quick_brown_inoshishi_is_yomu
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_WIDECURSE
+      AfterId: thoughtful_aka_seal_is_kandoushiteiru
+    CastRate: 10000
+    CastTime: 300
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Sdelay: 100
+    Target: SELF
+    Emotion: NONE
+  - Index: 15
+    SkillName: MO_EXPLOSIONSPIRITS
+    SkillLv: 5
+    UniqueIdentifier: furious_sumire_whale_is_banishing
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_WIDEREAPING
+      AfterId: quick_brown_inoshishi_is_yomu
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Sdelay: 100
+    Target: SELF
+    Emotion: NONE
+    ChatId: -1
+  - Index: 16
+    SkillName: KN_TWOHANDQUICKEN
+    SkillLv: 5
+    UniqueIdentifier: wild_cyan_hawk_is_shinobikomishiteiru
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: MO_EXPLOSIONSPIRITS
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+  - Index: 17
+    SkillName: NPC_CURSEATTACK
+    SkillLv: 5
+    UniqueIdentifier: samurai_navy_cougar_is_mitteiru
+    State: ATTACK
+    Condition: TARGETSTATUSFALSE
+    Trigger:
+      Status: SC_CURSE
+    CastRate: 10000
+    CastTime: 300
+    CastCancel: CANCELABLE
+    CastDelay: 12666
+    Target: TARGET
+    Emotion: NONE
+    ExMsc:
+    - Condition: DISTANCELE
+      Trigger:
+        Distance: 3
+  - Index: 18
+    SkillName: NPC_CURSEATTACK
+    SkillLv: 5
+    UniqueIdentifier: yuuki_murasaki_wolverine_is_mamoru
+    State: ANY
+    Condition: TARGETSTATUSFALSE
+    Trigger:
+      Status: SC_CURSE
+    CastRate: 10000
+    CastTime: 300
+    CastCancel: CANCELABLE
+    CastDelay: 45000
+    Target: RANDOMTARGET
+    Emotion: NONE
+  - Index: 19
+    SkillName: NPC_REAPING
+    SkillLv: 3
+    UniqueIdentifier: tada_murasaki_ferret_wa_threatening
+    State: ANY
+    Condition: TARGETSTATUSTRUE
+    Trigger:
+      Status: SC_CURSE
+    CastRate: 10000
+    CastTime: 750
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 1200
+    Target: TARGET
+    Emotion: NONE
+    ChatId: -1
+  - Index: 20
+    SkillName: NPC_CURSEATTACK
+    SkillLv: 5
+    UniqueIdentifier: ikioi_sumire_kitsune_is_mamoru
+    State: ANGRYCHASE
+    Condition: TARGETSTATUSFALSE
+    Trigger:
+      Status: SC_CURSE
+    CastRate: 10000
+    CastTime: 300
+    CastCancel: CANCELABLE
+    CastDelay: 22000
+    Target: TARGET
+    Emotion: NONE
+    ExMsc:
+    - Condition: TARGETSTATUSFALSE
+      Trigger:
+        Status: SC_CURSE
+  - Index: 21
+    SkillName: MO_BODYRELOCATION
+    SkillLv: 5
+    UniqueIdentifier: ikioi_black_donkey_is_mamotteiru
+    State: ANY
+    Condition: DISTANCEGE
+    Trigger:
+      Distance: 4
+    CastRate: 10000
+    CastTime: 100
+    CastCancel: CANCELABLE
+    CastDelay: 1200
+    Target: TARGET
+    Emotion: NONE
+    ExMsc:
+    - Condition: TARGETSTATUSTRUE
+      Trigger:
+        Status: SC_CURSE
+  - Index: 22
+    SkillName: NPC_REAPING
+    SkillLv: 3
+    UniqueIdentifier: forgotten_silver_cobra_is_casting
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: MO_BODYRELOCATION
+    CastRate: 10000
+    CastTime: 750
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 2000
+    Target: TARGET
+    Emotion: NONE
+    ChatId: -1
+  - Index: 23
+    SkillName: NPC_BRANDISHSCYTHE
+    SkillLv: 10
+    UniqueIdentifier: strange_kon_kumo_is_defending
+    State: ATTACK
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 70
+    CastRate: 10000
+    CastTime: 3000
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 0
+    Target: TARGET
+    Emotion: KIK
+    ChatId: 2902300
+  - Index: 24
+    SkillName: NPC_BRANDISHSCYTHE
+    SkillLv: 10
+    UniqueIdentifier: hidden_gray_tekkou_is_tsutomeru
+    State: ATTACK
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 60
+    CastRate: 10000
+    CastTime: 3000
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 0
+    Target: TARGET
+    Emotion: KIK
+    ChatId: 2902300
+  - Index: 25
+    SkillName: NPC_BRANDISHSCYTHE
+    SkillLv: 10
+    UniqueIdentifier: wasurerareta_ivory_gorilla_is_harvesting
+    State: ATTACK
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 40
+    CastRate: 10000
+    CastTime: 3000
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 0
+    Target: TARGET
+    Emotion: KIK
+    ChatId: 2902300
+  - Index: 26
+    SkillName: NPC_BRANDISHSCYTHE
+    SkillLv: 10
+    UniqueIdentifier: sonzai_green_panther_wa_fukushiteiru
+    State: ATTACK
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 10
+    CastRate: 10000
+    CastTime: 3000
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 0
+    Target: TARGET
+    Emotion: KIK
+    ChatId: 2902300
+  - Index: 27
+    SkillName: WZ_VERMILION
+    SkillLv: 4
+    UniqueIdentifier: just_pinku_nezumi_wa_destabilizing
+    State: ANGRYCHASE
+    Condition: HPRANGE
+    Trigger:
+      PercentUpper: 99
+      PercentLower: 67
+    CastRate: 1500
+    CastTime: 2400
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 35000
+    Target: RANDOMTARGET
+    Emotion: NONE
+    ChatId: -1
+  - Index: 28
+    SkillName: WZ_STORMGUST
+    SkillLv: 3
+    UniqueIdentifier: kagayaku_chairo_sasori_wa_haratteiru
+    State: ANGRYCHASE
+    Condition: HPRANGE
+    Trigger:
+      PercentUpper: 66
+      PercentLower: 34
+    CastRate: 2500
+    CastTime: 2400
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 45000
+    Target: RANDOMTARGET
+    Emotion: NONE
+    ChatId: -1
+  - Index: 29
+    SkillName: WZ_METEOR
+    SkillLv: 6
+    UniqueIdentifier: subayai_cha_kajiki_wa_capturing
+    State: ANGRYCHASE
+    Condition: HPRANGE
+    Trigger:
+      PercentUpper: 33
+      PercentLower: 3
+    CastRate: 2500
+    CastTime: 2400
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 45000
+    Target: RANDOMTARGET
+    Emotion: NONE
+    ChatId: -1
+  - Index: 30
+    SkillName: WZ_VERMILION
+    SkillLv: 4
+    UniqueIdentifier: grim_black_karasu_is_hyoukashiteiru
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1500
+    CastTime: 2400
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 65000
+    Target: RANDOMTARGET
+    Emotion: NONE
+    ChatId: -1
+- MobId: 29024
+  MobName: RGX_B_QUEEN_SCARABA
+  Skills:
+  - Index: 0
+    SkillName: KN_BRANDISHSPEAR
+    SkillLv: 5
+    UniqueIdentifier: chiisana_yellow_hawk_is_freezing
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 900
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 12000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 1
+    SkillName: KN_PIERCE
+    SkillLv: 4
+    UniqueIdentifier: gleaming_white_tora_wa_blessing
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    MaxLv: 6
+    Emotion: NONE
+  - Index: 2
+    SkillName: WZ_HEAVENDRIVE
+    SkillLv: 4
+    UniqueIdentifier: reckless_orenji_tapir_is_watching
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 800
+    CastCancel: CANCELABLE
+    CastDelay: 8000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 3
+    SkillName: WZ_EARTHSPIKE
+    SkillLv: 3
+    UniqueIdentifier: tokubetsu_kon_sheep_wa_grappling
+    State: ANYTARGET
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 500
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    MaxLv: 4
+    Emotion: NONE
+  - Index: 4
+    SkillName: PR_LEXDIVINA
+    SkillLv: 6
+    UniqueIdentifier: subtle_brown_anteater_is_overseeing
+    State: CHASE
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 1000
+    CastCancel: CANCELABLE
+    CastDelay: 8000
+    Target: TARGET
+    Emotion: DELIGHT
+    ExMsc:
+    - Condition: TARGETSTATUSFALSE
+      Trigger:
+        Status: SC_SILENCE
+  - Index: 5
+    SkillName: MG_STONECURSE
+    SkillLv: 3
+    UniqueIdentifier: bright_yellow_buta_is_tougeishiteiru
+    State: ATTACK
+    Condition: HPRANGE
+    Trigger:
+      PercentUpper: 100
+      PercentLower: 51
+    CastRate: 300
+    CastTime: 300
+    CastCancel: CANCELABLE
+    CastDelay: 10000
+    Target: TARGET
+    Emotion: NONE
+    ExMsc:
+    - Condition: TARGETSTATUSFALSE
+      Trigger:
+        Status: SC_STONE
+    - Condition: TARGETSTATUSFALSE
+      Trigger:
+        Status: SC_STONEWAIT
+  - Index: 6
+    SkillName: NPC_WIDESILENCE
+    SkillLv: 5
+    UniqueIdentifier: tokubetsu_orange_hyena_wa_nageiteiru
+    State: ANYTARGET
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 75
+    CastRate: 10000
+    CastTime: 2000
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: HNG
+  - Index: 7
+    SkillName: NPC_SUMMONMONSTER
+    SkillLv: 1
+    UniqueIdentifier: hayai_purple_taimen_is_kakureteiru
+    State: ANGRYTARGET
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 1500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 45000
+    Sdelay: 3500
+    Target: SELF
+    Emotion: DELIGHT
+    Summons:
+    - MobId: RGX_SCARABA_EGG_SW
+      Amount: 1
+      MasterDead: true
+  - Index: 8
+    SkillName: NPC_SUMMONMONSTER
+    SkillLv: 1
+    UniqueIdentifier: joyful_kiiro_waiban_is_ketteiru
+    State: ANGRYTARGET
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 1500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 45000
+    Sdelay: 3500
+    Target: SELF
+    Emotion: DELIGHT
+    Summons:
+    - MobId: RGX_SCARABA_EGG_SP
+      Amount: 1
+      MasterDead: true
+  - Index: 9
+    SkillName: NPC_SUMMONMONSTER
+    SkillLv: 1
+    UniqueIdentifier: wild_aoi_whale_wa_educating
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 1500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 45000
+    Sdelay: 3500
+    Target: SELF
+    Emotion: DELIGHT
+    Summons:
+    - MobId: RGX_SCARABA_EGG_SW
+      Amount: 1
+      MasterDead: true
+  - Index: 10
+    SkillName: NPC_SUMMONMONSTER
+    SkillLv: 1
+    UniqueIdentifier: kenmei_ao_walrus_is_slashing
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 1500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 45000
+    Sdelay: 3500
+    Target: SELF
+    Emotion: DELIGHT
+    Summons:
+    - MobId: RGX_SCARABA_EGG_SP
+      Amount: 1
+      MasterDead: true
+  - Index: 11
+    SkillName: NPC_METAMORPHOSIS
+    SkillLv: 1
+    UniqueIdentifier: sturdy_ivory_elephant_is_surveying
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 50
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: STATUSFALSE
+      Trigger:
+        Status: SC_REBIRTH
+    Summons:
+    - MobId: RGX_QUEEN_SCARABA_EGG
+      Amount: 1
+    MetamorphosisData:
+      SetHp: 100
+      Dispel: true
+      ResetTarget: true
+      DoOnSpawn: true
+    OldRate: 10000
+- MobId: 29025
+  MobName: RGX_B_BACSOJIN
+  Skills:
+  - Index: 0
+    SkillName: TF_BACKSLIDING
+    SkillLv: 4
+    UniqueIdentifier: yami_purple_suzaku_is_shiritai
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 75
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Sdelay: 100
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: ANYPC
+      Trigger:
+        Distance: 20
+    OldRate: 10000
+  - Index: 1
+    SkillName: NPC_INVULN
+    SkillLv: 1
+    UniqueIdentifier: wise_kin_otter_is_subduing
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: TF_BACKSLIDING
+      AfterId: yami_purple_suzaku_is_shiritai
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Sdelay: 100
+    Target: SELF
+    Emotion: MONEY
+    ChatId: 2902510
+    InvulnData:
+      Duration: 5000
+      Spawn1Lt: 1
+      Basilica: HP_BASILICA
+    OldRate: 10000
+  - Index: 2
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: gleaming_yellow_seiryuu_is_harnessing
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_INVULN
+      AfterId: wise_kin_otter_is_subduing
+    CastRate: 10000
+    CastTime: 2000
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Sdelay: 250
+    Target: SELF
+    RemoveOnCast: true
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_MAO_GUAI
+      Amount: 1
+      MasterDead: true
+      SpawnY: -4
+    OldRate: 10000
+  - Index: 3
+    SkillName: PR_SANCTUARY
+    SkillLv: 10
+    UniqueIdentifier: chikara_kiiro_porcupine_is_uketotteiru
+    State: INVULN
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_SUMMONMINION
+      AfterId: gleaming_yellow_seiryuu_is_harnessing
+    CastRate: 10000
+    CastTime: 100
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    OldRate: 10000
+  - Index: 4
+    SkillName: TF_BACKSLIDING
+    SkillLv: 4
+    UniqueIdentifier: shinpi_beige_buta_is_crawling
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 50
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Sdelay: 100
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: ANYPC
+      Trigger:
+        Distance: 20
+  - Index: 5
+    SkillName: NPC_INVULN
+    SkillLv: 1
+    UniqueIdentifier: shinpi_ao_neko_is_informing
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: TF_BACKSLIDING
+      AfterId: shinpi_beige_buta_is_crawling
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Sdelay: 100
+    Target: SELF
+    Emotion: THROB
+    ChatId: 2902525
+    InvulnData:
+      Duration: 10000
+      Spawn1Lt: 1
+      Spawn1Id: RGX_MUNAK
+      Spawn2Lt: 1
+      Spawn2Id: RGX_BONGUN
+      Basilica: HP_BASILICA
+    OldRate: 10000
+  - Index: 6
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: stormy_sai_seal_is_provoking
+    State: INVULN
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_INVULN
+      AfterId: shinpi_ao_neko_is_informing
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: SUPERARMOR
+    SuperArmor: 99
+    CastDelay: 0
+    Sdelay: 250
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_BONGUN
+      Amount: 1
+      MasterDead: true
+      SpawnX: 1
+      SpawnY: -4
+    - MobId: RGX_MUNAK
+      Amount: 1
+      MasterDead: true
+      SpawnX: -1
+      SpawnY: -4
+    OldRate: 10000
+  - Index: 7
+    SkillName: PR_SANCTUARY
+    SkillLv: 10
+    UniqueIdentifier: cunning_cyan_koumori_is_charging
+    State: INVULN
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_SUMMONMINION
+      AfterId: stormy_sai_seal_is_provoking
+    CastRate: 10000
+    CastTime: 100
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    OldRate: 10000
+  - Index: 8
+    SkillName: TF_BACKSLIDING
+    SkillLv: 4
+    UniqueIdentifier: hisashiburi_gray_neko_is_kougeishiteiru
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 25
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Sdelay: 100
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: ANYPC
+      Trigger:
+        Distance: 20
+    OldRate: 10000
+  - Index: 9
+    SkillName: NPC_INVULN
+    SkillLv: 1
+    UniqueIdentifier: yami_magenta_wolverine_is_oshieteiru
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: TF_BACKSLIDING
+      AfterId: hisashiburi_gray_neko_is_kougeishiteiru
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Sdelay: 100
+    Target: SELF
+    Emotion: ROCK
+    ChatId: 2902550
+    InvulnData:
+      Duration: 5000
+      Spawn1Lt: 1
+      Spawn1Id: RGX_CHUNG_E
+      Spawn2Lt: 1
+      Spawn2Id: RGX_CHUNG_E_EVOLVED
+      Basilica: HP_BASILICA
+    OldRate: 10000
+  - Index: 10
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: serene_beige_ram_wa_capturing
+    State: INVULN
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_INVULN
+      AfterId: yami_magenta_wolverine_is_oshieteiru
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 0
+    Sdelay: 250
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_CHUNG_E
+      Amount: 1
+      MasterDead: true
+      SpawnY: -5
+    OldRate: 10000
+  - Index: 11
+    SkillName: PR_SANCTUARY
+    SkillLv: 10
+    UniqueIdentifier: cursed_midori_hidora_wa_biting
+    State: INVULN
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_SUMMONMINION
+      AfterId: serene_beige_ram_wa_capturing
+    CastRate: 10000
+    CastTime: 100
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    OldRate: 10000
+  - Index: 12
+    SkillName: NPC_EMOTION
+    SkillLv: 1
+    UniqueIdentifier: otogibanashi_silver_bear_is_assaulting
+    State: INVULN
+    Condition: MINIONDEAD
+    Trigger:
+      Mob: RGX_MUNAK
+    CastRate: 10000
+    CastTime: 5000
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Sdelay: 100
+    Target: SELF
+    Emotion: NONE
+    ChatId: 2902527
+    ExMsc:
+    - Condition: MINIONALIVE
+      Trigger:
+        Mob: RGX_BONGUN
+    OldRate: 10000
+  - Index: 13
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: shy_indigo_inoshishi_is_baking
+    State: INVULN
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_EMOTION
+      AfterId: otogibanashi_silver_bear_is_assaulting
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: MINIONALIVE
+      Trigger:
+        Mob: RGX_BONGUN
+    AllyIsMinion: true
+    RangeOverride: 32
+    Summons:
+    - MobId: RGX_MUNAK
+      Amount: 1
+      MasterDead: true
+      SpawnY: -5
+    OldRate: 10000
+  - Index: 14
+    SkillName: NPC_EMOTION
+    SkillLv: 1
+    UniqueIdentifier: zetsubou_kiiro_narikabi_is_gathering
+    State: INVULN
+    Condition: MINIONDEAD
+    Trigger:
+      Mob: RGX_BONGUN
+    CastRate: 10000
+    CastTime: 5000
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Sdelay: 100
+    Target: SELF
+    Emotion: NONE
+    ChatId: 2902526
+    ExMsc:
+    - Condition: MINIONALIVE
+      Trigger:
+        Mob: RGX_MUNAK
+    OldRate: 10000
+  - Index: 15
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: fuan_kuro_wolverine_wa_grilling
+    State: INVULN
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_EMOTION
+      AfterId: zetsubou_kiiro_narikabi_is_gathering
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: MINIONALIVE
+      Trigger:
+        Mob: RGX_MUNAK
+    RangeOverride: 32
+    Summons:
+    - MobId: RGX_BONGUN
+      Amount: 1
+      MasterDead: true
+      SpawnY: -5
+    OldRate: 10000
+  - Index: 16
+    SkillName: MG_THUNDERSTORM
+    SkillLv: 5
+    UniqueIdentifier: hisashiburi_magenta_tiger_wa_tsutomeru
+    State: INVULN
+    Condition: DIFFICULTYGE
+    Trigger:
+      Difficulty: VALKYRIE
+    CastRate: 10000
+    CastTime: 5000
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: TARGET
+    Emotion: NONE
+    OldRate: 10000
+  - Index: 17
+    SkillName: NPC_SLEEPATTACK
+    SkillLv: 5
+    UniqueIdentifier: yuuki_sai_snake_wa_controlling
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 15000
+    Target: TARGET
+    Emotion: NONE
+    OldRate: 500
+  - Index: 18
+    SkillName: AL_HOLYLIGHT
+    SkillLv: 1
+    UniqueIdentifier: curious_yellow_orca_wa_mamotteiru
+    State: ANYTARGET
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_SLEEPATTACK
+    CastRate: 7500
+    CastTime: 750
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+    ExMsc:
+    - Condition: TARGETSTATUSTRUE
+      Trigger:
+        Status: SC_SLEEP
+    OldRate: 9000
+  - Index: 19
+    SkillName: NPC_WIDESLEEP
+    SkillLv: 5
+    UniqueIdentifier: fuyu_lime_hawk_is_marching
+    State: ANGRYTARGET
+    Condition: HPLT
+    Trigger:
+      Percent: 15
+    CastRate: 5000
+    CastTime: 2000
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 120000
+    Sdelay: 100
+    Target: SELF
+    Emotion: SLEEPY
+    ChatId: 2902503
+    OldRate: 5000
+  - Index: 20
+    SkillName: HP_ASSUMPTIO
+    SkillLv: 5
+    UniqueIdentifier: heroic_ivory_shark_is_mogutteiru
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_WIDESLEEP
+    CastRate: 10000
+    CastTime: 1000
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 0
+    Target: SELF
+    Emotion: DELIGHT
+    OldRate: 10000
+  - Index: 21
+    SkillName: AL_HEAL
+    SkillLv: 11
+    UniqueIdentifier: tokubetsu_purple_hamster_wa_mamotteiru
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: HP_ASSUMPTIO
+      AfterId: heroic_ivory_shark_is_mogutteiru
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 100
+    Sdelay: 100
+    Target: SELF
+    Repeating: 2
+    Emotion: NONE
+    OldRate: 10000
+  - Index: 22
+    SkillName: AL_BLESSING
+    SkillLv: 10
+    UniqueIdentifier: yuukan_navy_goat_wa_breaking
+    State: ANYTARGET
+    Condition: DISTANCELE
+    Trigger:
+      Distance: 9
+    CastRate: 2000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 15000
+    Sdelay: 500
+    Target: SELF
+    RemoveOnCast: true
+    Emotion: NONE
+    ChatId: -1
+    RangeOverride: 13
+    OldRate: 2000
+  - Index: 23
+    SkillName: AL_INCAGI
+    SkillLv: 10
+    UniqueIdentifier: noble_purple_kuma_wa_horashiteiru
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: AL_BLESSING
+      AfterId: yuukan_navy_goat_wa_breaking
+    CastRate: 10000
+    CastTime: 750
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Sdelay: 100
+    Target: SELF
+    Emotion: NONE
+    ChatId: -1
+    RangeOverride: 13
+    OldRate: 10000
+  - Index: 24
+    SkillName: NPC_EMOTION
+    SkillLv: 1
+    UniqueIdentifier: tokubetsu_blue_turkey_is_securing
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: AL_INCAGI
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    RemoveOnCast: true
+    Emotion: COMEON
+    ChatId: 2902500
+    OldRate: 10000
+  - Index: 25
+    SkillName: RGX_LULLABY
+    SkillLv: 5
+    UniqueIdentifier: furious_pink_karasu_is_tasting
+    State: IDLE
+    Condition: STATETICKS
+    Trigger:
+      Count: 5
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 10000
+    Target: SELF
+    Emotion: NONE
+    ChatId: 2902506
+    ExMsc:
+    - Condition: STATUSFALSE
+      Trigger:
+        Status: SC_DANCING
+    OldRate: 10000
+  - Index: 26
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: silent_navy_hato_is_yobidashiteiru
+    State: IDLE
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: RGX_LULLABY
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 30000
+    Target: SELF
+    Emotion: NONE
+    ChatId: 29025
+    ExMsc:
+    - Condition: MINIONLT
+      Trigger:
+        Count: 15
+    Summons:
+    - MobId: RGX_TTEOK
+      Amount: 2
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+      MasterDead: true
+      SkipEffect: true
+    OldRate: 10000
+  - Index: 27
+    SkillName: BD_ADAPTATION
+    SkillLv: 1
+    UniqueIdentifier: rugged_gin_wyvern_is_arawashiteiru
+    State: ANYTARGET
+    Condition: STATUSTRUE
+    Trigger:
+      Status: SC_DANCING
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Sdelay: 100
+    Target: SELF
+    Emotion: NONE
+    OldRate: 10000
+  - Index: 28
+    SkillName: AL_HOLYLIGHT
+    SkillLv: 1
+    UniqueIdentifier: wasurerareta_aka_goat_is_nareteiru
+    State: ANYTARGET
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 750
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+    OldRate: 500
+  - Index: 29
+    SkillName: MG_SAFETYWALL
+    SkillLv: 10
+    UniqueIdentifier: forgotten_aoi_inu_wa_dashing
+    State: ATTACK
+    Condition: MELEEATTACKED
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 450
+    CastCancel: CANCELABLE
+    CastDelay: 7500
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: STATUSFALSE
+      Trigger:
+        Status: SC_SAFETYWALL
+    OldRate: 1000
+  - Index: 30
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: shinnyuu_ao_orca_wa_discussing
+    State: IDLE
+    Condition: MINIONLT
+    Trigger:
+      Count: 16
+    CastRate: 5000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 30000
+    Target: SELF
+    Emotion: BIGTHROB
+    ChatId: 29025
+    ExMsc:
+    - Condition: STATETICKS
+      Trigger:
+        Count: 3
+    Summons:
+    - MobId: RGX_TTEOK
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+      MasterDead: true
+      SkipEffect: true
+    OldRate: 5000
+- MobId: 29026
+  MobName: RGX_B_DARK_SNAKE_LORD
+  Skills: []
+- MobId: 29027
+  MobName: RGX_B_KTULLANUX
+  Skills: []
+- MobId: 29028
+  MobName: RGX_B_BRINARANEA
+  Skills: []
+- MobId: 29029
+  MobName: RGX_B_CELINE_KIMI
+  Skills: []
+- MobId: 29030
+  MobName: RGX_B_DARK_LORD
+  Skills: []
+- MobId: 29031
+  MobName: RGX_B_GLOOMUNDERNIGHT
+  Skills: []
+- MobId: 29032
+  MobName: RGX_B_DETALE
+  Skills: []
+- MobId: 29033
+  MobName: RGX_B_KNIGHT_OF_ABYSS
+  Skills: []
+- MobId: 29034
+  MobName: RGX_B_THANATOS
+  Skills: []
+- MobId: 29035
+  MobName: RGX_B_SARA
+  Skills: []
+- MobId: 29036
+  MobName: RGX_B_AQUA2
+  Skills: []
+- MobId: 29037
+  MobName: RGX_B_AGNI2
+  Skills: []
+- MobId: 29038
+  MobName: RGX_B_VENTUS2
+  Skills: []
+- MobId: 29039
+  MobName: RGX_B_TERA2
+  Skills: []
+- MobId: 29040
+  MobName: RGX_B_LORD_OF_DEATH
+  Skills: []
+- MobId: 29041
+  MobName: RGX_B_IFRIT
+  Skills: []
+- MobId: 29042
+  MobName: RGX_B_BEELZEBUB
+  Skills: []
+- MobId: 29043
+  MobName: RGX_B_DAEHYON
+  Skills: []
+- MobId: 29044
+  MobName: RGX_B_SATAN_MOROCC
+  Skills: []
+- MobId: 29045
+  MobName: RGX_B_BLITZFIRE
+  Skills: []
+- MobId: 29046
+  MobName: RGX_B_LORA
+  Skills: []
+- MobId: 29047
+  MobName: RGX_B_JUNCEA
+  Skills: []
+- MobId: 29048
+  MobName: RGX_B_KADES
+  Skills: []
+- MobId: 29049
+  MobName: RGX_B_HERA
+  Skills: []
+- MobId: 29050
+  MobName: RGX_B_LILITH
+  Skills: []
+- MobId: 29051
+  MobName: RGX_B_LICH_LORD
+  Skills: []
+- MobId: 29052
+  MobName: RGX_B_BETELGEUSE
+  Skills: []
+- MobId: 29053
+  MobName: RGX_B_RANDGRIS
+  Skills: []
+- MobId: 29054
+  MobName: RGX_B_GHOSTRING2
+  Skills: []
+- MobId: 29055
+  MobName: RGX_B_GTB
+  Skills:
+  - Index: 0
+    SkillName: NPC_DARKSTRIKE
+    SkillLv: 5
+    UniqueIdentifier: kenmei_haiiro_donkey_wa_mamoru
+    State: CHASE
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 300
+    CastTime: 1000
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Sdelay: 700
+    Target: TARGET
+    Emotion: HNG
+  - Index: 1
+    SkillName: NPC_DARKSTRIKE
+    SkillLv: 5
+    UniqueIdentifier: exhausted_green_kame_wa_chasing
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 3000
+    CastTime: 700
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Sdelay: 700
+    Target: TARGET
+    Emotion: HNG
+  - Index: 2
+    SkillName: NPC_DARKNESSATTACK
+    SkillLv: 1
+    UniqueIdentifier: saikou_brown_kumo_wa_insulting
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 2000
+    CastTime: 250
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: FRET
+  - Index: 3
+    SkillName: AL_DECAGI
+    SkillLv: 1
+    UniqueIdentifier: brave_green_cobra_wa_nurturing
+    State: CHASE
+    Condition: ALWAYS
+    CastRate: 1500
+    CastTime: 500
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: KIK
+  - Index: 4
+    SkillName: CR_REFLECTSHIELD
+    SkillLv: 5
+    UniqueIdentifier: cruel_sai_griffon_is_oshieteiru
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 300000
+    Target: SELF
+    Emotion: FRET
+  - Index: 5
+    SkillName: CR_REFLECTSHIELD
+    SkillLv: 5
+    UniqueIdentifier: arashi_red_bear_is_shiritai
+    State: CHASE
+    Condition: ALWAYS
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 300000
+    Target: SELF
+    Emotion: FRET
+  - Index: 6
+    SkillName: MC_MAMMONITE
+    SkillLv: 2
+    UniqueIdentifier: true_orenji_raion_is_fukushiteiru
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 2000
+    CastTime: 500
+    CastCancel: SUPERARMOR
+    CastDelay: 9000
+    Target: TARGET
+    Emotion: MONEY
+  - Index: 7
+    SkillName: SM_MAGNUM
+    SkillLv: 4
+    UniqueIdentifier: savage_kiiro_tokage_is_mamoru
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 2000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 9000
+    Target: SELF
+    Emotion: NONE
+  - Index: 8
+    SkillName: MG_FIREBALL
+    SkillLv: 7
+    UniqueIdentifier: yami_sai_tori_is_mamoru
+    State: CHASE
+    Condition: HITBYSKILL
+    Trigger:
+      Skill: MG_FIREWALL
+    CastRate: 2000
+    CastTime: 700
+    CastCancel: SUPERARMOR
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 9
+    SkillName: NPC_GUIDEDATTACK
+    SkillLv: 2
+    UniqueIdentifier: subayai_beju_badger_wa_frying
+    State: ATTACK
+    Condition: ALWAYS
+    CastRate: 500
+    CastTime: 600
+    CastCancel: CANCELABLE
+    CastDelay: 20000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 10
+    SkillName: TF_HIDING
+    SkillLv: 1
+    UniqueIdentifier: natsu_pinku_karasu_is_invoking
+    State: ATTACK
+    Condition: HPLT
+    Trigger:
+      Percent: 20
+    CastRate: 1000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 9000
+    Target: SELF
+    Emotion: PROFUSELY_SWEAT
+  - Index: 11
+    SkillName: AL_HEAL
+    SkillLv: 5
+    UniqueIdentifier: noble_ivory_shirokuma_is_konchuushiteiru
+    State: ANY
+    Condition: STATUSTRUE
+    Trigger:
+      Status: SC_HIDING
+    CastRate: 10000
+    CastTime: 800
+    CastCancel: CANCELABLE
+    CastDelay: 10000
+    Target: SELF
+    Emotion: HPTIME
+  - Index: 12
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: kyofu_teal_neko_is_sagashiteiru
+    State: CHASE
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 1600
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 120000
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: MINIONLT
+      Trigger:
+        Count: 1
+    Summons:
+    - MobId: RGX_MALE_THIEF_BUG
+      Amount: 2
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 13
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: subayai_beju_pigeon_is_dominating
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 50
+    CastRate: 10000
+    CastTime: 1600
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 10000
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_MALE_THIEF_BUG
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+- MobId: 29057
+  MobName: RGX_B_ANGELING
+  Skills: []
+- MobId: 29058
+  MobName: RGX_B_JIRANT
+  Skills:
+  - Index: 0
+    SkillName: SA_MAGICROD
+    SkillLv: 5
+    UniqueIdentifier: hisashiburi_blue_viper_wa_kiru
+    State: ANY
+    Condition: TARGETEDBYSKILL
+    Trigger:
+      Skill: BF_MAGIC
+    CastRate: 2000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ChatId: 2902505
+- MobId: 29059
+  MobName: RGX_B_VESPER
+  Skills: []
+- MobId: 29060
+  MobName: RGX_B_EGNIGEM_CENIA
+  Skills:
+  - Index: 0
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: radiant_aoi_horse_wa_tatakaiteiru
+    State: ANY
+    Condition: ONSPAWN
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_MAGALETA_C
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+  - Index: 1
+    SkillName: LG_RAYOFGENESIS
+    SkillLv: 11
+    UniqueIdentifier: subtle_kin_ookami_is_judging
+    State: ATTACK
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 50
+    CastRate: 10000
+    CastTime: 1600
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Sdelay: 100
+    Target: SELF
+    Emotion: NONE
+    ChatId: 2906003
+  - Index: 2
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: stormy_scarlet_rabbit_is_hiding
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: LG_RAYOFGENESIS
+      AfterId: subtle_kin_ookami_is_judging
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ChatId: 2906004
+    Summons:
+    - MobId: RGX_EGNIGEM_CENIA_D1
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+      MasterDead: true
+    - MobId: RGX_EGNIGEM_CENIA_D2
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+      MasterDead: true
+  - Index: 3
+    SkillName: KN_TWOHANDQUICKEN
+    SkillLv: 5
+    UniqueIdentifier: ancient_white_horse_is_smithing
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_SUMMONMINION
+      AfterId: stormy_scarlet_rabbit_is_hiding
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: FRET
+  - Index: 4
+    SkillName: LG_PINPOINTATTACK
+    SkillLv: 1
+    UniqueIdentifier: savage_aoi_kaeru_is_insulting
+    State: ANY
+    Condition: ALWAYS
+    CastRate: 3000
+    CastTime: 100
+    CastCancel: CANCELABLE
+    CastDelay: 6000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 5
+    SkillName: MO_EXPLOSIONSPIRITS
+    SkillLv: 1
+    UniqueIdentifier: mysterious_sai_wolverine_wa_advancing
+    State: ANY
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 90
+    CastRate: 10000
+    CastTime: 1000
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ChatId: 2906000
+  - Index: 6
+    SkillName: LK_BERSERK
+    SkillLv: 1
+    UniqueIdentifier: lost_pinku_rat_wa_tameshiteiru
+    State: ANY
+    Condition: MINIONDEAD
+    Trigger:
+      Mob: RGX_MAGALETA_C
+    CastRate: 10000
+    CastTime: 10000
+    CastCancel: UNCANCELABLE
+    CastDelay: 1200000000
+    Target: SELF
+    Emotion: STARE
+    ChatId: 2906001
+  - Index: 7
+    SkillName: LG_MOONSLASHER
+    SkillLv: 2
+    UniqueIdentifier: patient_tamanegi_kangaroo_wa_bargaining
+    State: ANY
+    Condition: DISTANCELE
+    Trigger:
+      Distance: 1
+    CastRate: 4000
+    CastTime: 1500
+    CastCancel: SUPERARMOR
+    CastDelay: 10000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 8
+    SkillName: LG_BANISHINGPOINT
+    SkillLv: 2
+    UniqueIdentifier: haunted_lime_cobra_wa_harnessing
+    State: ANY
+    Condition: HPRANGE
+    Trigger:
+      PercentUpper: 95
+      PercentLower: 1
+    CastRate: 4000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 6000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 9
+    SkillName: CR_SHIELDBOOMERANG
+    SkillLv: 2
+    UniqueIdentifier: radiant_green_cow_is_shattering
+    State: ANY
+    Condition: DISTANCEGE
+    Trigger:
+      Distance: 4
+    CastRate: 3000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 12000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 10
+    SkillName: KN_AUTOCOUNTER
+    SkillLv: 5
+    UniqueIdentifier: dim_aoi_ram_wa_hikoukiteiru
+    State: ANY
+    Condition: MELEEATTACKED
+    CastRate: 4000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 15000
+    Target: SELF
+    Emotion: NONE
+  - Index: 11
+    SkillName: NC_POWERSWING
+    SkillLv: 1
+    UniqueIdentifier: subtle_aka_puma_wa_shokushiteiru
+    State: ANY
+    Condition: HPLT
+    Trigger:
+      Percent: 90
+    CastRate: 3500
+    CastTime: 2500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 18000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 12
+    SkillName: NC_AXETORNADO
+    SkillLv: 2
+    UniqueIdentifier: exhausted_silver_bear_is_tracking
+    State: ANY
+    Condition: HPLT
+    Trigger:
+      Percent: 50
+    CastRate: 4000
+    CastTime: 2500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 15000
+    Target: TARGET
+    Emotion: NONE
+    ChatId: -1
+    ExMsc:
+    - Condition: DISTANCELE
+      Trigger:
+        Distance: 1
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: EINHERJAR
+  - Index: 13
+    SkillName: SR_KNUCKLEARROW
+    SkillLv: 1
+    UniqueIdentifier: moeru_silver_kurokage_wa_kougeishiteiru
+    State: ANY
+    Condition: RANGEATTACKED
+    CastRate: 0
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: TARGET
+    Emotion: NONE
+  - Index: 14
+    SkillName: KN_SPEARSTAB
+    SkillLv: 5
+    UniqueIdentifier: arashi_magenta_pigeon_is_flattering
+    State: ATTACK
+    Condition: ALLYSTATUSFALSE
+    Trigger:
+      Status: SC_KYRIE
+    CastRate: 4000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 18000
+    Target: TARGET
+    Emotion: ROCK
+    ChatId: 2906002
+  - Index: 15
+    SkillName: LG_RAYOFGENESIS
+    SkillLv: 11
+    UniqueIdentifier: juunintou_shinku_neko_is_blessing
+    State: ATTACK
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 50
+    CastRate: 10000
+    CastTime: 1600
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Sdelay: 100
+    Target: SELF
+    Emotion: NONE
+    ChatId: 2906003
+  - Index: 16
+    SkillName: NPC_SUMMONMINION
+    SkillLv: 1
+    UniqueIdentifier: kagayaku_kiiro_narwhal_wa_uketometeiru
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: LG_RAYOFGENESIS
+      AfterId: juunintou_shinku_neko_is_blessing
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    ChatId: 2906004
+    Summons:
+    - MobId: RGX_EGNIGEM_CENIA_D2
+      Amount: 1
+      MasterSpeed: true
+      MasterModes: true
+      MasterSpecialAi: true
+      MasterDead: true
+  - Index: 17
+    SkillName: KN_TWOHANDQUICKEN
+    SkillLv: 4
+    UniqueIdentifier: kenzen_white_dog_wa_flattering
+    State: ANY
+    Condition: AFTERSKILL
+    Trigger:
+      Skill: NPC_SUMMONMINION
+      AfterId: kagayaku_kiiro_narwhal_wa_uketometeiru
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: FRET
+- MobId: 29061
+  MobName: RGX_B_QUEEN_SCARABA_I
+  Skills:
+  - Index: 0
+    SkillName: KN_BRANDISHSPEAR
+    SkillLv: 5
+    UniqueIdentifier: ketsumei_kon_hedgehog_wa_shiriatteiru
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 900
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 12000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 1
+    SkillName: KN_PIERCE
+    SkillLv: 5
+    UniqueIdentifier: grim_aoi_badger_wa_demeaning
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    MaxLv: 6
+    Emotion: NONE
+  - Index: 2
+    SkillName: WZ_HEAVENDRIVE
+    SkillLv: 4
+    UniqueIdentifier: rugged_lime_donkey_is_kougeishiteiru
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 800
+    CastCancel: CANCELABLE
+    CastDelay: 8000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 3
+    SkillName: WZ_EARTHSPIKE
+    SkillLv: 4
+    UniqueIdentifier: forgotten_green_pengin_is_taunting
+    State: ANYTARGET
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 500
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 4
+    SkillName: PR_LEXDIVINA
+    SkillLv: 6
+    UniqueIdentifier: ikioi_shiro_donkey_wa_healing
+    State: CHASE
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 1000
+    CastCancel: CANCELABLE
+    CastDelay: 8000
+    Target: TARGET
+    Emotion: DELIGHT
+    ExMsc:
+    - Condition: TARGETSTATUSFALSE
+      Trigger:
+        Status: SC_SILENCE
+  - Index: 5
+    SkillName: MG_STONECURSE
+    SkillLv: 10
+    UniqueIdentifier: ancient_sumire_anteater_wa_commanding
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 300
+    CastCancel: CANCELABLE
+    CastDelay: 10000
+    Target: TARGET
+    Emotion: NONE
+    ExMsc:
+    - Condition: TARGETSTATUSFALSE
+      Trigger:
+        Status: SC_STONE
+    - Condition: TARGETSTATUSFALSE
+      Trigger:
+        Status: SC_STONEWAIT
+  - Index: 6
+    SkillName: NPC_WIDESILENCE
+    SkillLv: 5
+    UniqueIdentifier: wasurerareta_ao_griffon_wa_kenkyuushiteiru
+    State: ANYTARGET
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 5000
+    CastTime: 2000
+    CastCancel: UNCANCELABLE
+    CastDelay: 30000
+    Target: SELF
+    Emotion: HNG
+  - Index: 7
+    SkillName: NPC_SUMMONMONSTER
+    SkillLv: 1
+    UniqueIdentifier: still_magenta_pansa_wa_burning
+    State: ANGRYTARGET
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 1500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 45000
+    Sdelay: 3500
+    Target: SELF
+    Emotion: DELIGHT
+    Summons:
+    - MobId: RGX_SCARABA_EGG_SW_I
+      Amount: 1
+      MasterDead: true
+  - Index: 8
+    SkillName: NPC_SUMMONMONSTER
+    SkillLv: 1
+    UniqueIdentifier: tsuyoi_kuro_boar_is_singing
+    State: ANGRYTARGET
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 1500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 45000
+    Sdelay: 3500
+    Target: SELF
+    Emotion: DELIGHT
+    Summons:
+    - MobId: RGX_SCARABA_EGG_SP_I
+      Amount: 1
+      MasterDead: true
+  - Index: 9
+    SkillName: NPC_SUMMONMONSTER
+    SkillLv: 1
+    UniqueIdentifier: chaotic_murasaki_elk_is_trapping
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 1500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 45000
+    Sdelay: 3500
+    Target: SELF
+    Emotion: DELIGHT
+    Summons:
+    - MobId: RGX_SCARABA_EGG_SW_I
+      Amount: 1
+      MasterDead: true
+  - Index: 10
+    SkillName: NPC_SUMMONMONSTER
+    SkillLv: 1
+    UniqueIdentifier: ikioi_silver_taka_is_testing
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 1500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 45000
+    Sdelay: 3500
+    Target: SELF
+    Emotion: DELIGHT
+    Summons:
+    - MobId: RGX_SCARABA_EGG_SP_I
+      Amount: 1
+      MasterDead: true
+  - Index: 11
+    SkillName: NPC_SUMMONMONSTER
+    SkillLv: 1
+    UniqueIdentifier: guarded_pinku_elephant_wa_altering
+    State: ANY
+    Condition: ONSPAWN
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 1500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 45000
+    Sdelay: 3500
+    Target: SELF
+    Emotion: DELIGHT
+    Summons:
+    - MobId: RGX_SCARABA_EGG_SW_I
+      Amount: 1
+      MasterDead: true

@@ -1,0 +1,2189 @@
+Header:
+  Type: ITEM_DB
+  Version: 2
+Body:
+- Id: 250001
+  Name: '[F10] Shield Bash'
+  AegisName: RGX_BN_SHIELDBASH
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |
+    callfunc "UseBoon",BN_SHIELDBASH;
+- Id: 250002
+  Name: '[F5] Taunt'
+  AegisName: RGX_BN_TAUNT
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |
+    callfunc "UseBoon",BN_TAUNT;
+- Id: 250003
+  Name: '[F5] Arcane Attunement'
+  AegisName: RGX_BN_ARCANEATTUNEMENT
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_ARCANEATTUNEMENT;
+- Id: 250004
+  Name: '[F10] Instant Reset'
+  AegisName: RGX_BN_INSTANTRESET
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_INSTANTRESET;
+- Id: 250005
+  Name: '[F10] Hoplite'
+  AegisName: RGX_BN_HOPLITE
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_HOPLITE;
+- Id: 250007
+  Name: '[F10] Sonic Boom'
+  AegisName: RGX_BN_SONICBOOM
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_SONICBOOM;
+- Id: 250008
+  Name: '[F5] Student'
+  AegisName: RGX_BN_STUDENT
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_STUDENT;
+- Id: 250009
+  Name: '[F10] Stability'
+  AegisName: RGX_BN_STABILITY
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_STABILITY;
+- Id: 250010
+  Name: '[F10] Tempest'
+  AegisName: RGX_BN_TEMPEST
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_TEMPEST;
+- Id: 250011
+  Name: '[F10] Teacher'
+  AegisName: RGX_BN_TEACHER
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_TEACHER;
+- Id: 250012
+  Name: '[F5] Heater'
+  AegisName: RGX_BN_HEATER
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_HEATER;
+- Id: 250013
+  Name: '[F5] Cooler'
+  AegisName: RGX_BN_COOLER
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_COOLER;
+- Id: 250014
+  Name: '[F5] Steal'
+  AegisName: RGX_BN_STEAL
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_STEAL;
+- Id: 250015
+  Name: '[F5] Ninja'
+  AegisName: RGX_BN_NINJA
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_NINJA;
+- Id: 250017
+  Name: '[F10] Deploy Caltrop'
+  AegisName: RGX_BN_DEPLOYCALTROP
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_DEPLOYCALTROP;
+- Id: 250019
+  Name: '[F5] Salt of Elisha'
+  AegisName: RGX_BN_SALTOFELISHA
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_SALTOFELISHA;
+- Id: 250020
+  Name: '[F5] Rituale Romanum'
+  AegisName: RGX_BN_RITUALEROMANUM
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_RITUALEROMANUM;
+- Id: 250021
+  Name: '[F5] Mudra Strikes'
+  AegisName: RGX_BN_MUDRASTRIKES
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_MUDRASTRIKES;
+- Id: 250022
+  Name: '[F10] Herbalist'
+  AegisName: RGX_BN_HERBALIST
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_HERBALIST;
+- Id: 250023
+  Name: '[F5] Jellyfish Captain'
+  AegisName: RGX_BN_JELLYFISHCAPTAIN
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_JELLYFISHCAPTAIN;
+- Id: 250024
+  Name: '[F5] Dump It.'
+  AegisName: RGX_BN_DUMPIT
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_DUMPIT;
+- Id: 250025
+  Name: '[F10] Hand of Odin'
+  AegisName: RGX_BN_HANDOFODIN
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_HANDOFODIN;
+- Id: 250026
+  Name: '[F10] Ordo Magicus'
+  AegisName: RGX_BN_ORDOMAGICUS
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_ORDOMAGICUS;
+- Id: 250027
+  Name: '[F10] Refreshing Winds'
+  AegisName: RGX_BN_REFRESHINGWINDS
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_REFRESHINGWINDS;
+- Id: 250028
+  Name: '[F5] Wagon Smash'
+  AegisName: RGX_BN_WAGONSMASH
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_WAGONSMASH;
+    skill(MC_CARTREVOLUTION,1,SKILL_PERM_GRANT);
+- Id: 250029
+  Name: '[F10] Miner'
+  AegisName: RGX_BN_MINER
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_MINER;
+- Id: 250030
+  Name: '[F10] Acceleration Research'
+  AegisName: RGX_BN_ACCELERATIONRESEARCH
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_ACCELERATIONRESEARCH;
+- Id: 250031
+  Name: '[F10] Telekinesis'
+  AegisName: RGX_BN_TELEKINESIS
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_TELEKINESIS;
+- Id: 250032
+  Name: '[F5] Owl Step'
+  AegisName: RGX_BN_OWLSTEP
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_OWLSTEP;
+- Id: 250033
+  Name: '[F5] Raptor Claw'
+  AegisName: RGX_BN_RAPTORCLAW
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_RAPTORCLAW;
+- Id: 250034
+  Name: '[F10] Slingshot'
+  AegisName: RGX_BN_SLINGSHOT
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_SLINGSHOT;
+- Id: 250035
+  Name: '[F10] Arrow Arts'
+  AegisName: RGX_BN_ARROWARTS
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_ARROWARTS;
+- Id: 250036
+  Name: '[F10] Fletcher'
+  AegisName: RGX_BN_FLETCHER
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_FLETCHER;
+- Id: 250037
+  Name: '[F5] Mechanical Energy'
+  AegisName: RGX_BN_MECHANICALENERGY
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_MECHANICALENERGY;
+- Id: 250038
+  Name: '[F15] Cavalry'
+  AegisName: RGX_BN_CAVALRY
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_CAVALRY;
+- Id: 250039
+  Name: '[F15] Swashbuckler'
+  AegisName: RGX_BN_SWASHBUCKLER
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_SWASHBUCKLER;
+- Id: 250041
+  Name: '[F15] Specialist'
+  AegisName: RGX_BN_SPECIALIST
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_SPECIALIST;
+- Id: 250042
+  Name: '[F15] Inquisitor'
+  AegisName: RGX_BN_INQUISITOR
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_INQUISITOR;
+- Id: 250043
+  Name: '[F15] Smite'
+  AegisName: RGX_BN_SMITE
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_SMITE;
+- Id: 250044
+  Name: '[F15] Loyalty'
+  AegisName: RGX_BN_LOYALTY
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_LOYALTY;
+- Id: 250045
+  Name: '[F15] War Caster'
+  AegisName: RGX_BN_WARCASTER
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_WARCASTER;
+- Id: 250046
+  Name: '[F15] Pyromancer'
+  AegisName: RGX_BN_PYROMANCER
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_PYROMANCER;
+- Id: 250047
+  Name: '[F15] Cryomancer'
+  AegisName: RGX_BN_CRYOMANCER
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_CRYOMANCER;
+- Id: 250048
+  Name: '[F15] Manipulator'
+  AegisName: RGX_BN_MANIPULATOR
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_MANIPULATOR;
+- Id: 250049
+  Name: '[F15] Academic'
+  AegisName: RGX_BN_ACADEMIC
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_ACADEMIC;
+- Id: 250050
+  Name: '[F15] Field Researcher'
+  AegisName: RGX_BN_FIELDRESEARCHER
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_FIELDRESEARCHER;
+- Id: 250051
+  Name: '[F15] Counterspell'
+  AegisName: RGX_BN_COUNTERSPELL
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_COUNTERSPELL;
+- Id: 250052
+  Name: '[F15] Cast Chaser'
+  AegisName: RGX_BN_CASTCHASER
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_CASTCHASER;
+- Id: 250053
+  Name: '[F15] Trapper'
+  AegisName: RGX_BN_TRAPPER
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_TRAPPER;
+- Id: 250054
+  Name: '[F15] Falconer'
+  AegisName: RGX_BN_FALCONER
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_FALCONER;
+- Id: 250055
+  Name: '[F15] Atlatl'
+  AegisName: RGX_BN_ATLATL
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_ATLATL;
+- Id: 250056
+  Name: '[F15] Barrage'
+  AegisName: RGX_BN_BARRAGE
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_BARRAGE;
+- Id: 250057
+  Name: '[F15] Deep Slumber'
+  AegisName: RGX_BN_DEEPSLUMBER
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_DEEPSLUMBER;
+- Id: 250058
+  Name: '[F15] Whiplash'
+  AegisName: RGX_BN_WHIPLASH
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_WHIPLASH;
+- Id: 250059
+  Name: '[F15] Into the Abyss'
+  AegisName: RGX_BN_INTOTHEABYSS
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_INTOTHEABYSS;
+- Id: 250060
+  Name: '[F15] Clown'
+  AegisName: RGX_BN_CLOWN
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_CLOWN;
+- Id: 250061
+  Name: '[F15] Cleric'
+  AegisName: RGX_BN_CLERIC
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_CLERIC;
+- Id: 250062
+  Name: '[F15] Medic'
+  AegisName: RGX_BN_MEDIC
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_MEDIC;
+- Id: 250063
+  Name: '[F15] Exorcist'
+  AegisName: RGX_BN_EXORCIST
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_EXORCIST;
+- Id: 250064
+  Name: '[F15] Pillow Talk'
+  AegisName: RGX_BN_PILLOWTALK
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_PILLOWTALK;
+- Id: 250065
+  Name: '[F15] Shadow Monk'
+  AegisName: RGX_BN_SHADOWMONK
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_SHADOWMONK;
+- Id: 250066
+  Name: '[F15] Evasive Maneuvers'
+  AegisName: RGX_BN_EVASIVEMANEUVERS
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_EVASIVEMANEUVERS;
+- Id: 250067
+  Name: '[F15] Jiva Fist'
+  AegisName: RGX_BN_MYSTICALFIST
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_MYSTICALFIST;
+- Id: 250068
+  Name: '[F15] Fortified Impact'
+  AegisName: RGX_BN_FORTIFIEDIMPACT
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_FORTIFIEDIMPACT;
+- Id: 250069
+  Name: '[F15] Executioner'
+  AegisName: RGX_BN_EXECUTIONER
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_EXECUTIONER;
+- Id: 250070
+  Name: '[F15] Shinobi'
+  AegisName: RGX_BN_SHINOBI
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_SHINOBI;
+- Id: 250071
+  Name: '[F15] Toxic'
+  AegisName: RGX_BN_TOXIC
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_TOXIC;
+- Id: 250072
+  Name: '[F15] Sonic Acceleration'
+  AegisName: RGX_BN_SONICACCELERATION
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_SONICACCELERATION;
+- Id: 250073
+  Name: '[F15] Falcon Aibo'
+  AegisName: RGX_BN_FALCONAIBO
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_FALCONAIBO;
+- Id: 250074
+  Name: '[F15] Conman'
+  AegisName: RGX_BN_CONMAN
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_CONMAN;
+- Id: 250075
+  Name: '[F15] Spellthief'
+  AegisName: RGX_BN_SPELLTHIEF
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_SPELLTHIEF;
+- Id: 250076
+  Name: '[F15] Slum Prince'
+  AegisName: RGX_BN_SLUMPRINCE
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_SLUMPRINCE;
+- Id: 250077
+  Name: '[F15] Excavator'
+  AegisName: RGX_BN_EXCAVATOR
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_EXCAVATOR;
+- Id: 250078
+  Name: '[F15] Artisan'
+  AegisName: RGX_BN_ARTISAN
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_ARTISAN;
+- Id: 250079
+  Name: '[F15] War Cry'
+  AegisName: RGX_BN_WARCRY
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_WARCRY;
+- Id: 250080
+  Name: '[F15] Armorer'
+  AegisName: RGX_BN_ARMORER
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_MINER;
+- Id: 250081
+  Name: '[F15] Apothecary'
+  AegisName: RGX_BN_APOTHECARY
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_APOTHECARY;
+- Id: 250082
+  Name: '[F15] Photosynthesis'
+  AegisName: RGX_BN_PHOTOSYNTHESIS
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_PHOTOSYNTHESIS;
+- Id: 250083
+  Name: '[F15] Safety Precautions'
+  AegisName: RGX_BN_SAFETYPRECAUTIONS
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_SAFETYPRECAUTIONS;
+- Id: 250084
+  Name: '[F15] Spellbrew'
+  AegisName: RGX_BN_SPELLBREW
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_SPELLBREW;
+- Id: 250085
+  Name: '[F5] Trickster'
+  AegisName: RGX_BN_TRICKSTER
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_TRICKSTER;
+- Id: 250086
+  Name: "[F15] Serpent's Mark"
+  AegisName: RGX_BN_SERPENTSMARK
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_SERPENTSMARK;
+- Id: 250087
+  Name: '[F15] High Voltage'
+  AegisName: RGX_BN_HIGHVOLTAGE
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_HIGHVOLTAGE;
+- Id: 250088
+  Name: '[F10] Spelldash'
+  AegisName: RGX_BN_SPELLDASH
+  Type: Usable
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Script: |-
+    callfunc "UseBoon",BN_SPELLDASH;

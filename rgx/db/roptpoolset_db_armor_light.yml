@@ -1,0 +1,3560 @@
+Header:
+  Type: RANDOM_OPTION_POOLSET_DB
+  Version: 3
+Body:
+- Id: 70000
+  Name: EmptyWeaponSet
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 70001
+  Name: Panties (Body)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100243
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100245
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100159
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100233
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100246
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100249
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100134
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100244
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100322
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100487
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100110
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100111
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100247
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100252
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100253
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100485
+      Weight: 1
+      Tags:
+      - None
+- Id: 70002
+  Name: White Shirt (Body)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100112
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100165
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100236
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100111
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100161
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100166
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100233
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100110
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100167
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100487
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100162
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100163
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100237
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100240
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100164
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100241
+      Weight: 1
+      Tags:
+      - None
+- Id: 70003
+  Name: Jacket (Body)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100192
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100200
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100495
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100197
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100201
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100217
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100321
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100195
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100199
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100365
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100469
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100204
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100361
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100492
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100493
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100491
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100496
+      Weight: 1
+      Tags:
+      - None
+- Id: 70004
+  Name: Thief Clothes (Body)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100112
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100227
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100110
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100232
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100233
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100235
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100226
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100230
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100234
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100017
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100222
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100229
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100228
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100231
+      Weight: 1
+      Tags:
+      - None
+- Id: 70005
+  Name: Mantle (Body)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 1000
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 1000
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 200228
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 70006
+  Name: Ninja Suit (Body)
+  Tags:
+  - Name: Ninja
+    Weight: 1
+    WeightMod: 5
+  - Name: Lucky
+    Weight: 1
+    WeightMod: 5
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 200224
+      Weight: 1
+      Tags:
+      - Lucky
+    - Id: 200225
+      Weight: 1
+      Tags:
+      - Ninja
+  - Line: 2
+    Pools:
+    - Id: 200226
+      Weight: 1
+      Tags:
+      - Lucky
+    - Id: 200227
+      Weight: 1
+      Tags:
+      - Lucky
+    - Id: 200382
+      Weight: 1
+      Tags:
+      - Ninja
+    - Id: 200408
+      Weight: 1
+      Tags:
+      - Ninja
+  - Line: 3
+    Pools:
+    - Id: 200223
+      Weight: 1
+      Tags:
+      - Ninja
+    - Id: 200235
+      Weight: 1
+      Tags:
+      - Lucky
+    - Id: 200237
+      Weight: 1
+      Tags:
+      - Lucky
+    - Id: 200384
+      Weight: 1
+      Tags:
+      - Ninja
+  - Line: 4
+    Pools:
+    - Id: 200230
+      Weight: 1
+      Tags:
+      - Ninja
+    - Id: 200231
+      Weight: 1
+      Tags:
+      - Lucky
+    - Id: 200233
+      Weight: 1
+      Tags:
+      - Lucky
+  - Line: 5
+    Pools:
+    - Id: 200232
+      Weight: 1
+      Tags:
+      - Ninja
+    - Id: 200236
+      Weight: 1
+      Tags:
+      - Lucky
+- Id: 70007
+  Name: Formal Suit (Body)
+  Tags:
+  - Name: Blinding
+    Weight: 1
+    WeightMod: 7
+  - Name: Resist
+    Weight: 2
+    WeightMod: 7
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 70008
+  Name: Tights (Body)
+  Tags:
+  - Name: Berserker
+    Weight: 1
+    WeightMod: 1
+  - Name: Evasive
+    Weight: 1
+    WeightMod: 1
+  - Name: Archer
+    Weight: 1
+    WeightMod: 1
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 70009
+  Name: Assassin Clothes (Body)
+  Tags:
+  - Name: LuckyDodge
+    Weight: 1
+    WeightMod: 7
+  - Name: Offensive
+    Weight: 1
+    WeightMod: 7
+  - Name: Defensive
+    Weight: 2
+    WeightMod: 7
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 70010
+  Name: Mink Coat (Body)
+  Tags:
+  - Name: Warm
+    Weight: 1
+    WeightMod: 5
+  - Name: Mink
+    Weight: 1
+    WeightMod: 4
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 70011
+  Name: Dragon Vest (Body)
+  Tags:
+  - Name: Crit
+    Weight: 2
+    WeightMod: 6
+  - Name: Archer
+    Weight: 1
+    WeightMod: 6
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 70012
+  Name: Undershirt (Garment)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100244
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100478
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100236
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100243
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100246
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100480
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100106
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100161
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100163
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100489
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100153
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100160
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100487
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100488
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100484
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100490
+      Weight: 1
+      Tags:
+      - None
+- Id: 70013
+  Name: Hood (Garment)
+  Tags:
+  - Name: Hiding
+    Weight: 1
+    WeightMod: 4
+  - Name: Blind
+    Weight: 1
+    WeightMod: 4
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100158
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100456
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100106
+      Weight: 1
+      Tags:
+      - Hiding
+    - Id: 100156
+      Weight: 1
+      Tags:
+      - Blind
+    - Id: 100498
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100107
+      Weight: 1
+      Tags:
+      - Hiding
+    - Id: 100153
+      Weight: 1
+      Tags:
+      - Blind
+    - Id: 100396
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100108
+      Weight: 1
+      Tags:
+      - Hiding
+    - Id: 100157
+      Weight: 1
+      Tags:
+      - Blind
+    - Id: 100462
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100154
+      Weight: 1
+      Tags:
+      - Hiding
+    - Id: 100160
+      Weight: 1
+      Tags:
+      - Blind
+- Id: 70014
+  Name: Skeleton Cape (Garment)
+  Tags:
+  - Name: Poison
+    Weight: 2
+    WeightMod: 1
+  - Name: Flee
+    Weight: 3
+    WeightMod: 1
+  - Name: AutoBerserk
+    Weight: 1
+    WeightMod: 1
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 70015
+  Name: Ancient Cape (Garment)
+  Tags:
+  - Name: Poison
+    Weight: 1
+    WeightMod: 1
+  - Name: Evasion
+    Weight: 1
+    WeightMod: 1
+  - Name: Spheres
+    Weight: 1
+    WeightMod: 1
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 70016
+  Name: Alarm Hood (Garment)
+  Tags:
+  - Name: LuckyDodge
+    Weight: 1
+    WeightMod: 5
+  - Name: Trapper
+    Weight: 1
+    WeightMod: 6
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 70017
+  Name: Ghost Cape (Garment)
+  Tags:
+  - Name: Spheres
+    Weight: 2
+    WeightMod: 6
+  - Name: Ghostly
+    Weight: 1
+    WeightMod: 10
+  - Name: Evasion
+    Weight: 3
+    WeightMod: 6
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800352
+      Weight: 1
+      Tags:
+      - Evasion
+      - Spheres
+    - Id: 800499
+      Weight: 1
+      Tags:
+      - Evasion
+      - Ghostly
+      - Spheres
+    - Id: 800625
+      Weight: 1
+      Tags:
+      - Ghostly
+  - Line: 2
+    Pools:
+    - Id: 800509
+      Weight: 1
+      Tags:
+      - Evasion
+    - Id: 800627
+      Weight: 1
+      Tags:
+      - Evasion
+      - Spheres
+    - Id: 800632
+      Weight: 1
+      Tags:
+      - Ghostly
+    - Id: 800895
+      Weight: 1
+      Tags:
+      - Evasion
+  - Line: 3
+    Pools:
+    - Id: 800599
+      Weight: 1
+      Tags:
+      - Ghostly
+    - Id: 800610
+      Weight: 1
+      Tags:
+      - Spheres
+    - Id: 801009
+      Weight: 1
+      Tags:
+      - Spheres
+  - Line: 4
+    Pools:
+    - Id: 800554
+      Weight: 1
+      Tags:
+      - Evasion
+    - Id: 800626
+      Weight: 1
+      Tags:
+      - Ghostly
+      - Evasion
+    - Id: 800628
+      Weight: 1
+      Tags:
+      - Spheres
+    - Id: 800904
+      Weight: 1
+      Tags:
+      - Ghostly
+  - Line: 5
+    Pools:
+    - Id: 800624
+      Weight: 1
+      Tags:
+      - Ghostly
+    - Id: 800903
+      Weight: 1
+      Tags:
+      - Spheres
+      - Evasion
+- Id: 70018
+  Name: Buwaya Hood (Garment)
+  Tags:
+  - Name: Poison
+    Weight: 1
+    WeightMod: 6
+  - Name: Evasive
+    Weight: 1
+    WeightMod: 6
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 70019
+  Name: Shoes (Footgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100254
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100383
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100393
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100232
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100238
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100315
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100382
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100247
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100386
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100389
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100380
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100390
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100385
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100391
+      Weight: 1
+      Tags:
+      - None
+- Id: 70020
+  Name: Comfy Shoes (Footgear)
+  Tags:
+  - Name: Backsliding
+    Weight: 1
+    WeightMod: 7
+  - Name: Endure
+    Weight: 1
+    WeightMod: 5
+  - Name: Agi
+    Weight: 2
+    WeightMod: 5
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 70021
+  Name: Worker's Shoes (Footgear)
+  Tags:
+  - Name: Stone
+    Weight: 1
+    WeightMod: 11
+  - Name: Defensive
+    Weight: 2
+    WeightMod: 5
+  - Name: Speedy
+    Weight: 2
+    WeightMod: 5
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 70022
+  Name: Woodsman Shoes (Footgear)
+  Tags:
+  - Name: Trapper
+    Weight: 1
+    WeightMod: 6
+  - Name: Rogue
+    Weight: 1
+    WeightMod: 6
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 70023
+  Name: Running Shoes (Footgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 200378
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 70024
+  Name: Ragamuffin Manteau (Garment)
+  Tags:
+  - Name: resist
+    Weight: 1
+    WeightMod: 4
+  - Name: notresist
+    Weight: 1
+    WeightMod: 4
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100314
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100424
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100462
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100163
+      Weight: 1
+      Tags:
+      - notresist
+    - Id: 100297
+      Weight: 1
+      Tags:
+      - resist
+    - Id: 100503
+      Weight: 1
+      Tags:
+      - notresist
+    - Id: 100507
+      Weight: 1
+      Tags:
+      - resist
+  - Line: 3
+    Pools:
+    - Id: 100500
+      Weight: 1
+      Tags:
+      - notresist
+    - Id: 100505
+      Weight: 1
+      Tags:
+      - resist
+    - Id: 100506
+      Weight: 1
+      Tags:
+      - resist
+  - Line: 4
+    Pools:
+    - Id: 100499
+      Weight: 1
+      Tags:
+      - resist
+    - Id: 100501
+      Weight: 1
+      Tags:
+      - resist
+    - Id: 100502
+      Weight: 1
+      Tags:
+      - notresist
+  - Line: 5
+    Pools:
+    - Id: 100497
+      Weight: 1
+      Tags:
+      - resist
+    - Id: 100504
+      Weight: 1
+      Tags:
+      - notresist
+- Id: 70025
+  Name: Tidal Shoes (Footgear)
+  Tags:
+  - Name: Waterball
+    Weight: 1
+    WeightMod: 9
+  - Name: Bulky
+    Weight: 2
+    WeightMod: 4
+  - Name: Supporty
+    Weight: 2
+    WeightMod: 4
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 70026
+  Name: Romantic Gent (Upper Head)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100002
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 70027
+  Name: Vanilmirth Hat (Headgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100004
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100005
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100006
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 70028
+  Name: (OLD) Hood (Garment)
+  Tags:
+  - Name: Blind
+    Weight: 1
+    WeightMod: 4
+  - Name: Lucky
+    Weight: 1
+    WeightMod: 4
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700313
+      Weight: 1
+      Tags:
+      - Lucky
+  - Line: 2
+    Pools:
+    - Id: 700404
+      Weight: 1
+      Tags:
+      - Lucky
+  - Line: 3
+    Pools:
+    - Id: 700405
+      Weight: 1
+      Tags:
+      - Lucky
+  - Line: 4
+    Pools:
+    - Id: 700407
+      Weight: 1
+      Tags:
+      - Blind
+  - Line: 5
+    Pools:
+    - Id: 700380
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700663
+      Weight: 1
+      Tags:
+      - Lucky
+- Id: 70029
+  Name: (OLD) White Shirt (Body)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700308
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700312
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700329
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 700141
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700248
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700313
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700327
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 700309
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700310
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700316
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700331
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 700048
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700315
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700319
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700321
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 700332
+      Weight: 1
+      Tags:
+      - None
+- Id: 70030
+  Name: (OLD) Panties (Body) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700241
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700329
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700333
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 700313
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700336
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700337
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700338
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 700048
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700141
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700313
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700332
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 700309
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700331
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700332
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700335
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 700334
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700339
+      Weight: 1
+      Tags:
+      - None
+- Id: 70031
+  Name: (OLD) Jacket (Body) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700150
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700183
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700200
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 700070
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700147
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700194
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700342
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 700182
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700209
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700341
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700347
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 700208
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700319
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700326
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700344
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 700343
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700348
+      Weight: 1
+      Tags:
+      - None
+- Id: 70032
+  Name: (OLD) Thief Clothes (Body) (Copy)
+  Tags:
+  - Name: LuckyDodge
+    Weight: 1
+    WeightMod: 8
+  - Name: Skill
+    Weight: 2
+    WeightMod: 7
+  - Name: Flee
+    Weight: 2
+    WeightMod: 7
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700308
+      Weight: 1
+      Tags:
+      - Skill
+    - Id: 700313
+      Weight: 1
+      Tags:
+      - LuckyDodge
+    - Id: 700326
+      Weight: 1
+      Tags:
+      - Flee
+  - Line: 2
+    Pools:
+    - Id: 700292
+      Weight: 1
+      Tags:
+      - Flee
+    - Id: 700310
+      Weight: 1
+      Tags:
+      - Skill
+      - Flee
+    - Id: 700316
+      Weight: 1
+      Tags:
+      - LuckyDodge
+    - Id: 700328
+      Weight: 1
+      Tags:
+      - LuckyDodge
+      - Flee
+  - Line: 3
+    Pools:
+    - Id: 700309
+      Weight: 1
+      Tags:
+      - Skill
+    - Id: 700315
+      Weight: 1
+      Tags:
+      - Flee
+    - Id: 700321
+      Weight: 1
+      Tags:
+      - LuckyDodge
+    - Id: 700324
+      Weight: 1
+      Tags:
+      - Flee
+      - Skill
+  - Line: 4
+    Pools:
+    - Id: 700314
+      Weight: 1
+      Tags:
+      - Skill
+    - Id: 700319
+      Weight: 1
+      Tags:
+      - Flee
+    - Id: 700320
+      Weight: 1
+      Tags:
+      - Flee
+    - Id: 700323
+      Weight: 1
+      Tags:
+      - LuckyDodge
+      - Skill
+  - Line: 5
+    Pools:
+    - Id: 700317
+      Weight: 1
+      Tags:
+      - Skill
+    - Id: 700318
+      Weight: 1
+      Tags:
+      - Flee
+- Id: 70033
+  Name: (OLD) Mantle (Body) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700144
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700163
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700346
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 700194
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700196
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700202
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700341
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 700208
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700340
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700343
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700344
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 700217
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700349
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700350
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700351
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 700152
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700221
+      Weight: 1
+      Tags:
+      - None
+- Id: 70034
+  Name: (OLD) Ninja Suit (Body) (Copy)
+  Tags:
+  - Name: Hiding
+    Weight: 1
+    WeightMod: 6
+  - Name: Offensive
+    Weight: 1
+    WeightMod: 5
+  - Name: Defensive
+    Weight: 1
+    WeightMod: 5
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800495
+      Weight: 1
+      Tags:
+      - Defensive
+      - Offensive
+    - Id: 800497
+      Weight: 1
+      Tags:
+      - Offensive
+    - Id: 800506
+      Weight: 1
+      Tags:
+      - Defensive
+  - Line: 2
+    Pools:
+    - Id: 800496
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 800508
+      Weight: 1
+      Tags:
+      - Offensive
+    - Id: 800513
+      Weight: 1
+      Tags:
+      - Hiding
+    - Id: 800522
+      Weight: 1
+      Tags:
+      - Defensive
+  - Line: 3
+    Pools:
+    - Id: 800507
+      Weight: 1
+      Tags:
+      - Offensive
+    - Id: 800511
+      Weight: 1
+      Tags:
+      - Hiding
+    - Id: 800555
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 800557
+      Weight: 1
+      Tags:
+      - Defensive
+  - Line: 4
+    Pools:
+    - Id: 800079
+      Weight: 1
+      Tags:
+      - Offensive
+    - Id: 800498
+      Weight: 1
+      Tags:
+      - Hiding
+      - Offensive
+    - Id: 800500
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 800519
+      Weight: 1
+      Tags:
+      - Hiding
+  - Line: 5
+    Pools:
+    - Id: 800487
+      Weight: 1
+      Tags:
+      - Hiding
+      - Offensive
+    - Id: 800499
+      Weight: 1
+      Tags:
+      - Defensive
+- Id: 70035
+  Name: (OLD) Formal Suit (Body) (Copy)
+  Tags:
+  - Name: Blinding
+    Weight: 1
+    WeightMod: 7
+  - Name: Resist
+    Weight: 2
+    WeightMod: 7
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800271
+      Weight: 1
+      Tags:
+      - Resist
+    - Id: 800417
+      Weight: 1
+      Tags:
+      - Blinding
+    - Id: 800558
+      Weight: 1
+      Tags:
+      - Resist
+  - Line: 2
+    Pools:
+    - Id: 800219
+      Weight: 1
+      Tags:
+      - Resist
+    - Id: 800281
+      Weight: 1
+      Tags:
+      - Resist
+    - Id: 800509
+      Weight: 1
+      Tags:
+      - Blinding
+    - Id: 800554
+      Weight: 1
+      Tags:
+      - Blinding
+  - Line: 3
+    Pools:
+    - Id: 800520
+      Weight: 1
+      Tags:
+      - Blinding
+    - Id: 800525
+      Weight: 1
+      Tags:
+      - Resist
+    - Id: 800555
+      Weight: 1
+      Tags:
+      - Blinding
+    - Id: 800559
+      Weight: 1
+      Tags:
+      - Resist
+  - Line: 4
+    Pools:
+    - Id: 800505
+      Weight: 1
+      Tags:
+      - Blinding
+    - Id: 800524
+      Weight: 1
+      Tags:
+      - Resist
+    - Id: 800526
+      Weight: 1
+      Tags:
+      - Resist
+    - Id: 800553
+      Weight: 1
+      Tags:
+      - Blinding
+  - Line: 5
+    Pools:
+    - Id: 800549
+      Weight: 1
+      Tags:
+      - Resist
+    - Id: 800552
+      Weight: 1
+      Tags:
+      - Blinding
+- Id: 70036
+  Name: (OLD) Tights (Body) (Copy)
+  Tags:
+  - Name: Berserker
+    Weight: 1
+    WeightMod: 1
+  - Name: Evasive
+    Weight: 1
+    WeightMod: 1
+  - Name: Archer
+    Weight: 1
+    WeightMod: 1
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800497
+      Weight: 1
+      Tags:
+      - Berserker
+      - Archer
+    - Id: 800499
+      Weight: 1
+      Tags:
+      - Evasive
+      - Berserker
+    - Id: 800919
+      Weight: 1
+      Tags:
+      - Evasive
+      - Archer
+  - Line: 2
+    Pools:
+    - Id: 800513
+      Weight: 1
+      Tags:
+      - Evasive
+    - Id: 800522
+      Weight: 1
+      Tags:
+      - Evasive
+      - Archer
+    - Id: 800615
+      Weight: 1
+      Tags:
+      - Berserker
+    - Id: 800918
+      Weight: 1
+      Tags:
+      - Archer
+  - Line: 3
+    Pools:
+    - Id: 800519
+      Weight: 1
+      Tags:
+      - Evasive
+    - Id: 800527
+      Weight: 1
+      Tags:
+      - Berserker
+    - Id: 800552
+      Weight: 1
+      Tags:
+      - Archer
+      - Evasive
+    - Id: 800668
+      Weight: 1
+      Tags:
+      - Archer
+  - Line: 4
+    Pools:
+    - Id: 800565
+      Weight: 1
+      Tags:
+      - Evasive
+    - Id: 800916
+      Weight: 1
+      Tags:
+      - Berserker
+    - Id: 800920
+      Weight: 1
+      Tags:
+      - Evasive
+      - Archer
+    - Id: 800921
+      Weight: 1
+      Tags:
+      - Archer
+  - Line: 5
+    Pools:
+    - Id: 800759
+      Weight: 1
+      Tags:
+      - Archer
+    - Id: 800915
+      Weight: 1
+      Tags:
+      - Evasive
+- Id: 70037
+  Name: (OLD) Assassin Clothes (Body) (Copy)
+  Tags:
+  - Name: LuckyDodge
+    Weight: 1
+    WeightMod: 7
+  - Name: Offensive
+    Weight: 1
+    WeightMod: 7
+  - Name: Defensive
+    Weight: 2
+    WeightMod: 7
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800499
+      Weight: 1
+      Tags:
+      - Offensive
+      - Defensive
+      - LuckyDodge
+    - Id: 800515
+      Weight: 1
+      Tags:
+      - Offensive
+      - Defensive
+      - LuckyDodge
+    - Id: 800517
+      Weight: 1
+      Tags:
+      - Offensive
+      - Defensive
+  - Line: 2
+    Pools:
+    - Id: 800500
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 800514
+      Weight: 1
+      Tags:
+      - LuckyDodge
+      - Offensive
+    - Id: 800518
+      Weight: 1
+      Tags:
+      - Offensive
+    - Id: 800522
+      Weight: 1
+      Tags:
+      - Defensive
+  - Line: 3
+    Pools:
+    - Id: 800079
+      Weight: 1
+      Tags:
+      - Offensive
+    - Id: 800437
+      Weight: 1
+      Tags:
+      - LuckyDodge
+      - Offensive
+    - Id: 800516
+      Weight: 1
+      Tags:
+      - LuckyDodge
+    - Id: 800520
+      Weight: 1
+      Tags:
+      - Defensive
+  - Line: 4
+    Pools:
+    - Id: 800504
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 800519
+      Weight: 1
+      Tags:
+      - Offensive
+    - Id: 800523
+      Weight: 1
+      Tags:
+      - LuckyDodge
+    - Id: 800642
+      Weight: 1
+      Tags:
+      - Offensive
+  - Line: 5
+    Pools:
+    - Id: 800521
+      Weight: 1
+      Tags:
+      - LuckyDodge
+    - Id: 800556
+      Weight: 1
+      Tags:
+      - Defensive
+      - Offensive
+- Id: 70038
+  Name: (OLD) Mink Coat (Body) (Copy)
+  Tags:
+  - Name: Warm
+    Weight: 1
+    WeightMod: 5
+  - Name: Mink
+    Weight: 1
+    WeightMod: 4
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800199
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800271
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800417
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 800528
+      Weight: 1
+      Tags:
+      - Mink
+    - Id: 800545
+      Weight: 1
+      Tags:
+      - Warm
+    - Id: 800550
+      Weight: 1
+      Tags:
+      - Mink
+    - Id: 800551
+      Weight: 1
+      Tags:
+      - Warm
+  - Line: 3
+    Pools:
+    - Id: 800526
+      Weight: 1
+      Tags:
+      - Warm
+    - Id: 800547
+      Weight: 1
+      Tags:
+      - Mink
+    - Id: 800548
+      Weight: 1
+      Tags:
+      - Mink
+  - Line: 4
+    Pools:
+    - Id: 800288
+      Weight: 1
+      Tags:
+      - Mink
+    - Id: 800419
+      Weight: 1
+      Tags:
+      - Warm
+    - Id: 800524
+      Weight: 1
+      Tags:
+      - Warm
+    - Id: 800525
+      Weight: 1
+      Tags:
+      - Mink
+  - Line: 5
+    Pools:
+    - Id: 800368
+      Weight: 1
+      Tags:
+      - Warm
+    - Id: 800549
+      Weight: 1
+      Tags:
+      - Mink
+- Id: 70039
+  Name: (OLD) Dragon Vest (Body) (Copy)
+  Tags:
+  - Name: Crit
+    Weight: 2
+    WeightMod: 6
+  - Name: Archer
+    Weight: 1
+    WeightMod: 6
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800497
+      Weight: 1
+      Tags:
+      - Archer
+    - Id: 800923
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 800927
+      Weight: 1
+      Tags:
+      - Crit
+      - Archer
+  - Line: 2
+    Pools:
+    - Id: 800362
+      Weight: 1
+      Tags:
+      - Archer
+    - Id: 800520
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 800522
+      Weight: 1
+      Tags:
+      - Archer
+    - Id: 800932
+      Weight: 1
+      Tags:
+      - Crit
+  - Line: 3
+    Pools:
+    - Id: 800668
+      Weight: 1
+      Tags:
+      - Archer
+    - Id: 800926
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 800928
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 800929
+      Weight: 1
+      Tags:
+      - Crit
+      - Archer
+  - Line: 4
+    Pools:
+    - Id: 800491
+      Weight: 1
+      Tags:
+      - Crit
+    - Id: 800918
+      Weight: 1
+      Tags:
+      - Archer
+    - Id: 800930
+      Weight: 1
+      Tags:
+      - Archer
+    - Id: 800931
+      Weight: 1
+      Tags:
+      - Crit
+  - Line: 5
+    Pools:
+    - Id: 800924
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800925
+      Weight: 1
+      Tags:
+      - None
+- Id: 70040
+  Name: (OLD) Undershirt (Garment) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700241
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700242
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700408
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 700333
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700409
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700412
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700413
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 700215
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700297
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700313
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700410
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 700315
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700372
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700382
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700411
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 700323
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700380
+      Weight: 1
+      Tags:
+      - None
+- Id: 70041
+  Name: (OLD) Skeleton Cape (Garment) (Copy)
+  Tags:
+  - Name: Poison
+    Weight: 2
+    WeightMod: 1
+  - Name: Flee
+    Weight: 3
+    WeightMod: 1
+  - Name: AutoBerserk
+    Weight: 1
+    WeightMod: 1
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700384
+      Weight: 1
+      Tags:
+      - Flee
+    - Id: 700398
+      Weight: 1
+      Tags:
+      - AutoBerserk
+    - Id: 700400
+      Weight: 1
+      Tags:
+      - Flee
+  - Line: 2
+    Pools:
+    - Id: 700018
+      Weight: 1
+      Tags:
+      - Flee
+      - AutoBerserk
+    - Id: 700383
+      Weight: 1
+      Tags:
+      - Flee
+      - Poison
+    - Id: 700401
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 700408
+      Weight: 1
+      Tags:
+      - Flee
+      - AutoBerserk
+  - Line: 3
+    Pools:
+    - Id: 700318
+      Weight: 1
+      Tags:
+      - Flee
+    - Id: 700382
+      Weight: 1
+      Tags:
+      - Flee
+      - Poison
+    - Id: 700386
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 700390
+      Weight: 1
+      Tags:
+      - AutoBerserk
+  - Line: 4
+    Pools:
+    - Id: 700388
+      Weight: 1
+      Tags:
+      - Flee
+    - Id: 700389
+      Weight: 1
+      Tags:
+      - AutoBerserk
+    - Id: 700391
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 700420
+      Weight: 1
+      Tags:
+      - Flee
+  - Line: 5
+    Pools:
+    - Id: 700396
+      Weight: 1
+      Tags:
+      - AutoBerserk
+      - Flee
+    - Id: 700397
+      Weight: 1
+      Tags:
+      - None
+- Id: 70042
+  Name: (OLD) Ancient Cape (Garment) (Copy)
+  Tags:
+  - Name: Poison
+    Weight: 1
+    WeightMod: 1
+  - Name: Evasion
+    Weight: 1
+    WeightMod: 1
+  - Name: Spheres
+    Weight: 1
+    WeightMod: 1
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800352
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800499
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800620
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 800581
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 800582
+      Weight: 1
+      Tags:
+      - Evasion
+    - Id: 800618
+      Weight: 1
+      Tags:
+      - Spheres
+    - Id: 800621
+      Weight: 1
+      Tags:
+      - Evasion
+  - Line: 3
+    Pools:
+    - Id: 800426
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 800554
+      Weight: 1
+      Tags:
+      - Evasion
+    - Id: 800614
+      Weight: 1
+      Tags:
+      - Poison
+      - Evasion
+    - Id: 800617
+      Weight: 1
+      Tags:
+      - Spheres
+  - Line: 4
+    Pools:
+    - Id: 800425
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 800601
+      Weight: 1
+      Tags:
+      - Spheres
+    - Id: 800895
+      Weight: 1
+      Tags:
+      - Evasion
+    - Id: 801008
+      Weight: 1
+      Tags:
+      - Spheres
+  - Line: 5
+    Pools:
+    - Id: 800565
+      Weight: 1
+      Tags:
+      - Evasion
+    - Id: 800619
+      Weight: 1
+      Tags:
+      - Poison
+- Id: 70043
+  Name: (OLD) Alarm Hood (Garment) (Copy)
+  Tags:
+  - Name: LuckyDodge
+    Weight: 1
+    WeightMod: 5
+  - Name: Trapper
+    Weight: 1
+    WeightMod: 6
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800581
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800582
+      Weight: 1
+      Tags:
+      - Trapper
+    - Id: 800600
+      Weight: 1
+      Tags:
+      - LuckyDodge
+  - Line: 2
+    Pools:
+    - Id: 800605
+      Weight: 1
+      Tags:
+      - Trapper
+    - Id: 800606
+      Weight: 1
+      Tags:
+      - Trapper
+    - Id: 800607
+      Weight: 1
+      Tags:
+      - LuckyDodge
+    - Id: 801010
+      Weight: 1
+      Tags:
+      - LuckyDodge
+  - Line: 3
+    Pools:
+    - Id: 800459
+      Weight: 1
+      Tags:
+      - LuckyDodge
+    - Id: 800597
+      Weight: 1
+      Tags:
+      - Trapper
+    - Id: 800603
+      Weight: 1
+      Tags:
+      - LuckyDodge
+  - Line: 4
+    Pools:
+    - Id: 800451
+      Weight: 1
+      Tags:
+      - Trapper
+    - Id: 800596
+      Weight: 1
+      Tags:
+      - Trapper
+    - Id: 800608
+      Weight: 1
+      Tags:
+      - LuckyDodge
+    - Id: 800609
+      Weight: 1
+      Tags:
+      - LuckyDodge
+  - Line: 5
+    Pools:
+    - Id: 800602
+      Weight: 1
+      Tags:
+      - LuckyDodge
+    - Id: 800922
+      Weight: 1
+      Tags:
+      - Trapper
+- Id: 70044
+  Name: (OLD) Ghost Cape (Garment) (Copy)
+  Tags:
+  - Name: Spheres
+    Weight: 2
+    WeightMod: 6
+  - Name: Ghostly
+    Weight: 1
+    WeightMod: 10
+  - Name: Evasion
+    Weight: 3
+    WeightMod: 6
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800352
+      Weight: 1
+      Tags:
+      - Evasion
+      - Spheres
+    - Id: 800499
+      Weight: 1
+      Tags:
+      - Evasion
+      - Ghostly
+      - Spheres
+    - Id: 800625
+      Weight: 1
+      Tags:
+      - Ghostly
+  - Line: 2
+    Pools:
+    - Id: 800509
+      Weight: 1
+      Tags:
+      - Evasion
+    - Id: 800627
+      Weight: 1
+      Tags:
+      - Evasion
+      - Spheres
+    - Id: 800632
+      Weight: 1
+      Tags:
+      - Ghostly
+    - Id: 800895
+      Weight: 1
+      Tags:
+      - Evasion
+  - Line: 3
+    Pools:
+    - Id: 800599
+      Weight: 1
+      Tags:
+      - Ghostly
+    - Id: 800610
+      Weight: 1
+      Tags:
+      - Spheres
+    - Id: 801009
+      Weight: 1
+      Tags:
+      - Spheres
+  - Line: 4
+    Pools:
+    - Id: 800554
+      Weight: 1
+      Tags:
+      - Evasion
+    - Id: 800626
+      Weight: 1
+      Tags:
+      - Ghostly
+      - Evasion
+    - Id: 800628
+      Weight: 1
+      Tags:
+      - Spheres
+    - Id: 800904
+      Weight: 1
+      Tags:
+      - Ghostly
+  - Line: 5
+    Pools:
+    - Id: 800624
+      Weight: 1
+      Tags:
+      - Ghostly
+    - Id: 800903
+      Weight: 1
+      Tags:
+      - Spheres
+      - Evasion
+- Id: 70045
+  Name: (OLD) Buwaya Hood (Garment) (Copy)
+  Tags:
+  - Name: Poison
+    Weight: 1
+    WeightMod: 6
+  - Name: Evasive
+    Weight: 1
+    WeightMod: 6
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800496
+      Weight: 1
+      Tags:
+      - Evasive
+    - Id: 800619
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 800914
+      Weight: 1
+      Tags:
+      - Poison
+      - Evasive
+  - Line: 2
+    Pools:
+    - Id: 800459
+      Weight: 1
+      Tags:
+      - Evasive
+    - Id: 800581
+      Weight: 1
+      Tags:
+      - Evasive
+    - Id: 800907
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 800909
+      Weight: 1
+      Tags:
+      - Poison
+  - Line: 3
+    Pools:
+    - Id: 800508
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 800607
+      Weight: 1
+      Tags:
+      - Evasive
+    - Id: 800913
+      Weight: 1
+      Tags:
+      - Poison
+  - Line: 4
+    Pools:
+    - Id: 800609
+      Weight: 1
+      Tags:
+      - Evasive
+    - Id: 800758
+      Weight: 1
+      Tags:
+      - Poison
+    - Id: 800906
+      Weight: 1
+      Tags:
+      - Evasive
+    - Id: 800910
+      Weight: 1
+      Tags:
+      - Poison
+  - Line: 5
+    Pools:
+    - Id: 800602
+      Weight: 1
+      Tags:
+      - Evasive
+    - Id: 800912
+      Weight: 1
+      Tags:
+      - Poison
+- Id: 70046
+  Name: (OLD) Shoes (Footgear) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700241
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700252
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700434
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 700070
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700242
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700342
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700425
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 700255
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700256
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700258
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700444
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 700229
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700240
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700245
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700429
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 700248
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700432
+      Weight: 1
+      Tags:
+      - None
+- Id: 70047
+  Name: (OLD) Comfy Shoes (Footgear) (Copy)
+  Tags:
+  - Name: Backsliding
+    Weight: 1
+    WeightMod: 7
+  - Name: Endure
+    Weight: 1
+    WeightMod: 5
+  - Name: Agi
+    Weight: 2
+    WeightMod: 5
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700241
+      Weight: 1
+      Tags:
+      - Agi
+      - Endure
+      - Backsliding
+    - Id: 700311
+      Weight: 1
+      Tags:
+      - Agi
+    - Id: 700425
+      Weight: 1
+      Tags:
+      - Endure
+      - Backsliding
+  - Line: 2
+    Pools:
+    - Id: 700229
+      Weight: 1
+      Tags:
+      - Endure
+    - Id: 700243
+      Weight: 1
+      Tags:
+      - Endure
+    - Id: 700245
+      Weight: 1
+      Tags:
+      - Agi
+    - Id: 700435
+      Weight: 1
+      Tags:
+      - Backsliding
+  - Line: 3
+    Pools:
+    - Id: 700247
+      Weight: 1
+      Tags:
+      - Backsliding
+      - Endure
+    - Id: 700427
+      Weight: 1
+      Tags:
+      - Agi
+    - Id: 700428
+      Weight: 1
+      Tags:
+      - Agi
+    - Id: 700708
+      Weight: 1
+      Tags:
+      - Agi
+      - Backsliding
+  - Line: 4
+    Pools:
+    - Id: 700248
+      Weight: 1
+      Tags:
+      - Agi
+    - Id: 700388
+      Weight: 1
+      Tags:
+      - Endure
+    - Id: 700429
+      Weight: 1
+      Tags:
+      - Backsliding
+    - Id: 700436
+      Weight: 1
+      Tags:
+      - Agi
+  - Line: 5
+    Pools:
+    - Id: 700423
+      Weight: 1
+      Tags:
+      - Backsliding
+    - Id: 700431
+      Weight: 1
+      Tags:
+      - Agi
+- Id: 70048
+  Name: (OLD) Worker's Shoes (Footgear) (Copy)
+  Tags:
+  - Name: Stone
+    Weight: 1
+    WeightMod: 11
+  - Name: Defensive
+    Weight: 2
+    WeightMod: 5
+  - Name: Speedy
+    Weight: 2
+    WeightMod: 5
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700252
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 700433
+      Weight: 1
+      Tags:
+      - Speedy
+    - Id: 700434
+      Weight: 1
+      Tags:
+      - Stone
+  - Line: 2
+    Pools:
+    - Id: 700070
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 700342
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 700383
+      Weight: 1
+      Tags:
+      - Speedy
+    - Id: 700441
+      Weight: 1
+      Tags:
+      - Stone
+  - Line: 3
+    Pools:
+    - Id: 700424
+      Weight: 1
+      Tags:
+      - Speedy
+    - Id: 700430
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 700437
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 700439
+      Weight: 1
+      Tags:
+      - Stone
+  - Line: 4
+    Pools:
+    - Id: 700421
+      Weight: 1
+      Tags:
+      - Speedy
+    - Id: 700432
+      Weight: 1
+      Tags:
+      - Speedy
+    - Id: 700440
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 700443
+      Weight: 1
+      Tags:
+      - Stone
+  - Line: 5
+    Pools:
+    - Id: 700151
+      Weight: 1
+      Tags:
+      - Defensive
+      - Speedy
+    - Id: 700438
+      Weight: 1
+      Tags:
+      - Stone
+- Id: 70049
+  Name: (OLD) Woodsman Shoes (Footgear) (Copy)
+  Tags:
+  - Name: Trapper
+    Weight: 1
+    WeightMod: 6
+  - Name: Rogue
+    Weight: 1
+    WeightMod: 6
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800860
+      Weight: 1
+      Tags:
+      - Rogue
+    - Id: 800861
+      Weight: 1
+      Tags:
+      - Trapper
+    - Id: 800862
+      Weight: 1
+      Tags:
+      - Trapper
+      - Rogue
+  - Line: 2
+    Pools:
+    - Id: 800842
+      Weight: 1
+      Tags:
+      - Trapper
+    - Id: 800847
+      Weight: 1
+      Tags:
+      - Rogue
+    - Id: 800849
+      Weight: 1
+      Tags:
+      - Trapper
+    - Id: 800850
+      Weight: 1
+      Tags:
+      - Rogue
+  - Line: 3
+    Pools:
+    - Id: 800848
+      Weight: 1
+      Tags:
+      - Rogue
+    - Id: 800858
+      Weight: 1
+      Tags:
+      - Rogue
+  - Line: 4
+    Pools:
+    - Id: 800841
+      Weight: 1
+      Tags:
+      - Trapper
+    - Id: 800859
+      Weight: 1
+      Tags:
+      - Rogue
+    - Id: 800863
+      Weight: 1
+      Tags:
+      - Rogue
+  - Line: 5
+    Pools:
+    - Id: 800843
+      Weight: 1
+      Tags:
+      - Trapper
+    - Id: 800846
+      Weight: 1
+      Tags:
+      - Rogue
+- Id: 70050
+  Name: (OLD) Running Shoes (Footgear) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800506
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800877
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800878
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 800864
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800870
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800873
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800876
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 800640
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800866
+      Weight: 1
+      Tags: []
+    - Id: 800884
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 800867
+      Weight: 1
+      Tags: []
+    - Id: 800868
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800869
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800872
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 800865
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800871
+      Weight: 1
+      Tags:
+      - None
+- Id: 70051
+  Name: (OLD) Trickster's Shoes (Footgear) (Copy)
+  Tags:
+  - Name: Venom
+    Weight: 1
+    WeightMod: 5
+  - Name: Magical
+    Weight: 1
+    WeightMod: 4
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800506
+      Weight: 1
+      Tags:
+      - Venom
+      - Magical
+    - Id: 800860
+      Weight: 1
+      Tags:
+      - Venom
+    - Id: 800893
+      Weight: 1
+      Tags:
+      - Magical
+  - Line: 2
+    Pools:
+    - Id: 800385
+      Weight: 1
+      Tags:
+      - Magical
+    - Id: 800850
+      Weight: 1
+      Tags:
+      - Venom
+    - Id: 800898
+      Weight: 1
+      Tags:
+      - Magical
+    - Id: 800902
+      Weight: 1
+      Tags:
+      - Venom
+  - Line: 3
+    Pools:
+    - Id: 800859
+      Weight: 1
+      Tags:
+      - Venom
+    - Id: 800896
+      Weight: 1
+      Tags:
+      - Venom
+    - Id: 800899
+      Weight: 1
+      Tags:
+      - Magical
+  - Line: 4
+    Pools:
+    - Id: 800094
+      Weight: 1
+      Tags:
+      - Venom
+    - Id: 800894
+      Weight: 1
+      Tags:
+      - Venom
+    - Id: 800900
+      Weight: 1
+      Tags:
+      - Magical
+    - Id: 800911
+      Weight: 1
+      Tags:
+      - Magical
+  - Line: 5
+    Pools:
+    - Id: 800897
+      Weight: 1
+      Tags:
+      - Venom
+    - Id: 800901
+      Weight: 1
+      Tags:
+      - Magical
+- Id: 70052
+  Name: (OLD) Tidal Shoes (Footgear) (Copy)
+  Tags:
+  - Name: Waterball
+    Weight: 1
+    WeightMod: 9
+  - Name: Bulky
+    Weight: 2
+    WeightMod: 4
+  - Name: Supporty
+    Weight: 2
+    WeightMod: 4
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800298
+      Weight: 1
+      Tags:
+      - Waterball
+      - Supporty
+    - Id: 800880
+      Weight: 1
+      Tags:
+      - Waterball
+      - Bulky
+    - Id: 800881
+      Weight: 1
+      Tags:
+      - Bulky
+      - Supporty
+  - Line: 2
+    Pools:
+    - Id: 800883
+      Weight: 1
+      Tags:
+      - Supporty
+    - Id: 800885
+      Weight: 1
+      Tags:
+      - Bulky
+    - Id: 800888
+      Weight: 1
+      Tags:
+      - Waterball
+    - Id: 800889
+      Weight: 1
+      Tags:
+      - Waterball
+  - Line: 3
+    Pools:
+    - Id: 800309
+      Weight: 1
+      Tags:
+      - Bulky
+    - Id: 800882
+      Weight: 1
+      Tags:
+      - Supporty
+    - Id: 800890
+      Weight: 1
+      Tags:
+      - Bulky
+    - Id: 801029
+      Weight: 1
+      Tags:
+      - Bulky
+      - Supporty
+  - Line: 4
+    Pools:
+    - Id: 800394
+      Weight: 1
+      Tags:
+      - Supporty
+    - Id: 800401
+      Weight: 1
+      Tags:
+      - Bulky
+    - Id: 800886
+      Weight: 1
+      Tags:
+      - Waterball
+  - Line: 5
+    Pools:
+    - Id: 800879
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800887
+      Weight: 1
+      Tags:
+      - Waterball

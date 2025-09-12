@@ -1,0 +1,93 @@
+Header:
+  Type: RANDOM_OPTION_POOLSET_DB
+  Version: 3
+Body:
+- Id: 10000
+  Name: EmptyWeaponSet
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 10001
+  Name: Whip Placeholder
+  Tags:
+  - Name: Bleed
+    Weight: 1
+    WeightMod: 1
+  - Name: Sling
+    Weight: 1
+    WeightMod: 1
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100633
+      Weight: 1
+      Tags:
+      - Bleed
+    - Id: 200468
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100634
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100635
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100258
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100628
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100259
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100637
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100552
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100636
+      Weight: 1
+      Tags:
+      - None

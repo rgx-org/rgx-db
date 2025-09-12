@@ -1,0 +1,1019 @@
+Header:
+  Type: ITEM_DB
+  Version: 2
+Body:
+- Id: 1100001
+  Name: Rusty Coin
+  AegisName: RGX_Rusty_Coin
+  Type: Etc
+  Buy: 10
+  Sell: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100002
+  Name: Bronze Coin
+  AegisName: RGX_Bronze_Coin
+  Type: Etc
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100003
+  Name: Silver Coin
+  AegisName: RGX_Silver_Coin
+  Type: Etc
+  Buy: 40
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100004
+  Name: Gold Coin
+  AegisName: RGX_Gold_Coin
+  Type: Etc
+  Buy: 200
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100005
+  Name: Platinum Coin
+  AegisName: RGX_Platinum_Coin
+  Type: Etc
+  Buy: 2000
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100006
+  Name: Mithril Coin
+  AegisName: RGX_Mithril_Coin
+  Type: Etc
+  Buy: 20000
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100007
+  Name: Fool's Gold
+  AegisName: RGX_Fools_Gold
+  Type: Etc
+  Buy: 100
+  Weight: 100
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100008
+  Name: Poring Coin
+  AegisName: RGX_Poring_Coin
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 1100009
+  Name: Spirit Bottle
+  AegisName: RGX_Spirit_Bottle
+  Type: Etc
+  Buy: 5
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100010
+  Name: Gold Bar
+  AegisName: RGX_Gold_Bar
+  Type: Etc
+  Buy: 50000
+  Weight: 200
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100034
+  Name: Blue Gemstone
+  AegisName: RGX_Blue_Gemstone
+  Type: Etc
+  Buy: 30
+  Sell: 10
+  Weight: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100035
+  Name: Red Gemstone
+  AegisName: RGX_Red_Gemstone
+  Type: Etc
+  Buy: 40
+  Sell: 15
+  Weight: 2
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100036
+  Name: Yellow Gemstone
+  AegisName: RGX_Yellow_Gemstone
+  Type: Etc
+  Buy: 50
+  Sell: 20
+  Weight: 3
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100037
+  Name: Trap
+  AegisName: RGX_Trap
+  Type: Etc
+  Buy: 3
+  Weight: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100039
+  Name: Stone
+  AegisName: RGX_Stone
+  Type: Etc
+  Buy: 1
+  Weight: 1
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100040
+  Name: Steel
+  AegisName: RGX_Steel
+  Type: Etc
+  Buy: 10
+  Sell: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    LootStoreSell: true
+- Id: 1100041
+  Name: Acid Bottle
+  AegisName: RGX_Acid_Bottle
+  Type: Etc
+  Buy: 25
+  Weight: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100042
+  Name: Bottle Grenade
+  AegisName: RGX_Bottle_Grenade
+  Type: Etc
+  Buy: 25
+  Weight: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100043
+  Name: Rough Elunium
+  AegisName: RGX_Rough_Elunium
+  Type: Etc
+  Buy: 10
+  Sell: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    LootStoreSell: true
+- Id: 1100044
+  Name: Elunium
+  AegisName: RGX_Elunium
+  Type: Etc
+  Buy: 100
+  Sell: 50
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    LootStoreSell: true
+- Id: 1100045
+  Name: Enriched Elunium
+  AegisName: RGX_Enriched_Elunium
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100046
+  Name: Phracon
+  AegisName: RGX_Phracon
+  Type: Etc
+  Buy: 50
+  Sell: 25
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    LootStoreSell: true
+- Id: 1100047
+  Name: Emveretarcon
+  AegisName: RGX_Emveretarcon
+  Type: Etc
+  Buy: 250
+  Sell: 125
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    LootStoreSell: true
+- Id: 1100049
+  Name: Oridecon
+  AegisName: RGX_Oridecon
+  Type: Etc
+  Buy: 1250
+  Sell: 625
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    LootStoreSell: true
+- Id: 1100050
+  Name: Enriched Oridecon
+  AegisName: RGX_Enriched_Oridecon
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    LootStoreSell: true
+- Id: 1100051
+  Name: ''
+  AegisName: RGX_HP_ORB
+  Type: Healing
+  Buy: 120
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100052
+  Name: ''
+  AegisName: RGX_SP_ORB
+  Type: Healing
+  Buy: 80
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100053
+  Name: ''
+  AegisName: RGX_HP_ORB2
+  Type: Healing
+  Buy: 850
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100054
+  Name: ''
+  AegisName: RGX_SP_ORB2
+  Type: Healing
+  Buy: 160
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100055
+  Name: ''
+  AegisName: RGX_HP_ORB3
+  Type: Healing
+  Buy: 1000
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100056
+  Name: ''
+  AegisName: RGX_SP_ORB3
+  Type: Healing
+  Buy: 240
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100057
+  Name: Campi
+  AegisName: RGX_CAMPI
+  Type: Etc
+  Buy: 16000
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 1100058
+  Name: Mirror of Warning
+  AegisName: RGX_Mirror_of_Warning
+  Type: Etc
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100060
+  Name: Campi Dejecta
+  AegisName: RGX_CAMPI_DEJECTA
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 1100061
+  Name: Crystal Blue
+  AegisName: RGX_Crystal_Blue
+  Type: Etc
+  Buy: 300
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100062
+  Name: Red Blood
+  AegisName: RGX_Red_Blood
+  Type: Etc
+  Buy: 400
+  Weight: 20
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100063
+  Name: Green Live
+  AegisName: RGX_Green_Live
+  Type: Etc
+  Buy: 500
+  Weight: 30
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100064
+  Name: Animal Poop
+  AegisName: RGX_ANIMAL_POOPOO
+  Type: Etc
+  Buy: 100
+  Weight: 50
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100068
+  Name: Copper Ore
+  AegisName: RGX_Copper_Ore
+  Type: Etc
+  Buy: 1
+  Sell: 50
+  Weight: 50
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    LootStoreSell: true
+- Id: 1100069
+  Name: Silver Ore
+  AegisName: RGX_Silver_Ore
+  Type: Etc
+  Buy: 1
+  Sell: 100
+  Weight: 50
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    LootStoreSell: true
+- Id: 1100070
+  Name: Gold Ore
+  AegisName: RGX_Gold_Ore
+  Type: Etc
+  Buy: 1
+  Sell: 300
+  Weight: 50
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    NoConsume: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    LootStoreSell: true
+- Id: 1100071
+  Name: Laboratory Permit (Norman)
+  AegisName: RGX_LABORATORY_PERMIT1
+  Type: Etc
+  Buy: 6
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Notes: |-
+    [Cenia]
+- Id: 1100072
+  Name: Laboratory Permit (Einherjar)
+  AegisName: RGX_LABORATORY_PERMIT2
+  Type: Etc
+  Buy: 6
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Notes: |-
+    [Cenia]
+- Id: 1100073
+  Name: ''
+  AegisName: RGX_DASH_ORB1
+  Type: Healing
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100074
+  Name: ''
+  AegisName: RGX_DASH_ORB2
+  Type: Healing
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100075
+  Name: ''
+  AegisName: RGX_DASH_ORB3
+  Type: Healing
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100076
+  Name: Soul Rune
+  AegisName: RGX_SOUL_RUNE
+  Type: Etc
+  Buy: 9000
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100077
+  Name: Soul Fragment
+  AegisName: RGX_SOUL_FRAGMENT
+  Type: Etc
+  Weight: 2
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100078
+  Name: Fragment of Reio Rune
+  AegisName: RGX_REIO_FRAGMENT1
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 1100079
+  Name: Fragment of Reio Rune
+  AegisName: RGX_REIO_FRAGMENT2
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 1100080
+  Name: Fragment of Reio Rune
+  AegisName: RGX_REIO_FRAGMENT3
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 1100081
+  Name: Fragment of Reio Rune
+  AegisName: RGX_REIO_FRAGMENT4
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 1100082
+  Name: Fragment of Reio Rune
+  AegisName: RGX_REIO_FRAGMENT5
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 1100083
+  Name: Fragment of Reio Rune
+  AegisName: RGX_REIO_FRAGMENT6
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 1100084
+  Name: Glass Bead
+  AegisName: RGX_GLASS_BEAD
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1100085
+  Name: Elemental Scroll
+  AegisName: RGX_ELEMENTAL_SCROLL
+  Type: Etc
+  Weight: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
