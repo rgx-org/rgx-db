@@ -1,0 +1,766 @@
+Header:
+  Type: SPAWNGROUP_DB
+  Version: 3
+Body:
+- Id: 2000
+  Name: f05 - GTB
+  Members:
+  - Id: 25264
+    Name: Thief Bug Male
+    Count: 10
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25263
+    Name: Thief Bug Female
+    Count: 10
+    RewardMod: 50
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25268
+    Name: Myst
+    Count: 10
+    RewardMod: 150
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25270
+    Name: Drainliar
+    Count: 5
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25261
+    Name: Sting
+    Count: 1
+    RewardMod: 600
+    SpawnX: 62
+    SpawnY: 64
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25265
+    Name: Tarou
+    Count: 3
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25271
+    Name: Kukre
+    Count: 3
+    RewardMod: 75
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25261
+    Name: Sting
+    Count: 1
+    RewardMod: 600
+    SpawnX: 137
+    SpawnY: 136
+    SpawnArea: 1
+    RespawnTimer: -1
+- Id: 2010
+  Name: f10 - Cenia
+  Members:
+  - Id: 25071
+    Name: Kavach Icarus
+    Count: 1
+    RewardMod: 100
+    SpawnX: 123
+    SpawnY: 115
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25071
+    Name: Kavach Icarus
+    Count: 1
+    RewardMod: 100
+    SpawnX: 137
+    SpawnY: 115
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25069
+    Name: Errende Ebecee
+    Count: 1
+    RewardMod: 100
+    SpawnX: 130
+    SpawnY: 115
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25067
+    Name: Wickebine Tres
+    Count: 1
+    RewardMod: 100
+    SpawnX: 130
+    SpawnY: 120
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 127
+    SpawnY: 95
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 128
+    SpawnY: 94
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 126
+    SpawnY: 94
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 129
+    SpawnY: 95
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 130
+    SpawnY: 94
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 131
+    SpawnY: 95
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 132
+    SpawnY: 94
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 133
+    SpawnY: 95
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25068
+    Name: Armeyer Dinze
+    Count: 1
+    RewardMod: 100
+    SpawnX: 128
+    SpawnY: 58
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25071
+    Name: Kavach Icarus
+    Count: 1
+    RewardMod: 100
+    SpawnX: 134
+    SpawnY: 53
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25070
+    Name: Laurell Weinder
+    Count: 1
+    RewardMod: 100
+    SpawnX: 126
+    SpawnY: 49
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25067
+    Name: Wickebine Tres
+    Count: 1
+    RewardMod: 100
+    SpawnX: 128
+    SpawnY: 58
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 148
+    SpawnY: 53
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 149
+    SpawnY: 52
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 148
+    SpawnY: 51
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 149
+    SpawnY: 50
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 148
+    SpawnY: 49
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 149
+    SpawnY: 48
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 148
+    SpawnY: 47
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 149
+    SpawnY: 46
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 192
+    SpawnY: 68
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 193
+    SpawnY: 69
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 194
+    SpawnY: 68
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 195
+    SpawnY: 69
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 196
+    SpawnY: 68
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 197
+    SpawnY: 69
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 198
+    SpawnY: 68
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 25386
+    Name: Barricade
+    Count: 1
+    RewardMod: -1
+    SpawnX: 199
+    SpawnY: 69
+    SpawnArea: 1
+    RespawnTimer: -1
+  - Id: 28101
+    Name: Super Doppel
+    Count: 1
+    RewardMod: 400
+    SpawnX: 190
+    SpawnY: 49
+    SpawnArea: 1
+    RespawnTimer: -1
+- Id: 2020
+  Name: f15 - Bapho
+  Members:
+  - Id: 25486
+    Name: Yoyo
+    Count: 5
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25335
+    Name: Enchanted Peach Tree
+    Count: 4
+    RewardMod: 250
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25461
+    Name: Mantis
+    Count: 5
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25462
+    Name: Killer Mantis
+    Count: 2
+    RewardMod: 500
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25320
+    Name: Savage
+    Count: 5
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25464
+    Name: Gullinbursti
+    Count: 4
+    RewardMod: 250
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25466
+    Name: Petite
+    Count: 5
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25467
+    Name: Petite W
+    Count: 4
+    RewardMod: 250
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25250
+    Name: Steel Chonchon
+    Count: 8
+    RewardMod: 125
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25468
+    Name: Hunter Fly
+    Count: 4
+    RewardMod: 250
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25469
+    Name: Stainer
+    Count: 8
+    RewardMod: 125
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25470
+    Name: Brilight
+    Count: 4
+    RewardMod: 250
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25471
+    Name: Novus
+    Count: 5
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25472
+    Name: Novus W
+    Count: 4
+    RewardMod: 250
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25273
+    Name: Caramel
+    Count: 8
+    RewardMod: 125
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25473
+    Name: Taffy
+    Count: 4
+    RewardMod: 250
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25475
+    Name: Deleter
+    Count: 5
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25474
+    Name: Deleter W
+    Count: 4
+    RewardMod: 250
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25065
+    Name: Baby Desert Wolf
+    Count: 8
+    RewardMod: 125
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25062
+    Name: Desert Wolf
+    Count: 8
+    RewardMod: 125
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25476
+    Name: Frilldora
+    Count: 5
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25477
+    Name: Grove
+    Count: 4
+    RewardMod: 250
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25478
+    Name: Teddy Bear
+    Count: 8
+    RewardMod: 125
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25479
+    Name: Zipper Bear
+    Count: 4
+    RewardMod: 250
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25024
+    Name: Muka
+    Count: 8
+    RewardMod: 125
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25487
+    Name: Cactite
+    Count: 5
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -2
+  - Id: 25488
+    Name: Black Mushroom
+    Count: 8
+    RewardMod: -1
+    SpawnX: 59
+    SpawnY: 185
+    SpawnArea: 6
+    RespawnTimer: 15000
+  - Id: 25489
+    Name: Red Mushroom
+    Count: 8
+    RewardMod: -1
+    SpawnX: 59
+    SpawnY: 185
+    SpawnArea: 6
+    RespawnTimer: 15000
+  - Id: 25488
+    Name: Black Mushroom
+    Count: 12
+    RewardMod: -1
+    SpawnX: 141
+    SpawnY: 140
+    SpawnArea: 13
+    RespawnTimer: 15000
+  - Id: 25489
+    Name: Red Mushroom
+    Count: 12
+    RewardMod: -1
+    SpawnX: 141
+    SpawnY: 140
+    SpawnArea: 13
+    RespawnTimer: 15000
+  - Id: 25488
+    Name: Black Mushroom
+    Count: 12
+    RewardMod: -1
+    SpawnX: 180
+    SpawnY: 140
+    SpawnArea: 13
+    RespawnTimer: 15000
+  - Id: 25489
+    Name: Red Mushroom
+    Count: 12
+    RewardMod: -1
+    SpawnX: 180
+    SpawnY: 140
+    SpawnArea: 13
+    RespawnTimer: 15000
+  - Id: 25488
+    Name: Black Mushroom
+    Count: 16
+    RewardMod: -1
+    SpawnX: 140
+    SpawnY: 19
+    SpawnArea: 13
+    RespawnTimer: 15000
+  - Id: 25489
+    Name: Red Mushroom
+    Count: 16
+    RewardMod: -1
+    SpawnX: 140
+    SpawnY: 19
+    SpawnArea: 13
+    RespawnTimer: 15000
+  - Id: 25488
+    Name: Black Mushroom
+    Count: 4
+    RewardMod: -1
+    SpawnX: 61
+    SpawnY: 188
+    SpawnArea: 3
+    RespawnTimer: 15000
+  - Id: 25489
+    Name: Red Mushroom
+    Count: 4
+    RewardMod: -1
+    SpawnX: 61
+    SpawnY: 188
+    SpawnArea: 3
+    RespawnTimer: 15000
+- Id: 2030
+  Name: F20 - DarkLord
+  Members:
+  - Id: 25204
+    Name: Dark Priest
+    Count: 1
+    RewardMod: 1000
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25192
+    Name: Flame Skull
+    Count: 50
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25284
+    Name: Orc Zombie
+    Count: 50
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25285
+    Name: Orc Skeleton
+    Count: 50
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25128
+    Name: Skeleton General
+    Count: 30
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25322
+    Name: Wanderer
+    Count: 5
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+- Id: 2040
+  Name: F25 - LoD
+  Members:
+  - Id: 25027
+    Name: Lude
+    Count: 5
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25029
+    Name: Disguise
+    Count: 5
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25182
+    Name: Gibbet
+    Count: 5
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25184
+    Name: Loli Ruri
+    Count: 5
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25186
+    Name: Zombie Master
+    Count: 5
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25188
+    Name: Tiyanak
+    Count: 5
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+- Id: 2050
+  Name: F30 - Randgris
+  Members:
+  - Id: 25199
+    Name: Mistress of Shelter
+    Count: 10
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25200
+    Name: Baroness of Retribution
+    Count: 10
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25414
+    Name: Garden Watcher
+    Count: 20
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25168
+    Name: Garden Keeper
+    Count: 20
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1

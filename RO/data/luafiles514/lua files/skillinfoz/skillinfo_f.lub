@@ -114,9 +114,9 @@ function AddNeedSkillList(SKID)
 	end
 end
 
-MyJobID = 0
+JobIdGlobal = 0
 function InitSkillTreeView(jobID, arrayNum)
-	MyJobID = jobID
+	JobIdGlobal = jobID
 	local skillList = SKILL_TREEVIEW_FOR_JOB[jobID]
 	if skillList ~= nil then
 		local skillPos = 0

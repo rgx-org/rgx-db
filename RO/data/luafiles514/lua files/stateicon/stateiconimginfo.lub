@@ -74,6 +74,7 @@ StateIconImgList = {
 		[EFST_IDs.EFST_VIOLENTGALE] = "efst_violentgale.png",
 		[EFST_IDs.EFST_LANDPROTECTOR] = "efst_landprotector.png",
 		[EFST_IDs.EFST_FINESSE] = "efst_finesse.tga",
+		[EFST_IDs.EFST_SACRIFICE] = "efst_sacrifice.tga",
 	},
 	[PRIORITY_BLUE] = {
 		[EFST_IDs.EFST_SIT] = "efst_sitting.tga",
@@ -120,6 +121,7 @@ StateIconImgList = {
 		[EFST_IDs.EFST_POISONREACT] = "efst_poisonreact.tga",
 		[EFST_IDs.EFST_TOXICREACT] = "efst_toxicreact.tga",
 		[EFST_IDs.EFST_PROVOKE] = "efst_provoke.tga",
+		[EFST_IDs.EFST_AUTOBERSERKPROVOKE] = "efst_provoke.tga",
 		[EFST_IDs.EFST_MINDBREAKER] = "efst_mind_breaker.tga",
 		[EFST_IDs.EFST_CLARITY] = "efst_clarity.tga",
 		[EFST_IDs.EFST_PHANTASMAGORIA] = "efst_phantasm_shooting.tga",
@@ -131,6 +133,9 @@ StateIconImgList = {
 		[EFST_IDs.EFST_OWLBLINDNESS] = "efst_owlblindness.png",
 		[EFST_IDs.EFST_RAPTOREYE] = "efst_raptoreye.png",
 		[EFST_IDs.EFST_RAPTORBLINDNESS] = "efst_raptorblindness.png",
+		[EFST_IDs.EFST_MARTYRDOM1] = "efst_martyrdom1.png",
+		[EFST_IDs.EFST_MARTYRDOM2] = "efst_martyrdom2.png",
+		[EFST_IDs.EFST_MARTYRDOM3] = "efst_martyrdom3.png",
 	},
 	[PRIORITY_GREEN] = {
 		[EFST_IDs.EFST_CONVERGENCE] = "efst_convergence.tga",

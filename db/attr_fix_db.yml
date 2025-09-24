@@ -1,0 +1,180 @@
+# This file is a part of rAthena.
+#   Copyright(C) 2021 rAthena Development Team
+#   https://rathena.org - https://github.com/rathena
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+#
+###########################################################################
+# Elemental Attribute Damage Adjustment Tables
+###########################################################################
+#
+# Elemental Attribute Damage Adjustment Settings
+#
+###########################################################################
+# - Level                        Level of the Attribute.
+#   <element>:                   Attacker's weapon element.
+#       <element>: <value>       Target's defense element. <value> in %, default 100. Value accepted from -100 to 200.
+###########################################################################
+
+Header:
+  Type: ATTRIBUTE_DB
+  Version: 1
+
+Body:
+  - Level: 1
+    Neutral:
+      Neutral: 100
+      Water: 100
+      Earth: 100
+      Fire: 100
+      Wind: 100
+      Holy: 100
+      Dark: 100
+      Ghost: 25
+    Water:
+      Neutral: 100
+      Water: 0
+      Earth: 100
+      Fire: 125
+      Wind: 75
+      Holy: 75
+      Dark: 100
+      Ghost: 100
+    Earth:
+      Neutral: 100
+      Water: 100
+      Earth: 50
+      Fire: 75
+      Wind: 125
+      Holy: 75
+      Dark: 100
+      Ghost: 75
+    Fire:
+      Neutral: 100
+      Water: 50
+      Earth: 125
+      Fire: 0
+      Wind: 100
+      Holy: 75
+      Dark: 100
+      Ghost: 100
+    Wind:
+      Neutral: 100
+      Water: 125
+      Earth: 75
+      Fire: 100
+      Wind: 0
+      Holy: 75
+      Dark: 100
+      Ghost: 100
+    Holy:
+      Neutral: 100
+      Water: 100
+      Earth: 100
+      Fire: 100
+      Wind: 100
+      Holy: 0
+      Dark: 125
+      Ghost: 125
+    Dark:
+      Neutral: 100
+      Water: 100
+      Earth: 100
+      Fire: 100
+      Wind: 100
+      Holy: 125
+      Dark: 0
+      Ghost: 25
+    Ghost:
+      Neutral: 25
+      Water: 100
+      Earth: 100
+      Fire: 100
+      Wind: 100
+      Holy: 50
+      Dark: 50
+      Ghost: 150
+  - Level: 2
+    Neutral:
+      Neutral: 100
+      Water: 100
+      Earth: 75
+      Fire: 100
+      Wind: 100
+      Holy: 100
+      Dark: 100
+      Ghost: 0
+    Water:
+      Neutral: 100
+      Water: -50
+      Earth: 100
+      Fire: 150
+      Wind: 50
+      Holy: 50
+      Dark: 75
+      Ghost: 100
+    Earth:
+      Neutral: 100
+      Water: 100
+      Earth: 25
+      Fire: 50
+      Wind: 150
+      Holy: 50
+      Dark: 75
+      Ghost: 25
+    Fire:
+      Neutral: 100
+      Water: 0
+      Earth: 150
+      Fire: -50
+      Wind: 100
+      Holy: 50
+      Dark: 75
+      Ghost: 100
+    Wind:
+      Neutral: 100
+      Water: 150
+      Earth: 50
+      Fire: 100
+      Wind: -50
+      Holy: 50
+      Dark: 75
+      Ghost: 100
+    Holy:
+      Neutral: 100
+      Water: 75
+      Earth: 75
+      Fire: 75
+      Wind: 75
+      Holy: -50
+      Dark: 150
+      Ghost: 150
+    Dark:
+      Neutral: 100
+      Water: 75
+      Earth: 75
+      Fire: 75
+      Wind: 75
+      Holy: 150
+      Dark: -50
+      Ghost: 0
+    Ghost:
+      Neutral: 25
+      Water: 100
+      Earth: 100
+      Fire: 100
+      Wind: 100
+      Holy: 25
+      Dark: 25
+      Ghost: 200

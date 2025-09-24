@@ -1,0 +1,1553 @@
+Header:
+  Type: RANDOM_OPTION_DB
+  Version: 1
+Body:
+- Id: 20000
+  FriendlyName: T2 Test Ropt V2
+  Option: T2_TEST_ROPT_V2
+  Transferable: true
+  Stackable: true
+  Description: '[T2 Test Ropt]'
+  Done: true
+  Script: |-
+    ;
+- Id: 20001
+  FriendlyName: KN_BOWLINGBASH damage vs Bleeding
+  Option: KN_BOWLINGBASH_DAMAGE_VS_BLEEDING
+  Transferable: false
+  Stackable: true
+  Description: Bowling Bash damage vs Bleeding +%d%% (*)
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Bleeding,KN_BOWLINGBASH,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+  - Core Skill
+  - KN_BOWLINGBASH
+  - Knight
+- Id: 20002
+  FriendlyName: KN_BOWLINGBASH kills grant Power Boom
+  Option: KN_BOWLINGBASH_KILLS_GRANT_POWER_BOOM
+  Transferable: true
+  Stackable: true
+  Description: '[Killing an enemy with Bowling Bash grants Power Boom +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bStatusOnSkillKill,KN_BOWLINGBASH,SC_POWERBOOM,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - KN_BOWLINGBASH
+- Id: 20003
+  FriendlyName: SM_BASH autospells KN_BOWLINGBASH on Crit
+  Option: SM_BASH_AUTOSPELLS_KN_BOWLINGBASH_ON_CRIT
+  Transferable: true
+  Stackable: false
+  Description: '[When Bash crits, it autospells Bowling Bash at known level.]'
+  Done: true
+  Script: |-
+    .@lvl = max(1,getskilllv(KN_BOWLINGBASH));
+    bonus4 bAutoSpellOnSkillCrit,SM_BASH,KN_BOWLINGBASH,.@lvl,1000;
+  Labels:
+  - KN_BOWLINGBASH
+- Id: 20004
+  FriendlyName: KN_BOWLINGBASH damage vs Stun
+  Option: KN_BOWLINGBASH_DAMAGE_VS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Bowling Bash damage vs Stun +%d%% (*)
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Stun,KN_BOWLINGBASH,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+  - Core Skill
+  - KN_BOWLINGBASH
+  - Knight
+- Id: 20005
+  FriendlyName: KN_BOWLINGBASH propagates status effects
+  Option: KN_BOWLINGBASH_PROPAGATES_STATUS_EFFECTS
+  Transferable: true
+  Stackable: false
+  Description: "[Bowling Bash's target propagates negative status effects through the chain.]"
+  Done: true
+  Script: |-
+    bonus bBowlingBashPropagation,1;
+  Labels:
+  - Core Skill
+  - Knight
+- Id: 20006
+  FriendlyName: KN_BOWLINGBASH AutoSpells SM_MAGNUM
+  Option: KN_BOWLINGBASH_AUTOSPELLS_SM_MAGNUM
+  Transferable: true
+  Stackable: true
+  Description: '[Bowling Bash autospells proxy Magnum Break on target +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bBowlingMagnum,getrandomoptinfo(ROA_VALUE),getskilllv(SM_MAGNUM);
+  Labels:
+  - Core Skill
+  - KN_BOWLINGBASH
+  - Knight
+- Id: 20007
+  FriendlyName: WZ_METEOR Duration / Meteor interval
+  Option: WZ_METEOR_DURATION__METEOR_INTERVAL
+  Transferable: true
+  Stackable: false
+  Description: '[Meteor Storm duration -%d%%. Meteor interval -%d%%.]'
+  Done: true
+  Script: |-
+    bonus bMeteorDuration,-(ropt(ROA_VALUE));
+    bonus bMeteorWaveTime,ropt(ROA_PARAM);
+- Id: 20008
+  FriendlyName: WZ_METEOR AutoSpells WZ_FIREPILLAR in center
+  Option: WZ_METEOR_AUTOSPELLS_WZ_FIREPILLAR_IN_CENTER
+  Transferable: true
+  Stackable: false
+  Description: '[Meteor Storm autospells known Fire Pillar in center.]'
+  Done: true
+  Script: |-
+    bonus bMeteorFirepillarInCenter,1;
+- Id: 20009
+  FriendlyName: WZ_METEOR inflicts Heat
+  Option: WZ_METEOR_INFLICTS_HEAT
+  Transferable: true
+  Stackable: false
+  Description: '[Meteor Storm inflicts Heat +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,WZ_METEOR,Eff_Heat,getrandomoptinfo(ROA_VALUE);
+- Id: 20010
+  FriendlyName: WZ_FIREPILLAR inflicts Heat & Active instances
+  Option: WZ_FIREPILLAR_INFLICTS_HEAT__ACTIVE_INSTANCES
+  Transferable: false
+  Stackable: true
+  Description: Fire Pillar inflicts Heat per hit +%d%% / active instances +%d
+  Done: true
+  Script: |-
+    bonus bFirePillarHeatPerHit,ropt(ROA_VALUE);
+    bonus2 bActiveInstances,WZ_FIREPILLAR,ropt(ROA_PARAM);
+- Id: 20011
+  FriendlyName: WZ_HEAVENDRIVE AutoSpells WZ_EARTHSPIKE
+  Option: WZ_HEAVENDRIVE_AUTOSPELLS_WZ_EARTHSPIKE
+  Transferable: true
+  Stackable: true
+  Description: "[Heaven's Drive autospells Lv%d Earth Spike / Heaven's Drive SP Cost +%d%%]"
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkillDelay,WZ_HEAVENDRIVE,RGX_EARTHSPIKEINVISIBLE,ropt(ROA_VALUE),1000,20;
+    bonus2 bSkillUseSPrate,WZ_HEAVENDRIVE,-(ropt(ROA_PARAM));
+- Id: 20012
+  FriendlyName: WZ_EARTHSPIKE AutoSpells Stone Curse
+  Option: WZ_EARTHSPIKE_AUTOSPELLS_STONE_CURSE
+  Transferable: true
+  Stackable: true
+  Description: '[Earth Spike autospells known Stone Curse +%d%%]'
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkillDelay,WZ_EARTHSPIKE,MG_STONECURSE,getskilllv(MG_STONECURSE),getrandomoptinfo(ROA_VALUE)*10,55;
+    bonus5 bAutoSpellOnSkillDelay,RGX_EARTHSPIKEINVISIBLE,MG_STONECURSE,getskilllv(MG_STONECURSE),getrandomoptinfo(ROA_VALUE)*10,55;
+- Id: 20013
+  FriendlyName: WZ_HEAVENDRIVE damage vs Slowed
+  Option: WZ_HEAVENDRIVE_DAMAGE_VS_SLOWED
+  Transferable: false
+  Stackable: true
+  Description: Heaven's Drive damage vs Slowed targets +%d%%(WIP)
+  Done: false
+  Script: |-
+    bonus bHeavendriveDamageVsSlowed,ropt(ROA_VALUE);
+    // this probably needs a better implementation
+- Id: 20014
+  FriendlyName: WZ_METEOR inflicts Heat & Stun chance
+  Option: WZ_METEOR_INFLICTS_HEAT__STUN_CHANCE
+  Transferable: false
+  Stackable: true
+  Description: Meteor Storm inflicts Heat +%d%% (+) / Meteor Storm Stun chance +%d%% (*)
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,WZ_METEOR,Eff_Heat,ropt(ROA_VALUE);
+    bonus bMeteorStormStunChance,ropt(ROA_PARAM);
+- Id: 20015
+  FriendlyName: WZ_EARTHSPIKE AutoSpells Stone Curse & SP Cost
+  Option: WZ_EARTHSPIKE_AUTOSPELLS_STONE_CURSE__SP_COST
+  Transferable: false
+  Stackable: true
+  Description: Earth Spike autospells known Stone Curse +%d%% / Earth Spike SP cost +%d%%
+  Done: true
+  Script: |-
+    .@lvl = getskilllv(MG_STONECURSE);
+    bonus5 bAutoSpellOnSkillDelay,WZ_EARTHSPIKE,MG_STONECURSE,.@lvl,ropt(ROA_VALUE)*10,55;
+    bonus2 bSkillUseSPrate,WZ_EARTHSPIKE,-(ropt(ROA_PARAM));
+    bonus5 bAutoSpellOnSkillDelay,RGX_EARTHSPIKEINVISIBLE,MG_STONECURSE,.@lvl,ropt(ROA_VALUE)*10,55;
+    bonus2 bSkillUseSPrate,RGX_EARTHSPIKEINVISIBLE,-(ropt(ROA_PARAM));
+- Id: 20016
+  FriendlyName: WZ_HEAVENDRIVE Recasts at LvX
+  Option: WZ_HEAVENDRIVE_RECASTS_AT_LVX
+  Transferable: false
+  Stackable: true
+  Description: Heaven's Drive recasts at Lv%d +%d%%
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkillRecast,WZ_HEAVENDRIVE,WZ_HEAVENDRIVE,ropt(ROA_VALUE),ropt(ROA_PARAM)*10,1;
+- Id: 20017
+  FriendlyName: MG_FIREWALL autospells WZ_FIREPILLAR / SP cost +X%
+  Option: MG_FIREWALL_AUTOSPELLS_WZ_FIREPILLAR__SP_COST_X
+  Transferable: true
+  Stackable: true
+  Description: '[Fire Wall autospells Fire Pillar at half known level. Fire Wall costs +%d%% SP.]'
+  Done: true
+  Script: |-
+    .@lvl = getskilllv(WZ_FIREPILLAR);
+    if (.@lvl > 1) {
+      .@lvl /= 2;
+    }
+    bonus5 bAutoSpellOnSkillDelay,MG_FIREWALL,WZ_FIREPILLAR,.@lvl,1000,32;
+    bonus2 bSkillUseSPrate,MG_FIREWALL,-(ropt(ROA_VALUE));
+- Id: 20018
+  FriendlyName: MG_FIREBOLT & WZ_EARTHSPIKE levels
+  Option: MG_FIREBOLT__WZ_EARTHSPIKE_LEVELS
+  Transferable: false
+  Stackable: true
+  Description: Fire Bolt level +%d / Earth Spike Lv +%d
+  Done: true
+  Script: |-
+    addtoskill(MG_FIREBOLT,ropt(ROA_VALUE),2);
+    addtoskill(WZ_EARTHSPIKE,ropt(ROA_PARAM),2);
+- Id: 20019
+  FriendlyName: WZ_EARTHSPIKE damage vs Heat & SP cost reduce
+  Option: WZ_EARTHSPIKE_DAMAGE_VS_HEAT__SP_COST_REDUCE
+  Transferable: true
+  Stackable: true
+  Description: '[Earth Spike damage vs Heat +%d%% / SP cost -%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Heat,WZ_EARTHSPIKE,getrandomoptinfo(ROA_VALUE);
+    bonus3 bEffSkillMod,Eff_Heat,RGX_EARTHSPIKEINVISIBLE,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSkillUseSPrate,WZ_EARTHSPIKE,getrandomoptinfo(ROA_PARAM);
+    bonus2 bSkillUseSPrate,RGX_EARTHSPIKEINVISIBLE,getrandomoptinfo(ROA_PARAM);
+- Id: 20020
+  FriendlyName: AS_VENOMKNIFE Autospells PR_LEXAETERNA
+  Option: AS_VENOMKNIFE_AUTOSPELLS_PR_LEXAETERNA
+  Transferable: true
+  Stackable: false
+  Description: '[Throw Venom Knife auto spells Lex Aeterna on target, but gains a 2.5s cooldown.]'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,AS_VENOMKNIFE,PR_LEXAETERNA,1,1000;
+    bonus2 bSkillCooldown,AS_VENOMKNIFE,2500;
+  Labels:
+  - Assassin
+- Id: 20021
+  FriendlyName: AS_VENOMKNIFE Allow Crit + Crit
+  Option: AS_VENOMKNIFE_ALLOW_CRIT__CRIT
+  Transferable: true
+  Stackable: true
+  Description: '[Throw Venom Knife can Crit. Crit +%d]'
+  Done: true
+  Script: |-
+    bonus bSkillCrit,AS_VENOMKNIFE;
+    bonus bCritical,getrandomoptinfo(ROA_VALUE);
+- Id: 20022
+  FriendlyName: AS_SPLASHER Detonation timer
+  Option: AS_SPLASHER_DETONATION_TIMER
+  Transferable: true
+  Stackable: false
+  Description: '[Venom Splasher detonation timer -%d%%.]'
+  Done: true
+  Script: |-
+    bonus bSplasherDuration,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Assassin
+  - Core Skill
+- Id: 20023
+  FriendlyName: AS_SPLASHER Spreads via Dpoison
+  Option: AS_SPLASHER_SPREADS_VIA_DPOISON
+  Transferable: true
+  Stackable: true
+  Description: '[Venom Splasher detonations have a %d%% chance to place a Venom Splasher on Deadly Poisoned targets.]'
+  Done: true
+  Script: |-
+    bonus bSplasherDPoisonSpread,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Assassin
+  - Core Skill
+- Id: 20024
+  FriendlyName: AS_VENOMKNIFE Damage & Bleeding
+  Option: AS_VENOMKNIFE_DAMAGE__BLEEDING
+  Transferable: false
+  Stackable: true
+  Description: Throw Venom Knife damage +%d%% / Throw Venom Knife inflicts Bleeding +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,AS_VENOMKNIFE,ropt(ROA_VALUE);
+
+    bonus3 bAddEffOnSkill,AS_VENOMKNIFE,Eff_Bleeding,ropt(ROA_PARAM);
+- Id: 20025
+  FriendlyName: AS_VENOMKNIFE inflicts Blind
+  Option: AS_VENOMKNIFE_INFLICTS_BLIND
+  Transferable: true
+  Stackable: true
+  Description: '[Throw Venom Knife inflicts Blind +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,AS_VENOMKNIFE,Eff_Blind,getrandomoptinfo(ROA_VALUE);
+- Id: 20026
+  FriendlyName: AS_SPLASHER Cast time
+  Option: AS_SPLASHER_CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: Venom Splasher cast time -%d%%
+  Done: true
+  Script: |-
+    bonus2 bCastRate,AS_SPLASHER,-(getrandomoptinfo(ROA_VALUE)*10);
+  Labels:
+  - Assassin
+  - Core Skill
+- Id: 20027
+  FriendlyName: AS_ENCHANTPOISON Inc rate/reduce duration
+  Option: AS_ENCHANTPOISON_INC_RATEREDUCE_DURATION
+  Transferable: true
+  Stackable: false
+  Description: '[Enchant Poison inflication rate +%d%% (*). Duration -%d%%.]'
+  Done: true
+  Script: |-
+    bonus bEncPoisonChance,ropt(ROA_VALUE);
+    bonus bEncPoisonDuration,-ropt(ROA_PARAM);
+  Labels:
+  - Assassin
+- Id: 20028
+  FriendlyName: KN_CHARGEATK Autospells Magnum Break / No KB
+  Option: KN_CHARGEATK_AUTOSPELLS_MAGNUM_BREAK__NO_KB
+  Transferable: true
+  Stackable: false
+  Description: '[Charge Attack no longer knocks back. Charge Attack autospells proxy Magnum Break on target, at half known level.]'
+  Done: true
+  Script: |-
+    .@lvl = max(getskilllv(SM_MAGNUM)/2,1);
+    bonus bChargeAtkNoKnockback,1;
+    bonus bChargeAtkProxyMagnum,.@lvl;
+- Id: 20029
+  FriendlyName: AS_SONICBLOW Autospells TF_HIDING
+  Option: AS_SONICBLOW_AUTOSPELLS_TF_HIDING
+  Transferable: true
+  Stackable: false
+  Description: '[Sonic Blow autospells known Hiding after a short delay.]'
+  Done: true
+  Script: |-
+    bonus bSonicBlowHiding,ropt(ROA_VALUE);
+- Id: 20030
+  FriendlyName: AS_SONICBLOW Allow Crit + Crit
+  Option: AS_SONICBLOW_ALLOW_CRIT__CRIT
+  Transferable: true
+  Stackable: true
+  Description: '[Sonic Blow can Crit. Crit +%d (+)]'
+  Done: true
+  Script: |-
+    bonus bSkillCrit,AS_SONICBLOW;
+    bonus bCritical,ropt(ROA_VALUE);
+  Labels:
+  - Assassin
+  - Core Skill
+- Id: 20031
+  FriendlyName: AS_SONICBLOW inflicts Stun
+  Option: AS_SONICBLOW_INFLICTS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Sonic Blow inflicts Stun +%d%% (+)
+  Done: true
+  Script: |-
+    bonus bSonicBlowAddStun,ropt(ROA_VALUE);
+- Id: 20032
+  FriendlyName: AS_SONICBLOW inflicts SC_SPINNING
+  Option: AS_SONICBLOW_INFLICTS_SC_SPINNING
+  Transferable: true
+  Stackable: false
+  Description: '[Sonic Blow inflicts Spinning for +%d seconds.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20033
+  FriendlyName: AS_SONICBLOW vs unharmed targets
+  Option: AS_SONICBLOW_VS_UNHARMED_TARGETS
+  Transferable: true
+  Stackable: false
+  Description: '[Sonic Blow damage +%d%% vs unharmed targets (*).]'
+  Done: true
+  Script: |-
+    bonus bSonicBlowUnharmed,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Assassin
+  - Core Skill
+- Id: 20034
+  FriendlyName: AS_SONICBLOW & AS_GRIMTOOTH Accuracy
+  Option: AS_SONICBLOW__AS_GRIMTOOTH_ACCURACY
+  Transferable: false
+  Stackable: true
+  Description: Sonic Blow & Grimtooth accuracy +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAccuracy,AS_SONICBLOW,ropt(ROA_VALUE);
+    bonus2 bSkillAccuracy,AS_GRIMTOOTH,ropt(ROA_VALUE);
+- Id: 20035
+  FriendlyName: AS_SONICBLOW damage vs Bleeding
+  Option: AS_SONICBLOW_DAMAGE_VS_BLEEDING
+  Transferable: false
+  Stackable: true
+  Description: Sonic Blow damage vs Bleeding +%d%% (*)
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Bleeding,AS_SONICBLOW,ropt(ROA_VALUE);
+- Id: 20036
+  FriendlyName: AS_GRIMTOOTH Spreads Poison/Bleed
+  Option: AS_GRIMTOOTH_SPREADS_POISONBLEED
+  Transferable: true
+  Stackable: false
+  Description: '[Grimtooth spreads Poison/Bleeding +%d%%.]'
+  Done: true
+  Script: |-
+    bonus bGrimtoothPoisonSpread,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Assassin
+  - Core Skill
+- Id: 20037
+  FriendlyName: BS_MAXIMIZE Increases Crit by HIT
+  Option: BS_MAXIMIZE_INCREASES_CRIT_BY_HIT
+  Transferable: true
+  Stackable: false
+  Description: '[Your Power Maximize increases Crit by +%d%% of your HIT (*).](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20038
+  FriendlyName: AS_GRIMTOOTH inflicts Bleeding
+  Option: AS_GRIMTOOTH_INFLICTS_BLEEDING
+  Transferable: true
+  Stackable: true
+  Description: '[Grimtooth inflicts Bleeding +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,AS_GRIMTOOTH,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+- Id: 20039
+  FriendlyName: AS_SONICBLOW inflicts CWounds vs Bleeding
+  Option: AS_SONICBLOW_INFLICTS_CWOUNDS_VS_BLEEDING
+  Transferable: true
+  Stackable: false
+  Description: '[Sonic Blow inflicts mini Critical Wounds on Bleeding targets.]'
+  Done: true
+  Script: |-
+    bonus3 bSkillInflictScOnSc,AS_SONICBLOW,SC_CRITICALWOUND_MINI,SC_BLEEDING;
+- Id: 20040
+  FriendlyName: AS_GRIMTOOTH Allow Crit + Crit
+  Option: AS_GRIMTOOTH_ALLOW_CRIT__CRIT
+  Transferable: true
+  Stackable: true
+  Description: '[Grimtooth can Crit. Crit +%d (+)]'
+  Done: true
+  Script: |-
+    bonus bSkillCrit,AS_GRIMTOOTH;
+    bonus bCritical,ropt(ROA_VALUE);
+  Labels:
+  - Assassin
+  - Core Skill
+- Id: 20041
+  FriendlyName: KN_BRANDISHSPEAR inflicts Bleeding
+  Option: KN_BRANDISHSPEAR_INFLICTS_BLEEDING
+  Transferable: false
+  Stackable: true
+  Description: Brandish Spear inflicts Bleeding +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,KN_BRANDISHSPEAR,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+  - Core Skill
+  - Knight
+- Id: 20042
+  FriendlyName: KN_BRANDISHSPEAR Damage dropoff vs Bleed/CritWounds
+  Option: KN_BRANDISHSPEAR_DAMAGE_DROPOFF_VS_BLEEDCRITWOUNDS
+  Transferable: true
+  Stackable: false
+  Description: '[Brandish Spear has no distance based damage drop off against Bleeding or Critically Wounded targets.]'
+  Done: true
+  Script: |-
+    bonus bBrandishDropoffVsBleedCritWounds,1;
+- Id: 20043
+  FriendlyName: KN_BRANDISHSPEAR Allow Crit + Crit
+  Option: KN_BRANDISHSPEAR_ALLOW_CRIT__CRIT
+  Transferable: true
+  Stackable: true
+  Description: '[Brandish Spear can Crit. Crit +%d]'
+  Done: true
+  Script: |-
+    bonus bSkillCrit,KN_BRANDISHSPEAR;
+    bonus bCritical,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+  - Core Skill
+  - Knight
+- Id: 20044
+  FriendlyName: KN_BRANDISHSPEAR gives Fortified stack on kill
+  Option: KN_BRANDISHSPEAR_GIVES_FORTIFIED_STACK_ON_KILL
+  Transferable: true
+  Stackable: true
+  Description: '[Gain a Fortified stack when Brandish Spear kills an enemy +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bStatusOnSkillKill,KN_BRANDISHSPEAR,SC_FORTIFIED1,ropt(ROA_VALUE);
+- Id: 20045
+  FriendlyName: KN_SPEARSTAB & KN_PIERCE inflict Bleeding
+  Option: KN_SPEARSTAB__KN_PIERCE_INFLICT_BLEEDING
+  Transferable: false
+  Stackable: true
+  Description: Spear Stab & Pierce inflict Bleeding +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,KN_SPEARSTAB,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+    bonus3 bAddEffOnSkill,KN_PIERCE,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Knight
+- Id: 20046
+  FriendlyName: KN_SPEARBOOMERANG Crit + Critical Wounds
+  Option: KN_SPEARBOOMERANG_CRIT__CRITICAL_WOUNDS
+  Transferable: true
+  Stackable: false
+  Description: '[Spear Boomerang can Crit. Spear Boomerang applies Strike Mark +%d%%](WIP)'
+  Done: false
+  Script: |-
+    bonus bSkillCrit,KN_SPEARBOOMERANG;
+- Id: 20047
+  FriendlyName: KN_BRANDISHSPEAR Spear Weight ATK
+  Option: KN_BRANDISHSPEAR_SPEAR_WEIGHT_ATK
+  Transferable: true
+  Stackable: false
+  Description: "[Brandish Spear ATK increases by +%d%% of your spear's weight per skill level.]"
+  Done: true
+  Script: |-
+    bonus2 bSpearWeightSkill,KN_BRANDISHSPEAR,ropt(ROA_VALUE);
+- Id: 20048
+  FriendlyName: KN_SPEARSTAB Applies Strike Mark
+  Option: KN_SPEARSTAB_APPLIES_STRIKE_MARK
+  Transferable: true
+  Stackable: true
+  Description: '[Spear Stab applies Strike Mark +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,KN_SPEARSTAB,SC_STRIKEMARK,ropt(ROA_VALUE);
+- Id: 20049
+  FriendlyName: KN_BRANDISHSPEAR inflicts Critical Wounds vs Strike Mark Lv3
+  Option: KN_BRANDISHSPEAR_INFLICTS_CRITICAL_WOUNDS_VS_STRIKE_MARK_LV3
+  Transferable: true
+  Stackable: false
+  Description: '[Brandish Spear inflicts Critical Wounds on Strike Lv3.]'
+  Done: true
+  Script: |-
+    bonus3 bStrikeStatusInflict,KN_BRANDISHSPEAR,SC_CRITICALWOUND,3;
+- Id: 20050
+  FriendlyName: MO_INVESTIGATE inflicts Stun per Sphere
+  Option: MO_INVESTIGATE_INFLICTS_STUN_PER_SPHERE
+  Transferable: true
+  Stackable: false
+  Description: '[Investigate inflicts Stun +%d%% for each Spirit Sphere you had on cast.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20051
+  FriendlyName: MO_EXTREMITYFIST consumes Stun
+  Option: MO_EXTREMITYFIST_CONSUMES_STUN
+  Transferable: true
+  Stackable: false
+  Description: '[Asura Strike consumes Stun on its target, dealing +%d%% damage for each 0.%d seconds of Stun remaining.]'
+  Done: true
+  Script: |-
+    bonus4 bSkillConsumeEffMod,MO_EXTREMITYFIST,SC_STUN,ropt(ROA_VALUE),ropt(ROA_PARAM)*100;
+- Id: 20052
+  FriendlyName: MO_TRIPLEATTACK inflicts Stun
+  Option: MO_TRIPLEATTACK_INFLICTS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Triple Attacks inflict Stun +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MO_TRIPLEATTACK,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+- Id: 20053
+  FriendlyName: MO_EXTREMITYFIST Allow Crit + Stun
+  Option: MO_EXTREMITYFIST_ALLOW_CRIT__STUN
+  Transferable: true
+  Stackable: false
+  Description: '[Asura Strike can Crit. When it does, inflict an unavoidable Stun on target.](WIP)'
+  Done: false
+  Script: |
+    bonus bSkillCrit,MO_EXTREMITYFIST;
+- Id: 20054
+  FriendlyName: MO_INVESTIGATE Allow Crit + Micro Stun
+  Option: MO_INVESTIGATE_ALLOW_CRIT__MICRO_STUN
+  Transferable: true
+  Stackable: false
+  Description: '[Investigate can Crit. When it does, inflict an unavoidable Micro Stun on target.](WIP)'
+  Done: false
+  Script: |
+    bonus bSkillCrit,MO_INVESTIGATE;
+- Id: 20055
+  FriendlyName: MO_INVESTIGATE consumes Stun
+  Option: MO_INVESTIGATE_CONSUMES_STUN
+  Transferable: true
+  Stackable: false
+  Description: '[Investigate consumes Stun on its target, dealing +%d%% damage for each 0.%d seconds of Stun remaining.]'
+  Done: true
+  Script: |-
+    bonus4 bSkillConsumeEffMod,MO_EXTREMITYFIST,SC_STUN,ropt(ROA_VALUE),ropt(ROA_PARAM)*100;
+- Id: 20056
+  FriendlyName: MO_CALLSPIRITS Repeat cast time
+  Option: MO_CALLSPIRITS_REPEAT_CAST_TIME
+  Transferable: true
+  Stackable: false
+  Description: '[Immediately recasting Call Spirits reduces its cast time by %d%%.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20057
+  FriendlyName: AS_GRIMTOOTH & AS_SONICBLOW Allow Crit
+  Option: AS_GRIMTOOTH__AS_SONICBLOW_ALLOW_CRIT
+  Transferable: true
+  Stackable: false
+  Description: '[Grimtooth can Crit. Sonic Blow can Crit.]'
+  Done: true
+  Script: |-
+    bonus bSkillCrit,AS_GRIMTOOTH;
+    bonus bSkillCrit,AS_SONICBLOW;
+  Labels:
+  - Assassin
+  - Core Skill
+- Id: 20058
+  FriendlyName: AS_GRIMTOOTH Life Leech on Kill
+  Option: AS_GRIMTOOTH_LIFE_LEECH_ON_KILL
+  Transferable: false
+  Stackable: true
+  Description: Grimtooth gives +%d%% Life Leech on kill
+  Done: true
+  Script: |-
+    bonus2 bLifeLeechSkillKill,AS_GRIMTOOTH,getrandomoptinfo(ROA_VALUE);
+- Id: 20059
+  FriendlyName: AS_GRIMTOOTH inflicts Stun
+  Option: AS_GRIMTOOTH_INFLICTS_STUN
+  Transferable: true
+  Stackable: true
+  Description: '[Grimtooth inflicts Stun +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,AS_GRIMTOOTH,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+- Id: 20060
+  FriendlyName: AS_GRIMTOOTH damage vs Bleeding
+  Option: AS_GRIMTOOTH_DAMAGE_VS_BLEEDING
+  Transferable: false
+  Stackable: true
+  Description: Grimtooth damage vs Bleeding +%d%% (*)
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Bleeding,AS_GRIMTOOTH,getrandomoptinfo(ROA_VALUE);
+- Id: 20061
+  FriendlyName: AS_GRIMTOOTH damage vs Poison
+  Option: AS_GRIMTOOTH_DAMAGE_VS_POISON
+  Transferable: false
+  Stackable: true
+  Description: Grimtooth damage vs Poisoned +%d%% (*)
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Poison,AS_GRIMTOOTH,getrandomoptinfo(ROA_VALUE);
+    bonus3 bEffSkillMod,Eff_DPoison,AS_GRIMTOOTH,getrandomoptinfo(ROA_VALUE);
+- Id: 20062
+  FriendlyName: AS_GRIMTOOTH AutoSpells AS_SPLASHER
+  Option: AS_GRIMTOOTH_AUTOSPELLS_AS_SPLASHER
+  Transferable: true
+  Stackable: true
+  Description: '[Grimtooth autospells known Venom Splasher +%d%%]'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,AS_GRIMTOOTH,AS_SPLASHER,getskilllv(AS_SPLASHER),getrandomoptinfo(ROA_VALUE)*10;
+- Id: 20063
+  FriendlyName: RG_BACKSTAP Allow Double Attack & DA ATK
+  Option: RG_BACKSTAP_ALLOW_DOUBLE_ATTACK__DA_ATK
+  Transferable: true
+  Stackable: true
+  Description: '[Backstab can Double Attack. Double Attack ATK +%d%% (*)]'
+  Done: true
+  Script: |-
+    bonus bDoubleAttackSkill,RG_BACKSTAP;
+    bonus bDoubleAttackAtkRate,getrandomoptinfo(ROA_VALUE);
+- Id: 20064
+  FriendlyName: KN_CHARGEATK Allow Double Attack
+  Option: KN_CHARGEATK_ALLOW_DOUBLE_ATTACK
+  Transferable: true
+  Stackable: false
+  Description: '[Charge Attack can Double Attack.]'
+  Done: true
+  Script: |-
+    bonus bDoubleAttackSkill,KN_CHARGEATK;
+- Id: 20065
+  FriendlyName: KN_CHARGEATK No Knockback & AutoSpells RG_CLOSECONFINE
+  Option: KN_CHARGEATK_NO_KNOCKBACK__AUTOSPELLS_RG_CLOSECONFINE
+  Transferable: true
+  Stackable: false
+  Description: '[Charge Attack no longer knocks back. Charge Attack auto spells Close Confine on enemys hit.]'
+  Done: true
+  Script: |-
+    bonus2 bAddSkillBlow,KN_CHARGEATK,-99;
+    bonus4 bAutoSpellOnSkillMotion,KN_CHARGEATK,RG_CLOSECONFINE,1,1000;
+- Id: 20066
+  FriendlyName: RG_BACKSTAP Works vs Blind / Cures blind
+  Option: RG_BACKSTAP_WORKS_VS_BLIND__CURES_BLIND
+  Transferable: true
+  Stackable: false
+  Description: '[Blinded enemies can always be Backstabbed. Backstab has a %d%% chance to cure Blind.]'
+  Done: true
+  Script: |-
+    bonus bBackstapWorksVsBlind,1;
+    bonus bBackstapCuresBlind,ropt(ROA_VALUE);
+- Id: 20067
+  FriendlyName: AS_VENOMKNIFE Allow Double Attack & inflicts Blind
+  Option: AS_VENOMKNIFE_ALLOW_DOUBLE_ATTACK__INFLICTS_BLIND
+  Transferable: true
+  Stackable: true
+  Description: '[Throw Venom Knife can Double Attack. Throw Venom Kinife inflicts Blind +%d%%]'
+  Done: true
+  Script: |-
+    bonus bDoubleAttackSkill,AS_VENOMKNIFE;
+    bonus3 bAddEffOnSkill,AS_VENOMKNIFE,Eff_Blind,getrandomoptinfo(ROA_VALUE);
+- Id: 20068
+  FriendlyName: RG_CLOSECONFINE Damage + inflicts Bind
+  Option: RG_CLOSECONFINE_DAMAGE__INFLICTS_BIND
+  Transferable: true
+  Stackable: true
+  Description: '[Successful Close Confine deals a weapon attack with +%d%% chance to inflict Blind]'
+  Done: true
+  Script: |-
+    bonus bCloseconfineDamage,getrandomoptinfo(ROA_VALUE);
+    bonus3 bAddEffOnSkill,RG_CLOSECONFINE,Eff_Blind,getrandomoptinfo(ROA_VALUE);
+- Id: 20069
+  FriendlyName: AS_SPLASHER Detonation timer & Cast time
+  Option: AS_SPLASHER_DETONATION_TIMER__CAST_TIME
+  Transferable: true
+  Stackable: false
+  Description: '[Venom Splasher detonation timer -%d%%. Venom Splash cast time -%d%%]'
+  Done: true
+  Script: |-
+    bonus bSplasherDuration,getrandomoptinfo(ROA_VALUE);
+    bonus2 bCastRate,AS_SPLASHER,-(getrandomoptinfo(ROA_PARAM)*10);
+  Labels:
+  - Assassin
+  - Core Skill
+- Id: 20070
+  FriendlyName: AS_SONICBLOW damage vs Poison
+  Option: AS_SONICBLOW_DAMAGE_VS_POISON
+  Transferable: false
+  Stackable: true
+  Description: Sonic Blow damage vs Poison +%d%% (*)
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Poison,AS_SONICBLOW,ropt(ROA_VALUE);
+    bonus3 bEffSkillMod,Eff_DPoison,AS_SONICBLOW,ropt(ROA_VALUE);
+- Id: 20071
+  FriendlyName: AS_GRIMTOOTH inflicts Poison
+  Option: AS_GRIMTOOTH_INFLICTS_POISON
+  Transferable: true
+  Stackable: true
+  Description: '[Grimtooth inflicts Poison +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,AS_GRIMTOOTH,Eff_Poison,getrandomoptinfo(ROA_VALUE);
+- Id: 20072
+  FriendlyName: KN_SPEARSTAB inflicts Stun
+  Option: KN_SPEARSTAB_INFLICTS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Spear Stab inflicts Stun +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,KN_SPEARSTAB,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Knight
+- Id: 20073
+  FriendlyName: RG_GANK inflicts Poison/Blind/Bleeding & 100% Double Attack
+  Option: RG_GANK_INFLICTS_POISONBLINDBLEEDING__100_DOUBLE_ATTACK
+  Transferable: true
+  Stackable: false
+  Description: '[When you Gank an enemy, inflict one of Poison, Bleeding, or Blind, then gain +100% Double Attack for your next hit.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20074
+  FriendlyName: KN_SPEARSTAB Spear Weight ATK
+  Option: KN_SPEARSTAB_SPEAR_WEIGHT_ATK
+  Transferable: true
+  Stackable: false
+  Description: "[Spear Stab ATK increases by +%d%% of your spear's weight per skill level.]"
+  Done: true
+  Script: |-
+    bonus2 bSpearWeightSkill,KN_SPEARSTAB,ropt(ROA_VALUE);
+- Id: 20076
+  FriendlyName: CR_SHIELDBOOMERANG Allow Crit + Stun on Crit
+  Option: CR_SHIELDBOOMERANG_ALLOW_CRIT__STUN_ON_CRIT
+  Transferable: true
+  Stackable: false
+  Description: '[Shield Boomerang can Crit. Shield Boomerang stun chance on Crit +%d%% (+).](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20079
+  FriendlyName: CR_AUTOGUARD AutoSpells CR_SHIELDCHARGE
+  Option: CR_AUTOGUARD_AUTOSPELLS_CR_SHIELDCHARGE
+  Transferable: true
+  Stackable: false
+  Description: '[Auto Guard activations have a +%d%% to auto spell known Shield Charge on attacker.]'
+  Done: true
+  Script: |-
+    bonus bAutoguardAutoSpellsShieldCharge,getrandomoptinfo(ROA_VALUE);
+- Id: 20080
+  FriendlyName: CR_AUTOGUARD Activation rate
+  Option: CR_AUTOGUARD_ACTIVATION_RATE
+  Transferable: false
+  Stackable: true
+  Description: Auto Guard activation rate +%d%% (*)
+  Done: true
+  Script: |-
+    bonus bAutoguardActivationChance,getrandomoptinfo(ROA_VALUE);
+- Id: 20081
+  FriendlyName: CR_SHIELDCHARGE vs Stun
+  Option: CR_SHIELDCHARGE_VS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Shield Charge damage vs Stun +%d%% (*)
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Stun,CR_SHIELDCHARGE,getrandomoptinfo(ROA_VALUE);
+- Id: 20082
+  FriendlyName: RGX_GANK rate (*)
+  Option: RGX_GANK_RATE_
+  Transferable: false
+  Stackable: false
+  Description: Gank rate +%d%% (*)(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20083
+  FriendlyName: RGX_GANK inflicts SC_SPINNING
+  Option: RGX_GANK_INFLICTS_SC_SPINNING
+  Transferable: false
+  Stackable: false
+  Description: Gank attempts inflict Spinning +%d%%(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20084
+  FriendlyName: RGX_GANK triggers MO_TRIPLEATTACK
+  Option: RGX_GANK_TRIGGERS_MO_TRIPLEATTACK
+  Transferable: false
+  Stackable: false
+  Description: Successful Ganks trigger Triple Attack +%d%%(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20085
+  FriendlyName: CR_SHIELDBOOMERANG vs Stun
+  Option: CR_SHIELDBOOMERANG_VS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Shield Boomerang damage vs Stun +%d%% (*)
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Stun,CR_SHIELDBOOMERANG,getrandomoptinfo(ROA_VALUE);
+- Id: 20086
+  FriendlyName: KN_SPEARBOOMERANG Crit + Strike Mark
+  Option: KN_SPEARBOOMERANG_CRIT__STRIKE_MARK
+  Transferable: true
+  Stackable: true
+  Description: '[Spear Boomerang can Crit. Spear Boomerang inflicts Strike Mark +%d%%]'
+  Done: true
+  Script: |-
+    bonus bSkillCrit,KN_SPEARBOOMERANG;
+    bonus3 bAddEffOnSkill,KN_SPEARBOOMERANG,SC_STRIKEMARK,ropt(ROA_VALUE);
+- Id: 20087
+  FriendlyName: KN_SPEARBOOMERANG Power Boom
+  Option: KN_SPEARBOOMERANG_POWER_BOOM
+  Transferable: true
+  Stackable: false
+  Description: '[Spear Boomerang is affected by Power Boom (at any range). Spear Boomerang gives Power Boom on cast +%d%%.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20088
+  FriendlyName: RGX_THROWGEMSTONE Lv1 Frost Nova
+  Option: RGX_THROWGEMSTONE_LV1_FROST_NOVA
+  Transferable: false
+  Stackable: false
+  Description: Lv1 Throw Gemstone proxy casts Frost Nova +%d%%(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20089
+  FriendlyName: RGX_THROWGEMSTONE Lv2 Magnum Break
+  Option: RGX_THROWGEMSTONE_LV2_MAGNUM_BREAK
+  Transferable: false
+  Stackable: false
+  Description: Lv2 Throw Gemstone proxy casts Magnum Break +%d%%(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20090
+  FriendlyName: RGX_THROWGEMSTONE Lv3 Thunder Storm
+  Option: RGX_THROWGEMSTONE_LV3_THUNDER_STORM
+  Transferable: false
+  Stackable: false
+  Description: Lv2 Throw Gemstone proxy casts Thunder Storm +%d%%(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20091
+  FriendlyName: RGX_THROWGEMSTONE AutoSpells Bolts
+  Option: RGX_THROWGEMSTONE_AUTOSPELLS_BOLTS
+  Transferable: true
+  Stackable: false
+  Description: '[Throw Gemstone Lv1/2/3 autospell Lv3-5 Cold Bolt/Fire Bolt/Lightning Bolt +%d%%.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20092
+  FriendlyName: CR_SHIELDCHARGE Rolling Stun Chance
+  Option: CR_SHIELDCHARGE_ROLLING_STUN_CHANCE
+  Transferable: true
+  Stackable: false
+  Description: '[When Shield Charge fails to Stun, it gains a stacking +%d%% chance to Stun (*). Resets after 15 seconds.]'
+  Done: true
+  Script: |-
+    bonus bShieldChargeRollingStun,ropt(ROA_VALUE);
+- Id: 20093
+  FriendlyName: PR_LEXDIVINA no longer cures silence
+  Option: PR_LEXDIVINA_NO_LONGER_CURES_SILENCE
+  Transferable: true
+  Stackable: false
+  Description: '[Lex Divina no longer cures silence.]'
+  Done: true
+  Script: |-
+    bonus bLexDivinaNoSilenceCure,1;
+- Id: 20094
+  FriendlyName: CR_GRANDCROSS Add Hit vs Silenced
+  Option: CR_GRANDCROSS_ADD_HIT_VS_SILENCED
+  Transferable: true
+  Stackable: false
+  Description: '[Grand Cross deals +%d hit to Silenced targets.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20095
+  FriendlyName: CR_GRANDCROSS Add +X Hits vs Silenced
+  Option: CR_GRANDCROSS_ADD_X_HITS_VS_SILENCED
+  Transferable: true
+  Stackable: false
+  Description: '[Grand Cross deals +%d hit to Silenced targets.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20096
+  FriendlyName: PR_TURNUNDEAD rate vs Silenced
+  Option: PR_TURNUNDEAD_RATE_VS_SILENCED
+  Transferable: true
+  Stackable: false
+  Description: '[Turn Undead success rate vs Silenced targets +%d%% (*).](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20097
+  FriendlyName: PR_TURNUNDEAD & AL_HOLYLIGHT Damage
+  Option: PR_TURNUNDEAD__AL_HOLYLIGHT_DAMAGE
+  Transferable: false
+  Stackable: false
+  Description: Holy Light damage +%d%% / Turn Undead damage +%d%%(WIP)
+  Done: false
+  Script: |-
+    bonus2 bSkillAtk,AL_HOLYLIGHT,ropt(ROA_VALUE);
+    bonus2 bSkillAtk,PR_TURNUNDEAD,ropt(ROA_PARAM);
+- Id: 20098
+  FriendlyName: PR_TURNUNDEAD & AL_HOLYLIGHT inflict Silence
+  Option: PR_TURNUNDEAD__AL_HOLYLIGHT_INFLICT_SILENCE
+  Transferable: false
+  Stackable: true
+  Description: Holy Light & Turn Undead inflict Silence +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,AL_HOLYLIGHT,Eff_Silence,ropt(ROA_VALUE);
+    bonus3 bAddEffOnSkill,PR_TURNUNDEAD,Eff_Silence,ropt(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 20099
+  FriendlyName: PR_MAGNUS Waves autospell AL_HOLYLIGHT
+  Option: PR_MAGNUS_WAVES_AUTOSPELL_AL_HOLYLIGHT
+  Transferable: true
+  Stackable: false
+  Description: '[Magnus Exorcismus waves hit enemies with 1 Holy Light.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20100
+  FriendlyName: PR_STRECOVERY cures CWounds
+  Option: PR_STRECOVERY_CURES_CWOUNDS
+  Transferable: true
+  Stackable: false
+  Description: '[Status Recovery cures Critical Wounds.]'
+  Done: true
+  Script: |-
+    bonus bStrRecoveryCritWounds,1;
+- Id: 20102
+  FriendlyName: SA_VIOLENTGALE Shock infliction rates
+  Option: SA_VIOLENTGALE_SHOCK_INFLICTION_RATES
+  Transferable: true
+  Stackable: false
+  Description: '[Your Violent Gale increases Shock infliction rates by +%d%% (*).](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20103
+  FriendlyName: SA_VIOLENTGALE Shock tick damage
+  Option: SA_VIOLENTGALE_SHOCK_TICK_DAMAGE
+  Transferable: true
+  Stackable: false
+  Description: '[Your Violent Gale increases Shock tick damage by +%d%% (*).](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20104
+  FriendlyName: SA_DELUGE Freeze infliction rates
+  Option: SA_DELUGE_FREEZE_INFLICTION_RATES
+  Transferable: true
+  Stackable: false
+  Description: '[Your Deluge increases Freeze infliction rates by +%d%% (*).](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20105
+  FriendlyName: SA_DELUGE Frozen Water 4
+  Option: SA_DELUGE_FROZEN_WATER_4
+  Transferable: true
+  Stackable: false
+  Description: '[Your Deluge converts Frozen units to Water 4.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20106
+  FriendlyName: SA_VOLCANO Heat & Burning damage
+  Option: SA_VOLCANO_HEAT__BURNING_DAMAGE
+  Transferable: true
+  Stackable: false
+  Description: '[Your Volcano increases Heat tick damage by +%d%% (*) & Burning tick damage by +%d%% (*).](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20107
+  FriendlyName: SA_VOLCANO Heat & Burning timer
+  Option: SA_VOLCANO_HEAT__BURNING_TIMER
+  Transferable: true
+  Stackable: false
+  Description: '[Your Volcano increases Heat & Burning timers by +%d%% (*).](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20108
+  FriendlyName: RGX_DEMONSTRATIONEXPLOSION Splash
+  Option: RGX_DEMONSTRATIONEXPLOSION_SPLASH
+  Transferable: false
+  Stackable: false
+  Description: Demonstration Explosion splash cells +%d(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20110
+  FriendlyName: WZ_JUPITEL inflicts Shock
+  Option: WZ_JUPITEL_INFLICTS_SHOCK
+  Transferable: true
+  Stackable: false
+  Description: '[Jupitel Thunder inflicts Shock per hit +%d%% (*, unique).](WIP)'
+  Done: false
+  Script: |-
+    //bonus bTstormShock,ropt(ROA_VALUE);
+- Id: 20111
+  FriendlyName: WZ_FIREPILLAR Hit Count
+  Option: WZ_FIREPILLAR_HIT_COUNT
+  Transferable: false
+  Stackable: false
+  Description: Fire Pillar hits +%d
+  Done: true
+  Script: |-
+    bonus2 bSkillHitCount,WZ_FIREPILLAR,getrandomoptinfo(ROA_VALUE);
+- Id: 20112
+  FriendlyName: WZ_EARTHSPIKE AutoSpells WZ_HEAVENDRIVE
+  Option: WZ_EARTHSPIKE_AUTOSPELLS_WZ_HEAVENDRIVE
+  Transferable: false
+  Stackable: true
+  Description: Earth Spike auto spells Lv%d Heaven's Drive +%d%%
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkillDelay,WZ_EARTHSPIKE,WZ_HEAVENDRIVE,ropt(ROA_VALUE),ropt(ROA_PARAM)*10,55;
+    bonus2 bCastRate,WZ_EARTHSPIKE,-(getrandomoptinfo(ROA_VALUE));
+- Id: 20113
+  FriendlyName: WZ_HEAVENDRIVE damage vs Poison
+  Option: WZ_HEAVENDRIVE_DAMAGE_VS_POISON
+  Transferable: false
+  Stackable: true
+  Description: Heaven's Drive damage vs Poisoned +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Poison,WZ_HEAVENDRIVE,ropt(ROA_VALUE);
+    bonus3 bEffSkillMod,Eff_DPoison,WZ_HEAVENDRIVE,ropt(ROA_VALUE);
+- Id: 20114
+  FriendlyName: WZ_JUPITEL Recasts at LvX
+  Option: WZ_JUPITEL_RECASTS_AT_LVX
+  Transferable: false
+  Stackable: true
+  Description: Jupitel Thunder recasts at Lv%d +%d%%
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkillRecast,WZ_JUPITEL,WZ_JUPITEL,ropt(ROA_VALUE),ropt(ROA_PARAM)*10,1;
+- Id: 20115
+  FriendlyName: WZ_FIREPILLAR inflicts Burn per hit
+  Option: WZ_FIREPILLAR_INFLICTS_BURN_PER_HIT
+  Transferable: false
+  Stackable: false
+  Description: Fire Pillar inflicts Burning +%d%% per hit / Fire Pillar costs +1 Red Gemstone(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20116
+  FriendlyName: WZ_VERMILLION hits inflict Shock
+  Option: WZ_VERMILLION_HITS_INFLICT_SHOCK
+  Transferable: true
+  Stackable: false
+  Description: '[Lord of Vermillion hits inflict Shock +%d%%.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20117
+  FriendlyName: WZ_VERMILLION proxy cast MG_THUNDERSTORM
+  Option: WZ_VERMILLION_PROXY_CAST_MG_THUNDERSTORM
+  Transferable: true
+  Stackable: false
+  Description: '[Lord of Vermillion proxy casts Lv%d Thunder Storm after each damage wave.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20118
+  FriendlyName: WZ_METEOR cast time
+  Option: WZ_METEOR_CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: Meteor Storm cast time -%d%%
+  Done: true
+  Script: |-
+    bonus2 bCastRate,WZ_METEOR,-(ropt(ROA_VALUE)*10);
+  Labels:
+  - Assassin
+  - Core Skill
+- Id: 20119
+  FriendlyName: WZ_FROSTNOVA Super Armor
+  Option: WZ_FROSTNOVA_SUPER_ARMOR
+  Transferable: true
+  Stackable: true
+  Description: '[Frost Nova super armor +%d%% (+)](WIP)'
+  Done: false
+  Script: |-
+    bonus2 bSuperArmor,WZ_FROSTNOVA,ropt(ROA_VALUE);
+- Id: 20120
+  FriendlyName: RGX_LULLABY Chance to Chill
+  Option: RGX_LULLABY_CHANCE_TO_CHILL
+  Transferable: false
+  Stackable: false
+  Description: Lullaby inflicts Chill +%d%%(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20121
+  FriendlyName: RGX_LULLABY MDEF
+  Option: RGX_LULLABY_MDEF
+  Transferable: true
+  Stackable: false
+  Description: '[Lullaby increases MDEF of allies by +%d.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20122
+  FriendlyName: SA_CASTCANCEL AutoSpells TF_BACKSLIDING
+  Option: SA_CASTCANCEL_AUTOSPELLS_TF_BACKSLIDING
+  Transferable: true
+  Stackable: false
+  Description: '[Cast Cancel autospells known Backsliding.](WIP)'
+  Done: false
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,SA_CASTCANCEL,TF_BACKSLIDING,getskilllv(TF_BACKSLIDING),1000;
+- Id: 20123
+  FriendlyName: CR_DEVOTION Dash propagation
+  Option: CR_DEVOTION_DASH_PROPAGATION
+  Transferable: true
+  Stackable: false
+  Description: '[You & allies under your Devotion propagate Dash throughout the Devotion chain.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20124
+  FriendlyName: KN_CHARGEATK Instant cast / Half range
+  Option: KN_CHARGEATK_INSTANT_CAST__HALF_RANGE
+  Transferable: true
+  Stackable: false
+  Description: '[Charge Attack casts instantly. Charge Attack range -50%%.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20125
+  FriendlyName: KN_CHARGEATK No knockback / damage halved
+  Option: KN_CHARGEATK_NO_KNOCKBACK__DAMAGE_HALVED
+  Transferable: true
+  Stackable: false
+  Description: '[Charge Attack no longer knocks back. Charge Attack damage -50%%.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20126
+  FriendlyName: AS_VENOMKNIFE Interrupts DPoison + Dash
+  Option: AS_VENOMKNIFE_INTERRUPTS_DPOISON__DASH
+  Transferable: true
+  Stackable: false
+  Description: '[When Venom Knife interrupts a skill, it inflicts Deadly Poison & gives you %d seconds of Dash.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20127
+  FriendlyName: AS_VENOMKNIFE vs Lex Aeterna
+  Option: AS_VENOMKNIFE_VS_LEX_AETERNA
+  Transferable: true
+  Stackable: false
+  Description: '[Venom Knife gains +%d%% damage boost from Lex Aeterna (+).](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20128
+  FriendlyName: RGX_WINDMILL Life Leech
+  Option: RGX_WINDMILL_LIFE_LEECH
+  Transferable: true
+  Stackable: false
+  Description: '[Windmill Life Leech +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bLifeLeechSkill,RGX_WINDMILL,ropt(ROA_VALUE);
+- Id: 20130
+  FriendlyName: SR_EARTHSHAKER Life Leech
+  Option: SR_EARTHSHAKER_LIFE_LEECH
+  Transferable: false
+  Stackable: false
+  Description: Earth Shaker Life Leech +%d%%(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20131
+  FriendlyName: RGX_WINDMILL Damage
+  Option: RGX_WINDMILL_DAMAGE
+  Transferable: false
+  Stackable: false
+  Description: Windmill Damage +%d%%(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20132
+  FriendlyName: MO_TRIPLEATTACK vs Unharmed enemies
+  Option: MO_TRIPLEATTACK_VS_UNHARMED_ENEMIES
+  Transferable: true
+  Stackable: false
+  Description: '[Triple Attack rate vs unharmed enemies +%d%% (*).](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20133
+  FriendlyName: MO_COMBOFINISH Splash damage
+  Option: MO_COMBOFINISH_SPLASH_DAMAGE
+  Transferable: false
+  Stackable: false
+  Description: Raging Thrust splash cells +1(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20134
+  FriendlyName: KN_CHARGEATK Interrupt gives Dash
+  Option: KN_CHARGEATK_INTERRUPT_GIVES_DASH
+  Transferable: true
+  Stackable: false
+  Description: '[Charge Attack gives +%d seconds of Dash when it interrupts a skill.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20135
+  FriendlyName: SR_EARTHSHAKER Combo Bonus Damage
+  Option: SR_EARTHSHAKER_COMBO_BONUS_DAMAGE
+  Transferable: false
+  Stackable: false
+  Description: Earth Shaker Combo Ender bonus damage +%d%%(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20136
+  FriendlyName: CR_HOLYCROSS applies Strike Mark
+  Option: CR_HOLYCROSS_APPLIES_STRIKE_MARK
+  Transferable: true
+  Stackable: false
+  Description: '[Holy Cross applies Strike Mark +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,CR_HOLYCROSS,SC_STRIKEMARK,ropt(ROA_VALUE);
+- Id: 20138
+  FriendlyName: WZ_FIREPILLAR proxy casts MG_FIREBALL
+  Option: WZ_FIREPILLAR_PROXY_CASTS_MG_FIREBALL
+  Transferable: true
+  Stackable: false
+  Description: '[Fire Pillar activations proxy cast Fire Ball at half known level +%d%%.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20139
+  FriendlyName: WZ_FIREPILLAR hits proxy cast LvX MG_FIREBOLT
+  Option: WZ_FIREPILLAR_HITS_PROXY_CAST_LVX_MG_FIREBOLT
+  Transferable: false
+  Stackable: true
+  Description: Fire Pillar proxy casts Lv%d Fire Bolt per hit +%d%%(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20140
+  FriendlyName: WZ_METEOR Meteors AutoSpell LvX MG_FIREBOLT
+  Option: WZ_METEOR_METEORS_AUTOSPELL_LVX_MG_FIREBOLT
+  Transferable: false
+  Stackable: true
+  Description: Meteor Storm meteors proxy cast Lv%d Fire Bolt +%d%%(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20141
+  FriendlyName: WZ_FIREPILLAR hits inflict Heat
+  Option: WZ_FIREPILLAR_HITS_INFLICT_HEAT
+  Transferable: true
+  Stackable: true
+  Description: '[Fire Pillar inflicts Heat +%d%% per hit]'
+  Done: true
+  Script: |-
+    bonus bFirePillarHeatPerHit,ropt(ROA_VALUE);
+- Id: 20142
+  FriendlyName: WZ_JUPITEL Last hit AutoSpells MG_THUNDERSTORM
+  Option: WZ_JUPITEL_LAST_HIT_AUTOSPELLS_MG_THUNDERSTORM
+  Transferable: false
+  Stackable: false
+  Description: Jupitel Thunder's last hit auto spells Lv%d Thunder Storm +%d%%(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20143
+  FriendlyName: MO_CHAINCOMBO Spirit Sphere
+  Option: MO_CHAINCOMBO_SPIRIT_SPHERE
+  Transferable: true
+  Stackable: false
+  Description: '[Chain Combo has a +%d%% to give a Spirit Sphere.]'
+  Done: true
+  Script: |-
+    bonus bChaincomboSpiritSphere,ropt(ROA_VALUE);
+- Id: 20144
+  FriendlyName: MO_CHAINCOMBO AutoSpells Lex Aeterna
+  Option: MO_CHAINCOMBO_AUTOSPELLS_LEX_AETERNA
+  Transferable: true
+  Stackable: false
+  Description: '[Chain Combo autospells Lex Aeterna at a rate equal to the Combo Gauge.]'
+  Done: true
+  Script: |-
+    bonus3 bComboAutospellByGauge,MO_CHAINCOMBO,PR_LEXAETERNA,1;
+- Id: 20145
+  FriendlyName: RGX_WINDMILL inflicts Blind
+  Option: RGX_WINDMILL_INFLICTS_BLIND
+  Transferable: true
+  Stackable: false
+  Description: '[Windmill inflicts Blind +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,RGX_WINDMILL,Eff_Blind,ropt(ROA_VALUE);
+- Id: 20146
+  FriendlyName: MO_COMBOFINISH Fortified Stack
+  Option: MO_COMBOFINISH_FORTIFIED_STACK
+  Transferable: true
+  Stackable: false
+  Description: '[When Raging Thrust stuns an enemy, gain %d Fortified stacks.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20147
+  FriendlyName: MO_COMBOFINISH Crit on Stun
+  Option: MO_COMBOFINISH_CRIT_ON_STUN
+  Transferable: true
+  Stackable: false
+  Description: '[Raging Thrust can Crit. When Raging Thrust stuns an enemy, it crits.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20148
+  FriendlyName: RGX_WINDMILL inflicts Spinning
+  Option: RGX_WINDMILL_INFLICTS_SPINNING
+  Transferable: true
+  Stackable: false
+  Description: '[Windmill inflicts Spinning +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,RGX_WINDMILL,SC_SPINNING,ropt(ROA_VALUE);
+- Id: 20149
+  FriendlyName: RGX_WINDMILL inflicts Shock, no activation
+  Option: RGX_WINDMILL_INFLICTS_SHOCK_NO_ACTIVATION
+  Transferable: true
+  Stackable: false
+  Description: '[Windmill inflicts Shock at a rate equal to the Combo Gauge. Windmill does not activate Shock.]'
+  Done: true
+  Script: |-
+    bonus2 bComboInflictByGauge,RGX_WINDMILL,SC_SHOCK;
+    bonus bSkillNoConsumeShock,RGX_WINDMILL;
+- Id: 20150
+  FriendlyName: RGX_WINDMILL grants Capoeira
+  Option: RGX_WINDMILL_GRANTS_CAPOEIRA
+  Transferable: false
+  Stackable: false
+  Description: Windmill grants Capoeira at a rate equal to the Combo Gauge.(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20151
+  FriendlyName: MO_TRIPLEATTACK rate vs Unharmed
+  Option: MO_TRIPLEATTACK_RATE_VS_UNHARMED
+  Transferable: true
+  Stackable: true
+  Description: '[Triple Attack rate vs Unharmed targets +%d%% (+)]'
+  Done: true
+  Script: |-
+    bonus bTripleatkRateVsUnharmed,ropt(ROA_VALUE);
+- Id: 20152
+  FriendlyName: SR_EARTHSHAKER gives Mini Suffragium
+  Option: SR_EARTHSHAKER_GIVES_MINI_SUFFRAGIUM
+  Transferable: true
+  Stackable: false
+  Description: '[Earth Shaker grants you a Mini Suffragium for %d seconds.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20153
+  FriendlyName: MO_EXTREMITYFIST raises Crit
+  Option: MO_EXTREMITYFIST_RAISES_CRIT
+  Transferable: true
+  Stackable: false
+  Description: '[Killing an enemy with Asura Strike gives +%d Crit, up to +%d. Resets if Asura Strike does not kill.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20154
+  FriendlyName: BS_MAXIMIZE Power Boom effectiveness
+  Option: BS_MAXIMIZE_POWER_BOOM_EFFECTIVENESS
+  Transferable: true
+  Stackable: false
+  Description: '[Your Power Maximize gives +%d%% Power Boom effectiveness.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20155
+  FriendlyName: BS_ADRENALINE grants Move Speed
+  Option: BS_ADRENALINE_GRANTS_MOVE_SPEED
+  Transferable: true
+  Stackable: false
+  Description: '[Adrenaline Rush gives +%d%% Move Speed.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20156
+  FriendlyName: HT_SKIDTRAP grants Dash
+  Option: HT_SKIDTRAP_GRANTS_DASH
+  Transferable: false
+  Stackable: true
+  Description: Skid Trap has a +%d%% chance to give Dash(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20157
+  FriendlyName: RGX_GANK works with Bows
+  Option: RGX_GANK_WORKS_WITH_BOWS
+  Transferable: true
+  Stackable: false
+  Description: '[Gank works with Bows.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20158
+  FriendlyName: CR_AUTOGUARD AutoSpells SM_BASH LvX
+  Option: CR_AUTOGUARD_AUTOSPELLS_SM_BASH_LVX
+  Transferable: true
+  Stackable: false
+  Description: '[Auto Guard activations have a +%d%% to autospell Bash Lv%d on attacker.](WIP)'
+  Done: false
+  Script: |-
+    ;
+    // Reference / Change the Auto Guard autospell
+- Id: 20159
+  FriendlyName: SA_AUTOSPELL Rates
+  Option: SA_AUTOSPELL_RATES
+  Transferable: false
+  Stackable: false
+  Description: Hindsight rates +%d%% (*)(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20160
+  FriendlyName: SA_AUTOSPELL bolts give Mini Suffragium
+  Option: SA_AUTOSPELL_BOLTS_GIVE_MINI_SUFFRAGIUM
+  Transferable: true
+  Stackable: false
+  Description: '[Hindsight bolts have a chance equal to their cast level to give you Mini Suffragium.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20161
+  FriendlyName: SA_AUTOSPELL bolts grant a Celerity stack
+  Option: SA_AUTOSPELL_BOLTS_GRANT_A_CELERITY_STACK
+  Transferable: false
+  Stackable: false
+  Description: Hindsight bolts have a +%d%% chance to give you a Celerity stack.(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20162
+  FriendlyName: SA_VIOLENTGALE inflicts Shock (1)
+  Option: SA_VIOLENTGALE_INFLICTS_SHOCK_1
+  Transferable: true
+  Stackable: false
+  Description: '[Enemies in your Violent Gale gain %dx Shock stack every 1.%d seconds.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20163
+  FriendlyName: SA_VIOLENTGALE inflicts Shock
+  Option: SA_VIOLENTGALE_INFLICTS_SHOCK
+  Transferable: true
+  Stackable: false
+  Description: '[Enemies in your Violent Gale gain %dx Shock stacks every 1.%d seconds.](WIP)'
+  Done: false
+  Script: |-
+    ;
+- Id: 20164
+  FriendlyName: SA_AUTOSPELL Bolts on SA_DISPEL
+  Option: SA_AUTOSPELL_BOLTS_ON_SA_DISPEL
+  Transferable: false
+  Stackable: false
+  Description: After dispelling an enemy, Hindsight casts a number of bolts equal to half the buffs removed.(WIP)
+  Done: false
+  Script: |-
+    ;
+- Id: 20165
+  FriendlyName: SA_VIOLENTGALE Improves wind magic autospell rates
+  Option: SA_VIOLENTGALE_IMPROVES_WIND_MAGIC_AUTOSPELL_RATES
+  Transferable: false
+  Stackable: false
+  Description: Wind elemental autospell rates +%d%% (*) when standing in a Violent Gale.(WIP)
+  Done: false
+  Script: |-
+    ;

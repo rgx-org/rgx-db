@@ -1,0 +1,48 @@
+Header:
+  Type: INSTANCE_DB
+  Version: 2
+Body:
+- Id: 90033
+  Name: fm12_agni_aqua
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    9300: true
+  EndZone:
+    X: 264
+    Y: 87
+  Enter:
+    Map: moro_vol
+    X: 105
+    Y: 67
+  Boss:
+    MobId: 29037
+    SpawnRadius: 1
+    RewardModifier: 100
+  Wip: true
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 90034
+  Name: fm12_ventus_tera
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    9310: true
+  EndZone:
+    X: 47
+    Y: 45
+  Enter:
+    Map: ra_fild09
+    X: 192
+    Y: 247
+  Boss:
+    MobId: 29038
+    SpawnRadius: 1
+    RewardModifier: 100
+  Wip: true
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true

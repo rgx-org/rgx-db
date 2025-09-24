@@ -378,6 +378,16 @@ StateIconList[EFST_IDs.EFST_PROVOKE] = {
 		{ "Increases ATK" }
 	}
 }
+StateIconList[EFST_IDs.EFST_AUTOBERSERKPROVOKE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Provoke", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Reduces DEF" },
+		{ "Increases ATK" }
+	}
+}
 StateIconList[EFST_IDs.EFST_EDP] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
@@ -2142,5 +2152,45 @@ StateIconList[EFST_IDs.EFST_MINISUFF] = {
 		{ "Mini Suff", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Reduces cast times" },
+	}
+}
+StateIconList[EFST_IDs.EFST_SACRIFICE] = {
+	haveTimeLimit = 0,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Sacrifice", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Consume 7% max HP to add it to weapon damage" },
+		{ "Total 6 hits" },
+	}
+}
+StateIconList[EFST_IDs.EFST_MARTYRDOM1] = {
+	haveTimeLimit = 0,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Martyrdom (1/3)", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "+7% Martyr's Reckoning Damage & HP" },
+		{ "Holy magic casts 30% faster & restores 30% HP" },
+	}
+}
+StateIconList[EFST_IDs.EFST_MARTYRDOM2] = {
+	haveTimeLimit = 0,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Martyrdom (2/3)", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "+14% Martyr's Reckoning Damage & HP" },
+		{ "Holy magic casts 60% faster & restores 60% HP" },
+	}
+}
+StateIconList[EFST_IDs.EFST_MARTYRDOM1] = {
+	haveTimeLimit = 0,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Martyrdom (3/3)", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "+21% Martyr's Reckoning Damage & HP" },
+		{ "Holy magic casts 60% faster & restores 60% HP" },
 	}
 }

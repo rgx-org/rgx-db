@@ -1,0 +1,2817 @@
+Header:
+  Type: RANDOM_OPTION_POOLSET_DB
+  Version: 3
+Body:
+- Id: 0
+  Name: EmptyPoolSet
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60000
+  Name: EmptyArmorSet
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60001
+  Name: Wooden Mail (Body)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100192
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100193
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100200
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100195
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100196
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100197
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100199
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100194
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100206
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100207
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100208
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100198
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100201
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100204
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100205
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100202
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100203
+      Weight: 1
+      Tags:
+      - None
+- Id: 60002
+  Name: Adventurer's Breastplate (Body)
+  Tags:
+  - Name: Endure
+    Weight: 15
+    WeightMod: 1
+  - Name: Tank
+    Weight: 5
+    WeightMod: 3
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100209
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100210
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100220
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100198
+      Weight: 1
+      Tags:
+      - Endure
+    - Id: 100211
+      Weight: 1
+      Tags:
+      - Endure
+      - Tank
+    - Id: 100212
+      Weight: 1
+      Tags:
+      - Tank
+    - Id: 100213
+      Weight: 1
+      Tags:
+      - Tank
+  - Line: 3
+    Pools:
+    - Id: 100204
+      Weight: 1
+      Tags:
+      - Tank
+    - Id: 100216
+      Weight: 1
+      Tags:
+      - Tank
+    - Id: 100217
+      Weight: 1
+      Tags:
+      - Tank
+    - Id: 100357
+      Weight: 1
+      Tags:
+      - Endure
+  - Line: 4
+    Pools:
+    - Id: 100012
+      Weight: 1
+      Tags:
+      - Endure
+      - Tank
+    - Id: 100215
+      Weight: 1
+      Tags:
+      - Tank
+    - Id: 100218
+      Weight: 1
+      Tags:
+      - Tank
+    - Id: 100219
+      Weight: 1
+      Tags:
+      - Tank
+  - Line: 5
+    Pools:
+    - Id: 100214
+      Weight: 1
+      Tags:
+      - Endure
+    - Id: 100221
+      Weight: 1
+      Tags:
+      - Tank
+- Id: 60003
+  Name: Padded Armor (Body)
+  Tags:
+  - Name: Endure
+    Weight: 1
+    WeightMod: 5
+  - Name: Tank
+    Weight: 2
+    WeightMod: 3
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 200197
+      Weight: 1
+      Tags:
+      - Endure
+    - Id: 200201
+      Weight: 1
+      Tags:
+      - Tank
+  - Line: 2
+    Pools:
+    - Id: 200195
+      Weight: 1
+      Tags:
+      - Endure
+      - Tank
+    - Id: 200199
+      Weight: 1
+      Tags:
+      - Endure
+      - Tank
+    - Id: 200205
+      Weight: 1
+      Tags:
+      - Tank
+    - Id: 200206
+      Weight: 1
+      Tags:
+      - Tank
+  - Line: 3
+    Pools:
+    - Id: 200196
+      Weight: 1
+      Tags:
+      - Endure
+    - Id: 200204
+      Weight: 1
+      Tags:
+      - Tank
+    - Id: 200209
+      Weight: 1
+      Tags:
+      - Tank
+    - Id: 200210
+      Weight: 1
+      Tags:
+      - Tank
+  - Line: 4
+    Pools:
+    - Id: 200202
+      Weight: 1
+      Tags:
+      - Tank
+    - Id: 200203
+      Weight: 1
+      Tags:
+      - Tank
+    - Id: 200208
+      Weight: 1
+      Tags:
+      - Tank
+    - Id: 200211
+      Weight: 1
+      Tags:
+      - Endure
+      - Tank
+  - Line: 5
+    Pools:
+    - Id: 200200
+      Weight: 1
+      Tags:
+      - Tank
+    - Id: 200207
+      Weight: 1
+      Tags:
+      - Endure
+- Id: 60004
+  Name: Bronze Breastplate (Body)
+  Tags:
+  - Name: Stun
+    Weight: 12
+    WeightMod: 12
+  - Name: Mammonite
+    Weight: 12
+    WeightMod: 12
+  - Name: Breastplate
+    Weight: 76
+    WeightMod: 9
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60005
+  Name: Chain Mail (Body)
+  Tags:
+  - Name: Endure
+    Weight: 1
+    WeightMod: 9
+  - Name: Tank
+    Weight: 2
+    WeightMod: 4
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 200197
+      Weight: 1
+      Tags:
+      - Endure
+    - Id: 200217
+      Weight: 1
+      Tags:
+      - Tank
+  - Line: 2
+    Pools:
+    - Id: 200216
+      Weight: 1
+      Tags:
+      - Tank
+    - Id: 200220
+      Weight: 1
+      Tags:
+      - Tank
+    - Id: 200221
+      Weight: 1
+      Tags:
+      - Tank
+    - Id: 200222
+      Weight: 1
+      Tags:
+      - Tank
+      - Endure
+  - Line: 3
+    Pools:
+    - Id: 200213
+      Weight: 1
+      Tags:
+      - Tank
+      - Endure
+    - Id: 200215
+      Weight: 1
+      Tags:
+      - Tank
+    - Id: 200219
+      Weight: 1
+      Tags:
+      - Tank
+    - Id: 200367
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 200211
+      Weight: 1
+      Tags:
+      - Tank
+      - Endure
+    - Id: 200214
+      Weight: 1
+      Tags:
+      - Tank
+    - Id: 200221
+      Weight: 1
+      Tags:
+      - Tank
+  - Line: 5
+    Pools:
+    - Id: 200212
+      Weight: 1
+      Tags:
+      - Endure
+    - Id: 200218
+      Weight: 1
+      Tags:
+      - Tank
+- Id: 60006
+  Name: Bakunawa Scale Armor (Body)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60007
+  Name: Goibne's Armor (Body)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60008
+  Name: Full Plate (Body)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60009
+  Name: Black Dragon Armor (Body)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60010
+  Name: Manteau (Garment)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100359
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100362
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100012
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100358
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100365
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100361
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100363
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100367
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100204
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100210
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100212
+      Weight: 1
+      Tags:
+      - None
+    - Id: 100364
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100369
+      Weight: 1
+      Tags:
+      - None
+- Id: 60011
+  Name: Pauldron (Garment)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60012
+  Name: Goibne's Spaulders (Garment)
+  Tags:
+  - Name: Devotion
+    Weight: 1
+    WeightMod: 8
+  - Name: Defensive
+    Weight: 4
+    WeightMod: 5
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60013
+  Name: Vali's Manteau (Garment)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60014
+  Name: Boots (Footgear)
+  Tags:
+  - Name: Gofast
+    Weight: 2
+    WeightMod: 5
+  - Name: Endure
+    Weight: 2
+    WeightMod: 5
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100200
+      Weight: 1
+      Tags:
+      - Endure
+      - Gofast
+    - Id: 100254
+      Weight: 1
+      Tags:
+      - Gofast
+    - Id: 100371
+      Weight: 1
+      Tags:
+      - Endure
+  - Line: 2
+    Pools:
+    - Id: 100232
+      Weight: 1
+      Tags:
+      - Gofast
+    - Id: 100372
+      Weight: 1
+      Tags:
+      - Endure
+    - Id: 100373
+      Weight: 1
+      Tags:
+      - Endure
+    - Id: 100377
+      Weight: 1
+      Tags:
+      - Gofast
+  - Line: 3
+    Pools:
+    - Id: 100374
+      Weight: 1
+      Tags:
+      - Gofast
+    - Id: 100379
+      Weight: 1
+      Tags:
+      - Endure
+    - Id: 100380
+      Weight: 1
+      Tags:
+      - Gofast
+    - Id: 100381
+      Weight: 1
+      Tags:
+      - Endure
+  - Line: 4
+    Pools:
+    - Id: 100375
+      Weight: 1
+      Tags:
+      - Endure
+    - Id: 100378
+      Weight: 1
+      Tags:
+      - Gofast
+    - Id: 100382
+      Weight: 1
+      Tags:
+      - Gofast
+    - Id: 100398
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100211
+      Weight: 1
+      Tags:
+      - Endure
+    - Id: 100370
+      Weight: 1
+      Tags:
+      - Gofast
+- Id: 60015
+  Name: Steel Toe Boots (Footgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60016
+  Name: Endurance Boots (Footgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 200379
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60017
+  Name: Greaves (Footgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 1000
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 1000
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 200198
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60018
+  Name: Conductive Boots (Footgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 1000
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 1000
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 200072
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60019
+  Name: Goibne's Greaves (Footgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60020
+  Name: Bronze Greaves (Footgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60021
+  Name: Nut Shell (Headgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60022
+  Name: Egg Shell (Headgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60023
+  Name: Safety Helmet (Headgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60024
+  Name: Army Cap (Headgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60025
+  Name: Rainbow Eggshell (Headgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60026
+  Name: Pretend Murdered (Headgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60027
+  Name: Mine Helm (Headgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60028
+  Name: Holy Egg Hat (Headgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60029
+  Name: Wonder Nutshell (Headgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60030
+  Name: Helm (Headgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60031
+  Name: Coronet (Headgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60032
+  Name: Helm of Abyss (Headgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60033
+  Name: Gladiator Helmet (Headgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60034
+  Name: Bone Helm (Headgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60035
+  Name: Palace Guard Cap (Headgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+- Id: 60036
+  Name: Golden Gear (Headgear)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 100541
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 100540
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 100478
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 100141
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 100501
+      Weight: 1
+      Tags:
+      - None
+- Id: 60037
+  Name: Queen's Wing (Garment)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 200461
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 200459
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 200460
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 200248
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 200462
+      Weight: 1
+      Tags:
+      - None
+- Id: 60038
+  Name: (OLD) Wooden Mail (Body) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700144
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700170
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700188
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 700139
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700150
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700194
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700195
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 700070
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700151
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700156
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700189
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 700138
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700152
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700181
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700192
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 700190
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700193
+      Weight: 1
+      Tags:
+      - None
+- Id: 60039
+  Name: (OLD) Adventurer's Breastplate (Body) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700161
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700170
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700184
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 700141
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700172
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700179
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700182
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 700154
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700171
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700181
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700187
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 700177
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700183
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700196
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700230
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 700138
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700186
+      Weight: 1
+      Tags:
+      - None
+- Id: 60040
+  Name: (OLD) Padded Armor (Body) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700161
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700170
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700173
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 700162
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700172
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700175
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700181
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 700163
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700164
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700171
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700180
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 700141
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700184
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700230
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700233
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 700142
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700178
+      Weight: 1
+      Tags:
+      - None
+- Id: 60041
+  Name: (OLD) Bronze Breastplate (Body) (Copy)
+  Tags:
+  - Name: Stun
+    Weight: 12
+    WeightMod: 12
+  - Name: Mammonite
+    Weight: 12
+    WeightMod: 12
+  - Name: Breastplate
+    Weight: 76
+    WeightMod: 9
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700161
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700196
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700199
+      Weight: 1
+      Tags:
+      - Stun
+  - Line: 2
+    Pools:
+    - Id: 700141
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700182
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700198
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700202
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 700145
+      Weight: 1
+      Tags:
+      - Stun
+      - Breastplate
+    - Id: 700197
+      Weight: 1
+      Tags:
+      - Breastplate
+    - Id: 700200
+      Weight: 1
+      Tags:
+      - Breastplate
+    - Id: 700207
+      Weight: 1
+      Tags:
+      - Mammonite
+  - Line: 4
+    Pools:
+    - Id: 700191
+      Weight: 1
+      Tags:
+      - Stun
+      - Breastplate
+    - Id: 700199
+      Weight: 1
+      Tags:
+      - Stun
+      - Breastplate
+    - Id: 700203
+      Weight: 1
+      Tags:
+      - Breastplate
+    - Id: 700205
+      Weight: 1
+      Tags:
+      - Mammonite
+  - Line: 5
+    Pools:
+    - Id: 700160
+      Weight: 1
+      Tags:
+      - Stun
+      - Breastplate
+    - Id: 700206
+      Weight: 1
+      Tags:
+      - Mammonite
+- Id: 60042
+  Name: (OLD) Goibne's Armor (Body) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800304
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800306
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800971
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 800272
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800309
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800900
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800976
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 800314
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800316
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800977
+      Weight: 1
+      Tags:
+      - None
+    - Id: 801022
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 800312
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800315
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800318
+      Weight: 1
+      Tags:
+      - None
+    - Id: 801023
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 800310
+      Weight: 1
+      Tags:
+      - None
+- Id: 60043
+  Name: (OLD) Full Plate (Body) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800197
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800206
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800213
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 800198
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800201
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800222
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800338
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 800200
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800208
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800220
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800346
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 800199
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800212
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800214
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800252
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 800207
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800371
+      Weight: 1
+      Tags:
+      - None
+- Id: 60044
+  Name: (OLD) Black Dragon Armor (Body) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 800367
+      Weight: 1
+      Tags:
+      - None
+- Id: 60045
+  Name: (OLD) Manteau (Garment) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700178
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700196
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700204
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 700070
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700158
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700208
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700214
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 700141
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700209
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700211
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700217
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 700213
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700215
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700220
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700382
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 700142
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700221
+      Weight: 1
+      Tags:
+      - None
+- Id: 60046
+  Name: (OLD) Golden Mantaeu (Garment) (Copy)
+  Tags:
+  - Name: Mammo
+    Weight: 1
+    WeightMod: 5
+  - Name: Terror
+    Weight: 1
+    WeightMod: 6
+  - Name: Stun
+    Weight: 1
+    WeightMod: 4
+  - Name: Itamz
+    Weight: 1
+    WeightMod: 3
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800335
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800343
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800344
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 800157
+      Weight: 1
+      Tags:
+      - Stun
+    - Id: 800168
+      Weight: 1
+      Tags:
+      - Mammo
+    - Id: 800347
+      Weight: 1
+      Tags:
+      - Terror
+    - Id: 800348
+      Weight: 1
+      Tags:
+      - Itamz
+  - Line: 3
+    Pools:
+    - Id: 800229
+      Weight: 1
+      Tags:
+      - Mammo
+      - Itamz
+    - Id: 800323
+      Weight: 1
+      Tags:
+      - Itamz
+    - Id: 800326
+      Weight: 1
+      Tags:
+      - Stun
+  - Line: 4
+    Pools:
+    - Id: 800325
+      Weight: 1
+      Tags:
+      - Mammo
+      - Itamz
+    - Id: 800329
+      Weight: 1
+      Tags:
+      - Terror
+    - Id: 800345
+      Weight: 1
+      Tags:
+      - Stun
+    - Id: 800349
+      Weight: 1
+      Tags:
+      - Itamz
+  - Line: 5
+    Pools:
+    - Id: 800327
+      Weight: 1
+      Tags:
+      - Itamz
+    - Id: 800337
+      Weight: 1
+      Tags:
+      - Stun
+- Id: 60047
+  Name: (OLD) Goibne's Spaulders (Garment) (Copy)
+  Tags:
+  - Name: Devotion
+    Weight: 1
+    WeightMod: 8
+  - Name: Defensive
+    Weight: 4
+    WeightMod: 5
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800207
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800332
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800346
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 800295
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 800334
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 800340
+      Weight: 1
+      Tags:
+      - Devotion
+  - Line: 3
+    Pools:
+    - Id: 800326
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 800342
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 800381
+      Weight: 1
+      Tags:
+      - Devotion
+    - Id: 800646
+      Weight: 1
+      Tags:
+      - Defensive
+  - Line: 4
+    Pools:
+    - Id: 800335
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 800336
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 800339
+      Weight: 1
+      Tags:
+      - Devotion
+    - Id: 800376
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 800224
+      Weight: 1
+      Tags:
+      - Defensive
+    - Id: 800341
+      Weight: 1
+      Tags:
+      - Defensive
+- Id: 60048
+  Name: (OLD) Vali's Manteau (Garment) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800211
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800351
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800362
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 800353
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800757
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 800281
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800354
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800357
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 800358
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800359
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 800350
+      Weight: 1
+      Tags:
+      - None
+- Id: 60049
+  Name: (OLD) Boots (Footgear) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700150
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700188
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700241
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 700242
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700251
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700252
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700256
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 700181
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700212
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700255
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700258
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 700070
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700180
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700245
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700445
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 700240
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700244
+      Weight: 1
+      Tags:
+      - None
+- Id: 60050
+  Name: (OLD) Steel Toe Boots (Footgear) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700070
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700144
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700170
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 700226
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700227
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700230
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700231
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 700056
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700223
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700233
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700237
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 700178
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700180
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700225
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700234
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 700232
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700236
+      Weight: 1
+      Tags:
+      - None
+- Id: 60051
+  Name: (OLD) Endurance Boots (Footgear) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 700188
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700241
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700249
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 700136
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700181
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700229
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700245
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 700240
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700243
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700244
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700247
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 700070
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700242
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700248
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700446
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 700228
+      Weight: 1
+      Tags:
+      - None
+    - Id: 700250
+      Weight: 1
+      Tags:
+      - None
+- Id: 60052
+  Name: (OLD) Greaves (Footgear) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800213
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800295
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800335
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 800198
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800280
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800336
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800376
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 800290
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800375
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800377
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800380
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 800024
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800214
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800374
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 800372
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800389
+      Weight: 1
+      Tags:
+      - None
+- Id: 60053
+  Name: (OLD) Goibne's Greaves (Footgear) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800271
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800306
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800390
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 800309
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800383
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800386
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800394
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 800376
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800385
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800387
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 800211
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800391
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800393
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800900
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 800307
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800379
+      Weight: 1
+      Tags:
+      - None
+- Id: 60054
+  Name: (OLD) Bronze Greaves (Footgear) (Copy)
+  Tags: []
+  Lines:
+  - Line: 1
+    Pools:
+    - Id: 800213
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800271
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800295
+      Weight: 1
+      Tags:
+      - None
+  - Line: 2
+    Pools:
+    - Id: 800409
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800412
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800419
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800420
+      Weight: 1
+      Tags:
+      - None
+  - Line: 3
+    Pools:
+    - Id: 800180
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800374
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800410
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800415
+      Weight: 1
+      Tags:
+      - None
+  - Line: 4
+    Pools:
+    - Id: 800109
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800411
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800638
+      Weight: 1
+      Tags:
+      - None
+  - Line: 5
+    Pools:
+    - Id: 800414
+      Weight: 1
+      Tags:
+      - None
+    - Id: 800416
+      Weight: 1
+      Tags:
+      - None

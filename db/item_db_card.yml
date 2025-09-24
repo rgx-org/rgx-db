@@ -1,0 +1,11221 @@
+Header:
+  Type: ITEM_DB
+  Version: 2
+Body:
+- Id: 1200000
+  Name: Poring Card
+  AegisName: RGX_Poring_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bLuk,2;
+    bonus bFlee2,1;
+- Id: 1200001
+  Name: Fabre Card
+  AegisName: RGX_Fabre_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bVit,1;
+    bonus bMaxHP,100;
+- Id: 1200002
+  Name: Pupa Card
+  AegisName: RGX_Pupa_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMaxHP,700;
+- Id: 1200003
+  Name: Drops Card
+  AegisName: RGX_Drops_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDex,1;
+    bonus bHit,3;
+- Id: 1200004
+  Name: Santa Poring Card
+  AegisName: RGX_Poring__Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEle,Ele_Shadow,20;
+- Id: 1200005
+  Name: Lunatic Card
+  AegisName: RGX_Lunatic_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bLuk,1;
+    bonus bCritical,1;
+    bonus bFlee2,1;
+- Id: 1200006
+  Name: Peco Peco Egg Card
+  AegisName: RGX_Pecopeco_Egg_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddRace,RC_Formless,20;
+- Id: 1200007
+  Name: Picky Card
+  AegisName: RGX_Picky_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bStr,1;
+    bonus bBaseAtk,10;
+- Id: 1200008
+  Name: Chonchon Card
+  AegisName: RGX_Chonchon_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bAgi,1;
+    bonus bFlee,2;
+- Id: 1200009
+  Name: Willow Card
+  AegisName: RGX_Wilow_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMaxSP,80;
+- Id: 1200010
+  Name: Picky Egg Card
+  AegisName: RGX_Picky__Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bVit,1;
+    bonus bMaxHP,100;
+- Id: 1200011
+  Name: Thief Bug Egg Card
+  AegisName: RGX_Thief_Bug_Egg_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMaxHP,400;
+- Id: 1200012
+  Name: Andre Egg Card
+  AegisName: RGX_Andre_Egg_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMaxHPrate,5;
+- Id: 1200013
+  Name: Roda Frog Card
+  AegisName: RGX_Roda_Frog_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMaxHP,400;
+    bonus bMaxSP,50;
+- Id: 1200014
+  Name: Condor Card
+  AegisName: RGX_Condor_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bFlee,10;
+- Id: 1200015
+  Name: Thief Bug Card
+  AegisName: RGX_Thief_Bug_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bAgi,1;
+- Id: 1200016
+  Name: Savage Babe Card
+  AegisName: RGX_Savage_Babe_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEff,Eff_Stun,500;
+- Id: 1200017
+  Name: Andre Larva Card
+  AegisName: RGX_Andre_Larva_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bInt,1;
+    bonus bMaxSP,10;
+- Id: 1200018
+  Name: Hornet Card
+  AegisName: RGX_Hornet_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bStr,1;
+    bonus bBaseAtk,3;
+- Id: 1200019
+  Name: Familiar Card
+  AegisName: RGX_Farmiliar_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEff,Eff_Blind,500;
+    bonus bBaseAtk,5;
+- Id: 1200020
+  Name: Rocker Card
+  AegisName: RGX_Rocker_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDex,1;
+    bonus bBaseAtk,5;
+- Id: 1200021
+  Name: Spore Card
+  AegisName: RGX_Spore_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bVit,2;
+- Id: 1200022
+  Name: Baby Desert Wolf Card
+  AegisName: RGX_Desert_Wolf_Babe_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bInt,1;
+- Id: 1200023
+  Name: Plankton Card
+  AegisName: RGX_Plankton_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEff,Eff_Sleep,500;
+    bonus bBaseAtk,5;
+- Id: 1200024
+  Name: Skeleton Card
+  AegisName: RGX_Skeleton_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBaseAtk,10;
+    bonus2 bAddEff,Eff_Stun,200;
+- Id: 1200025
+  Name: Female Thief Bug Card
+  AegisName: RGX_Thief_Bug_Female_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bAgi,1;
+    bonus bFlee,1;
+- Id: 1200026
+  Name: Kukre Card
+  AegisName: RGX_Kukre_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bAgi,2;
+- Id: 1200027
+  Name: Tarou Card
+  AegisName: RGX_Tarou_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bStr,2;
+- Id: 1200028
+  Name: Wolf Card
+  AegisName: RGX_Wolf_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBaseAtk,15;
+    bonus bCritical,1;
+- Id: 1200029
+  Name: Mandragora Card
+  AegisName: RGX_Mandragora_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEle,Ele_Wind,20;
+- Id: 1200030
+  Name: Peco Peco Card
+  AegisName: RGX_Pecopeco_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMaxHPrate,10;
+- Id: 1200031
+  Name: Ambernite Card
+  AegisName: RGX_Ambernite_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDef,2;
+- Id: 1200032
+  Name: Poporing Card
+  AegisName: RGX_Poporing_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    skill "TF_DETOXIFY",1;
+- Id: 1200033
+  Name: Wormtail Card
+  AegisName: RGX_Worm_Tail_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDex,2;
+- Id: 1200034
+  Name: Hydra Card
+  AegisName: RGX_Hydra_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddRace,RC_DemiHuman,20;
+    bonus2 bAddRace,RC_Player_Human,20;
+- Id: 1200035
+  Name: Muka Card
+  AegisName: RGX_Muka_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bHPrecovRate,10;
+- Id: 1200036
+  Name: Snake Card
+  AegisName: RGX_Snake_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEff,Eff_Poison,500;
+    bonus bBaseAtk,5;
+- Id: 1200037
+  Name: Zombie Card
+  AegisName: RGX_Zombie_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bHPrecovRate,20;
+- Id: 1200038
+  Name: Stainer Card
+  AegisName: RGX_Stainer_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bResEff,Eff_Silence,2000;
+    bonus bDef,1;
+- Id: 1200039
+  Name: Creamy Card
+  AegisName: RGX_Creamy_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    skill "AL_TELEPORT",1;
+- Id: 1200040
+  Name: Coco Card
+  AegisName: RGX_Coco_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bResEff,Eff_Sleep,2000;
+    bonus bDef,1;
+- Id: 1200041
+  Name: Steel Chonchon Card
+  AegisName: RGX_Steel_Chonchon_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Wind,10;
+    bonus bDef,2;
+- Id: 1200042
+  Name: Andre Card
+  AegisName: RGX_Andre_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBaseAtk,20;
+- Id: 1200043
+  Name: Smokie Card
+  AegisName: RGX_Smokie_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    skill "TF_HIDING",1;
+  UnEquipScript: |
+    sc_end SC_HIDING;
+- Id: 1200044
+  Name: Horn Card
+  AegisName: RGX_Horn_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bLongAtkDef,35;
+- Id: 1200045
+  Name: Martin Card
+  AegisName: RGX_Martin_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bResEff,Eff_Blind,2000;
+    bonus bDef,1;
+- Id: 1200046
+  Name: Ghostring Card
+  AegisName: RGX_Ghostring_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDefEle,Ele_Ghost;
+    bonus bHPrecovRate,-25;
+- Id: 1200047
+  Name: Poison Spore Card
+  AegisName: RGX_Poison_Spore_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    skill "TF_POISON",3;
+- Id: 1200048
+  Name: Vadon Card
+  AegisName: RGX_Vadon_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEle,Ele_Fire,20;
+- Id: 1200049
+  Name: Male Thief Bug Card
+  AegisName: RGX_Thief_Bug_Male_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bAgi,2;
+- Id: 1200050
+  Name: Yoyo Card
+  AegisName: RGX_Yoyo_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bFlee2,5;
+    bonus bAgi,1;
+- Id: 1200051
+  Name: Elder Willow Card
+  AegisName: RGX_Elder_Wilow_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bInt,2;
+- Id: 1200052
+  Name: Vitata Card
+  AegisName: RGX_Vitata_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    skill "AL_HEAL",1;
+    bonus bUseSPrate,-25;
+- Id: 1200053
+  Name: Angeling Card
+  AegisName: RGX_Angeling_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDefEle,Ele_Holy;
+- Id: 1200054
+  Name: Marina Card
+  AegisName: RGX_Marina_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEff,Eff_Freeze,500;
+    bonus bBaseAtk,5;
+- Id: 1200055
+  Name: Dustiness Card
+  AegisName: RGX_Dustiness_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Wind,30;
+    bonus bFlee,5;
+- Id: 1200056
+  Name: Metaller Card
+  AegisName: RGX_Metaller_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEff,Eff_Silence,500;
+    bonus bBaseAtk,5;
+- Id: 1200057
+  Name: Thara Frog Card
+  AegisName: RGX_Thara_Frog_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_DemiHuman,30;
+    bonus2 bSubRace,RC_Player_Human,30;
+- Id: 1200058
+  Name: Soldier Andre Card
+  AegisName: RGX_Soldier_Andre_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_Plant,30;
+- Id: 1200059
+  Name: Goblin Card
+  AegisName: RGX_Goblin_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddRace,RC_Brute,20;
+    bonus2 bAddRace,RC_Player_Doram,20;
+- Id: 1200060
+  Name: Cornutus Card
+  AegisName: RGX_Cornutus_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bUnbreakableArmor;
+    bonus bDef,1;
+- Id: 1200061
+  Name: Anacondaq Card
+  AegisName: RGX_Anacondaq_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEle,Ele_Poison,20;
+- Id: 1200062
+  Name: Caramel Card
+  AegisName: RGX_Caramel_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddRace,RC_Insect,20;
+- Id: 1200063
+  Name: Zerom Card
+  AegisName: RGX_Zerom_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDex,3;
+- Id: 1200064
+  Name: Kaho Card
+  AegisName: RGX_Kaho_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEle,Ele_Earth,20;
+- Id: 1200065
+  Name: Orc Warrior Card
+  AegisName: RGX_Orc_Warrior_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_Brute,30;
+    bonus2 bSubRace,RC_Player_Doram,30;
+- Id: 1200066
+  Name: Megalodon Card
+  AegisName: RGX_Megalodon_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bResEff,Eff_Freeze,2000;
+    bonus bDef,1;
+- Id: 1200067
+  Name: Scorpion Card
+  AegisName: RGX_Scorpion_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddRace,RC_Plant,20;
+- Id: 1200068
+  Name: Drainliar Card
+  AegisName: RGX_Drainliar_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEle,Ele_Water,20;
+- Id: 1200069
+  Name: Eggyra Card
+  AegisName: RGX_Eggyra_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bSPrecovRate,15;
+- Id: 1200070
+  Name: Orc Zombie Card
+  AegisName: RGX_Orc_Zombie_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Decay,30;
+    bonus bFlee,5;
+- Id: 1200071
+  Name: Golem Card
+  AegisName: RGX_Golem_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bUnbreakableWeapon;
+    bonus bBaseAtk,5;
+- Id: 1200072
+  Name: Pirate Skeleton Card
+  AegisName: RGX_Pirate_Skel_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    skill "MC_DISCOUNT",5;
+- Id: 1200073
+  Name: Bigfoot Card
+  AegisName: RGX_BigFoot_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_Insect,30;
+- Id: 1200074
+  Name: Argos Card
+  AegisName: RGX_Argos_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bResEff,Eff_Stone,2000;
+    bonus bDef,1;
+- Id: 1200075
+  Name: Magnolia Card
+  AegisName: RGX_Magnolia_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEff,Eff_Curse,500;
+    bonus bBaseAtk,5;
+- Id: 1200076
+  Name: Phen Card
+  AegisName: RGX_Phen_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bNoCastCancel;
+    bonus bCastrate,250;
+- Id: 1200077
+  Name: Savage Card
+  AegisName: RGX_Savage_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bVit,3;
+- Id: 1200078
+  Name: Mantis Card
+  AegisName: RGX_Mantis_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bStr,3;
+- Id: 1200079
+  Name: Flora Card
+  AegisName: RGX_Flora_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddRace,RC_Fish,20;
+- Id: 1200080
+  Name: Hode Card
+  AegisName: RGX_Hode_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Earth,30;
+    bonus bFlee,5;
+- Id: 1200081
+  Name: Desert Wolf Card
+  AegisName: RGX_Desert_Wolf_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddSize,Size_Small,15;
+    bonus bBaseAtk,5;
+- Id: 1200082
+  Name: Rafflesia Card
+  AegisName: RGX_Rafflesia_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_Fish,30;
+- Id: 1200083
+  Name: Marine Sphere Card
+  AegisName: RGX_Marine_Sphere_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    skill "SM_MAGNUM",3;
+- Id: 1200084
+  Name: Orc Skeleton Card
+  AegisName: RGX_Orc_Skeleton_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEle,Ele_Holy,20;
+- Id: 1200085
+  Name: Soldier Skeleton Card
+  AegisName: RGX_Soldier_Skeleton_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bCritical,9;
+- Id: 1200086
+  Name: Giearth Card
+  AegisName: RGX_Giearth_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bResEff,Eff_Confusion,10000;
+    bonus2 bSubEle,Ele_Earth,15;
+- Id: 1200087
+  Name: Frilldora Card
+  AegisName: RGX_Frilldora_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    skill "AS_CLOAKING",1;
+  UnEquipScript: |
+    sc_end SC_CLOAKING;
+- Id: 1200088
+  Name: Swordfish Card
+  AegisName: RGX_Sword_Fish_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDefEle,Ele_Water;
+    bonus bDef,1;
+- Id: 1200089
+  Name: Munak Card
+  AegisName: RGX_Munak_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bResEff,Eff_Stone,1500;
+    bonus2 bSubEle,Ele_Earth,5;
+    bonus bDef,1;
+- Id: 1200090
+  Name: Kobold Card
+  AegisName: RGX_Kobold_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bStr,1;
+    bonus bCritical,4;
+- Id: 1200091
+  Name: Skeleton Worker Card
+  AegisName: RGX_Skel_Worker_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddSize,Size_Medium,15;
+    bonus bBaseAtk,5;
+- Id: 1200092
+  Name: Obeaune Card
+  AegisName: RGX_Obeaune_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    skill "AL_CURE",1;
+- Id: 1200093
+  Name: Archer Skeleton Card
+  AegisName: RGX_Archer_Skeleton_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bLongAtkRate,10;
+- Id: 1200094
+  Name: Marse Card
+  AegisName: RGX_Marse_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Water,30;
+    bonus bFlee,5;
+- Id: 1200095
+  Name: Zenorc Card
+  AegisName: RGX_Zenorc_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEff,Eff_Poison,400;
+    bonus bBaseAtk,10;
+- Id: 1200096
+  Name: Matyr Card
+  AegisName: RGX_Matyr_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMaxHPrate,10;
+    bonus bAgi,1;
+- Id: 1200097
+  Name: Dokebi Card
+  AegisName: RGX_Dokebi_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDefEle,Ele_Wind;
+    bonus bDef,1;
+- Id: 1200098
+  Name: Pasana Card
+  AegisName: RGX_Pasana_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDefEle,Ele_Fire;
+    bonus bDef,1;
+- Id: 1200099
+  Name: Sohee Card
+  AegisName: RGX_Sohee_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMaxSPrate,15;
+    bonus bSPrecovRate,3;
+- Id: 1200100
+  Name: Sandman Card
+  AegisName: RGX_Sand_Man_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDefEle,Ele_Earth;
+    bonus bDef,1;
+- Id: 1200101
+  Name: Whisper Card
+  AegisName: RGX_Whisper_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bFlee,20;
+    bonus2 bSubEle,Ele_Ghost,-50;
+- Id: 1200102
+  Name: Horong Card
+  AegisName: RGX_Horong_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    skill "MG_SIGHT",1;
+  UnEquipScript: |
+    sc_end SC_SIGHT;
+- Id: 1200103
+  Name: Requiem Card
+  AegisName: RGX_Requiem_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEff,Eff_Confusion,500;
+- Id: 1200104
+  Name: Marc Card
+  AegisName: RGX_Marc_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Water,5;
+    bonus2 bResEff,Eff_Freeze,10000;
+- Id: 1200105
+  Name: Mummy Card
+  AegisName: RGX_Mummy_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bHit,20;
+- Id: 1200106
+  Name: Verit Card
+  AegisName: RGX_Verit_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMaxHPrate,8;
+    bonus bMaxSPrate,8;
+- Id: 1200107
+  Name: Myst Card
+  AegisName: RGX_Myst_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Poison,30;
+    bonus bFlee,5;
+- Id: 1200108
+  Name: Jakk Card
+  AegisName: RGX_Jakk_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Fire,30;
+    bonus bFlee,5;
+- Id: 1200109
+  Name: Ghoul Card
+  AegisName: RGX_Ghoul_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bResEff,Eff_Poison,2000;
+    bonus bDef,1;
+- Id: 1200110
+  Name: Strouf Card
+  AegisName: RGX_Strouf_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddRace,RC_Demon,20;
+- Id: 1200111
+  Name: Marduk Card
+  AegisName: RGX_Marduk_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bResEff,Eff_Silence,10000;
+- Id: 1200112
+  Name: Marionette Card
+  AegisName: RGX_Marionette_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Ghost,30;
+    bonus bFlee,5;
+- Id: 1200113
+  Name: Argiope Card
+  AegisName: RGX_Argiope_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDefEle,Ele_Poison;
+    bonus bDef,1;
+- Id: 1200114
+  Name: Hunter Fly Card
+  AegisName: RGX_Hunter_Fly_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bHPDrainRate,30,15;
+- Id: 1200115
+  Name: Isis Card
+  AegisName: RGX_Isis_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Shadow,30;
+    bonus bFlee,5;
+- Id: 1200116
+  Name: Sidewinder Card
+  AegisName: RGX_Side_Winder_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    skill "TF_DOUBLE",1;
+- Id: 1200117
+  Name: Earth Petite Card
+  AegisName: RGX_Petit_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddRace,RC_Dragon,20;
+- Id: 1200118
+  Name: Bathory Card
+  AegisName: RGX_Bathory_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDefEle,Ele_Shadow;
+- Id: 1200119
+  Name: Sky Petite Card
+  AegisName: RGX_Petit__Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_Dragon,30;
+- Id: 1200120
+  Name: Phreeoni Card
+  AegisName: RGX_Phreeoni_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bHit,100;
+- Id: 1200121
+  Name: Deviruchi Card
+  AegisName: RGX_Deviruchi_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bStr,1;
+    bonus2 bResEff,Eff_Blind,10000;
+- Id: 1200122
+  Name: Eddga Card
+  AegisName: RGX_Eddga_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMaxHPrate,-25;
+    bonus bNoWalkDelay;
+- Id: 1200123
+  Name: Medusa Card
+  AegisName: RGX_Medusa_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_Demon,15;
+    bonus2 bResEff,Eff_Stone,10000;
+- Id: 1200124
+  Name: Deviace Card
+  AegisName: RGX_Deviace_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddRace,RC_DemiHuman,7;
+    bonus2 bAddRace,RC_Player_Human,7;
+    bonus2 bAddRace,RC_Brute,7;
+    bonus2 bAddRace,RC_Player_Doram,7;
+    bonus2 bAddRace,RC_Plant,7;
+    bonus2 bAddRace,RC_Insect,7;
+- Id: 1200125
+  Name: Minorous Card
+  AegisName: RGX_Minorous_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddSize,Size_Large,15;
+    bonus bBaseAtk,5;
+- Id: 1200126
+  Name: Nightmare Card
+  AegisName: RGX_Nightmare_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bResEff,Eff_Sleep,10000;
+    bonus bAgi,1;
+- Id: 1200127
+  Name: Golden Thief Bug Card
+  AegisName: RGX_Golden_Bug_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bNoMagicDamage,100;
+    bonus bUseSPrate,-100;
+- Id: 1200128
+  Name: Bapho Jr. Card
+  AegisName: RGX_Baphomet__Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bAgi,3;
+    bonus bCritical,1;
+- Id: 1200129
+  Name: Scorpion King Card
+  AegisName: RGX_Scorpion_King_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEle,Ele_Decay,20;
+- Id: 1200130
+  Name: Moonlight Flower Card
+  AegisName: RGX_Moonlight_Flower_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bSpeedRate,25;
+- Id: 1200131
+  Name: Mistress Card
+  AegisName: RGX_Mistress_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bNoGemStone;
+    bonus bUseSPrate,-25;
+- Id: 1200132
+  Name: Raydric Card
+  AegisName: RGX_Daydric_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Neutral,20;
+- Id: 1200133
+  Name: Dracula Card
+  AegisName: RGX_Dracula_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSPDrainRate,100,5;
+- Id: 1200134
+  Name: Orc Lord Card
+  AegisName: RGX_Orc_Load_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bShortWeaponDamageReturn,30;
+- Id: 1200135
+  Name: Khalitzburg Card
+  AegisName: RGX_Khalitzburg_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_Demon,30;
+- Id: 1200136
+  Name: Drake Card
+  AegisName: RGX_Drake_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bNoSizeFix;
+- Id: 1200137
+  Name: Anubis Card
+  AegisName: RGX_Anubis_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_Angel,30;
+- Id: 1200138
+  Name: Joker Card
+  AegisName: RGX_Joker_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    skill "TF_STEAL",1;
+- Id: 1200139
+  Name: Abysmal Knight Card
+  AegisName: RGX_Knight_Of_Abyss_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddClass,Class_Boss,25;
+- Id: 1200140
+  Name: Evil Druid Card
+  AegisName: RGX_Evil_Druid_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDefEle,Ele_Decay;
+    bonus bInt,1;
+    bonus bDef,1;
+- Id: 1200141
+  Name: Doppelganger Card
+  AegisName: RGX_Doppelganger_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bAspdRate,10;
+- Id: 1200142
+  Name: Orc Hero Card
+  AegisName: RGX_Orc_Hero_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bVit,3;
+    bonus2 bResEff,Eff_Stun,10000;
+- Id: 1200143
+  Name: Osiris Card
+  AegisName: RGX_Osiris_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bRestartFullRecover;
+- Id: 1200144
+  Name: Berzebub Card
+  AegisName: RGX_Berzebub_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bCastrate,-300;
+- Id: 1200145
+  Name: Maya Card
+  AegisName: RGX_Maya_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMagicDamageReturn,50;
+- Id: 1200146
+  Name: Baphomet Card
+  AegisName: RGX_Baphomet_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bHit,-10;
+    bonus bSplashRange,1;
+- Id: 1200147
+  Name: Pharaoh Card
+  AegisName: RGX_Pharaoh_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bUseSPrate,30;
+- Id: 1200148
+  Name: Gargoyle Card
+  AegisName: RGX_Gargoyle_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAddMonsterDropItem,12028,RC_Insect,100;
+- Id: 1200149
+  Name: Goat Card
+  AegisName: RGX_Goat_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    if (getrefine()<6) {
+       bonus bDef,2;
+       bonus bMdef,5;
+    }
+- Id: 1200150
+  Name: Gajomart Card
+  AegisName: RGX_Gajomart_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_Plant,-20;
+    bonus2 bExpAddRace,RC_Plant,10;
+- Id: 1200151
+  Name: Galapago Card
+  AegisName: RGX_Galapago_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddItemGroupHealRate,IG_Juice,50;
+    bonus3 bAddMonsterDropItem,531,RC_Insect,300;
+    bonus3 bAddMonsterDropItem,532,RC_Insect,300;
+    bonus3 bAddMonsterDropItem,534,RC_Insect,300;
+- Id: 1200152
+  Name: Crab Card
+  AegisName: RGX_Crab_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBaseAtk,5;
+    bonus2 bAddDamageClass,1266,30;
+- Id: 1200153
+  Name: Dumpling Child Card
+  AegisName: RGX_Rice_Cake_Boy_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddItemGroupHealRate,IG_Candy,50;
+    bonus3 bAddMonsterDropItem,529,RC_DemiHuman,300;
+    bonus3 bAddMonsterDropItem,530,RC_DemiHuman,100;
+- Id: 1200154
+  Name: Goblin Leader Card
+  AegisName: RGX_Goblin_Leader_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddRace2,RC2_Goblin,30;
+- Id: 1200155
+  Name: Goblin Steamrider Card
+  AegisName: RGX_Steam_Goblin_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bCritAtk,10;
+    bonus2 bCriticalAddRace,RC_Formless,7;
+- Id: 1200156
+  Name: Goblin Archer Card
+  AegisName: RGX_Goblin_Archer_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bCritAtk,10;
+    bonus2 bCriticalAddRace,RC_Undead,7;
+- Id: 1200157
+  Name: Sky Deleter Card
+  AegisName: RGX_Flying_Deleter_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bHPrecovRate,-100;
+    bonus bHPGainValue,100;
+- Id: 1200158
+  Name: Nine Tail Card
+  AegisName: RGX_Nine_Tail_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bAgi,2;
+    if (getrefine()>8)
+       bonus bFlee,20;
+- Id: 1200159
+  Name: Firelock Soldier Card
+  AegisName: RGX_Antique_Firelock_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bStr,2;
+    if (getrefine()>8) {
+       bonus bMaxHPrate,10;
+       bonus bMaxSPrate,10;
+    }
+- Id: 1200160
+  Name: Grand Peco Card
+  AegisName: RGX_Grand_Peco_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpellWhenHit,"PR_GLORIA",1,50;
+- Id: 1200161
+  Name: Grizzly Card
+  AegisName: RGX_Grizzly_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEffWhenHit,Eff_Blind,300;
+- Id: 1200162
+  Name: Gryphon Card
+  AegisName: RGX_Gryphon_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bFlee,2;
+    bonus bCritical,7;
+    if (BaseClass == Job_Swordman)
+       bonus3 bAutoSpell,"KN_BOWLINGBASH",5,10;
+- Id: 1200163
+  Name: Gullinbursti Card
+  AegisName: RGX_Gullinbursti_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_Fish,-20;
+    bonus2 bExpAddRace,RC_Fish,10;
+- Id: 1200164
+  Name: Gig Card
+  AegisName: RGX_Gig_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSPGainRace,RC_Insect,5;
+  UnEquipScript: |
+    heal 0,-5;
+- Id: 1200165
+  Name: Nightmare Terror Card
+  AegisName: RGX_Nightmare_Terror_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEffWhenHit,Eff_Curse,300;
+- Id: 1200166
+  Name: Nereid Card
+  AegisName: RGX_Neraid_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSPGainRace,RC_Brute,5;
+    bonus2 bSPGainRace,RC_Player_Doram,5;
+  UnEquipScript: |
+    heal 0,-5;
+- Id: 1200167
+  Name: Dark Lord Card
+  AegisName: RGX_Dark_Lord_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpellWhenHit,"WZ_METEOR",5,100;
+- Id: 1200168
+  Name: Dark Illusion Card
+  AegisName: RGX_Dark_Illusion_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMaxHPrate,-10;
+    bonus bMaxSPrate,-10;
+    bonus bCastrate,-100;
+- Id: 1200169
+  Name: Dark Frame Card
+  AegisName: RGX_Dark_Frame_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEffWhenHit,Eff_Stone,600;
+- Id: 1200170
+  Name: Dark Priest Card
+  AegisName: RGX_Dark_Priest_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSPVanishRate,50,10;
+    if (BaseJob == Job_Sage)
+       bonus bSPDrainValue,1;
+- Id: 1200171
+  Name: The Paper Card
+  AegisName: RGX_The_Paper_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bCritAtk,20;
+    bonus bSPDrainValue,-1;
+- Id: 1200172
+  Name: Demon Pungus Card
+  AegisName: RGX_Demon_Pungus_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEffWhenHit,Eff_Sleep,600;
+- Id: 1200173
+  Name: Deviling Card
+  AegisName: RGX_Deviling_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Neutral,50;
+    bonus2 bSubEle,Ele_Water,-50;
+    bonus2 bSubEle,Ele_Earth,-50;
+    bonus2 bSubEle,Ele_Fire,-50;
+    bonus2 bSubEle,Ele_Wind,-50;
+    bonus2 bSubEle,Ele_Poison,-50;
+    bonus2 bSubEle,Ele_Holy,-50;
+    bonus2 bSubEle,Ele_Shadow,-50;
+    bonus2 bSubEle,Ele_Ghost,-50;
+    bonus2 bSubEle,Ele_Decay,-50;
+- Id: 1200174
+  Name: Poisonous Toad Card
+  AegisName: RGX_Poison_Toad_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpell,"TF_POISON",1,20;
+    bonus2 bAddSkillBlow,52,5;
+- Id: 1200175
+  Name: Dullahan Card
+  AegisName: RGX_Dullahan_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bCritAtk,10;
+    bonus2 bCriticalAddRace,RC_Dragon,7;
+- Id: 1200176
+  Name: Dryad Card
+  AegisName: RGX_Dryad_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAddMonsterDropItem,993,RC_Plant,100;
+    bonus2 bSubEle,Ele_Earth,10;
+- Id: 1200177
+  Name: Dragon Tail Card
+  AegisName: RGX_Dragon_Tail_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bAgi,1;
+    bonus bFlee,10;
+    bonus2 bSkillAtk,"AC_DOUBLE",5;
+    bonus2 bSkillAtk,"AC_SHOWER",5;
+- Id: 1200178
+  Name: Dragon Fly Card
+  AegisName: RGX_Dragon_Fly_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bAgi,1;
+- Id: 1200179
+  Name: Driller Card
+  AegisName: RGX_Driller_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSPGainRace,RC_Dragon,5;
+  UnEquipScript: |
+    heal 0,-5;
+- Id: 1200180
+  Name: Disguise Card
+  AegisName: RGX_Disguise_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEffWhenHit,Eff_Silence,300+600*(readparam(bVit)>=77);
+- Id: 1200181
+  Name: Diabolic Card
+  AegisName: RGX_Diabolic_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSPGainRace,RC_Demon,5;
+  UnEquipScript: |
+    heal 0,-5;
+- Id: 1200182
+  Name: Vagabond Wolf Card
+  AegisName: RGX_Vagabond_Wolf_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bStr,1;
+- Id: 1200183
+  Name: Lava Golem Card
+  AegisName: RGX_Lava_Golem_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddRace2,RC2_Golem,30;
+- Id: 1200184
+  Name: Rideword Card
+  AegisName: RGX_Rideword_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bInt,1;
+    if (BaseClass == Job_Acolyte) {
+       bonus bInt,1;
+       bonus bMdef,1;
+    }
+- Id: 1200185
+  Name: Raggler Card
+  AegisName: RGX_Raggler_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bStr,1;
+    bonus bVit,1;
+- Id: 1200186
+  Name: Raydric Archer Card
+  AegisName: RGX_Raydric_Archer_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAddMonsterDropItem,12030,RC_Demon,100;
+- Id: 1200187
+  Name: Leib Olmai Card
+  AegisName: RGX_Leib_Olmai_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Fire,10;
+    bonus3 bAddMonsterDropItem,990,RC_Brute,100;
+- Id: 1200188
+  Name: Wraith Dead Card
+  AegisName: RGX_Wraith_Dead_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEffWhenHit,Eff_Curse,600;
+- Id: 1200189
+  Name: Wraith Card
+  AegisName: RGX_Wraith_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAddMonsterDropItem,12027,RC_Undead,100;
+- Id: 1200190
+  Name: Loli Ruri Card
+  AegisName: RGX_Loli_Ruri_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpellWhenHit,"AL_HEAL",3,50;
+- Id: 1200191
+  Name: Rotar Zairo Card
+  AegisName: RGX_Rotar_Zairo_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bCritAtk,10;
+    bonus2 bCriticalAddRace,RC_Fish,7;
+- Id: 1200192
+  Name: Lude Card
+  AegisName: RGX_Lude_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    if (BaseJob == Job_Novice || BaseJob == Job_SuperNovice)
+       bonus3 bAutoSpellWhenHit,"SM_ENDURE",1,200;
+- Id: 1200193
+  Name: Rybio Card
+  AegisName: RGX_Rybio_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEffWhenHit,Eff_Stun,300+600*(readparam(bDex)>=77);
+- Id: 1200194
+  Name: Leaf Cat Card
+  AegisName: RGX_Leaf_Cat_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Water,10;
+    bonus3 bAddMonsterDropItem,991,RC_Fish,100;
+- Id: 1200195
+  Name: Marin Card
+  AegisName: RGX_Marin_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddMonsterDropItem,909,2000;
+    bonus2 bAddMonsterDropItem,7126,10;
+- Id: 1200196
+  Name: Mastering Card
+  AegisName: RGX_Mastering_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bLuk,1;
+- Id: 1200197
+  Name: Maya Purple Card
+  AegisName: RGX_Maya_Puple_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bIntravision;
+- Id: 1200198
+  Name: Merman Card
+  AegisName: RGX_Merman_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bHPrecovRate,10;
+    bonus bSPrecovRate,10;
+- Id: 1200199
+  Name: Megalith Card
+  AegisName: RGX_Megalith_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    if (getrefine()<6)
+       bonus bMdef,7;
+- Id: 1200200
+  Name: Majoruros Card
+  AegisName: RGX_Majoruros_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEffWhenHit,Eff_Stun,600;
+- Id: 1200201
+  Name: Mao Guai Card
+  AegisName: RGX_Civil_Servant_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEle,Ele_Ghost,20;
+- Id: 1200202
+  Name: Mutant Dragonoid Card
+  AegisName: RGX_Mutant_Dragon_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBaseAtk,15;
+    bonus3 bAutoSpell,"MG_FIREBALL",3+2*(getskilllv("MG_FIREBALL") == 10),50;
+- Id: 1200203
+  Name: Mini Demon Card
+  AegisName: RGX_Mini_Demon_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_Brute,-20;
+    bonus2 bSubRace,RC_Player_Doram,-20;
+    bonus2 bExpAddRace,RC_Brute,10;
+- Id: 1200204
+  Name: Mimic Card
+  AegisName: RGX_Mimic_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddMonsterDropItem,603,10;
+- Id: 1200205
+  Name: Myst Case Card
+  AegisName: RGX_Mystcase_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddMonsterDropItem,644,30;
+- Id: 1200206
+  Name: Mysteltainn Card
+  AegisName: RGX_Mysteltainn_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubSize,Size_Small,25;
+    bonus bDef,1;
+- Id: 1200207
+  Name: Miyabi Doll Card
+  AegisName: RGX_Miyabi_Ningyo_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMaxSPrate,10;
+    bonus2 bSkillAtk,"MG_FROSTDIVER",5;
+- Id: 1200208
+  Name: Violy Card
+  AegisName: RGX_Violy_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpell,"BA_FROSTJOKER",1+4*(getskilllv("BA_FROSTJOKER") == 5),20;
+- Id: 1200209
+  Name: Wanderer Card
+  AegisName: RGX_Wander_Man_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    if (!isequipped(4172,4257,4230,4272))
+       bonus3 bAutoSpell,"RG_INTIMIDATE",1,20;
+    if (BaseClass == Job_Thief)
+       bonus bFlee,20;
+- Id: 1200210
+  Name: Vocal Card
+  AegisName: RGX_Vocal_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMdef,3;
+- Id: 1200211
+  Name: Bongun Card
+  AegisName: RGX_Bon_Gun_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpell,"SM_BASH",1,20;
+    bonus2 bAddSkillBlow,"SM_BASH",5;
+    bonus2 bAddDefMonster,1026,-100;
+- Id: 1200212
+  Name: Brilight Card
+  AegisName: RGX_Brilight_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEffWhenHit,Eff_Silence,600;
+- Id: 1200213
+  Name: Bloody Murderer Card
+  AegisName: RGX_Bloody_Murderer_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bCritAtk,10;
+    bonus2 bCriticalAddRace,RC_Insect,7;
+- Id: 1200214
+  Name: Blazer Card
+  AegisName: RGX_Blazzer_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddMonsterDropItemGroup,IG_Food,600;
+- Id: 1200215
+  Name: Sasquatch Card
+  AegisName: RGX_Sasquatch_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEffWhenHit,Eff_Freeze,600;
+- Id: 1200216
+  Name: Enchanted Peach Tree Card
+  AegisName: RGX_Live_Peach_Tree_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpell,"AL_HEAL",1+9*(getskilllv("AL_HEAL") == 10),20;
+- Id: 1200217
+  Name: Succubus Card
+  AegisName: RGX_Succubus_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bVit,-3;
+    bonus bHPrecovRate,-20;
+    bonus bMaxHP,1000;
+- Id: 1200218
+  Name: Sage Worm Card
+  AegisName: RGX_Sageworm_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddMonsterDropItem,715,30;
+    bonus2 bAddMonsterDropItem,716,30;
+    bonus2 bAddMonsterDropItem,717,30;
+- Id: 1200219
+  Name: Solider Card
+  AegisName: RGX_Solider_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDef,2;
+    bonus bMdef,2;
+- Id: 1200220
+  Name: Skeleton General Card
+  AegisName: RGX_Skeleton_General_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_Insect,-20;
+    bonus2 bExpAddRace,RC_Insect,10;
+- Id: 1200221
+  Name: Skeleton Prisoner Card
+  AegisName: RGX_Skel_Prisoner_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEffWhenHit,Eff_Sleep,300;
+- Id: 1200222
+  Name: Stalactic Golem Card
+  AegisName: RGX_Stalactic_Golem_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDef,1;
+    bonus2 bResEff,Eff_Stun,2000;
+- Id: 1200223
+  Name: Stem Worm Card
+  AegisName: RGX_Stem_Worm_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAddMonsterDropItem,12032,RC_Brute,100;
+- Id: 1200224
+  Name: Stone Shooter Card
+  AegisName: RGX_Stone_Shooter_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBaseAtk,10;
+    bonus bHit,10;
+- Id: 1200225
+  Name: Sting Card
+  AegisName: RGX_Sting_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDef,2;
+    if (getrefine()>8)
+       bonus bMdef,5;
+- Id: 1200226
+  Name: Spring Rabbit Card
+  AegisName: RGX_Spring_Rabbit_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddItemGroupHealRate,IG_Meat,50;
+    bonus3 bAddMonsterDropItem,517,RC_Brute,200;
+    bonus3 bAddMonsterDropItem,528,RC_Brute,200;
+- Id: 1200227
+  Name: Sleeper Card
+  AegisName: RGX_Sleeper_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAddMonsterDropItem,12031,RC_Fish,100;
+- Id: 1200228
+  Name: Tower Keeper Card
+  AegisName: RGX_C_Tower_Manager_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bInt,1;
+    bonus bCastrate,-50;
+- Id: 1200229
+  Name: Shinobi Card
+  AegisName: RGX_Shinobi_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bAgi,1;
+    bonus3 bAutoSpellWhenHit,"AS_CLOAKING",5,100;
+- Id: 1200230
+  Name: Mi Gao Card
+  AegisName: RGX_Increase_Soil_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddDefMonster,1285,-50;
+    bonus2 bAddDefMonster,1286,-50;
+    bonus2 bAddDefMonster,1287,-50;
+    bonus2 bAddDefMonster,1899,-50;
+    bonus2 bAddDefMonster,1900,-50;
+- Id: 1200231
+  Name: Hermit Plant Card
+  AegisName: RGX_Wild_Ginseng_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddItemGroupHealRate,IG_Herb,50;
+    bonus3 bAddMonsterDropItem,507,RC_Plant,300;
+    bonus3 bAddMonsterDropItem,508,RC_Plant,200;
+    bonus3 bAddMonsterDropItem,509,RC_Plant,100;
+- Id: 1200232
+  Name: Baby Leopard Card
+  AegisName: RGX_Baby_Leopard_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bLuk,3;
+    if (BaseClass == Job_Merchant)
+       bonus bUnbreakableArmor;
+- Id: 1200233
+  Name: Anolian Card
+  AegisName: RGX_Anolian_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpellWhenHit,"AC_CONCENTRATION",1+9*(getskilllv("AC_CONCENTRATION") == 10),30;
+- Id: 1200234
+  Name: Christmas Cookie Card
+  AegisName: RGX_Cookie_XMAS_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_Angel,-20;
+    bonus2 bExpAddRace,RC_Angel,10;
+- Id: 1200235
+  Name: Amon Ra Card
+  AegisName: RGX_Amon_Ra_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bAllStats,1;
+    bonus3 bAutoSpellWhenHit,"PR_KYRIE",10,(30+70*(readparam(bInt)>=99));
+- Id: 1200236
+  Name: Owl Duke Card
+  AegisName: RGX_Owl_Duke_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpell,"PR_IMPOSITIO",3,3;
+- Id: 1200237
+  Name: Owl Baron Card
+  AegisName: RGX_Owl_Baron_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpell,"PR_LEXAETERNA",1,30;
+- Id: 1200238
+  Name: Iron Fist Card
+  AegisName: RGX_Iron_Fist_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_Formless,-20;
+    bonus2 bExpAddRace,RC_Formless,10;
+- Id: 1200239
+  Name: Arclouze Card
+  AegisName: RGX_Arclouse_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    if (getrefine()<6) {
+       bonus bDef,2;
+       bonus bMdef,3;
+    }
+- Id: 1200240
+  Name: Arc Angeling Card
+  AegisName: RGX_Archangeling_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMaxHP,300;
+    if (readparam(bLuk)>=77) {
+       bonus bHPrecovRate,100;
+       bonus bSPrecovRate,100;
+    }
+- Id: 1200241
+  Name: Apocalipse Card
+  AegisName: RGX_Apocalips_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bVit,2;
+    if (getrefine()>8)
+       bonus bMaxHP,800;
+- Id: 1200242
+  Name: Antonio Card
+  AegisName: RGX_Antonio_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpellWhenHit,"AL_TELEPORT",1,500;
+- Id: 1200243
+  Name: Alarm Card
+  AegisName: RGX_Alarm_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpellWhenHit,"MG_SIGHT",1,200;
+    bonus bMaxHP,300;
+    bonus bVit,1;
+- Id: 1200244
+  Name: Am Mut Card
+  AegisName: RGX_Am_Mut_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_DemiHuman,-20;
+    bonus2 bSubRace,RC_Player_Human,-20;
+    bonus2 bExpAddRace,RC_DemiHuman,10;
+- Id: 1200245
+  Name: Assaulter Card
+  AegisName: RGX_Assulter_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bCritAtk,10;
+    bonus2 bCriticalAddRace,RC_DemiHuman,7;
+    bonus2 bCriticalAddRace,RC_Player_Human,7;
+- Id: 1200246
+  Name: Aster Card
+  AegisName: RGX_Aster_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBaseAtk,5;
+    bonus2 bAddDamageClass,1074,30;
+- Id: 1200247
+  Name: Ancient Mummy Card
+  AegisName: RGX_Ancient_Mummy_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpellWhenHit,"AL_CRUCIS",5,30;
+- Id: 1200248
+  Name: Ancient Worm Card
+  AegisName: RGX_Ancient_Worm_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_Demon,-20;
+    bonus2 bExpAddRace,RC_Demon,10;
+- Id: 1200249
+  Name: Executioner Card
+  AegisName: RGX_Executioner_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubSize,Size_Large,25;
+    bonus bDef,1;
+- Id: 1200250
+  Name: Elder Card
+  AegisName: RGX_Elder_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddDamageClass,1285,40;
+    bonus2 bAddDamageClass,1286,40;
+    bonus2 bAddDamageClass,1287,40;
+    bonus2 bAddDamageClass,1899,40;
+    bonus2 bAddDamageClass,1900,40;
+- Id: 1200251
+  Name: Alligator Card
+  AegisName: RGX_Alligator_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bLongAtkDef,5;
+- Id: 1200252
+  Name: Alice Card
+  AegisName: RGX_Alice_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubClass,Class_Boss,40;
+    bonus2 bSubClass,Class_Normal,-40;
+- Id: 1200253
+  Name: Ogretooth Card
+  AegisName: RGX_Tirfing_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubSize,Size_Medium,25;
+    bonus bDef,1;
+- Id: 1200254
+  Name: Orc Lady Card
+  AegisName: RGX_Orc_Lady_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddRace2,3,30;
+- Id: 1200255
+  Name: Orc Archer Card
+  AegisName: RGX_Orc_Archer_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAddMonsterDropItem,12034,RC_DemiHuman,100;
+- Id: 1200256
+  Name: Wild Rose Card
+  AegisName: RGX_Wild_Rose_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bAgi,1;
+    if (BaseClass == Job_Thief)
+       bonus bFlee2,5;
+- Id: 1200257
+  Name: Evil Nymph Card
+  AegisName: RGX_Wicked_Nymph_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bInt,1;
+    bonus bMaxSP,50;
+- Id: 1200258
+  Name: Wooden Golem Card
+  AegisName: RGX_Wooden_Golem_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDef,1;
+    bonus bHPrecovRate,30;
+- Id: 1200259
+  Name: Wootan Shooter Card
+  AegisName: RGX_Wootan_Shooter_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDef,1;
+    bonus2 bResEff,Eff_Confusion,2000;
+- Id: 1200260
+  Name: Wootan Fighter Card
+  AegisName: RGX_Wootan_Fighter_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDef,1;
+    bonus2 bResEff,Eff_Bleeding,2000;
+- Id: 1200261
+  Name: Cloud Hermit Card
+  AegisName: RGX_Evil_Cloud_Hermit_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAddMonsterDropItem,12029,RC_Plant,100;
+- Id: 1200262
+  Name: Samurai Spector Card
+  AegisName: RGX_Incant_Samurai_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bIgnoreDefClass,Class_Normal;
+    bonus bHPrecovRate,-100;
+    bonus2 bHPLossRate,666,10000;
+  UnEquipScript: |
+    if (Hp <= 999 && !getmapflag(strcharinfo(3),mf_pvp) && !getmapflag(strcharinfo(3),mf_pvp_noparty) && !getmapflag(strcharinfo(3),mf_pvp_noguild)) {
+       heal (1-Hp),0;
+    }
+    else {
+       heal -999,0;
+    }
+- Id: 1200263
+  Name: Wind Ghost Card
+  AegisName: RGX_Wind_Ghost_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpell,"WZ_JUPITEL",3+7*(getskilllv("WZ_JUPITEL") == 10),20;
+- Id: 1200264
+  Name: Jing Guai Card
+  AegisName: RGX_Li_Me_Mang_Ryang_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAddMonsterDropItem,12033,RC_Angel,100;
+- Id: 1200265
+  Name: Eclipse Card
+  AegisName: RGX_Eclipse_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bVit,1;
+- Id: 1200266
+  Name: Explosion Card
+  AegisName: RGX_Explosion_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_Dragon,-20;
+    bonus2 bExpAddRace,RC_Dragon,10;
+- Id: 1200267
+  Name: Injustice Card
+  AegisName: RGX_Injustice_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpell,"AS_SONICBLOW",1,50;
+- Id: 1200268
+  Name: Incubus Card
+  AegisName: RGX_Incubus_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bInt,-3;
+    bonus bSPrecovRate,-20;
+    bonus bMaxSP,150;
+- Id: 1200269
+  Name: Giant Spider Card
+  AegisName: RGX_Giant_Spider_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEffWhenHit,Eff_Poison,600;
+- Id: 1200270
+  Name: Giant Hornet Card
+  AegisName: RGX_Giant_Honet_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Wind,10;
+    bonus3 bAddMonsterDropItem,992,RC_Insect,100;
+- Id: 1200271
+  Name: Zhu Po Long Card
+  AegisName: RGX_Dancing_Dragon_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bAgi,1;
+    bonus bCritical,3;
+- Id: 1200272
+  Name: Shell Fish Card
+  AegisName: RGX_Shellfish_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBaseAtk,5;
+    bonus2 bAddDamageClass,1073,30;
+- Id: 1200273
+  Name: Zombie Master Card
+  AegisName: RGX_Zombie_Master_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSPGainRace,RC_Undead,5;
+  UnEquipScript: |
+    heal 0,-5;
+- Id: 1200274
+  Name: Zombie Prisoner Card
+  AegisName: RGX_Zombie_Prisoner_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_Undead,-20;
+    bonus2 bExpAddRace,RC_Undead,10;
+- Id: 1200275
+  Name: Lord of The Dead Card
+  AegisName: RGX_Lord_Of_Death_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAddEff,Eff_Stun,500,ATF_SHORT;
+    bonus3 bAddEff,Eff_Curse,500,ATF_SHORT;
+    bonus3 bAddEff,Eff_Silence,500,ATF_SHORT;
+    bonus3 bAddEff,Eff_Poison,500,ATF_SHORT;
+    bonus3 bAddEff,Eff_Bleeding,500,ATF_SHORT;
+    bonus2 bComaClass,Class_Normal,1;
+- Id: 1200276
+  Name: Zealotus Card
+  AegisName: RGX_Zherlthsh_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bLuk,2;
+    bonus2 bSkillAtk,"BA_MUSICALSTRIKE",10;
+    bonus2 bSkillAtk,"DC_THROWARROW",10;
+- Id: 1200277
+  Name: Gibbet Card
+  AegisName: RGX_Gibbet_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    if (getrefine()<6)
+       bonus bMdef,5;
+- Id: 1200278
+  Name: Earth Deleter Card
+  AegisName: RGX_Deleter_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bSPrecovRate,-100;
+    bonus bSPGainValue,10;
+  UnEquipScript: |
+    heal 0,-100;
+- Id: 1200279
+  Name: Geographer Card
+  AegisName: RGX_Geographer_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpellWhenHit,"AL_BLESSING",2+8*(getskilllv("AL_BLESSING") == 10),30;
+- Id: 1200280
+  Name: Zipper Bear Card
+  AegisName: RGX_Zipper_Bear_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBaseAtk,30;
+    bonus bSPDrainValue,-1;
+    if (BaseClass == Job_Merchant)
+       bonus bUnbreakableWeapon;
+- Id: 1200281
+  Name: Tengu Card
+  AegisName: RGX_Tengu_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddMonsterDropItemGroup,IG_Recovery,600;
+- Id: 1200282
+  Name: Greatest General Card
+  AegisName: RGX_Greatest_General_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpell,"MO_CALLSPIRITS",5,2+18*(BaseClass == Job_Acolyte);
+- Id: 1200283
+  Name: Chepet Card
+  AegisName: RGX_Chepet_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus4 bAutoSpell,"AL_HEAL",5,50,1;
+- Id: 1200284
+  Name: Choco Card
+  AegisName: RGX_Choco_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bFlee2,5;
+    bonus bFlee,10;
+- Id: 1200285
+  Name: Karakasa Card
+  AegisName: RGX_Karakasa_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEffWhenHit,Eff_Confusion,300+600*(readparam(bStr)>=77);
+- Id: 1200286
+  Name: Kapha Card
+  AegisName: RGX_Kapha_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    if (getrefine()<6)
+       bonus bMdef,8;
+- Id: 1200287
+  Name: Carat Card
+  AegisName: RGX_Carat_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bInt,2;
+    if (getrefine()>8)
+       bonus bMaxSP,150;
+- Id: 1200288
+  Name: Caterpillar Card
+  AegisName: RGX_Caterpillar_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSPGainRace,RC_Plant,5;
+  UnEquipScript: |
+    heal 0,-5;
+- Id: 1200289
+  Name: Cat O' Nine Tails Card
+  AegisName: RGX_Cat_O_Nine_Tail_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMdef,3;
+    bonus bMagicDamageReturn,5;
+- Id: 1200290
+  Name: Kobold Leader Card
+  AegisName: RGX_Kobold_Leader_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddRace2,RC2_Kobold,30;
+- Id: 1200291
+  Name: Kobold Archer Card
+  AegisName: RGX_Kobold_Archer_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bCritAtk,10;
+    bonus2 bCriticalAddRace,RC_Plant,7;
+- Id: 1200292
+  Name: Cookie Card
+  AegisName: RGX_Cookie_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bLuk,2;
+    bonus2 bSkillAtk,"AL_HOLYLIGHT",10;
+- Id: 1200293
+  Name: Quve Card
+  AegisName: RGX_Quve_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    if (BaseJob == Job_Novice || BaseJob == Job_SuperNovice)
+       bonus3 bAutoSpellWhenHit,"AL_INCAGI",1,100;
+- Id: 1200294
+  Name: Kraben Card
+  AegisName: RGX_Kraben_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEffWhenHit,Eff_Blind,600;
+- Id: 1200295
+  Name: Cramp Card
+  AegisName: RGX_Cramp_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bGetZenyNum,500,1;
+- Id: 1200296
+  Name: Cruiser Card
+  AegisName: RGX_Cruiser_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bCritAtk,10;
+    bonus2 bCriticalAddRace,RC_Brute,7;
+    bonus2 bCriticalAddRace,RC_Player_Doram,7;
+- Id: 1200297
+  Name: Creamy Fear Card
+  AegisName: RGX_Cremy_Fear_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEffWhenHit,Eff_Confusion,600;
+- Id: 1200298
+  Name: Clock Card
+  AegisName: RGX_Clock_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpellWhenHit,"CR_AUTOGUARD",3+7*(getskilllv("CR_AUTOGUARD") == 10),30;
+- Id: 1200299
+  Name: Chimera Card
+  AegisName: RGX_Chimera_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEffWhenHit,Eff_Poison,300+600*(BaseJob == Job_Assassin);
+- Id: 1200300
+  Name: Killer Mantis Card
+  AegisName: RGX_Killer_Mantis_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEffWhenHit,Eff_Bleeding,600;
+- Id: 1200301
+  Name: Tao Gunka Card
+  AegisName: RGX_Tao_Gunka_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMaxHPrate,100;
+    bonus bDef,-50;
+    bonus bMdef,-50;
+- Id: 1200302
+  Name: Giant Whisper Card
+  AegisName: RGX_Whisper_Boss_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bFlee,10;
+    if (readparam(bStr)>=80) bonus bBaseAtk,20;
+    if (readparam(bVit)>=80) bonus bMaxHPrate,3;
+    if (readparam(bLuk)>=80) bonus bCritical,3;
+- Id: 1200303
+  Name: Tamruan Card
+  AegisName: RGX_Tamruan_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDef,2;
+    bonus2 bSkillAtk,"CR_SHIELDCHARGE",10;
+    bonus2 bSkillAtk,"CR_SHIELDBOOMERANG",10;
+- Id: 1200304
+  Name: Turtle General Card
+  AegisName: RGX_Turtle_General_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddClass,Class_All,20;
+    bonus3 bAutoSpell,"SM_MAGNUM",10,30;
+- Id: 1200305
+  Name: Toad Card
+  AegisName: RGX_Toad_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bFlee2,1;
+- Id: 1200306
+  Name: Beetle King Card
+  AegisName: RGX_Kind_Of_Beetle_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSPGainRace,RC_Fish,5;
+  UnEquipScript: |
+    heal 0,-5;
+- Id: 1200307
+  Name: Tri Joint Card
+  AegisName: RGX_Tri_Joint_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSPGainRace,RC_Formless,5;
+  UnEquipScript: |
+    heal 0,-5;
+- Id: 1200308
+  Name: Parasite Card
+  AegisName: RGX_Parasite_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDef,1;
+    bonus2 bSubRace,RC_Formless,5;
+- Id: 1200309
+  Name: Panzer Goblin Card
+  AegisName: RGX_Panzer_Goblin_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bCritAtk,10;
+    bonus2 bCriticalAddRace,RC_Demon,7;
+- Id: 1200310
+  Name: Permeter Card
+  AegisName: RGX_Permeter_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Shadow,15;
+    bonus2 bSubEle,Ele_Decay,15;
+- Id: 1200311
+  Name: Seal Card
+  AegisName: RGX_Fur_Seal_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bFlee,3;
+    bonus bHit,10;
+    if (BaseClass == Job_Acolyte) {
+       bonus2 bCriticalAddRace,RC_Undead,9;
+       bonus2 bCriticalAddRace,RC_Demon,9;
+    }
+- Id: 1200312
+  Name: Punk Card
+  AegisName: RGX_Punk_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus4 bAutoSpellWhenHit,"WZ_QUAGMIRE",1+4*(getskilllv("WZ_QUAGMIRE") == 5),50,0;
+- Id: 1200313
+  Name: Penomena Card
+  AegisName: RGX_Penomena_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_Formless,30;
+- Id: 1200314
+  Name: Pest Card
+  AegisName: RGX_Pest_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEffWhenHit,Eff_Stone,300+600*(readparam(bInt)>=77);
+- Id: 1200315
+  Name: False Angel Card
+  AegisName: RGX_Fake_Angel_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSPGainRace,RC_Angel,5;
+  UnEquipScript: |
+    heal 0,-5;
+- Id: 1200316
+  Name: Mobster Card
+  AegisName: RGX_Mobster_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bCritAtk,15;
+    if (BaseClass == Job_Thief)
+       bonus bCritical,4;
+- Id: 1200317
+  Name: Stormy Knight Card
+  AegisName: RGX_Knight_Windstorm_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpell,"WZ_STORMGUST",2,20;
+    bonus2 bAddEff,Eff_Freeze,2000;
+- Id: 1200318
+  Name: Freezer Card
+  AegisName: RGX_Freezer_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMaxHP,300;
+    if (getrefine()>=9)
+       bonus2 bSkillAtk,"SM_BASH",10;
+- Id: 1200319
+  Name: Bloody Knight Card
+  AegisName: RGX_Bloody_Knight_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpell,"WZ_METEOR",1,20;
+- Id: 1200320
+  Name: Hylozoist Card
+  AegisName: RGX_Hylozoist_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bClassChange,100;
+- Id: 1200321
+  Name: High Orc Card
+  AegisName: RGX_High_Orc_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDef,1;
+    bonus bShortWeaponDamageReturn,5;
+- Id: 1200322
+  Name: Hatii Babe Card
+  AegisName: RGX_Garm_Baby_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpell,"MG_FROSTDIVER",3,50;
+- Id: 1200323
+  Name: Hatii Card
+  AegisName: RGX_Garm_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEffWhenHit,Eff_Freeze,5000;
+- Id: 1200324
+  Name: Harpy Card
+  AegisName: RGX_Harpy_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Neutral,15;
+    bonus2 bSkillAtk,"MG_NAPALMBEAT",5;
+- Id: 1200325
+  Name: Sea-Otter Card
+  AegisName: RGX_See_Otter_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddItemGroupHealRate,IG_Fish,50;
+    bonus3 bAddMonsterDropItem,551,RC_Fish,300;
+    bonus3 bAddMonsterDropItem,544,RC_Fish,300;
+- Id: 1200326
+  Name: Bloody Butterfly Card
+  AegisName: RGX_Blood_Butterfly_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bCastrate,300;
+    bonus bNoCastCancel;
+    bonus2 bSkillAtk,"MG_FIREWALL",5;
+- Id: 1200327
+  Name: Yao Jun Card
+  AegisName: RGX_Hyegun_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bFlee,15;
+    bonus bCritical,1;
+- Id: 1200328
+  Name: Phendark Card
+  AegisName: RGX_Phendark_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSPGainRace,RC_DemiHuman,5;
+    bonus2 bSPGainRace,RC_Player_Human,5;
+  UnEquipScript: |
+    heal 0,-5;
+- Id: 1200329
+  Name: Evil Snake Lord Card
+  AegisName: RGX_Dark_Snake_Lord_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bInt,3;
+    bonus2 bResEff,Eff_Blind,10000;
+    bonus2 bResEff,Eff_Curse,10000;
+- Id: 1200330
+  Name: Heater Card
+  AegisName: RGX_Heater_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bCritical,3;
+    if (BaseClass == Job_Swordman)
+       bonus bFlee2,3;
+- Id: 1200331
+  Name: Waste Stove Card
+  AegisName: RGX_Waste_Stove_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBaseAtk,5;
+    bonus bInt,1;
+- Id: 1200332
+  Name: Venomous Card
+  AegisName: RGX_Venomous_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAddEffWhenHit,Eff_Poison,3000,ATF_TARGET|ATF_SELF;
+- Id: 1200333
+  Name: Noxious Card
+  AegisName: RGX_Noxious_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bLongAtkDef,10;
+    bonus2 bSubEle,Ele_Neutral,10;
+- Id: 1200334
+  Name: Pitman Card
+  AegisName: RGX_Pitman_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSkillAtk,"WZ_EARTHSPIKE",5;
+    bonus2 bSkillAtk,"WZ_HEAVENDRIVE",5;
+  UnEquipScript: |
+    heal 0,-50;
+- Id: 1200335
+  Name: Ungoliant Card
+  AegisName: RGX_Ungoliant_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bHPrecovRate,10;
+    bonus2 bResEff,Eff_Bleeding,10000;
+- Id: 1200336
+  Name: Porcellio Card
+  AegisName: RGX_Porcellio_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBaseAtk,25;
+    bonus bDef,-5;
+- Id: 1200337
+  Name: Obsidian Card
+  AegisName: RGX_Obsidian_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bVit,readparam(bDex)/18;
+- Id: 1200338
+  Name: Mineral Card
+  AegisName: RGX_Mineral_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBaseAtk,-25;
+    bonus bDef,3;
+- Id: 1200339
+  Name: Teddy Bear Card
+  AegisName: RGX_Teddy_Bear_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubRace,RC_Undead,30;
+- Id: 1200340
+  Name: Metaling Card
+  AegisName: RGX_Metaling_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpell,"RG_STRIPWEAPON",1,50;
+- Id: 1200341
+  Name: RSX-0806 Card
+  AegisName: RGX_Rsx_0806_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bVit,3;
+    bonus bUnbreakableArmor;
+    bonus bNoKnockback;
+- Id: 1200342
+  Name: Holden Card
+  AegisName: RGX_Mole_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bLuk,2;
+- Id: 1200343
+  Name: Anopheles Card
+  AegisName: RGX_Anopheles_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAddMonsterDropItem,12058,RC_Insect,50;
+- Id: 1200344
+  Name: Hill Wind Card
+  AegisName: RGX_Hill_Wind_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSkillAtk,"MG_THUNDERSTORM",5;
+    bonus2 bSkillAtk,"WZ_JUPITEL",5;
+    bonus2 bSkillAtk,"WZ_VERMILION",5;
+  UnEquipScript: |
+    heal 0,-50;
+- Id: 1200345
+  Name: Egnigem Cenia Card
+  AegisName: RGX_Ygnizem_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bStr,readparam(bInt)/18;
+- Id: 1200346
+  Name: Armeyer Dinze Card
+  AegisName: RGX_Armaia_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAddMonsterDropItem,12053,RC_Fish,50;
+- Id: 1200347
+  Name: Wickebine Tres Card
+  AegisName: RGX_Whikebain_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpell,"RG_STRIPARMOR",1,50;
+- Id: 1200348
+  Name: Errende Ebecee Card
+  AegisName: RGX_Erend_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus4 bAutoSpellWhenHit,"AL_PNEUMA",1,50,0;
+- Id: 1200349
+  Name: Laurell Weinder Card
+  AegisName: RGX_Rawrel_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSkillAtk,"WZ_FROSTNOVA",3;
+    bonus2 bSkillAtk,"WZ_STORMGUST",3;
+  UnEquipScript: |
+    heal 0,-50;
+- Id: 1200350
+  Name: Kavach Icarus Card
+  AegisName: RGX_Kavac_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    if (getrefine()<=4) {
+       bonus bFlee,20;
+       bonus bFlee2,1;
+    }
+    else {
+       bonus bFlee,10;
+    }
+- Id: 1200351
+  Name: General Egnigem Cenia Card
+  AegisName: RGX_B_Ygnizem_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMaxHPrate,10;
+    bonus bMaxSPrate,10;
+    bonus2 bHPRegenRate,50,10000;
+    bonus2 bSPRegenRate,10,10000;
+- Id: 1200352
+  Name: Remover Card
+  AegisName: RGX_Removal_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMaxHP,800-40*getrefine();
+    bonus bHPrecovRate,10;
+- Id: 1200353
+  Name: Gemini-S58 Card
+  AegisName: RGX_Gemini_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    if (readparam(bAgi)>=90) {
+       bonus2 bResEff,Eff_Silence,3000;
+       bonus2 bResEff,Eff_Stun,3000;
+    }
+    if (readparam(bVit)>=80) {
+       bonus2 bResEff,Eff_Stone,5000;
+       bonus2 bResEff,Eff_Sleep,5000;
+    }
+- Id: 1200354
+  Name: Gremlin Card
+  AegisName: RGX_Gremlin_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAddMonsterDropItem,12043,RC_Brute,50;
+- Id: 1200355
+  Name: Beholder Card
+  AegisName: RGX_Beholder_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    skill "SA_CASTCANCEL",1;
+- Id: 1200356
+  Name: Lord Knight Card
+  AegisName: RGX_B_Seyren_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    skill "LK_BERSERK",1;
+    bonus bMaxHPrate,-50;
+- Id: 1200357
+  Name: Seyren Windsor Card
+  AegisName: RGX_Seyren_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bStr,getrefine()-6;
+- Id: 1200358
+  Name: Assassin Cross Card
+  AegisName: RGX_B_Eremes_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    skill "AS_CLOAKING",3;
+  UnEquipScript: |
+    sc_end SC_CLOAKING;
+- Id: 1200359
+  Name: Eremes Guile Card
+  AegisName: RGX_Eremes_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bCriticalAddRace,RC_DemiHuman,10;
+    bonus2 bCriticalAddRace,RC_Player_Human,10;
+- Id: 1200360
+  Name: MasterSmith Card
+  AegisName: RGX_B_Harword_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBreakWeaponRate,1000;
+    bonus bBreakArmorRate,700;
+- Id: 1200361
+  Name: Howard Alt-Eisen Card
+  AegisName: RGX_Harword_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bAspdRate,-5;
+    bonus bHit,30;
+- Id: 1200362
+  Name: High Priest Card
+  AegisName: RGX_B_Magaleta_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus5 bAutoSpellWhenHit,"HP_ASSUMPTIO",1,50,BF_WEAPON|BF_MAGIC,0;
+- Id: 1200363
+  Name: Margaretha Sorin Card
+  AegisName: RGX_Magaleta_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bInt,1;
+    bonus5 bAutoSpellWhenHit,"PR_LEXDIVINA",5,150,BF_MAGIC,1;
+- Id: 1200364
+  Name: High Wizard Card
+  AegisName: RGX_B_Katrinn_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bIgnoreMdefClassRate,Class_Normal,100;
+    bonus bCastrate,1000;
+    bonus bSPrecovRate,-100;
+  UnEquipScript: |
+    heal 0,-2000;
+- Id: 1200365
+  Name: Kathryne Keyron Card
+  AegisName: RGX_Katrinn_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bCastrate,(getrefine()*-1)*10;
+    if (getrefine()>=9) {
+       bonus bMatkRate,2;
+    }
+- Id: 1200366
+  Name: Sniper Card
+  AegisName: RGX_B_Shecil_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bHPDrainRate,50,20;
+    bonus bHPrecovRate,-10;
+- Id: 1200367
+  Name: Cecil Damon Card
+  AegisName: RGX_Shecil_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bAspdRate,5;
+    bonus bHit,-30;
+- Id: 1200368
+  Name: Venatu Card
+  AegisName: RGX_Venatu_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bLuk,readparam(bAgi)/18;
+- Id: 1200369
+  Name: Dimik Card
+  AegisName: RGX_Dimik_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bVit,getrefine()-5;
+- Id: 1200370
+  Name: Archdam Card
+  AegisName: RGX_Archdam_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBaseAtk,10;
+    bonus bCastrate,200;
+- Id: 1200371
+  Name: White Lady Card
+  AegisName: RGX_Bacsojin_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bHealPower,30;
+    bonus bUseSPrate,-15;
+- Id: 1200372
+  Name: Green Maiden Card
+  AegisName: RGX_Chung_E_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bLuk,getrefine()-5;
+    bonus bCritical,getrefine();
+- Id: 1200373
+  Name: Vesper Card
+  AegisName: RGX_Apocalips_H_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDex,2;
+    bonus2 bIgnoreMdefClassRate,Class_Boss,30;
+- Id: 1200374
+  Name: Orc Baby Card
+  AegisName: RGX_Orc_Baby_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    if (getrefine()>=9) {
+       bonus2 bSubEle,Ele_Neutral,15;
+       bonus bFlee,15;
+    }
+    else {
+       bonus2 bSubEle,Ele_Neutral,10;
+       bonus bFlee,10;
+    }
+- Id: 1200375
+  Name: Lady Tanee Card
+  AegisName: RGX_Lady_Tanee_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMaxHPrate,-40;
+    bonus bMaxSPrate,50;
+    bonus2 bAddMonsterDropItem,513,200;
+    bonus2 bAddItemHealRate,513,100;
+- Id: 1200376
+  Name: Grove Card
+  AegisName: RGX_Green_Iguana_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAddMonsterDropItem,12063,RC_Formless,50;
+- Id: 1200377
+  Name: Gold Acidus Card
+  AegisName: RGX_Acidus_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    if (getrefine()<=4) {
+       bonus bMaxHPrate,8;
+       bonus bMaxSPrate,8;
+       bonus bHPrecovRate,5;
+       bonus bSPrecovRate,5;
+    }
+    else {
+       bonus bMaxHPrate,4;
+       bonus bMaxSPrate,4;
+    }
+- Id: 1200378
+  Name: Blue Acidus Card
+  AegisName: RGX_Acidus__Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    if (getrefine()<=4) {
+       bonus bSPrecovRate,5;
+       bonus bMaxSP,80;
+    }
+    else {
+       bonus bMaxSP,40;
+    }
+- Id: 1200379
+  Name: Red Ferus Card
+  AegisName: RGX_Ferus_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSkillAtk,"WZ_FIREPILLAR",5;
+    bonus2 bSkillAtk,"WZ_METEOR",5;
+  UnEquipScript: |
+    heal 0,-50;
+- Id: 1200380
+  Name: Green Ferus Card
+  AegisName: RGX_Ferus__Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bVit,1;
+    bonus bMaxHPrate,10;
+- Id: 1200381
+  Name: Yellow Novus Card
+  AegisName: RGX_Novus__Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMaxHP,500;
+    bonus bHPrecovRate,10;
+- Id: 1200382
+  Name: Red Novus Card
+  AegisName: RGX_Novus_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAddEffWhenHit,Eff_Confusion,3000,ATF_TARGET|ATF_SELF;
+- Id: 1200383
+  Name: Hydrolancer Card
+  AegisName: RGX_Hydro_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpell,"SA_SPELLBREAKER",1,100;
+- Id: 1200384
+  Name: Dragon Egg Card
+  AegisName: RGX_Dragon_Egg_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAddMonsterDropItem,12048,RC_Dragon,50;
+- Id: 1200385
+  Name: Detardeurus Card
+  AegisName: RGX_Detale_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMdef,-20;
+    bonus2 bResEff,Eff_Freeze,10000;
+    bonus5 bAutoSpellWhenHit,"SA_LANDPROTECTOR",1,70,BF_MAGIC,0;
+- Id: 1200386
+  Name: Ancient Mimic Card
+  AegisName: RGX_Ancient_Mimic_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bAgi,readparam(bLuk)/18;
+- Id: 1200387
+  Name: Death Word Card
+  AegisName: RGX_Deathword_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSkillAtk,"MG_NAPALMBEAT",5;
+    bonus2 bSkillAtk,"MG_SOULSTRIKE",5;
+    bonus2 bSkillAtk,"HW_NAPALMVULCAN",5;
+  UnEquipScript: |
+    heal 0,-50;
+- Id: 1200388
+  Name: Plasma Card
+  AegisName: RGX_Plasma_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddMonsterDropItem,12118,50;
+    bonus2 bAddMonsterDropItem,12119,50;
+    bonus2 bAddMonsterDropItem,12120,50;
+    bonus2 bAddMonsterDropItem,12121,50;
+- Id: 1200389
+  Name: Breeze Card
+  AegisName: RGX_Breeze_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBaseAtk,5;
+    bonus2 bAddEff,Eff_Bleeding,500;
+- Id: 1200390
+  Name: Baroness of Retribution Card
+  AegisName: RGX_Retribution_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAddMonsterDropItem,12068,RC_Angel,50;
+- Id: 1200391
+  Name: Dame of Sentinel Card
+  AegisName: RGX_Observation_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDex,readparam(bVit)/18;
+- Id: 1200392
+  Name: Mistress of Shelter Card
+  AegisName: RGX_Shelter_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bInt,readparam(bStr)/18;
+- Id: 1200393
+  Name: Lady Solace Card
+  AegisName: RGX_Solace_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    if (BaseJob == Job_Priest)
+       bonus3 bAutoSpell,"CR_GRANDCROSS",5,20;
+- Id: 1200394
+  Name: Maero of Thanatos Card
+  AegisName: RGX_Tha_Maero_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBaseAtk,5;
+    bonus3 bAutoSpell,"AL_DECAGI",3,50;
+- Id: 1200395
+  Name: Odium of Thanatos Card
+  AegisName: RGX_Tha_Odium_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bAgi,getrefine()-5;
+- Id: 1200396
+  Name: Despero of Thanatos Card
+  AegisName: RGX_Tha_Despero_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bInt,getrefine()-6;
+- Id: 1200397
+  Name: Dolor of Thanatos Card
+  AegisName: RGX_Tha_Dolor_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bMagicAddRace,RC_Angel,10;
+- Id: 1200398
+  Name: Memory of Thanatos Card
+  AegisName: RGX_Thanatos_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bDefRatioAtkClass,Class_All;
+    bonus bSPDrainValue,-1;
+    bonus bDef,-30;
+    bonus bFlee,-30;
+- Id: 1200399
+  Name: Aliza Card
+  AegisName: RGX_Aliza_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpellWhenHit,"DC_WINKCHARM",1,50+50*(BaseJob == Job_Dancer);
+- Id: 1200400
+  Name: Alicel Card
+  AegisName: RGX_Alicel_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bFlee,10;
+    bonus bDef,-5;
+- Id: 1200401
+  Name: Aliot Card
+  AegisName: RGX_Aliot_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    if (BaseClass == Job_Swordman || BaseClass == Job_Merchant || BaseClass == Job_Thief) {
+       bonus bStr,2;
+       bonus bMaxHPrate,5;
+    }
+    if (BaseClass == Job_Mage || BaseClass == Job_Archer || BaseClass == Job_Acolyte) {
+       bonus bInt,2;
+       bonus bMaxSPrate,5;
+    }
+- Id: 1200402
+  Name: Kiel-D-01 Card
+  AegisName: RGX_Kiel_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bAftercastDelay,-30;
+- Id: 1200403
+  Name: Skogul Card
+  AegisName: RGX_Skogul_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAddEffWhenHit,Eff_Bleeding,3000,ATF_TARGET|ATF_SELF;
+- Id: 1200404
+  Name: Frus Card
+  AegisName: RGX_Frus_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMagicDamageReturn,getrefine()*2;
+    if (BaseClass == Job_Mage)
+       bonus bMdef,3;
+- Id: 1200405
+  Name: Skeggiold Card
+  AegisName: RGX_Skeggiold_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bMagicAddRace,RC_Demon,2;
+- Id: 1200406
+  Name: Randgris Card
+  AegisName: RGX_Randgris_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bUnbreakableWeapon;
+    bonus2 bAddClass,Class_All,10;
+    bonus3 bAutoSpell,"SA_DISPELL",1,50;
+- Id: 1200407
+  Name: Gloom Under Night Card
+  AegisName: RGX_Gloom_Under_Night_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEle,Ele_Holy,40;
+    bonus2 bAddEle,Ele_Shadow,40;
+    bonus2 bAddRace,RC_Angel,40;
+    bonus2 bAddRace,RC_Demon,40;
+- Id: 1200408
+  Name: Agav Card
+  AegisName: RGX_Agav_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMatkRate,5;
+    bonus bDef,-10;
+    if (BaseClass == Job_Mage)
+       bonus bMaxSP,100;
+- Id: 1200409
+  Name: Echio Card
+  AegisName: RGX_Echio_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBaseAtk,15;
+    if (BaseClass == Job_Swordman)
+       bonus bMaxHP,500;
+- Id: 1200410
+  Name: Vanberk Card
+  AegisName: RGX_Vanberk_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bStr,2;
+    autobonus "{ bonus bCritical,100; }",5,5000,0,"{ specialeffect2 EF_ENHANCE; }";
+- Id: 1200411
+  Name: Isilla Card
+  AegisName: RGX_Isilla_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bInt,2;
+    autobonus "{ bonus bCastrate,-500; bonus bFlee,30; }",50,5000,BF_MAGIC,"{ specialeffect2 EF_SUFFRAGIUM; }";
+- Id: 1200412
+  Name: Hodremlin Card
+  AegisName: RGX_Hodremlin_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubSize,Size_All,15;
+    autobonus2 "{ bonus bFlee2,30; }",3,10000,BF_WEAPON|BF_MAGIC,"{ specialeffect2 EF_WIND; }";
+- Id: 1200413
+  Name: Seeker Card
+  AegisName: RGX_Seeker_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    skill "MG_STONECURSE",1;
+    bonus2 bResEff,Eff_Stone,3000;
+    bonus bMdef,10;
+- Id: 1200414
+  Name: Snowier Card
+  AegisName: RGX_Snowier_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddMonsterDropItem,536,2000;
+    bonus2 bAddItemHealRate,536,100;
+- Id: 1200415
+  Name: Siroma Card
+  AegisName: RGX_Siroma_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSkillAtk,"MG_COLDBOLT",25;
+    bonus2 bCastrate,"MG_COLDBOLT",-250;
+- Id: 1200416
+  Name: Ice Titan Card
+  AegisName: RGX_Ice_Titan_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bVit,2;
+    autobonus2 "{ bonus bDef,10; }",3,10000,BF_WEAPON|BF_MAGIC,"{ specialeffect2 EF_FREEZED; }";
+- Id: 1200417
+  Name: Gazeti Card
+  AegisName: RGX_Gazeti_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpell,"MG_COLDBOLT",2,100;
+- Id: 1200418
+  Name: Ktullanux Card
+  AegisName: RGX_Ktullanux_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddEle,Ele_Fire,50;
+    bonus5 bAutoSpellWhenHit,"WZ_FROSTNOVA",10,20,BF_WEAPON|BF_MAGIC,0;
+- Id: 1200419
+  Name: Muscipular Card
+  AegisName: RGX_Muscipular_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpellWhenHit,"AL_HEAL",1,100;
+    bonus3 bAutoSpellWhenHit,"AL_INCAGI",1,100;
+- Id: 1200420
+  Name: Drosera Card
+  AegisName: RGX_Drosera_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bCriticalLong,15;
+- Id: 1200421
+  Name: Roween Card
+  AegisName: RGX_Roween_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bFlee,5;
+    bonus bFlee2,3;
+    bonus2 bAddEle,Ele_Water,10;
+    bonus2 bCriticalAddRace,RC_Fish,15;
+- Id: 1200422
+  Name: Galion Card
+  AegisName: RGX_Galion_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bHit,5;
+    bonus2 bAddEle,Ele_Water,5;
+- Id: 1200423
+  Name: Stapo Card
+  AegisName: RGX_Stapo_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    skill "TF_PICKSTONE",1;
+    skill "TF_THROWSTONE",1;
+- Id: 1200424
+  Name: Atroce Card
+  AegisName: RGX_Atroce_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBaseAtk,25;
+    autobonus "{ bonus bAspdRate,100; }",5,10000,0,"{ specialeffect2 EF_POTION_BERSERK; }";
+- Id: 1200425
+  Name: Byorgue Card
+  AegisName: RGX_Byorgue_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    if (BaseJob == Job_Rogue) {
+       bonus bMatkRate,10;
+       bonus2 bAddClass,Class_All,10;
+    }
+- Id: 1200426
+  Name: Sword Guardian Card
+  AegisName: RGX_Sword_Guardian_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    if (getiteminfo(getequipid(EQI_HAND_R), ITEMINFO_VIEW) == W_1HSWORD || getiteminfo(getequipid(EQI_HAND_R), ITEMINFO_VIEW) == W_2HSWORD) {
+       bonus bHit,5;
+       bonus bCritical,5;
+       bonus2 bSkillAtk,62,25;
+    }
+- Id: 1200427
+  Name: Bow Guardian Card
+  AegisName: RGX_Bow_Guardian_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    if (getiteminfo(getequipid(EQI_HAND_R), ITEMINFO_VIEW) == W_BOW) {
+       bonus bHit,5;
+       bonus bCritical,5;
+       bonus2 bSkillAtk,47,50;
+    }
+- Id: 1200428
+  Name: Salamander Card
+  AegisName: RGX_Salamander_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSkillAtk,"WZ_FIREPILLAR",40;
+    bonus2 bSkillAtk,"WZ_METEOR",40;
+- Id: 1200429
+  Name: Ifrit Card
+  AegisName: RGX_Ifrit_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBaseAtk,(JobLevel/10);
+    bonus bCritical,(JobLevel/10);
+    bonus bHit,(JobLevel/10);
+    bonus3 bAutoSpellWhenHit,"NPC_EARTHQUAKE",2,10;
+- Id: 1200430
+  Name: Kasa Card
+  AegisName: RGX_Kasa_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus3 bAutoSpell,"MG_FIREBALL",5,20;
+    bonus3 bAutoSpell,"MG_FIREBOLT",5,20;
+- Id: 1200431
+  Name: Magmaring Card
+  AegisName: RGX_Magmaring_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Garment: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBaseAtk,5;
+    bonus2 bAddEle,Ele_Earth,10;
+    bonus2 bCriticalAddRace,RC_Brute,15;
+    bonus2 bCriticalAddRace,RC_Player_Doram,15;
+    bonus2 bCriticalAddRace,RC_Plant,15;
+- Id: 1200432
+  Name: Imp Card
+  AegisName: RGX_Imp_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSkillAtk,"MG_FIREBOLT",25;
+    bonus2 bCastrate,"MG_FIREBOLT",-250;
+- Id: 1200433
+  Name: Knocker Card
+  AegisName: RGX_Knocker_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddRace,RC_Formless,5;
+    bonus3 bAddMonsterDropItem,756,RC_Formless,10;
+    bonus3 bAddMonsterDropItem,757,RC_Formless,10;
+- Id: 1200434
+  Name: Zombie Slaughter Card
+  AegisName: RGX_Zombie_Slaughter_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bAddRace,RC_DemiHuman,1;
+    bonus2 bAddRace,RC_Player_Human,1;
+    bonus2 bMagicAddRace,RC_DemiHuman,1;
+    bonus2 bMagicAddRace,RC_Player_Human,1;
+    bonus bHPGainValue,50;
+- Id: 1200435
+  Name: Ragged Zombie Card
+  AegisName: RGX_Ragged_Zombie_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bCriticalAddRace,RC_DemiHuman,5;
+    bonus2 bCriticalAddRace,RC_Player_Human,5;
+    bonus2 bAddRace,RC_DemiHuman,1;
+    bonus2 bAddRace,RC_Player_Human,1;
+    bonus2 bMagicAddRace,RC_DemiHuman,1;
+    bonus2 bMagicAddRace,RC_Player_Human,1;
+    bonus2 bAddEff2,Eff_Bleeding,10;
+- Id: 1200436
+  Name: Hell Poodle Card
+  AegisName: RGX_Hell_Poodle_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bHit,1;
+    bonus2 bAddItemHealRate,517,100;
+    bonus3 bAddEff,Eff_Bleeding,50,ATF_SHORT;
+- Id: 1200437
+  Name: Banshee Card
+  AegisName: RGX_Banshee_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Head_Low: true
+    Head_Mid: true
+    Head_Top: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    if (BaseClass == Job_Mage) {
+       bonus bMaxSP,100;
+       bonus bMaxHP,-100;
+       bonus2 bSkillAtk,"MG_NAPALMBEAT",20;
+       bonus2 bSkillAtk,"MG_SOULSTRIKE",20;
+       bonus2 bSkillAtk,"HW_NAPALMVULCAN",20;
+    }
+- Id: 1200438
+  Name: Flame Skull Card
+  AegisName: RGX_Flame_Skull_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bResEff,Eff_Blind,3000;
+    bonus2 bResEff,Eff_Stun,3000;
+    bonus2 bResEff,Eff_Curse,3000;
+    bonus2 bResEff,Eff_Stone,3000;
+    bonus2 bAddEffWhenHit,Eff_Blind,500;
+    bonus2 bAddEffWhenHit,Eff_Stun,500;
+    bonus2 bAddEffWhenHit,Eff_Curse,500;
+    bonus2 bAddEffWhenHit,Eff_Stone,500;
+- Id: 1200439
+  Name: Necromancer Card
+  AegisName: RGX_Necromancer_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    if (getiteminfo(getequipid(EQI_HAND_R), ITEMINFO_VIEW) == W_STAFF) {
+       bonus bInt,1;
+       bonus2 bIgnoreMdefClassRate,Class_Normal,2;
+       bonus2 bIgnoreMdefClassRate,Class_Boss,2;
+    }
+- Id: 1200440
+  Name: Fallen Bishop Hibram Card
+  AegisName: RGX_Fallen_Bishop_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Shoes: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMatkRate,10;
+    bonus bMaxSPrate,-50;
+    bonus2 bMagicAddRace,RC_Angel,50;
+    bonus2 bMagicAddRace,RC_DemiHuman,50;
+    bonus2 bMagicAddRace,RC_Player_Human,50;
+- Id: 1200441
+  Name: Tatacho Card
+  AegisName: RGX_Tatacho_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Neutral,20;
+    bonus2 bAddEle,Ele_Neutral,5;
+- Id: 1200442
+  Name: Aqua Elemental Card
+  AegisName: RGX_Aqua_Elemental_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Water,20;
+    bonus2 bAddEle,Ele_Water,5;
+- Id: 1200443
+  Name: Draco Card
+  AegisName: RGX_Draco_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Earth,20;
+    bonus2 bAddEle,Ele_Earth,5;
+- Id: 1200444
+  Name: Luciola Vespa Card
+  AegisName: RGX_Luciola_Vespa_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Wind,20;
+    bonus2 bAddEle,Ele_Wind,5;
+- Id: 1200445
+  Name: Centipede Card
+  AegisName: RGX_Centipede_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Poison,20;
+    bonus2 bAddEle,Ele_Poison,5;
+- Id: 1200446
+  Name: Cornus Card
+  AegisName: RGX_Cornus_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Holy,20;
+    bonus2 bAddEle,Ele_Holy,5;
+- Id: 1200447
+  Name: Dark Shadow Card
+  AegisName: RGX_Dark_Shadow_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Left_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus2 bSubEle,Ele_Shadow,20;
+    bonus2 bAddEle,Ele_Shadow,5;
+- Id: 1200448
+  Name: Banshee Master Card
+  AegisName: RGX_Banshee_Master_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bInt,1;
+    bonus bMatk,10;
+- Id: 1200449
+  Name: Entweihen Crothen Card
+  AegisName: RGX_Ant_Buyanne_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Armor: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bMatk,100;
+- Id: 1200450
+  Name: Centipede Larva Card
+  AegisName: RGX_Centipede_Larva_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bInt,1;
+    bonus bMatk,3;
+- Id: 1200451
+  Name: Hillsrion Card
+  AegisName: RGX_Hilsrion_Card
+  Type: Card
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Right_Hand: true
+  Flags:
+    BuyingStore: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+  Script: |
+    bonus bBaseAtk,25;
+- Id: 1200452
+  Name: Blue B Card
+  AegisName: RGX_Blue_Card_B
+  Type: Etc
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200453
+  Name: Blue C Card
+  AegisName: RGX_Blue_Card_C
+  Type: Etc
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200454
+  Name: Blue J Card
+  AegisName: RGX_Blue_Card_J
+  Type: Etc
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200455
+  Name: Blue M Card
+  AegisName: RGX_Blue_Card_M
+  Type: Etc
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200456
+  Name: Blue Q Card
+  AegisName: RGX_Blue_Card_Q
+  Type: Etc
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200457
+  Name: Blue T Card
+  AegisName: RGX_Blue_Card_T
+  Type: Etc
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200458
+  Name: Blue V Card
+  AegisName: RGX_Blue_Card_V
+  Type: Etc
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200459
+  Name: Blue Z Card
+  AegisName: RGX_Blue_Card_Z
+  Type: Etc
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200460
+  Name: Number 6 Card
+  AegisName: RGX_Blue_Card_6
+  Type: Etc
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200461
+  Name: Character Week Card
+  AegisName: RGX_Blue_Card_Annyver
+  Type: Etc
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200462
+  Name: Character Year Card
+  AegisName: RGX_Blue_Card_Sary
+  Type: Etc
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200463
+  Name: Character Lee Card
+  AegisName: RGX_Blue_Card_E
+  Type: Etc
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200464
+  Name: Character Ben Card
+  AegisName: RGX_Blue_Card_Ven
+  Type: Etc
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200465
+  Name: Character Project Card
+  AegisName: RGX_Blue_Card_Nt
+  Type: Etc
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200466
+  Name: Attendance Card
+  AegisName: RGX_Attendance_Card
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 1200467
+  Name: Member Card
+  AegisName: RGX_Coke_Membership_Card
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200468
+  Name: Blank Card
+  AegisName: RGX_Blank_Card
+  Type: Etc
+  Buy: 20
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200469
+  Name: Blue Card 7
+  AegisName: RGX_Blue_Card_7
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 1200470
+  Name: Proof of Donation
+  AegisName: RGX_Donation_Card
+  Type: Etc
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200471
+  Name: TCG Card
+  AegisName: RGX_TCG_Card
+  Type: Etc
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200472
+  Name: One-way Ticket
+  AegisName: RGX_RO_Transportation_Card
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200473
+  Name: Commemorative Travel Card
+  AegisName: RGX_RO_Transportation_Card_
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 1200474
+  Name: Selamat
+  AegisName: RGX_Word_Card01
+  Type: Etc
+  Buy: 2
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200475
+  Name: Hari
+  AegisName: RGX_Word_Card02
+  Type: Etc
+  Buy: 2
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200476
+  Name: Kemerdekaan
+  AegisName: RGX_Word_Card03
+  Type: Etc
+  Buy: 2
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200477
+  Name: Republik
+  AegisName: RGX_Word_Card04
+  Type: Etc
+  Buy: 2
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200478
+  Name: Indonesia
+  AegisName: RGX_Word_Card05
+  Type: Etc
+  Buy: 2
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200479
+  Name: Ke-60
+  AegisName: RGX_Word_Card06
+  Type: Etc
+  Buy: 2
+  Weight: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200480
+  Name: Yellow Keycard
+  AegisName: RGX_Yellow_Key_Card
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 1200481
+  Name: Blue Keycard
+  AegisName: RGX_Blue_Key_Card
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 1200482
+  Name: Red Keycard
+  AegisName: RGX_Red_Key_Card
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 1200483
+  Name: Black Keycard
+  AegisName: RGX_Black_Key_Card
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 1200484
+  Name: Luxurious Keycard
+  AegisName: RGX_Fancy_Key_Card
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 1200485
+  Name: Green Keycard
+  AegisName: RGX_Green_Key_Card
+  Type: Etc
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+- Id: 1200486
+  Name: Lost Card1
+  AegisName: RGX_Lost_Card1
+  Type: Etc
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200487
+  Name: Lost Card2
+  AegisName: RGX_Lost_Card2
+  Type: Etc
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200488
+  Name: Lost Card3
+  AegisName: RGX_Lost_Card3
+  Type: Etc
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+- Id: 1200489
+  Name: Lost Card4
+  AegisName: RGX_Lost_Card4
+  Type: Etc
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Flags: {}
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89

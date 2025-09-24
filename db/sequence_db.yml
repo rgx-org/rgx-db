@@ -1,0 +1,82 @@
+Header:
+  Type: SEQUENCE_DB
+  Version: 3
+Body:
+- SequenceId: Test
+  Actors:
+    1: Pokey
+    2: Benny
+  Lines:
+    - Line: 1
+      Actor: 1
+      Text: "Why did the chicken cross the road?"
+      Cutin: "kafra_07"
+      FaceOther: 0
+    - Line: 2
+      Actor: 0
+      Text: ""
+      Response: ""
+      Emote: QUESTION
+      PauseLength: 1000
+      FaceOther: 1
+    - Line: 3
+      Actor: 0
+      Text: "I dunno, why?"
+    - Line: 4
+      Actor: 2
+      Text: "BUKK-cause!"
+      FaceOther: 0
+    - Line: 5
+      Actor: 1
+      Text: "Damnit, don't steal my jokes!"
+      FaceOther: 2
+    - Line: 6
+      Actor: 2
+      Emote: KIK
+      FaceOther: 1
+      Response: "Continue:End"
+  NextSequencesAndIsBreak:
+    Test2: False
+    End: False
+- SequenceId: Test2
+  Actors:
+    1: Pokey
+    2: Benny
+  Lines:
+    - Line: 1
+      Actor: 0
+      Text: "I don't know how to feel about this."
+    - Line: 2
+      Actor: 1
+      Text: "Blah blah blah."
+      FaceDir: 5
+    - Line: 3
+      Actor: 1
+      Text: "Hee hee hee."
+      FaceDir: 3
+- SequenceId: Test3
+  Actors:
+    1: Pokey
+    2: Benny
+  Lines:
+    - Line: 1
+      Text: ""
+      Response: ""
+      Actor: 1
+      MoveY: 3
+      PauseLength: 1400
+      # FaceDir: 1
+      # DeadSit: 0
+    - Line: 2
+      Text: "This is a test."
+      Response: "Next"
+      Actor: 1
+      # FaceDir: 2
+      # DeadSit: 1
+    - Line: 3
+      Text: ""
+      Response: ""
+      MoveY: -3
+      Actor: 1
+      # FaceDir: 3
+      # DeadSit: 2

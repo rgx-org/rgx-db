@@ -1,4 +1,6 @@
 SKILL_EFFECT_INFO_LIST = {
+	[SKID.PA_SACRIFICE] = {
+	},
 	[SKID.KO_JYUMONJIKIRI] = {
 		beginMotionType = ACTOR_STATE.ST_ATTACK2,
 		waveFileName = "effect\\cru_holy cross.wav",

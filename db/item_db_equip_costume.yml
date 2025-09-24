@@ -1,0 +1,6026 @@
+Header:
+  Type: ITEM_DB
+  Version: 2
+Body:
+- Id: 160001
+  Name: Costume Hairband
+  AegisName: RGX_Hairband_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 9
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Magical
+- Id: 160002
+  Name: Costume Ribbon
+  AegisName: RGX_Ribbon_C
+  Type: Armor
+  Buy: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 17
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    SP
+- Id: 160003
+  Name: Costume Fancy Flower
+  AegisName: RGX_Fancy_Flower_C
+  Type: Armor
+  Buy: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 4
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160004
+  Name: Costume Bandana
+  AegisName: RGX_Bandana_C
+  Type: Armor
+  Buy: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 6
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Agile
+- Id: 160005
+  Name: Costume Unicorn Horn
+  AegisName: RGX_Unicorn_Horn_C
+  Type: Armor
+  Buy: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 42
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Reflect
+- Id: 160006
+  Name: Costume Nut Shell
+  AegisName: RGX_Nut_Shell_C
+  Type: Armor
+  Buy: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 122
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    DEF
+- Id: 160007
+  Name: Costume Giant Bandage
+  AegisName: RGX_Giant_Bandage_C
+  Type: Armor
+  Buy: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 147
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Resist vs Bleed/CritWounds, Increase HP recovery effects, heal received
+- Id: 160008
+  Name: Costume Cap
+  AegisName: RGX_Cap_C
+  Type: Armor
+  Buy: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 14
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160009
+  Name: Costume Egg Shell
+  AegisName: RGX_Egg_Shell_C
+  Type: Armor
+  Buy: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 101
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160010
+  Name: Costume Pretend Murdered
+  AegisName: RGX_Pretend_Murdered_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 80
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160011
+  Name: Costume Circlet
+  AegisName: RGX_Circlet_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 18
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Magical
+- Id: 160012
+  Name: Costume Simple Headdress
+  AegisName: RGX_SIMPLE_HEADDRESS_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 96
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160013
+  Name: Costume Feather Headband
+  AegisName: RGX_Feather_Headband_C
+  Type: Armor
+  Buy: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 155
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Ranged
+- Id: 160014
+  Name: Costume Doctor Band
+  AegisName: RGX_Doctor_Band_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 60
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Medic
+- Id: 160015
+  Name: Costume Holy Egg Hat
+  AegisName: RGX_Holy_Egg_Hat_C
+  Type: Armor
+  Buy: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 537
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Stats / Heal
+- Id: 160016
+  Name: Costume Blue Headband
+  AegisName: RGX_Blue_Headband_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 136
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Agile, SP
+- Id: 160017
+  Name: Costume Hat
+  AegisName: RGX_Hat_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 16
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Hat
+- Id: 160018
+  Name: Costume Pirate Bandana
+  AegisName: RGX_Pirate_Bandana_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 74
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    ATK / Agile
+- Id: 160019
+  Name: Costume Safety Helmet
+  AegisName: RGX_Safety_Helmet_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 95
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Reduce Self Destruct damage
+
+    DEF
+- Id: 160020
+  Name: Costume Army Cap
+  AegisName: RGX_Army_Cap_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 48
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Militia
+- Id: 160021
+  Name: Costume Rainbow Eggshell
+  AegisName: RGX_Rainbow_Eggshell_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 124
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160023
+  Name: Costume Jack be Dandy
+  AegisName: RGX_Jack_be_Dandy_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 58
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    HIT / Blind
+- Id: 160024
+  Name: Costume Mini Propeller
+  AegisName: RGX_Mini_Propeller_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 270
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Agile
+- Id: 160025
+  Name: Costume Silk Headdress
+  AegisName: RGX_SILK_HEADDRESS_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 7
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160026
+  Name: Costume Wonder Nutshell
+  AegisName: RGX_Wonder_Nutshell_C
+  Type: Armor
+  Buy: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 134
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160027
+  Name: Costume Golden Gear
+  AegisName: RGX_Golden_Gear_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 30
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160028
+  Name: Costume Biretta
+  AegisName: RGX_Biretta_C
+  Type: Armor
+  Buy: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 11
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Resist
+- Id: 160029
+  Name: Costume Big Ribbon
+  AegisName: RGX_Big_Ribbon_C
+  Type: Armor
+  Buy: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 28
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    SP
+- Id: 160030
+  Name: Costume Halo
+  AegisName: RGX_Spirit_Chain_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 69
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Medic / Holy
+- Id: 160032
+  Name: Costume Meitantei Cap
+  AegisName: Meitantei Cap_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 189
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    INT / HP
+- Id: 160033
+  Name: Costume Romantic Gent
+  AegisName: RGX_Romantic_Gent_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 31
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    [Vocal]
+- Id: 160034
+  Name: Costume Sakkat
+  AegisName: RGX_Sakkat_C
+  Type: Armor
+  Buy: 25
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 67
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Agile
+- Id: 160035
+  Name: Costume Orc Helm
+  AegisName: RGX_Orc_Helm_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 86
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Reflect / DEF
+- Id: 160036
+  Name: Costume Mine Helm
+  AegisName: RGX_Mine_Helm_C
+  Type: Armor
+  Buy: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 116
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    DEF / Earth
+- Id: 160037
+  Name: Costume Sunflower Hat
+  AegisName: RGX_Sunflower_Hat_C
+  Type: Armor
+  Buy: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 37
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160038
+  Name: Costume Nurse Cap
+  AegisName: RGX_Nurse_Cap_C
+  Type: Armor
+  Buy: 25
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 64
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160039
+  Name: Costume Ghost Bandana
+  AegisName: RGX_Ghost_Bandana_C
+  Type: Armor
+  Buy: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 61
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160040
+  Name: Costume Super Novice Hat
+  AegisName: RGX_Super_Novice_Hat_C
+  Type: Armor
+  Buy: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 193
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160041
+  Name: Costume Goggles
+  AegisName: RGX_Goggles_C
+  Type: Armor
+  Buy: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+    Costume_Head_Mid: true
+  View: 1
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160042
+  Name: Costume Winter Hat
+  AegisName: RGX_Winter_Hat_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 196
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160043
+  Name: Costume Puppy Headband
+  AegisName: RGX_Ear_Of_Puppy_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 199
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160044
+  Name: Costume Banana Hat
+  AegisName: RGX_Banana_Hat_C
+  Type: Armor
+  Buy: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 197
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    [Lady Tanee] // Provoke
+
+    - Itemize provoke success rate, taunt doesnt do it anymore
+- Id: 160046
+  Name: Costume Cute Ribbon
+  AegisName: RGX_Cute_Ribbon_C
+  Type: Armor
+  Buy: 25
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 34
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    SP
+- Id: 160049
+  Name: Costume Sweet Gent
+  AegisName: RGX_Sweet_Gent_C
+  Type: Armor
+  Buy: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 29
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    [Vagabond Wolf]
+- Id: 160052
+  Name: Costume Apple of Archer
+  AegisName: RGX_Apple_Of_Archer_C
+  Type: Armor
+  Buy: 25
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 72
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Ranged Attacker
+- Id: 160053
+  Name: Costume Helm
+  AegisName: RGX_Helm_C
+  Type: Armor
+  Buy: 25
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 40
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    DEF
+- Id: 160054
+  Name: Costume Goibne's Helm
+  AegisName: RGX_Goibnes_Helmet_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+    Costume_Head_Mid: true
+    Costume_Head_Low: true
+  View: 258
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    DEF / Resist
+- Id: 160056
+  Name: Costume Jewel Crown
+  AegisName: RGX_JEWEL_CROWN_C
+  Type: Armor
+  Buy: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 88
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Magical
+- Id: 160058
+  Name: Costume Helm Of Abyss
+  AegisName: RGX_Helm_Of_Abyss_C
+  Type: Armor
+  Buy: 25
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 371
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160059
+  Name: Costume General Helmet
+  AegisName: RGX_General_Helmet_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 729
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160060
+  Name: Costume Anubis Helm
+  AegisName: RGX_Anubis_Helm_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 485
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160061
+  Name: Costume Watermelon Cap
+  AegisName: RGX_Watermelon_Cap_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 690
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160062
+  Name: Costume Model Training Hat
+  AegisName: RGX_MODEL_TRAINING_HAT_C
+  Type: Armor
+  Buy: 25
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 157
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160063
+  Name: Costume Fashionable Glasses
+  AegisName: RGX_Fashion_Sunglass_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 131
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160064
+  Name: Costume Magician Hat
+  AegisName: RGX_Magician_Hat_C
+  Type: Armor
+  Buy: 25
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 130
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160065
+  Name: Costume Poo Poo Hat
+  AegisName: RGX_Poo_Poo_Hat_C
+  Type: Armor
+  Buy: 25
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 76
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160066
+  Name: Costume Ancient Admiral Helm
+  AegisName: RGX_Ancient_Admiral_Helm_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+    Costume_Head_Mid: true
+  View: 660
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160067
+  Name: Costume Vanargandr Helm
+  AegisName: RGX_Vanargand_Helm_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 804
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160068
+  Name: Costume Ignis Cap
+  AegisName: RGX_Ignis_Cap_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 803
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160069
+  Name: Costume Sunglasses Baseball Hat
+  AegisName: RGX_Sunglasses_Bball_Hat_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 812
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160070
+  Name: Costume Valkyrie Circlet
+  AegisName: RGX_Valkyrie_Circlet_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 940
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160071
+  Name: Costume Celines Ribbon
+  AegisName: RGX_Celines_Ribbon_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 967
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160072
+  Name: Costume Sword Master Crown
+  AegisName: RGX_Sword_Master_Crown_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 981
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160073
+  Name: Costume Palace Guard Cap
+  AegisName: RGX_Palace_Guard_Cap_C
+  Type: Armor
+  Buy: 30
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 991
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160074
+  Name: Costume Advanced Jao King Hat
+  AegisName: RGX_BLACKDEATHKING_GOLDEN_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 996
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160075
+  Name: Costume Old Mitra
+  AegisName: RGX_Old_Mitra_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 624
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160076
+  Name: Costume Old Camouflage Rabbit Hood
+  AegisName: RGX_Old_Camo_RabbitHood_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 1142
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160077
+  Name: Costume Old Protect Of Helm
+  AegisName: RGX_Old_Protect_Of_Crown_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 1140
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160078
+  Name: Costume Coronet
+  AegisName: RGX_Coronet_C
+  Type: Armor
+  Buy: 25
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 33
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160079
+  Name: Costume Elephant Hat
+  AegisName: RGX_Elephant_Hat_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 215
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160080
+  Name: Costume Four Leaf Clover
+  AegisName: RGX_Four_Leaf_Clover_C
+  Type: Armor
+  Buy: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Low: true
+  View: 571
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Eclipse
+- Id: 160081
+  Name: Costume Coif
+  AegisName: RGX_Coif_C
+  Type: Armor
+  Buy: 30
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+    Costume_Head_Mid: true
+  View: 177
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160082
+  Name: Costume Flower Band
+  AegisName: RGX_Flower_Hairband_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 5
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160083
+  Name: Costume Red Bandana
+  AegisName: RGX_Red_Bandana_C
+  Type: Armor
+  Buy: 30
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 62
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160084
+  Name: Costume Ear Muffs
+  AegisName: RGX_Ear_Muffs_C
+  Type: Armor
+  Buy: 30
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 70
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160085
+  Name: Costume Ph.D Hat
+  AegisName: RGX_PhD_Hat_C
+  Type: Armor
+  Buy: 35
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 98
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    [Evil Snake Lord]
+- Id: 160086
+  Name: Costume Wizard Hat
+  AegisName: RGX_Star_Sparkling_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 36
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160087
+  Name: Costume Wedding Veil
+  AegisName: RGX_Wedding_Veil_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 44
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160088
+  Name: Costume Galapago Cap
+  AegisName: RGX_Galapago_Cap_C
+  Type: Armor
+  Buy: 30
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 192
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160089
+  Name: Costume Straw Hat
+  AegisName: RGX_Straw_Hat_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 146
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Speed / General
+- Id: 160090
+  Name: Costume Beret
+  AegisName: RGX_Beret_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 226
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Defensive
+- Id: 160091
+  Name: Costume Bucket Hat
+  AegisName: RGX_Bucket_Hat_C
+  Type: Armor
+  Buy: 30
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 195
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160092
+  Name: Costume Sombrero
+  AegisName: RGX_Sombrero_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 151
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160093
+  Name: Costume Spiky Band
+  AegisName: RGX_Spiky_Band_C
+  Type: Armor
+  Buy: 30
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 43
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160094
+  Name: Costume Bijofnil Wings
+  AegisName: RGX_Bizofnil_Wing_Deco_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 477
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160095
+  Name: Costume Grand Circlet
+  AegisName: RGX_Lord_Circlet_C_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 93
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160096
+  Name: Costume Gladiator's Helmet
+  AegisName: RGX_Gladiators_Helmet_C
+  Type: Armor
+  Buy: 30
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+    Costume_Head_Mid: true
+    Costume_Head_Low: true
+  View: 203
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160097
+  Name: Costume Crown
+  AegisName: RGX_Crown_C
+  Type: Armor
+  Buy: 25
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 45
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160098
+  Name: Costume Munak Hat
+  AegisName: RGX_Munak_Turban_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+    Costume_Head_Mid: true
+    Costume_Head_Low: true
+  View: 51
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160099
+  Name: Costume Bongun Hat
+  AegisName: RGX_Bongun_Hat_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+    Costume_Head_Mid: true
+    Costume_Head_Low: true
+  View: 139
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160100
+  Name: Costume Antlers
+  AegisName: RGX_Antlers_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 71
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    [Ragan Guardian] // Reflect
+- Id: 160101
+  Name: Costume Mystic Rose
+  AegisName: RGX_Mistic_Rose_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 198
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160102
+  Name: Costume Headset
+  AegisName: RGX_Headset_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 87
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160103
+  Name: Costume Selendang
+  AegisName: RGX_Muslim_Hat_F_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 363
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160104
+  Name: Costume Morpheus's Hood
+  AegisName: RGX_Morpheuss_Hood_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 256
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160106
+  Name: Costume Phrygian Cap
+  AegisName: RGX_Phrygian_Cap_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 217
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160107
+  Name: Costume Ayam
+  AegisName: RGX_Ayam_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 228
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160108
+  Name: Costume Bright Fury
+  AegisName: RGX_Bright_Fury_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 548
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160109
+  Name: Costume Hot-blooded Headband
+  AegisName: RGX_Headband_Of_Power_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 154
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160110
+  Name: Costume Emperor's Laurel Crown
+  AegisName: RGX_Wreath_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+    Costume_Head_Mid: true
+  View: 261
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160111
+  Name: Costume Cresent Hairpin
+  AegisName: RGX_First_Moon_Hair_Pin_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 132
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160112
+  Name: Costume Shaman's Hair Decoration
+  AegisName: RGX_Shamans_Hair_Ornament_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 476
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160113
+  Name: Costume Bride Mask
+  AegisName: RGX_Bride_Mask_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+    Costume_Head_Mid: true
+  View: 223
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160114
+  Name: Costume Fricca's Circlet
+  AegisName: RGX_Fricca_Circlet_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 251
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160115
+  Name: Costume Ulle's Cap
+  AegisName: RGX_Ulle_Cap_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 254
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160116
+  Name: Costume Golden Tiara
+  AegisName: RGX_Gold_Tiara_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 232
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160117
+  Name: Costume Silver Tiara
+  AegisName: RGX_Silver_Tiara_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 218
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160118
+  Name: Costume White Musang Hat
+  AegisName: RGX_White_Musang_Hat_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 770
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160119
+  Name: Costume Mage Hat
+  AegisName: RGX_Wizardry_Hat_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 112
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160120
+  Name: Costume Raccoon Hat
+  AegisName: RGX_Smokie_Hat_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 118
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Hide/Stealth
+- Id: 160121
+  Name: Costume Sea-Otter Hat
+  AegisName: RGX_Sea_Otter_Cap_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 162
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160122
+  Name: Costume Panda Hat
+  AegisName: RGX_Panda_Cap_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 115
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160123
+  Name: Costume Poring Hat
+  AegisName: RGX_Poring_Hat_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 120
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160124
+  Name: Costume Cowboy Hat
+  AegisName: RGX_Cowboy_Hat_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 159
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Aim
+- Id: 160125
+  Name: Costume Feather Bonnet
+  AegisName: RGX_Feather_Bonnet_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 104
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160126
+  Name: Costume Purple Cowboy Hat
+  AegisName: RGX_New_Cowboy_Hat_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 411
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160127
+  Name: Costume Ship Captain Hat
+  AegisName: RGX_J_Captain_Hat_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 367
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160128
+  Name: Costume Love Dad Cap
+  AegisName: RGX_Yellow_Baseball_Cap_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 263
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160129
+  Name: Costume Pecopeco Hairband
+  AegisName: RGX_Pecopeco_Hairband_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 314
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160130
+  Name: Costume Baseball Cap
+  AegisName: RGX_Baseball_Cap_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 216
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160131
+  Name: Costume Joker Jester
+  AegisName: RGX_Joker_Jester_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 89
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160132
+  Name: Costume Feather Beret
+  AegisName: RGX_Feather_Beret_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 224
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160133
+  Name: Costume Angel's Kiss
+  AegisName: RGX_Kiss_Of_Angel_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 255
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160134
+  Name: Costume Hermode Cap
+  AegisName: RGX_Hermose_Cap_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 478
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160135
+  Name: Costume Holy Marching Hat
+  AegisName: RGX_Holy_Marching_Hat_J_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 587
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160136
+  Name: Costume Parade Hat
+  AegisName: RGX_Marcher_Hat_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 269
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160137
+  Name: Costume Satellite Hairband
+  AegisName: RGX_Satellite_Hairband_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 266
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    do something with this + aerial band
+- Id: 160138
+  Name: Costume Magni's Cap
+  AegisName: RGX_Magni_Cap_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 250
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160139
+  Name: Costume Hattah Black
+  AegisName: RGX_Hattah_Black_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+    Costume_Head_Mid: true
+    Costume_Head_Low: true
+  View: 676
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160140
+  Name: Costume Party Hat
+  AegisName: RGX_Party_Hat_C
+  Type: Armor
+  Buy: 30
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 144
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160141
+  Name: Costume Black Musang Hat
+  AegisName: RGX_Black_Musang_Hat_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 771
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160142
+  Name: Costume Rideword Hat
+  AegisName: RGX_Rideword_Hat_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 262
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160143
+  Name: Costume Muslim Hat M
+  AegisName: RGX_Muslim_Hat_M_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 362
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160144
+  Name: Costume Morrigane's Helm
+  AegisName: RGX_Morriganes_Helm_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 257
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160145
+  Name: Costume Pisces Diadem
+  AegisName: RGX_Pisces_Diadem_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 511
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160146
+  Name: Costume Pisces Crown
+  AegisName: RGX_Pisces_Crown_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 512
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160147
+  Name: Costume Bone Helm
+  AegisName: RGX_Bone_Helm_C
+  Type: Armor
+  Buy: 30
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 103
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    reflect/def
+- Id: 160148
+  Name: Costume Aries Diadem
+  AegisName: RGX_Aries_Diadem_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 531
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    reflect/def
+- Id: 160149
+  Name: Costume Gigantic Majestic Goat
+  AegisName: RGX_L_Magestic_Goat2_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 513
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160150
+  Name: Costume Bone Head
+  AegisName: RGX_Bone_Head_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 401
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160151
+  Name: Costume Bullock Helm
+  AegisName: RGX_Bullock_Helm_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 322
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160152
+  Name: Costume Aquarius Diadem
+  AegisName: RGX_Aquarius_Diadem_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 509
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160153
+  Name: Costume Jasper Crest
+  AegisName: RGX_Jasper_Crest_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 399
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160154
+  Name: Costume Cancer Diadem
+  AegisName: RGX_Cancer_Diadem_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 560
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160155
+  Name: Costume Dark Bacilium
+  AegisName: RGX_Diabolus_Helmet_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+    Costume_Head_Mid: true
+    Costume_Head_Low: true
+  View: 364
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160156
+  Name: Costume Gemini Crown
+  AegisName: RGX_Gemini_Crown_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 551
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160157
+  Name: Costume Golden Crown
+  AegisName: RGX_Golden_Crown_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 597
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160158
+  Name: Costume Ayothaya King's Hat
+  AegisName: RGX_Ayothaya_Hat_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 334
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160159
+  Name: Costume Helm of Angel
+  AegisName: RGX_Helm_Of_Angel_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 110
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160160
+  Name: Costume Crescent Helm
+  AegisName: RGX_Crescent_Helm_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+    Costume_Head_Mid: true
+  View: 213
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160161
+  Name: Costume Statue Of Baby Angel
+  AegisName: RGX_Status_Of_Baby_Angel_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 444
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160162
+  Name: Costume Chinese Crown
+  AegisName: RGX_Chinese_Crown_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+    Costume_Head_Mid: true
+  View: 221
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160163
+  Name: Costume Gemini Diadem
+  AegisName: RGX_Gemini_Diadem_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 550
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160164
+  Name: Costume Taurus Crown
+  AegisName: RGX_Taurus_Crown_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 536
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160165
+  Name: Costume Mr. Smile
+  AegisName: RGX_Mr_Smile_C
+  Type: Armor
+  Buy: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+    Costume_Head_Low: true
+  View: 65
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160166
+  Name: Costume Geek Glasses
+  AegisName: RGX_Spinning_Eyes_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+  View: 27
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160167
+  Name: Costume Zorro Masque
+  AegisName: RGX_Gangster_Patch_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+  View: 50
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160168
+  Name: Costume Diver Goggles
+  AegisName: RGX_Divers_Goggles_C
+  Type: Armor
+  Buy: 25
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+  View: 10
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160169
+  Name: Costume Grampa Beard
+  AegisName: RGX_Granpa_Beard_C
+  Type: Armor
+  Buy: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Low: true
+  View: 25
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160170
+  Name: Costume Flu Mask
+  AegisName: RGX_Flu_Mask__C
+  Type: Armor
+  Buy: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Low: true
+  View: 8
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160171
+  Name: Costume Romantic Leaf
+  AegisName: RGX_Romantic_Leaf_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Low: true
+  View: 57
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160172
+  Name: Costume Cigarette
+  AegisName: RGX_Cigar_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Low: true
+  View: 54
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160173
+  Name: Costume Bandit Beard
+  AegisName: RGX_Weird_Goatee_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Low: true
+  View: 21
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160174
+  Name: Costume Monocle
+  AegisName: RGX_One_Eyed_Glass_C
+  Type: Armor
+  Buy: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+  View: 23
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160175
+  Name: Costume Eye Patch
+  AegisName: RGX_Eye_Patch_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+  View: 13
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160176
+  Name: Costume Purple Glasses
+  AegisName: RGX_Luxury_Sunglasses_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+  View: 26
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160177
+  Name: Costume Mr. Scream
+  AegisName: RGX_Mr_Scream_C
+  Type: Armor
+  Buy: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+    Costume_Head_Low: true
+  View: 75
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160178
+  Name: Costume Fin Helm
+  AegisName: RGX_Fin_Helm_C
+  Type: Armor
+  Buy: 25
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+  View: 100
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160179
+  Name: Costume Masquerade
+  AegisName: RGX_Masquerade_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+  View: 78
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160180
+  Name: Costume Blinker
+  AegisName: RGX_Blinker_C
+  Type: Armor
+  Buy: 30
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+  View: 82
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160181
+  Name: Costume Iron Cain
+  AegisName: RGX_Iron_Cane_C
+  Type: Armor
+  Buy: 25
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Low: true
+  View: 53
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160182
+  Name: Costume Romantic Flower
+  AegisName: RGX_Centimental_Flower_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Low: true
+  View: 56
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160183
+  Name: Costume Gangster Mask
+  AegisName: RGX_Ganster_Mask_C
+  Type: Armor
+  Buy: 30
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Low: true
+  View: 52
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160184
+  Name: Costume Opera Masque
+  AegisName: RGX_Phantom_Of_Opera_C
+  Type: Armor
+  Buy: 30
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+    Costume_Head_Low: true
+  View: 68
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160185
+  Name: Costume Gas Mask
+  AegisName: RGX_Gas_Mask_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+    Costume_Head_Low: true
+  View: 91
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160186
+  Name: Costume Pirate Dagger
+  AegisName: RGX_Pirate_Dagger_J_C
+  Type: Armor
+  Buy: 30
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Low: true
+  View: 327
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160187
+  Name: Costume Gangster Scarf
+  AegisName: RGX_Gang_Scarf_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Low: true
+  View: 369
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160188
+  Name: Costume Elven Ears
+  AegisName: RGX_Elven_Ears_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+  View: 73
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160189
+  Name: Costume Opera Phantom Mask
+  AegisName: RGX_Opera_Ghost_Mask_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+  View: 128
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160190
+  Name: Costume Small Ribbons
+  AegisName: RGX_Pair_Of_Red_Ribbon_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+  View: 169
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160191
+  Name: Costume Welding Mask
+  AegisName: RGX_Welding_Mask_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+    Costume_Head_Low: true
+  View: 79
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160192
+  Name: Costume Sunglasses
+  AegisName: RGX_Sunglasses__C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+  View: 12
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160193
+  Name: Costume Glasses
+  AegisName: RGX_Glasses__C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+  View: 3
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160194
+  Name: Costume Bunny Band
+  AegisName: RGX_Bunny_Band_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 15
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160195
+  Name: Costume Note Headphones
+  AegisName: Headset_OST_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+    Costume_Head_Mid: true
+  View: 220
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160196
+  Name: Costume Bubble Gum In Mouth
+  AegisName: Bubble_Gum_In_Mouth_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Low: true
+  View: 572
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160197
+  Name: Costume Corsair
+  AegisName: RGX_CORSAIR_C
+  Type: Armor
+  Buy: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 105
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    [Drake]
+- Id: 160198
+  Name: Costume Majestic Goat
+  AegisName: RGX_MAJESTIC_GOAT_C
+  Type: Armor
+  Buy: 30
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 41
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160199
+  Name: Costume Filir Hat
+  AegisName: RGX_FILIR_HAT_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 408
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    [Filir] // AGI Up
+- Id: 160200
+  Name: Costume Vanilmirth Hat
+  AegisName: RGX_Vanilmirth_Hat_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 317
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    [Vanilmirth] // Bolter
+- Id: 160201
+  Name: Costume Amistr Cap
+  AegisName: RGX_AMISTR_CAP_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 643
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    [Amistr] // Endure
+- Id: 160202
+  Name: Costume Candle
+  AegisName: RGX_Candle_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 113
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    [Mutant Vanilmirth] // Fire Autospell
+- Id: 160203
+  Name: Costume Stellar
+  AegisName: RGX_STELLAR_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 81
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160204
+  Name: Costume Bomb Wick
+  AegisName: RGX_Bomb_Wick_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 66
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    [Kublin] // Self Destruct stuff for Marine Spheres & Necromancers
+
+    - Line 1: Learn NPC_SELFDESTRUCT
+    - Line 2: NPC_SELFDESTRUCT cast time -% for summons
+
+
+    Self Destruct as a skill triggers on allies when you trigger it
+- Id: 160205
+  Name: Costume Goblin Mask
+  AegisName: RGX_GOBLIN_MASK_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+    Costume_Head_Low: true
+  View: 84
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160207
+  Name: Costume Western Grace
+  AegisName: RGX_Western_Grace_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 32
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    [Vagabond Wolf]
+- Id: 160208
+  Name: Costume Sprout Hat
+  AegisName: RGX_Sprout_Hat_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 758
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    [Tera]
+- Id: 160209
+  Name: Costume Pipe
+  AegisName: RGX_PIPE_C
+  Type: Armor
+  Buy: 10
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Low: true
+  View: 55
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160210
+  Name: Costume Orc Hero Headdress
+  AegisName: RGX_Orc_Hero_Headdress_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+    Costume_Head_Mid: true
+  View: 381
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160211
+  Name: Costume Wandering Wolf Helm
+  AegisName: RGX_Wandering_Wolf_Helm_C
+  Type: Armor
+  Buy: 15
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+    Costume_Head_Mid: true
+  View: 490
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160212
+  Name: Costume Lunatic Hat
+  AegisName: RGX_Lunatic_Hat_C
+  Type: Armor
+  Buy: 5
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 521
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160213
+  Name: Costume Goblin Chief Mask
+  AegisName: RGX_GOBLIN_CHIEF_MASK_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Mid: true
+    Costume_Head_Low: true
+  View: 174
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160214
+  Name: Costume Tiara
+  AegisName: RGX_Tiara_C
+  Type: Armor
+  Buy: 30
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 19
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160215
+  Name: Costume Kafra Band
+  AegisName: RGX_Kafra_Band_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 106
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160216
+  Name: Costume Charming Ribbon
+  AegisName: RGX_Charming_Ribbon_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 211
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160217
+  Name: Costume Red Tailed Ribbon
+  AegisName: RGX_Red_Tailed_Ribbon_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 167
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+- Id: 160218
+  Name: Costume Pink Ribbon
+  AegisName: RGX_Ribbon_Pink_C
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Costume_Head_Top: true
+  View: 245
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None

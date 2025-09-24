@@ -1,0 +1,42 @@
+Header:
+  Type: SPAWNGROUP_DB
+  Version: 3
+Body:
+- Id: 100
+  Name: lodesssssss
+  Members:
+  - Id: 22013
+    Name: Treasure
+    Count: 25
+    RewardMod: 1500
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: 100
+  - Id: 22014
+    Name: Treasure
+    Count: 25
+    RewardMod: 1500
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: 100
+- Id: 101
+  Name: lab permit
+  Members:
+  - Id: 22013
+    Name: Treasure
+    Count: 250
+    RewardMod: 1500
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: 100
+  - Id: 22014
+    Name: Treasure
+    Count: 250
+    RewardMod: 1500
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: 100

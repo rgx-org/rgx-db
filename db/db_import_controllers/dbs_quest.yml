@@ -1,0 +1,7 @@
+Header:
+  Type: QUEST_DB
+  Version: 2
+
+Footer:
+  Imports:
+    - Path: rgx/db/quest_db.yml

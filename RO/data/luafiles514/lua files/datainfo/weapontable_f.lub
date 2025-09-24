@@ -1,5 +1,5 @@
 function DebugLog(msg, id)
-	saveFile = io.open("rgx/debug.log", "a")
+	saveFile = io.open("debug.log", "a")
 	if saveFile ~= nil then
 		saveFile:write(string.format(msg .. "[%d]\n", id))
 	end
@@ -72,7 +72,7 @@ end
 
 function ReqWeaponNameByClassNum(classNum)
 	-- DebugLog("// [ReqWeaponByClassNum]",classNum)
-	-- if MyJobID == 12 then -- Only for assassins, never for shields
+	-- if JobIdGlobal == 12 then -- Only for assassins, never for shields
 	-- 	if classNum == 1 or classNum == 2 or classNum == 6 then -- only for Dagger,1hsword,1haxe
 	-- 		if LastCall == "ReqWeaponNameByClassNum" and LastWeaponId == classNum then
 	-- 			DualWieldMain = classNum
@@ -96,7 +96,7 @@ function ReqWeaponNameByClassNum(classNum)
 end
 
 function GetRealWeaponId(weaponId)
-	-- DebugLog("// [GetRealWeaponId] DualWieldAnim is ", DualWieldAnim)
+	-- DebugLog("// [GetRealWeaponId] Weapon ID is ", weaponId)
 	if weaponId == nil then
 		return 0
 	end
@@ -120,17 +120,20 @@ end
 
 -- MySex: 0 = Female, 1 = Male
 function DetermineWeaponAnimation(weaponId)
-	-- DebugLog("// [DetermineWeaponAnimation] DualWieldMain is ", weaponId)
+	--DebugLog("----------------------------", 0)
+	--DebugLog("// [DetermineWeaponAnimation] weaponId is ", weaponId)
+	--DebugLog("// [DetermineWeaponAnimation] JobIdGlobal is ", JobIdGlobal)
+	--DebugLog("// [DetermineWeaponAnimation] MySex is ", MySex)
 	local id = nil
-	if MyJobID ~= nil then
+	if JobIdGlobal ~= nil then
 		if MySex ~= nil then
 			if MySex == 1 then
-				local maleJobWeaponTable = MaleJobs[MyJobID]
+				local maleJobWeaponTable = MaleJobs[JobIdGlobal]
 				if maleJobWeaponTable ~= nil then
 					id = maleJobWeaponTable[weaponId]
 				end
 			elseif MySex == 0 then
-				local femaleJobWeaponTable = FemaleJobs[MyJobID]
+				local femaleJobWeaponTable = FemaleJobs[JobIdGlobal]
 				if femaleJobWeaponTable ~= nil then
 					id = femaleJobWeaponTable[weaponId]
 				end
@@ -139,6 +142,7 @@ function DetermineWeaponAnimation(weaponId)
 				id = 16
 			end
 			if id ~= nil then
+				--DebugLog("// [DetermineWeaponAnimation] Converted ID is ", id)
 				return id
 			end
 		end

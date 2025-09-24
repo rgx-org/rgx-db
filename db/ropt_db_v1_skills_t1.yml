@@ -1,0 +1,4791 @@
+Header:
+  Type: RANDOM_OPTION_DB
+  Version: 1
+Body:
+- Id: 50000
+  FriendlyName: V1_T1 Test Ropt
+  Option: V1_T1_TEST_ROPT
+  Transferable: false
+  Stackable: true
+  Description: T1 Test Ropt
+  Done: true
+  Script: |-
+    bonus2 bDotDamage,SC_BLEEDING,500;
+- Id: 50001
+  FriendlyName: V1_SM_BASH Damage
+  Option: V1_SM_BASH_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Bash damage +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,SM_BASH,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - SM_BASH
+  - Swordsman
+  - T1
+- Id: 50002
+  FriendlyName: V1_SM_BASH Damage + 300% SP
+  Option: V1_SM_BASH_DAMAGE__300_SP
+  Transferable: false
+  Stackable: true
+  Description: Bash damage +%d%% / SP cost +300%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,SM_BASH,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSkillUseSPrate,SM_BASH,-300;
+  Labels:
+  - SM_BASH
+  - SP
+  - Swordsman
+  - T1
+- Id: 50003
+  FriendlyName: V1_SM_BASH Knockback
+  Option: V1_SM_BASH_KNOCKBACK
+  Transferable: false
+  Stackable: true
+  Description: Bash knockback +%d
+  Done: true
+  Script: |-
+    bonus2 bAddSkillBlow,SM_BASH,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - SM_BASH
+  - Swordsman
+  - T1
+- Id: 50004
+  FriendlyName: V1_SM_BASH Life Leech on Kill
+  Option: V1_SM_BASH_LIFE_LEECH_ON_KILL
+  Transferable: true
+  Stackable: true
+  Description: '[Bash gives Life Leech +%d%% on kill]'
+  Done: true
+  Script: |-
+    bonus2 bLifeLeechSkillKill,SM_BASH,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Heal
+  - SM_BASH
+  - Swordsman
+  - T1
+- Id: 50006
+  FriendlyName: V1_SM_BASH Autospells MG_LIGHTNINGBOLT Lv3
+  Option: V1_SM_BASH_AUTOSPELLS_MG_LIGHTNINGBOLT_LV3
+  Transferable: false
+  Stackable: true
+  Description: Bash autospells Lv3 Lightning Bolt +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,SM_BASH,MG_LIGHTNINGBOLT,3,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - SM_BASH
+  - Swordsman
+  - T1
+- Id: 50007
+  FriendlyName: V1_SM_BASH inflicts Stun
+  Option: V1_SM_BASH_INFLICTS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Bash inflicts Stun +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,SM_BASH,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - SM_BASH
+  - Status
+  - Stun
+  - Swordsman
+  - T1
+- Id: 50008
+  FriendlyName: V1_SM_BASH inflicts Bleeding
+  Option: V1_SM_BASH_INFLICTS_BLEEDING
+  Transferable: false
+  Stackable: true
+  Description: Bash inflicts Bleeding +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,SM_BASH,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+  - SM_BASH
+  - Swordsman
+  - T1
+- Id: 50009
+  FriendlyName: V1_SM_BASH inflicts Silence
+  Option: V1_SM_BASH_INFLICTS_SILENCE
+  Transferable: false
+  Stackable: true
+  Description: Bash inflicts Silence +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,SM_BASH,Eff_Silence,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Silence
+  - SM_BASH
+  - Swordsman
+  - T1
+- Id: 50010
+  FriendlyName: V1_SM_BASH inflicts Critical Wounds
+  Option: V1_SM_BASH_INFLICTS_CRITICAL_WOUNDS
+  Transferable: false
+  Stackable: true
+  Description: Bash inflicts Critical Wounds +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,SM_BASH,Eff_CriticalWound,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - CriticalWound
+  - SM_BASH
+  - Swordsman
+  - T1
+- Id: 50011
+  FriendlyName: V1_SM_BASH Allow Crit + Crit
+  Option: V1_SM_BASH_ALLOW_CRIT__CRIT
+  Transferable: true
+  Stackable: true
+  Description: '[Bash can Crit. Crit +%d]'
+  Done: true
+  Script: |-
+    bonus bSkillCrit,SM_BASH;
+    bonus bCritical,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Crit
+  - SM_BASH
+  - Swordsman
+  - T1
+- Id: 50012
+  FriendlyName: V1_SM_BASH vs Bleeding
+  Option: V1_SM_BASH_VS_BLEEDING
+  Transferable: false
+  Stackable: true
+  Description: Bash damage vs Bleeding targets +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Bleeding,SM_BASH,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+  - SM_BASH
+  - Swordsman
+  - T1
+- Id: 50013
+  FriendlyName: V1_SM_BASH vs Silence
+  Option: V1_SM_BASH_VS_SILENCE
+  Transferable: false
+  Stackable: true
+  Description: Bash damage vs Silenced targets +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Silence,SM_BASH,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - SC_SILENCE
+  - Silence
+  - SM_BASH
+  - Swordsman
+  - T1
+- Id: 50014
+  FriendlyName: V1_SM_BASH vs Critical Wounds
+  Option: V1_SM_BASH_VS_CRITICAL_WOUNDS
+  Transferable: false
+  Stackable: true
+  Description: Bash damage vs Critically Wounded targets +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_CriticalWound,SM_BASH,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - CriticalWound
+  - SM_BASH
+  - Swordsman
+  - T1
+- Id: 50015
+  FriendlyName: V1_SM_BASH vs Stun
+  Option: V1_SM_BASH_VS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Bash damage vs Stunned targets +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Stun,SM_BASH,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - SM_BASH
+  - Stun
+  - Swordsman
+  - T1
+- Id: 50016
+  FriendlyName: V1_SM_BASH Stun adds Reflect Boost
+  Option: V1_SM_BASH_STUN_ADDS_REFLECT_BOOST
+  Transferable: true
+  Stackable: true
+  Description: '[When Bash inflicts Stun, gain Reflect Boost for %d seconds.]'
+  Done: true
+  Script: |-
+    bonus bBashReflectBoost,getrandomoptinfo(ROA_VALUE)*1000;
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50017
+  FriendlyName: V1_SM_BASH Perfect HIT
+  Option: V1_SM_BASH_PERFECT_HIT
+  Transferable: true
+  Stackable: false
+  Description: '[Bash has Perfect Hit.]'
+  Done: true
+  Script: |-
+    bonus bPerfectAccuracySkill,SM_BASH;
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50018
+  FriendlyName: V1_SM_BASH SP Cost
+  Option: V1_SM_BASH_SP_COST
+  Transferable: false
+  Stackable: true
+  Description: Bash SP cost -%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillUseSPrate,SM_BASH,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50019
+  FriendlyName: V1_SM_BASH Autospells AL_HOLYLIGHT
+  Option: V1_SM_BASH_AUTOSPELLS_AL_HOLYLIGHT
+  Transferable: true
+  Stackable: true
+  Description: '[Bash autospells Holy Light +%d%%]'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,SM_BASH,AL_HOLYLIGHT,1,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50021
+  FriendlyName: V1_KN_PIERCE Damage
+  Option: V1_KN_PIERCE_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Pierce damage +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,KN_PIERCE,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50022
+  FriendlyName: V1_KN_PIERCE SP Rate
+  Option: V1_KN_PIERCE_SP_RATE
+  Transferable: false
+  Stackable: true
+  Description: Pierce SP cost -%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillUseSPrate,KN_PIERCE,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50023
+  FriendlyName: V1_KN_PIERCE inflicts Bleeding
+  Option: V1_KN_PIERCE_INFLICTS_BLEEDING
+  Transferable: false
+  Stackable: true
+  Description: Pierce inflicts Bleeding +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,KN_PIERCE,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+  - Swordsman
+  - T1
+- Id: 50024
+  FriendlyName: V1_KN_PIERCE inflicts Stun
+  Option: V1_KN_PIERCE_INFLICTS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Pierce inflicts Stun +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,KN_PIERCE,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50025
+  FriendlyName: V1_KN_PIERCE Double Miss Perfect Hit + Damage
+  Option: V1_KN_PIERCE_DOUBLE_MISS_PERFECT_HIT__DAMAGE
+  Transferable: true
+  Stackable: false
+  Description: '[If Pierce misses twice in a row, your next Pierce has Perfect Hit and +%d%% damage.]'
+  Done: true
+  Script: |-
+    bonus bPierceDoubleMiss,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50026
+  FriendlyName: V1_KN_PIERCE Allow Crit + Crit
+  Option: V1_KN_PIERCE_ALLOW_CRIT__CRIT
+  Transferable: true
+  Stackable: true
+  Description: '[Pierce can Crit. Crit +%d]'
+  Done: true
+  Script: |-
+    bonus bSkillCrit,KN_PIERCE;
+    bonus bCritical,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50027
+  FriendlyName: V1_KN_PIERCE Scales w/ HIT
+  Option: V1_KN_PIECE_HIT_SCALING
+  Transferable: true
+  Stackable: true
+  Description: '[Pierce gains additional ATK based on %d%% of your Hit.]'
+  Done: true
+  Script: |-
+    bonus bPierceHitScaling,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50028
+  FriendlyName: V1_KN_PIERCE Autospells SM_ENDURE
+  Option: V1_KN_PIERCE_AUTOSPELLS_SM_ENDURE
+  Transferable: false
+  Stackable: true
+  Description: Pierce autospells Endure at half known level +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,KN_PIERCE,SM_ENDURE,getskilllv(SM_ENDURE)/2,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50029
+  FriendlyName: V1_KN_PIERCE vs Bleed
+  Option: V1_KN_PIERCE_VS_BLEED
+  Transferable: false
+  Stackable: true
+  Description: Pierce damage vs bleeding +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Bleeding,KN_PIERCE,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+  - Swordsman
+  - T1
+- Id: 50030
+  FriendlyName: V1_KN_PIERCE Pierces DEF
+  Option: V1_KN_PIERCE_PIERCES_DEF
+  Transferable: true
+  Stackable: true
+  Description: '[Pierce pierces +%d%% defense]'
+  Done: true
+  Script: |-
+    bonus2 bSkillDefPierce,KN_PIERCE,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50031
+  FriendlyName: V1_KN_PIERCE Gain hit to Med+Large / Miss Small
+  Option: V1_KN_PIERCE_GAIN_HIT_TO_MEDLARGE__MISS_SMALL
+  Transferable: true
+  Stackable: false
+  Description: '[Pierce misses small monsters and deals an extra hit to Medium & Large monsters.]'
+  Done: true
+  Script: |-
+    bonus bPierceForsakenSmall,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50032
+  FriendlyName: V1_KN_PIERCE Suction
+  Option: V1_KN_PIERCE_SUCTION
+  Transferable: true
+  Stackable: true
+  Description: '[Pierce suctions target to you.]'
+  Done: true
+  Script: |-
+    bonus2 bSkillSuction,KN_PIERCE,12;
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50033
+  FriendlyName: V1_SM_MAGNUM Damage
+  Option: V1_SM_MAGNUM_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Magnum Break damage +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,SM_MAGNUM,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50034
+  FriendlyName: V1_SM_MAGNUM Knockback
+  Option: V1_SM_MAGNUM_KNOCKBACK
+  Transferable: false
+  Stackable: true
+  Description: Magnum Break knockback +%d
+  Done: true
+  Script: |-
+    bonus2 bAddSkillBlow,SM_MAGNUM,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50035
+  FriendlyName: V1_SM_MAGNUM Power Boom + SP cost 100%
+  Option: V1_SM_MAGNUM_POWER_BOOM__SP_COST_100
+  Transferable: true
+  Stackable: true
+  Description: '[Magnum Break SP cost +100%% / Using Magnum Break has a +%d%% to give Power Boom]'
+  Done: true
+  Script: |-
+    bonus bMagnumPowerBoom,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSkillUseSPrate,SM_MAGNUM,-100;
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50036
+  FriendlyName: V1_SM_MAGNUM Bonus Fire Damage
+  Option: V1_SM_MAGNUM_BONUS_FIRE_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Magnum Break bonus Fire damage +%d%%
+  Done: true
+  Script: |-
+    bonus bMagnumFireBonus,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50037
+  FriendlyName: V1_SM_MAGNUM Remove Knockback
+  Option: V1_SM_MAGNUM_NO_KNOCKBACK
+  Transferable: true
+  Stackable: false
+  Description: '[Remove Magnum Break knockback.]'
+  Done: true
+  Script: |-
+    bonus bRemoveBlow,SM_MAGNUM;
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50038
+  FriendlyName: V1_SM_MAGNUM Reduce Delay
+  Option: V1_SM_MAGNUM_REDUCE_DELAY
+  Transferable: false
+  Stackable: true
+  Description: Magnum Break delay -%d%%
+  Done: true
+  Script: |-
+    bonus2 bAftercastDelay,SM_MAGNUM,-(getrandomoptinfo(ROA_VALUE));
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50039
+  FriendlyName: V1_SM_MAGNUM Autospells MG_FIREBOLT on Bleeding
+  Option: V1_SM_MAGNUM_AUTOSPELLS_MG_FIREBOLT_ON_BLEEDING
+  Transferable: true
+  Stackable: false
+  Description: '[Magnum Break has a +%d%% chance to auto spell known Fire Bolt on Bleeding targets.]'
+  Done: true
+  Script: |-
+    bonus bMagnumBleedFirebolt,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+- Id: 50040
+  FriendlyName: V1_SM_MAGNUM Allow Crit + Crit
+  Option: V1_SM_MAGNUM_ALLOW_CRIT__CRIT
+  Transferable: true
+  Stackable: true
+  Description: '[Magnum Break can Crit. Crit +%d]'
+  Done: true
+  Script: |-
+    bonus bSkillCrit,SM_MAGNUM;bonus bCritical,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50041
+  FriendlyName: V1_SM_MAGNUM vs Bleeding or Critically Wounded
+  Option: V1_SM_MAGNUM_VS_BLEEDING_OR_CRITICALLY_WOUNDED
+  Transferable: false
+  Stackable: true
+  Description: Magnum Break damage vs Bleeding or Critically Wounded +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Bleeding,SM_MAGNUM,getrandomoptinfo(ROA_VALUE);
+    bonus3 bEffSkillMod,Eff_CriticalWound,SM_MAGNUM,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+  - Swordsman
+  - T1
+- Id: 50042
+  FriendlyName: V1_SM_MAGNUM inflicts Heat
+  Option: V1_SM_MAGNUM_INFLICTS_HEAT
+  Transferable: false
+  Stackable: true
+  Description: Magnum Break inflicts Heat +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,SM_MAGNUM,Eff_Heat,getrandomoptinfo(ROA_VALUE);
+- Id: 50043
+  FriendlyName: V1_SM_ENDURE Increase Hit Cap
+  Option: V1_SM_ENDURE_INCREASE_HIT_CAP
+  Transferable: true
+  Stackable: true
+  Description: "[Raise Endure's hit cap by '(SkillLv/2)+%d']"
+  Done: true
+  Script: |-
+    bonus bEndureHitCap,(getskilllv(SM_ENDURE)/2)+getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50044
+  FriendlyName: V1_SM_ENDURE Autospells AL_HEAL
+  Option: V1_SM_ENDURE_AUTOSPELLS_AL_HEAL
+  Transferable: true
+  Stackable: true
+  Description: '[Endure autospells known Heal.]'
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkill,SM_ENDURE,AL_HEAL,getskilllv(AL_HEAL),1000,1;
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50045
+  FriendlyName: V1_SM_ENDURE Reduce Cooldown
+  Option: V1_SM_ENDURE_REDUCE_COOLDOWN
+  Transferable: false
+  Stackable: true
+  Description: Reduce Endure cooldown by '(SkillLv/2)+%d' seconds
+  Done: true
+  Script: |-
+    .@reduce = getskilllv(SM_ENDURE)/2;
+    .@reduce += getrandomoptinfo(ROA_VALUE);
+    .@reduce *= 1000;
+    bonus2 bSkillCooldown,SM_ENDURE,-(.@reduce);
+
+    // NOTE TO SELF: I made a bSkillCooldownRate bonus which should be used with hte new Hoplite functionality.
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50046
+  FriendlyName: V1_SM_ENDURE Add Hits on Heal
+  Option: V1_SM_ENDURE_ADD_HITS_ON_HEAL
+  Transferable: true
+  Stackable: true
+  Description: '[When healed by a skill, restore +%d Endure hits.]'
+  Done: true
+  Script: |-
+    bonus bHealAddsEndureHits,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50047
+  FriendlyName: V1_SM_ENDURE Move Speed
+  Option: V1_SM_ENDURE_MOVE_SPEED
+  Transferable: true
+  Stackable: true
+  Description: '[Endure increases move speed by +%d%%.]'
+  Done: true
+  Script: |-
+    bonus bEndureSpeed,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50048
+  FriendlyName: V1_SM_AUTOBERSERK Status Resist
+  Option: V1_SM_AUTOBERSERK_STATUS_RESIST
+  Transferable: true
+  Stackable: true
+  Description: '[Auto Berserk increases resistance to Stun, Silence, Curse, Sleep, and Blind by +%d%%.]'
+  Done: true
+  Script: |-
+    bonus bAutoBerserkResistance,getrandomoptinfo(ROA_VALUE);
+  UnEquipScript: |-
+    sc_end(SC_AUTOBERSERK);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50049
+  FriendlyName: V1_SM_PROVOKE autospells AL_DECAGI
+  Option: V1_SM_PROVOKE_AUTOSPELLS_AL_DECAGI
+  Transferable: true
+  Stackable: true
+  Description: '[Successful Provoke autospells known Decrease Agility (min lv1).]'
+  Done: true
+  Script: |-
+    bonus bProvokeDecAgi,1;
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50050
+  FriendlyName: V1_SM_PROVOKE autospells MG_THUNDERSTORM
+  Option: V1_SM_PROVOKE_AUTOSPELLS_MG_THUNDERSTORM
+  Transferable: false
+  Stackable: true
+  Description: Provoke autospells Lv3 Thunder Storm +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,SM_PROVOKE,MG_THUNDERSTORM,3,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50051
+  FriendlyName: V1_SM_PROVOKE inflicts Blind
+  Option: V1_SM_PROVOKE_INFLICTS_BLIND
+  Transferable: true
+  Stackable: true
+  Description: '[Provoke inflicts Blind +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,SM_PROVOKE,Eff_Blind,getrandomoptinfo(ROA_VALUE);
+- Id: 50052
+  FriendlyName: V1_SM_ENDURE autospell when hit
+  Option: V1_SM_ENDURE_AUTOSPELL_WHEN_HIT
+  Transferable: false
+  Stackable: true
+  Description: Autospell known Endure when hit +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellWhenHit,SM_ENDURE,getskilllv(SM_ENDURE),getrandomoptinfo(ROA_VALUE)*10,0;
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50053
+  FriendlyName: V1_SM_ENDURE Cancels Stun
+  Option: V1_SM_ENDURE_CANCELS_STUN
+  Transferable: true
+  Stackable: true
+  Description: '[Casting Endure cancels Stun.]'
+  Done: true
+  Script: |-
+    bonus bEndureStunCancel,1;
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50054
+  FriendlyName: V1_SM_PROVOKE Success Rate
+  Option: V1_SM_PROVOKE_SUCCESS_RATE
+  Transferable: false
+  Stackable: true
+  Description: Provoke success rate +%d%%
+  Done: true
+  Script: |-
+    bonus bProvokeAddRate,getrandomoptinfo(ROA_VALUE);
+- Id: 50055
+  FriendlyName: V1_SM_BASH kills give Power Boom
+  Option: V1_SM_BASH_KILLS_GIVE_POWER_BOOM
+  Transferable: true
+  Stackable: true
+  Description: '[Gain Power Boom when Bash kills a target.]'
+  Done: true
+  Script: |-
+    bonus3 bStatusOnSkillKill,SM_BASH,SC_POWERBOOM,100;
+- Id: 50056
+  FriendlyName: V1_SM_BASH kills give Fortified
+  Option: V1_SM_BASH_KILLS_GIVE_FORTIFIED
+  Transferable: true
+  Stackable: true
+  Description: '[+%d%% chance to gain a Fortified stack when Bash kills a target.]'
+  Done: true
+  Script: |-
+    bonus3 bStatusOnSkillKill,SM_BASH,SC_FORTIFIED1,getrandomoptinfo(ROA_VALUE);
+- Id: 50057
+  FriendlyName: V1_SM_ENDURE gives Bulwark
+  Option: V1_SM_ENDURE_GIVES_BULWARK
+  Transferable: true
+  Stackable: true
+  Description: "[Endure gives '(SkillLv/2)+%d' seconds of Bulwark]"
+  Done: true
+  Script: |-
+    bonus bEndureBulwark,((getskilllv(SM_ENDURE)/2)+getrandomoptinfo(ROA_VALUE))*1000;
+- Id: 50059
+  FriendlyName: V1_SM_PROVOKE Interruption restores SP
+  Option: V1_SM_PROVOKE_INTERRUPTION_RESTORES_SP
+  Transferable: true
+  Stackable: true
+  Description: '[When Provoke interrupts a cast, restore +%d%% SP.]'
+  Done: true
+  Script: |-
+    bonus bMentalist,getrandomoptinfo(ROA_VALUE);
+- Id: 50060
+  FriendlyName: V1_SM_PROVOKE mbk effect
+  Option: V1_SM_PROVOKE_MBK_EFFECT
+  Transferable: true
+  Stackable: true
+  Description: "[Your Provoke increases target's MATK & reduces target's Soft MDEF by half of Provoke's ATK/DEF rates.]"
+  Done: true
+  Script: |-
+    bonus bProvokeMbkEffect,1;
+- Id: 50061
+  FriendlyName: V1_AL_BLESSING Autospells AL_INCAGI
+  Option: V1_AL_BLESSING_AUTOSPELLS_AL_INCAGI
+  Transferable: true
+  Stackable: false
+  Description: '[Blessing autospells Increase Agility at known level (min 1).]'
+  Done: true
+  Script: |-
+    .@lv = getskilllv(AL_INCAGI);
+    if (.@lv < 1) {
+        .@lv = 1;
+    }
+    bonus4 bAutoSpellOnSkillMotion,AL_BLESSING,AL_INCAGI,.@lv,1000;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50062
+  FriendlyName: V1_AL_BLESSING Convert Holy Property
+  Option: V1_AL_BLESSING_CONVERT_HOLY_PROPERTY
+  Transferable: true
+  Stackable: false
+  Description: '[Blessing converts target to Holy property for %d seconds. Costs Holy Water equal to converted seconds. No effect on Bosses.]'
+  Done: true
+  Script: |-
+    bonus bBlessingConvertHoly,getrandomoptinfo(ROA_INFO)*1000;
+    bonus3 bSkillCatalyst,AL_BLESSING,$@HolyWater,getrandomoptinfo(ROA_INFO);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50063
+  FriendlyName: V1_AL_BLESSING Gives autos autospell AL_HOLYLIGHT
+  Option: V1_AL_BLESSING_GIVES_AUTOS_AUTOSPELL_AL_HOLYLIGHT
+  Transferable: false
+  Stackable: true
+  Description: When Blessed, auto attacks autospell Holy Light +%d%%
+  Done: true
+  Script: |-
+    bonus bBlessingAutoHolyLight,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50064
+  FriendlyName: V1_AL_BLESSING buffs ally STR
+  Option: V1_AL_BLESSING_BUFFS_ALLY_STR
+  Transferable: true
+  Stackable: true
+  Description: '[Your Blessing gives +%d STR.]'
+  Done: true
+  Script: |-
+    bonus bBlessStrBonus,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50065
+  FriendlyName: V1_AL_BLESSING Spear Hit Rate
+  Option: V1_AL_BLESSING_SPEAR_HIT_RATE
+  Transferable: false
+  Stackable: true
+  Description: When Blessed, attacks with Spears gain HIT +%d%%
+  Done: true
+  Script: |-
+    bonus bSpearBlessingHitRate,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50066
+  FriendlyName: V1_SM_MAGNUM Allow Crit & Bonus Fire Damage
+  Option: V1_SM_MAGNUM_ALLOW_CRIT__BONUS_FIRE_DAMAGE
+  Transferable: true
+  Stackable: true
+  Description: "[Magnum Break can Crit. Increase Magnum Break's bonus Fire damage +%d%%]"
+  Done: true
+  Script: |-
+    bonus bMagnumFireBonus,getrandomoptinfo(ROA_VALUE);
+    bonus bSkillCrit,SM_MAGNUM;
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50067
+  FriendlyName: V1_AL_HEAL AutoSpell SelfHeal
+  Option: V1_AL_HEAL_AUTOSPELL_SELFHEAL
+  Transferable: false
+  Stackable: true
+  Description: Heal autospells Lv%d Heal on self
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,AL_HEAL,AL_HEAL,getrandomoptinfo(ROA_VALUE),1000;
+- Id: 50068
+  FriendlyName: V1_AL_HEAL Double Heal Amotion
+  Option: V1_AL_HEAL_DOUBLE_HEAL_AMOTION
+  Transferable: false
+  Stackable: true
+  Description: Heal autospells Lv%d Heal / Heal SP cost +50%%
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkillMotion,AL_HEAL,AL_HEAL,getrandomoptinfo(ROA_VALUE),1000,0;bonus2 bSkillUseSPrate,AL_HEAL,-50;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50069
+  FriendlyName: V1_AL_HEAL Autospells Heal Delay
+  Option: V1_AL_HEAL_AUTOSPELLS_HEAL_DELAY
+  Transferable: false
+  Stackable: true
+  Description: Heal autospells Lv%d Heal after a delay of 2 seconds
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkillDelay,AL_HEAL,AL_HEAL,getrandomoptinfo(ROA_VALUE),1000,2000;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50070
+  FriendlyName: V1_AL_HEAL Double Cast Delay Self
+  Option: V1_AL_HEAL_DOUBLE_CAST_DELAY_SELF
+  Transferable: false
+  Stackable: true
+  Description: Heal SP cost increased by 25%% / Heal autospells Lv%d Heal on self after 1 second.
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkillDelaySelf,AL_HEAL,AL_HEAL,getrandomoptinfo(ROA_VALUE),1000,1000;
+    bonus2 bSkillUseSPrate,AL_HEAL,-25;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50071
+  FriendlyName: V1_AL_HEAL Recasts Lv3 Heal
+  Option: V1_AL_HEAL_RECASTS_LV3_HEAL
+  Transferable: false
+  Stackable: true
+  Description: Heal recasts Lv3 Heal %d times.
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkillRecast,AL_HEAL,AL_HEAL,3,1000,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50072
+  FriendlyName: V1_AL_HEAL Fixed Heal
+  Option: V1_AL_HEAL_FIXED_HEAL
+  Transferable: true
+  Stackable: false
+  Description: '[Heal restores HP equal to (Skill Level*10) / Heal SP cost +20.]'
+  Done: true
+  Script: |-
+    bonus bFixedHeal,1;bonus2 bSkillUseSP,AL_HEAL,-20;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50073
+  FriendlyName: V1_AL_HEAL SP Cost
+  Option: V1_AL_HEAL_SP_COST
+  Transferable: false
+  Stackable: true
+  Description: Heal SP cost -%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillUseSPrate,AL_HEAL,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50074
+  FriendlyName: V1_AL_HEAL Reduce Delay
+  Option: V1_AL_HEAL_REDUCE_DELAY
+  Transferable: false
+  Stackable: true
+  Description: Heal after cast delay -%d%%
+  Done: true
+  Script: |-
+    bonus2 bAftercastDelay,AL_HEAL,-(getrandomoptinfo(ROA_VALUE));
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50075
+  FriendlyName: V1_AL_HEAL Critical HP Heal + Dash
+  Option: V1_AL_HEAL_CRITICAL_HP_HEAL__DASH
+  Transferable: true
+  Stackable: false
+  Description: "['Heal' skill power +%d%% when target has critical HP, then self and target gain 'Dash' for 2 seconds.]"
+  Done: true
+  Script: |-
+    bonus bHealCriticalHp,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50076
+  FriendlyName: V1_AL_HEAL Reduce Delay & SP Cost
+  Option: V1_AL_HEAL_REDUCE_DELAY__SP_COST
+  Transferable: false
+  Stackable: true
+  Description: Heal delay & SP cost -%d%%
+  Done: true
+  Script: |-
+    bonus2 bAftercastDelay,AL_HEAL,-(getrandomoptinfo(ROA_VALUE));bonus2 bSkillUseSPrate,AL_HEAL,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50077
+  FriendlyName: V1_AL_INCAGI cures slow statuses
+  Option: V1_AL_INCAGI_CURES_SLOW_STATUSES
+  Transferable: true
+  Stackable: false
+  Description: '[Increase Agility cures Chill, Stone Wait, and Slow Cast.]'
+  Done: true
+  Script: |-
+    bonus bIncreaseAgiCureStatus,1;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50079
+  FriendlyName: V1_AL_INCAGI Cast time
+  Option: V1_AL_INCAGI_CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: Increase Agility cast time -%d%%
+  Done: true
+  Script: |-
+    bonus2 bCastRate,AL_INCAGI,-(getrandomoptinfo(ROA_VALUE));
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50080
+  FriendlyName: V1_AL_INCAGI Double Attack Rate
+  Option: V1_AL_INCAGI_DOUBLE_ATTACK_RATE
+  Transferable: true
+  Stackable: false
+  Description: '[Gain +%d%% Double Attack Rate when under Increased Agility.]'
+  Done: true
+  Script: |-
+    bonus bIncAgiDoubleAttack,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50081
+  FriendlyName: V1_AL_DECAGI Ignores Mdef
+  Option: V1_AL_DECAGI_IGNORES_MDEF
+  Transferable: true
+  Stackable: false
+  Description: "[Decrease Agility ignores target's MDEF.]"
+  Done: true
+  Script: |-
+    bonus bDecAgiMdef,1;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50082
+  FriendlyName: V1_AL_DECAGI Cast Time
+  Option: V1_AL_DECAGI_CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: Decrease Agility cast time -%d%%
+  Done: true
+  Script: |-
+    bonus2 bCastRate,AL_DECAGI,-(getrandomoptinfo(ROA_VALUE));
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50084
+  FriendlyName: V1_AL_CURE Cure Guard
+  Option: V1_AL_CURE_CURE_GUARD
+  Transferable: true
+  Stackable: false
+  Description: '[Cure grants 750 milliseconds of Cure Guard, blocking the next %d debuffs. Cure costs +5 Holy Water]'
+  Done: true
+  Script: |-
+    bonus bCureImmunity,getrandomoptinfo(ROA_VALUE);
+    bonus3 bSkillCatalyst,AL_CURE,$@HolyWater,5;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50085
+  FriendlyName: V1_AL_CURE casts known Heal
+  Option: V1_AL_CURE_CASTS_KNOWN_HEAL
+  Transferable: true
+  Stackable: true
+  Description: '[Cure auto spells known Heal +%d%% / Cure costs +1 Holy Water]'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,AL_CURE,AL_HEAL,getskilllv(AL_HEAL),getrandomoptinfo(ROA_VALUE);
+    bonus3 bSkillCatalyst,AL_CURE,$@HolyWater,1;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50086
+  FriendlyName: V1_AL_PNEUMA Buff Wind Damage
+  Option: V1_AL_PNEUMA_BUFF_WIND_DAMAGE
+  Transferable: true
+  Stackable: false
+  Description: '[Targets standing in your Pneuma take +%d%% damage from Wind attacks.]'
+  Done: true
+  Script: |-
+    bonus bPneumaWindDmg,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50087
+  FriendlyName: V1_AL_ANGELUS Soft Mdef
+  Option: V1_AL_ANGELUS_SOFT_MDEF
+  Transferable: true
+  Stackable: false
+  Description: '[Your Angelus gains a Soft Mdef bonus. Cost +1 Holy Water]'
+  Done: true
+  Script: |-
+    bonus bAngelusMdef,1;
+    bonus3 bSkillCatalyst,AL_ANGELUS,$@HolyWater,1;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50088
+  FriendlyName: V1_AL_ANGELUS Soft Def
+  Option: V1_AL_ANGELUS_SOFT_DEF
+  Transferable: true
+  Stackable: false
+  Description: '[Soft Def bonuses from Angelus +%d%%. Cost +1 Holy Water]'
+  Done: true
+  Script: |-
+    bonus bAngelusSoftDef,getrandomoptinfo(ROA_VALUE);
+    bonus3 bSkillCatalyst,AL_ANGELUS,$@HolyWater,1;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50089
+  FriendlyName: V1_AL_ANGELUS Reflects damage blocked
+  Option: V1_AL_ANGELUS_REFLECTS_DAMAGE_BLOCKED
+  Transferable: true
+  Stackable: true
+  Description: '[Angelus reflects +%d%% of damage prevented]'
+  Done: true
+  Script: |-
+    bonus bAngelusReflect,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50090
+  FriendlyName: V1_AL_ANGELUS Atk Buff
+  Option: V1_AL_ANGELUS_ATK_BUFF
+  Transferable: true
+  Stackable: false
+  Description: '[Angelus SP cost +200%% / Gain +%d attack for 25 seconds after casting Angelus.]'
+  Done: true
+  Script: |-
+    bonus bAngelusAtk,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSkillUseSPrate,AL_ANGELUS,-200;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50091
+  FriendlyName: V1_AL_ANGELUS Cast Time
+  Option: V1_AL_ANGELUS_CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: Angelus cast time -%d%%
+  Done: true
+  Script: "bonus2 bCastrate,AL_ANGELUS,-(getrandomoptinfo(ROA_VALUE)); "
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50092
+  FriendlyName: V1_AL_ANGELUS Reduce Delay
+  Option: V1_AL_ANGELUS_REDUCE_DELAY
+  Transferable: false
+  Stackable: true
+  Description: Angelus after cast delay -%d%%
+  Done: true
+  Script: |-
+    bonus2 bAftercastDelay,AL_ANGELUS,-(getrandomoptinfo(ROA_VALUE));
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50093
+  FriendlyName: V1_AL_ANGELUS Reduce Delay & Cast Time
+  Option: V1_AL_ANGELUS_REDUCE_DELAY__CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: Angelus delay & cast time -%d%%
+  Done: true
+  Script: "bonus2 bAftercastDelay,AL_ANGELUS,-(getrandomoptinfo(ROA_VALUE));\r\nbonus2 bCastrate,AL_ANGELUS,-(getrandomoptinfo(ROA_VALUE)); "
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50095
+  FriendlyName: V1_AL_CRUCIS reduces ATK
+  Option: V1_AL_CRUCIS_REDUCES_ATK
+  Transferable: true
+  Stackable: false
+  Description: '[Signum Crucis gains ATK reduction at half the effectiveness of DEF reduction.]'
+  Done: true
+  Script: |-
+    bonus bSignumAtk,1;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50096
+  FriendlyName: V1_AL_CRUCIS Reduce Delay
+  Option: V1_AL_CRUCIS_REDUCE_DELAY
+  Transferable: true
+  Stackable: true
+  Description: '[Signum Crucis delay -%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bAftercastDelay,AL_CRUCIS,-(getrandomoptinfo(ROA_VALUE));
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50097
+  FriendlyName: V1_AL_CRUCIS casts AL_HOLYLIGHT
+  Option: V1_AL_CRUCIS_CASTS_AL_HOLYLIGHT
+  Transferable: true
+  Stackable: true
+  Description: '[Signum Crucis delay +1.5s / Hits affected targets with Holy Light.]'
+  Done: true
+  Script: |-
+    bonus bSignumHolyLight,1;bonus2 bAftercastDelay,AL_CRUCIS,1500;
+  EquipScript: |-
+    bonus bSignumHolyLight,1;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50098
+  FriendlyName: V1_AL_CRUCIS works on all races except Angel
+  Option: V1_AL_CRUCIS_WORKS_ON_ALL_RACES_EXCEPT_ANGEL
+  Transferable: true
+  Stackable: true
+  Description: '[Signum Crucis cast time +30%% / Signum   Crucis works on all races except Angel.]'
+  Done: true
+  Script: |-
+    bonus bSignumAllRaces,1;bonus2 bCastrate,AL_CRUCIS,30;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50099
+  FriendlyName: V1_AL_CRUCIS Silence enemies
+  Option: V1_AL_CRUCIS_SILENCE_ENEMIES
+  Transferable: true
+  Stackable: true
+  Description: '[When an enemy is affected by Signum Crucis, +%d%% chance to silence them on attack.]'
+  Done: true
+  Script: |-
+    bonus bSignumCrucisSilence,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50100
+  FriendlyName: V1_AL_HOLYLIGHT Damage
+  Option: V1_AL_HOLYLIGHT_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Holy Light damage +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,AL_HOLYLIGHT,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50101
+  FriendlyName: V1_AL_HOLYLIGHT vs Silence
+  Option: V1_AL_HOLYLIGHT_VS_SILENCE
+  Transferable: false
+  Stackable: true
+  Description: Holy Light damage vs Silenced targets +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Silence,AL_HOLYLIGHT,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50102
+  FriendlyName: V1_AL_HOLYLIGHT vs Stun
+  Option: V1_AL_HOLYLIGHT_VS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Holy Light damage vs Stunned targets +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Stun,AL_HOLYLIGHT,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50103
+  FriendlyName: V1_AL_HOLYLIGHT inflicts Stun
+  Option: V1_AL_HOLYLIGHT_INFLICTS_STUN
+  Transferable: true
+  Stackable: true
+  Description: '[Holy Light inflicts Stun +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,AL_HOLYLIGHT,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50104
+  FriendlyName: V1_AL_HOLYLIGHT inflicts Slow Cast
+  Option: V1_AL_HOLYLIGHT_INFLICTS_SLOW_CAST
+  Transferable: false
+  Stackable: true
+  Description: Holy Light inflicts Slow Cast +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,AL_HOLYLIGHT,Eff_SlowCast,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50105
+  FriendlyName: V1_AL_HOLYLIGHT inflicts Critical Wounds
+  Option: V1_AL_HOLYLIGHT_INFLICTS_CRITICAL_WOUNDS
+  Transferable: false
+  Stackable: true
+  Description: Holy Light inflicts Critical Wounds +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,AL_HOLYLIGHT,Eff_CriticalWound,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50106
+  FriendlyName: V1_AL_HOLYLIGHT Dmg/SP increase
+  Option: V1_AL_HOLYLIGHT_DMGSP_INCREASE
+  Transferable: false
+  Stackable: true
+  Description: Holy Light damage and SP cost +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,AL_HOLYLIGHT,getrandomoptinfo(ROA_VALUE); bonus2 bSkillUseSPrate,AL_HOLYLIGHT,-getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50107
+  FriendlyName: V1_AL_HOLYLIGHT inflicts Silence
+  Option: V1_AL_HOLYLIGHT_INFLICTS_SILENCE
+  Transferable: false
+  Stackable: true
+  Description: Holy Light inflicts Silence +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,AL_HOLYLIGHT,Eff_Silence,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50108
+  FriendlyName: V1_AL_HOLYLIGHT Increases Holy Cross damage
+  Option: V1_AL_HOLYLIGHT_INCREASES_HOLY_CROSS_DAMAGE
+  Transferable: true
+  Stackable: false
+  Description: '[Holy Light increases damage of next Holy attack by +%d%%.]'
+  Done: false
+  Script: |-
+    ;
+    //Cap around 30% this is mostly for Holy Cross Holy Light
+- Id: 50109
+  FriendlyName: V1_TF_POISON Damage
+  Option: V1_TF_POISON_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Envenom damage +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,TF_POISON,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - T1
+  - Thief
+- Id: 50110
+  FriendlyName: V1_TF_POISON SP Cost
+  Option: V1_TF_POISON_SP_COST
+  Transferable: false
+  Stackable: true
+  Description: Envenom SP cost -%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillUseSPrate,TF_ENVENOM,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - T1
+  - Thief
+- Id: 50111
+  FriendlyName: V1_TF_POISON Allow Crit + Crit
+  Option: V1_TF_POISON_ALLOW_CRIT__CRIT
+  Transferable: true
+  Stackable: false
+  Description: '[Envenom can Crit. Crit +%d]'
+  Done: true
+  Script: |-
+    bonus bSkillCrit,TF_POISON;bonus bCritical,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - T1
+  - Thief
+- Id: 50112
+  FriendlyName: V1_TF_POISON Boost Poison chance
+  Option: V1_TF_POISON_BOOST_POISON_CHANCE
+  Transferable: true
+  Stackable: true
+  Description: "[Boost Envenom's poison chance by +%d%%.]"
+  Done: true
+  Script: |-
+    bonus bEnvenomBoostPoison,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - T1
+  - Thief
+- Id: 50113
+  FriendlyName: V1_TF_POISON inflicts Deadly Poison
+  Option: V1_TF_POISON_INFLICTS_DEADLY_POISON
+  Transferable: true
+  Stackable: true
+  Description: '[Envenom inflicts Deadly Poison +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,TF_POISON,Eff_DPoison,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - T1
+  - Thief
+- Id: 50114
+  FriendlyName: V1_TF_DETOXIFY Deadly Poison
+  Option: V1_TF_DETOXIFY_DEADLY_POISON
+  Transferable: true
+  Stackable: false
+  Description: '[Detoxify no longer cures Poison, but     converts it to Deadly Poison.]'
+  Done: true
+  Script: |-
+    bonus bDetoxifyDPoison,1;
+  Labels:
+  - T1
+  - Thief
+- Id: 50115
+  FriendlyName: V1_TF_DETOXIFY autospells Heal on cure
+  Option: V1_TF_DETOXIFY_AUTOSPELLS_HEAL_ON_CURE
+  Transferable: true
+  Stackable: true
+  Description: '[Detoxify autospells Lv%d Heal when poison is cured.]'
+  Done: true
+  Script: |-
+    bonus bDetoxifyHeal,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - T1
+  - Thief
+- Id: 50116
+  FriendlyName: V1_TF_THROWSTONE Knockback
+  Option: V1_TF_THROWSTONE_KNOCKBACK
+  Transferable: false
+  Stackable: true
+  Description: Throw Stone knockback +%d
+  Done: true
+  Script: |-
+    bonus2 bAddSkillBlow,TF_THROWSTONE,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - T1
+  - Thief
+- Id: 50117
+  FriendlyName: V1_TF_THROWSTONE Stone Curse
+  Option: V1_TF_THROWSTONE_STONECURSE
+  Transferable: false
+  Stackable: true
+  Description: Throw Stone inflicts Stone Curse +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,TF_THROWSTONE,Eff_Stone,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - T1
+  - Thief
+- Id: 50118
+  FriendlyName: V1_TF_THROWSTONE Stun & Blind Chances
+  Option: V1_TF_THROWSTONE_STUN__BLIND_CHANCES
+  Transferable: true
+  Stackable: true
+  Description: '[Throw Stone inflicts Stun & Blind +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,TF_THROWSTONE,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+    bonus3 bAddEffOnSkill,KN_PIERCE,Eff_Blind,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - T1
+  - Thief
+- Id: 50119
+  FriendlyName: V1_TF_HIDING Enable SelfCast Skills + SP Inc
+  Option: V1_TF_HIDING_ENABLE_SELFCAST_SKILLS__SP_INC
+  Transferable: true
+  Stackable: false
+  Description: '[Self-cast skills can be used out of Hiding. Increase Hiding SP drain by a factor of %d. Also, this should probably reduce hiding time, maybe. test it.]'
+  Done: true
+  Script: |-
+    bonus bSelfCastOutOfHide,1;bonus bHideSpMultiplier,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - T1
+  - Thief
+- Id: 50120
+  FriendlyName: V1_TF_HIDING Perfect Hide
+  Option: V1_TF_HIDING_PERFECT_HIDE
+  Transferable: true
+  Stackable: false
+  Description: '[Perfect Hiding. Hiding duration reduced by a factor of %d. Forced microstun when Hiding expires naturally.]'
+  Done: true
+  Script: |-
+    bonus bHideStunTimer,getrandomoptinfo(ROA_VALUE);
+    bonus bPerfectHide;
+  UnEquipScript: |-
+    sc_end(SC_HIDING);
+- Id: 50121
+  FriendlyName: V1_TF_HIDING Costs 0 SP
+  Option: V1_TF_HIDING_COSTS_0_SP
+  Transferable: true
+  Stackable: false
+  Description: '[Hiding costs 0 SP.]'
+  Done: true
+  Script: |-
+    bonus2 bSkillUseSPrate,TF_HIDING,100;
+  Labels:
+  - T1
+  - Thief
+- Id: 50122
+  FriendlyName: V1_TF_HIDING Damage Buff
+  Option: V1_TF_HIDING_DAMAGE_BUFF
+  Transferable: true
+  Stackable: false
+  Description: '[Weapon attacks used from within Hiding deal +%d%% damage.]'
+  Done: true
+  Script: |-
+    bonus bTfHidingDamageBuff,getrandomoptinfo(ROA_VALUE);
+- Id: 50123
+  FriendlyName: V1_TF_HIDING gives Find Me
+  Option: V1_TF_HIDING_GIVES_FIND_ME
+  Transferable: true
+  Stackable: true
+  Description: "[Gain 'Find Me' after Hiding ends +%d%%]"
+  Done: true
+  Script: |-
+    bonus bFindMeHiding,getrandomoptinfo(ROA_VALUE);
+  UnEquipScript: |-
+    sc_end(SC_FIND_ME);
+  Labels:
+  - T1
+  - Thief
+- Id: 50124
+  FriendlyName: V1_TF_BACKSLIDING Dash
+  Option: V1_TF_BACKSLIDING_DASH
+  Transferable: false
+  Stackable: false
+  Description: Backsliding has a +%d%% chance to give 'Dash' for 2 seconds.
+  Done: true
+  Script: |-
+    bonus bBackslidingDash,getrandomoptinfo(ROA_VALUE);
+  UnEquipScript: |-
+    sc_end(SC_IN_THE_WIND);
+  Labels:
+  - T1
+  - Thief
+- Id: 50125
+  FriendlyName: V1_TF_BACKSLIDING Front Slide
+  Option: V1_TF_BACKSLIDING_FRONT_SLIDE
+  Transferable: true
+  Stackable: false
+  Description: '[Backsliding slides forward. Range -%d.]'
+  Done: true
+  Script: |-
+    bonus bBackslideFrontslide,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - T1
+  - Thief
+- Id: 50126
+  FriendlyName: V1_TF_BACKSLIDING Damage Path
+  Option: V1_TF_BACKSLIDING_DAMAGE_PATH
+  Transferable: true
+  Stackable: true
+  Description: '[Backsliding damages enemies based on +%d%% of your weapon attack]'
+  Done: true
+  Script: |-
+    bonus bBackslideDamage,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - T1
+  - Thief
+- Id: 50127
+  FriendlyName: V1_TF_BACKSLIDING autospell MG_FIREWALL at half known
+  Option: V1_TF_BACKSLIDING_AUTOSPELL_MG_FIREWALL_AT_HALF_KNOWN
+  Transferable: true
+  Stackable: true
+  Description: '[Backsliding autospells Fire Wall at half known level +%d%% (min 1)]'
+  Done: true
+  Script: |-
+    .@lvl = getskilllv(MG_FIREWALL)/2;
+    if (.@lvl < 1) {
+        .@lvl = 1;
+    }
+    bonus4 bAutoSpellOnSkill,TF_BACKSLIDING,MG_FIREWALL,.@lvl,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - Magician
+  - T1
+  - Thief
+- Id: 50128
+  FriendlyName: V1_TF_BACKSLIDING autospell Lv3 MG_SAFETYWALL
+  Option: V1_TF_BACKSLIDING_AUTOSPELL_LV3_MG_SAFETYWALL
+  Transferable: false
+  Stackable: true
+  Description: Backsliding autospells Lv3 Safety Wall +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,TF_BACKSLIDING,MG_SAFETYWALL,3,getrandomoptinfo(ROA_VALUE)*10;
+- Id: 50129
+  FriendlyName: V1_TF_BACKSLIDING autospell AL_HEAL
+  Option: V1_TF_BACKSLIDING_AUTOSPELL_AL_HEAL
+  Transferable: true
+  Stackable: true
+  Description: '[Backsliding autospells Lv3 Heal +%d%%]'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,TF_BACKSLIDING,AL_HEAL,3,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - Acolyte
+  - T1
+  - Thief
+- Id: 50130
+  FriendlyName: V1_TF_BACKSLIDING autospell AL_PNEUMA
+  Option: V1_TF_BACKSLIDING_AUTOSPELL_AL_PNEUMA
+  Transferable: true
+  Stackable: false
+  Description: '[Backsliding autospells Pneuma.]'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,TF_BACKSLIDING,AL_PNEUMA,1,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - Acolyte
+  - T1
+  - Thief
+- Id: 50131
+  FriendlyName: V1_TF_BACKSLIDING autospell SM_MAGNUM
+  Option: V1_TF_BACKSLIDING_AUTOSPELL_SM_MAGNUM
+  Transferable: false
+  Stackable: true
+  Description: Backsliding autospells Lv%d Magnum Break
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,TF_BACKSLIDING,SM_MAGNUM,getrandomoptinfo(ROA_VALUE),1000;
+  Labels:
+  - Swordsman
+  - T1
+  - Thief
+- Id: 50132
+  FriendlyName: V1_SM_BASH inflicts Bleed & kills give Power Boom
+  Option: V1_SM_BASH_INFLICTS_BLEED__KILLS_GIVE_POWER_BOOM
+  Transferable: true
+  Stackable: true
+  Description: '[Bash inflicts Bleeding +%d%% / Gain Power Boom when Bash kills a target.]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,SM_BASH,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+    bonus3 bStatusOnSkillKill,SM_BASH,SC_POWERBOOM,100;
+  Labels:
+  - Bleeding
+- Id: 50133
+  FriendlyName: V1_SM_BASH vs Bleeding + 300% SP
+  Option: V1_SM_BASH_VS_BLEEDING__300_SP
+  Transferable: false
+  Stackable: true
+  Description: Bash damage +%d%% / SP cost +300%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Bleeding,SM_BASH,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSkillUseSPrate,SM_BASH,-300;
+  Labels:
+  - Bleeding
+  - SM_BASH
+  - SP
+  - Swordsman
+  - T1
+- Id: 50135
+  FriendlyName: V1_TF_HIDING Counter Damage
+  Option: V1_TF_HIDING_COUNTER_DAMAGE
+  Transferable: true
+  Stackable: true
+  Description: '[Hiding Counter damage +%d%%]'
+  Done: true
+  Script: |-
+    bonus bHidingCounterDamage,getrandomoptinfo(ROA_VALUE);
+- Id: 50136
+  FriendlyName: V1_SM_BASH kills give Find Me
+  Option: V1_SM_BASH_KILLS_GIVE_FIND_ME
+  Transferable: true
+  Stackable: true
+  Description: "[Gain 'Find Me' when Bash kills a target +%d%%]"
+  Done: true
+  Script: |-
+    bonus3 bStatusOnSkillKill,SM_BASH,SC_FIND_ME,getrandomoptinfo(ROA_VALUE);
+- Id: 50137
+  FriendlyName: V1_MG_LIGHTNINGBOLT inflicts Shock
+  Option: V1_MG_LIGHTNINGBOLT_INFLICTS_SHOCK
+  Transferable: true
+  Stackable: true
+  Description: '[Lightning Bolt inflicts Shock +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_LIGHTNINGBOLT,Eff_Shock,getrandomoptinfo(ROA_VALUE)*100;
+  Labels:
+  - Magician
+  - T1
+- Id: 50138
+  FriendlyName: V1_MG_LIGHTNINGBOLT Reduce Dmg & Cast Time
+  Option: V1_MG_LIGHTNINGBOLT_REDUCE_DMG__CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: '[Lightning Bolt damage & cast time reduced by %d%%]'
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,MG_LIGHTNINGBOLT,-(getrandomoptinfo(ROA_VALUE));
+    bonus2 bCastRate,MG_LIGHTNINGBOLT,-(getrandomoptinfo(ROA_VALUE));
+  Labels:
+  - Magician
+  - T1
+- Id: 50139
+  FriendlyName: V1_MG_LIGHTNINGBOLT Damage
+  Option: V1_MG_LIGHTNINGBOLT_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Lightning Bolt damage +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,MG_LIGHTNINGBOLT,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50140
+  FriendlyName: V1_MG_LIGHTNINGBOLT inflicts Stun
+  Option: V1_MG_LIGHTNINGBOLT_INFLICTS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Lightning Bolt inflicts Stun +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_LIGHTNINGBOLT,Eff_Stun,getrandomoptinfo(ROA_VALUE)*100;
+  Labels:
+  - Magician
+  - T1
+- Id: 50141
+  FriendlyName: V1_SM_MAGNUM inflicts Stun
+  Option: V1_SM_MAGNUM_INFLICTS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Magnum Break inflicts Stun +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,SM_MAGNUM,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+- Id: 50142
+  FriendlyName: V1_SM_MAGNUM Cast Time + Damage
+  Option: V1_SM_MAGNUM_CAST_TIME__DAMAGE
+  Transferable: true
+  Stackable: true
+  Description: '[Magnum Break gains +3 second cast time & deals +%d%% damage.]'
+  Done: true
+  Script: |-
+    bonus2 bNewCastTimeSkill,SM_MAGNUM,3000;
+    bonus2 bSkillAtk,SM_MAGNUM,getrandomoptinfo(ROA_VALUE);
+- Id: 50143
+  FriendlyName: V1_SM_BASH Splash Radius
+  Option: V1_SM_BASH_SPLASH_RADIUS
+  Transferable: true
+  Stackable: false
+  Description: '[Bash splash radius +1 cell.]'
+  Done: true
+  Script: |-
+    bonus2 bSkillSplash,SM_BASH,1;
+  Labels:
+  - Merchant
+  - T1
+- Id: 50144
+  FriendlyName: V1_SM_AUTOBERSERK ASPD
+  Option: V1_SM_AUTOBERSERK_ASPD
+  Transferable: true
+  Stackable: false
+  Description: '[When Auto Berserk is active, ASPD +%d%%.(UNIMPLEMENTED)]'
+  Done: false
+  Script: |-
+    ;
+- Id: 50145
+  FriendlyName: V1_SM_BASH inflicts Bleeding & Stun
+  Option: V1_SM_BASH_INFLICTS_BLEEDING__STUN
+  Transferable: false
+  Stackable: true
+  Description: Bash inflicts Bleeding & Stun +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,SM_BASH,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+    bonus3 bAddEffOnSkill,SM_BASH,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+  - SM_BASH
+  - Swordsman
+  - T1
+- Id: 50146
+  FriendlyName: V1_SM_AUTOBERSERK ASPD & ATK
+  Option: V1_SM_AUTOBERSERK_ASPD__ATK
+  Transferable: true
+  Stackable: false
+  Description: '[When Auto Berserk is active, ASPD & ATK +%d%%.(UNIMPLEMENTED)]'
+  Done: false
+  Script: |-
+    ;
+- Id: 50147
+  FriendlyName: V1_SM_BASH Autospells KN_BOWLINGBASH
+  Option: V1_SM_BASH_AUTOSPELLS_KN_BOWLINGBASH
+  Transferable: false
+  Stackable: true
+  Description: Bash autospells Bowling Bash +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,SM_BASH,KN_BOWLINGBASH,getskilllv(KN_BOWLINGBASH),getrandomoptinfo(ROA_VALUE)*10;
+- Id: 50148
+  FriendlyName: V1_SM_BASH Autospells KN_BOWLINGBASH & Inflicts Bleeding
+  Option: V1_SM_BASH_AUTOSPELLS_KN_BOWLINGBASH__INFLICTS_BLEEDING
+  Transferable: false
+  Stackable: true
+  Description: Bash inflicts Bleeding / autospells Bowling Bash +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,SM_BASH,KN_BOWLINGBASH,getskilllv(KN_BOWLINGBASH),getrandomoptinfo(ROA_VALUE)*10;
+    bonus3 bAddEffOnSkill,SM_BASH,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+- Id: 50149
+  FriendlyName: V1_SM_MAGNUM Bonus Fire & vs Bleeding or Critically Wounded
+  Option: V1_SM_MAGNUM_BONUS_FIRE__VS_BLEEDING_OR_CRITICALLY_WOUNDED
+  Transferable: false
+  Stackable: true
+  Description: Magnum Break bonus Fire damage & weapon damage vs Bleeding +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Bleeding,SM_MAGNUM,getrandomoptinfo(ROA_VALUE);bonus bMagnumFireBonus,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+  - Swordsman
+  - T1
+- Id: 50151
+  FriendlyName: V1_SM_AUTOBERSERK Crit Damage
+  Option: V1_SM_AUTOBERSERK_CRIT_DAMAGE
+  Transferable: true
+  Stackable: true
+  Description: '[Auto Berserk increases Crit ATK +%d%% (UNIMPLEMENTED)]'
+  Done: false
+  Script: |-
+    ;
+- Id: 50152
+  FriendlyName: V1_SM_MAGNUM vs Stun
+  Option: V1_SM_MAGNUM_VS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Magnum Break damage vs Stun +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Stun,SM_MAGNUM,getrandomoptinfo(ROA_VALUE);
+- Id: 50153
+  FriendlyName: V1_'SM_BASH & SM_MAGNUM inflicts Stun '
+  Option: V1_SM_BASH__SM_MAGNUM_INFLICTS_STUN_
+  Transferable: false
+  Stackable: true
+  Description: Bash & Magnum Break inflict Stun +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,SM_BASH,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+    bonus3 bAddEffOnSkill,SM_MAGNUM,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - SM_BASH
+  - Status
+  - Stun
+  - Swordsman
+  - T1
+- Id: 50154
+  FriendlyName: V1_SM_BASH & SM_MAGNUM vs Stun
+  Option: V1_SM_BASH__SM_MAGNUM_VS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Bash & Magnum Break damage vs Stun +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Stun,SM_BASH,getrandomoptinfo(ROA_VALUE);
+    bonus3 bEffSkillMod,Eff_Stun,SM_MAGNUM,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - SM_BASH
+  - Stun
+  - Swordsman
+  - T1
+- Id: 50155
+  FriendlyName: V1_SM_AUTOBERSERK Double Attack Rate
+  Option: V1_SM_AUTOBERSERK_DOUBLE_ATTACK_RATE
+  Transferable: true
+  Stackable: false
+  Description: '[Auto Berserk gives +%d%% Double Attack Rate.(UNIMPLEMENTED)]'
+  Done: false
+  Script: |-
+    ;
+- Id: 50157
+  FriendlyName: V1_Crits & Double Attacks AutoSpell MG_LIGHTNINGBOLT
+  Option: V1_CRITS__DOUBLE_ATTACKS_AUTOSPELL_MG_LIGHTNINGBOLT
+  Transferable: true
+  Stackable: true
+  Description: '[Crits & Double Attacks auto spell Lightning Bolt at half known level +%d%% (min 1)]'
+  Done: true
+  Script: |-
+    .@lvl = getskilllv(MG_LIGHTNINGBOLT)/2;
+    if (.@lvl < 1) {
+       .@lvl = 1;
+    }
+    bonus4 bAutoSpellOnCrit,MG_LIGHTNINGBOLT,.@lvl,getrandomoptinfo(ROA_VALUE)*10,1;
+    bonus4 bAutoSpellOnDoubleAttack,MG_LIGHTNINGBOLT,.@lvl,getrandomoptinfo(ROA_VALUE)*10,1;
+  Labels:
+  - SM_BASH
+  - Swordsman
+  - T1
+- Id: 50158
+  FriendlyName: V1_SM_MAGNUM autospells MG_THUNDERSTORM
+  Option: V1_SM_MAGNUM_AUTOSPELLS_MG_THUNDERSTORM
+  Transferable: false
+  Stackable: true
+  Description: Magnum Break costs +200%% SP & autospells Lv%d Thunder Storm on self.
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkillDelaySelf,SM_MAGNUM,MG_THUNDERSTORM,getrandomoptinfo(ROA_VALUE),1000,150;
+- Id: 50160
+  FriendlyName: V1_TF_BACKSLIDING autospells MG_THUNDERSTORM
+  Option: V1_TF_BACKSLIDING_AUTOSPELLS_MG_THUNDERSTORM
+  Transferable: true
+  Stackable: false
+  Description: '[Backsliding autospells Lv%d Thunder Storm at origin.]'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,TF_BACKSLIDING,MG_THUNDERSTORM,getrandomoptinfo(ROA_VALUE),1000;
+    bonus bBackslidingOriginSkill,MG_THUNDERSTORM;
+- Id: 50161
+  FriendlyName: V1_SM_BASH Autospells KN_BOWLINGBASH & Inflicts Stun
+  Option: V1_SM_BASH_AUTOSPELLS_KN_BOWLINGBASH__INFLICTS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Bash inflicts Stun / autospells Bowling Bash +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,SM_BASH,KN_BOWLINGBASH,getskilllv(KN_BOWLINGBASH),getrandomoptinfo(ROA_VALUE)*10;bonus3 bAddEffOnSkill,SM_BASH,Stun,getrandomoptinfo(ROA_VALUE);
+- Id: 50162
+  FriendlyName: V1_KN_PIERCE Bleeding -> Critical Wounds
+  Option: V1_KN_PIERCE_BLEEDING__CRITICAL_WOUNDS
+  Transferable: true
+  Stackable: false
+  Description: '[Pierce converts Bleeding to Critical Wounds.]'
+  Done: true
+  Script: |-
+    bonus bPierceConvertBleedCWounds,1;
+- Id: 50163
+  FriendlyName: V1_KN_PIERCE vs Stun
+  Option: V1_KN_PIERCE_VS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Pierce damage vs Stun +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Stun,KN_PIERCE,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50164
+  FriendlyName: V1_SM_MAGNUM Reduce Delay & SP Cost
+  Option: V1_SM_MAGNUM_REDUCE_DELAY__SP_COST
+  Transferable: false
+  Stackable: true
+  Description: Magnum Break delay & SP cost -%d%%
+  Done: true
+  Script: |-
+    bonus2 bAftercastDelay,SM_MAGNUM,-(getrandomoptinfo(ROA_VALUE));bonus2 bSkillUseSPrate,SM_MAGNUM,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50165
+  FriendlyName: V1_KN_PIERCE Autospells SM_BASH
+  Option: V1_KN_PIERCE_AUTOSPELLS_SM_BASH
+  Transferable: false
+  Stackable: true
+  Description: Pierce autospells Bash at half known level +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,KN_PIERCE,SM_BASH,getskilllv(SM_BASH)/2,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - SM_BASH
+  - Swordsman
+  - T1
+- Id: 50166
+  FriendlyName: V1_KN_PIERCE Perfect Hit
+  Option: V1_KN_PIERCE_PERFECT_HIT
+  Transferable: true
+  Stackable: false
+  Description: '[Pierce has Perfect Hit.]'
+  Done: true
+  Script: |-
+    bonus bPerfectAccuracySkill,KN_PIERCE;
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50167
+  FriendlyName: V1_KN_PIERCE kills give Fortified
+  Option: V1_KN_PIERCE_KILLS_GIVE_FORTIFIED
+  Transferable: true
+  Stackable: false
+  Description: '[Gain a Fortified stack when Pierce kills a target.]'
+  Done: true
+  Script: |-
+    bonus3 bStatusOnSkillKill,KN_PIERCE,SC_FORTIFIED1,100;
+- Id: 50168
+  FriendlyName: V1_KN_PIERCE Life Leech on Kill
+  Option: V1_KN_PIERCE_LIFE_LEECH_ON_KILL
+  Transferable: true
+  Stackable: true
+  Description: '[Pierce gives Life Leech +%d%% on kill]'
+  Done: true
+  Script: |-
+    bonus2 bLifeLeechSkillKill,KN_PIERCE,getrandomoptinfo(ROA_VALUE);
+- Id: 50169
+  FriendlyName: V1_KN_PIERCE Perfect Hit + Gain hit to Large / Miss Small
+  Option: V1_KN_PIERCE_PERFECT_HIT__GAIN_HIT_TO_LARGE__MISS_SMALL
+  Transferable: true
+  Stackable: false
+  Description: '[Pierce misses small monsters and deals an extra hit to Large monsters. Pierce has Perfect Hit.]'
+  Done: true
+  Script: |-
+    bonus bPierceForsakenSmall,1;
+    bonus bPerfectAccuracySkill,KN_PIERCE;
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50170
+  FriendlyName: V1_KN_PIERCE Allow Crit + Scales w/ HIT
+  Option: V1_KN_PIERCE_ALLOW_CRIT__SCALES_W_HIT
+  Transferable: true
+  Stackable: true
+  Description: '[Pierce can Crit & gains additional ATK based on %d%% of your Hit.]'
+  Done: true
+  Script: |-
+    bonus bPierceHitScaling,getrandomoptinfo(ROA_VALUE);bonus bSkillCrit,KN_PIERCE;
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50171
+  FriendlyName: V1_KN_PIERCE Allow Crit + Bleeding -> Critical Wounds
+  Option: V1_KN_PIERCE_ALLOW_CRIT__BLEEDING__CRITICAL_WOUNDS
+  Transferable: true
+  Stackable: true
+  Description: '[Pierce can Crit & converts Bleeding to Critical Wounds.]'
+  Done: true
+  Script: |-
+    bonus bSkillCrit,KN_PIERCE;
+    bonus bPierceConvertBleedCWounds,1;
+- Id: 50172
+  FriendlyName: V1_SM_BASH vs Poison
+  Option: V1_SM_BASH_VS_POISON
+  Transferable: false
+  Stackable: true
+  Description: Bash damage vs Poisoned targets +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Poison,SM_BASH,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+  - SM_BASH
+  - Swordsman
+  - T1
+- Id: 50173
+  FriendlyName: V1_SM_BASH Recasts SM_BASH
+  Option: V1_SM_BASH_RECASTS_SM_BASH
+  Transferable: false
+  Stackable: true
+  Description: Bash recasts Bash at half known level +%d%%.
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkillRecast,SM_BASH,SM_BASH,getskilllv(SM_BASH)/2,getrandomoptinfo(ROA_VALUE)*10,1;
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50174
+  FriendlyName: V1_SM_BASH Autospells WZ_EARTHSPIKE Lv1
+  Option: V1_SM_BASH_AUTOSPELLS_WZ_EARTHSPIKE_LV1
+  Transferable: false
+  Stackable: true
+  Description: Bash autospells Lv1 Earth Spike +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,SM_BASH,WZ_EARTHSPIKE,1,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - SM_BASH
+  - Swordsman
+  - T1
+- Id: 50175
+  FriendlyName: V1_MC_MAMMONITE inflicts Stun
+  Option: V1_MC_MAMMONITE_INFLICTS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Mammonite inflicts Stun +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MC_MAMMONITE,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Merchant
+  - T1
+- Id: 50176
+  FriendlyName: V1_MC_MAMMONITE Damage
+  Option: V1_MC_MAMMONITE_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Mammonite damage +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,MC_MAMMONITE,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Merchant
+  - T1
+- Id: 50177
+  FriendlyName: V1_MC_MAMMONITE Reduce Zeny
+  Option: V1_MC_MAMMONITE_REDUCE_ZENY
+  Transferable: false
+  Stackable: true
+  Description: Mammonite zeny cost reduced by %d%%
+  Done: true
+  Script: |-
+    bonus bMammoniteCostRedux,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Merchant
+  - T1
+- Id: 50178
+  FriendlyName: V1_MC_MAMMONITE Last Hit Refund
+  Option: V1_MC_MAMMONITE_LAST_HIT_REFUND
+  Transferable: true
+  Stackable: false
+  Description: "[Double Mammonite's cost. If Mammonite kills, refund full cost and heal %d%% Max SP.]"
+  Done: true
+  Script: |-
+    bonus bMammoniteLastHitRefund,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Merchant
+  - T1
+- Id: 50179
+  FriendlyName: V1_MC_MAMMONITE vs Bleeding
+  Option: V1_MC_MAMMONITE_VS_BLEEDING
+  Transferable: false
+  Stackable: true
+  Description: Mammonite damage vs Bleeding targets +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Bleeding,MC_MAMMONITE,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+  - Merchant
+  - T1
+- Id: 50180
+  FriendlyName: V1_MC_MAMMONITE vs Stun
+  Option: V1_MC_MAMMONITE_STUN_MOD
+  Transferable: false
+  Stackable: true
+  Description: Mammonite damage vs Stunned targets +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Stun,MC_MAMMONITE,getrandomoptinfo(ROA_VALUE);
+- Id: 50181
+  FriendlyName: V1_MC_MAMMONITE Reduce SP Cost
+  Option: V1_MC_MAMMONITE_SP_USERATE
+  Transferable: false
+  Stackable: true
+  Description: Mammonite SP cost -%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillUseSPrate,MC_MAMMONITE,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Merchant
+  - T1
+- Id: 50182
+  FriendlyName: V1_MC_MAMMONITE Reduce Cost & SP Cost
+  Option: V1_VAR_MAMMO_COST_SPCOST_REDUX
+  Transferable: false
+  Stackable: true
+  Description: Mammonite zeny & SP cost -%d%%
+  Done: true
+  Script: |-
+    bonus bMammoniteCostRedux,getrandomoptinfo(ROA_VALUE);bonus2 bSkillUseSPrate,MC_MAMMONITE,getrandomoptinfo(ROA_VALUE);
+- Id: 50183
+  FriendlyName: V1_MC_MAMMONITE Allow Crit + Crit
+  Option: V1_MC_MAMMONITE_ALLOW_CRIT__CRIT
+  Transferable: true
+  Stackable: true
+  Description: '[Mammonite can Crit. Crit +%d]'
+  Done: true
+  Script: |-
+    bonus bSkillCrit,MC_MAMMONITE;bonus bCritical,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Merchant
+  - T1
+- Id: 50184
+  FriendlyName: V1_MC_MAMMONITE Splash Damage
+  Option: V1_MC_MAMMONITE_ADD_SPLASH
+  Transferable: false
+  Stackable: true
+  Description: Mammonite splash radius +%d
+  Done: true
+  Script: |-
+    bonus2 bSkillSplash,MC_MAMMONITE,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Merchant
+  - T1
+- Id: 50185
+  FriendlyName: V1_MC_MAMMONITE Add Knockback
+  Option: V1_MC_MAMMONITE_ADD_KNOCKBACK
+  Transferable: false
+  Stackable: true
+  Description: Mammonite knockback +%d
+  Done: true
+  Script: |-
+    bonus2 bAddSkillBlow,MC_MAMMONITE,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Merchant
+  - T1
+- Id: 50186
+  FriendlyName: V1_MC_MAMMONITE Add Cost & Damage
+  Option: V1_MC_MAMMONITE_COST_DMG
+  Transferable: false
+  Stackable: true
+  Description: Mammonite cost & damage +%d%%
+  Done: true
+  Script: |-
+    bonus bMammoniteCostRedux,-(getrandomoptinfo(ROA_VALUE));bonus2 bSkillAtk,MC_MAMMONITE,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Merchant
+  - T1
+- Id: 50187
+  FriendlyName: V1_MC_LOUD Damage vs Large
+  Option: V1_MC_LOUD_DMG_VS_LARGE
+  Transferable: true
+  Stackable: false
+  Description: '[Loud Excalamation gives +%d%% damage vs Large enemies. Costs +5 Red Gemstone]'
+  Done: true
+  Script: |-
+    bonus bLoudLargeDmg,getrandomoptinfo(ROA_VALUE);
+    bonus3 bSkillCatalyst,MC_LOUD,$@RedGemstone,5;
+  Labels:
+  - Merchant
+  - T1
+- Id: 50188
+  FriendlyName: V1_MC_LOUD ASPD
+  Option: V1_MC_LOUD_ASPD
+  Transferable: true
+  Stackable: false
+  Description: '[Loud Excalamation gives +%d%% ASPD. Cost +1 Red Gemstone]'
+  Done: true
+  Script: |-
+    bonus bLoudAspd,getrandomoptinfo(ROA_VALUE);
+    bonus3 bSkillCatalyst,MC_LOUD,$@RedGemstone,1;
+  Labels:
+  - Merchant
+  - T1
+- Id: 50189
+  FriendlyName: V1_MC_LOUD gives MO_EXPLOSIONSPIRITS
+  Option: V1_MC_LOUD_GIVES_MO_EXPLOSIONSPIRITS
+  Transferable: true
+  Stackable: false
+  Description: '[Loud Exclamation gives Lv%d Critical Explosion. Cost +5 Red Gemstone]'
+  Done: true
+  Script: |-
+    bonus bLoudFury,getrandomoptinfo(ROA_VALUE);
+    bonus3 bSkillCatalyst,MC_LOUD,$@RedGemstone,5;
+  UnEquipScript: |-
+    sc_end(SC_EXPLOSIONSPIRITS);
+- Id: 50190
+  FriendlyName: V1_MC_LOUD Stun
+  Option: V1_MC_LOUD_STUN
+  Transferable: true
+  Stackable: false
+  Description: '[Loud Excalamation has a %d%% chance to Stun anyone in a 6x6 area. Cost +1 Yellow Gemstone]'
+  Done: true
+  Script: |-
+    bonus bLoudStun,getrandomoptinfo(ROA_VALUE);
+    bonus3 bSkillCatalyst,MC_LOUD,$@YellowGemstone,1;
+  Labels:
+  - Merchant
+  - T1
+- Id: 50191
+  FriendlyName: V1_MC_LOUD Hit
+  Option: V1_MC_LOUD_ADD_HIT
+  Transferable: true
+  Stackable: true
+  Description: '[Loud Exclamation gives +%d Hit.]'
+  Done: false
+  Script: |-
+    ;
+    // Boilerplate is done
+  Labels:
+  - Merchant
+  - T1
+- Id: 50192
+  FriendlyName: V1_ITM_TOMAHAWK Axe Buff
+  Option: V1_ITM_TOMAHAWK_AXEBUFF
+  Transferable: true
+  Stackable: false
+  Description: '[Throw Tomahawk increases damage with axes by +%d%% for 7 seconds.]'
+  Done: true
+  Script: |-
+    bonus bTomahawkAxeDmg,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Merchant
+  - T1
+- Id: 50193
+  FriendlyName: V1_ITM_TOMAHAWK Bleeding Chance
+  Option: V1_ITM_TOMAHAWK_BLEEDING_CHANCE
+  Transferable: true
+  Stackable: true
+  Description: '[Throw Tomahawk inflicts Bleeding +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,ITM_TOMAHAWK,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+  - Merchant
+  - T1
+- Id: 50194
+  FriendlyName: V1_ITM_TOMAHAWK Bleeding Damage
+  Option: V1_ITM_TOMAHAWK_BLEEDING_DMG
+  Transferable: true
+  Stackable: true
+  Description: '[Throw Tomahawk damage vs Bleeding targets +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Bleeding,ITM_TOMAHAWK,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+  - Merchant
+  - T1
+- Id: 50195
+  FriendlyName: V1_MG_FIREBOLT Damage
+  Option: V1_MG_FIREBOLT_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Fire Bolt damage +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,MG_FIREBOLT,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50196
+  FriendlyName: V1_MG_FIREBOLT AutoSpell Lv3 MG_LIGHTNINGBOLT
+  Option: V1_MG_FIREBOLT_AUTOSPELL_LV3_MG_LIGHTNINGBOLT
+  Transferable: false
+  Stackable: true
+  Description: Fire Bolt autospells Lv3 Lightning Bolt +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,MG_FIREBOLT,MG_LIGHTNINGBOLT,3,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - Magician
+  - T1
+- Id: 50197
+  FriendlyName: V1_MG_FIREBOLT AutoSpells MG_FIREWALL (50%)
+  Option: V1_MG_FIREBOLT_AUTOSPELLS_MG_FIREWALL_50
+  Transferable: false
+  Stackable: true
+  Description: Fire Bolt autospells Lv%d Fire Wall +50%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,MG_FIREBOLT,MG_FIREWALL,getrandomoptinfo(ROA_VALUE),500;
+  Labels:
+  - Magician
+  - T1
+- Id: 50198
+  FriendlyName: V1_MG_FIREBOLT Cast time
+  Option: V1_MG_FIREBOLT_CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: Fire Bolt cast time -%d%%
+  Done: true
+  Script: |-
+    bonus2 bCastRate,MG_FIREBOLT,-(getrandomoptinfo(ROA_VALUE));
+  Labels:
+  - Magician
+  - T1
+- Id: 50199
+  FriendlyName: V1_MG_FIREBOLT inflicts Stun
+  Option: V1_MG_FIREBOLT_INFLICTS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Fire Bolt inflicts Stun +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_FIREBOLT,Eff_Stun,getrandomoptinfo(ROA_VALUE)*100;
+  Labels:
+  - Magician
+  - T1
+- Id: 50200
+  FriendlyName: V1_MG_FIREBOLT inflicts Heat
+  Option: V1_MG_FIREBOLT_INFLICTS_HEAT
+  Transferable: false
+  Stackable: true
+  Description: Fire Bolt inflicts Heat +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_FIREBOLT,Eff_Heat,getrandomoptinfo(ROA_VALUE)*100;
+  Labels:
+  - Magician
+  - T1
+- Id: 50201
+  FriendlyName: V1_MG_FIREBOLT AutoSpell Lv1 WZ_EARTHSPIKE
+  Option: V1_MG_FIREBOLT_AUTOSPELL_LV1_WZ_EARTHSPIKE
+  Transferable: false
+  Stackable: true
+  Description: Fire Bolt autospells Lv1 Earth Spike +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,MG_FIREBOLT,WZ_EARTHSPIKE,1,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - Magician
+  - T1
+- Id: 50202
+  FriendlyName: V1_MG_FIREBOLT Recasts Lv3 MG_FIREBOLT
+  Option: V1_MG_FIREBOLT_RECASTS_LV3_MG_FIREBOLT
+  Transferable: false
+  Stackable: true
+  Description: Fire Bolt recasts Lv3 Fire Bolt +%d%%.
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkillRecast,MG_FIREBOLT,MG_FIREBOLT,3,getrandomoptinfo(ROA_VALUE)*10,1;
+  Labels:
+  - Magician
+  - T1
+- Id: 50203
+  FriendlyName: V1_MG_FIREBALL Damage & SP
+  Option: V1_MG_FIREBALL_DMG_SP
+  Transferable: false
+  Stackable: true
+  Description: Fire Ball damage and SP cost +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,MG_FIREBALL,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSkillUseSPrate,MG_FIREBALL,-getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50204
+  FriendlyName: V1_MG_FIREBALL Explodes into Lv3 SM_MAGNUM
+  Option: V1_MG_FIREBALL_EXPLODES_INTO_LV3_SM_MAGNUM
+  Transferable: true
+  Stackable: true
+  Description: '[Fire Ball has a +%d%% chance to explode into a delay-less Lv3 Magnum Break]'
+  Done: true
+  Script: |-
+    bonus2 bMagnumBalls,getrandomoptinfo(ROA_VALUE),3;
+- Id: 50205
+  FriendlyName: V1_MG_FIREBALL AutoSpell Fire Bolt Lv1
+  Option: V1_MG_FIREBALL_AUTOSPELL_FIRE_BOLT_LV1
+  Transferable: false
+  Stackable: true
+  Description: Fire Ball autospells Lv1 Fire Bolt +%d%%
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkillDelay,MG_FIREBALL,MG_FIREBOLT,1,getrandomoptinfo(ROA_VALUE)*10,950;
+  Labels:
+  - Magician
+  - T1
+- Id: 50206
+  FriendlyName: V1_MG_FIREBALL Reduce Delay & Cast Time
+  Option: V1_MG_FIREBALL_CASTSPEEDDELAY_REDUX
+  Transferable: false
+  Stackable: true
+  Description: Fire Ball cast time & delay -%d%%
+  Done: true
+  Script: "bonus2 bAftercastDelay,MG_FIREBALL,-(getrandomoptinfo(ROA_VALUE));bonus2 bCastrate,MG_FIREBALL,-(getrandomoptinfo(ROA_VALUE)); "
+  Labels:
+  - Magician
+  - T1
+- Id: 50207
+  FriendlyName: V1_MG_FIREWALL Add Hits
+  Option: V1_MG_FIREWALL_ADD_HITS
+  Transferable: true
+  Stackable: true
+  Description: '[Fire Wall hits +%d.]'
+  Done: true
+  Script: |-
+    bonus bFirewallHits,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50208
+  FriendlyName: V1_MG_FIREWALL Reduce Cast time
+  Option: V1_MG_FIREWALL_REDUCE_CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: Fire Wall Cast time -%d%%
+  Done: true
+  Script: |-
+    bonus2 bCastRate,MG_FIREWALL,-(getrandomoptinfo(ROA_VALUE));
+  Labels:
+  - Magician
+  - T1
+- Id: 50209
+  FriendlyName: V1_MG_FIREWALL Reduce SP Cost
+  Option: V1_MG_FIREWALL_REDUCE_SP_COST
+  Transferable: false
+  Stackable: true
+  Description: Fire Wall SP Cost -%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillUseSPrate,MG_FIREWALL,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50210
+  FriendlyName: V1_MG_SIGHT gives fire damage %
+  Option: V1_MG_SIGHT_GIVES_FIRE_DAMAGE_
+  Transferable: true
+  Stackable: false
+  Description: '[Sight increases Fire damage by +%d%%.]'
+  Done: true
+  Script: |-
+    bonus bSightFire,getrandomoptinfo(ROA_VALUE);
+  UnEquipScript: |-
+    sc_end(SC_SIGHT);
+  Labels:
+  - Magician
+  - T1
+- Id: 50211
+  FriendlyName: V1_MG_SIGHT Inflicts Heat when hit
+  Option: V1_MG_SIGHT_INFLICTS_HEAT_WHEN_HIT
+  Transferable: true
+  Stackable: true
+  Description: '[When hit, Sight inflicts Heat +%d%%]'
+  Done: true
+  Script: |-
+    bonus bSightHeatOnHit,getrandomoptinfo(ROA_VALUE)*100;
+  UnEquipScript: |-
+    sc_end(SC_SIGHT);
+  Labels:
+  - Magician
+  - T1
+- Id: 50212
+  FriendlyName: V1_MG_SIGHT Increases Move Speed
+  Option: V1_MG_SIGHT_INCREASES_MOVE_SPEED
+  Transferable: true
+  Stackable: true
+  Description: '[Sight increases Move Speed by +%d%%.]'
+  Done: true
+  Script: |-
+    bonus bSightMoveSpeed,getrandomoptinfo(ROA_VALUE);
+  UnEquipScript: |-
+    sc_end(SC_SIGHT);
+  Labels:
+  - Magician
+  - T1
+- Id: 50213
+  FriendlyName: V1_MG_COLDBOLT Damage
+  Option: V1_VAR_MG_COLDBOLT_DMG
+  Transferable: false
+  Stackable: true
+  Description: Cold Bolt damage +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,MG_COLDBOLT,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50214
+  FriendlyName: V1_MG_COLDBOLT AutoSpell WZ_EARTHSPIKE
+  Option: V1_MG_COLDBOLT_AUTOSPELL_WZ_EARTHSPIKE
+  Transferable: false
+  Stackable: true
+  Description: Cold Bolt autospells Lv3 Earth Spike +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,MG_COLDBOLT,WZ_EARTHSPIKE,3,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - Magician
+  - T1
+- Id: 50215
+  FriendlyName: V1_MG_COLDBOLT inflicts Chill
+  Option: V1_VAR_MG_COLDBOLT_CHILL
+  Transferable: true
+  Stackable: true
+  Description: '[Cold Bolt inflicts Chill +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_COLDBOLT,Eff_Chill,getrandomoptinfo(ROA_VALUE);
+- Id: 50216
+  FriendlyName: V1_MG_COLDBOLT Damage & Chill
+  Option: V1_VAR_MG_COLDBOLT_DMG_CHILL
+  Transferable: false
+  Stackable: true
+  Description: Cold Bolt damage & chill chance +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,MG_COLDBOLT,getrandomoptinfo(ROA_VALUE);
+    bonus3 bAddEffOnSkill,MG_COLDBOLT,Eff_Chill,getrandomoptinfo(ROA_VALUE)*100;
+  Labels:
+  - Magician
+  - T1
+- Id: 50217
+  FriendlyName: V1_MG_COLDBOLT Chance to Freeze
+  Option: V1_VAR_MG_COLDBOLT_FREEZE
+  Transferable: true
+  Stackable: true
+  Description: '[Cold Bolt inflicts Freeze +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_COLDBOLT,Eff_Freeze,getrandomoptinfo(ROA_VALUE)*100;
+  Labels:
+  - Magician
+  - T1
+- Id: 50219
+  FriendlyName: V1_MG_COLDBOLT AutoSpell Lv1 MG_FIREBOLT
+  Option: V1_MG_COLDBOLT_AUTOSPELL_LV1_MG_FIREBOLT
+  Transferable: false
+  Stackable: true
+  Description: Cold Bolt autospells Lv1 Fire Bolt +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,MG_COLDBOLT,MG_FIREBOLT,1,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - Magician
+  - T1
+- Id: 50221
+  FriendlyName: V1_MG_COLDBOLT AutoSpell Lv2 MG_LIGHTNINGBOLT
+  Option: V1_MG_COLDBOLT_AUTOSPELL_LV2_MG_LIGHTNINGBOLT
+  Transferable: false
+  Stackable: true
+  Description: Cold Bolt autospells Lv2 Lightning Bolt +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,MG_COLDBOLT,MG_LIGHTNINGBOLT,2,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - Magician
+  - T1
+- Id: 50222
+  FriendlyName: V1_MG_FROSTDIVER SP Cost
+  Option: V1_MG_FROSTDIVER_SP_COST
+  Transferable: false
+  Stackable: true
+  Description: Frost Diver SP cost -%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillUseSPrate,MG_FROSTDIVER,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50223
+  FriendlyName: V1_MG_FROSTDIVER inflicts Chill
+  Option: V1_MG_FROSTDIVER_INFLICTS_CHILL
+  Transferable: false
+  Stackable: true
+  Description: Frost Diver inflicts Chill +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_FROSTDIVER,Eff_Chill,getrandomoptinfo(ROA_VALUE)*100;
+  Labels:
+  - Magician
+  - T1
+- Id: 50224
+  FriendlyName: V1_MG_FROSTDIVER Dmg/SP
+  Option: V1_MG_FROSTDIVER_BIG_DMG
+  Transferable: false
+  Stackable: true
+  Description: Frost Diver damage and SP cost +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,MG_FROSTDIVER,getrandomoptinfo(ROA_VALUE); bonus2 bSkillUseSPrate,MG_FROSTDIVER,-getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50225
+  FriendlyName: V1_MG_FROSTDIVER Failures Chill
+  Option: V1_VAR_FROSTDIVER_FAIL_CHILL
+  Transferable: true
+  Stackable: true
+  Description: '[When Frost Diver fails, Chill the enemy for %d seconds.]'
+  Done: true
+  Script: |-
+    bonus bFrostDiverInflictsChill,getrandomoptinfo(ROA_VALUE)*1000;
+  Labels:
+  - Magician
+  - T1
+- Id: 50226
+  FriendlyName: V1_MG_FROSTDIVER Splash Radius
+  Option: V1_MG_FROSTDIVER_RADIUS
+  Transferable: true
+  Stackable: true
+  Description: '[Frost Diver cast time +35%% / Splash radius +%d cells.]'
+  Done: true
+  Script: |-
+    bonus bFrostDiverSplash,getrandomoptinfo(ROA_VALUE);bonus2 bCastrate,MG_FROSTDIVER,35;
+  Labels:
+  - Magician
+  - T1
+- Id: 50229
+  FriendlyName: V1_MG_LIGHTNINGBOLT AutoSpell Lv2 MG_COLDBOLT
+  Option: V1_MG_LIGHTNINGBOLT_AUTOSPELL_LV2_MG_COLDBOLT
+  Transferable: false
+  Stackable: true
+  Description: Lightning Bolt autospells Lv2 Cold Bolt +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,MG_LIGHTNINGBOLT,MG_COLTBOLT,2,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - Magician
+  - T1
+- Id: 50230
+  FriendlyName: V1_MG_LIGHTNINGBOLT Increase dmg vs Frozen
+  Option: V1_VAR_LIGHTNINGBOLT_FROZEN
+  Transferable: false
+  Stackable: true
+  Description: Lightning Bolt deals +%d%% damage to Frozen targets.
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Frozen,MG_LIGHTNINGBOLT,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50231
+  FriendlyName: V1_MG_LIGHTNINGBOLT Damage & Stun
+  Option: V1_VAR_MG_LIGHTNINGBOLT_STUN_DMG
+  Transferable: false
+  Stackable: true
+  Description: Lightning Bolt damage +/ inflicts Stun +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_LIGHTNINGBOLT,Eff_Stun,getrandomoptinfo(ROA_VALUE)*100;
+    bonus2 bSkillAtk,MG_LIGHTNINGBOLT,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50232
+  FriendlyName: V1_MG_LIGHTNINGBOLT Recasts Lv3 MG_LIGHTNINGBOLT
+  Option: V1_MG_LIGHTNINGBOLT_RECASTS_LV3_MG_LIGHTNINGBOLT
+  Transferable: false
+  Stackable: true
+  Description: Lightning Bolt recasts Lv3 Lightning Bolt +%d%%.
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkillRecast,MG_LIGHTNINGBOLT,MG_LIGHTNINGBOLT,3,getrandomoptinfo(ROA_VALUE)*10,1;
+  Labels:
+  - Magician
+  - T1
+- Id: 50234
+  FriendlyName: V1_MG_LIGHTNINGBOLT Damage & Shock
+  Option: V1_VAR_MG_LIGHTNINGBOLT_SHOCK_DMG
+  Transferable: false
+  Stackable: true
+  Description: Lightning Bolt damage +/inflicts Shock +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_LIGHTNINGBOLT,Eff_Shock,getrandomoptinfo(ROA_VALUE)*100;
+    bonus2 bSkillAtk,MG_LIGHTNINGBOLT,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50235
+  FriendlyName: V1_MG_LIGHTNINGBOLT Stun & Shock
+  Option: V1_MG_LIGHTNINGBOLT_STUN__SHOCK
+  Transferable: true
+  Stackable: true
+  Description: '[Lightning Bolt inflicts Stun & Shock +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_LIGHTNINGBOLT,Eff_Stun,getrandomoptinfo(ROA_VALUE)*100;
+    bonus3 bAddEffOnSkill,MG_LIGHTNINGBOLT,Eff_Shock,getrandomoptinfo(ROA_VALUE)*100;
+  Labels:
+  - Magician
+  - T1
+- Id: 50236
+  FriendlyName: V1_MG_LIGHTNINGBOLT Chance to Shock & SP cost
+  Option: V1_VAR_MG_LIGHTNINGBOLT_SHOCK_SP
+  Transferable: true
+  Stackable: true
+  Description: '[Lightning Bolt inflicts Shock +/SP cost -%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_LIGHTNINGBOLT,Eff_Shock,getrandomoptinfo(ROA_VALUE)*100;
+    bonus2 bSkillUseSPrate,MG_LIGHTNINGBOLT,-getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50237
+  FriendlyName: V1_MG_LIGHTNINGBOLT Cast time
+  Option: V1_MG_LIGHTNINGBOLT_CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: Lightning Bolt Cast time -%d%%
+  Done: true
+  Script: |-
+    bonus2 bCastRate,MG_LIGHTNINGBOLT,-(getrandomoptinfo(ROA_VALUE));
+  Labels:
+  - Magician
+  - Skill cast time
+  - T1
+- Id: 50238
+  FriendlyName: V1_MG_LIGHTNINGBOLT vs Chill
+  Option: V1_MG_LIGHTNINGBOLT_VS_CHILL
+  Transferable: false
+  Stackable: true
+  Description: Lightning Bolt damage vs Chill +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Chill,MG_LIGHTNINGBOLT,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50239
+  FriendlyName: V1_MG_LIGHTNINGBOLT vs Chill & Cast Time
+  Option: V1_MG_LIGHTNINGBOLT_VS_CHILL__CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: Lightning Bolt cast time reduced by / damage vs Chill increased by %d
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Chill,MG_LIGHTNINGBOLT,getrandomoptinfo(ROA_VALUE);
+    bonus2 bCastRate,MG_LIGHTNINGBOLT,-(getrandomoptinfo(ROA_VALUE));
+  Labels:
+  - Magician
+  - T1
+- Id: 50240
+  FriendlyName: V1_MG_THUNDERSTORM Damage + SP
+  Option: V1_VAR_MG_THUNDERSTORM_DMGSP
+  Transferable: false
+  Stackable: true
+  Description: Thunder Storm damage and SP cost +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,MG_THUNDERSTORM,getrandomoptinfo(ROA_VALUE);bonus2 bSkillUseSPrate,MG_THUNDERSTORM,-getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - Skill Damage
+  - Skill SP Cost
+  - T1
+- Id: 50241
+  FriendlyName: V1_MG_THUNDERSTORM inflicts Stun
+  Option: V1_MG_THUNDERSTORM_INFLICTS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Thunder Storm inflicts Stun +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_THUNDERSTORM,Eff_Stun,getrandomoptinfo(ROA_VALUE)*100;
+  Labels:
+  - Magician
+  - Stun
+  - T1
+- Id: 50242
+  FriendlyName: V1_MG_THUNDERSTORM Reduce Dmg/Cspd/Sp
+  Option: V1_MG_THUNDERSTOM_DMG_CSPD_SP
+  Transferable: false
+  Stackable: true
+  Description: Thunder Storm damage, cast time, and SP   cost - %d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,MG_THUNDERSTORM,-(getrandomoptinfo(ROA_VALUE)); bonus2 bSkillUseSPrate,MG_THUNDERSTORM,-getrandomoptinfo(ROA_VALUE);bonus2 bCastRate,MG_THUNDERSTORM,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - Skill Cast Time
+  - Skill Damage
+  - Skill SP Cost
+  - T1
+- Id: 50243
+  FriendlyName: V1_MG_THUNDERSTORM inflicts Shock
+  Option: V1_MG_THUNDERSTORM_INFLICTS_SHOCK
+  Transferable: true
+  Stackable: true
+  Description: '[Thunder Storm inflicts Shock +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_THUNDERSTORM,Eff_Shock,getrandomoptinfo(ROA_VALUE)*100;
+  Labels:
+  - Magician
+  - Shock
+  - T1
+- Id: 50244
+  FriendlyName: V1_MG_THUNDERSTORM Cast time & SP
+  Option: V1_MG_THUNDERSTORM_CAST_TIME__SP
+  Transferable: false
+  Stackable: true
+  Description: Thunder Storm Cast time & SP cost -%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillUseSPrate,MG_THUNDERSTORM,-getrandomoptinfo(ROA_VALUE);bonus2 bCastRate,MG_THUNDERSTORM,-(getrandomoptinfo(ROA_VALUE));
+  Labels:
+  - Magician
+  - Skill Cast Time
+  - Skill SP Cost
+  - T1
+- Id: 50245
+  FriendlyName: V1_MG_NAPALMBEAT Reduce Target Mdef
+  Option: V1_MG_NAPALMBEAT_REDUCE_TARGET_MDEF
+  Transferable: true
+  Stackable: true
+  Description: "[Napalm Beat reduces target's MDEF by %d%% for 10 seconds. Cannot affect same target twice.]"
+  Done: true
+  Script: |-
+    bonus bNapalmBeatMdef,getrandomoptinfo(ROA_VALUE);
+- Id: 50246
+  FriendlyName: V1_MG_NAPALMBEAT Inc Soul Strike Dmg
+  Option: V1_MG_NAPALMBEAT_INC_SOUL_STRIKE_DMG
+  Transferable: true
+  Stackable: true
+  Description: '[Targets hit by Napalm Beat take +%d%% on next Soul Strike.]'
+  Done: true
+  Script: |-
+    bonus bNapalmIncSoulStrikeRate,getrandomoptinfo(ROA_VALUE);
+- Id: 50247
+  FriendlyName: V1_MG_SOULSTRIKE Leech SP
+  Option: V1_VAR_MG_SOULSTRIKE_SP
+  Transferable: true
+  Stackable: true
+  Description: '[Gain .%d%% damage done by Soul Strike as SP.]'
+  Done: true
+  Script: |-
+    bonus bSoulStrikeSp,getrandomoptinfo(ROA_VALUE);
+- Id: 50248
+  FriendlyName: V1_MG_SOULSTRIKE Dmg/SP Cost
+  Option: V1_MG_SOULSTRIKE_DMG_SP
+  Transferable: false
+  Stackable: true
+  Description: Soul Strike damage and SP cost +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,MG_SOULSTRIKE,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSkillUseSPrate,MG_SOULSTRIKE,-getrandomoptinfo(ROA_VALUE);
+- Id: 50249
+  FriendlyName: V1_MG_SAFETYWALL Increase HP by MaxHP
+  Option: V1_MG_SAFETYWALL_INCREASE_HP_BY_MAXHP
+  Transferable: false
+  Stackable: true
+  Description: Safety Wall HP increased by (Max HP*%d)
+  Done: true
+  Script: |-
+    bonus bSafetyWallAddHp,MaxHp*getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50250
+  FriendlyName: V1_MG_SAFETYWALL Heal Power
+  Option: V1_MG_SAFETYWALL_HEAL_POWER
+  Transferable: true
+  Stackable: true
+  Description: '[Heal power +%d%% when healing a target in Safety Wall]'
+  Done: true
+  Script: |-
+    bonus bSafetyWallHealPower,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50251
+  FriendlyName: V1_MG_BOLT All 1st bolt damage
+  Option: V1_VAR_MG_BOLT_ALL_DMG
+  Transferable: false
+  Stackable: true
+  Description: Fire Bolt, Cold Bolt, and Lightning Bolt damage +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,MG_FIREBOLT,getrandomoptinfo(ROA_VALUE);bonus2 bSkillAtk,MG_COLDBOLT,getrandomoptinfo(ROA_VALUE);bonus2 bSkillAtk,MG_LIGHTNINGBOLT,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50252
+  FriendlyName: V1_MG_BOLT All 1st bolt cast reduce
+  Option: V1_VAR_MG_BOLT_ALL_CASTRATE
+  Transferable: false
+  Stackable: true
+  Description: Fire Bolt, Cold Bolt, and Lightning Bolt cast times -%d%%
+  Done: true
+  Script: |-
+    bonus2 bCastRate,MG_FIREBOLT,getrandomoptinfo(ROA_VALUE);
+    bonus2 bCastRate,MG_COLDBOLT,getrandomoptinfo(ROA_VALUE);
+    bonus2 bCastRate,MG_LIGHTNINGBOLT,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50253
+  FriendlyName: V1_MG_STONECURSE Success Rate / Duration cut
+  Option: V1_MG_STONECURSE_SUCCESS_RATE__DURATION_CUT
+  Transferable: false
+  Stackable: true
+  Description: Stone Curse success rate +/ duration -%d%%
+  Done: true
+  Script: |-
+    bonus bStoneCurseSuccess,getrandomoptinfo(ROA_VALUE);
+    bonus bStoneCurseDuration,-25;
+  Labels:
+  - Magician
+  - T1
+- Id: 50254
+  FriendlyName: V1_MG_STONECURSE Fails cast curse
+  Option: V1_MG_STONECURSE_FAILS_CAST_CURSE
+  Transferable: true
+  Stackable: true
+  Description: '[When Stone Curse fails, inflict Curse on yourself & the enemy for %d seconds.]'
+  Done: true
+  Script: |-
+    bonus bStoneCurseInflictsCurse,getrandomoptinfo(ROA_VALUE)*1000;
+  Labels:
+  - Magician
+  - T1
+- Id: 50255
+  FriendlyName: V1_MG_STONECURSE Skip Stone Wait
+  Option: V1_MG_STONECURSE_SKIP_STONE_WAIT
+  Transferable: true
+  Stackable: true
+  Description: '[Stone Curse skips the Stone Wait status.]'
+  Done: true
+  Script: |-
+    bonus bSkipStoneWait,1;
+  Labels:
+  - Magician
+  - T1
+- Id: 50256
+  FriendlyName: V1_MG_STONECURSE Free Red Gem
+  Option: V1_MG_STONECURSE_FREE_RED_GEM
+  Transferable: true
+  Stackable: true
+  Description: '[%d%% chance for Stone Curse to not consume a Red Gemstone.]'
+  Done: true
+  Script: |-
+    bonus bStoneCurseFree,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50257
+  FriendlyName: V1_RGX_HARMONICTRIAD MATK
+  Option: V1_RGX_HARMONICTRIAD_MATK
+  Transferable: false
+  Stackable: true
+  Description: Harmonic Triad increases MATK by +%d%%
+  Done: true
+  Script: |-
+    bonus bHarmonicTriadMatk,getrandomoptinfo(ROA_VALUE);
+  UnEquipScript: |-
+    sc_end(SC_HARMONICTRIAD);
+- Id: 50258
+  FriendlyName: V1_MG_SIGHT Combo Extension
+  Option: V1_MG_SIGHT_COMBO_EXTENSION
+  Transferable: true
+  Stackable: true
+  Description: "[Using Sight at 100% combo gauge refreshes your Combo Chain or Combo Finisher timer to match Sight's. Combo Chains can only be extended this way once.]"
+  Done: false
+  Script: |-
+    ;
+- Id: 50259
+  FriendlyName: V1_AC_SHOWER Damage +%
+  Option: V1_AC_SHOWER_DAMAGE_
+  Transferable: false
+  Stackable: true
+  Description: Arrow Shower damage +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,AC_SHOWER,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Archer
+  - T1
+- Id: 50260
+  FriendlyName: V1_AC_SHOWER Remove Knockback
+  Option: V1_AC_SHOWER_REMOVE_KNOCKBACK
+  Transferable: true
+  Stackable: true
+  Description: '[Remove Arrow Shower knockback.]'
+  Done: true
+  Script: |-
+    bonus bRemoveBlow,AC_SHOWER;
+  Labels:
+  - Archer
+- Id: 50261
+  FriendlyName: V1_AC_SHOWER autospells TF_BACKSLIDING
+  Option: V1_AC_SHOWER_AUTOSPELLS_TF_BACKSLIDING
+  Transferable: true
+  Stackable: false
+  Description: '[Arrow Shower autospells known Backsliding.]'
+  Done: true
+  Script: |-
+    bonus bArrowShowerBacksliding,1;
+  Labels:
+  - Archer
+- Id: 50262
+  FriendlyName: V1_AC_CONCENTRATION Cancels Stun
+  Option: V1_VAR_AC_STUNCANCEL
+  Transferable: true
+  Stackable: true
+  Description: '[Attention Concentrate cancels stun.]'
+  Done: true
+  Script: |-
+    bonus bAttentionStunCancel,1;
+  Labels:
+  - Archer
+  - T1
+- Id: 50263
+  FriendlyName: V1_AC_CONCENTRATION AoE ATK
+  Option: V1_VAR_AC_AOEATK
+  Transferable: true
+  Stackable: true
+  Description: '[Attention Concentrate deals Holy weapon  damage and has +%d%% chance to Blind.]'
+  Done: true
+  Script: |-
+    bonus bAttentionAtkAOE,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Archer
+  - T1
+- Id: 50264
+  FriendlyName: V1_AC_CONCENTRATION Vultures Eye
+  Option: V1_AC_CONCENTRATION_VULTURES_EYE
+  Transferable: true
+  Stackable: false
+  Description: "[Attention Concentrate gives Vulture's Eye Lv%d.]"
+  Done: true
+  Script: |-
+    bonus bAttentionVultures,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Archer
+- Id: 50266
+  FriendlyName: V1_AC_CONCENTRATION Reduce SP Cost
+  Option: V1_AC_CONCENTRATION_REDUCE_SP_COST
+  Transferable: false
+  Stackable: true
+  Description: Attention Concentrate SP cost -%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillUseSPrate,AC_CONCENTRATION,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Archer
+  - T1
+- Id: 50267
+  FriendlyName: V1_AC_CHARGEARROW Splash
+  Option: V1_AC_CHARGEARROW_SPLASH
+  Transferable: true
+  Stackable: true
+  Description: '[Charge Arrow cast time +50%% / Splash    radius +%d cell(s).]'
+  Done: true
+  Script: |-
+    bonus2 bSkillSplash,AC_CHARGEARROW,getrandomoptinfo(ROA_VALUE);
+    bonus2 bCastRate,AC_CHARGEARROW,50;
+  Labels:
+  - Archer
+- Id: 50268
+  FriendlyName: V1_NV_FIRSTAID Inc Heal / Cost
+  Option: V1_VAR_NV_FIRSTAID_HEAL
+  Transferable: true
+  Stackable: true
+  Description: '[First Aid heals for %d. SP cost is equal  to half of that.]'
+  Done: true
+  Script: |-
+    bonus bFirstAidHeal,getrandomoptinfo(ROA_VALUE);
+- Id: 50269
+  FriendlyName: V1_NV_FIRSTAID Swap HP/SP
+  Option: V1_VAR_NV_FIRSTAID_SP
+  Transferable: true
+  Stackable: true
+  Description: '[First Aid now costs HP to restore SP.]'
+  Done: true
+  Script: |-
+    bonus bFirstAidSp,1;
+- Id: 50270
+  FriendlyName: V1_NV_FIRSTAID AoE Heal
+  Option: V1_VAR_NV_FIRSTAID_AOE
+  Transferable: true
+  Stackable: true
+  Description: '[First Aid has a radius of %d.]'
+  Done: true
+  Script: |-
+    bonus bFirstAidAoe,getrandomoptinfo(ROA_VALUE);
+- Id: 50271
+  FriendlyName: V1_NV_FIRSTAID Free SP + Add Delay
+  Option: V1_VAR_FIRSTAID_SP_DELAYADD
+  Transferable: true
+  Stackable: true
+  Description: '[First Aid costs 0 SP, but its delay is sharply increased.]'
+  Done: true
+  Script: |-
+    bonus2 bSkillUseSPrate,NV_FIRSTAID,100;bonus2 bAftercastDelay,NV_FIRSTAID,200;
+- Id: 50272
+  FriendlyName: V1_AC_DOUBLE Damage
+  Option: V1_AC_DOUBLE_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Double Strafing damage +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,AC_DOUBLE,getrandomoptinfo(ROA_VALUE);
+- Id: 50273
+  FriendlyName: V1_AC_DOUBLE SP Cost
+  Option: V1_AC_DOUBLE_SP_COST
+  Transferable: false
+  Stackable: true
+  Description: Double Strafing SP cost -%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillUseSPrate,AC_DOUBLE,getrandomoptinfo(ROA_VALUE);
+- Id: 50274
+  FriendlyName: V1_AC_DOUBLE Damage & Inc SP Cost
+  Option: V1_AC_DOUBLE_DAMAGE__INC_SP_COST
+  Transferable: false
+  Stackable: true
+  Description: Double Strafing damage & SP cost +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillUseSPrate,AC_DOUBLE,-(getrandomoptinfo(ROA_VALUE));
+    bonus2 bSkillAtk,AC_DOUBLE,getrandomoptinfo(ROA_VALUE);
+- Id: 50275
+  FriendlyName: V1_AC_DOUBLE Allow Crit + Crit
+  Option: V1_AC_DOUBLE_ALLOW_CRIT__CRIT
+  Transferable: false
+  Stackable: true
+  Description: Double Strafing can Crit. Crit +%d
+  Done: true
+  Script: |-
+    bonus bSkillCrit,AC_DOUBLE;
+    bonus bCritical,getrandomoptinfo(ROA_VALUE);
+- Id: 50276
+  FriendlyName: V1_SM_BASH vs Bleeding & Life Leech on Kill
+  Option: V1_SM_BASH_VS_BLEEDING__LIFE_LEECH_ON_KILL
+  Transferable: false
+  Stackable: true
+  Description: Bash damage vs Bleeding & Life Leech on Kill +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Bleeding,SM_BASH,getrandomoptinfo(ROA_VALUE);
+    bonus2 bLifeLeechSkillKill,SM_BASH,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Heal
+  - SM_BASH
+  - Swordsman
+  - T1
+- Id: 50277
+  FriendlyName: V1_ITM_TOMAHAWK Poison Chance & Damage
+  Option: V1_ITM_TOMAHAWK_POISON_CHANCE__DAMAGE
+  Transferable: true
+  Stackable: true
+  Description: '[Throw Tomahawk inflicts Poison & Damage vs Poison +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,ITM_TOMAHAWK,Eff_Poison,getrandomoptinfo(ROA_VALUE);bonus3 bEffSkillMod,Eff_Poison,ITM_TOMAHAWK,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+  - Merchant
+  - T1
+- Id: 50278
+  FriendlyName: V1_SM_MAGNUM Remove Knockback & Allow Crit
+  Option: V1_SM_MAGNUM_REMOVE_KNOCKBACK__ALLOW_CRIT
+  Transferable: true
+  Stackable: false
+  Description: '[Remove Magnum Break knockback / Magnum Break can Crit.]'
+  Done: true
+  Script: |-
+    bonus bRemoveBlow,SM_MAGNUM;
+    bonus bSkillCrit,SM_MAGNUM;
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50279
+  FriendlyName: V1_ITM_TOMAHAWK Bleeding Chance & Damage
+  Option: V1_ITM_TOMAHAWK_BLEEDING_CHANCE__DAMAGE
+  Transferable: true
+  Stackable: true
+  Description: '[Throw Tomahawk inflicts Bleeding & Damage vs Bleeding +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,ITM_TOMAHAWK,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);bonus3 bEffSkillMod,Eff_Bleeding,ITM_TOMAHAWK,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+  - Merchant
+  - T1
+- Id: 50280
+  FriendlyName: V1_MG_SAFETYWALL Gives Fortified
+  Option: V1_MG_SAFETYWALL_GIVES_FORTIFIED
+  Transferable: true
+  Stackable: false
+  Description: '[Gain a stack of Fortified every %d seconds you stand in Safety Wall.]'
+  Done: true
+  Script: |-
+    bonus bSafetyWallFortified,getrandomoptinfo(ROA_VALUE)*1000;
+- Id: 50281
+  FriendlyName: V1_SM_ENDURE Raise Cap & Cooldown
+  Option: V1_SM_ENDURE_RAISE_CAP__COOLDOWN
+  Transferable: false
+  Stackable: true
+  Description: Endure cooldown +%d seconds / increase hit cap by this cooldown increase
+  Done: true
+  Script: |-
+    bonus bEndureHitCap,getrandomoptinfo(ROA-VALUE);bonus2 bSkillCooldown,SM_ENDURE,(getrandomoptinfo(ROA_VALUE)*1000);
+- Id: 50282
+  FriendlyName: V1_SM_BASH Damage + Fortified + 300% SP + Cooldown
+  Option: V1_SM_BASH_DAMAGE__FORTIFIED__300_SP__COOLDOWN
+  Transferable: false
+  Stackable: true
+  Description: Bash attack +%d%% / Kills give Fortified / SP cost +300%% / Cooldown +1s
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,SM_BASH,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSkillUseSPrate,SM_BASH,-300;
+    bonus2 bSkillCooldown,SM_BASH,-1000;
+    bonus3 bStatusOnSkillKill,SM_BASH,SC_FORTIFIED1,100;
+  Labels:
+  - SM_BASH
+  - SP
+  - Swordsman
+  - T1
+- Id: 50283
+  FriendlyName: V1_SM_BASH vs Stun & inflicts Stun
+  Option: V1_SM_BASH_VS_STUN__INFLICTS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Bash inflicts Stun & damage vs Stunned +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,SM_BASH,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+    bonus3 bEffSkillMod,Eff_Stun,SM_BASH,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - SM_BASH
+  - Stun
+  - Swordsman
+  - T1
+- Id: 50284
+  FriendlyName: V1_SM_ENDURE adds additional MDEF
+  Option: V1_SM_ENDURE_ADDS_ADDITIONAL_MDEF
+  Transferable: false
+  Stackable: true
+  Description: Endure adds +%d MDEF
+  Done: true
+  Script: |-
+    bonus bEndureMdef,getrandomoptinfo(ROA_VALUE);
+- Id: 50285
+  FriendlyName: V1_SM_BASH Autospells known WZ_EARTHSPIKE
+  Option: V1_SM_BASH_AUTOSPELLS_KNOWN_WZ_EARTHSPIKE
+  Transferable: false
+  Stackable: true
+  Description: Bash autospells known Earth Spike +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,SM_BASH,WZ_EARTHSPIKE,1,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - SM_BASH
+  - Swordsman
+  - T1
+- Id: 50286
+  FriendlyName: V1_SM_BASH inflicts Stone Curse
+  Option: V1_SM_BASH_INFLICTS_STONE_CURSE
+  Transferable: false
+  Stackable: true
+  Description: Bash inflicts Stone Curse +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,SM_BASH,Eff_StoneCurse,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Bleeding
+  - SM_BASH
+  - Swordsman
+  - T1
+- Id: 50287
+  FriendlyName: V1_SM_ENDURE Increases HP Regeneration
+  Option: V1_SM_ENDURE_INCREASES_HP_REGENERATION
+  Transferable: false
+  Stackable: true
+  Description: Natural HP regen rate in Endure +%d%%
+  Done: true
+  Script: |-
+    bonus bEndureHpRegenRate,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50288
+  FriendlyName: V1_MG_SAFETYWALL Natural HP Recovery rate
+  Option: V1_MG_SAFETYWALL_NATURAL_HP_RECOVERY_RATE
+  Transferable: true
+  Stackable: false
+  Description: '[Natural HP Regen rate +%d%% when standing in Safety Wall.]'
+  Done: true
+  Script: |-
+    bonus bSafetyWallHpRegen,getrandomoptinfo(ROA_VALUE);
+- Id: 50289
+  FriendlyName: V1_MC_LOUD Inc. DEF
+  Option: V1_MC_LOUD_INC_DEF
+  Transferable: true
+  Stackable: false
+  Description: '[Loud Exclamation increases DEF by +10%%. Cost +1 Yellow Gemstone (TODO: Effect is enhanced the lower HP is?)]'
+  Done: false
+  Script: |-
+    bonus bLoudDefense,10;
+    bonus3 bSkillCatalyst,MC_LOUD,$@YellowGemstone,1;
+- Id: 50292
+  FriendlyName: V1_MG_SAFETYWALL Cast Time
+  Option: V1_MG_SAFETYWALL_CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: Safety Wall cast time -%d%%
+  Done: true
+  Script: |-
+    bonus2 bCastRate,MG_SAFETYWALL,-(getrandomoptinfo(ROA_VALUE));
+- Id: 50293
+  FriendlyName: V1_SM_ENDURE Cooldown redux on Stun
+  Option: V1_SM_ENDURE_COOLDOWN_REDUX_ON_STUN
+  Transferable: true
+  Stackable: false
+  Description: '[Reduce Endure cooldown by %d milliseconds when you Stun an enemy.]'
+  Done: true
+  Script: |-
+    bonus bEndureCdStunRedux,getrandomoptinfo(ROA_VALUE);
+  UnEquipScript: |-
+    ;
+- Id: 50294
+  FriendlyName: V1_AC_CONCENTRATION Cancel Stun + Reduce SP Cost
+  Option: V1_AC_CONCENTRATION_CANCEL_STUN__REDUCE_SP_COST
+  Transferable: true
+  Stackable: true
+  Description: '[Attention Concentrate cancels stun & SP cost -%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bSkillUseSPrate,AC_CONCENTRATION,getrandomoptinfo(ROA_VALUE);
+    bonus bAttentionStunCancel,1;
+  Labels:
+  - Archer
+  - T1
+- Id: 50296
+  FriendlyName: V1_SM_PROVOKE AutoSpell SA_DISPELL
+  Option: V1_SM_PROVOKE_AUTOSPELL_SA_DISPELL
+  Transferable: true
+  Stackable: false
+  Description: '[Successful Provoke auto spells a free Dispel Lv5.]'
+  Done: true
+  Script: |-
+    bonus bProvokeDispel,1;
+- Id: 50297
+  FriendlyName: V1_SM_ENDURE No MDEF + Inc Hit Cap
+  Option: V1_SM_ENDURE_NO_MDEF__INC_HIT_CAP
+  Transferable: true
+  Stackable: false
+  Description: "[Increase Endure Hit Cap by Endure's MDEF bonus, but Endure no longer gives MDEF. ]"
+  Done: true
+  Script: |-
+    bonus bEndureMdefToHitCap,1;
+- Id: 50298
+  FriendlyName: V1_SM_BASH Fortified Damage
+  Option: V1_SM_BASH_FORTIFIED_DAMAGE
+  Transferable: true
+  Stackable: false
+  Description: '[Bash ATK +%d%% for each Fortified stack.]'
+  Done: true
+  Script: |-
+    bonus bBashFortifiedDamage,getrandomoptinfo(ROA_VALUE);
+- Id: 50299
+  FriendlyName: V1_TF_BACKSLIDING AutoSpells SM_ENDURE + Cast Time
+  Option: V1_TF_BACKSLIDING_AUTOSPELLS_SM_ENDURE__CAST_TIME
+  Transferable: true
+  Stackable: false
+  Description: '[Backsliding gains a 0.%ds cast time & auto spells known Endure.]'
+  Done: true
+  Script: |-
+    bonus2 bNewCastTimeSkill,TF_BACKSLIDING,getrandomoptinfo(ROA_VALUE)*100;
+    bonus4 bAutoSpellOnSkillMotion,TF_BACKSLIDING,SM_ENDURE,getskilllv(SM_ENDURE),1000;
+- Id: 50300
+  FriendlyName: V1_TF_BACKSLIDING Dash + Cooldown
+  Option: V1_TF_BACKSLIDING_DASH__COOLDOWN
+  Transferable: true
+  Stackable: true
+  Description: '[Backsliding gains a +%d second cooldown & gives Dash for a duration equal to its cooldown.]'
+  Done: true
+  Script: |-
+    bonus bBackslidingDash,100;
+    bonus2 bSkillCooldown,TF_BACKSLIDING,(getrandomoptinfo(ROA_VALUE)*1000);
+    bonus bBackslidingCdDash,1;
+- Id: 50303
+  FriendlyName: V1_SM_BASH gives Dash on stun
+  Option: V1_SM_BASH_GIVES_DASH_ON_STUN
+  Transferable: true
+  Stackable: false
+  Description: "[When Bash stuns a target, +%d%% chance to gain 'Dash' for 2 seconds.]"
+  Done: true
+  Script: |-
+    bonus bBashStunDash,getrandomoptinfo(ROA_VALUE);
+- Id: 50304
+  FriendlyName: V1_MG_SAFETYWALL Leaving MDEF Buff
+  Option: V1_MG_SAFETYWALL_LEAVING_MDEF_BUFF
+  Transferable: true
+  Stackable: false
+  Description: '[After leaving Safety Wall, gain +%d MDEF for 5 seconds.]'
+  Done: true
+  Script: |-
+    bonus bSafetyWallExitMdef,getrandomoptinfo(ROA_VALUE);
+- Id: 50305
+  FriendlyName: V1_SM_ENDURE Adds Lucky Dodge
+  Option: V1_SM_ENDURE_ADDS_LUCKY_DODGE
+  Transferable: false
+  Stackable: true
+  Description: Endure increases Lucky Dodge by +%d
+  Done: true
+  Script: |-
+    bonus bEndureLuckyDodge,getrandomoptinfo(ROA_VALUE);
+- Id: 50307
+  FriendlyName: V1_TF_BACKSLIDING autospell SM_ENDURE
+  Option: V1_TF_BACKSLIDING_AUTOSPELL_SM_ENDURE
+  Transferable: false
+  Stackable: true
+  Description: Backsliding has a +%d%% chance to autospell Lv1 Endure
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,TF_BACKSLIDING,SM_ENDURE,1,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - Acolyte
+  - T1
+  - Thief
+- Id: 50308
+  FriendlyName: V1_AL_INCAGI costs 0 HP
+  Option: V1_AL_INCAGI_COSTS_0_HP
+  Transferable: true
+  Stackable: false
+  Description: '[Increase Agility no longer costs HP.]'
+  Done: true
+  Script: |-
+    bonus2 bSkillUseHPrate,AL_INCAGI,100;
+- Id: 50309
+  FriendlyName: V1_AL_INCAGI & AL_DECAGI Cast times
+  Option: V1_AL_INCAGI__AL_DECAGI_CAST_TIMES
+  Transferable: false
+  Stackable: true
+  Description: Increase Agility & Decrease Agility cast times -%d%%
+  Done: true
+  Script: |-
+    bonus2 bCastRate,AL_INCAGI,-(getrandomoptinfo(ROA_VALUE));
+    bonus2 bCastRate,AL_DECAGI,-(getrandomoptinfo(ROA_VALUE));
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50310
+  FriendlyName: V1_MC_MAMMONITE kills give Fortified
+  Option: V1_MC_MAMMONITE_KILLS_GIVE_FORTIFIED
+  Transferable: true
+  Stackable: false
+  Description: '[Gain a Fortified stack when Mammonite kills a target.]'
+  Done: true
+  Script: |-
+    bonus3 bStatusOnSkillKill,SM_MAMMONITE,SC_FORTIFIED1,getrandomoptinfo(ROA_VALUE);
+- Id: 50311
+  FriendlyName: V1_SM_BASH & MC_MAMMONITE Fortified on Kill
+  Option: V1_SM_BASH__MC_MAMMONITE_FORTIFIED_ON_KILL
+  Transferable: true
+  Stackable: false
+  Description: '[Gain a Fortified stack when Mammonite or Bash kill a target.]'
+  Done: true
+  Script: |-
+    bonus3 bStatusOnSkillKill,SM_BASH,SC_FORTIFIED1,getrandomoptinfo(ROA_VALUE);
+    bonus3 bStatusOnSkillKill,SM_MAMMONITE,SC_FORTIFIED1,getrandomoptinfo(ROA_VALUE);
+- Id: 50312
+  FriendlyName: V1_MC_MAMMONITE Perfect Hit
+  Option: V1_MC_MAMMONITE_PERFECT_HIT
+  Transferable: true
+  Stackable: false
+  Description: '[Mammonite has Perfect Hit.]'
+  Done: true
+  Script: |-
+    bonus bPerfectAccuracySkill,MC_MAMMONITE;
+  Labels:
+  - Merchant
+  - T1
+- Id: 50313
+  FriendlyName: V1_TF_HIDING Counter autospells RG_CLOSECONFINE
+  Option: V1_TF_HIDING_COUNTER_AUTOSPELLS_RG_CLOSECONFINE
+  Transferable: true
+  Stackable: false
+  Description: '[Hiding Counters auto spell Close Confine. Close Confine holds targets for %d seconds after you escape.]'
+  Done: true
+  Script: |-
+    bonus bHidingCounterCloseConfine,1000;
+    bonus bCloseConfinePersistHold,getrandomoptinfo(ROA_VALUE)*1000;
+- Id: 50314
+  FriendlyName: V1_TF_POISON Poison -> Deadly Poison
+  Option: V1_TF_POISON_POISON__DEADLY_POISON
+  Transferable: true
+  Stackable: false
+  Description: '[Envenom inflicts Deadly Poison on Poisoned targets.]'
+  Done: true
+  Script: |-
+    bonus bEnvenomConvertDpoison,1;
+- Id: 50315
+  FriendlyName: V1_TF_HIDING gives Find Me + Find Me increases Crit
+  Option: V1_TF_HIDING_GIVES_FIND_ME__FIND_ME_INCREASES_CRIT
+  Transferable: true
+  Stackable: false
+  Description: "[Gain 'Find Me' after Hiding ends. 'Find Me' increases Crit rate by +%d%%.]"
+  Done: true
+  Script: |-
+    bonus bFindMeHiding,100;
+    bonus bFindMeIncreasesCrit,getrandomoptinfo(ROA_VALUE);
+  UnEquipScript: |-
+    sc_end(SC_FIND_ME);
+  Labels:
+  - T1
+  - Thief
+- Id: 50316
+  FriendlyName: V1_TF_BACKSLIDING from TF_HIDING gives Capoeira
+  Option: V1_TF_BACKSLIDING_FROM_TF_HIDING_GIVES_CAPOEIRA
+  Transferable: true
+  Stackable: false
+  Description: "[Using Backsliding from Hiding gives 'Capoeira' for %d seconds.]"
+  Done: true
+  Script: |-
+    bonus bBackSlidingHidingCapoeira,getrandomoptinfo(ROA_VALUE)*1000;
+- Id: 50317
+  FriendlyName: V1_SM_ENDURE SP Cost
+  Option: V1_SM_ENDURE_SP_COST
+  Transferable: false
+  Stackable: true
+  Description: Endure SP cost -%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillUseSPrate,SM_ENDURE,getrandomoptinfo(ROA_VALUE);
+- Id: 50318
+  FriendlyName: V1_MG_SIGHT Gives Chill & Freeze resist
+  Option: V1_MG_SIGHT_GIVES_CHILL__FREEZE_RESIST
+  Transferable: true
+  Stackable: false
+  Description: '[Gain +%d%% resist to Chill & Freeze when Sight is active.]'
+  Done: true
+  Script: |-
+    bonus bSightChillFreezeResist,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 50319
+  FriendlyName: V1_TF_HIDING Perfect Hide + 0 SP Hide
+  Option: V1_TF_HIDING_PERFECT_HIDE__0_SP_HIDE
+  Transferable: true
+  Stackable: false
+  Description: '[Perfect Hiding. Using Hiding costs 0 SP. Hiding duration reduced by a factor of %d. Forced microstun when Hiding expires naturally.]'
+  Done: true
+  Script: |-
+    bonus bHideStunTimer,getrandomoptinfo(ROA_VALUE);
+    bonus bPerfectHide;
+    bonus2 bSkillUseSPrate,TF_HIDING,100;
+  UnEquipScript: |-
+    sc_end(SC_HIDING);
+- Id: 50320
+  FriendlyName: V1_SM_ENDURE 1 Hit + Capoeira
+  Option: V1_SM_ENDURE_1_HIT__CAPOEIRA
+  Transferable: true
+  Stackable: false
+  Description: '[Endure lasts for 1 hit, but gives Capoeira for +%d seconds.]'
+  Done: true
+  Script: |-
+    bonus bEndureCapoeira,getrandomoptinfo(ROA_VALUE)*1000;
+    bonus bEndureSetHits,1;
+- Id: 50321
+  FriendlyName: V1_SM_AUTOBERSERK Increases Flee
+  Option: V1_SM_AUTOBERSERK_INCREASES_FLEE
+  Transferable: true
+  Stackable: false
+  Description: '[Auto Berserk gives +%d%% Flee.(UNIMPLEMENTED)]'
+  Done: false
+  Script: |-
+    ;
+- Id: 50322
+  FriendlyName: V1_SM_AUTOBERSERK Crit Rate + Crit Damage
+  Option: V1_SM_AUTOBERSERK_CRIT_RATE__CRIT_DAMAGE
+  Transferable: true
+  Stackable: false
+  Description: '[Auto Berserk gives +%d%% Crit Rate & Crit ATK.(UNIMPLEMENTED)]'
+  Done: false
+  Script: |-
+    ;
+- Id: 50323
+  FriendlyName: V1_TF_DETOXIFY gives Status Immunity on cure
+  Option: V1_TF_DETOXIFY_GIVES_STATUS_IMMUNITY_ON_CURE
+  Transferable: true
+  Stackable: false
+  Description: '[When Detoxify cures Poison, gain Cure Guard for +%d milliseconds. (UNIMPLEMENTED)]'
+  Done: false
+  Script: |-
+    ;
+- Id: 50324
+  FriendlyName: V1_AC_SHOWER inflicts Blind
+  Option: V1_AC_SHOWER_INFLICTS_BLIND
+  Transferable: true
+  Stackable: true
+  Description: '[Arrow Shower inflicts Blind +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,AC_SHOWER,Eff_Blind,getrandomoptinfo(ROA_VALUE);
+- Id: 50325
+  FriendlyName: V1_TF_HIDING Hide Dodging Casts inflicts Lex Aeterna
+  Option: V1_TF_HIDING_HIDE_DODGING_CASTS_INFLICTS_LEX_AETERNA
+  Transferable: true
+  Stackable: false
+  Description: "[When you Hide Dodge an enemy's cast, inflict Lex Aeterna on the enemy.]"
+  Done: true
+  Script: |-
+    bonus bTfHidingHideDodgingCastsInflictsLexAeterna,1;
+- Id: 50326
+  FriendlyName: V1_KN_PIERCE vs Critical Wounds
+  Option: V1_KN_PIERCE_VS_CRITICAL_WOUNDS
+  Transferable: false
+  Stackable: true
+  Description: Pierce damage vs Critical Wounds +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_CriticalWounds,KN_PIERCE,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50327
+  FriendlyName: V1_SM_AUTOBERSERK Caps Healing
+  Option: V1_SM_AUTOBERSERK_CAPS_HEALING
+  Transferable: true
+  Stackable: true
+  Description: '[Auto Berserk caps healing effects to 24.99%% of your Max HP.(UNIMPLEMENTED)]'
+  Done: false
+  Script: |-
+    ;
+- Id: 50328
+  FriendlyName: V1_SM_AUTOBERSERK Caps Healing + Add Endure Hits
+  Option: V1_SM_AUTOBERSERK_CAPS_HEALING__ADD_ENDURE_HITS
+  Transferable: true
+  Stackable: true
+  Description: '[Auto Berserk gives +%d Endure Hits & caps healing effects to 24.99%% of your Max HP.(UNIMPLEMENTED)]'
+  Done: false
+  Script: |-
+    ;
+- Id: 50329
+  FriendlyName: V1_SM_AUTOBERSERK Damage vs Bleeding
+  Option: V1_SM_AUTOBERSERK_DAMAGE_VS_BLEEDING
+  Transferable: false
+  Stackable: true
+  Description: Damage vs Bleeding +%d%% when Auto Berserk is active (UNIMPLEMENTED)
+  Done: false
+  Script: |-
+    ;
+- Id: 50330
+  FriendlyName: V1_AC_SHOWER Can Crit + Crit
+  Option: V1_AC_SHOWER_CAN_CRIT__CRIT
+  Transferable: true
+  Stackable: true
+  Description: '[Arrow Shower can Crit. Crit +%d]'
+  Done: true
+  Script: |-
+    bonus bSkillCrit,AC_SHOWER;
+    bonus bCritical,getrandomoptinfo(ROA_VALUE);
+- Id: 50331
+  FriendlyName: V1_TF_BACKSLIDING from TF_HIDING uses AC_SHOWER
+  Option: V1_TF_BACKSLIDING_FROM_TF_HIDING_USES_AC_SHOWER
+  Transferable: true
+  Stackable: false
+  Description: '[Using Backsliding from Hiding auto spells known Arrow Shower at origin.]'
+  Done: true
+  Script: |-
+    bonus bArrowShowerFromHiding,1;
+- Id: 50333
+  FriendlyName: V1_TF_BACKSLIDING Range
+  Option: V1_TF_BACKSLIDING_RANGE
+  Transferable: true
+  Stackable: true
+  Description: '[Backsliding range +%d.]'
+  Done: true
+  Script: |-
+    bonus bBackslidingRange,getrandomoptinfo(ROA_VALUE);
+- Id: 50334
+  FriendlyName: V1_MG_NAPALMBEAT Damage
+  Option: V1_MG_NAPALMBEAT_DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Napalm Beat damage +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,MG_NAPALMBEAT,getrandomoptinfo(ROA_VALUE);
+- Id: 50335
+  FriendlyName: V1_AL_INCAGI Cast time + 0 HP Cost
+  Option: V1_AL_INCAGI_CAST_TIME__0_HP_COST
+  Transferable: false
+  Stackable: true
+  Description: Increase Agility costs 0 HP & cast time -%d%%
+  Done: true
+  Script: |-
+    bonus2 bCastRate,AL_INCAGI,-(getrandomoptinfo(ROA_VALUE));
+    bonus2 bSkillUseHPrate,AL_INCAGI,100;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50336
+  FriendlyName: V1_TF_BACKSLIDING AutoSpells TF_HIDING
+  Option: V1_TF_BACKSLIDING_AUTOSPELLS_TF_HIDING
+  Transferable: true
+  Stackable: false
+  Description: '[Backsliding autospells known Hiding.]'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,TF_BACKSLIDING,TF_HIDING,getskilllv(TF_HIDING),1000;
+- Id: 50337
+  FriendlyName: V1_AL_INCAGI Gives Dash + Inc HP Cost
+  Option: V1_AL_INCAGI_GIVES_DASH__INC_HP_COST
+  Transferable: true
+  Stackable: true
+  Description: "[Increase Agility gives +%d seconds of 'Dash' / HP Cost becomes 5%% max HP.]"
+  Done: true
+  Script: |-
+    bonus bIncAgiDash,getrandomoptinfo(ROA_VALUE)*1000;
+    bonus2 bSkillCostHpRate,AL_INCAGI,5;
+- Id: 50338
+  FriendlyName: V1_TF_BACKSLIDING AutoSpells AL_INCAGI
+  Option: V1_TF_BACKSLIDING_AUTOSPELLS_AL_INCAGI
+  Transferable: true
+  Stackable: true
+  Description: '[Backsliding autospells known Increase Agility (min 1) (once per %d seconds).]'
+  Done: true
+  Script: |-
+    .@lvl = getskilllv(AL_INCAGI);
+    if (.@lvl < 1) {
+        .@lvl = 1;
+    }
+    bonus4 bAutoSpellOnSkillMotion,TF_BACKSLIDING,AL_INCAGI,.@lvl,1000;
+    bonus bBackslideAgiCd,getrandomoptinfo(ROA_VALUE)*1000;
+- Id: 50339
+  FriendlyName: V1_TF_THROWSTONE AutoSpells TF_THROWSTONE
+  Option: V1_TF_THROWSTONE_AUTOSPELLS_TF_THROWSTONE
+  Transferable: false
+  Stackable: true
+  Description: Throw Stone has a +%d%% chance to double cast
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkillRecast,TF_THROWSTONE,TF_THROWSTONE,1,getrandomoptinfo(ROA_VALUE)*10,1;
+- Id: 50340
+  FriendlyName: V1_AC_DOUBLE Perfect Hit
+  Option: V1_AC_DOUBLE_PERFECT_HIT
+  Transferable: true
+  Stackable: false
+  Description: '[Double Strafing has Perfect Hit.]'
+  Done: true
+  Script: |-
+    bonus bPerfectAccuracySkill,AC_DOUBLE;
+- Id: 50341
+  FriendlyName: V1_AC_DOUBLE Allow Crit + Perfect Hit
+  Option: V1_AC_DOUBLE_ALLOW_CRIT__PERFECT_HIT
+  Transferable: true
+  Stackable: false
+  Description: '[Double Strafing can Crit & has Perfect Hit.]'
+  Done: true
+  Script: |-
+    bonus bPerfectAccuracySkill,AC_DOUBLE;
+    bonus bSkillCrit,AC_DOUBLE;
+- Id: 50342
+  FriendlyName: V1_AC_CHARGEARROW Allow Crit + Damage
+  Option: V1_AC_CHARGEARROW_ALLOW_CRIT__DAMAGE
+  Transferable: true
+  Stackable: true
+  Description: '[Charge Arrow can Crit. Charge Arrow damage +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,AC_CHARGEARROW,getrandomoptinfo(ROA_VALUE);
+    bonus bSkillCrit,AC_CHARGEARROW;
+- Id: 50343
+  FriendlyName: V1_AC_CHARGEARROW Cast time + SP Cost
+  Option: V1_AC_CHARGEARROW_CAST_TIME__SP_COST
+  Transferable: false
+  Stackable: true
+  Description: Charge Arrow SP cost & cast time reduced by %d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillUseSPrate,AC_CHARGEARROW,getrandomoptinfo(ROA_VALUE);
+    bonus2 bCastRate,AC_CHARGEARROW,-(getrandomoptinfo(ROA_VALUE));
+- Id: 50344
+  FriendlyName: V1_AC_CHARGEARROW Allow Crit + Perfect Hit
+  Option: V1_AC_CHARGEARROW_ALLOW_CRIT__PERFECT_HIT
+  Transferable: true
+  Stackable: false
+  Description: '[Charge Arrow can Crit & has Perfect Hit.]'
+  Done: true
+  Script: |-
+    bonus bSkillCrit,AC_CHARGEARROW;
+    bonus bPerfectAccuracySkill,AC_CHARGEARROW;
+- Id: 50346
+  FriendlyName: V1_AC_DOUBLE Double Cast
+  Option: V1_AC_DOUBLE_DOUBLE_CAST
+  Transferable: false
+  Stackable: true
+  Description: Double Strafing double casts +%d%%
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkillRecast,AC_DOUBLE,AC_DOUBLE,getskilllv(AC_DOUBLE),getrandomoptinfo(ROA_VALUE)*10,1;
+- Id: 50347
+  FriendlyName: V1_AC_DOUBLE Life Leech on Kill
+  Option: V1_AC_DOUBLE_LIFE_LEECH_ON_KILL
+  Transferable: false
+  Stackable: true
+  Description: Double Strafing gives Life Leech +%d%% on kill
+  Done: true
+  Script: |-
+    bonus2 bLifeLeechSkillKill,AC_DOUBLE,getrandomoptinfo(ROA_VALUE);
+- Id: 50348
+  FriendlyName: V1_AC_CHARGEARROW Allow Crit + Crit
+  Option: V1_AC_CHARGEARROW_ALLOW_CRIT__CRIT
+  Transferable: true
+  Stackable: true
+  Description: '[Charge Arrow can Crit. Crit +%d]'
+  Done: true
+  Script: |-
+    bonus bCritical,getrandomoptinfo(ROA_VALUE);
+    bonus bSkillCrit,AC_CHARGEARROW;
+- Id: 50349
+  FriendlyName: V1_AC_CHARGEARROW Perfect Hit
+  Option: V1_AC_CHARGEARROW_PERFECT_HIT
+  Transferable: true
+  Stackable: false
+  Description: '[Charge Arrow has Perfect Hit.]'
+  Done: true
+  Script: |-
+    bonus bPerfectAccuracySkill,AC_CHARGEARROW;
+- Id: 50350
+  FriendlyName: V1_AC_DOUBLE AutoSpells AL_HEAL
+  Option: V1_AC_DOUBLE_AUTOSPELLS_AL_HEAL
+  Transferable: false
+  Stackable: true
+  Description: Double Strafing autospells Heal Lv3 +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,AC_DOUBLE,AL_HEAL,3,getrandomoptinfo(ROA_VALUE)*10;
+- Id: 50351
+  FriendlyName: V1_AC_DOUBLE Hit Count vs Small/Large
+  Option: V1_AC_DOUBLE_HIT_COUNT_VS_SMALLLARGE
+  Transferable: true
+  Stackable: false
+  Description: '[Double Strafing does 3 multihits vs Small targets and 1 hit vs Large targets.]'
+  Done: true
+  Script: |-
+    bonus bDsHitCountVsSmallmedlarge,1;
+- Id: 50352
+  FriendlyName: V1_AC_DOUBLE Crits give Dash
+  Option: V1_AC_DOUBLE_CRITS_GIVE_DASH
+  Transferable: true
+  Stackable: false
+  Description: '[Double Strafing Crits give Dash.]'
+  Done: true
+  Script: |-
+    bonus bAcDoubleCritsGiveDash,getrandomoptinfo(ROA_VALUE);
+- Id: 50353
+  FriendlyName: V1_AC_DOUBLE Crits give Find Me
+  Option: V1_AC_DOUBLE_CRITS_GIVE_FIND_ME
+  Transferable: true
+  Stackable: false
+  Description: "[When Double Strafing Crits, gain 'Find Me' for %d seconds.]"
+  Done: true
+  Script: |-
+    bonus bAcDoubleCritsGiveFindMe,getrandomoptinfo(ROA_VALUE)*1000;
+- Id: 50354
+  FriendlyName: V1_AC_DOUBLE Crits give Dash & Find Me
+  Option: V1_AC_DOUBLE_CRITS_GIVE_DASH__FIND_ME
+  Transferable: true
+  Stackable: false
+  Description: "[When Double Strafing crits, gain 'Dash' for %d seconds, and 'Find Me' for double that time.]"
+  Done: true
+  Script: |-
+    bonus bAcDoubleCritsGiveDash,getrandomoptinfo(ROA_VALUE)*1000;
+    bonus bAcDoubleCritsGiveFindMe,getrandomoptinfo((ROA_VALUE)*1000)*2;
+- Id: 50355
+  FriendlyName: V1_AC_SHOWER AutoSpells AC_DOUBLE
+  Option: V1_AC_SHOWER_AUTOSPELLS_AC_DOUBLE
+  Transferable: false
+  Stackable: true
+  Description: Arrow Shower autospells Double Strafing +%d%%
+  Done: false
+  Script: |-
+    ;
+- Id: 50356
+  FriendlyName: V1_AC_SHOWER inflicts Stun
+  Option: V1_AC_SHOWER_INFLICTS_STUN
+  Transferable: false
+  Stackable: true
+  Description: Arrow Shower inflicts Stun +%d%%
+  Done: false
+  Script: |-
+    bonus3 bAddEffOnSkill,AC_SHOWER,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+- Id: 50357
+  FriendlyName: V1_AC_SHOWER inflicts Poison
+  Option: V1_AC_SHOWER_INFLICTS_POISON
+  Transferable: false
+  Stackable: true
+  Description: Arrow Shower inflicts Poison +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,AC_SHOWER,Eff_Poison,getrandomoptinfo(ROA_VALUE);
+  EquipScript: |-
+    ;
+- Id: 50358
+  FriendlyName: V1_MG_LIGHTNINGBOLT Cast Time (Transferable)
+  Option: V1_MG_LIGHTNINGBOLT_CAST_TIME_TRANSFERABLE
+  Transferable: true
+  Stackable: true
+  Description: '[Lightning Bolt cast time -%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bCastRate,MG_LIGHTNINGBOLT,-(getrandomoptinfo(ROA_VALUE));
+  Labels:
+  - Magician
+  - Skill cast time
+  - T1
+- Id: 50359
+  FriendlyName: V1_MG_COLDBOLT vs Heat
+  Option: V1_MG_COLDBOLT_VS_HEAT
+  Transferable: false
+  Stackable: true
+  Description: Lightning Bolt damage vs Chill +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Heat,MG_LIGHTNINGBOLT,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50360
+  FriendlyName: V1_MG_COLDBOLT Cast time
+  Option: V1_MG_COLDBOLT_CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: Cold Bolt cast time -%d%%
+  Done: true
+  Script: |-
+    bonus2 bCastRate,MG_COLDBOLT,-(getrandomoptinfo(ROA_VALUE));
+  Labels:
+  - Magician
+  - Skill cast time
+  - T1
+- Id: 50361
+  FriendlyName: V1_MG_FIREBALL inflicts Heat
+  Option: V1_MG_FIREBALL_INFLICTS_HEAT
+  Transferable: false
+  Stackable: true
+  Description: Fire Ball inflicts Heat +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_FIREBALL,Eff_Heat,getrandomoptinfo(ROA_VALUE)*100;
+  Labels:
+  - Magician
+  - T1
+- Id: 50362
+  FriendlyName: V1_MG_LIGHTNINGBOLT AutoSpell Lv3 MG_FIREBOLT
+  Option: V1_MG_LIGHTNINGBOLT_AUTOSPELL_LV3_MG_FIREBOLT
+  Transferable: false
+  Stackable: true
+  Description: Lightning Bolt autospells Lv3 Fire Bolt +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,MG_FIREBOLT,MG_FIREBOLT,3,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - Magician
+  - T1
+- Id: 50363
+  FriendlyName: V1_MG_FIREWALL inflicts Heat
+  Option: V1_MG_FIREWALL_INFLICTS_HEAT
+  Transferable: false
+  Stackable: true
+  Description: Fire Wall inflicts Heat +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_FIREWALL,Eff_Heat,getrandomoptinfo(ROA_VALUE)*100;
+  Labels:
+  - Magician
+  - T1
+- Id: 50364
+  FriendlyName: V1_MG_LIGHTNINGBOLT inflicts Shock & Cast time
+  Option: V1_MG_LIGHTNINGBOLT_INFLICTS_SHOCK__CAST_TIME
+  Transferable: true
+  Stackable: true
+  Description: '[Lightning Bolt inflicts Shock +/Cast time -%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_LIGHTNINGBOLT,Eff_Shock,getrandomoptinfo(ROA_VALUE)*100;
+    bonus2 bCastrate,MG_LIGHTNINGBOLT,-getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50365
+  FriendlyName: V1_MG_COLDBOLT inflicts Chill & Cast time
+  Option: V1_MG_COLDBOLT_INFLICTS_CHILL__CAST_TIME
+  Transferable: true
+  Stackable: true
+  Description: '[Cold Bolt inflicts Chill +/Cast time -%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bCastRate,MG_COLDBOLT,-(getrandomoptinfo(ROA_VALUE));
+    bonus3 bAddEffOnSkill,MG_COLDBOLT,Eff_Chill,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - Skill cast time
+  - T1
+- Id: 50366
+  FriendlyName: V1_MG_COLDBOLT AutoSpells Lv3 MG_LIGHTNINGBOLT + Vice Versa
+  Option: V1_MG_COLDBOLT_AUTOSPELLS_LV3_MG_LIGHTNINGBOLT__VICE_VERSA
+  Transferable: false
+  Stackable: true
+  Description: Cold Bolt autospells Lv3 Lightning Bolt / Lightning Bolt autospells Lv3 Cold Bolt +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,MG_COLDBOLT,MG_LIGHTNINGBOLT,3,getrandomoptinfo(ROA_VALUE)*10;
+    bonus4 bAutoSpellOnSkill,MG_LIGHTNINGBOLT,MG_COLTBOLT,3,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - Magician
+  - T1
+- Id: 50367
+  FriendlyName: V1_MG_LIGHTNINGBOLT & MG_THUNDERSTORM Damage vs Chill
+  Option: V1_MG_LIGHTNINGBOLT__MG_THUNDERSTORM_DAMAGE_VS_CHILL
+  Transferable: true
+  Stackable: true
+  Description: '[Lightning Bolt & Thunder Storm damage vs Chill +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Chill,MG_LIGHTNINGBOLT,getrandomoptinfo(ROA_VALUE);
+    bonus3 bEffSkillMod,Eff_Chill,MG_THUNDERSTORM,getrandomoptinfo(ROA_VALUE);
+- Id: 50368
+  FriendlyName: V1_MG_COLDBOLT / MG_LIGHTNINGBOLT AutoSpell Lv3 WZ_JUPITEL
+  Option: V1_MG_COLDBOLT__MG_LIGHTNINGBOLT_AUTOSPELL_LV3_WZ_JUPITEL
+  Transferable: true
+  Stackable: true
+  Description: '[Cold Bolt & Lightning Bolt have a +%d%% chance to autospell Lv3 Jupitel Thunder]'
+  Done: true
+  Script: |-
+    ;
+- Id: 50369
+  FriendlyName: V1_MG_COLDBOLT inflicts Chill & Cast time / MG_LIGHTNINGBOLT inflicts Shock & Cast time
+  Option: V1_MG_COLDBOLT_INFLICTS_CHILL__CAST_TIME__MG_LIGHTNINGBOLT_INFLICTS_SHOCK__CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: Cold Bolt inflicts Chill +/Lightning Bolt inflicts Shock +/ Cold Bolt & Lightning Bolt cast times -%d%%
+  Done: true
+  Script: |-
+    bonus2 bCastRate,MG_COLDBOLT,-(getrandomoptinfo(ROA_VALUE));
+    bonus2 bCastRate,MG_LIGHTNINGBOLT,-(getrandomoptinfo(ROA_VALUE));
+    bonus3 bAddEffOnSkill,MG_COLDBOLT,Eff_Chill,getrandomoptinfo(ROA_VALUE);
+    bonus3 bAddEffOnSkill,MG_LIGHTNINGBOLT,Eff_Shock,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - Skill cast time
+  - T1
+- Id: 50370
+  FriendlyName: V1_MG_THUNDERSTORM inflicts Shock / Cast time
+  Option: V1_MG_THUNDERSTORM_INFLICTS_SHOCK__CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: Thunder Storm inflicts Shock +/Cast time -%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_THUNDERSTORM,Eff_Shock,getrandomoptinfo(ROA_VALUE)*100;
+    bonus2 bCastRate,MG_THUNDERSTORM,-(getrandomoptinfo(ROA_VALUE));
+  Labels:
+  - Magician
+  - Shock
+  - T1
+- Id: 50371
+  FriendlyName: V1_MG_FROSTDIVER Splash Radius / Freeze kills explode WZ_FROSTNOVA
+  Option: V1_MG_FROSTDIVER_SPLASH_RADIUS__FREEZE_KILLS_EXPLODE_WZ_FROSTNOVA
+  Transferable: true
+  Stackable: true
+  Description: '[Frost Diver cast time +35%% / Splash radius +%d cells. Dealing a killing blow to a Frozen enemy explodes them into a Frost Nova.]'
+  Done: true
+  Script: |-
+    bonus bFrostDiverSplash,getrandomoptinfo(ROA_VALUE);
+    bonus2 bCastrate,MG_FROSTDIVER,35;
+    bonus bFreezeFrostNovaExplode,1;
+  Labels:
+  - Magician
+  - T1
+- Id: 50372
+  FriendlyName: V1_MG_COLDBOLT AutoSpells Lv4 MG_LIGHTNINGBOLT + Vice Versa
+  Option: V1_MG_COLDBOLT_AUTOSPELLS_LV4_MG_LIGHTNINGBOLT__VICE_VERSA
+  Transferable: false
+  Stackable: true
+  Description: Cold Bolt autospells Lv4 Lightning Bolt / Lightning Bolt autospells Lv4 Cold Bolt +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,MG_COLDBOLT,MG_LIGHTNINGBOLT,4,getrandomoptinfo(ROA_VALUE)*10;
+    bonus4 bAutoSpellOnSkill,MG_LIGHTNINGBOLT,MG_COLTBOLT,4,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - Magician
+  - T1
+- Id: 50373
+  FriendlyName: V1_MG_FIREBOLT Damage + inflicts Heat
+  Option: V1_MG_FIREBOLT_DAMAGE__INFLICTS_HEAT
+  Transferable: false
+  Stackable: true
+  Description: Fire Bolt damage +/inflicts Heat+%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillAtk,MG_FIREBOLT,getrandomoptinfo(ROA_VALUE);
+    bonus3 bAddEffOnSkill,MG_FIREBOLT,Eff_Heat,getrandomoptinfo(ROA_VALUE)*100;
+  Labels:
+  - Magician
+  - T1
+- Id: 50374
+  FriendlyName: V1_MG_FIREBOLT AutoSpells 1/2 WZ_EARTHSPIKE / WZ_EARTHSPIKE AutoSpells 1/2 MG_FIREBOLT
+  Option: V1_MG_FIREBOLT_AUTOSPELLS_12_WZ_EARTHSPIKE__WZ_EARTHSPIKE_AUTOSPELLS_12_MG_FIREBOLT
+  Transferable: false
+  Stackable: true
+  Description: Fire Bolt autospells Lv1 Earth Spike +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,MG_FIREBOLT,WZ_EARTHSPIKE,getskilllv(WZ_EARTHSPIKE)/2,getrandomoptinfo(ROA_VALUE)*10;
+    bonus4 bAutoSpellOnSkill,WZ_EARTHSPIKE,MG_FIREBOLT,getskilllv(MG_FIREBOLT)/2,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - Magician
+  - T1
+- Id: 50375
+  FriendlyName: V1_MG_FIREBALL Explodes into SM_MAGNUM & inflicts Heat
+  Option: V1_MG_FIREBALL_EXPLODES_INTO_SM_MAGNUM__INFLICTS_HEAT
+  Transferable: true
+  Stackable: true
+  Description: '[Fire Ball explodes into delay-less Lv5 Magnum Break +/inflicts Heat +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_FIREBALL,Eff_Heat,getrandomoptinfo(ROA_VALUE)*100;
+    bonus2 bMagnumBalls,getrandomoptinfo(ROA_VALUE),5;
+  Labels:
+  - Magician
+  - T1
+- Id: 50376
+  FriendlyName: V1_MG_STONECURSE Super Armor
+  Option: V1_MG_STONECURSE_SUPER_ARMOR
+  Transferable: false
+  Stackable: true
+  Description: Stone Curse super armor +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSuperArmor,MG_STONECURSE,getrandomoptinfo(ROA_VALUE);
+- Id: 50377
+  FriendlyName: V1_MG_FIREWALL Super Armor
+  Option: V1_MG_FIREWALL_SUPER_ARMOR
+  Transferable: false
+  Stackable: true
+  Description: Fire Wall super armor +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSuperArmor,MG_FIREWALL,getrandomoptinfo(ROA_VALUE);
+- Id: 50378
+  FriendlyName: V1_MG_SOULSTRIKE inflicts Sleep
+  Option: V1_MG_SOULSTRIKE_INFLICTS_SLEEP
+  Transferable: false
+  Stackable: true
+  Description: Soul Strike inflicts Sleep +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_SOULSTRIKE,Eff_Sleep,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 50379
+  FriendlyName: V1_MG_STONECURSE Fails inflict Sleep
+  Option: V1_MG_STONECURSE_FAILS_INFLICT_SLEEP
+  Transferable: true
+  Stackable: false
+  Description: '[When Stone Curse fails, inflict Sleep on yourself & the enemy for %d seconds.]'
+  Done: true
+  Script: |-
+    bonus bbMgStonecurseFailsInflictSleep,getrandomoptinfo(ROA_VALUE);
+- Id: 50380
+  FriendlyName: V1_MG_FROSTDRIVER Super Armor
+  Option: V1_MG_FROSTDRIVER_SUPER_ARMOR
+  Transferable: false
+  Stackable: true
+  Description: Frost Diver super armor +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSuperArmor,MG_FROSTDIVER,getrandomoptinfo(ROA_VALUE);
+- Id: 50381
+  FriendlyName: V1_MG_SAFETYWALL Super Armor
+  Option: V1_MG_SAFETYWALL_SUPER_ARMOR
+  Transferable: false
+  Stackable: true
+  Description: Safety Wall super armor +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSuperArmor,MG_SAFETYWALL,getrandomoptinfo(ROA_VALUE);
+- Id: 50382
+  FriendlyName: V1_AL_ANGELUS Reduces Holy Damage
+  Option: V1_AL_ANGELUS_REDUCES_HOLY_DAMAGE
+  Transferable: true
+  Stackable: true
+  Description: '[Your Angelus reduces damage from Holy Element by %d%%. Cost +1 Holy Water]'
+  Done: true
+  Script: |-
+    bonus bAlAngelusReducesHolyDamage,getrandomoptinfo(ROA_VALUE);
+    bonus3 bSkillCatalyst,AL_ANGELUS,$@HolyWater,1;
+- Id: 50383
+  FriendlyName: V1_AL_CRUCIS Curse & Stone Curse
+  Option: V1_AL_CRUCIS_CURSE__STONE_CURSE
+  Transferable: false
+  Stackable: true
+  Description: Targets affected by Signum Crucis are Stone Cursed / Cursed +%d%%
+  Done: true
+  Script: |-
+    bonus bAlCrucisCurseStoneCurse,getrandomoptinfo(ROA_VALUE);
+- Id: 50384
+  FriendlyName: V1_AL_HOLYLIGHT Super Armor
+  Option: V1_AL_HOLYLIGHT_SUPER_ARMOR
+  Transferable: false
+  Stackable: true
+  Description: Holy Light super armor +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSuperArmor,AL_HOLYLIGHT,getrandomoptinfo(ROA_VALUE);
+- Id: 50385
+  FriendlyName: V1_AL_HOLYLIGHT & MG_SAFETYWALL Super Armor
+  Option: V1_AL_HOLYLIGHT__MG_SAFETYWALL_SUPER_ARMOR
+  Transferable: false
+  Stackable: true
+  Description: Holy Light & Safety Wall super armor +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSuperArmor,AL_HOLYLIGHT,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSuperArmor,MG_SAFETYWALL,getrandomoptinfo(ROA_VALUE);
+- Id: 50386
+  FriendlyName: V1_AL_INCAGI & AL_DECAGI Super Armor
+  Option: V1_AL_INCAGI__AL_DECAGI_SUPER_ARMOR
+  Transferable: true
+  Stackable: true
+  Description: '[Increase Agility & Decrease Agility super armor +%d%%]'
+  Done: true
+  Script: |-
+    bonus2 bSuperArmor,AL_INCAGI,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSuperArmor,AL_DECAGI,getrandomoptinfo(ROA_VALUE);
+- Id: 50387
+  FriendlyName: V1_AL_HOLYLIGHT Cast time
+  Option: V1_AL_HOLYLIGHT_CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: Holy Light cast time -%d%%
+  Done: true
+  Script: |-
+    bonus2 bCastRate,AL_HOLYLIGHT,-(getrandomoptinfo(ROA_VALUE));
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50388
+  FriendlyName: V1_AL_ANGELUS AutoSpells AL_HOLYLIGHT + Delay
+  Option: V1_AL_ANGELUS_AUTOSPELLS_AL_HOLYLIGHT__DELAY
+  Transferable: true
+  Stackable: true
+  Description: '[Double Angelus SP cost & Cast time / autospells Holy Light on Fiends in a 16x16 area. Cost +1 Holy Water]'
+  Done: true
+  Script: |-
+    bonus bAlAngelusAutospellsAlHolylight,1;
+    bonus2 bCastrate,AL_ANGELUS,100;
+    bonus2 bSkillUseSPrate,AL_ANGELUS,-(getrandomoptinfo(ROA_VALUE));
+    bonus3 bSkillCatalyst,AL_ANGELUS,$@HolyWater,1;
+- Id: 50389
+  FriendlyName: V1_AL_HOLYLIGHT kills give Holy Water
+  Option: V1_AL_HOLYLIGHT_KILLS_GIVE_HOLY_WATER
+  Transferable: true
+  Stackable: true
+  Description: '[+%d%% chance to receive Holy Water after killing an enemy with Holy Light]'
+  Done: true
+  Script: |-
+    bonus bAlHolylightKillsGiveHolyWater,getrandomoptinfo(ROA_VALUE)*100;
+- Id: 50390
+  FriendlyName: V1_MG_FIREBOLT, MG_COLDBOLT, MG_LIGHTNINGBOLT SP costs
+  Option: V1_MG_FIREBOLT_MG_COLDBOLT_MG_LIGHTNINGBOLT_SP_COSTS
+  Transferable: false
+  Stackable: true
+  Description: Fire Bolt, Lightning Bolt, and Cold Bolt SP costs -%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillUseSPrate,MG_FIREBOLT,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSkillUseSPrate,MG_LIGHTNINGBOLT,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSkillUseSPrate,MG_COLDBOLT,getrandomoptinfo(ROA_VALUE);
+- Id: 50391
+  FriendlyName: V1_AL_ANGELUS & AL_HOLYLIGHT Cast times
+  Option: V1_AL_ANGELUS__AL_HOLYLIGHT_CAST_TIMES
+  Transferable: false
+  Stackable: true
+  Description: Holy Light & Angelus cast times -%d%%
+  Done: true
+  Script: |-
+    bonus2 bCastRate,AL_HOLYLIGHT,-(getrandomoptinfo(ROA_VALUE));
+    bonus2 bCastRate,AL_ANGELUS,-(getrandomoptinfo(ROA_VALUE));
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50392
+  FriendlyName: V1_AL_BLESSING SP Cost
+  Option: V1_AL_BLESSING_SP_COST
+  Transferable: false
+  Stackable: true
+  Description: Blessing SP cost -%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillUseSPrate,AL_BLESSING,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50393
+  FriendlyName: V1_MG_LIGHTNINGBOLT inflicts Sleep
+  Option: V1_MG_LIGHTNINGBOLT_INFLICTS_SLEEP
+  Transferable: false
+  Stackable: true
+  Description: Lightning Bolt inflicts Sleep +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_LIGHTNINGBOLT,Eff_Sleep,getrandomoptinfo(ROA_VALUE)*100;
+  Labels:
+  - Magician
+  - T1
+- Id: 50395
+  FriendlyName: V1_MG_FROSTDIVER Cast time
+  Option: V1_MG_FROSTDIVER_CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: Frost Diver cast time -%d%%
+  Done: true
+  Script: |-
+    ;
+- Id: 50396
+  FriendlyName: V1_MG_FROSTDIVER SP Cost & Cast time
+  Option: V1_MG_FROSTDIVER_SP_COST__CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: Frost Diver SP cost & Cast time -%d%%
+  Done: true
+  Script: |-
+    bonus2 bSkillUseSPrate,MG_FROSTDIVER,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50397
+  FriendlyName: V1_MG_SAFETYWALL Natural SP Recovery rate
+  Option: V1_MG_SAFETYWALL_NATURAL_SP_RECOVERY_RATE
+  Transferable: true
+  Stackable: false
+  Description: '[Natural SP Regen rate +%d%% when standing in Safety Wall.]'
+  Done: true
+  Script: |-
+    bonus bMgSafetywallNaturalSpRecoveryRate,getrandomoptinfo(ROA_VALUE);
+- Id: 50398
+  FriendlyName: V1_SM_BASH Bleeding -> Critical Wounds
+  Option: V1_SM_BASH_BLEEDING__CRITICAL_WOUNDS
+  Transferable: true
+  Stackable: false
+  Description: '[Bash converts Bleeding to Critical Wounds +%d%%]'
+  Done: true
+  Script: |-
+    bonus bSmBashBleedingCriticalWounds,getrandomoptinfo(ROA_VALUE);
+- Id: 50399
+  FriendlyName: V1_AL_HEAL Recasts known AL_HEAL
+  Option: V1_AL_HEAL_RECASTS_KNOWN_AL_HEAL
+  Transferable: false
+  Stackable: true
+  Description: Heal recasts known Heal %d times.
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkillRecast,AL_HEAL,AL_HEAL,getskilllv(AL_HEAL),1000,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50400
+  FriendlyName: V1_AL_CURE Gives PR_KYRIE on cure
+  Option: V1_AL_CURE_GIVES_PR_KYRIE_ON_CURE
+  Transferable: true
+  Stackable: false
+  Description: '[Cure gives Lv10 Kyrie Eleison when it cures a status.]'
+  Done: true
+  Script: |-
+    bonus bAlCureGivesPrKyrieOnCure,10;
+- Id: 50401
+  FriendlyName: V1_AL_BLESSING SP Cost + Autospells AL_INCAGI
+  Option: V1_AL_BLESSING_SP_COST__AUTOSPELLS_AL_INCAGI
+  Transferable: true
+  Stackable: true
+  Description: '[Blessing SP cost -%d%% / Blessing autospells known Increase Agility.]'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,AL_BLESSING,AL_INCAGI,getskilllv(AL_INCAGI),1000;
+    bonus2 bSkillUseSPrate,AL_BLESSING,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50402
+  FriendlyName: V1_AL_HOLYLIGHT AutoSpells PR_LEXAETERNA
+  Option: V1_AL_HOLYLIGHT_AUTOSPELLS_PR_LEXAETERNA
+  Transferable: false
+  Stackable: true
+  Description: Holy Light autospells Lex Aeterna +%d%%
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,AL_HOLYLIGHT,PR_LEXAETERNA,1,getrandomoptinfo(ROA_VALUE)*10;
+- Id: 50403
+  FriendlyName: V1_AL_HEAL Safety Wall + Critical HP Heal / Dash
+  Option: V1_AL_HEAL_SAFETY_WALL__CRITICAL_HP_HEAL__DASH
+  Transferable: true
+  Stackable: false
+  Description: "['Heal' skill power +%d%% when target has critical HP, then self and target gain 'Dash' for 2 seconds.]"
+  Done: false
+  Script: |-
+    ;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50404
+  FriendlyName: V1_'AL_CURE Cure Guard + Gives PR_KYRIE on cure '
+  Option: V1_AL_CURE_CURE_GUARD__GIVES_PR_KYRIE_ON_CURE_
+  Transferable: true
+  Stackable: false
+  Description: '[Cure gives Lv10 Kyrie Eleison when it cures a status. Cure grants 750 milliseconds of Cure Guard, blocking the next %d debuffs. Cure costs +5 Holy Water]'
+  Done: true
+  Script: |-
+    bonus bAlCureGivesPrKyrieOnCure,10;
+    bonus bCureImmunity,getrandomoptinfo(ROA_VALUE);
+    bonus3 bSkillCatalyst,AL_CURE,$@HolyWater,5;
+- Id: 50405
+  FriendlyName: V1_AL_HOLYLIGHT inflicts Silence & damage vs Silence
+  Option: V1_AL_HOLYLIGHT_INFLICTS_SILENCE__DAMAGE_VS_SILENCE
+  Transferable: false
+  Stackable: true
+  Description: Holy Light inflicts Silence + %d%% / Gains twice that much damage vs Silenced targets
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Silence,AL_HOLYLIGHT,getrandomoptinfo(ROA_VALUE)*2;
+    bonus3 bAddEffOnSkill,AL_HOLYLIGHT,Eff_Silence,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50406
+  FriendlyName: V1_AL_HOLYLIGHT inflicts Critical Wounds & damage vs Critical Wounds
+  Option: V1_AL_HOLYLIGHT_INFLICTS_CRITICAL_WOUNDS__DAMAGE_VS_CRITICAL_WOUNDS
+  Transferable: false
+  Stackable: true
+  Description: Holy Light inflicts Critical Wounds + %d%% / Gains 5x that damage vs Critically Wounded targets
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_CriticalWound,AL_HOLYLIGHT,getrandomoptinfo(ROA_VALUE)*5;
+    bonus3 bAddEffOnSkill,AL_HOLYLIGHT,Eff_CriticalWound,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50407
+  FriendlyName: V1_TF_BACKSLIDING autospells Lv%d MG_FIREWALL
+  Option: V1_TF_BACKSLIDING_AUTOSPELLS_LVD_MG_FIREWALL
+  Transferable: true
+  Stackable: true
+  Description: '[Backsliding autospells Lv%d Fire Wall.]'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,TF_BACKSLIDING,MG_FIREWALL,getrandomoptinfo(ROA_VALUE),10000;
+  Labels:
+  - Magician
+  - T1
+  - Thief
+- Id: 50408
+  FriendlyName: V1_MG_SIGHT increases AutoSpell rates
+  Option: V1_MG_SIGHT_INCREASES_AUTOSPELL_RATES
+  Transferable: true
+  Stackable: true
+  Description: '[Sight increases autospell rates by +%d%%.]'
+  Done: true
+  Script: |-
+    bonus bMgSightIncreasesAutospellRates,getrandomoptinfo(ROA_VALUE);
+- Id: 50409
+  FriendlyName: V1_AL_HOLYLIGHT Cast time & AutoSpells PR_LEXAETERNA
+  Option: V1_AL_HOLYLIGHT_CAST_TIME__AUTOSPELLS_PR_LEXAETERNA
+  Transferable: false
+  Stackable: true
+  Description: Holy Light autospells Lex Aeterna +/Cast time -%d%%
+  Done: true
+  Script: |-
+    bonus2 bCastRate,AL_HOLYLIGHT,-(getrandomoptinfo(ROA_VALUE));
+    bonus4 bAutoSpellOnSkillMotion,AL_HOLYLIGHT,PR_LEXAETERNA,1,getrandomoptinfo(ROA_VALUE)*10;
+- Id: 50410
+  FriendlyName: V1_AL_HOLYLIGHT Cast time & damage
+  Option: V1_AL_HOLYLIGHT_CAST_TIME__DAMAGE
+  Transferable: false
+  Stackable: true
+  Description: Holy Light cast time -%d%% / increase damage by 3x that
+  Done: true
+  Script: |-
+    bonus2 bCastRate,AL_HOLYLIGHT,-(getrandomoptinfo(ROA_VALUE));
+    bonus2 bSkillAtk,AL_HOLYLIGHT,getrandomoptinfo(ROA_VALUE)*3;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50411
+  FriendlyName: V1_MG_LIGHTNINGBOLT Recast + inflicts Shock
+  Option: V1_MG_LIGHTNINGBOLT_RECAST__INFLICTS_SHOCK
+  Transferable: false
+  Stackable: true
+  Description: Lightning Bolt recasts Lv3 Lightning Bolt +/inflicts Shock +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_LIGHTNINGBOLT,Eff_Shock,getrandomoptinfo(ROA_VALUE)*100;
+    bonus5 bAutoSpellOnSkillRecast,MG_LIGHTNINGBOLT,MG_LIGHTNINGBOLT,3,getrandomoptinfo(ROA_VALUE)*10,1;
+  Labels:
+  - Magician
+  - T1
+- Id: 50412
+  FriendlyName: V1_MG_FIREBOLT Recast + inflicts Heat
+  Option: V1_MG_FIREBOLT_RECAST__INFLICTS_HEAT
+  Transferable: false
+  Stackable: true
+  Description: Fire Bolt recasts Lv3 Fire Bolt +/inflicts Heat +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_FIREBOLT,Eff_Heat,getrandomoptinfo(ROA_VALUE)*100;
+    bonus5 bAutoSpellOnSkillRecast,MG_FIREBOLT,MG_FIREBOLT,3,getrandomoptinfo(ROA_VALUE)*10,1;
+  Labels:
+  - Magician
+  - T1
+- Id: 50413
+  FriendlyName: V1_MG_COLDBOLT Recast + inflicts Chill
+  Option: V1_MG_COLDBOLT_RECAST__INFLICTS_CHILL
+  Transferable: false
+  Stackable: true
+  Description: Cold Bolt recasts Lv3 Cold Bolt +/inflicts Heat +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_COLDBOLT,Eff_Chill,getrandomoptinfo(ROA_VALUE)*100;
+    bonus5 bAutoSpellOnSkillRecast,MG_COLDBOLT,MG_COLDBOLT,3,getrandomoptinfo(ROA_VALUE)*10,1;
+  Labels:
+  - Magician
+  - T1
+- Id: 50414
+  FriendlyName: V1_TF_BACKSLIDING AutoSpells HT_FREEZINGTRAP
+  Option: V1_TF_BACKSLIDING_AUTOSPELLS_HT_FREEZINGTRAP
+  Transferable: true
+  Stackable: false
+  Description: '[Backsliding autospells Lv%d Freezing Trap.]'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,TF_BACKSLIDING,HT_FREEZINGTRAP,getrandomoptinfo(ROA_VALUE),1000;
+    bonus bBackslidingOriginSkill,HT_FREEZINGTRAP;
+- Id: 50415
+  FriendlyName: V1_TF_BACKSLIDING AutoSpells HT_LANDMINE
+  Option: V1_TF_BACKSLIDING_AUTOSPELLS_HT_LANDMINE
+  Transferable: true
+  Stackable: false
+  Description: '[Backsliding autospells Lv%d Land Mine.]'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,TF_BACKSLIDING,HT_LANDMINE,getrandomoptinfo(ROA_VALUE),1000;
+    bonus bBackslidingOriginSkill,HT_LANDMINE;
+- Id: 50416
+  FriendlyName: V1_TF_BACKSLIDING AutoSpells HT_SKIDTRAP
+  Option: V1_TF_BACKSLIDING_AUTOSPELLS_HT_SKIDTRAP
+  Transferable: true
+  Stackable: true
+  Description: '[Backsliding autospells Lv%d Skid Trap.]'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,TF_BACKSLIDING,HT_SKIDTRAP,getrandomoptinfo(ROA_VALUE),1000;
+- Id: 50417
+  FriendlyName: V1_AC_CONCENTRATION Cancel Stun + Vultures Eye
+  Option: V1_AC_CONCENTRATION_CANCEL_STUN__VULTURES_EYE
+  Transferable: true
+  Stackable: false
+  Description: "[Attention Concentrate cancels Stun & gives Vulture's Eye Lv%d.]"
+  Done: true
+  Script: |-
+    bonus bAttentionVultures,getrandomoptinfo(ROA_VALUE);
+    bonus bAttentionStunCancel,1;
+  Labels:
+  - Archer
+- Id: 50418
+  FriendlyName: V1_MG_NAPALMBEAT Cast time
+  Option: V1_MG_NAPALMBEAT_CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: Napalm Beat cast time -%d%%
+  Done: true
+  Script: |-
+    bonus2 bCastRate,MG_NAPALMBEAT,-(getrandomoptinfo(ROA_VALUE));
+- Id: 50419
+  FriendlyName: V1_TF_BACKSLIDING AutoSpells HT_FLASHER
+  Option: V1_TF_BACKSLIDING_AUTOSPELLS_HT_FLASHER
+  Transferable: true
+  Stackable: true
+  Description: '[Backsliding autospells Lv%d Flasher.]'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkill,TF_BACKSLIDING,HT_FLASHER,getrandomoptinfo(ROA_VALUE),1000;
+- Id: 50421
+  FriendlyName: V1_MG_FIREBALL Super Armor & Reduce Delay & Cast Time
+  Option: V1_MG_FIREBALL_SUPER_ARMOR__REDUCE_DELAY__CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: Fire Ball cast time -/super armor +/delay -%d%%
+  Done: true
+  Script: |-
+    bonus2 bCastrate,MG_FIREBALL,-(getrandomoptinfo(ROA_VALUE));
+    bonus2 bSuperArmor,MG_FIREBALL,getrandomoptinfo(ROA_VALUE);
+    bonus2 bAftercastDelay,MG_FIREBALL,-(getrandomoptinfo(ROA_VALUE));
+  Labels:
+  - Magician
+  - T1
+- Id: 50422
+  FriendlyName: V1_MG_BOLT All 1st bolt super armor
+  Option: V1_MG_BOLT_ALL_1ST_BOLT_SUPER_ARMOR
+  Transferable: false
+  Stackable: true
+  Description: Fire Bolt, Cold Bolt, and Lightning Bolt super armor +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSuperArmor,MG_FIREBOLT,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSuperArmor,MG_COLDBOLT,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSuperArmor,MG_LIGHTNINGBOLT,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50423
+  FriendlyName: V1_MG_BOLT All 1st bolt cast reduce & super armor
+  Option: V1_MG_BOLT_ALL_1ST_BOLT_CAST_REDUCE__SUPER_ARMOR
+  Transferable: false
+  Stackable: true
+  Description: Fire Bolt, Cold Bolt, and Lightning Bolt cast times -/super armor +%d%%
+  Done: true
+  Script: |-
+    bonus2 bCastRate,MG_FIREBOLT,getrandomoptinfo(ROA_VALUE);
+    bonus2 bCastRate,MG_COLDBOLT,getrandomoptinfo(ROA_VALUE);
+    bonus2 bCastRate,MG_LIGHTNINGBOLT,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSuperArmor,MG_FIREBOLT,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSuperArmor,MG_COLDBOLT,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSuperArmor,MG_LIGHTNINGBOLT,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50424
+  FriendlyName: V1_MG_SAFETYWALL, AL_INCAGI, AL_DECAGI super armor
+  Option: V1_MG_SAFETYWALL_AL_INCAGI_AL_DECAGI_SUPER_ARMOR
+  Transferable: false
+  Stackable: true
+  Description: Safety Wall, Increase Agility, & Decrease Agility super armor +%d%%
+  Done: true
+  Script: |-
+    bonus2 bSuperArmor,MG_SAFETYWALL,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSuperArmor,AL_INCAGI,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSuperArmor,AL_DECAGI,getrandomoptinfo(ROA_VALUE);
+- Id: 50425
+  FriendlyName: V1_SM_ENDURE Add Hits on Heal & Autospells AL_HEAL
+  Option: V1_SM_ENDURE_ADD_HITS_ON_HEAL__AUTOSPELLS_AL_HEAL
+  Transferable: true
+  Stackable: true
+  Description: '[Endure autospells known Heal & restores +%d hits when healed by a skill.]'
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkill,SM_ENDURE,AL_HEAL,getskilllv(AL_HEAL),1000,1;
+    bonus bHealAddsEndureHits,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50426
+  FriendlyName: V1_MG_COLDBOLT & MG_FROSTDIVER Inflict Chill
+  Option: V1_MG_COLDBOLT__MG_FROSTDIVER_INFLICT_CHILL
+  Transferable: true
+  Stackable: true
+  Description: '[Cold Bolt inflicts Chill +%d%% / Frost Diver inflicts chill +2x the Cold Bolt bonus]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,MG_COLDBOLT,Eff_Chill,getrandomoptinfo(ROA_VALUE);
+    bonus3 bAddEffOnSkill,MG_FROSTDIVER,Eff_Chill,getrandomoptinfo(ROA_VALUE)*2;
+- Id: 50427
+  FriendlyName: V1_MG_LIGHTNINGBOLT & MG_THUNDERSTORM inflict Shock per hit
+  Option: V1_MG_LIGHTNINGBOLT__MG_THUNDERSTORM_INFLICT_SHOCK_PER_HIT
+  Transferable: true
+  Stackable: false
+  Description: '[Lightning Bolt & Thunder Storm inflict Shock per hit +%d%%.]'
+  Done: true
+  Script: |-
+    bonus bLbShock,getrandomoptinfo(ROA_VALUE);
+    bonus bTstormShock,getrandomoptinfo(ROA_VALUE);
+- Id: 50428
+  FriendlyName: V1_AL_CRUCIS reduces ATK & casts AL_HOLYLIGHT
+  Option: V1_AL_CRUCIS_REDUCES_ATK__CASTS_AL_HOLYLIGHT
+  Transferable: true
+  Stackable: true
+  Description: '[Signum Crucis gains ATK reduction at half the effectiveness of DEF reduction & hits affected targets with Holy Light.]'
+  Done: true
+  Script: |-
+    bonus bSignumHolyLight,1;bonus bSignumAtk,1;
+- Id: 50429
+  FriendlyName: V1_AL_ANGELUS Affects MDEF & Double Effects
+  Option: V1_AL_ANGELUS_AFFECTS_MDEF__DOUBLE_EFFECTS
+  Transferable: true
+  Stackable: false
+  Description: '[Angelus Soft Def +%d%%. Angelus gains a Soft Mdef bonus. Cost +2 Holy Water]'
+  Done: true
+  Script: |-
+    bonus bAngelusSoftDef,getrandomoptinfo(ROA_VALUE);
+    bonus bAngelusMdef,1;
+    bonus3 bSkillCatalyst,AL_ANGELUS,$@HolyWater,1;
+  Labels:
+  - Acolyte
+  - T1
+- Id: 50430
+  FriendlyName: V1_SM_ENDURE Autospells AL_HEAL + Fixed Heal
+  Option: V1_SM_ENDURE_AUTOSPELLS_AL_HEAL__FIXED_HEAL
+  Transferable: true
+  Stackable: true
+  Description: '[Endure autospells known Heal. Heal restores HP equal to (Skill Level*10) / Heal SP cost +20]'
+  Done: true
+  Script: |-
+    bonus5 bAutoSpellOnSkill,SM_ENDURE,AL_HEAL,getskilllv(AL_HEAL),1000,1;
+    bonus bFixedHeal,1;
+  Labels:
+  - Swordsman
+  - T1
+- Id: 50431
+  FriendlyName: V1_AC_CONCENTRATION Status Infliction Boost
+  Option: V1_AC_CONCENTRATION_STATUS_INFLICTION_BOOST
+  Transferable: true
+  Stackable: false
+  Description: '[Attention Concentrate gives Attention Status, increasing common status infliction success rates by +%d%% for 2 seconds.]'
+  Done: true
+  Script: |-
+    bonus bAttentionStatus,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Archer
+  - T1
+- Id: 50432
+  FriendlyName: V1_MG_STONECURSE Skip Stone Wait + Free Red Gem
+  Option: V1_MG_STONECURSE_SKIP_STONE_WAIT__FREE_RED_GEM
+  Transferable: true
+  Stackable: true
+  Description: '[Stone Curse skips the Stone Wait status / +%d%% chance not to consume a Red Gemstone.]'
+  Done: true
+  Script: |-
+    bonus bStoneCurseFree,getrandomoptinfo(ROA_VALUE);
+    bonus bSkipStoneWait,1;
+  Labels:
+  - Magician
+  - T1
+- Id: 50433
+  FriendlyName: V1_MG_STONECURSE Cast time
+  Option: V1_MG_STONECURSE_CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: Stone Curse cast time -%d%%
+  Done: true
+  Script: |-
+    bonus2 bCastRate,MG_STONECURSE,-(getrandomoptinfo(ROA_VALUE));
+- Id: 50434
+  FriendlyName: V1_MG_SAFETYWALL Reduce cast times / Half Hits & HP
+  Option: V1_MG_SAFETYWALL_REDUCE_CAST_TIMES__HALF_HITS__HP
+  Transferable: true
+  Stackable: false
+  Description: "[Reduce cast times by %d%% in Safety Wall. Your Safety Wall's Hits & HP are halved.]"
+  Done: true
+  Script: |-
+    bonus bMgSafetywallReduceCastTimes,getrandomoptinfo(ROA_VALUE);
+    bonus bMgSafetyWallReduceHitsHp,50;
+- Id: 50435
+  FriendlyName: V1_MG_LIGHTNINGBOLT inflicts Shock per hit
+  Option: V1_MG_LIGHTNINGBOLT_INFLICTS_SHOCK_PER_HIT
+  Transferable: true
+  Stackable: true
+  Description: '[Lightning Bolt inflicts Shock per hit +%d%%]'
+  Done: true
+  Script: |-
+    bonus bLbShock,getrandomoptinfo(ROA_VALUE);
+  Labels:
+  - Magician
+  - T1
+- Id: 50436
+  FriendlyName: V1_AL_HEAL SP Cost + Cast Time
+  Option: V1_AL_HEAL_SP_COST__CAST_TIME
+  Transferable: false
+  Stackable: true
+  Description: N/A
+  Done: false
+  Script: |-
+    ;
+- Id: 50437
+  FriendlyName: V1_SM_BASH inflicts Shock
+  Option: V1_SM_BASH_INFLICTS_SHOCK
+  Transferable: true
+  Stackable: true
+  Description: '[Bash inflicts Shock +%d%%]'
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,SM_BASH,Eff_Silence,getrandomoptinfo(ROA_VALUE);
+- Id: 50438
+  FriendlyName: V1_TF_BACKSLIDING autospells WZ_HEAVENDRIVE at half known
+  Option: V1_TF_BACKSLIDING_AUTOSPELLS_WZ_HEAVENDRIVE_AT_HALF_KNOWN
+  Transferable: true
+  Stackable: false
+  Description: "[Backsliding autospells Heaven's Drive at half known level at origin (min 1).]"
+  Done: true
+  Script: |-
+    .@lvl = getskilllv(WZ_HEAVENDRIVE)/2;
+    if (.@lvl < 1) {
+        .@lvl = 1;
+    }
+    bonus4 bAutoSpellOnSkill,TF_BACKSLIDING,WZ_HEAVENDRIVE,.@lvl,1000;
+    bonus bBackslidingOriginSkill,WZ_HEAVENDRIVE;
+- Id: 50439
+  FriendlyName: V1_SM_BASH Autospells half known MG_LIGHTNINGBOLT
+  Option: V1_SM_BASH_AUTOSPELLS_HALF_KNOWN_MG_LIGHTNINGBOLT
+  Transferable: true
+  Stackable: true
+  Description: '[Bash autospells half known Lightning Bolt +%d%% (min 1)]'
+  Done: true
+  Script: |-
+    .@lvl = getskilllv(MG_LIGHTNINGBOLT)/2;
+    if (.@lvl < 1) {
+      .@lvl = 1;
+    }
+    bonus4 bAutoSpellOnSkillMotion,SM_BASH,MG_LIGHTNINGBOLT,.@lvl,getrandomoptinfo(ROA_VALUE)*10;
+  Labels:
+  - SM_BASH
+  - Swordsman
+  - T1

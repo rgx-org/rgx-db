@@ -1,0 +1,412 @@
+# This file is a part of rAthena.
+#   Copyright(C) 2022 rAthena Development Team
+#   https://rathena.org - https://github.com/rathena
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+#
+###########################################################################
+# Player Group Database
+###########################################################################
+#
+# Player Group Settings
+#
+###########################################################################
+# - Id                    Group ID.
+#   Name                  Group name.
+#   Level                 GM Level used for ranking groups. (Default: 0)
+#   LogCommands           Whether atcommands should be logged or not. (Default: false)
+#   Commands:             List of atcommands that can be used by this group. (Default: none)
+#     <atcommand name>    Whether the specified atcommand can be used by this group or not.
+#   CharCommands:         List of charcommands that can be used by this group. (Default: none)
+#     <charcommand name>  Whether the specified charcommand can be used by this group or not.
+#   Permissions:          List of permissions the group has. (Default: none)
+#     <permission name>   Whether the group has this permission or not.
+#   Inherit:              List of groups that will be inherited. (Default: none)
+#     <group name>        Whether this group will be inherited or not.
+###########################################################################
+
+Header:
+  Type: PLAYER_GROUP_DB
+  Version: 1
+
+Body:
+  - Id: 0
+    Name: Player
+    Level: 1
+    Permissions:
+      can_trade: true
+      can_party: true
+    Commands:
+      changedress: true
+      timer: true
+      rgxpos: true
+      skillfail: true
+      dropmes: true
+      swaplock: true
+      equipfave: true
+      sfx: true
+      autofave: true
+      strikemark: true
+      spdamage: true
+      warcry: true
+      chargearrowsfx: true
+      makibishi: true
+      daytraderlog: true
+      mobsuperarmor: true
+      extension: true
+      magneticloot: true
+      automatichotkey: true
+      refinenotice: true
+      smelternotice: true
+      score: true
+      fairy: true
+      resetcamera: true
+      halt: true
+      #gameover: true
+      showtutorial: true
+      ding: true
+      dropmost: true
+      help: true
+      camerainfo: true
+      fontcolor: true
+      channel: true
+      join: true
+      stats: true
+      commands: true
+      noask: true
+      invite: true
+      changeleader: true
+      showdelay: true
+      changegm: true
+      version: true
+      follow: true
+      refresh: true
+      uptime: true
+      ready: true
+      autohotkey: true
+      config: true
+      comboretarget: true
+      refinehammersfx: true
+      chargearrowretarget: true
+      backslidingatkfix: true
+      drainarrowshowsp: true
+      autoequiparrows: true
+      autofavearrows: true
+      detectingswap: true
+    Permissions:
+      join_chat: true
+  - Id: 1
+    Name: Normal
+    Inherit:
+      Player: true
+    Level: 1
+  - Id: 20
+    Name: Premium
+    Inherit:
+      Normal: true
+    Level: 20
+  - Id: 60
+    Name: Tester
+    Inherit:
+      Premium: true
+    Level: 60
+    Commands:
+      unstuck: true
+      endzone: true
+      points: true
+      changecharsex: true
+      dispel: true
+      alive: true
+      lives: true
+    LogCommands: true
+  - Id: 70
+    Name: Staff Tester
+    Inherit:
+      Tester: true
+    Level: 70
+    Commands:
+      warp: true
+      quality: true
+      cat: true
+      acc: true
+      boon: true
+      killboss: true
+      killfoe: true
+      heal: true
+      go: true
+      monster: true
+      item: true
+      item2: true
+      refineui: true
+      zeny: true
+      gat: true
+      learnskill: true
+      unlearnskill: true
+      jobchange: true
+      set: true
+      duel: true
+      leave: true
+      accept: true
+      reject: true
+      sound: true
+      mobinfo: true
+      adjgroup: true
+      reload: true
+      doom: true
+      speed: true
+      hateffect: true
+      changesex: true
+      kill: true
+  - Id: 80
+    Name: Support GM
+    Inherit:
+      Staff Tester: true
+    Level: 80
+    Commands:
+      hide: true
+      where: true
+      jumpto: true
+      jump: true
+      whogm: true
+      save: true
+      load: true
+      speed: true
+      storage: true
+      guildstorage: true
+      who: true
+      itemreset: true
+      clearstorage: true
+      cleargstorage: true
+      clearcart: true
+      pvpoff: true
+      pvpon: true
+      gvgoff: true
+      gvgon: true
+      model: true
+      produce: true
+      memo: true
+      displaystatus: true
+      raise: true
+      raisemap: true
+      option: true
+      makeegg: true
+      hatch: true
+      petfriendly: true
+      pethungry: true
+      petrename: true
+      lostskill: true
+      spiritball: true
+      soulball: true
+      party: true
+      guild: true
+      breakguild: true
+      agitstart: true
+      agitend: true
+      mapexit: true
+      idsearch: true
+      allskill: true
+      questskill: true
+      broadcast: true
+      localbroadcast: true
+      recallall: true
+      fullstrip: true
+      costume: true
+      cloneequip: true
+      clonestat: true
+      bodystyle: true
+      adopt: true
+      agitstart3: true
+      agitend3: true
+      refine: true
+      limitedsale: true
+      changedress: true
+      resurrect: true
+      stylist: true
+      addfame: true
+      enchantgradeui: true
+      cart: true
+      mount2: true
+      delitem: true
+      charcommands: true
+      font: true
+      accinfo: true
+      undisguiseguild: true
+      disguiseguild: true
+      sizeall: true
+      sizeguild: true
+      addperm: true
+      allowks: true
+      cash: true
+      agitstart2: true
+      agitend2: true
+      resetskill: true
+      resetstat: true
+      auction: true
+      mail: true
+      showmobs: true
+      recall: true
+      kick: true
+      night: true
+      day: true
+      guildspy: true
+      partyspy: true
+      clanspy: true
+      repairall: true
+      guildrecall: true
+      partyrecall: true
+      nuke: true
+      jail: true
+      unjail: true
+      jailfor: true
+      jailtime: true
+      disguise: true
+      undisguise: true
+      email: true
+      tonpc: true
+      undisguiseall: true
+      disguiseall: true
+      changelook: true
+      marry: true
+      divorce: true
+      reset: true
+      npctalk: true
+      pettalk: true
+      users: true
+      skilltree: true
+      effect: true
+      snow: true
+      sakura: true
+      clouds: true
+      clouds2: true
+      fog: true
+      fireworks: true
+      leaves: true
+      summon: true
+      addwarp: true
+      skillon: true
+      skilloff: true
+      killer: true
+      npcmove: true
+      killable: true
+      dropall: true
+      storeall: true
+      skillid: true
+      useskill: true
+      displayskill: true
+      displayskillcast: true
+      displayskillunit: true
+      exp: true
+      mutearea: true
+      rates: true
+      iteminfo: true
+      whodrops: true
+      whereis: true
+      mapflag: true
+      monsterignore: true
+      fakename: true
+      size: true
+      trade: true
+      setbattleflag: true
+      unmute: true
+      clearweather: true
+      mute: true
+      refreshall: true
+      gmotd: true
+      misceffect: true
+      mobsearch: true
+      cleanmap: true
+      cleanarea: true
+  - Id: 90
+    Name: Developer
+    Inherit:
+      Support GM: true
+    Level: 90
+    Commands:
+      langtype: true
+      kickall: true
+      killmonster: true
+      doommap: true
+      partysharelvl: true
+      mapinfo: true
+      dye: true
+      reloadnpcfile: true
+      clone: true
+      kill: true
+      stats: true
+      kick: true
+      send: true
+      hide: true
+    LogCommands: true
+    Permissions:
+      join_chat: true
+      kick_chat: true
+      hide_session: true
+      who_display_aid: true
+      hack_info: true
+      any_warp: true
+      view_hpmeter: true
+  - Id: 95
+    Name: Staff Developer
+    Inherit:
+      Developer: true
+    Level: 95
+    Commands:
+      follow: true
+      disguise: true
+      fakename: true
+      option: true
+      shownpc: true
+      hidenpc: true
+      loadnpc: true
+      unloadnpc: true
+      unloadnpcfile: true
+      recall: true
+      ban: true
+      block: true
+      jail: true
+      jailfor: true
+      mute: true
+      storagelist: true
+      cartlist: true
+      itemlist: true
+    LogCommands: true
+    Permissions:
+      join_chat: true
+      kick_chat: true
+      hide_session: true
+      who_display_aid: true
+      hack_info: true
+      any_warp: true
+      view_hpmeter: true
+      can_trade_bounded: true
+      all_commands: true
+  - Id: 99
+    Name: Admin
+    Inherit:
+      Staff Developer: true
+    Level: 99
+    LogCommands: true
+    Permissions:
+      can_trade: true
+      can_party: true
+      command_enable: true
+      skill_unconditional: false
+      use_check: true
+      use_changemaptype: true
+      all_commands: true
+      channel_admin: true
+      item_unconditional: false
+      bypass_stat_onclone: true
+      bypass_max_stat: true
+      #all_permission: true

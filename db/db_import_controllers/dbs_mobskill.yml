@@ -1,0 +1,14 @@
+Header:
+  Type: MOB_SKILL_DB
+  Version: 3
+
+Footer:
+  Imports:
+  # Vanilla reference DBs
+  #- Path: rgx/db/mobskill_db_reference.yml
+  # RGX DBs
+  - Path: rgx/db/mobskill_db_normal.yml
+  - Path: rgx/db/mobskill_db_boss.yml
+  - Path: rgx/db/mobskill_db_foe.yml
+  - Path: rgx/db/mobskill_db_npc.yml
+  - Path: rgx/db/mobskill_db_staging.yml

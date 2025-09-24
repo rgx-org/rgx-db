@@ -1004,11 +1004,11 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AS_ENCHANTPOISON] = {
 		"AS_ENCHANTPOISON",
-		SkillName = "Enchant Poison",
-		MaxLv = 10,
-		SpAmount = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
+		SkillName = "Poison Coating",
+		MaxLv = 5,
+		SpAmount = { 20, 20, 20, 20, 20 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.AS_POISONREACT] = {
 		"AS_POISONREACT",
@@ -2176,9 +2176,10 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.PA_SACRIFICE] = {
 		"PA_SACRIFICE",
-		SkillName = "Sacrifice",
+		SkillName = "Martyr's Reckoning",
 		MaxLv = 5,
 		SpAmount = { 100, 100, 100, 100, 100 },
+		bSeperateLv = false,
 		AttackRange = { 2, 2, 2, 2, 2 }
 	},
 	[SKID.PA_GOSPEL] = {

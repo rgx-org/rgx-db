@@ -1,0 +1,22 @@
+Header:
+  Type: RANDOM_OPTION_POOLSET_DB
+  Version: 3
+
+Footer:
+  Imports:
+    - Path: rgx/db/roptpoolset_db_weapon_dagger.yml
+    - Path: rgx/db/roptpoolset_db_weapon_sword.yml
+    - Path: rgx/db/roptpoolset_db_weapon_spear.yml
+    - Path: rgx/db/roptpoolset_db_weapon_axe.yml
+    - Path: rgx/db/roptpoolset_db_weapon_staff.yml
+    - Path: rgx/db/roptpoolset_db_weapon_mace.yml
+    - Path: rgx/db/roptpoolset_db_weapon_knuckle.yml
+    - Path: rgx/db/roptpoolset_db_weapon_book.yml
+    - Path: rgx/db/roptpoolset_db_weapon_katar.yml
+    - Path: rgx/db/roptpoolset_db_weapon_whip.yml
+    - Path: rgx/db/roptpoolset_db_weapon_instrument.yml
+    - Path: rgx/db/roptpoolset_db_weapon_bow.yml
+    - Path: rgx/db/roptpoolset_db_armor_cloth.yml
+    - Path: rgx/db/roptpoolset_db_armor_light.yml
+    - Path: rgx/db/roptpoolset_db_armor_heavy.yml
+    - Path: rgx/db/roptpoolset_db_armor_shield.yml
