@@ -3009,7 +3009,7 @@ Body:
     ParamMin: 0
     ParamMax: 0
 - PoolId: 1221
-  Name: 'Resist vs Element: Decay (+)'
+  Name: 'Resist vs Element: Shadow (+)'
   Pool:
   - RoptId: 1221
     ValMin: 0

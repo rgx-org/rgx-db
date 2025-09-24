@@ -1736,7 +1736,7 @@ Body:
   Description: Shadow elemental resist +%d%%
   Done: true
   Script: |
-    bonus2 bSubEle,Ele_Dark,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSubEle,Ele_Shadow,getrandomoptinfo(ROA_VALUE);
 - Id: 199
   FriendlyName: V1_Resist vs Ghost ele
   Option: V1_RESIST_VS_GHOST_ELE
@@ -1836,7 +1836,7 @@ Body:
   Description: Physical resist vs Shadow enemies +%d%%
   Done: true
   Script: |
-    bonus2 bSubDefEle,Ele_Dark,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSubDefEle,Ele_Shadow,getrandomoptinfo(ROA_VALUE);
 - Id: 210
   FriendlyName: V1_Phys resist vs Ghost property
   Option: V1_DAMAGE_PROPERTY_TELEKINESIS_USER
@@ -1926,7 +1926,7 @@ Body:
   Description: Magical resist vs Shadow enemies +%d%%
   Done: true
   Script: |
-    bonus2 bMagicSubDefEle,Ele_Dark,getrandomoptinfo(ROA_VALUE);
+    bonus2 bMagicSubDefEle,Ele_Shadow,getrandomoptinfo(ROA_VALUE);
 - Id: 220
   FriendlyName: V1_Magic resist vs Ghost property
   Option: V1_MDAMAGE_PROPERTY_TELEKINESIS_USER
@@ -2016,7 +2016,7 @@ Body:
   Description: Physical damage vs Shadow enemies +%d%%
   Done: true
   Script: |
-    bonus2 bAddEle,Ele_Dark,getrandomoptinfo(ROA_VALUE);
+    bonus2 bAddEle,Ele_Shadow,getrandomoptinfo(ROA_VALUE);
 - Id: 230
   FriendlyName: V1_Phys dmg vs Ghost property
   Option: V1_DAMAGE_PROPERTY_TELEKINESIS_TARGET
@@ -2106,7 +2106,7 @@ Body:
   Description: MATK +%d%% against Shadow monster
   Done: true
   Script: |
-    bonus2 bMagicAddEle,Ele_Dark,getrandomoptinfo(ROA_VALUE);
+    bonus2 bMagicAddEle,Ele_Shadow,getrandomoptinfo(ROA_VALUE);
 - Id: 240
   FriendlyName: V1_Magic dmg vs Ghost property
   Option: V1_MDAMAGE_PROPERTY_TELEKINESIS_TARGET
@@ -2196,7 +2196,7 @@ Body:
   Description: 'Armor element: Shadow'
   Done: true
   Script: |
-    bonus bDefEle,Ele_Dark;
+    bonus bDefEle,Ele_Shadow;
 - Id: 250
   FriendlyName: V1_Ghost Armor
   Option: V1_BODY_ATTR_TELEKINESIS
@@ -2286,7 +2286,7 @@ Body:
   Description: 'Weapon element: Shadow'
   Done: true
   Script: |
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
 - Id: 260
   FriendlyName: V1_Ghost weapon
   Option: V1_WEAPON_ATTR_TELEKINESIS
@@ -3123,7 +3123,7 @@ Body:
   Description: Magical Shadow damage +%d%%
   Done: true
   Script: |
-    bonus2 bMagicAtkEle,Ele_Dark,getrandomoptinfo(ROA_VALUE);
+    bonus2 bMagicAtkEle,Ele_Shadow,getrandomoptinfo(ROA_VALUE);
 - Id: 353
   FriendlyName: V1_Magic dmg w/ Ghost spells
   Option: V1_ADDSKILLMDAMAGE_TELEKINESIS
@@ -3254,7 +3254,7 @@ Body:
   Done: true
   Script: |
     bonus2 bSubEle,Ele_Holy,getrandomoptinfo(ROA_VALUE);
-    bonus2 bSubEle,Ele_Dark,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSubEle,Ele_Shadow,getrandomoptinfo(ROA_VALUE);
 - Id: 370
   FriendlyName: V1_Resist vs Corrupted Elements
   Option: V1_VAR_CORRUPTED_REDUX
@@ -3275,7 +3275,7 @@ Body:
   Done: true
   Script: |-
     bonus2 bSubEle,Ele_Holy,getrandomoptinfo(ROA_VALUE);
-    bonus2 bSubEle,Ele_Dark,getrandomoptinfo(ROA_VALUE);bonus2 bSubEle,Ele_Poison,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSubEle,Ele_Shadow,getrandomoptinfo(ROA_VALUE);bonus2 bSubEle,Ele_Poison,getrandomoptinfo(ROA_VALUE);
     bonus2 bSubEle,Ele_Decay,getrandomoptinfo(ROA_VALUE);
     bonus2 bSubEle,Ele_Ghost,getrandomoptinfo(ROA_VALUE);
     bonus2 bAddRace,RC_UNDEAD,getrandomoptinfo(ROA_VALUE);bonus2 bAddRace,RC_ANGEL,getrandomoptinfo(ROA_VALUE);bonus2 bAddRace,RC_DEMON,getrandomoptinfo(ROA_VALUE);
@@ -5814,7 +5814,7 @@ Body:
   Done: true
   Script: |-
     bonus2 bSubEle,Ele_Holy,getrandomoptinfo(ROA_VALUE);
-    bonus2 bSubEle,Ele_Dark,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSubEle,Ele_Shadow,getrandomoptinfo(ROA_VALUE);
 - Id: 636
   FriendlyName: V1_AutoSpell AL_HEAL when attacked
   Option: V1_AUTOSPELL_AL_HEAL_WHEN_ATTACKED

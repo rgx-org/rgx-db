@@ -9328,7 +9328,7 @@ Body:
       Range: 9
       Hit: Single
       HitCount: 1
-      Element: Poison
+      Element: Weapon
       SplashArea:
           - Level: 1
             Area: 1
@@ -9449,7 +9449,7 @@ Body:
       Range: 9
       Hit: Single
       HitCount: 1
-      Element: Poison
+      Element: Weapon
       CopyFlags:
           Skill:
               Reproduce: true
@@ -14690,7 +14690,7 @@ Body:
       Range: 5
       Hit: Single
       HitCount: 1
-      Element: Poison
+      Element: Weapon
       CastTime:
           - Level: 1
             Time: 1000
@@ -14737,7 +14737,7 @@ Body:
       Range: 5
       Hit: Single
       HitCount: 1
-      Element: Poison
+      Element: Weapon
       ActiveInstance: 1
       CastTime:
           - Level: 1

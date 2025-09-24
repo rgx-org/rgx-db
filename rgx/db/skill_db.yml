@@ -2020,7 +2020,7 @@ Body:
       Range: 2
       Hit: Single
       HitCount: 1
-      Element: Poison
+      Element: Weapon
       SeperateLv: false
       CopyFlags:
           Skill:
@@ -2062,7 +2062,6 @@ Body:
       Range: 9
       Hit: Single
       HitCount: 1
-      Element: Poison
       Requires:
           SpCost: 10
       Flags:
@@ -2446,7 +2445,6 @@ Body:
       TargetType: Support
       DamageFlags:
           NoDamage: true
-          IgnoreElement: true
           IgnoreDefense: true
       Range: 9
       Hit: Single
@@ -4843,8 +4841,8 @@ Body:
               Hiding: true
     - Id: 138
       Name: AS_ENCHANTPOISON
-      Description: Enchant Poison
-      MaxLevel: 10
+      Description: Poison Coating
+      MaxLevel: 5
       Type: Weapon
       TargetType: Support
       SeperateLv: false
@@ -4856,27 +4854,16 @@ Body:
       Range: 1
       Hit: Single
       HitCount: 1
-      Element: Poison
       Duration1:
           - Level: 1
-            Time: 30000
-          - Level: 2
-            Time: 60000
-          - Level: 3
-            Time: 90000
-          - Level: 4
-            Time: 120000
-          - Level: 5
-            Time: 150000
-          - Level: 6
             Time: 180000
-          - Level: 7
+          - Level: 2
             Time: 210000
-          - Level: 8
+          - Level: 3
             Time: 240000
-          - Level: 9
+          - Level: 4
             Time: 270000
-          - Level: 10
+          - Level: 5
             Time: 300000
       Duration2: 60000
       Requires:
@@ -4919,7 +4906,6 @@ Body:
       Range: 2
       Hit: Single
       HitCount: 1
-      Element: Poison
       Duration1:
           - Level: 1
             Time: 5000
@@ -4967,7 +4953,6 @@ Body:
       TargetType: Attack
       DamageFlags:
           NoDamage: true
-          IgnoreElement: true
           IgnoreFlee: true
       Range: 2
       Hit: Single
@@ -5438,7 +5423,7 @@ Body:
           IsNpc: true
           IsQuest: true
       HitCount: 1
-      Element: Poison
+      Element: Neutral
       Duration1: 1800000
       Status: ElementalChange
     - Id: 167
@@ -5468,7 +5453,7 @@ Body:
           IsNpc: true
           IsQuest: true
       HitCount: 1
-      Element: Dark
+      Element: Shadow
       Duration1: 1800000
       Status: ElementalChange
     - Id: 169
@@ -5691,7 +5676,7 @@ Body:
       Range: -7
       Hit: Single
       HitCount: 1
-      Element: Dark
+      Element: Shadow
       Duration2: 30000
       Status: Curse
     - Id: 182
@@ -5793,7 +5778,7 @@ Body:
       Range: -7
       Hit: Single
       HitCount: 1
-      Element: Poison
+      Element: Weapon
       Status: Poison
     - Id: 189
       Name: NPC_HOLYATTACK
@@ -5820,7 +5805,7 @@ Body:
       Range: -7
       Hit: Single
       HitCount: 1
-      Element: Dark
+      Element: Shadow
     - Id: 191
       Name: NPC_TELEKINESISATTACK
       Description: Ghost Attribute Attack
@@ -5935,7 +5920,7 @@ Body:
       Range: -7
       Hit: Single
       HitCount: 1
-      Element: Dark
+      Element: Shadow
     - Id: 200
       Name: NPC_ENERGYDRAIN
       Description: Energy Drain
@@ -5948,7 +5933,7 @@ Body:
       Range: 9
       Hit: Single
       HitCount: 1
-      Element: Dark
+      Element: Shadow
     - Id: 201
       Name: NPC_KEEPING
       Description: Keeping
@@ -5995,7 +5980,7 @@ Body:
       Range: 9
       Hit: Single
       HitCount: 1
-      Element: Dark
+      Element: Shadow
     - Id: 203
       Name: NPC_DARKBLESSING
       Description: Dark Blessing
@@ -6010,7 +5995,7 @@ Body:
       Range: 9
       Hit: Single
       HitCount: 1
-      Element: Dark
+      Element: Shadow
       Status: Coma
     - Id: 204
       Name: NPC_BARRIER
@@ -6577,9 +6562,9 @@ Body:
       Type: Weapon
       TargetType: Attack
       SeperateLv: false
+      Element: Neutral
       DamageFlags:
           IgnoreFlee: true
-          IgnoreElement: true
       Flags:
           IgnoreAutoGuard: true
           IgnoreCicada: true
@@ -7085,10 +7070,10 @@ Body:
               Plagiarism: true
               Reproduce: true
       CastDefenseReduction: 33
-      CastTime: 3000
+      CastTime: 3500
       CastCancel: true
       SuperArmorRate: 100
-      AfterCastActDelay: 1500
+      AfterCastActDelay: 2500
       AfterCastWalkDelay: 1000
       Duration1: 950
       Duration2: 30000
@@ -9316,7 +9301,7 @@ Body:
       Range: -2
       Hit: Multi_Hit
       HitCount: -2
-      Element: Dark
+      Element: Shadow
       Duration2: 30000
       Status: Blind
     - Id: 339
@@ -9334,7 +9319,7 @@ Body:
           IsQuest: true
       Hit: Single
       HitCount: 1
-      Element: Dark
+      Element: Shadow
       AfterCastWalkDelay: 1000
       Duration1: 950
       Duration2: 30000
@@ -9376,7 +9361,7 @@ Body:
             Count: 5
           - Level: 10
             Count: 5
-      Element: Dark
+      Element: Shadow
       CastCancel: true
     - Id: 341
       Name: NPC_DARKTHUNDER
@@ -9410,7 +9395,7 @@ Body:
             Count: 11
           - Level: 10
             Count: 12
-      Element: Dark
+      Element: Shadow
       Knockback:
           - Level: 1
             Amount: 2
@@ -9512,7 +9497,7 @@ Body:
       Range: -7
       Hit: Single
       HitCount: 1
-      Element: Decay
+      Element: Shadow
     - Id: 348
       Name: NPC_CHANGEUNDEAD
       Description: Undead Attribute Change
@@ -9525,7 +9510,7 @@ Body:
       Range: -2
       Hit: Single
       HitCount: 1
-      Element: Decay
+      Element: Shadow
       Duration2: 60000
       Status: ChangeUndead
     - Id: 349
@@ -10093,6 +10078,7 @@ Body:
           IgnoreFlee: true
       Hit: Single
       HitCount: 1
+      SeperateLv: false
       CastCancel: true
       AfterCastActDelay: 2000
       Requires:
@@ -10391,7 +10377,6 @@ Body:
           NoDamage: true
       Hit: Single
       HitCount: 1
-      Element: Poison
       AfterCastActDelay: 2000
       Duration1:
           - Level: 1
@@ -11748,7 +11733,7 @@ Body:
           - Level: 5
             Element: Ghost
           - Level: 6
-            Element: Dark
+            Element: Shadow
           - Level: 7
             Element: Holy
       Duration1: 300000
@@ -13790,15 +13775,15 @@ Body:
           - Level: 5
             Element: Wind
           - Level: 6
-            Element: Poison
+            Element: Weapon
           - Level: 7
             Element: Holy
           - Level: 8
-            Element: Dark
+            Element: Shadow
           - Level: 9
             Element: Ghost
           - Level: 10
-            Element: Decay
+            Element: Weapon
       Duration1: 180000
       Requires:
           SpCost: 1
@@ -13980,7 +13965,6 @@ Body:
       TargetType: Attack
       DamageFlags:
           Critical: true
-          IgnoreElement: true
       Range: 9
       Hit: Single
       HitCount: 1
@@ -14791,8 +14775,8 @@ Body:
       MaxLevel: 10
       Type: Misc
       TargetType: Attack
+      Element: Neutral
       DamageFlags:
-          IgnoreElement: true
           IgnoreFlee: true
           IgnoreDefense: true
       Flags:
@@ -15959,7 +15943,7 @@ Body:
       Range: 6
       Hit: Single
       HitCount: 1
-      Element: Poison
+      Element: Weapon
       SplashArea: 3
       ActiveInstance: 14
       Duration2: 60000
@@ -15976,7 +15960,7 @@ Body:
       Range: 6
       Hit: Single
       HitCount: 1
-      Element: Dark
+      Element: Shadow
       SplashArea: 3
       ActiveInstance: 14
     - Id: 659
@@ -16265,7 +16249,7 @@ Body:
       Range: 7
       Hit: Single
       HitCount: 1
-      Element: Dark
+      Element: Shadow
       Duration1:
           - Level: 1
             Time: 3900
@@ -16885,7 +16869,7 @@ Body:
           IsQuest: true
       Hit: Single
       HitCount: 1
-      Element: Poison
+      Element: Weapon
       Duration1: 3000
       Unit:
           Id: Venomfog
@@ -17126,7 +17110,7 @@ Body:
           IsQuest: true
       Hit: Single
       HitCount: 1
-      Element: Poison
+      Element: Weapon
       CastCancel: true
       Duration1:
           - Level: 1
@@ -17211,7 +17195,7 @@ Body:
       Range: 9
       Hit: Single
       HitCount: 1
-      Element: Poison
+      Element: Weapon
       CastCancel: true
       SplashArea: 1
     - Id: 743
@@ -17366,7 +17350,7 @@ Body:
       MaxLevel: 1
       Type: Weapon
       TargetType: Attack
-      Element: Poison
+      Element: Neutral
       DamageFlags:
           IgnoreAtkCard: true
           IgnoreDefense: true
@@ -19323,7 +19307,7 @@ Body:
       Range: -2
       Hit: Single
       HitCount: 1
-      Element: Poison
+      Element: Weapon
       CopyFlags:
           Skill:
               Plagiarism: true
@@ -19550,9 +19534,9 @@ Body:
       MaxLevel: 1
       Type: Misc
       TargetType: Self
+      Element: Neutral
       DamageFlags:
           Splash: true
-          IgnoreElement: true
           IgnoreFlee: true
       Flags:
           IsQuest: true

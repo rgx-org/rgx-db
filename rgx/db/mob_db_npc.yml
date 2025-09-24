@@ -60,8 +60,8 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Demon
-  Element: Dark
-  ElementLevel: 4
+  Element: Shadow
+  ElementLevel: 2
   WalkSpeed: 100
   AttackDelay: 999
   AttackMotion: 999
@@ -101,7 +101,7 @@ Body:
   ChaseRange: 7
   Size: Medium
   Race: Formless
-  Element: Decay
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 250
   AttackDelay: 100
@@ -203,7 +203,7 @@ Body:
   Size: Large
   Race: Demihuman
   Element: Earth
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 250
   AttackDelay: 1248
   AttackMotion: 500
@@ -357,7 +357,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 300
   AttackDelay: 1000
@@ -391,7 +391,7 @@ Body:
   Size: Large
   Race: Brute
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 260
   AttackDelay: 1380
   AttackMotion: 375
@@ -527,8 +527,8 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Demon
-  Element: Dark
-  ElementLevel: 3
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 123
   AttackDelay: 768
   AttackMotion: 768
@@ -835,7 +835,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 900
   AttackDelay: 9000
   AttackMotion: 672
@@ -865,7 +865,7 @@ Body:
   ChaseRange: 14
   Size: Small
   Race: Demihuman
-  Element: Poison
+  Element: Neutral
   ElementLevel: 1
   WalkSpeed: 300
   AttackDelay: 1500
@@ -900,7 +900,7 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Demon
-  Element: Poison
+  Element: Earth
   ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 600
@@ -970,7 +970,7 @@ Body:
   Size: Medium
   Race: Brute
   Element: Earth
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 200
   AttackDelay: 1456
   AttackMotion: 456
@@ -1003,7 +1003,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 300
   AttackDelay: 1072
   AttackMotion: 672
@@ -1039,7 +1039,7 @@ Body:
   ChaseRange: 6
   Size: Medium
   Race: Undead
-  Element: Decay
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 260
   AttackDelay: 3056
@@ -1085,6 +1085,7 @@ Body:
   AttackMotion: 1
   DamageMotion: 1
   Ai: 06
+  HatEffect: HAT_EF_GIANTBODY
   Class: Normal
   Modes:
     NoRandomWalk: true

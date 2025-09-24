@@ -14,7 +14,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 9
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -44,7 +45,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 17
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -74,7 +76,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 4
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -102,7 +105,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 6
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -132,7 +136,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 42
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -162,7 +167,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 122
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -192,7 +198,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 147
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -222,7 +229,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 14
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -250,7 +258,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 101
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -278,7 +287,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 80
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -306,7 +316,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 18
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -336,7 +347,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 96
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -364,7 +376,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 155
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -394,7 +407,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 60
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -424,7 +438,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 537
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -454,7 +469,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 136
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -484,7 +500,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 16
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -514,7 +531,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 74
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -544,7 +562,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 95
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -576,7 +595,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 48
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -606,7 +626,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 124
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -634,7 +655,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 58
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -664,7 +686,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 270
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -694,7 +717,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 7
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -722,7 +746,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 134
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -750,7 +775,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 30
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -778,7 +804,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 11
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -808,7 +835,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 28
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -837,7 +865,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 69
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -848,8 +877,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
   Notes: |-
     Medic / Holy
@@ -864,7 +895,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 189
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -875,8 +907,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
   Notes: |-
     INT / HP
@@ -892,7 +926,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 31
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -922,7 +957,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 67
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -951,7 +987,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 86
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -962,8 +999,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
   Notes: |-
     Reflect / DEF
@@ -979,7 +1018,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 116
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1009,7 +1049,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 37
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1037,7 +1078,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 64
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1065,7 +1107,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 61
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1093,7 +1136,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 193
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1122,7 +1166,8 @@ Body:
     Costume_Head_Top: true
     Costume_Head_Mid: true
   View: 1
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1149,7 +1194,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 196
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1160,8 +1206,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160043
   Name: Costume Puppy Headband
@@ -1174,7 +1222,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 199
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1185,8 +1234,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160044
   Name: Costume Banana Hat
@@ -1200,7 +1251,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 197
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1232,7 +1284,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 34
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1262,7 +1315,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 29
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1292,7 +1346,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 72
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1322,7 +1377,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 40
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1353,7 +1409,8 @@ Body:
     Costume_Head_Mid: true
     Costume_Head_Low: true
   View: 258
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1364,8 +1421,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
   Notes: |-
     DEF / Resist
@@ -1381,7 +1440,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 88
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1411,7 +1471,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 371
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1438,7 +1499,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 729
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1449,8 +1511,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160060
   Name: Costume Anubis Helm
@@ -1463,7 +1527,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 485
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1474,8 +1539,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160061
   Name: Costume Watermelon Cap
@@ -1488,7 +1555,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 690
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1499,8 +1567,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160062
   Name: Costume Model Training Hat
@@ -1514,7 +1584,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 157
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1541,7 +1612,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 131
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1552,8 +1624,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160064
   Name: Costume Magician Hat
@@ -1567,7 +1641,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 130
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1595,7 +1670,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 76
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1623,7 +1699,8 @@ Body:
     Costume_Head_Top: true
     Costume_Head_Mid: true
   View: 660
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1634,8 +1711,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160067
   Name: Costume Vanargandr Helm
@@ -1648,7 +1727,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 804
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1659,8 +1739,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160068
   Name: Costume Ignis Cap
@@ -1673,7 +1755,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 803
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1684,8 +1767,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160069
   Name: Costume Sunglasses Baseball Hat
@@ -1698,7 +1783,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 812
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1709,8 +1795,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160070
   Name: Costume Valkyrie Circlet
@@ -1723,7 +1811,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 940
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1734,8 +1823,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160071
   Name: Costume Celines Ribbon
@@ -1748,7 +1839,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 967
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1759,8 +1851,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160072
   Name: Costume Sword Master Crown
@@ -1773,7 +1867,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 981
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1784,8 +1879,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160073
   Name: Costume Palace Guard Cap
@@ -1799,7 +1896,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 991
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1826,7 +1924,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 996
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1837,8 +1936,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160075
   Name: Costume Old Mitra
@@ -1851,7 +1952,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 624
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1862,8 +1964,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160076
   Name: Costume Old Camouflage Rabbit Hood
@@ -1876,7 +1980,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 1142
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1887,8 +1992,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160077
   Name: Costume Old Protect Of Helm
@@ -1901,7 +2008,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 1140
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1912,8 +2020,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160078
   Name: Costume Coronet
@@ -1927,7 +2037,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 33
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1954,7 +2065,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 215
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -1965,8 +2077,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160080
   Name: Costume Four Leaf Clover
@@ -1980,7 +2094,8 @@ Body:
   Locations:
     Costume_Head_Low: true
   View: 571
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2011,7 +2126,8 @@ Body:
     Costume_Head_Top: true
     Costume_Head_Mid: true
   View: 177
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2038,7 +2154,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 5
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2049,8 +2166,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160083
   Name: Costume Red Bandana
@@ -2064,7 +2183,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 62
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2092,7 +2212,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 70
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2120,7 +2241,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 98
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2149,7 +2271,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 36
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2160,8 +2283,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160087
   Name: Costume Wedding Veil
@@ -2174,7 +2299,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 44
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2185,8 +2311,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160088
   Name: Costume Galapago Cap
@@ -2200,7 +2328,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 192
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2227,7 +2356,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 146
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2238,8 +2368,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
   Notes: |-
     Speed / General
@@ -2254,7 +2386,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 226
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2265,8 +2398,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
   Notes: |-
     Defensive
@@ -2282,7 +2417,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 195
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2309,7 +2445,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 151
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2320,8 +2457,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160093
   Name: Costume Spiky Band
@@ -2335,7 +2474,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 43
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2362,7 +2502,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 477
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2373,8 +2514,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160095
   Name: Costume Grand Circlet
@@ -2387,7 +2530,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 93
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2398,8 +2542,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160096
   Name: Costume Gladiator's Helmet
@@ -2415,7 +2561,8 @@ Body:
     Costume_Head_Mid: true
     Costume_Head_Low: true
   View: 203
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2443,7 +2590,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 45
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2472,7 +2620,8 @@ Body:
     Costume_Head_Mid: true
     Costume_Head_Low: true
   View: 51
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2483,8 +2632,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160099
   Name: Costume Bongun Hat
@@ -2499,7 +2650,8 @@ Body:
     Costume_Head_Mid: true
     Costume_Head_Low: true
   View: 139
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2510,8 +2662,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160100
   Name: Costume Antlers
@@ -2524,7 +2678,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 71
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2535,8 +2690,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
   Notes: |-
     [Ragan Guardian] // Reflect
@@ -2551,7 +2708,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 198
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2562,8 +2720,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160102
   Name: Costume Headset
@@ -2576,7 +2736,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 87
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2587,8 +2748,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160103
   Name: Costume Selendang
@@ -2601,7 +2764,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 363
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2612,8 +2776,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160104
   Name: Costume Morpheus's Hood
@@ -2626,7 +2792,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 256
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2637,8 +2804,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160106
   Name: Costume Phrygian Cap
@@ -2651,7 +2820,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 217
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2662,8 +2832,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160107
   Name: Costume Ayam
@@ -2676,7 +2848,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 228
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2687,8 +2860,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160108
   Name: Costume Bright Fury
@@ -2701,7 +2876,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 548
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2712,8 +2888,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160109
   Name: Costume Hot-blooded Headband
@@ -2726,7 +2904,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 154
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2737,8 +2916,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160110
   Name: Costume Emperor's Laurel Crown
@@ -2752,7 +2933,8 @@ Body:
     Costume_Head_Top: true
     Costume_Head_Mid: true
   View: 261
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2763,8 +2945,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160111
   Name: Costume Cresent Hairpin
@@ -2777,7 +2961,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 132
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2788,8 +2973,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160112
   Name: Costume Shaman's Hair Decoration
@@ -2802,7 +2989,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 476
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2813,8 +3001,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160113
   Name: Costume Bride Mask
@@ -2828,7 +3018,8 @@ Body:
     Costume_Head_Top: true
     Costume_Head_Mid: true
   View: 223
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2839,8 +3030,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160114
   Name: Costume Fricca's Circlet
@@ -2853,7 +3046,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 251
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2864,8 +3058,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160115
   Name: Costume Ulle's Cap
@@ -2878,7 +3074,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 254
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2889,8 +3086,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160116
   Name: Costume Golden Tiara
@@ -2903,7 +3102,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 232
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2914,8 +3114,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160117
   Name: Costume Silver Tiara
@@ -2928,7 +3130,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 218
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2939,8 +3142,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160118
   Name: Costume White Musang Hat
@@ -2953,7 +3158,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 770
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2964,8 +3170,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160119
   Name: Costume Mage Hat
@@ -2978,7 +3186,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 112
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -2989,8 +3198,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160120
   Name: Costume Raccoon Hat
@@ -3003,7 +3214,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 118
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3014,8 +3226,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
   Notes: |-
     Hide/Stealth
@@ -3030,7 +3244,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 162
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3041,8 +3256,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160122
   Name: Costume Panda Hat
@@ -3055,7 +3272,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 115
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3066,8 +3284,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160123
   Name: Costume Poring Hat
@@ -3080,7 +3300,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 120
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3091,8 +3312,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160124
   Name: Costume Cowboy Hat
@@ -3105,7 +3328,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 159
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3116,8 +3340,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
   Notes: |-
     Aim
@@ -3132,7 +3358,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 104
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3143,8 +3370,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160126
   Name: Costume Purple Cowboy Hat
@@ -3157,7 +3386,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 411
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3168,8 +3398,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160127
   Name: Costume Ship Captain Hat
@@ -3182,7 +3414,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 367
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3193,8 +3426,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160128
   Name: Costume Love Dad Cap
@@ -3207,7 +3442,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 263
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3218,8 +3454,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160129
   Name: Costume Pecopeco Hairband
@@ -3232,7 +3470,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 314
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3243,8 +3482,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160130
   Name: Costume Baseball Cap
@@ -3257,7 +3498,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 216
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3268,8 +3510,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160131
   Name: Costume Joker Jester
@@ -3282,7 +3526,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 89
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3293,8 +3538,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160132
   Name: Costume Feather Beret
@@ -3307,7 +3554,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 224
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3318,8 +3566,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160133
   Name: Costume Angel's Kiss
@@ -3332,7 +3582,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 255
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3343,8 +3594,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160134
   Name: Costume Hermode Cap
@@ -3357,7 +3610,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 478
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3368,8 +3622,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160135
   Name: Costume Holy Marching Hat
@@ -3382,7 +3638,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 587
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3393,8 +3650,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160136
   Name: Costume Parade Hat
@@ -3407,7 +3666,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 269
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3418,8 +3678,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160137
   Name: Costume Satellite Hairband
@@ -3432,7 +3694,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 266
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3443,8 +3706,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
   Notes: |-
     do something with this + aerial band
@@ -3459,7 +3724,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 250
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3470,8 +3736,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160139
   Name: Costume Hattah Black
@@ -3486,7 +3754,8 @@ Body:
     Costume_Head_Mid: true
     Costume_Head_Low: true
   View: 676
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3497,8 +3766,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160140
   Name: Costume Party Hat
@@ -3512,7 +3783,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 144
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3539,7 +3811,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 771
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3550,8 +3823,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160142
   Name: Costume Rideword Hat
@@ -3564,7 +3839,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 262
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3575,8 +3851,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160143
   Name: Costume Muslim Hat M
@@ -3589,7 +3867,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 362
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3600,8 +3879,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160144
   Name: Costume Morrigane's Helm
@@ -3614,7 +3895,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 257
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3625,8 +3907,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160145
   Name: Costume Pisces Diadem
@@ -3639,7 +3923,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 511
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3650,8 +3935,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160146
   Name: Costume Pisces Crown
@@ -3664,7 +3951,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 512
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3675,8 +3963,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160147
   Name: Costume Bone Helm
@@ -3690,7 +3980,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 103
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3719,7 +4010,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 531
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3730,8 +4022,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
   Notes: |-
     reflect/def
@@ -3746,7 +4040,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 513
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3757,8 +4052,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160150
   Name: Costume Bone Head
@@ -3771,7 +4068,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 401
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3782,8 +4080,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160151
   Name: Costume Bullock Helm
@@ -3796,7 +4096,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 322
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3807,8 +4108,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160152
   Name: Costume Aquarius Diadem
@@ -3821,7 +4124,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 509
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3832,8 +4136,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160153
   Name: Costume Jasper Crest
@@ -3846,7 +4152,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 399
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3857,8 +4164,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160154
   Name: Costume Cancer Diadem
@@ -3871,7 +4180,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 560
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3882,8 +4192,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160155
   Name: Costume Dark Bacilium
@@ -3898,7 +4210,8 @@ Body:
     Costume_Head_Mid: true
     Costume_Head_Low: true
   View: 364
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3909,8 +4222,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160156
   Name: Costume Gemini Crown
@@ -3923,7 +4238,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 551
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3934,8 +4250,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160157
   Name: Costume Golden Crown
@@ -3948,7 +4266,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 597
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3959,8 +4278,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160158
   Name: Costume Ayothaya King's Hat
@@ -3973,7 +4294,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 334
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -3984,8 +4306,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160159
   Name: Costume Helm of Angel
@@ -3998,7 +4322,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 110
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4009,8 +4334,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160160
   Name: Costume Crescent Helm
@@ -4024,7 +4351,8 @@ Body:
     Costume_Head_Top: true
     Costume_Head_Mid: true
   View: 213
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4035,8 +4363,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160161
   Name: Costume Statue Of Baby Angel
@@ -4049,7 +4379,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 444
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4060,8 +4391,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160162
   Name: Costume Chinese Crown
@@ -4075,7 +4408,8 @@ Body:
     Costume_Head_Top: true
     Costume_Head_Mid: true
   View: 221
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4086,8 +4420,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160163
   Name: Costume Gemini Diadem
@@ -4100,7 +4436,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 550
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4111,8 +4448,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160164
   Name: Costume Taurus Crown
@@ -4125,7 +4464,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 536
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4136,8 +4476,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160165
   Name: Costume Mr. Smile
@@ -4152,7 +4494,8 @@ Body:
     Costume_Head_Mid: true
     Costume_Head_Low: true
   View: 65
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4179,7 +4522,8 @@ Body:
   Locations:
     Costume_Head_Mid: true
   View: 27
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4190,8 +4534,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160167
   Name: Costume Zorro Masque
@@ -4205,7 +4551,8 @@ Body:
   Locations:
     Costume_Head_Mid: true
   View: 50
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4233,7 +4580,8 @@ Body:
   Locations:
     Costume_Head_Mid: true
   View: 10
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4261,7 +4609,8 @@ Body:
   Locations:
     Costume_Head_Low: true
   View: 25
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4289,7 +4638,8 @@ Body:
   Locations:
     Costume_Head_Low: true
   View: 8
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4316,7 +4666,8 @@ Body:
   Locations:
     Costume_Head_Low: true
   View: 57
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4327,8 +4678,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160172
   Name: Costume Cigarette
@@ -4341,7 +4694,8 @@ Body:
   Locations:
     Costume_Head_Low: true
   View: 54
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4352,8 +4706,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160173
   Name: Costume Bandit Beard
@@ -4367,7 +4723,8 @@ Body:
   Locations:
     Costume_Head_Low: true
   View: 21
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4395,7 +4752,8 @@ Body:
   Locations:
     Costume_Head_Mid: true
   View: 23
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4423,7 +4781,8 @@ Body:
   Locations:
     Costume_Head_Mid: true
   View: 13
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4450,7 +4809,8 @@ Body:
   Locations:
     Costume_Head_Mid: true
   View: 26
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4461,8 +4821,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160177
   Name: Costume Mr. Scream
@@ -4477,7 +4839,8 @@ Body:
     Costume_Head_Mid: true
     Costume_Head_Low: true
   View: 75
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4505,7 +4868,8 @@ Body:
   Locations:
     Costume_Head_Mid: true
   View: 100
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4532,7 +4896,8 @@ Body:
   Locations:
     Costume_Head_Mid: true
   View: 78
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4543,8 +4908,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160180
   Name: Costume Blinker
@@ -4558,7 +4925,8 @@ Body:
   Locations:
     Costume_Head_Mid: true
   View: 82
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4586,7 +4954,8 @@ Body:
   Locations:
     Costume_Head_Low: true
   View: 53
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4613,7 +4982,8 @@ Body:
   Locations:
     Costume_Head_Low: true
   View: 56
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4624,8 +4994,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160183
   Name: Costume Gangster Mask
@@ -4639,7 +5011,8 @@ Body:
   Locations:
     Costume_Head_Low: true
   View: 52
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4668,7 +5041,8 @@ Body:
     Costume_Head_Mid: true
     Costume_Head_Low: true
   View: 68
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4696,7 +5070,8 @@ Body:
     Costume_Head_Mid: true
     Costume_Head_Low: true
   View: 91
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4707,8 +5082,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160186
   Name: Costume Pirate Dagger
@@ -4722,7 +5099,8 @@ Body:
   Locations:
     Costume_Head_Low: true
   View: 327
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4749,7 +5127,8 @@ Body:
   Locations:
     Costume_Head_Low: true
   View: 369
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4760,8 +5139,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160188
   Name: Costume Elven Ears
@@ -4774,7 +5155,8 @@ Body:
   Locations:
     Costume_Head_Mid: true
   View: 73
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4785,8 +5167,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160189
   Name: Costume Opera Phantom Mask
@@ -4799,7 +5183,8 @@ Body:
   Locations:
     Costume_Head_Mid: true
   View: 128
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4810,8 +5195,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160190
   Name: Costume Small Ribbons
@@ -4824,7 +5211,8 @@ Body:
   Locations:
     Costume_Head_Mid: true
   View: 169
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4835,8 +5223,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160191
   Name: Costume Welding Mask
@@ -4850,7 +5240,8 @@ Body:
     Costume_Head_Mid: true
     Costume_Head_Low: true
   View: 79
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4861,8 +5252,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160192
   Name: Costume Sunglasses
@@ -4875,7 +5268,8 @@ Body:
   Locations:
     Costume_Head_Mid: true
   View: 12
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4886,8 +5280,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160193
   Name: Costume Glasses
@@ -4900,7 +5296,8 @@ Body:
   Locations:
     Costume_Head_Mid: true
   View: 3
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4911,8 +5308,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160194
   Name: Costume Bunny Band
@@ -4925,7 +5324,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 15
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4936,8 +5336,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160195
   Name: Costume Note Headphones
@@ -4951,7 +5353,8 @@ Body:
     Costume_Head_Top: true
     Costume_Head_Mid: true
   View: 220
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4962,8 +5365,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160196
   Name: Costume Bubble Gum In Mouth
@@ -4976,7 +5381,8 @@ Body:
   Locations:
     Costume_Head_Low: true
   View: 572
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -4987,8 +5393,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160197
   Name: Costume Corsair
@@ -5002,7 +5410,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 105
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5032,7 +5441,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 41
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5060,7 +5470,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 408
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5090,7 +5501,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 317
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5120,7 +5532,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 643
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5150,7 +5563,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 113
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5179,7 +5593,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 81
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5190,8 +5605,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160204
   Name: Costume Bomb Wick
@@ -5205,7 +5622,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 66
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5241,7 +5659,8 @@ Body:
     Costume_Head_Mid: true
     Costume_Head_Low: true
   View: 84
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5252,8 +5671,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160207
   Name: Costume Western Grace
@@ -5266,7 +5687,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 32
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5277,8 +5699,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
   Notes: |-
     [Vagabond Wolf]
@@ -5294,7 +5718,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 758
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5324,7 +5749,8 @@ Body:
   Locations:
     Costume_Head_Low: true
   View: 55
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5352,7 +5778,8 @@ Body:
     Costume_Head_Top: true
     Costume_Head_Mid: true
   View: 381
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5363,8 +5790,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160211
   Name: Costume Wandering Wolf Helm
@@ -5379,7 +5808,8 @@ Body:
     Costume_Head_Top: true
     Costume_Head_Mid: true
   View: 490
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5407,7 +5837,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 521
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5435,7 +5866,8 @@ Body:
     Costume_Head_Mid: true
     Costume_Head_Low: true
   View: 174
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5446,8 +5878,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160214
   Name: Costume Tiara
@@ -5461,7 +5895,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 19
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5488,7 +5923,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 106
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5499,8 +5935,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160216
   Name: Costume Charming Ribbon
@@ -5513,7 +5951,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 211
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5524,8 +5963,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160217
   Name: Costume Red Tailed Ribbon
@@ -5538,7 +5979,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 167
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5549,8 +5991,10 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None
 - Id: 160218
   Name: Costume Pink Ribbon
@@ -5563,7 +6007,8 @@ Body:
   Locations:
     Costume_Head_Top: true
   View: 245
-  Flags: {}
+  Flags:
+    RunPersist: true
   Delay: {}
   Stack: {}
   NoUse:
@@ -5574,6 +6019,8 @@ Body:
     NoTrade: true
     NoSell: true
     NoCart: true
+    NoStorage: true
     NoGuildStorage: true
     NoMail: true
+    NoAuction: true
   Keyword: None

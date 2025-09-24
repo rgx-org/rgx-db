@@ -1013,7 +1013,7 @@ Body:
   Trade:
     Override: 100
   Script: |
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
     bonus2 bAddEle,Ele_Ghost,15;
     bonus3 bAutoSpell,"MG_STONECURSE",3,100;
     bonus2 bAddEff,Eff_Stone,10;
@@ -1044,7 +1044,7 @@ Body:
   Trade:
     Override: 100
   Script: |
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
     bonus2 bHPLossRate,35,10000;
 - Id: 1140
   Name: Byeollungum
@@ -1840,7 +1840,7 @@ Body:
     bonus2 bAddRace,RC_Player_Human,20;
     bonus2 bSubRace,RC_DemiHuman,-10;
     bonus2 bSubRace,RC_Player_Human,-10;
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
 - Id: 1170
   Name: Katzbalger
   AegisName: Katzbalger
@@ -1987,7 +1987,7 @@ Body:
     bonus2 bAddRace,RC_Player_Human,20;
     bonus2 bSubRace,RC_DemiHuman,-10;
     bonus2 bSubRace,RC_Player_Human,-10;
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
 - Id: 1175
   Name: Atlas Weapon
   AegisName: Altas_Weapon
@@ -2142,7 +2142,7 @@ Body:
     bonus2 bAddRace,RC_Player_Human,20;
     bonus2 bSubRace,RC_DemiHuman,-10;
     bonus2 bSubRace,RC_Player_Human,-10;
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
 - Id: 1180
   Name: Dragon Slayer
   AegisName: Dragon_Slayer_
@@ -3368,7 +3368,7 @@ Body:
     bonus bMaxHPrate,20;
     bonus bMaxSPrate,15;
     bonus bAspdRate,2;
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
 - Id: 1233
   Name: Exorciser
   AegisName: Exercise
@@ -4216,7 +4216,7 @@ Body:
   Trade:
     Override: 100
   Script: |
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
     bonus2 bAddEff,Eff_Curse,200;
     bonus bCritical,-1;
     bonus bUnbreakableWeapon;
@@ -4551,7 +4551,7 @@ Body:
   Trade:
     Override: 100
   Script: |
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
     bonus2 bAddEff,Eff_Curse,5000;
     bonus bCritical,-1;
     bonus bUnbreakableWeapon;
@@ -5800,7 +5800,7 @@ Body:
   Trade:
     Override: 100
   Script: |
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
     bonus2 bComaRace,RC_Demon,50;
     bonus2 bCriticalAddRace,RC_Undead,50;
 - Id: 1366
@@ -8066,7 +8066,7 @@ Body:
   Trade:
     Override: 100
   Script: |
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
     bonus2 bAddRace,RC_DemiHuman,10;
     bonus2 bAddRace,RC_Player_Human,10;
     bonus2 bAddRace,RC_Angel,10;
@@ -8295,10 +8295,10 @@ Body:
   Trade:
     Override: 100
   Script: |
-    bonus2 bAddEle,Ele_Dark,20;
+    bonus2 bAddEle,Ele_Shadow,20;
     bonus2 bAddRace,RC_Demon,20;
     bonus2 bAddRace,RC_Undead,20;
-    bonus2 bSubEle,Ele_Dark,10;
+    bonus2 bSubEle,Ele_Shadow,10;
     bonus2 bSubRace,RC_Demon,10;
     bonus2 bSubRace,RC_Undead,10;
     bonus2 bAddEff2,Eff_Confusion,1000;
@@ -8361,10 +8361,10 @@ Body:
   Trade:
     Override: 100
   Script: |
-    bonus2 bAddEle,Ele_Dark,20;
+    bonus2 bAddEle,Ele_Shadow,20;
     bonus2 bAddRace,RC_Demon,20;
     bonus2 bAddRace,RC_Undead,20;
-    bonus2 bSubEle,Ele_Dark,10;
+    bonus2 bSubEle,Ele_Shadow,10;
     bonus2 bSubRace,RC_Demon,10;
     bonus2 bSubRace,RC_Undead,10;
     bonus2 bAddEff2,Eff_Confusion,1000;
@@ -10288,7 +10288,7 @@ Body:
   Trade:
     Override: 100
   Script: |
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
     bonus2 bAddEle,Ele_Holy,5;
     bonus2 bAddEle,Ele_Water,7;
     bonus2 bAddEle,Ele_Earth,7;
@@ -14326,7 +14326,7 @@ Body:
   Trade:
     Override: 100
   Script: |
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
     bonus bMaxHPrate,-2;
     bonus2 bAddEff,Eff_Bleeding,200;
 - Id: 1816
@@ -17246,7 +17246,7 @@ Body:
   Script: |
     bonus2 bSubEle,Ele_Water,20;
     bonus2 bSubEle,Ele_Fire,20;
-    bonus2 bSubEle,Ele_Dark,20;
+    bonus2 bSubEle,Ele_Shadow,20;
     bonus2 bSubEle,Ele_Decay,20;
     bonus bMdef,5;
 - Id: 2116
@@ -17513,7 +17513,7 @@ Body:
     bonus2 bSubEle,Ele_Water,-20;
     bonus2 bSubEle,Ele_Wind,-20;
     bonus2 bSubEle,Ele_Earth,-20;
-    bonus2 bSubEle,Ele_Dark,-20;
+    bonus2 bSubEle,Ele_Shadow,-20;
     bonus2 bSubEle,Ele_Holy,-20;
     bonus2 bSubEle,Ele_Ghost,-20;
 - Id: 2126
@@ -17846,7 +17846,7 @@ Body:
   Script: |
     bonus2 bSubEle,Ele_Water,20;
     bonus2 bSubEle,Ele_Fire,20;
-    bonus2 bSubEle,Ele_Dark,20;
+    bonus2 bSubEle,Ele_Shadow,20;
     bonus2 bSubEle,Ele_Decay,20;
     bonus bMdef,5;
 - Id: 2138
@@ -20864,7 +20864,7 @@ Body:
   Script: |
     bonus bMdef,5;
     bonus2 bSubRace,RC_Demon,15;
-    bonus2 bSubEle,Ele_Dark,10;
+    bonus2 bSubEle,Ele_Shadow,10;
 - Id: 2328
   Name: Wooden Mail
   AegisName: Wooden_Mail
@@ -21939,7 +21939,7 @@ Body:
   Script: |
     bonus bMdef,5;
     bonus2 bSubRace,RC_Demon,15;
-    bonus2 bSubEle,Ele_Dark,10;
+    bonus2 bSubEle,Ele_Shadow,10;
 - Id: 2374
   Name: Diabolus Robe
   AegisName: Diabolus_Robe
@@ -22293,7 +22293,7 @@ Body:
     bonus2 bSubEle,Ele_Wind,20;
     bonus2 bSubEle,Ele_Poison,20;
     bonus2 bSubEle,Ele_Holy,20;
-    bonus2 bSubEle,Ele_Dark,20;
+    bonus2 bSubEle,Ele_Shadow,20;
     bonus2 bSubEle,Ele_Ghost,20;
     bonus2 bSubEle,Ele_Decay,20;
 - Id: 2385
@@ -25057,7 +25057,7 @@ Body:
     bonus3 bSubEle,Ele_Wind,30,BF_SHORT;
     bonus3 bSubEle,Ele_Poison,30,BF_SHORT;
     bonus3 bSubEle,Ele_Holy,30,BF_SHORT;
-    bonus3 bSubEle,Ele_Dark,30,BF_SHORT;
+    bonus3 bSubEle,Ele_Shadow,30,BF_SHORT;
     bonus3 bSubEle,Ele_Ghost,30,BF_SHORT;
     bonus3 bSubEle,Ele_Decay,30,BF_SHORT;
     bonus bFlee,30;
@@ -25255,7 +25255,7 @@ Body:
     bonus2 bSubEle,Ele_Water,5;
     bonus2 bSubEle,Ele_Fire,5;
     bonus2 bSubEle,Ele_Holy,5;
-    bonus2 bSubEle,Ele_Dark,5;
+    bonus2 bSubEle,Ele_Shadow,5;
 - Id: 2549
   Name: Glorious Muffler
   AegisName: Krieger_Muffler1
@@ -25430,7 +25430,7 @@ Body:
     bonus2 bSubEle,Ele_Wind,7;
     bonus2 bSubEle,Ele_Poison,7;
     bonus2 bSubEle,Ele_Holy,7;
-    bonus2 bSubEle,Ele_Dark,7;
+    bonus2 bSubEle,Ele_Shadow,7;
     bonus2 bSubEle,Ele_Ghost,7;
     bonus2 bSubEle,Ele_Decay,7;
     bonus bMaxSP,(BaseLevel/3)+(getrefine()*10);
@@ -31160,7 +31160,7 @@ Body:
   Trade:
     Override: 100
   Script: |
-    bonus2 bSubEle,Ele_Dark,-15;
+    bonus2 bSubEle,Ele_Shadow,-15;
 - Id: 5018
   Name: Feather Bonnet
   AegisName: Feather_Bonnet
@@ -34691,7 +34691,7 @@ Body:
   Trade:
     Override: 100
   Script: |
-    bonus2 bSubEle,Ele_Dark,-15;
+    bonus2 bSubEle,Ele_Shadow,-15;
 - Id: 5163
   Name: Corsair
   AegisName: Corsair_
@@ -38825,7 +38825,7 @@ Body:
     NoSell: true
     NoGuildStorage: true
   Script: |
-    bonus2 bSubEle,Ele_Dark,10;
+    bonus2 bSubEle,Ele_Shadow,10;
     skill "MG_SIGHT",1;
   UnEquipScript: |
     sc_end SC_SIGHT;
@@ -40778,8 +40778,8 @@ Body:
     NoGuildStorage: true
   Script: |
     bonus bMdef,2;
-    bonus2 bAddEle,Ele_Dark,3;
-    bonus2 bSubEle,Ele_Dark,3;
+    bonus2 bAddEle,Ele_Shadow,3;
+    bonus2 bSubEle,Ele_Shadow,3;
 - Id: 5382
   Name: Bell Ribbon
   AegisName: Bell_Ribbon
@@ -45424,7 +45424,7 @@ Body:
     bonus2 bSubEle,Ele_Water,-20;
     bonus2 bSubEle,Ele_Wind,-20;
     bonus2 bSubEle,Ele_Earth,-20;
-    bonus2 bSubEle,Ele_Dark,-20;
+    bonus2 bSubEle,Ele_Shadow,-20;
     bonus2 bSubEle,Ele_Holy,-20;
     bonus2 bSubEle,Ele_Ghost,-20;
 - Id: 5561
@@ -46564,7 +46564,7 @@ Body:
     bonus2 bSubEle,Ele_Wind,3;
     bonus2 bSubEle,Ele_Poison,3;
     bonus2 bSubEle,Ele_Holy,3;
-    bonus2 bSubEle,Ele_Dark,3;
+    bonus2 bSubEle,Ele_Shadow,3;
     bonus2 bSubEle,Ele_Ghost,3;
     bonus2 bSubEle,Ele_Decay,3;
 - Id: 5666
@@ -49896,7 +49896,7 @@ Body:
   Trade:
     Override: 100
   Script: |
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
     bonus2 bAddEff,Eff_Blind,500;
     bonus2 bAddEff2,Eff_Blind,50;
 - Id: 13003
@@ -50007,7 +50007,7 @@ Body:
   Trade:
     Override: 100
   Script: |
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
     bonus2 bAddEff,Eff_Curse,1000;
 - Id: 13007
   Name: Jitte
@@ -50380,7 +50380,7 @@ Body:
   Trade:
     Override: 100
   Script: |
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
     bonus2 bAddEff,Eff_Blind,500;
     bonus2 bAddEff2,Eff_Blind,50;
 - Id: 13020
@@ -50805,7 +50805,7 @@ Body:
     bonus bMaxHPrate,20;
     bonus bMaxSPrate,15;
     bonus bAspdRate,2;
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
 - Id: 13034
   Name: Desert Twilight
   AegisName: Twilight_Desert

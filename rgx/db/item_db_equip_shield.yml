@@ -1097,7 +1097,7 @@ Body:
   Script: |
     bonus2 bSubEle,Ele_Water,20;
     bonus2 bSubEle,Ele_Fire,20;
-    bonus2 bSubEle,Ele_Dark,20;
+    bonus2 bSubEle,Ele_Shadow,20;
     bonus2 bSubEle,Ele_Decay,20;
     bonus bMdef,5;
   Notes: |-

@@ -1,0 +1,7 @@
+Header:
+  Type: DROPGROUP_DB
+  Version: 3
+
+Footer:
+  Imports:
+    - Path: rgx/db/dropgroup_db.yml

@@ -2445,7 +2445,7 @@ Body:
       Ammo: true
     EquipLevelMin: 1
     Script: |
-      bonus bAtkEle,Ele_Dark;
+      bonus bAtkEle,Ele_Shadow;
   - Id: 1768
     AegisName: Sleep_Arrow
     Name: Sleep Arrow
@@ -2600,7 +2600,7 @@ Body:
     Flags:
       BuyingStore: true
     Script: |
-      bonus2 bAddEle,Ele_Dark,20;
+      bonus2 bAddEle,Ele_Shadow,20;
   - Id: 4006
     AegisName: Lunatic_Card
     Name: Lunatic Card
@@ -4013,7 +4013,7 @@ Body:
     Flags:
       BuyingStore: true
     Script: |
-      bonus2 bSubEle,Ele_Dark,30;
+      bonus2 bSubEle,Ele_Shadow,30;
       bonus bFlee,5;
   - Id: 4117
     AegisName: Side_Winder_Card
@@ -4050,7 +4050,7 @@ Body:
     Flags:
       BuyingStore: true
     Script: |
-      bonus bDefEle,Ele_Dark;
+      bonus bDefEle,Ele_Shadow;
   - Id: 4120
     AegisName: Petit__Card
     Name: Sky Petite Card
@@ -4781,7 +4781,7 @@ Body:
       bonus2 bSubEle,Ele_Wind,-50;
       bonus2 bSubEle,Ele_Poison,-50;
       bonus2 bSubEle,Ele_Holy,-50;
-      bonus2 bSubEle,Ele_Dark,-50;
+      bonus2 bSubEle,Ele_Shadow,-50;
       bonus2 bSubEle,Ele_Ghost,-50;
       bonus2 bSubEle,Ele_Decay,-50;
   - Id: 4175
@@ -6610,7 +6610,7 @@ Body:
     Flags:
       BuyingStore: true
     Script: |
-      bonus2 bSubEle,Ele_Dark,15;
+      bonus2 bSubEle,Ele_Shadow,15;
       bonus2 bSubEle,Ele_Decay,15;
   - Id: 4312
     AegisName: Fur_Seal_Card
@@ -7939,7 +7939,7 @@ Body:
       BuyingStore: true
     Script: |
       bonus2 bAddEle,Ele_Holy,40;
-      bonus2 bAddEle,Ele_Dark,40;
+      bonus2 bAddEle,Ele_Shadow,40;
       bonus2 bAddRace,RC_Angel,40;
       bonus2 bAddRace,RC_Demon,40;
   - Id: 4409
@@ -8512,8 +8512,8 @@ Body:
     Flags:
       BuyingStore: true
     Script: |
-      bonus2 bSubEle,Ele_Dark,20;
-      bonus2 bAddEle,Ele_Dark,5;
+      bonus2 bSubEle,Ele_Shadow,20;
+      bonus2 bAddEle,Ele_Shadow,5;
   - Id: 4450
     AegisName: Banshee_Master_Card
     Name: Banshee Master Card
@@ -20389,7 +20389,7 @@ Body:
       Ammo: true
     EquipLevelMin: 1
     Script: |
-      bonus bAtkEle,Ele_Dark;
+      bonus bAtkEle,Ele_Shadow;
       bonus2 bAddEff,Eff_Blind,500;
   - Id: 13207
     AegisName: Freezing_Sphere
@@ -21111,7 +21111,7 @@ Body:
       Ammo: true
     EquipLevelMin: 99
     Script: |
-      bonus bAtkEle,Ele_Dark;
+      bonus bAtkEle,Ele_Shadow;
   - Id: 18003
     AegisName: Soul_Cannon_Ball
     Name: Soul Cannon Ball

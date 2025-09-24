@@ -6539,7 +6539,7 @@ Body:
     Override: 89
   Keyword: None
   Script: |
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
     bonus2 bAddRace,RC_DemiHuman,20;
     bonus2 bSubRace,RC_DemiHuman,-10;
     bonus bIgnoreDefRace,RC_DemiHuman;
@@ -7058,7 +7058,7 @@ Body:
     Override: 89
   Keyword: None
   Script: |
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
     bonus2 bAddEle,Ele_Ghost,15;
     bonus3 bAutoSpell,"MG_STONECURSE",3,100;
     bonus2 bAddEff,Eff_Stone,10;
@@ -7089,7 +7089,7 @@ Body:
     Override: 89
   Keyword: None
   Script: |
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
     bonus2 bHPLossRate,35,10000;
 - Id: 80255
   Name: Sashimi
@@ -7616,10 +7616,10 @@ Body:
     Override: 89
   Keyword: None
   Script: |
-    bonus2 bAddEle,Ele_Dark,20;
+    bonus2 bAddEle,Ele_Shadow,20;
     bonus2 bAddRace,RC_Demon,20;
     bonus2 bAddRace,RC_Undead,20;
-    bonus2 bSubEle,Ele_Dark,10;
+    bonus2 bSubEle,Ele_Shadow,10;
     bonus2 bSubRace,RC_Demon,10;
     bonus2 bSubRace,RC_Undead,10;
     bonus2 bAddEff2,Eff_Confusion,1000;
@@ -8192,7 +8192,7 @@ Body:
     Override: 89
   Keyword: None
   Script: |
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
     bonus2 bAddEff,Eff_Blind,500;
     bonus2 bAddEff2,Eff_Blind,50;
 - Id: 80294
@@ -8221,7 +8221,7 @@ Body:
     Override: 89
   Keyword: None
   Script: |
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
     bonus2 bAddEff,Eff_Curse,1000;
 - Id: 80295
   Name: Jitte
@@ -9552,7 +9552,7 @@ Body:
     Override: 89
   Keyword: None
   Script: |
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
     bonus bMaxHPrate,-2;
     bonus2 bAddEff,Eff_Bleeding,200;
 - Id: 80341
@@ -9807,7 +9807,7 @@ Body:
     Override: 89
   Keyword: None
   Script: |
-    bonus bAtkEle,Ele_Dark;
+    bonus bAtkEle,Ele_Shadow;
     bonus2 bAddEff,Eff_Curse,200;
     bonus bCritical,-1;
     bonus bUnbreakableWeapon;

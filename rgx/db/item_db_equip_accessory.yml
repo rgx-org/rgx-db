@@ -686,3 +686,32 @@ Body:
     bonus bMagneticLootRange,3;
   Notes: |-
     Einherjar starter
+- Id: 70024
+  Name: Ropt Disk
+  AegisName: RGX_ROPT_DISK
+  Type: Armor
+  Jobs:
+    All: true
+  Classes:
+    All: true
+  Locations:
+    Both_Accessory: true
+  Flags:
+    RunPersist: true
+  Delay: {}
+  Stack: {}
+  NoUse:
+    Override: 89
+  Trade:
+    Override: 89
+    NoDrop: true
+    NoTrade: true
+    NoSell: true
+    NoCart: true
+    NoStorage: true
+    NoGuildStorage: true
+    NoMail: true
+    NoAuction: true
+  Keyword: None
+  Notes: |-
+    Einherjar starter

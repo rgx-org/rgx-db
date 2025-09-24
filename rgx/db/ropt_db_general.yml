@@ -2069,15 +2069,6 @@ Body:
   Done: true
   Script: |
     bonus2 bSubEle,Ele_Poison,getrandomoptinfo(ROA_VALUE);
-- Id: 1221
-  FriendlyName: 'Resist vs Element: Decay (+)'
-  Option: RESIST_VS_ELEMENT_DECAY_
-  Transferable: false
-  Stackable: false
-  Description: Decay elemental resist +%d%% (+)
-  Done: true
-  Script: |
-    bonus2 bSubEle,Ele_Decay,getrandomoptinfo(ROA_VALUE);
 - Id: 1222
   FriendlyName: 'Resist vs Element: Ghost (+)'
   Option: RESIST_VS_ELEMENT_GHOST_
@@ -2104,7 +2095,7 @@ Body:
   Description: Shadow elemental resist +%d%% (+)
   Done: true
   Script: |
-    bonus2 bSubEle,Ele_Dark,getrandomoptinfo(ROA_VALUE);
+    bonus2 bSubEle,Ele_Shadow,getrandomoptinfo(ROA_VALUE);
 - Id: 1225
   FriendlyName: Crit resist (+)
   Option: CRIT_RESIST_
@@ -2338,20 +2329,20 @@ Body:
   Script: |-
     bonus bSuperArmorCooldownRate,-(getrandomoptinfo(ROA_VALUE));
 - Id: 1249
-  FriendlyName: Natural HP Regen Rate (*)
-  Option: NATURAL_HP_REGEN_RATE_
+  FriendlyName: HP Regen Rate (+)
+  Option: HP_REGEN_RATE_
   Transferable: false
   Stackable: true
-  Description: Natural HP regen rate +%d%% (*)
+  Description: HP regen rate +%d%% (+)
   Done: true
   Script: |
     bonus bHPrecovRate,ropt(ROA_VALUE);
 - Id: 1250
-  FriendlyName: Natural SP Regen Rate (*)
-  Option: NATURAL_SP_REGEN_RATE_
+  FriendlyName: SP Regen Rate (+)
+  Option: SP_REGEN_RATE_
   Transferable: false
   Stackable: true
-  Description: Natural SP regen rate +%d%% (*)
+  Description: Natural SP regen rate +%d%% (+)
   Done: true
   Script: |
     bonus bSPrecovRate,ropt(ROA_VALUE);
@@ -2459,7 +2450,7 @@ Body:
   Description: 'Armor element: Shadow'
   Done: true
   Script: |
-    bonus bDefEle,Ele_Dark;
+    bonus bDefEle,Ele_Shadow;
 - Id: 1262
   FriendlyName: Ghost Armor
   Option: GHOST_ARMOR
@@ -2469,15 +2460,6 @@ Body:
   Done: true
   Script: |
     bonus bDefEle,Ele_Ghost;
-- Id: 1263
-  FriendlyName: Decay Armor
-  Option: DECAY_ARMOR
-  Transferable: false
-  Stackable: true
-  Description: 'Armor element: Decay'
-  Done: true
-  Script: |
-    bonus bDefEle,Ele_Decay;
 - Id: 1264
   FriendlyName: Resist vs Creatures (+)
   Option: RESIST_VS_CREATURES_
@@ -2498,7 +2480,7 @@ Body:
     bonus2 bSubRace,RC_UNDEAD,ropt(ROA_VALUE);
     bonus2 bSubRace,RC_DEMON,ropt(ROA_VALUE);
     bonus2 bSubDefEle,Ele_Decay,ropt(ROA_VALUE);
-    bonus2 bSubDefEle,Ele_Dark,ropt(ROA_VALUE);
+    bonus2 bSubDefEle,Ele_Shadow,ropt(ROA_VALUE);
 - Id: 1266
   FriendlyName: Resist vs Midgardians (+)
   Option: RESIST_VS_MIDGARDIANS_
@@ -2928,7 +2910,7 @@ Body:
     bonus2 bAddRace,RC_UNDEAD,ropt(ROA_VALUE);
     bonus2 bAddRace,RC_DEMON,ropt(ROA_VALUE);
     bonus2 bAddEle,Ele_Decay,ropt(ROA_VALUE);
-    bonus2 bAddEle,ELE_DARK,ropt(ROA_VALUE);
+    bonus2 bAddEle,ELE_SHADOW,ropt(ROA_VALUE);
 - Id: 1312
   FriendlyName: Skill SP costs
   Option: SKILL_SP_COSTS
@@ -3106,11 +3088,11 @@ Body:
     ;
     // The Bell Tolls: Whenever you don't have Angelus, autospell delay-less Angelus. When your Angelus has a recast cooldown, recast it on cooldown.
 - Id: 1331
-  FriendlyName: Natural HP & SP Regen Rate (*)
-  Option: NATURAL_HP__SP_REGEN_RATE_
+  FriendlyName: HP & SP Regen Rate (+)
+  Option: HP__SP_REGEN_RATE_
   Transferable: false
   Stackable: true
-  Description: Natural HP & SP regen rates +%d%% (*)
+  Description: HP & SP regen rates +%d%% (+)
   Done: true
   Script: |-
     bonus bHPrecovRate,ropt(ROA_VALUE);
@@ -3691,7 +3673,7 @@ Body:
   Description: '[Strike Mark duration -%d%%]'
   Done: true
   Script: |-
-    bonus2 bStatusTimerRate,SC_STRIKEMARK,-(ropt(ROA_VALUE));
+    bonus2 bStatusTimerRate,SC_STRIKEMARK,(ropt(ROA_VALUE));
 - Id: 1395
   FriendlyName: Life Leech on Strike Mark
   Option: LIFE_LEECH_ON_STRIKE_MARK

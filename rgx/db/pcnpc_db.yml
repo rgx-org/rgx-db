@@ -649,3 +649,23 @@ Body:
       deadSit: 2
       body2: 0
       hatEffect: 49
+    - Name: Elvis#hub
+      title: ""
+      initialX: 211
+      initialY: 58
+      initialDir: 3
+      initialMap: 1@herbs
+      controllerSprite: 11000
+      visibleSprite: 22000
+      speed: 350
+      job: JOB_MINSTREL
+      sex: SEX_MALE
+      hairStyle: 7
+      hairColor: 3
+      clothColor: 1
+      headTop: 587
+      headMiddle: 0
+      headBottom: 57
+      deadSit: 0
+      body2: 0
+      hatEffect: 0

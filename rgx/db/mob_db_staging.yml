@@ -60,7 +60,7 @@ Body:
   Size: Large
   Race: Demihuman
   Element: Earth
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 170
   AttackDelay: 850
   AttackMotion: 2016
@@ -92,7 +92,7 @@ Body:
   Size: Large
   Race: Demihuman
   Element: Earth
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 170
   AttackDelay: 850
   AttackMotion: 2016
@@ -124,7 +124,7 @@ Body:
   Size: Large
   Race: Demihuman
   Element: Earth
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 170
   AttackDelay: 850
   AttackMotion: 2016

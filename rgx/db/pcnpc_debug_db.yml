@@ -107,16 +107,16 @@ Body:
       controllerSprite: 11000
       visibleSprite: 22000
       speed: 350
-      job: JOB_SORCERER
+      job: JOB_GENETIC
       sex: SEX_FEMALE
-      hairStyle: 27
-      hairColor: 6
-      clothColor: 1
+      hairStyle: 16
+      hairColor: 8
+      clothColor: 0
       headTop: 0
       headMiddle: 0
       headBottom: 0
       deadSit: 0
-      body2: 1
+      body2: 2
     - Name: Ellie
       title: Full Character Wipe
       initialX: 176

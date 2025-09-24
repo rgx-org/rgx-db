@@ -89,8 +89,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Plant
-  Element: Poison
-  ElementLevel: 2
+  Element: Neutral
+  ElementLevel: 1
   WalkSpeed: 300
   AttackDelay: 1672
   AttackMotion: 672
@@ -186,7 +186,7 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Plant
-  Element: Poison
+  Element: Neutral
   ElementLevel: 1
   WalkSpeed: 275
   AttackDelay: 1545
@@ -220,7 +220,7 @@ Body:
   Size: Small
   Race: Plant
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 400
   AttackDelay: 1872
   AttackMotion: 672
@@ -257,7 +257,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Earth
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 1000
   AttackDelay: 1768
   AttackMotion: 768
@@ -403,7 +403,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1056
@@ -439,7 +439,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 400
   AttackDelay: 2612
@@ -475,7 +475,7 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Brute
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 1276
@@ -549,7 +549,7 @@ Body:
   Size: Small
   Race: Brute
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 100
   AttackDelay: 1000
   AttackMotion: 500
@@ -582,7 +582,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1372
   AttackMotion: 672
@@ -619,7 +619,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Water
-  ElementLevel: 3
+  ElementLevel: 2
   WalkSpeed: 289
   AttackDelay: 3500
   AttackMotion: 2532
@@ -652,7 +652,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 1000
   AttackDelay: 800
   AttackMotion: 432
@@ -689,7 +689,7 @@ Body:
   Size: Medium
   Race: Fish
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 300
   AttackDelay: 1956
   AttackMotion: 756
@@ -726,7 +726,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 400
   AttackDelay: 2280
   AttackMotion: 1080
@@ -872,7 +872,7 @@ Body:
   Size: Medium
   Race: Brute
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1480
   AttackMotion: 480
@@ -911,7 +911,7 @@ Body:
   Size: Large
   Race: Brute
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 165
   AttackDelay: 1460
   AttackMotion: 960
@@ -949,7 +949,7 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Undead
-  Element: Decay
+  Element: Ghost
   ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 890
@@ -986,8 +986,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Demon
-  Element: Dark
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 155
   AttackDelay: 741
   AttackMotion: 1536
@@ -1025,7 +1025,7 @@ Body:
   Size: Medium
   Race: Demon
   Element: Earth
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 147
   AttackDelay: 516
   AttackMotion: 768
@@ -1062,7 +1062,7 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Undead
-  Element: Decay
+  Element: Ghost
   ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 912
@@ -1285,7 +1285,7 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Demihuman
-  Element: Poison
+  Element: Neutral
   ElementLevel: 1
   WalkSpeed: 180
   AttackDelay: 1500
@@ -1323,7 +1323,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Wind
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 185
   AttackDelay: 1008
   AttackMotion: 1008
@@ -1362,7 +1362,7 @@ Body:
   Size: Large
   Race: Formless
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 380
   AttackDelay: 1608
   AttackMotion: 816
@@ -1438,7 +1438,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Wind
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 160
   AttackDelay: 1028
   AttackMotion: 528
@@ -1475,8 +1475,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Demihuman
-  Element: Poison
-  ElementLevel: 2
+  Element: Neutral
+  ElementLevel: 1
   WalkSpeed: 275
   AttackDelay: 1428
   AttackMotion: 528
@@ -1514,7 +1514,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 300
   AttackDelay: 1828
   AttackMotion: 528
@@ -1771,7 +1771,7 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Demon
-  Element: Poison
+  Element: Neutral
   ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1172
@@ -1809,7 +1809,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Wind
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 400
   AttackDelay: 864
   AttackMotion: 864
@@ -1846,7 +1846,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Earth
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 320
   AttackDelay: 2304
   AttackMotion: 840
@@ -1880,7 +1880,7 @@ Body:
   Size: Large
   Race: Brute
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 1960
   AttackMotion: 530
@@ -1913,7 +1913,7 @@ Body:
   Size: Large
   Race: Plant
   Element: Earth
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 440
   AttackDelay: 3000
   AttackMotion: 951
@@ -1988,7 +1988,7 @@ Body:
   Size: Medium
   Race: Brute
   Element: Wind
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 336
   AttackMotion: 540
@@ -2025,7 +2025,7 @@ Body:
   Size: Medium
   Race: Brute
   Element: Wind
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 170
   AttackDelay: 504
   AttackMotion: 480
@@ -2174,7 +2174,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Earth
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 250
   AttackDelay: 1672
   AttackMotion: 720
@@ -2212,7 +2212,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 195
   AttackDelay: 1350
   AttackMotion: 1200
@@ -2326,8 +2326,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Demihuman
-  Element: Poison
-  ElementLevel: 3
+  Element: Neutral
+  ElementLevel: 1
   WalkSpeed: 165
   AttackDelay: 875
   AttackMotion: 432
@@ -2363,8 +2363,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Demihuman
-  Element: Earth
-  ElementLevel: 3
+  Element: Neutral
+  ElementLevel: 1
   WalkSpeed: 145
   AttackDelay: 800
   AttackMotion: 432
@@ -2401,7 +2401,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Holy
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 160
   AttackDelay: 1300
   AttackMotion: 432
@@ -2439,7 +2439,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 576
   AttackMotion: 432
@@ -2476,7 +2476,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Wind
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 185
   AttackDelay: 875
   AttackMotion: 432
@@ -2515,7 +2515,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 145
   AttackDelay: 576
   AttackMotion: 432
@@ -2551,7 +2551,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Water
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 220
   AttackDelay: 1336
   AttackMotion: 816
@@ -2588,7 +2588,7 @@ Body:
   Size: Medium
   Race: Fish
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1968
   AttackMotion: 768
@@ -2626,7 +2626,7 @@ Body:
   Size: Medium
   Race: Fish
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 1272
   AttackMotion: 675
@@ -2663,7 +2663,7 @@ Body:
   Size: Medium
   Race: Fish
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 2544
   AttackMotion: 1344
@@ -2701,7 +2701,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 165
   AttackDelay: 1020
   AttackMotion: 576
@@ -2738,7 +2738,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Demon
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1384
@@ -2849,7 +2849,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Brute
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 432
@@ -2887,7 +2887,7 @@ Body:
   Size: Medium
   Race: Fish
   Element: Water
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 400
   AttackDelay: 2280
   AttackMotion: 1080
@@ -2924,7 +2924,7 @@ Body:
   Size: Medium
   Race: Fish
   Element: Water
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 400
   AttackDelay: 1680
   AttackMotion: 480
@@ -2960,7 +2960,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Fish
-  Element: Poison
+  Element: Neutral
   ElementLevel: 1
   WalkSpeed: 400
   AttackDelay: 832
@@ -2998,7 +2998,7 @@ Body:
   Size: Large
   Race: Fish
   Element: Water
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 1872
   AttackMotion: 672
@@ -3035,7 +3035,7 @@ Body:
   Size: Medium
   Race: Fish
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 190
   AttackDelay: 900
   AttackMotion: 500
@@ -3072,7 +3072,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Earth
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 365
   AttackDelay: 1764
   AttackMotion: 480
@@ -3110,7 +3110,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Wind
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 155
   AttackDelay: 1000
   AttackMotion: 940
@@ -3185,7 +3185,7 @@ Body:
   Size: Medium
   Race: Brute
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 450
   AttackDelay: 1100
   AttackMotion: 1000
@@ -3223,7 +3223,7 @@ Body:
   Size: Medium
   Race: Brute
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 250
   AttackDelay: 1452
   AttackMotion: 483
@@ -3261,7 +3261,7 @@ Body:
   Size: Medium
   Race: Brute
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 250
   AttackDelay: 1452
   AttackMotion: 483
@@ -3298,7 +3298,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 300
   AttackDelay: 1020
   AttackMotion: 500
@@ -3335,7 +3335,7 @@ Body:
   Size: Large
   Race: Demihuman
   Element: Neutral
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 165
   AttackDelay: 1552
   AttackMotion: 1152
@@ -3372,7 +3372,7 @@ Body:
   Size: Small
   Race: Formless
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 864
   AttackMotion: 500
@@ -3408,7 +3408,7 @@ Body:
   Size: Small
   Race: Brute
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 936
   AttackMotion: 936
@@ -3445,7 +3445,7 @@ Body:
   Size: Large
   Race: Demihuman
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 824
   AttackMotion: 780
@@ -3478,7 +3478,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1152
   AttackMotion: 1152
@@ -3511,7 +3511,7 @@ Body:
   Size: Medium
   Race: Angel
   Element: Holy
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 160
   AttackDelay: 432
   AttackMotion: 420
@@ -3548,7 +3548,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 180
   AttackDelay: 528
   AttackMotion: 1000
@@ -3581,7 +3581,7 @@ Body:
   Size: Large
   Race: Demihuman
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 1500
   AttackMotion: 500
@@ -3696,7 +3696,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 1050
   AttackMotion: 900
@@ -3774,7 +3774,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Earth
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 1000
   AttackDelay: 1308
   AttackMotion: 1008
@@ -3844,7 +3844,7 @@ Body:
   Size: Large
   Race: Brute
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 250
   AttackDelay: 1100
   AttackMotion: 960
@@ -3880,8 +3880,8 @@ Body:
   ChaseRange: 22
   Size: Medium
   Race: Demon
-  Element: Dark
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 155
   AttackDelay: 1306
   AttackMotion: 1056
@@ -3920,8 +3920,8 @@ Body:
   ChaseRange: 22
   Size: Medium
   Race: Demon
-  Element: Dark
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 155
   AttackDelay: 1306
   AttackMotion: 600
@@ -3960,7 +3960,7 @@ Body:
   ChaseRange: 22
   Size: Medium
   Race: Demihuman
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 205
   AttackDelay: 1800
@@ -3999,7 +3999,7 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Demon
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 980
@@ -4075,8 +4075,8 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Demon
-  Element: Dark
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 145
   AttackDelay: 1290
   AttackMotion: 1140
@@ -4272,7 +4272,7 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Insect
-  Element: Poison
+  Element: Earth
   ElementLevel: 1
   WalkSpeed: 300
   AttackDelay: 1792
@@ -4386,8 +4386,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 180
   AttackDelay: 890
   AttackMotion: 1320
@@ -4422,7 +4422,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 300
   AttackDelay: 2864
@@ -4460,7 +4460,7 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Demon
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1156
@@ -4498,8 +4498,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
-  ElementLevel: 3
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 1635
   AttackMotion: 576
@@ -4538,7 +4538,7 @@ Body:
   Size: Medium
   Race: Demon
   Element: Fire
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 155
   AttackDelay: 1276
   AttackMotion: 576
@@ -4576,7 +4576,7 @@ Body:
   Size: Medium
   Race: Brute
   Element: Wind
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 824
   AttackMotion: 780
@@ -4613,7 +4613,7 @@ Body:
   Size: Medium
   Race: Brute
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 1224
   AttackMotion: 780
@@ -4650,7 +4650,7 @@ Body:
   Size: Large
   Race: Brute
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 250
   AttackDelay: 955
   AttackMotion: 864
@@ -4683,7 +4683,7 @@ Body:
   Size: Large
   Race: Formless
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 190
   AttackDelay: 480
   AttackMotion: 840
@@ -4720,7 +4720,7 @@ Body:
   Size: Large
   Race: Formless
   Element: Water
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 250
   AttackDelay: 861
   AttackMotion: 660
@@ -4795,7 +4795,7 @@ Body:
   Size: Large
   Race: Formless
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 220
   AttackDelay: 936
   AttackMotion: 1020
@@ -4831,8 +4831,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Brute
-  Element: Dark
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 824
   AttackMotion: 780
@@ -4868,8 +4868,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Insect
-  Element: Poison
-  ElementLevel: 2
+  Element: Neutral
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 824
   AttackMotion: 780
@@ -4904,7 +4904,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Brute
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 182
   AttackDelay: 968
@@ -4943,7 +4943,7 @@ Body:
   Size: Medium
   Race: Demon
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 250
   AttackDelay: 1080
   AttackMotion: 480
@@ -4981,7 +4981,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 220
   AttackDelay: 1440
   AttackMotion: 576
@@ -5018,7 +5018,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 170
   AttackDelay: 1356
   AttackMotion: 1056
@@ -5055,7 +5055,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 176
   AttackMotion: 912
@@ -5091,8 +5091,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Demon
-  Element: Dark
-  ElementLevel: 3
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 140
   AttackDelay: 960
   AttackMotion: 528
@@ -5130,7 +5130,7 @@ Body:
   Size: Medium
   Race: Brute
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 160
   AttackDelay: 1120
   AttackMotion: 552
@@ -5163,7 +5163,7 @@ Body:
   Size: Small
   Race: Formless
   Element: Wind
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 190
   AttackDelay: 336
   AttackMotion: 840
@@ -5200,7 +5200,7 @@ Body:
   Size: Large
   Race: Dragon
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 100
   AttackDelay: 108
   AttackMotion: 576
@@ -5237,7 +5237,7 @@ Body:
   Size: Large
   Race: Dragon
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 120
   AttackDelay: 108
   AttackMotion: 576
@@ -5274,7 +5274,7 @@ Body:
   Size: Large
   Race: Dragon
   Element: Holy
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 170
   AttackDelay: 168
   AttackMotion: 1008
@@ -5311,7 +5311,7 @@ Body:
   Size: Large
   Race: Dragon
   Element: Wind
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 180
   AttackDelay: 168
   AttackMotion: 768
@@ -5348,7 +5348,7 @@ Body:
   Size: Large
   Race: Formless
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 100
   AttackDelay: 168
   AttackMotion: 480
@@ -5384,8 +5384,8 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Demihuman
-  Element: Dark
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 824
   AttackMotion: 780
@@ -5421,8 +5421,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Demon
-  Element: Dark
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1152
   AttackMotion: 1152
@@ -5459,7 +5459,7 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Undead
-  Element: Decay
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 350
   AttackDelay: 528
@@ -5497,7 +5497,7 @@ Body:
   Size: Large
   Race: Brute
   Element: Fire
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 772
   AttackMotion: 672
@@ -5534,7 +5534,7 @@ Body:
   Size: Large
   Race: Demon
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 175
   AttackDelay: 1345
   AttackMotion: 824
@@ -5571,7 +5571,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 824
   AttackMotion: 780
@@ -5608,7 +5608,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 824
   AttackMotion: 780
@@ -5644,8 +5644,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Demihuman
-  Element: Dark
-  ElementLevel: 3
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 1003
   AttackMotion: 1152
@@ -5681,8 +5681,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 170
   AttackDelay: 1084
   AttackMotion: 2304
@@ -5719,7 +5719,7 @@ Body:
   Size: Medium
   Race: Demon
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 250
   AttackDelay: 1080
   AttackMotion: 480
@@ -5756,7 +5756,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Neutral
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 250
   AttackDelay: 768
   AttackMotion: 360
@@ -5793,7 +5793,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Neutral
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 250
   AttackDelay: 768
   AttackMotion: 360
@@ -5830,7 +5830,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Earth
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 170
   AttackDelay: 1536
   AttackMotion: 504
@@ -5862,7 +5862,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 100
   AttackDelay: 768
   AttackMotion: 768
@@ -5899,7 +5899,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 504
   AttackMotion: 1020
@@ -5936,7 +5936,7 @@ Body:
   Size: Large
   Race: Formless
   Element: Fire
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 400
   AttackDelay: 2190
   AttackMotion: 2040
@@ -5969,7 +5969,7 @@ Body:
   Size: Medium
   Race: Brute
   Element: Fire
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 165
   AttackDelay: 1260
   AttackMotion: 960
@@ -6006,7 +6006,7 @@ Body:
   Size: Medium
   Race: Demon
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 180
   AttackDelay: 1732
   AttackMotion: 1332
@@ -6043,7 +6043,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Earth
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 700
   AttackMotion: 600
@@ -6076,7 +6076,7 @@ Body:
   Size: Medium
   Race: Demon
   Element: Wind
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 155
   AttackDelay: 972
   AttackMotion: 672
@@ -6151,7 +6151,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Wind
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 100
   AttackDelay: 140
   AttackMotion: 384
@@ -6187,8 +6187,8 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Undead
-  Element: Decay
-  ElementLevel: 4
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 300
   AttackDelay: 2276
   AttackMotion: 576
@@ -6223,7 +6223,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Demihuman
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 100
   AttackDelay: 1504
@@ -6260,7 +6260,7 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Demon
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 1000
@@ -6299,7 +6299,7 @@ Body:
   Size: Large
   Race: Demon
   Element: Ghost
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 100
   AttackDelay: 1248
   AttackMotion: 500
@@ -6332,7 +6332,7 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Demon
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 180
   AttackDelay: 917
@@ -6370,7 +6370,7 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Demon
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 180
   AttackDelay: 917
@@ -6408,8 +6408,8 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Demon
-  Element: Dark
-  ElementLevel: 4
+  Element: Shadow
+  ElementLevel: 2
   WalkSpeed: 125
   AttackDelay: 747
   AttackMotion: 1632
@@ -6446,8 +6446,8 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Demon
-  Element: Dark
-  ElementLevel: 4
+  Element: Shadow
+  ElementLevel: 2
   WalkSpeed: 125
   AttackDelay: 747
   AttackMotion: 1632
@@ -6484,7 +6484,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 175
   AttackDelay: 2612
@@ -6521,8 +6521,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
-  ElementLevel: 3
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 676
   AttackMotion: 648
@@ -6558,8 +6558,8 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Demihuman
-  Element: Dark
-  ElementLevel: 3
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 175
   AttackDelay: 914
   AttackMotion: 1344
@@ -6595,8 +6595,8 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Demihuman
-  Element: Dark
-  ElementLevel: 3
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 175
   AttackDelay: 914
   AttackMotion: 1344
@@ -6631,7 +6631,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
+  Element: Neutral
   ElementLevel: 1
   WalkSpeed: 250
   AttackDelay: 2468
@@ -6668,7 +6668,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Demon
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 140
   AttackDelay: 824
@@ -6707,7 +6707,7 @@ Body:
   Size: Medium
   Race: Demon
   Element: Ghost
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 972
   AttackMotion: 648
@@ -6744,8 +6744,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
-  ElementLevel: 2
+  Element: Ghost
+  ElementLevel: 1
   WalkSpeed: 155
   AttackDelay: 847
   AttackMotion: 1152
@@ -6819,7 +6819,7 @@ Body:
   Size: Large
   Race: Brute
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 250
   AttackDelay: 1100
   AttackMotion: 960
@@ -6856,7 +6856,7 @@ Body:
   Size: Large
   Race: Brute
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 250
   AttackDelay: 1100
   AttackMotion: 960
@@ -6893,7 +6893,7 @@ Body:
   Size: Medium
   Race: Demon
   Element: Fire
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 824
   AttackMotion: 432
@@ -6931,7 +6931,7 @@ Body:
   Size: Medium
   Race: Insect
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1500
   AttackMotion: 500
@@ -6969,7 +6969,7 @@ Body:
   Size: Medium
   Race: Angel
   Element: Holy
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 160
   AttackDelay: 432
   AttackMotion: 420
@@ -7005,8 +7005,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Angel
-  Element: Dark
-  ElementLevel: 3
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 120
   AttackDelay: 360
   AttackMotion: 480
@@ -7043,7 +7043,7 @@ Body:
   Size: Medium
   Race: Angel
   Element: Holy
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 180
   AttackDelay: 576
   AttackMotion: 420
@@ -7080,7 +7080,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 176
   AttackMotion: 912
@@ -7115,8 +7115,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Demon
-  Element: Dark
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 576
   AttackMotion: 504
@@ -7153,8 +7153,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Demon
-  Element: Decay
-  ElementLevel: 4
+  Element: Neutral
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 864
   AttackMotion: 1252
@@ -7190,7 +7190,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Demon
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 140
   AttackDelay: 824
@@ -7228,8 +7228,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Demon
-  Element: Dark
-  ElementLevel: 3
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 155
   AttackDelay: 1306
   AttackMotion: 1056
@@ -7266,8 +7266,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Demon
-  Element: Dark
-  ElementLevel: 3
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 576
   AttackMotion: 540
@@ -7299,8 +7299,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Demon
-  Element: Dark
-  ElementLevel: 3
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 576
   AttackMotion: 540
@@ -7332,8 +7332,8 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Formless
-  Element: Dark
-  ElementLevel: 4
+  Element: Shadow
+  ElementLevel: 2
   WalkSpeed: 250
   AttackDelay: 828
   AttackMotion: 528
@@ -7369,8 +7369,8 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Formless
-  Element: Dark
-  ElementLevel: 4
+  Element: Shadow
+  ElementLevel: 2
   WalkSpeed: 250
   AttackDelay: 828
   AttackMotion: 528
@@ -7407,7 +7407,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Wind
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 190
   AttackDelay: 576
   AttackMotion: 432
@@ -7444,7 +7444,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 504
   AttackMotion: 1020
@@ -7481,7 +7481,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 504
   AttackMotion: 1020
@@ -7518,7 +7518,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 576
   AttackMotion: 720
@@ -7555,7 +7555,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 576
   AttackMotion: 720
@@ -7592,7 +7592,7 @@ Body:
   Size: Large
   Race: Demihuman
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 824
   AttackMotion: 780
@@ -7629,7 +7629,7 @@ Body:
   Size: Large
   Race: Demihuman
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 824
   AttackMotion: 780
@@ -7666,7 +7666,7 @@ Body:
   Size: Large
   Race: Demihuman
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 824
   AttackMotion: 780
@@ -7703,7 +7703,7 @@ Body:
   Size: Large
   Race: Demihuman
   Element: Holy
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 824
   AttackMotion: 780
@@ -7739,8 +7739,8 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Demihuman
-  Element: Dark
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 824
   AttackMotion: 780
@@ -7776,7 +7776,7 @@ Body:
   Size: Medium
   Race: Demon
   Element: Wind
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 1056
   AttackMotion: 1056
@@ -7813,7 +7813,7 @@ Body:
   Size: Medium
   Race: Demon
   Element: Wind
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 1056
   AttackMotion: 1056
@@ -7850,7 +7850,7 @@ Body:
   Size: Medium
   Race: Demon
   Element: Wind
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 1056
   AttackMotion: 1056
@@ -7916,8 +7916,8 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Undead
-  Element: Decay
-  ElementLevel: 4
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 300
   AttackDelay: 1816
   AttackMotion: 576
@@ -7953,8 +7953,8 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Undead
-  Element: Decay
-  ElementLevel: 4
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 175
   AttackDelay: 1816
   AttackMotion: 576
@@ -7990,8 +7990,8 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Demon
-  Element: Decay
-  ElementLevel: 4
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 145
   AttackDelay: 1024
   AttackMotion: 768
@@ -8027,7 +8027,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 170
   AttackDelay: 1754
@@ -8097,7 +8097,7 @@ Body:
   Size: Small
   Race: Plant
   Element: Water
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 400
   AttackDelay: 1872
   AttackMotion: 672
@@ -8195,7 +8195,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Earth
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 170
   AttackDelay: 950
   AttackMotion: 2520
@@ -8228,7 +8228,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Earth
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 170
   AttackDelay: 950
   AttackMotion: 2520
@@ -8327,7 +8327,7 @@ Body:
   Size: Medium
   Race: Brute
   Element: Holy
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 120
   AttackDelay: 1000
   AttackMotion: 624
@@ -8360,7 +8360,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 800
   AttackMotion: 2112
@@ -8643,7 +8643,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1048
   AttackMotion: 48
@@ -8675,7 +8675,7 @@ Body:
   Size: Small
   Race: Brute
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1576
   AttackMotion: 576
@@ -8845,7 +8845,7 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Insect
-  Element: Poison
+  Element: Earth
   ElementLevel: 1
   WalkSpeed: 300
   AttackDelay: 1288
@@ -8881,7 +8881,7 @@ Body:
   Size: Small
   Race: Insect
   Element: Earth
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 300
   AttackDelay: 1768
   AttackMotion: 768
@@ -8913,7 +8913,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 2228
@@ -9014,7 +9014,7 @@ Body:
   Size: Medium
   Race: Fish
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 2016
   AttackMotion: 816
@@ -9080,8 +9080,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Demon
-  Element: Dark
-  ElementLevel: 4
+  Element: Shadow
+  ElementLevel: 2
   WalkSpeed: 200
   AttackDelay: 1072
   AttackMotion: 1056
@@ -9114,7 +9114,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Earth
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 400
   AttackDelay: 728
   AttackMotion: 500
@@ -9146,7 +9146,7 @@ Body:
   Size: Small
   Race: Insect
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 1288
   AttackMotion: 288
@@ -9179,7 +9179,7 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Insect
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 988
@@ -9213,7 +9213,7 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Insect
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 300
   AttackDelay: 988
@@ -9246,7 +9246,7 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Brute
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 1044
@@ -9279,8 +9279,8 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Brute
-  Element: Poison
-  ElementLevel: 2
+  Element: Neutral
+  ElementLevel: 1
   WalkSpeed: 100
   AttackDelay: 1000
   AttackMotion: 500
@@ -9314,7 +9314,7 @@ Body:
   Size: Medium
   Race: Demon
   Element: Wind
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1020
   AttackMotion: 720
@@ -9347,7 +9347,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Formless
-  Element: Poison
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 225
   AttackDelay: 1576
@@ -9414,8 +9414,8 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Brute
-  Element: Dark
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 250
   AttackDelay: 1276
   AttackMotion: 576
@@ -9479,7 +9479,7 @@ Body:
   Size: Small
   Race: Plant
   Element: Water
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 400
   AttackDelay: 2208
   AttackMotion: 1008
@@ -9550,7 +9550,7 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Brute
-  Element: Poison
+  Element: Earth
   ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1576
@@ -9585,7 +9585,7 @@ Body:
   Size: Small
   Race: Formless
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 1000
   AttackDelay: 1001
   AttackMotion: 1
@@ -9618,7 +9618,7 @@ Body:
   Size: Medium
   Race: Angel
   Element: Holy
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 250
   AttackDelay: 672
   AttackMotion: 780
@@ -9651,7 +9651,7 @@ Body:
   Size: Medium
   Race: Angel
   Element: Holy
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 250
   AttackDelay: 672
   AttackMotion: 780
@@ -9684,7 +9684,7 @@ Body:
   Size: Medium
   Race: Angel
   Element: Holy
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 672
   AttackMotion: 780
@@ -9717,7 +9717,7 @@ Body:
   Size: Medium
   Race: Angel
   Element: Holy
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 672
   AttackMotion: 780
@@ -9749,7 +9749,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Plant
-  Element: Poison
+  Element: Earth
   ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1672
@@ -9783,7 +9783,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1152
   AttackMotion: 1152
@@ -9816,7 +9816,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Earth
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 170
   AttackDelay: 950
   AttackMotion: 2520
@@ -9848,8 +9848,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Demon
-  Element: Dark
-  ElementLevel: 3
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 100
   AttackDelay: 480
   AttackMotion: 480
@@ -9881,7 +9881,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 400
   AttackDelay: 2852
@@ -9915,7 +9915,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 138
   AttackDelay: 2420
@@ -9947,7 +9947,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Demihuman
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 1180
@@ -9981,7 +9981,7 @@ Body:
   Size: Small
   Race: Brute
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 320
   AttackDelay: 145
   AttackMotion: 400
@@ -10049,7 +10049,7 @@ Body:
   Size: Small
   Race: Insect
   Element: Wind
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 195
   AttackDelay: 1004
   AttackMotion: 504
@@ -10269,7 +10269,7 @@ Body:
   Size: Small
   Race: Brute
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 180
   AttackDelay: 1960
   AttackMotion: 960
@@ -10302,7 +10302,7 @@ Body:
   Size: Small
   Race: Brute
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1456
   AttackMotion: 456
@@ -10408,7 +10408,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Wind
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 180
   AttackDelay: 1008
   AttackMotion: 1008
@@ -10475,7 +10475,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Earth
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 230
   AttackDelay: 1728
   AttackMotion: 720
@@ -10508,7 +10508,7 @@ Body:
   Size: Medium
   Race: Fish
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1872
   AttackMotion: 672
@@ -10544,8 +10544,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 375
   AttackDelay: 1772
   AttackMotion: 675
@@ -10643,7 +10643,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Earth
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 792
   AttackMotion: 540
@@ -10711,7 +10711,7 @@ Body:
   Size: Small
   Race: Brute
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 840
   AttackMotion: 540
@@ -10745,7 +10745,7 @@ Body:
   Size: Medium
   Race: Demon
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 180
   AttackDelay: 1720
   AttackMotion: 1320
@@ -10778,7 +10778,7 @@ Body:
   Size: Large
   Race: Brute
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 300
   AttackDelay: 1260
   AttackMotion: 192
@@ -10845,7 +10845,7 @@ Body:
   Size: Medium
   Race: Demon
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1296
   AttackMotion: 432
@@ -10879,7 +10879,7 @@ Body:
   Size: Large
   Race: Formless
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 400
   AttackDelay: 1840
   AttackMotion: 1440
@@ -10911,8 +10911,8 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Dragon
-  Element: Dark
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 160
   AttackDelay: 140
   AttackMotion: 672
@@ -10945,7 +10945,7 @@ Body:
   Size: Small
   Race: Brute
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 1960
   AttackMotion: 960
@@ -11014,7 +11014,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 504
   AttackMotion: 1020
@@ -11046,8 +11046,8 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Demon
-  Element: Dark
-  ElementLevel: 3
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 165
   AttackDelay: 1216
   AttackMotion: 816
@@ -11081,7 +11081,7 @@ Body:
   Size: Large
   Race: Formless
   Element: Neutral
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 200
   AttackDelay: 1264
   AttackMotion: 864
@@ -11147,7 +11147,7 @@ Body:
   Size: Medium
   Race: Undead
   Element: Ghost
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 150
   AttackDelay: 160
   AttackMotion: 672
@@ -11180,7 +11180,7 @@ Body:
   Size: Large
   Race: Formless
   Element: Neutral
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 200
   AttackDelay: 1264
   AttackMotion: 864
@@ -11213,7 +11213,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Fire
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 175
   AttackDelay: 2413
   AttackMotion: 1248
@@ -11246,7 +11246,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Earth
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 672
   AttackMotion: 420
@@ -11279,7 +11279,7 @@ Body:
   Size: Large
   Race: Demihuman
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 180
   AttackDelay: 580
   AttackMotion: 288
@@ -11311,7 +11311,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 400
   AttackDelay: 1872
   AttackMotion: 672
@@ -11345,7 +11345,7 @@ Body:
   Size: Small
   Race: Plant
   Element: Earth
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 170
   AttackDelay: 950
   AttackMotion: 2520
@@ -11378,7 +11378,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 410
   AttackDelay: 400
   AttackMotion: 672
@@ -11702,7 +11702,7 @@ Body:
   Size: Medium
   Race: Brute
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 250
   AttackDelay: 1452
   AttackMotion: 483
@@ -11736,7 +11736,7 @@ Body:
   Size: Medium
   Race: Brute
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 160
   AttackDelay: 1120
   AttackMotion: 975
@@ -11770,7 +11770,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Wind
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 155
   AttackDelay: 1000
   AttackMotion: 940
@@ -11803,7 +11803,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 800
   AttackDelay: 1201
   AttackMotion: 1
@@ -11906,7 +11906,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Brute
-  Element: Poison
+  Element: Earth
   ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1576
@@ -11973,7 +11973,7 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Brute
-  Element: Poison
+  Element: Earth
   ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1576
@@ -12008,7 +12008,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 195
   AttackDelay: 1500
   AttackMotion: 1200
@@ -12046,7 +12046,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 270
   AttackDelay: 1872
   AttackMotion: 672
@@ -12111,8 +12111,8 @@ Body:
   ChaseRange: 30
   Size: Large
   Race: Demihuman
-  Element: Decay
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 500
   AttackDelay: 1850
   AttackMotion: 692
@@ -12146,8 +12146,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 175
   AttackDelay: 1772
   AttackMotion: 120
@@ -12180,7 +12180,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 504
   AttackMotion: 1020
@@ -12213,7 +12213,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 504
   AttackMotion: 1020
@@ -12246,7 +12246,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 504
   AttackMotion: 1020
@@ -12279,7 +12279,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 504
   AttackMotion: 1020
@@ -12312,7 +12312,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Wind
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 504
   AttackMotion: 1020
@@ -12345,7 +12345,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 576
   AttackMotion: 720
@@ -12378,7 +12378,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Wind
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 576
   AttackMotion: 720
@@ -12411,7 +12411,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 576
   AttackMotion: 720
@@ -12444,7 +12444,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 576
   AttackMotion: 720
@@ -12477,7 +12477,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 576
   AttackMotion: 720
@@ -12510,7 +12510,7 @@ Body:
   Size: Large
   Race: Demihuman
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 180
   AttackDelay: 580
   AttackMotion: 288
@@ -12599,7 +12599,7 @@ Body:
   Size: Small
   Race: Formless
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 1272
   AttackMotion: 675
@@ -12736,7 +12736,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Earth
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 145
   AttackDelay: 800
   AttackMotion: 432
@@ -12773,8 +12773,8 @@ Body:
   ChaseRange: 18
   Size: Medium
   Race: Demihuman
-  Element: Poison
-  ElementLevel: 3
+  Element: Neutral
+  ElementLevel: 1
   WalkSpeed: 165
   AttackDelay: 875
   AttackMotion: 432
@@ -12812,7 +12812,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Wind
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 185
   AttackDelay: 875
   AttackMotion: 432
@@ -12851,7 +12851,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 576
   AttackMotion: 432
@@ -12889,7 +12889,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Holy
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 160
   AttackDelay: 1300
   AttackMotion: 432
@@ -12960,7 +12960,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Holy
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 145
   AttackDelay: 800
   AttackMotion: 432
@@ -12994,7 +12994,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Holy
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 145
   AttackDelay: 800
   AttackMotion: 432
@@ -13027,7 +13027,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 800
   AttackDelay: 2000
   AttackMotion: 1000
@@ -13060,7 +13060,7 @@ Body:
   Size: Medium
   Race: Fish
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 1272
   AttackMotion: 675
@@ -13094,7 +13094,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Water
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 180
   AttackDelay: 1800
   AttackMotion: 816
@@ -13128,7 +13128,7 @@ Body:
   Size: Medium
   Race: Fish
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 140
   AttackDelay: 1872
   AttackMotion: 672
@@ -13163,7 +13163,7 @@ Body:
   Size: Medium
   Race: Fish
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1968
   AttackMotion: 768
@@ -13197,7 +13197,7 @@ Body:
   Size: Medium
   Race: Plant
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 125
   AttackDelay: 1500
   AttackMotion: 864
@@ -13296,8 +13296,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Brute
-  Element: Dark
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 165
   AttackDelay: 1200
   AttackMotion: 648
@@ -13329,8 +13329,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Brute
-  Element: Dark
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 165
   AttackDelay: 700
   AttackMotion: 648
@@ -13402,8 +13402,8 @@ Body:
   ChaseRange: 14
   Size: Medium
   Race: Formless
-  Element: Dark
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 175
   AttackDelay: 700
   AttackMotion: 600
@@ -13438,7 +13438,7 @@ Body:
   Size: Medium
   Race: Brute
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 1000
   AttackMotion: 780
@@ -13470,8 +13470,8 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Demon
-  Element: Dark
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 140
   AttackDelay: 432
   AttackMotion: 540
@@ -13505,7 +13505,7 @@ Body:
   Size: Large
   Race: Undead
   Element: Ghost
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 100
   AttackDelay: 432
   AttackMotion: 288
@@ -13538,7 +13538,7 @@ Body:
   Size: Large
   Race: Demihuman
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 175
   AttackDelay: 1744
   AttackMotion: 1344
@@ -13571,7 +13571,7 @@ Body:
   Size: Medium
   Race: Angel
   Element: Neutral
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 100
   AttackDelay: 432
   AttackMotion: 480
@@ -13598,8 +13598,8 @@ Body:
   ChaseRange: 12
   Size: Large
   Race: Undead
-  Element: Decay
-  ElementLevel: 4
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 300
   AttackDelay: 1816
   AttackMotion: 576
@@ -13630,7 +13630,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 175
   AttackDelay: 2492
@@ -13664,7 +13664,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Fire
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 300
   AttackDelay: 1432
   AttackMotion: 2532
@@ -13698,7 +13698,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Wind
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 420
   AttackDelay: 1432
   AttackMotion: 2532
@@ -13732,7 +13732,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Earth
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 220
   AttackDelay: 1432
   AttackMotion: 2532
@@ -13766,7 +13766,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Water
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 500
   AttackDelay: 1432
   AttackMotion: 2532
@@ -13801,7 +13801,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Wind
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 175
   AttackDelay: 1432
   AttackMotion: 2532
@@ -13980,7 +13980,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Demihuman
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 400
   AttackDelay: 1954
@@ -14012,7 +14012,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Plant
-  Element: Poison
+  Element: Earth
   ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1672
@@ -14080,7 +14080,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 300
   AttackDelay: 2160
   AttackMotion: 620
@@ -14115,7 +14115,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Water
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 576
   AttackMotion: 672
@@ -14180,8 +14180,8 @@ Body:
   ChaseRange: 30
   Size: Large
   Race: Brute
-  Element: Dark
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 175
   AttackDelay: 1343
   AttackMotion: 1344
@@ -14220,8 +14220,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 155
   AttackDelay: 847
   AttackMotion: 1152
@@ -14335,7 +14335,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 912
   AttackMotion: 1344
@@ -14369,7 +14369,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Neutral
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 857
   AttackMotion: 1056
@@ -14402,7 +14402,7 @@ Body:
   Size: Large
   Race: Formless
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 300
   AttackDelay: 1008
   AttackMotion: 1200
@@ -14607,7 +14607,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 1000
   AttackDelay: 2000
   AttackMotion: 1000
@@ -14675,7 +14675,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Insect
-  Element: Poison
+  Element: Earth
   ElementLevel: 1
   WalkSpeed: 175
   AttackDelay: 1792
@@ -14711,7 +14711,7 @@ Body:
   Size: Medium
   Race: Insect
   Element: Water
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 100
   AttackDelay: 1364
   AttackMotion: 1000
@@ -14755,7 +14755,7 @@ Body:
   Size: Medium
   Race: Insect
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 100
   AttackDelay: 1000
   AttackMotion: 1000
@@ -14798,8 +14798,8 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Insect
-  Element: Dark
-  ElementLevel: 2
+  Element: Shadow
+  ElementLevel: 1
   WalkSpeed: 100
   AttackDelay: 1364
   AttackMotion: 1000
@@ -14946,7 +14946,7 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Insect
-  Element: Poison
+  Element: Neutral
   ElementLevel: 1
   WalkSpeed: 300
   AttackDelay: 1468
@@ -15016,7 +15016,7 @@ Body:
   Size: Small
   Race: Brute
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 90
   AttackDelay: 600
   AttackMotion: 500
@@ -15152,7 +15152,7 @@ Body:
   Size: Small
   Race: Brute
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 135
   AttackDelay: 1960
   AttackMotion: 480
@@ -15287,7 +15287,7 @@ Body:
   Size: Medium
   Race: Insect
   Element: Wind
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 150
   AttackDelay: 676
   AttackMotion: 576
@@ -15491,7 +15491,7 @@ Body:
   Size: Medium
   Race: Dragon
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 175
   AttackDelay: 1320
   AttackMotion: 720
@@ -15525,7 +15525,7 @@ Body:
   Size: Medium
   Race: Dragon
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 175
   AttackDelay: 2024
   AttackMotion: 624
@@ -15592,7 +15592,7 @@ Body:
   Size: Medium
   Race: Brute
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 175
   AttackDelay: 720
   AttackMotion: 528
@@ -15627,7 +15627,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 2512
   AttackMotion: 780
@@ -15660,7 +15660,7 @@ Body:
   ChaseRange: 10
   Size: Medium
   Race: Brute
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 155
   AttackDelay: 2780
@@ -15696,7 +15696,7 @@ Body:
   ChaseRange: 16
   Size: Small
   Race: Demon
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 100
   AttackDelay: 868
@@ -15735,7 +15735,7 @@ Body:
   ChaseRange: 16
   Size: Small
   Race: Demon
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 100
   AttackDelay: 868
@@ -15774,7 +15774,7 @@ Body:
   ChaseRange: 16
   Size: Medium
   Race: Demon
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 100
   AttackDelay: 868
@@ -15813,7 +15813,7 @@ Body:
   ChaseRange: 16
   Size: Medium
   Race: Demon
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 100
   AttackDelay: 868
@@ -15852,7 +15852,7 @@ Body:
   ChaseRange: 16
   Size: Large
   Race: Demon
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 100
   AttackDelay: 868
@@ -15891,7 +15891,7 @@ Body:
   ChaseRange: 16
   Size: Large
   Race: Demon
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 100
   AttackDelay: 868
@@ -16070,7 +16070,7 @@ Body:
   ChaseRange: 16
   Size: Medium
   Race: Demon
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 100
   AttackDelay: 868
@@ -16473,7 +16473,7 @@ Body:
   Size: Medium
   Race: Insect
   Element: Fire
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 160
   AttackDelay: 1224
   AttackMotion: 780
@@ -16512,7 +16512,7 @@ Body:
   Size: Medium
   Race: Insect
   Element: Earth
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 140
   AttackDelay: 555
   AttackMotion: 600
@@ -16586,7 +16586,7 @@ Body:
   Size: Medium
   Race: Formless
   Element: Fire
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 400
   AttackDelay: 1888
   AttackMotion: 1152
@@ -16620,7 +16620,7 @@ Body:
   Size: Medium
   Race: Dragon
   Element: Wind
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 160
   AttackDelay: 600
   AttackMotion: 840
@@ -16653,7 +16653,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 750
@@ -16686,7 +16686,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Undead
-  Element: Decay
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 830
@@ -16760,7 +16760,7 @@ Body:
   ChaseRange: 22
   Size: Medium
   Race: Undead
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 490
   AttackDelay: 770
@@ -16795,7 +16795,7 @@ Body:
   ChaseRange: 12
   Size: Small
   Race: Brute
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 250
   AttackDelay: 1276
@@ -16830,7 +16830,7 @@ Body:
   Size: Medium
   Race: Demihuman
   Element: Neutral
-  ElementLevel: 3
+  ElementLevel: 1
   WalkSpeed: 220
   AttackDelay: 1440
   AttackMotion: 576
@@ -16862,7 +16862,7 @@ Body:
   ChaseRange: 22
   Size: Medium
   Race: Undead
-  Element: Decay
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 2468
@@ -16898,7 +16898,7 @@ Body:
   ChaseRange: 22
   Size: Medium
   Race: Undead
-  Element: Decay
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 200
   AttackDelay: 1720
@@ -16970,7 +16970,7 @@ Body:
   Size: Medium
   Race: Brute
   Element: Wind
-  ElementLevel: 2
+  ElementLevel: 1
   WalkSpeed: 190
   AttackDelay: 700
   AttackMotion: 528
@@ -17040,7 +17040,7 @@ Body:
   Size: Small
   Race: Formless
   Element: Wind
-  ElementLevel: 4
+  ElementLevel: 2
   WalkSpeed: 400
   AttackDelay: 1872
   AttackMotion: 672
@@ -17830,7 +17830,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Brute
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 115
   AttackDelay: 700
@@ -17863,7 +17863,7 @@ Body:
   ChaseRange: 12
   Size: Medium
   Race: Brute
-  Element: Dark
+  Element: Shadow
   ElementLevel: 1
   WalkSpeed: 115
   AttackDelay: 700

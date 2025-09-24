@@ -10,8 +10,10 @@ Body:
   Description: 'general debug ropt1 with val: %d  param: %d'
   Done: true
   Script: |-
-    bonus2 bDelayDispelSc,SC_STUN,1000;
-    bonus bDispelAutospellsBuffs,1;
+    //bonus2 bDelayDispelSc,SC_STUN,1000;
+    //bonus bDispelAutospellsBuffs,1;
+    bonus5 bAutoSpellOnSkillDelaySelf,AL_PNEUMA,MG_THUNDERSTORM,getrandomoptinfo(ROA_VALUE),1000,150;
+    bonus5 bAutoSpellOnSkillRecast,AL_HEAL,AL_HEAL,3,1000,2;
   Labels:
   - Debug
 - Id: 801

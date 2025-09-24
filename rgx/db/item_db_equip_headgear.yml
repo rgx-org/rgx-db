@@ -1679,7 +1679,7 @@ Body:
   Keyword: None
   Script: |
     bonus bStr,3;
-    bonus2 bAddEle,Ele_Dark,10;
+    bonus2 bAddEle,Ele_Shadow,10;
     bonus2 bAddRace,RC_Demon,10;
 - Id: 60071
   Name: Celines Ribbon

@@ -4497,7 +4497,7 @@ Body:
     bonus3 bSubEle,Ele_Wind,30,BF_SHORT;
     bonus3 bSubEle,Ele_Poison,30,BF_SHORT;
     bonus3 bSubEle,Ele_Holy,30,BF_SHORT;
-    bonus3 bSubEle,Ele_Dark,30,BF_SHORT;
+    bonus3 bSubEle,Ele_Shadow,30,BF_SHORT;
     bonus3 bSubEle,Ele_Ghost,30,BF_SHORT;
     bonus3 bSubEle,Ele_Decay,30,BF_SHORT;
     bonus bFlee,30;
@@ -4584,7 +4584,7 @@ Body:
     bonus2 bSubEle,Ele_Wind,7;
     bonus2 bSubEle,Ele_Poison,7;
     bonus2 bSubEle,Ele_Holy,7;
-    bonus2 bSubEle,Ele_Dark,7;
+    bonus2 bSubEle,Ele_Shadow,7;
     bonus2 bSubEle,Ele_Ghost,7;
     bonus2 bSubEle,Ele_Decay,7;
     bonus bMaxSP,(BaseLevel/3)+(getrefine()*10);

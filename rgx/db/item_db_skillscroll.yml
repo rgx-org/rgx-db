@@ -10262,33 +10262,6 @@ Body:
     NoAuction: true
   Script: |-
     callfunc "UseSkillScroll",RGX_ASSEMBLECART;
-- Id: 200585
-  Name: Day Trader
-  AegisName: RGX_DAYTRADER_SC
-  Type: Usable
-  Buy: 1000
-  Jobs:
-    All: true
-  Classes:
-    All: true
-  Flags:
-    NoConsume: true
-  Delay: {}
-  Stack: {}
-  NoUse:
-    Override: 89
-  Trade:
-    Override: 89
-    NoDrop: true
-    NoTrade: true
-    NoSell: true
-    NoCart: true
-    NoStorage: true
-    NoGuildStorage: true
-    NoMail: true
-    NoAuction: true
-  Script: |-
-    callfunc "UseSkillScroll",RGX_DAYTRADER;
 - Id: 200586
   Name: Divine Protection
   AegisName: RGX_DIVINEPROTECTION_SC

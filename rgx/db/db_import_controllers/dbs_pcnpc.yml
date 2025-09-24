@@ -1,0 +1,9 @@
+Header:
+  Type: PCNPC_DB
+  Version: 3
+
+Footer:
+  Imports:
+    - Path: rgx/db/pcnpc_db.yml
+    - Path: rgx/db/pcnpc_db_etc.yml
+    - Path: rgx/db/pcnpc_debug_db.yml

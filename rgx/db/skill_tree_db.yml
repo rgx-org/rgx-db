@@ -273,7 +273,7 @@ Body:
           - Name: AS_GRIMTOOTH
             MaxLevel: 5
           - Name: AS_ENCHANTPOISON
-            MaxLevel: 10
+            MaxLevel: 5
           - Name: AS_POISONREACT
             MaxLevel: 5
           - Name: AS_VENOMDUST

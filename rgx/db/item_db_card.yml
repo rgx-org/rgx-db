@@ -114,7 +114,7 @@ Body:
   Trade:
     Override: 89
   Script: |
-    bonus2 bAddEle,Ele_Dark,20;
+    bonus2 bAddEle,Ele_Shadow,20;
 - Id: 1200005
   Name: Lunatic Card
   AegisName: RGX_Lunatic_Card
@@ -2637,7 +2637,7 @@ Body:
   Trade:
     Override: 89
   Script: |
-    bonus2 bSubEle,Ele_Dark,30;
+    bonus2 bSubEle,Ele_Shadow,30;
     bonus bFlee,5;
 - Id: 1200116
   Name: Sidewinder Card
@@ -2704,7 +2704,7 @@ Body:
   Trade:
     Override: 89
   Script: |
-    bonus bDefEle,Ele_Dark;
+    bonus bDefEle,Ele_Shadow;
 - Id: 1200119
   Name: Sky Petite Card
   AegisName: RGX_Petit__Card
@@ -3985,7 +3985,7 @@ Body:
     bonus2 bSubEle,Ele_Wind,-50;
     bonus2 bSubEle,Ele_Poison,-50;
     bonus2 bSubEle,Ele_Holy,-50;
-    bonus2 bSubEle,Ele_Dark,-50;
+    bonus2 bSubEle,Ele_Shadow,-50;
     bonus2 bSubEle,Ele_Ghost,-50;
     bonus2 bSubEle,Ele_Decay,-50;
 - Id: 1200174
@@ -7184,7 +7184,7 @@ Body:
   Trade:
     Override: 89
   Script: |
-    bonus2 bSubEle,Ele_Dark,15;
+    bonus2 bSubEle,Ele_Shadow,15;
     bonus2 bSubEle,Ele_Decay,15;
 - Id: 1200311
   Name: Seal Card
@@ -9483,7 +9483,7 @@ Body:
     Override: 89
   Script: |
     bonus2 bAddEle,Ele_Holy,40;
-    bonus2 bAddEle,Ele_Dark,40;
+    bonus2 bAddEle,Ele_Shadow,40;
     bonus2 bAddRace,RC_Angel,40;
     bonus2 bAddRace,RC_Demon,40;
 - Id: 1200408
@@ -10456,8 +10456,8 @@ Body:
   Trade:
     Override: 89
   Script: |
-    bonus2 bSubEle,Ele_Dark,20;
-    bonus2 bAddEle,Ele_Dark,5;
+    bonus2 bSubEle,Ele_Shadow,20;
+    bonus2 bAddEle,Ele_Shadow,5;
 - Id: 1200448
   Name: Banshee Master Card
   AegisName: RGX_Banshee_Master_Card

@@ -284,6 +284,8 @@ Body:
           Stone: true
           Sleep: true
           TrickDead: true
+      Fail:
+          Autoberserkprovoke: true
     - Status: Endure
       Icon: EFST_ENDURE
       DurationLookup: SM_ENDURE
@@ -929,7 +931,12 @@ Body:
       Fail:
           Autoberserk: true
     - Status: Sacrifice
-      DurationLookup: PA_SACRIFICE
+      Icon: EFST_SACRIFICE
+      Flags:
+          NoSave: true
+          RemoveOnChangeMap: true
+          NoRemoveOnDead: false
+          OverlapIgnoreLevel: true
     - Status: Steelbody
       Icon: EFST_STEELBODY
       DurationLookup: MO_STEELBODY
@@ -1254,6 +1261,7 @@ Body:
       Flags:
           NoClearbuff: true
           NoDispell: true
+          NoSave: true
       Fail:
           Superarmor_broken: true
     - Status: Superarmor_broken
@@ -1764,6 +1772,8 @@ Body:
           NoClearbuff: true
           NoSave: true
           NoDispell: true
+      End:
+          StrikeMark: true
     - Status: Strikemark_extra
       Flags:
           NoRemoveOnDead: true
@@ -2019,10 +2029,6 @@ Body:
       Flags:
           NoSave: false
           NoDispell: true
-    - Status: Taunt
-      Flags:
-          NoSave: false
-          NoDispell: true
     - Status: Brewhp
       Icon: EFST_BREW
       Flags:
@@ -2133,3 +2139,29 @@ Body:
           NoDispell: true
           NoClearbuff: true
           NoForcedEnd: true
+    - Status: Martyrdom1
+      Icon: EFST_MARTYRDOM1
+      Flags:
+          NoSave: true
+    - Status: Martyrdom2
+      Icon: EFST_MARTYRDOM2
+      Flags:
+          NoSave: true
+    - Status: Martyrdom3
+      Icon: EFST_MARTYRDOM3
+      Flags:
+          NoSave: true
+    - Status: Autoberserkprovoke
+      Icon: EFST_PROVOKE
+      CalcFlags:
+          All: true
+      Flags:
+          Debuff: true
+          NoSaveInfinite: false
+          NoDispell: true
+      End:
+          Provoke: true
+          Freeze: true
+          Stone: true
+          Sleep: true
+          TrickDead: true

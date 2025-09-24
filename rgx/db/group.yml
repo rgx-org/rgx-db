@@ -184,7 +184,6 @@ Body:
       speed: true
       storage: true
       guildstorage: true
-      kami: true
       who: true
       itemreset: true
       clearstorage: true

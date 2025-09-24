@@ -21013,7 +21013,7 @@ Body:
       NoAuction: true
     Script: |
       specialeffect2 EF_CLOAKING;
-      sc_start4 SC_ELEMENTALCHANGE,1800000,1,Ele_Dark,1,0;
+      sc_start4 SC_ELEMENTALCHANGE,1800000,1,Ele_Shadow,1,0;
   - Id: 14540
     AegisName: Holy_Armor_S
     Name: Holy Armor Scroll

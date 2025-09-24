@@ -509,10 +509,9 @@ Body:
     State: ANY
     Condition: ALWAYS
     Trigger: {}
-    CastRate: 0
+    CastRate: 10000
     CastTime: 15000
-    CastCancel: SUPERARMOR
-    SuperArmor: 25
+    CastCancel: CANCELABLE
     CastDelay: 2000
     Target: SELF
     Emotion: NONE
