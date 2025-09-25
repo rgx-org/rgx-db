@@ -106,6 +106,7 @@ Body:
     ValMax: 75
     ParamMin: 4
     ParamMax: 4
+    RoptName: Autopot HP Potions
 - PoolId: 100015
   Name: SM_BASH Autospells Lv3 MG_LIGHTNINGBOLT & Damage -10% (20-35)
   Pool:
@@ -3951,10 +3952,11 @@ Body:
   Name: Autopot HP Potions (70-80, 500ms)
   Pool:
   - RoptId: 1055
-    ValMin: 65
-    ValMax: 75
+    ValMin: 70
+    ValMax: 80
     ParamMin: 5
     ParamMax: 5
+    RoptName: Autopot HP Potions
 - PoolId: 100519
   Name: Resist vs Creatures (+) (5-10)
   Pool:
@@ -4549,7 +4551,6 @@ Body:
     ValMax: 15
     ParamMin: 0
     ParamMax: 0
-    RoptName: Strike Mark duration
 - PoolId: 100593
   Name: AC_DOUBLE Crits inflict Poison
   Pool:
@@ -4598,7 +4599,6 @@ Body:
     ValMax: 1
     ParamMin: 0
     ParamMax: 0
-    RoptName: AC_SHOWER Strike Mark + no knockback
 - PoolId: 100599
   Name: AC_SHOWER Knockback & Cooldown (2, 2s)
   Pool:
@@ -4607,7 +4607,6 @@ Body:
     ValMax: 2
     ParamMin: 2
     ParamMax: 2
-    RoptName: AC_SHOWER Knockback & Cooldown
 - PoolId: 100600
   Name: AC_SHOWER Splash cells (1-2)
   Pool:
@@ -4616,7 +4615,6 @@ Body:
     ValMax: 2
     ParamMin: 0
     ParamMax: 0
-    RoptName: AC_SHOWER Splash cells
 - PoolId: 100601
   Name: Life Leech on Strike Mark (3-5)
   Pool:
@@ -4625,7 +4623,6 @@ Body:
     ValMax: 5
     ParamMin: 0
     ParamMax: 0
-    RoptName: Life Leech on Strike Mark
 - PoolId: 100603
   Name: ATK & Hit (5-10, 15-20)
   Pool:
@@ -4690,7 +4687,6 @@ Body:
     ValMax: 4
     ParamMin: 25
     ParamMax: 35
-    RoptName: AC_SHOWER Add Ammo (2-3) + Damage
 - PoolId: 100611
   Name: Crits AutoSpell LvX AL_DECAGI (2-4, 15-25)
   Pool:
@@ -4739,7 +4735,6 @@ Body:
     ValMax: 5
     ParamMin: 40
     ParamMax: 60
-    RoptName: HT_FLASHER proxy casts LvX AC_SHOWER
 - PoolId: 100617
   Name: 'Bow Power Boom + Lv3 Strike Mark Power Boom (25-50, 40-60) '
   Pool:
@@ -4748,7 +4743,6 @@ Body:
     ValMax: 50
     ParamMin: 40
     ParamMax: 60
-    RoptName: Bow Power Boom + Lv3 Strike Mark Power Boom
 - PoolId: 100618
   Name: Dash & Celerity convert to Power Boom
   Pool:
@@ -4765,7 +4759,6 @@ Body:
     ValMax: 10
     ParamMin: 15
     ParamMax: 25
-    RoptName: AC_SHOWER Reduce Splash + Chance to Stun
 - PoolId: 100620
   Name: AC_SHOWER inflicts Blind (30-50)
   Pool:
@@ -4782,7 +4775,6 @@ Body:
     ValMax: 60
     ParamMin: 0
     ParamMax: 0
-    RoptName: AC_SHOWER inflicts Strike Mark
 - PoolId: 100622
   Name: 'AC_SHOWER Cast time + Inc SP + Damage '
   Pool:
@@ -4791,7 +4783,6 @@ Body:
     ValMax: 300
     ParamMin: 100
     ParamMax: 125
-    RoptName: AC_SHOWER Cast time + Inc SP + Damage
 - PoolId: 100623
   Name: Reflect melee (10-15)
   Pool:
@@ -5085,7 +5076,6 @@ Body:
     ValMax: 1
     ParamMin: 0
     ParamMax: 0
-    RoptName: RGX_HARMONICTRIAD Allows Heat/Chill
 - PoolId: 100659
   Name: Power Boom works with Books
   Pool:
@@ -5094,4 +5084,3 @@ Body:
     ValMax: 1
     ParamMin: 0
     ParamMax: 0
-    RoptName: Power Boom works with Books

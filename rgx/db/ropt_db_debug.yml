@@ -106,9 +106,8 @@ Body:
   Done: true
   Script: |-
     bonus4 bAutoSpellOnSkillMotion,CR_HOLYCROSS,AL_HOLYLIGHT,1,1000;
-    bonus bReflectshieldInSafetywall,1;
-    bonus bReflectshieldReflectsBlocked,1;
-    bonus bAutoguardAppliesToSafetywall,1;
+    bonus bGrandcrossAddHitThreshold,40;
+    bonus2 bLifeLeechSkillKill,CR_HOLYCROSS,25;
   Labels:
   - Debug
 - Id: 806

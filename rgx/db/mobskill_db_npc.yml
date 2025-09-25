@@ -509,7 +509,7 @@ Body:
     State: ANY
     Condition: ALWAYS
     Trigger: {}
-    CastRate: 10000
+    CastRate: 0
     CastTime: 15000
     CastCancel: CANCELABLE
     CastDelay: 2000

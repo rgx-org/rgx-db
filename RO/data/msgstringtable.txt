@@ -4,10 +4,10 @@ Disconnected from server.#
 Disconnected from server.#
 Server offline. Please try again in a moment.#
 Another client has logged into this account.#
-Unregistered ID. Please make sure you have a registered account at https://runebreak.net/#
-Incorrect User ID or Password. Please try again.#
+Unregistered ID, invalid password, or server is inaccessible. Register at https://saga.runebreak.net/#
+Unregistered ID, invalid password, or server is inaccessible. Register at https://saga.runebreak.net/#
 This ID is expired.#
-Rejected from Server.#
+Unregistered ID, invalid password, or server is inaccessible. Register at https://saga.runebreak.net/#
 Character name has been taken.#
 Character creation denied.#
 Character celetion denied.#

@@ -1551,3 +1551,57 @@ Body:
   Done: false
   Script: |-
     ;
+- Id: 20166
+  FriendlyName: CR_HOLYCROSS AutoSpells AL_HOLYLIGHT
+  Option: CR_HOLYCROSS_AUTOSPELLS_AL_HOLYLIGHT
+  Transferable: true
+  Stackable: false
+  Description: '[Holy Cross autospells known Holy Light.]'
+  Done: true
+  Script: |-
+    bonus4 bAutoSpellOnSkillMotion,CR_HOLYCROSS,AL_HOLYLIGHT,max(1,getskilllv(AL_HOLYLIGHT)),1000;
+- Id: 20167
+  FriendlyName: CR_HOLYCROSS inflicts Silence multihit
+  Option: CR_HOLYCROSS_INFLICTS_SILENCE_MULTIHIT
+  Transferable: false
+  Stackable: false
+  Description: Holy Cross inflicts Silence per hit +%d%% (Works but timing is wrong)(WIP)
+  Done: false
+  Script: |-
+    bonus3 bAddEffOnSkill,CR_HOLYCROSS,SC_SILENCE,ropt(ROA_VALUE);
+- Id: 20168
+  FriendlyName: CR_GRANDCROSS vs Blind
+  Option: CR_GRANDCROSS_VS_BLIND
+  Transferable: false
+  Stackable: true
+  Description: Grand Cross damage vs Blinded +%d%%
+  Done: true
+  Script: |-
+    bonus3 bEffSkillMod,Eff_Blind,CR_GRANDCROSS,ropt(ROA_VALUE);
+- Id: 20169
+  FriendlyName: CR_GRANDCROSS inflicts Silence
+  Option: CR_GRANDCROSS_INFLICTS_SILENCE
+  Transferable: false
+  Stackable: true
+  Description: Grand Cross inflicts Silence +%d%%
+  Done: true
+  Script: |-
+    bonus3 bAddEffOnSkill,CR_GRANDCROSS,Eff_Silence,ropt(ROA_VALUE);
+- Id: 20170
+  FriendlyName: CR_GRANDCROSS <X% HP Add hit
+  Option: CR_GRANDCROSS_X_HP_ADD_HIT
+  Transferable: true
+  Stackable: false
+  Description: '[Grand Cross deals +1 hit when cast at <%d%% HP.](WIP)'
+  Done: false
+  Script: |-
+    bonus bGrandcrossAddHitThreshold,ropt(ROA_VALUE);
+- Id: 20171
+  FriendlyName: CR_HOLYCROSS Life Leech on Kill
+  Option: CR_HOLYCROSS_LIFE_LEECH_ON_KILL
+  Transferable: false
+  Stackable: true
+  Description: Holy Cross gives +%d%% Life Leech on kill
+  Done: true
+  Script: |-
+    bonus2 bLifeLeechSkillKill,CR_HOLYCROSS,ropt(ROA_VALUE);

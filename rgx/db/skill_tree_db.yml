@@ -95,7 +95,7 @@ Body:
           - Name: AL_CURE
             MaxLevel: 1
           - Name: AL_HOLYLIGHT
-            MaxLevel: 1
+            MaxLevel: 3
           - Name: MC_MAMMONITE
             MaxLevel: 5
           - Name: MC_LOUD

@@ -696,31 +696,62 @@ Body:
       - None
 - Id: 2015
   Name: Haedonggum (1h/Arcane)
-  Tags: []
+  Tags:
+  - Name: Silence
+    Weight: 1
+    WeightMod: 3
+  - Name: Blind
+    Weight: 1
+    WeightMod: 3
   Lines:
   - Line: 1
     Pools:
-    - Weight: 1
+    - Id: 200163
+      Weight: 1
+      Tags:
+      - Blind
+    - Id: 200484
+      Weight: 1
+      Tags:
+      - Silence
+    - Id: 200488
+      Weight: 3
       Tags:
       - None
   - Line: 2
     Pools:
-    - Weight: 1
+    - Id: 200321
+      Weight: 2
       Tags:
       - None
+    - Id: 200481
+      Weight: 1
+      Tags:
+      - Blind
+    - Id: 200482
+      Weight: 1
+      Tags:
+      - Silence
   - Line: 3
     Pools:
-    - Weight: 1
+    - Id: 200489
+      Weight: 1
       Tags:
-      - None
+      - Blind
+    - Id: 200490
+      Weight: 1
+      Tags:
+      - Silence
   - Line: 4
     Pools:
-    - Weight: 1
+    - Id: 200492
+      Weight: 1
       Tags:
       - None
   - Line: 5
     Pools:
-    - Weight: 1
+    - Id: 200491
+      Weight: 1
       Tags:
       - None
 - Id: 2016
@@ -1613,38 +1644,6 @@ Body:
     Pools:
     - Id: 801101
       Weight: 1
-      Tags:
-      - None
-- Id: 2028
-  Name: OLD Haedonggum (1h/Arcane) (Copy)
-  Tags: []
-  Lines:
-  - Line: 1
-    Pools:
-    - Weight: 1
-      Tags:
-      - None
-  - Line: 2
-    Pools:
-    - Id: 801102
-      Weight: 1
-      Tags:
-      - None
-  - Line: 3
-    Pools:
-    - Id: 800418
-      Weight: 1
-      Tags:
-      - None
-  - Line: 4
-    Pools:
-    - Id: 801103
-      Weight: 1
-      Tags:
-      - None
-  - Line: 5
-    Pools:
-    - Weight: 1
       Tags:
       - None
 - Id: 2029

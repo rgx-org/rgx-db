@@ -2806,7 +2806,7 @@ Body:
   AegisName: RGX_Haedonggum
   Type: Weapon
   SubType: 1hSword
-  Weight: 580
+  Weight: 350
   Attack: 77
   Range: 1
   Slots: 3

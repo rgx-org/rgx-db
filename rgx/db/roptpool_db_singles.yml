@@ -1762,6 +1762,15 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
+- PoolId: 1042
+  Name: Weapon damage vs Blinded
+  Pool:
+  - RoptId: 1042
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: Weapon damage vs Blinded
 - PoolId: 1044
   Name: Weapon damage vs Stunned
   Pool:
@@ -1854,7 +1863,7 @@ Body:
     ParamMin: 0
     ParamMax: 0
 - PoolId: 1058
-  Name: Blind negates Flee degradation
+  Name: Blind negates Flanking Flee degradation
   Pool:
   - RoptId: 1058
     ValMin: 1
@@ -1957,6 +1966,15 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
+- PoolId: 1072
+  Name: Blind extension
+  Pool:
+  - RoptId: 1072
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: Blind extension
 - PoolId: 1074
   Name: Deadly Poison reduces DEF
   Pool:
@@ -2005,6 +2023,7 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
+    RoptName: Life Leech on Crit
 - PoolId: 1081
   Name: Life Leech on Freeze
   Pool:
@@ -3392,6 +3411,15 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
+- PoolId: 1273
+  Name: Lucky Dodge inflicts Blind
+  Pool:
+  - RoptId: 1273
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: Lucky Dodge inflicts Blind
 - PoolId: 1274
   Name: SC_CELERITY on Poison
   Pool:
@@ -3552,7 +3580,6 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
-    RoptName: Power Boom works with Books
 - PoolId: 1297
   Name: Autospells give Power Boom
   Pool:
@@ -4409,7 +4436,6 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
-    RoptName: Auto Attacks inflict Strike Mark / no consume Strike Mark
 - PoolId: 1431
   Name: After Dispelling ally, give AL_BLESSING/AL_INCAGI
   Pool:
@@ -4418,7 +4444,33 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
-    RoptName: After Dispelling ally, give AL_BLESSING/AL_INCAGI
+- PoolId: 1432
+  Name: Life Leech vs Blind
+  Pool:
+  - RoptId: 1432
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: Life Leech vs Blind
+- PoolId: 1433
+  Name: Life Leech vs Silence
+  Pool:
+  - RoptId: 1433
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: Life Leech vs Silence
+- PoolId: 1434
+  Name: Life Leech vs Blind / Silence
+  Pool:
+  - RoptId: 1434
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: Life Leech vs Blind / Silence
 - PoolId: 10000
   Name: T1 Test Ropt V2
   Pool:
@@ -4860,7 +4912,6 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
-    RoptName: TF_POISON SP cost
 - PoolId: 10060
   Name: SM_BASH Accuracy
   Pool:
@@ -5109,7 +5160,6 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
-    RoptName: ITM_TOMAHAWK Crit & Strike Mark
 - PoolId: 10094
   Name: SM_MAGNUM Bonus Fire Damage
   Pool:
@@ -6353,7 +6403,6 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
-    RoptName: AC_SHOWER Knockback & Cooldown
 - PoolId: 10286
   Name: AC_DOUBLE Crits AutoSpell LvX TF_POISON
   Pool:
@@ -7005,6 +7054,24 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
+- PoolId: 20094
+  Name: CR_GRANDCROSS Add Hit vs Silenced
+  Pool:
+  - RoptId: 20094
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: CR_GRANDCROSS Add Hit vs Silenced
+- PoolId: 20095
+  Name: CR_GRANDCROSS Add +X Hits vs Silenced
+  Pool:
+  - RoptId: 20095
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: CR_GRANDCROSS Add +X Hits vs Silenced
 - PoolId: 20100
   Name: PR_STRECOVERY cures CWounds
   Pool:
@@ -7152,7 +7219,6 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
-    RoptName: RGX_WINDMILL inflicts Blind
 - PoolId: 20147
   Name: MO_COMBOFINISH Crit on Stun
   Pool:
@@ -7161,7 +7227,6 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
-    RoptName: MO_COMBOFINISH Crit on Stun
 - PoolId: 20148
   Name: RGX_WINDMILL inflicts Spinning
   Pool:
@@ -7170,7 +7235,6 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
-    RoptName: RGX_WINDMILL inflicts Spinning
 - PoolId: 20149
   Name: RGX_WINDMILL inflicts Shock, no activation
   Pool:
@@ -7179,7 +7243,6 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
-    RoptName: RGX_WINDMILL inflicts Shock, no activation
 - PoolId: 20151
   Name: MO_TRIPLEATTACK rate vs Unharmed
   Pool:
@@ -7188,7 +7251,6 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
-    RoptName: MO_TRIPLEATTACK rate vs Unharmed
 - PoolId: 20153
   Name: MO_EXTREMITYFIST raises Crit
   Pool:
@@ -7197,7 +7259,15 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
-    RoptName: MO_EXTREMITYFIST raises Crit
+- PoolId: 20156
+  Name: HT_SKIDTRAP grants Dash
+  Pool:
+  - RoptId: 20156
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: HT_SKIDTRAP grants Dash
 - PoolId: 20157
   Name: RGX_GANK works with Bows
   Pool:
@@ -9550,6 +9620,96 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
+- PoolId: 60067
+  Name: V1_CR_GRANDCROSS Damage vs Cursed
+  Pool:
+  - RoptId: 60067
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: V1_CR_GRANDCROSS Damage vs Cursed
+- PoolId: 60068
+  Name: V1_CR_GRANDCROSS Reduce Cast Time / No Super Armor
+  Pool:
+  - RoptId: 60068
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: V1_CR_GRANDCROSS Reduce Cast Time / No Super Armor
+- PoolId: 60069
+  Name: V1_CR_GRANDCROSS SP Cost
+  Pool:
+  - RoptId: 60069
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: V1_CR_GRANDCROSS SP Cost
+- PoolId: 60070
+  Name: V1_CR_GRANDCROSS No DEF reduction
+  Pool:
+  - RoptId: 60070
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: V1_CR_GRANDCROSS No DEF reduction
+- PoolId: 60071
+  Name: V1_CR_GRANDCROSS inflicts Blind
+  Pool:
+  - RoptId: 60071
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: V1_CR_GRANDCROSS inflicts Blind
+- PoolId: 60072
+  Name: V1_CR_GRANDCROSS Damage vs Silenced
+  Pool:
+  - RoptId: 60072
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: V1_CR_GRANDCROSS Damage vs Silenced
+- PoolId: 60073
+  Name: V1_CR_GRANDCROSS Additional Hit vs Silenced
+  Pool:
+  - RoptId: 60073
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: V1_CR_GRANDCROSS Additional Hit vs Silenced
+- PoolId: 60074
+  Name: V1_CR_GRANDCROSS Add CD / Reduce Channel Time
+  Pool:
+  - RoptId: 60074
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: V1_CR_GRANDCROSS Add CD / Reduce Channel Time
+- PoolId: 60075
+  Name: V1_CR_GRANDCROSS Reduce HP Cost
+  Pool:
+  - RoptId: 60075
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: V1_CR_GRANDCROSS Reduce HP Cost
+- PoolId: 60076
+  Name: V1_CR_GRANDCROSS AutoSpells AL_HEAL
+  Pool:
+  - RoptId: 60076
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: V1_CR_GRANDCROSS AutoSpells AL_HEAL
 - PoolId: 60095
   Name: V1_CR_SHIELDBOOMERANG Damage / After Cast Delay
   Pool:
@@ -9854,7 +10014,24 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
-    RoptName: V1_PR_LEXAETERNA inflicts SA_DISPEL
+- PoolId: 60270
+  Name: V1_CR_GRANDCROSS Doesn't Kill Self
+  Pool:
+  - RoptId: 60270
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: V1_CR_GRANDCROSS Doesn't Kill Self
+- PoolId: 60272
+  Name: V1_CR_GRANDCROSS Reduce self-inflicted damage
+  Pool:
+  - RoptId: 60272
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: V1_CR_GRANDCROSS Reduce self-inflicted damage
 - PoolId: 60282
   Name: V1_SA_DISPEL AutoSpells MG_STONECURSE
   Pool:
@@ -9863,7 +10040,6 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
-    RoptName: V1_SA_DISPEL AutoSpells MG_STONECURSE
 - PoolId: 60283
   Name: V1_SA_DISPEL Yellow Gemstone
   Pool:
@@ -9872,7 +10048,6 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
-    RoptName: V1_SA_DISPEL Yellow Gemstone
 - PoolId: 60296
   Name: V1_SA_LANDPROTECTOR autospells WZ_FIREPILLAR over SA_VOLCANO
   Pool:
@@ -10169,7 +10344,15 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
-    RoptName: V1_SA_DISPEL AutoSpells AL_BLESSING/AL_INCAGI/PR_SUFFRAGIUM
+- PoolId: 60380
+  Name: V1_CR_GRANDCROSS Additional Hits vs Silenced
+  Pool:
+  - RoptId: 60380
+    ValMin: 0
+    ValMax: 0
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: V1_CR_GRANDCROSS Additional Hits vs Silenced
 - PoolId: 60381
   Name: V1_AM_SPHEREMINE Free Red Gemstone
   Pool:
@@ -10202,7 +10385,6 @@ Body:
     ValMax: 0
     ParamMin: 0
     ParamMax: 0
-    RoptName: V1_SA_LANDPROTECTOR, SA_DISPEL, MG_SAFETYWALL super armor
 - PoolId: 60399
   Name: V1_KN_BOWLINGBASH AutoSpells SM_MAGNUM
   Pool:

@@ -5260,7 +5260,7 @@ Body:
     - Id: 156
       Name: AL_HOLYLIGHT
       Description: Holy Light
-      MaxLevel: 1
+      MaxLevel: 3
       Type: Magic
       TargetType: Attack
       Flags:
@@ -5268,15 +5268,17 @@ Body:
       Range: 9
       Hit: Single
       HitCount: 1
+      SeperateLv: false
       Element: Holy
       CopyFlags:
           Skill:
               Plagiarism: true
               Reproduce: true
       CastCancel: true
-      CastTime: 1500
+      CastTime: 1000
+      AfterCastActDelay: 500
       Requires:
-          SpCost: 15
+          SpCost: 20
     - Id: 157
       Name: MG_ENERGYCOAT
       Description: Energy Coat

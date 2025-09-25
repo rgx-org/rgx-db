@@ -1152,10 +1152,10 @@ SKILL_INFO_LIST = {
 	[SKID.AL_HOLYLIGHT] = {
 		"AL_HOLYLIGHT",
 		SkillName = "Holy Light",
-		MaxLv = 1,
-		SpAmount = { 15 },
+		MaxLv = 3,
+		SpAmount = { 20, 20, 20 },
 		bSeperateLv = false,
-		AttackRange = { 9 }
+		AttackRange = { 9, 9, 9 }
 	},
 	[SKID.MG_ENERGYCOAT] = {
 		"MG_ENERGYCOAT",

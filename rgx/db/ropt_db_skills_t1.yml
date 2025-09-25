@@ -388,7 +388,7 @@ Body:
   Description: '[Bash gives +%d%% Life Leech on kill]'
   Done: true
   Script: |-
-    bonus2 bLifeLeechSkillKill,SM_BASH,getrandomoptinfo(ROA_VALUE);
+    bonus2 bLifeLeechSkillKill,SM_BASH,ropt(ROA_VALUE);
 - Id: 10040
   FriendlyName: SM_BASH vs Bleeding
   Option: SM_BASH_VS_BLEEDING

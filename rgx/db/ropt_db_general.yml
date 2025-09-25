@@ -111,7 +111,7 @@ Body:
   Description: Weapon attacks inflict Blind +%d%%
   Done: true
   Script: |-
-    bonus2 bAddEff,Eff_Blind,getrandomoptinfo(ROA_VALUE)*100;
+    bonus2 bAddEff,Eff_Blind,ropt(ROA_VALUE)*100;
 - Id: 1012
   FriendlyName: Silence on weapon attack
   Option: SILENCE_ON_WEAPON_ATTACK
@@ -324,7 +324,7 @@ Body:
   Description: Life Leech +%d%% vs Bleeding enemies
   Done: true
   Script: |-
-    bonus2 bLifeLeechStatus,Eff_Bleeding,getrandomoptinfo(ROA_VALUE);
+    bonus2 bLifeLeechStatus,Eff_Bleeding,ropt(ROA_VALUE);
   Labels:
   - Bleeding
 - Id: 1034
@@ -543,7 +543,7 @@ Body:
   Option: AUTOPOT_HP_POTIONS
   Transferable: true
   Stackable: false
-  Description: '[When HP falls below %d%%, use an HP Potion every 0.%ds. HP Potion effectiveness -35%%.]'
+  Description: '[When HP falls below %d%%, use an HP Potion every 0.%ds. HP Potion effectiveness -30%%]'
   Done: true
   Script: |-
     sc_end(SC_AUTOPOT);
@@ -552,7 +552,7 @@ Body:
       .@t *= 10;
     }
     .@t *= 10;
-    sc_start4(SC_AUTOPOT,INFINITE_TICK,35,ropt(ROA_VALUE),.@t,0,10000,SCSTART_NOAVOID);
+    sc_start4(SC_AUTOPOT,INFINITE_TICK,30,ropt(ROA_VALUE),.@t,0,10000,SCSTART_NOAVOID);
   EquipScript: |-
     sc_end(SC_AUTOPOT);
     .@t = ropt(ROA_PARAM);
@@ -560,7 +560,7 @@ Body:
       .@t *= 10;
     }
     .@t *= 10;
-    sc_start4(SC_AUTOPOT,INFINITE_TICK,35,ropt(ROA_VALUE),.@t,0,10000,SCSTART_NOAVOID);
+    sc_start4(SC_AUTOPOT,INFINITE_TICK,30,ropt(ROA_VALUE),.@t,0,10000,SCSTART_NOAVOID);
   UnEquipScript: |-
     sc_end(SC_AUTOPOT);
 - Id: 1058
@@ -730,7 +730,7 @@ Body:
   Description: Life Leech +%d%% vs Stunned enemies
   Done: true
   Script: |-
-    bonus2 bLifeLeechStatus,Eff_Stun,getrandomoptinfo(ROA_VALUE);
+    bonus2 bLifeLeechStatus,Eff_Stun,ropt(ROA_VALUE);
 - Id: 1077
   FriendlyName: Life Leech effectiveness
   Option: LIFE_LEECH_EFFECTIVENESS
@@ -1113,10 +1113,10 @@ Body:
   Option: DOUBLE_ATTACKS_AUTOSPELL_LVX_AL_DECAGI__AL_HOLYLIGHT
   Transferable: true
   Stackable: true
-  Description: '[Double Attacks autospell Holy Light +%d%% / Double Attacks autospell known Decrease Agility +%d%%]'
+  Description: '[Double Attacks autospell known Holy Light +%d%% / known Decrease Agility +%d%%]'
   Done: true
   Script: |-
-    bonus4 bAutoSpellOnDoubleAttack,AL_HOLYLIGHT,1,ropt(ROA_VALUE)*10,1;
+    bonus4 bAutoSpellOnDoubleAttack,AL_HOLYLIGHT,max(1,getskilllv(AL_HOLYLIGHT)),ropt(ROA_VALUE)*10,1;
     bonus4 bAutoSpellOnDoubleAttack,AL_DECAGI,max(getskilllv(AL_DECAGI),1),ropt(ROA_VALUE)*10,1;
 - Id: 1120
   FriendlyName: AutoSpell Levels
@@ -4040,3 +4040,43 @@ Body:
   Done: true
   Script: |-
     bonus bDispelAutospellsBuffs,ropt(ROA_VALUE);
+- Id: 1432
+  FriendlyName: Life Leech vs Blind
+  Option: LIFE_LEECH_VS_BLIND
+  Transferable: false
+  Stackable: true
+  Description: Life Leech +%d%% vs Blinded enemies
+  Done: true
+  Script: |-
+    bonus2 bLifeLeechStatus,Eff_Blind,ropt(ROA_VALUE);
+  Labels:
+  - Bleeding
+- Id: 1433
+  FriendlyName: Life Leech vs Silence
+  Option: LIFE_LEECH_VS_SILENCE
+  Transferable: false
+  Stackable: true
+  Description: Life Leech +%d%% vs Silenced enemies
+  Done: true
+  Script: |-
+    bonus2 bLifeLeechStatus,Eff_Silence,ropt(ROA_VALUE);
+- Id: 1434
+  FriendlyName: Life Leech vs Blind / Silence
+  Option: LIFE_LEECH_VS_BLIND__SILENCE
+  Transferable: false
+  Stackable: true
+  Description: Life Leech +%d%% vs Blinded enemies / +%d%% vs Silenced enemies
+  Done: true
+  Script: |-
+    bonus2 bLifeLeechStatus,Eff_Blind,ropt(ROA_VALUE);
+    bonus2 bLifeLeechStatus,Eff_Silence,ropt(ROA_VALUE);
+- Id: 1435
+  FriendlyName: Blind / Silence on weapon attack
+  Option: BLIND__SILENCE_ON_WEAPON_ATTACK
+  Transferable: false
+  Stackable: true
+  Description: Weapon attacks inflict Blind +%d%% / Silence +%d%%
+  Done: true
+  Script: |-
+    bonus2 bAddEff,Eff_Blind,ropt(ROA_VALUE)*100;
+    bonus2 bAddEff,Eff_Silence,ropt(ROA_VALUE)*100;

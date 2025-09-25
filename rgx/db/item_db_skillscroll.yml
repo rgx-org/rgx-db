@@ -3972,7 +3972,7 @@ Body:
   Script: |
     callfunc "UseSkillScroll",CR_TRUST;
 - Id: 200203
-  Name: Guard
+  Name: Auto Guard
   AegisName: CR_AUTOGUARD_SC
   Type: Usable
   Buy: 1000

@@ -170,6 +170,7 @@ Body:
     ValMax: 40
     ParamMin: 15
     ParamMax: 30
+    RoptName: WZ_METEOR inflicts Heat & Stun chance
 - PoolId: 200025
   Name: Heat & Burning ignore stat resistance (20-30. 10-20)
   Pool:
@@ -906,6 +907,7 @@ Body:
     ValMax: 10
     ParamMin: 0
     ParamMax: 0
+    RoptName: Life Leech vs CWounds
 - PoolId: 200131
   Name: Inflicting Critical Wounds gives Fortified
   Pool:
@@ -1131,13 +1133,14 @@ Body:
     ParamMin: 0
     ParamMax: 0
 - PoolId: 200163
-  Name: Blind on weapon attack (5-15)
+  Name: Blind on weapon attack (10-15)
   Pool:
   - RoptId: 1011
-    ValMin: 5
+    ValMin: 10
     ValMax: 15
     ParamMin: 0
     ParamMax: 0
+    RoptName: Blind on weapon attack
 - PoolId: 200164
   Name: Double Attacks inflict Poison / Blind (25-30, 10-15)
   Pool:
@@ -1314,7 +1317,6 @@ Body:
     ValMax: 30
     ParamMin: 0
     ParamMax: 0
-    RoptName: KN_PIERCE inflicts Stun
 - PoolId: 200187
   Name: Power Boom increases Crit ATK (+) (15-25)
   Pool:
@@ -2147,6 +2149,7 @@ Body:
     ValMax: 15
     ParamMin: 0
     ParamMax: 0
+    RoptName: Silence on weapon attack
 - PoolId: 200306
   Name: Silence extension (7-10)
   Pool:
@@ -2161,19 +2164,6 @@ Body:
   - RoptId: 1307
     ValMin: 15
     ValMax: 20
-    ParamMin: 0
-    ParamMax: 0
-- PoolId: 200308
-  Name: CR_GRANDCROSS Add Hit vs Silenced (1-2)
-  Pool:
-  - RoptId: 20094
-    ValMin: 1
-    ValMax: 1
-    ParamMin: 0
-    ParamMax: 0
-  - RoptId: 20095
-    ValMin: 2
-    ValMax: 2
     ParamMin: 0
     ParamMax: 0
 - PoolId: 200310
@@ -2265,13 +2255,14 @@ Body:
     ParamMin: 0
     ParamMax: 0
 - PoolId: 200321
-  Name: AL_HOLYLIGHT inflicts Stun (10-20)
+  Name: AL_HOLYLIGHT inflicts Stun (10-15)
   Pool:
   - RoptId: 10134
     ValMin: 10
-    ValMax: 20
+    ValMax: 15
     ParamMin: 0
     ParamMax: 0
+    RoptName: AL_HOLYLIGHT inflicts Stun
 - PoolId: 200322
   Name: Stun triggers AL_HOLYLIGHT
   Pool:
@@ -2400,6 +2391,7 @@ Body:
     ValMax: 3
     ParamMin: 0
     ParamMax: 0
+    RoptName: WZ_VERMILLION hits inflict Shock
 - PoolId: 200342
   Name: WZ_METEOR cast time (5-10)
   Pool:
@@ -2672,6 +2664,7 @@ Body:
     ValMax: 7
     ParamMin: 0
     ParamMax: 0
+    RoptName: Burning kills give Dash
 - PoolId: 200377
   Name: Cast times (3-5)
   Pool:
@@ -2784,6 +2777,7 @@ Body:
     ValMax: 3
     ParamMin: 33
     ParamMax: 50
+    RoptName: WZ_METEOR Meteors AutoSpell LvX MG_FIREBOLT
 - PoolId: 200391
   Name: WZ_FIREPILLAR hits inflict Heat (7-10)
   Pool:
@@ -2856,7 +2850,6 @@ Body:
     ValMax: 50
     ParamMin: 0
     ParamMax: 0
-    RoptName: MO_CHAINCOMBO Spirit Sphere
 - PoolId: 200402
   Name: MO_CHAINCOMBO AutoSpells Lex Aeterna
   Pool:
@@ -2865,7 +2858,6 @@ Body:
     ValMax: 1
     ParamMin: 0
     ParamMax: 0
-    RoptName: MO_CHAINCOMBO AutoSpells Lex Aeterna
 - PoolId: 200403
   Name: Combo skills gain Barrier Breaker (300-350)
   Pool:
@@ -2882,7 +2874,6 @@ Body:
     ValMax: 60
     ParamMin: 0
     ParamMax: 0
-    RoptName: RGX_WINDMILL inflicts Blind
 - PoolId: 200406
   Name: Combo perfect timing give 4-5 SC_CELERITY
   Pool:
@@ -2891,7 +2882,6 @@ Body:
     ValMax: 5
     ParamMin: 0
     ParamMax: 0
-    RoptName: Combo perfect timing give SC_CELERITY
 - PoolId: 200407
   Name: Combo perfect timing gives Power Boom effectiveness (15-25)
   Pool:
@@ -2900,7 +2890,6 @@ Body:
     ValMax: 25
     ParamMin: 0
     ParamMax: 0
-    RoptName: Combo perfect timing grants Power Boom effectiveness
 - PoolId: 200408
   Name: AC_CONCENTRATION Cancels Stun & Gives SC_CELERITY
   Pool:
@@ -2917,7 +2906,6 @@ Body:
     ValMax: 60
     ParamMin: 0
     ParamMax: 0
-    RoptName: RGX_WINDMILL inflicts Spinning
 - PoolId: 200410
   Name: RGX_WINDMILL inflicts SC_SHOCK, no activation
   Pool:
@@ -2926,7 +2914,6 @@ Body:
     ValMax: 1
     ParamMin: 0
     ParamMax: 0
-    RoptName: RGX_WINDMILL inflicts Shock, no activation
 - PoolId: 200411
   Name: Combo skills autospell AL_HEAL
   Pool:
@@ -2943,7 +2930,6 @@ Body:
     ValMax: 15
     ParamMin: 0
     ParamMax: 0
-    RoptName: RGX_WINDMILL Life Leech
 - PoolId: 200413
   Name: RGX_WINDMILL grants Capoeira
   Pool:
@@ -2960,7 +2946,6 @@ Body:
     ValMax: 150
     ParamMin: 0
     ParamMax: 0
-    RoptName: Combo perfect timing Accuracy
 - PoolId: 200415
   Name: MO_TRIPLEATTACK rate vs Unharmed (30-50)
   Pool:
@@ -2969,7 +2954,6 @@ Body:
     ValMax: 50
     ParamMin: 0
     ParamMax: 0
-    RoptName: MO_TRIPLEATTACK rate vs Unharmed
 - PoolId: 200416
   Name: Gain +X flee with no shield (30-50)
   Pool:
@@ -2986,7 +2970,6 @@ Body:
     ValMax: 1
     ParamMin: 0
     ParamMax: 0
-    RoptName: Combo Enders grant SC_MINISUFF
 - PoolId: 200420
   Name: Combo Enders grant Dash (5-10s)
   Pool:
@@ -2995,7 +2978,6 @@ Body:
     ValMax: 10
     ParamMin: 0
     ParamMax: 0
-    RoptName: Combo Enders grant Dash
 - PoolId: 200421
   Name: MO_ASURASTRIKE raises Crit (2, 50)
   Pool:
@@ -3076,7 +3058,6 @@ Body:
     ValMax: 20
     ParamMin: 0
     ParamMax: 0
-    RoptName: Strike Mark duration
 - PoolId: 200433
   Name: Damage vs Unharmed targets (5-15)
   Pool:
@@ -3085,7 +3066,6 @@ Body:
     ValMax: 15
     ParamMin: 0
     ParamMax: 0
-    RoptName: Damage vs Unharmed targets
 - PoolId: 200434
   Name: Life Leech on Strike Mark (6-10)
   Pool:
@@ -3094,7 +3074,6 @@ Body:
     ValMax: 10
     ParamMin: 0
     ParamMax: 0
-    RoptName: Life Leech on Strike Mark
 - PoolId: 200436
   Name: Barrier Breaker on Crit (+) (100-150)
   Pool:
@@ -3175,7 +3154,6 @@ Body:
     ValMax: 1
     ParamMin: 0
     ParamMax: 0
-    RoptName: Lex Aeterna removes target's Crit Resist
 - PoolId: 200446
   Name: Crit ATK vs Blinded (10-20)
   Pool:
@@ -3224,7 +3202,6 @@ Body:
     ValMax: 25
     ParamMin: 0
     ParamMax: 0
-    RoptName: Arrow status triggers grant Dash
 - PoolId: 200452
   Name: Double Attacks don't consume Lex Aeterna (25-40)
   Pool:
@@ -3364,6 +3341,7 @@ Body:
     ValMax: 3
     ParamMin: 1
     ParamMax: 1
+    RoptName: CR_AUTOGUARD AutoSpells SM_BASH LvX
 - PoolId: 200468
   Name: DC_THROWARROW inflicts Bleeding (33-50)
   Pool:
@@ -3468,3 +3446,102 @@ Body:
     ValMax: 10
     ParamMin: 0
     ParamMax: 0
+- PoolId: 200481
+  Name: CR_HOLYCROSS AutoSpells AL_HOLYLIGHT
+  Pool:
+  - RoptId: 20166
+    ValMin: 1
+    ValMax: 1
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: CR_HOLYCROSS AutoSpells AL_HOLYLIGHT
+- PoolId: 200482
+  Name: CR_HOLYCROSS inflict Silence (15-20)
+  Pool:
+  - RoptId: 20167
+    ValMin: 30
+    ValMax: 40
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: CR_HOLYCROSS inflicts Silence multihit
+- PoolId: 200483
+  Name: Life Leech vs Blind (5-10)
+  Pool:
+  - RoptId: 1432
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: Life Leech vs Blind
+- PoolId: 200484
+  Name: Silence on weapon attack (5-10)
+  Pool:
+  - RoptId: 1012
+    ValMin: 5
+    ValMax: 10
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: Silence on weapon attack
+- PoolId: 200486
+  Name: Life Leech vs Silence (15-30)
+  Pool:
+  - RoptId: 1433
+    ValMin: 15
+    ValMax: 30
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: Life Leech vs Silence
+- PoolId: 200487
+  Name: Life Leech vs Blind / Silence (3-10, 10-30)
+  Pool:
+  - RoptId: 1434
+    ValMin: 3
+    ValMax: 10
+    ParamMin: 10
+    ParamMax: 30
+    RoptName: Life Leech vs Blind / Silence
+- PoolId: 200488
+  Name: Blind / Silence on weapon attack (5-15, 3-10)
+  Pool:
+  - RoptId: 1435
+    ValMin: 5
+    ValMax: 15
+    ParamMin: 3
+    ParamMax: 10
+    RoptName: Blind / Silence on weapon attack
+- PoolId: 200489
+  Name: CR_GRANDCROSS vs Blind (10-25)
+  Pool:
+  - RoptId: 20168
+    ValMin: 10
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: CR_GRANDCROSS vs Blind
+- PoolId: 200490
+  Name: CR_GRANDCROSS inflicts Silence (15-25)
+  Pool:
+  - RoptId: 20169
+    ValMin: 15
+    ValMax: 25
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: CR_GRANDCROSS inflicts Silence
+- PoolId: 200491
+  Name: CR_GRANDCROSS <X% HP Add hit (35-45)
+  Pool:
+  - RoptId: 20170
+    ValMin: 35
+    ValMax: 45
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: CR_GRANDCROSS <X% HP Add hit
+- PoolId: 200492
+  Name: CR_HOLYCROSS Life Leech on Kill (15-30)
+  Pool:
+  - RoptId: 20171
+    ValMin: 15
+    ValMax: 30
+    ParamMin: 0
+    ParamMax: 0
+    RoptName: CR_HOLYCROSS Life Leech on Kill
