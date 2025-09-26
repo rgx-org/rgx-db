@@ -253,7 +253,7 @@ Body:
   DropMod: 100
   Instances:
     10017: true
-    10018: true
+    10019: true
   DropGroupStratas:
     Common: 1003
     Uncommon: 1003

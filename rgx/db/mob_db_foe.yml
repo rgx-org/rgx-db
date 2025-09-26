@@ -1891,3 +1891,37 @@ Body:
   - Item: RGX_SOUL_FRAGMENT
     Rate: 10000
     StealProtected: true
+- Id: 28114
+  AegisName: RGX_F_SIOFRA
+  Name: Siofra
+  Level: 61
+  Hp: 32500
+  Attack: 1225
+  Attack2: 1620
+  Matk: 250
+  Matk2: 350
+  Defense: 5
+  MagicDefense: 25
+  Str: 99
+  Agi: 12
+  Vit: 85
+  Int: 35
+  Dex: 120
+  Luk: 30
+  BonusCrit: 25
+  AttackRange: 1
+  SkillRange: 10
+  ChaseRange: 25
+  Size: Medium
+  Race: Brute
+  Element: Water
+  ElementLevel: 2
+  WalkSpeed: 325
+  AttackDelay: 1728
+  AttackMotion: 500
+  DamageMotion: 240
+  Ai: 21
+  Class: Boss
+  Modes: {}
+  ExtendedModes:
+    Foe: true

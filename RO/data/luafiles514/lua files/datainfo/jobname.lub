@@ -6023,4 +6023,9 @@ JobNameTable = {
 	[jobtbl.JT_RGX_SUM_BLUEPLANT] = "BLUE_PLANT",
 	[jobtbl.JT_RGX_SUM_YELLOWPLANT] = "YELLOW_PLANT",
 	[jobtbl.JT_RGX_SUM_SHININGPLANT] = "SHINING_PLANT",
+	[jobtbl.JT_RGX_B_ICEWIND] = "ep20_icewind1",
+	[jobtbl.JT_RGX_SHIMA] = "EP20_FAKE_IWIN_SN",
+	[jobtbl.JT_RGX_DALE] = "ep20_icewind2",
+	[jobtbl.JT_RGX_F_SIOFRA] = "ep21_icehorn",
+	[jobtbl.JT_RGX_SEAHORSE] = "ep21_iceseahorse",
 }

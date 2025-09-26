@@ -10784,6 +10784,7 @@ Body:
   AttackMotion: 192
   DamageMotion: 192
   Ai: 21
+  HatEffect: HAT_EF_GIANTBODY
   Class: Normal
   Modes: {}
   ExtendedModes: {}
@@ -17987,3 +17988,115 @@ Body:
   - Item: RGX_PIPE
     Rate: 200
     StealProtected: true
+- Id: 25544
+  AegisName: RGX_SHIMA
+  Name: Shima
+  Level: 49
+  Hp: 4913
+  Attack: 315
+  Attack2: 346
+  Matk: 60
+  Matk2: 90
+  Defense: 30
+  MagicDefense: 15
+  Str: 34
+  Agi: 47
+  Vit: 49
+  Int: 10
+  Dex: 140
+  Luk: 26
+  BonusCrit: 13
+  AttackRange: 2
+  SkillRange: 10
+  ChaseRange: 12
+  Size: Medium
+  Race: Brute
+  Element: Water
+  ElementLevel: 1
+  WalkSpeed: 125
+  AttackDelay: 924
+  AttackMotion: 780
+  SkillDelay: 900
+  AmotionActive: 40
+  DamageMotion: 420
+  Ai: 19
+  Class: Normal
+  Modes:
+    Detector: true
+  ExtendedModes: {}
+  Drops:
+  - Item: RGX_Daydric_Card
+    Rate: 1
+    StealProtected: true
+- Id: 25545
+  AegisName: RGX_DALE
+  Name: Dale
+  Level: 55
+  Hp: 9613
+  Attack: 630
+  Attack2: 775
+  Matk: 150
+  Matk2: 250
+  Defense: 25
+  MagicDefense: 15
+  Str: 25
+  Agi: 25
+  Vit: 42
+  Int: 25
+  Dex: 100
+  Luk: 26
+  BonusCrit: 13
+  AttackRange: 1
+  SkillRange: 10
+  ChaseRange: 12
+  Size: Medium
+  Race: Brute
+  Element: Neutral
+  ElementLevel: 1
+  WalkSpeed: 160
+  AttackDelay: 1424
+  AttackMotion: 780
+  AmotionActive: 40
+  DamageMotion: 420
+  Ai: 19
+  Class: Normal
+  Modes:
+    Detector: true
+  ExtendedModes: {}
+  Drops:
+  - Item: RGX_Daydric_Card
+    Rate: 1
+    StealProtected: true
+- Id: 25546
+  AegisName: RGX_SEAHORSE
+  Name: Sea Horse
+  Level: 33
+  Hp: 2330
+  Attack: 300
+  Attack2: 450
+  Matk: 15
+  Matk2: 90
+  Defense: 5
+  MagicDefense: 3
+  Str: 25
+  Agi: 99
+  Vit: 12
+  Int: 7
+  Dex: 50
+  Luk: 15
+  BonusCrit: 9
+  AttackRange: 1
+  SkillRange: 10
+  ChaseRange: 12
+  Size: Small
+  Race: Formless
+  Element: Water
+  ElementLevel: 1
+  WalkSpeed: 90
+  AttackDelay: 600
+  AttackMotion: 500
+  DamageMotion: 240
+  Ai: 02
+  Class: Normal
+  Modes: {}
+  ExtendedModes: {}

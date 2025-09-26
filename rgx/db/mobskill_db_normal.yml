@@ -24903,3 +24903,130 @@ Body:
     CastDelay: 5000
     Target: TARGET
     Emotion: NONE
+- MobId: 25544
+  MobName: RGX_SHIMA
+  Skills:
+  - Index: 0
+    SkillName: KN_SPEARBOOMERANG
+    SkillLv: 3
+    UniqueIdentifier: yuuki_kiiro_fukurou_is_yokosu
+    State: CHASE
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 12000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 1
+    SkillName: KN_PIERCE
+    SkillLv: 5
+    UniqueIdentifier: tokubetsu_gold_uma_wa_smithing
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 25000
+    Target: TARGET
+    Emotion: NONE
+    OldRate: 500
+- MobId: 25545
+  MobName: RGX_DALE
+  Skills:
+  - Index: 0
+    SkillName: BS_MAXIMIZE
+    SkillLv: 5
+    UniqueIdentifier: shy_lime_koumori_is_suteteiru
+    State: ANYTARGET
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 1500
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 50000
+    Target: SELF
+    Emotion: NONE
+    ExMsc:
+    - Condition: STATUSFALSE
+      Trigger:
+        Status: SC_MAXIMIZEPOWER
+  - Index: 1
+    SkillName: CR_REFLECTSHIELD
+    SkillLv: 5
+    UniqueIdentifier: still_cha_porcupine_wa_reinforcing
+    State: ANYTARGET
+    Condition: MELEEATTACKED
+    Trigger: {}
+    CastRate: 1000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 60000
+    Target: SELF
+    Emotion: FRET
+    ExMsc:
+    - Condition: STATUSFALSE
+      Trigger:
+        Status: SC_REFLECTSHIELD
+  - Index: 2
+    SkillName: SM_MAGNUM
+    SkillLv: 3
+    UniqueIdentifier: hidari_gold_doragon_wa_hiding
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 1500
+    CastCancel: SUPERARMOR
+    SuperArmor: 25
+    CastDelay: 20000
+    Target: SELF
+    Emotion: NONE
+  - Index: 3
+    SkillName: SM_BASH
+    SkillLv: 3
+    UniqueIdentifier: tokubetsu_cha_badger_is_kiwoshiteiru
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 500
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: SELF
+    Emotion: NONE
+  - Index: 4
+    SkillName: NPC_CRITICALWOUND
+    SkillLv: 1
+    UniqueIdentifier: mugen_ivory_otter_is_burning
+    State: ATTACK
+    Condition: TARGETSTATUSTRUE
+    Trigger:
+      Status: SC_BLEEDING
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+    OldRate: 500
+  - Index: 5
+    SkillName: NPC_CRITICALWOUND
+    SkillLv: 1
+    UniqueIdentifier: kenmei_chairo_scorpion_wa_ruling
+    State: ATTACK
+    Condition: DIFFICULTYGE
+    Trigger:
+      Difficulty: VALKYRIE
+    CastRate: 500
+    CastTime: 0
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+    OldRate: 500
+- MobId: 25546
+  MobName: RGX_SEAHORSE
+  Skills: []

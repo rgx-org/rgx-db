@@ -1633,7 +1633,51 @@ Body:
     SpawnArea: 1
     RespawnTimer: -2
 - Id: 1160
-  Name: f13 - Scaraba
+  Name: f13 - Icewind
+  Members:
+  - Id: 25544
+    Name: Shima
+    Count: 125
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25136
+    Name: Snowier
+    Count: 15
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25134
+    Name: Ice Titan
+    Count: 10
+    RewardMod: 200
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 25135
+    Name: Gazeti
+    Count: 10
+    RewardMod: 80
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+  - Id: 28114
+    Name: Siofra
+    Count: 1
+    RewardMod: 100
+    SpawnX: -1
+    SpawnY: -1
+    SpawnArea: -1
+    RespawnTimer: -1
+    Foe: true
+- Id: 1170
+  Name: f14 - Scaraba
   Members:
   - Id: 25115
     Name: Scaraba
@@ -2062,50 +2106,6 @@ Body:
     SpawnY: 40
     SpawnArea: 3
     RespawnTimer: -2
-- Id: 1170
-  Name: f14 - ClockTowerManager
-  Members:
-  - Id: 25093
-    Name: Alarm
-    Count: 90
-    RewardMod: 100
-    SpawnX: -1
-    SpawnY: -1
-    SpawnArea: -1
-    RespawnTimer: -1
-  - Id: 25094
-    Name: Elder
-    Count: 35
-    RewardMod: 120
-    SpawnX: -1
-    SpawnY: -1
-    SpawnArea: -1
-    RespawnTimer: -1
-  - Id: 25095
-    Name: Rideword
-    Count: 30
-    RewardMod: 75
-    SpawnX: -1
-    SpawnY: -1
-    SpawnArea: -1
-    RespawnTimer: -1
-  - Id: 28032
-    Name: Time Holder
-    Count: 1
-    RewardMod: 100
-    SpawnX: -1
-    SpawnY: -1
-    SpawnArea: -1
-    RespawnTimer: -1
-    Foe: true
-  - Id: 25096
-    Name: Sage Worm
-    Count: 15
-    RewardMod: 100
-    SpawnX: -1
-    SpawnY: -1
-    SpawnArea: -1
-    RespawnTimer: -1
 - Id: 1180
   Name: f16 - Bacsojin
   Members:

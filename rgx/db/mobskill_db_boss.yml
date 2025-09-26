@@ -5043,3 +5043,22 @@ Body:
     - MobId: RGX_SCARABA_EGG_SW_I
       Amount: 1
       MasterDead: true
+- MobId: 29062
+  MobName: RGX_B_ICEWIND
+  Skills:
+  - Index: 0
+    SkillName: NPC_SUMMONMONSTER
+    SkillLv: 1
+    UniqueIdentifier: hisashiburi_black_elk_is_tsukondeiru
+    State: ANY
+    Condition: ONSPAWN
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_DALE
+      Amount: 2

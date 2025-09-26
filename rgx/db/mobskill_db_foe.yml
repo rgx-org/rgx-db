@@ -4323,3 +4323,110 @@ Body:
     Target: AROUNDTARGET
     AroundArea: 9
     Emotion: NONE
+- MobId: 28114
+  MobName: RGX_F_SIOFRA
+  Skills:
+  - Index: 0
+    SkillName: RGX_FOESUMMON
+    SkillLv: 1
+    UniqueIdentifier: wary_aoi_owl_is_kujiteiru
+    State: IDLE
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 30000
+    Target: SELF
+    Emotion: NONE
+    Summons:
+    - MobId: RGX_SEAHORSE
+      Amount: 1
+      MasterDead: true
+      SkipEffect: true
+    FoeSummonData:
+      Limit: 5
+      AreaAroundPlayer: 92
+  - Index: 1
+    SkillName: WZ_WATERBALL
+    SkillLv: 2
+    UniqueIdentifier: kirameku_kiiro_cougar_is_repairing
+    State: CHASE
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 2500
+    CastTime: 900
+    CastCancel: CANCELABLE
+    CastDelay: 13000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 2
+    SkillName: NPC_STUNATTACK
+    SkillLv: 1
+    UniqueIdentifier: fubuki_green_shika_wa_shinjitsuwosagashiteiru
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 2000
+    CastTime: 250
+    CastCancel: CANCELABLE
+    CastDelay: 10000
+    Target: TARGET
+    Emotion: FRET
+  - Index: 3
+    SkillName: NPC_GROUNDATTACK
+    SkillLv: 1
+    UniqueIdentifier: chiisana_aoi_hawk_is_bargaining
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 100
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: FRET
+  - Index: 4
+    SkillName: AL_DECAGI
+    SkillLv: 5
+    UniqueIdentifier: vigilant_brown_gurifon_wa_charging
+    State: CHASE
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 550
+    CastTime: 300
+    CastCancel: CANCELABLE
+    CastDelay: 11000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 5
+    SkillName: AL_DECAGI
+    SkillLv: 5
+    UniqueIdentifier: pure_tamanegi_uma_is_persuading
+    State: ATTACK
+    Condition: ALWAYS
+    Trigger: {}
+    CastRate: 500
+    CastTime: 300
+    CastCancel: CANCELABLE
+    CastDelay: 5000
+    Target: TARGET
+    Emotion: NONE
+  - Index: 6
+    SkillName: KN_TWOHANDQUICKEN
+    SkillLv: 3
+    UniqueIdentifier: mugen_orenji_whale_is_losing
+    State: ATTACK
+    Condition: HPTRIGGER
+    Trigger:
+      Percent: 25
+    CastRate: 10000
+    CastTime: 0
+    CastCancel: UNCANCELABLE
+    CastDelay: 0
+    Target: SELF
+    Emotion: FRET
+    ExMsc:
+    - Condition: DIFFICULTYGE
+      Trigger:
+        Difficulty: EINHERJAR

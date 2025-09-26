@@ -459,10 +459,38 @@ Body:
   AdditionalMaps:
     ma_zif01: true
 - Id: 10018
-  Name: f13_queen_scaraba
+  Name: f13_icewind
   GameMode: FreeGrind
   SpawnGroupIds:
     1160: true
+  EndZone:
+    X: 150
+    Y: 50
+  Enter:
+    Map: ice_dun03
+    X: 148
+    Y: 20
+  Boss:
+    MobId: 29062
+    SpawnX: 150
+    SpawnY: 227
+    SpawnRadius: 6
+    RewardModifier: 100
+  ShrineType: Mineral
+  ShrineMin: 3
+  ShrineMax: 5
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 10019
+  Name: f14_queen_scaraba
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1170: true
   EndZone:
     X: 40
     Y: 175
@@ -479,32 +507,6 @@ Body:
   ShrineType: Mineral
   ShrineMin: 3
   ShrineMax: 5
-  Tips: {}
-  Notes: ''
-  TimeLimit: 5184000
-  IdleTimeOut: 5184000
-  AdditionalMaps:
-    ma_zif01: true
-- Id: 10019
-  Name: f14_ctm
-  GameMode: FreeGrind
-  SpawnGroupIds:
-    1170: true
-  EndZone:
-    X: 140
-    Y: 114
-  Enter:
-    Map: tha_t04
-    X: 83
-    Y: 35
-  Boss:
-    MobId: 29020
-    SpawnX: 141
-    SpawnY: 294
-    SpawnRadius: 1
-    RewardModifier: 100
-  ShrineType: Mineral
-  Wip: true
   Tips: {}
   Notes: ''
   TimeLimit: 5184000
@@ -927,6 +929,32 @@ Body:
     MobId: 29047
     SpawnRadius: 1
     RewardModifier: 100
+  Wip: true
+  Tips: {}
+  Notes: ''
+  TimeLimit: 5184000
+  IdleTimeOut: 5184000
+  AdditionalMaps:
+    ma_zif01: true
+- Id: 11019
+  Name: f14_ctm
+  GameMode: FreeGrind
+  SpawnGroupIds:
+    1170: true
+  EndZone:
+    X: 140
+    Y: 114
+  Enter:
+    Map: tha_t04
+    X: 83
+    Y: 35
+  Boss:
+    MobId: 29020
+    SpawnX: 141
+    SpawnY: 294
+    SpawnRadius: 1
+    RewardModifier: 100
+  ShrineType: Mineral
   Wip: true
   Tips: {}
   Notes: ''
