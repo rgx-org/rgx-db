@@ -1146,8 +1146,8 @@ gef_dun03.rsw#bgm\\50.mp3#
 iz_dun00.rsw#bgm\\29.mp3#
 iz_dun01.rsw#bgm\\29.mp3#
 iz_dun02.rsw#bgm\\29.mp3#
-iz_dun03.rsw#data\\bgm\\49.mp3#
-iz_dun04.rsw#data\\bgm\\49.mp3#
+iz_dun03.rsw#data\\bgm\\dire.mp3#
+iz_dun04.rsw#data\\bgm\\dire.mp3#
 in_sphinx1.rsw#data\\bgm\\22.mp3#
 in_sphinx2.rsw#data\\bgm\\22.mp3#
 in_sphinx3.rsw#data\\bgm\\22.mp3#

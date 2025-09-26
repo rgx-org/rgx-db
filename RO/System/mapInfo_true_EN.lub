@@ -8028,6 +8028,15 @@ mapTbl = {
 		},
 		backgroundBmp = "field"
 	},
+	["jor_back5.rsw"] = {
+		displayName = "Fensalir",
+		notifyEnter = true, 
+		signName = {
+			mainTitle = "Fensalir",
+			subTitle = "Frigg's Reprieve"
+		},
+		backgroundBmp = "field"
+	},
 }
 main = function()
   for name,info in pairs(mapTbl) do
